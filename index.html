@@ -314,34 +314,19 @@
     .card[data-cat="learning"]:hover  { border-color: #f59e0b; }
     .card[data-cat="seasonal"]:hover  { border-color: #ef4444; }
 
-    /* Card cover (emoji banner) */
-    .card-cover {
-      height: 72px; display: flex; align-items: center; justify-content: center;
-      border-bottom: 1px solid var(--border); flex-shrink: 0;
-      position: relative; overflow: hidden;
-    }
-    .card-cover-emoji {
-      font-size: 2.2rem; line-height: 1; position: relative; z-index: 1;
-      transition: transform 0.2s;
-    }
-    .card:hover .card-cover-emoji { transform: scale(1.12); }
-
-    .card[data-cat="crafts"]   .card-cover { background: rgba(249,115,22,0.10); }
-    .card[data-cat="cooking"]  .card-cover { background: rgba(234,179,8,0.10); }
-    .card[data-cat="outdoor"]  .card-cover { background: rgba(34,197,94,0.10); }
-    .card[data-cat="science"]  .card-cover { background: rgba(56,189,248,0.10); }
-    .card[data-cat="games"]    .card-cover { background: rgba(139,92,246,0.10); }
-    .card[data-cat="art"]      .card-cover { background: rgba(236,72,153,0.10); }
-    .card[data-cat="sensory"]  .card-cover { background: rgba(20,184,166,0.10); }
-    .card[data-cat="learning"] .card-cover { background: rgba(245,158,11,0.10); }
-    .card[data-cat="seasonal"] .card-cover { background: rgba(239,68,68,0.10); }
+    /* Category left border - always visible */
+    .card[data-cat="crafts"]   { border-left: 3px solid #f97316; }
+    .card[data-cat="cooking"]  { border-left: 3px solid #eab308; }
+    .card[data-cat="outdoor"]  { border-left: 3px solid #22c55e; }
+    .card[data-cat="science"]  { border-left: 3px solid #38bdf8; }
+    .card[data-cat="games"]    { border-left: 3px solid #8b5cf6; }
+    .card[data-cat="art"]      { border-left: 3px solid #ec4899; }
+    .card[data-cat="sensory"]  { border-left: 3px solid #14b8a6; }
+    .card[data-cat="learning"] { border-left: 3px solid #f59e0b; }
+    .card[data-cat="seasonal"] { border-left: 3px solid #ef4444; }
 
     /* Featured card overrides */
     .card.featured { flex-direction: row; }
-    .card.featured .card-cover {
-      width: 180px; height: auto; flex-shrink: 0; border-bottom: none; border-right: 1px solid var(--border);
-    }
-    .card.featured .card-cover-emoji { font-size: 3rem; }
     .card.featured .card-body { flex: 1; }
 
     .card-body { padding: 1.1rem 1.25rem; display: flex; flex-direction: column; flex: 1; }
@@ -485,7 +470,6 @@
       #search { width: 100%; }
       .filter-row { flex-direction: column; align-items: flex-start; }
       .card.featured { flex-direction: column; }
-      .card.featured .card-cover { width: 100%; height: 80px; border-right: none; border-bottom: 1px solid var(--border); }
       .modal-overlay { padding: 0; align-items: flex-end; }
       .modal { border-radius: 8px 8px 0 0; max-width: 100%; }
       .header-inner { padding: 0 1rem; }
@@ -664,7 +648,6 @@
   function cardHTML(a, featured) {
     return `
       <div class="card${featured ? ' featured' : ''}" data-cat="${a.category}" data-id="${a.id}" tabindex="0" role="button" aria-label="${a.title}">
-        <div class="card-cover"><span class="card-cover-emoji">${a.emoji}</span></div>
         <div class="card-body">
           <div class="card-title">${a.title}</div>
           <div class="card-desc">${a.description}</div>

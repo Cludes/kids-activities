@@ -1918,8 +1918,759 @@ const ACTIVITIES = [
     ],
     tips: "Use bright colours for consonants and one colour for the ending to help kids visually separate the parts of the word."
   },
+  // ── SCIENCE (more) ──────────────────────────────────────────────────────
   {
-    id: 122, title: "Map of Our Home", category: "learning", emoji: "🗺️",
+    id: 123, title: "Dancing Raisins", category: "science", emoji: "🍇",
+    ages: "3-10", time: "15 min", difficulty: "easy",
+    supplies: ["A tall clear glass", "Carbonated water or lemonade", "A handful of raisins", "Optional: other small dense items to test"],
+    description: "Drop raisins into fizzy water and watch them rise and fall repeatedly as bubbles attach and release.",
+    steps: [
+      "Fill a tall clear glass almost full with fizzy water or lemonade.",
+      "Drop in 5-6 raisins and watch closely.",
+      "Bubbles from the carbonation attach to the rough surface of each raisin.",
+      "Once enough bubbles have attached, the raisin floats up to the surface.",
+      "At the surface, the bubbles pop and the raisin sinks again.",
+      "This cycle repeats for several minutes.",
+      "Try other objects: a small piece of pasta, a corn kernel, a dried cranberry.",
+      "Ask: why do smooth objects work less well than rough ones?"
+    ],
+    tips: "Freshly opened fizzy water works much better than flat. The raisins will keep dancing for 10-15 minutes before the fizz runs out."
+  },
+  {
+    id: 124, title: "DIY Lava Lamp", category: "science", emoji: "🫧",
+    ages: "5-12", time: "20 min", difficulty: "easy",
+    supplies: ["A tall clear bottle or glass", "Vegetable oil (fill 3/4 of the container)", "Water", "Food colouring", "Alka-Seltzer tablets or baking soda + citric acid"],
+    description: "Create a bubbling lava lamp using the science of oil and water density plus a fizzing reaction.",
+    steps: [
+      "Fill the bottle about three-quarters full with vegetable oil.",
+      "Add water until the bottle is almost full, leaving a small gap at the top.",
+      "Add 10-15 drops of food colouring - it will sink through the oil and mix with the water at the bottom.",
+      "Break an Alka-Seltzer tablet into 4 pieces.",
+      "Drop one piece into the bottle and watch what happens.",
+      "The tablet reacts with the water to produce carbon dioxide gas bubbles.",
+      "The bubbles carry coloured water up through the oil, then pop at the surface and the water sinks back down.",
+      "Keep adding pieces to keep the lamp going.",
+      "Discuss: why do oil and water stay separate? (They have different densities and oil is non-polar.)"
+    ],
+    tips: "For a glowing lava lamp, shine a torch up through the bottom of the bottle in a dark room."
+  },
+  {
+    id: 125, title: "Balloon Rocket", category: "science", emoji: "🚀",
+    ages: "4-10", time: "20 min", difficulty: "easy",
+    supplies: ["A long piece of string (at least 3 metres)", "A straw", "Balloons", "Tape", "Two anchor points (chairs, door handles, trees)"],
+    description: "Thread a straw onto a string stretched across a room and attach a blown-up balloon to launch a rocket.",
+    steps: [
+      "Thread the straw onto the string before tying the ends.",
+      "Tie the string tightly between two fixed points - chairs, door handles, or trees - as high and straight as possible.",
+      "Blow up a balloon but do not tie it - hold the end shut.",
+      "Tape the balloon to the straw with two strips of tape while keeping the end pinched closed.",
+      "Hold the balloon at one end of the string.",
+      "Let go.",
+      "The escaping air propels the straw along the string.",
+      "Measure how far it travels.",
+      "Test variables: bigger balloon, smaller balloon, angled string, heavier straw."
+    ],
+    tips: "A fishing line works better than regular string as it has less friction. Try racing two rockets on parallel strings."
+  },
+  {
+    id: 126, title: "Chromatography Art", category: "science", emoji: "🌈",
+    ages: "4-10", time: "20 min", difficulty: "easy",
+    supplies: ["White coffee filters or paper towels", "Washable markers (not permanent)", "A cup of water", "Pencil or straw to suspend the filter"],
+    description: "Draw on a coffee filter with markers, dip the bottom in water, and watch the colours separate into their hidden components.",
+    steps: [
+      "Draw thick dots or bands of colour near the bottom of a coffee filter.",
+      "Fold the filter in half and then in half again to make a cone shape.",
+      "Place the tip of the cone into a shallow cup with just a little water.",
+      "Watch the water travel up the filter by capillary action.",
+      "As it passes through the marker ink, it separates the dye molecules.",
+      "Black markers often reveal hidden blues, reds, and yellows.",
+      "Allow to dry flat and you have a piece of art.",
+      "Discuss: different dye molecules travel at different speeds, which is how chromatography separates mixtures."
+    ],
+    tips: "Use a black marker for the most dramatic results - it contains many colours. Brown and purple also separate beautifully."
+  },
+  {
+    id: 127, title: "Elephant Toothpaste", category: "science", emoji: "🐘",
+    ages: "6-12", time: "15 min", difficulty: "medium",
+    supplies: ["6% hydrogen peroxide (from a pharmacy)", "1 packet dry active yeast", "Warm water", "Washing-up liquid", "Food colouring", "A tall plastic bottle", "Tray to catch overflow"],
+    description: "Mix yeast and hydrogen peroxide to produce a dramatic eruption of foam that looks like giant toothpaste.",
+    steps: [
+      "Place the plastic bottle on a tray.",
+      "Pour 120ml of hydrogen peroxide into the bottle.",
+      "Add a big squirt of washing-up liquid and stir gently.",
+      "Add food colouring.",
+      "In a separate cup, mix the yeast packet with 4 tablespoons of warm water. Stir for 30 seconds until dissolved.",
+      "Pour the yeast mixture into the bottle quickly and step back.",
+      "A column of foam will shoot upward rapidly.",
+      "Touch the foam - it is warm because the reaction is exothermic.",
+      "Discuss: the yeast acts as a catalyst, rapidly breaking down hydrogen peroxide into water and oxygen gas. The soap traps the gas as foam."
+    ],
+    tips: "Higher concentration hydrogen peroxide (12-15%) produces a much larger reaction but is harder to find. The 6% version is safe and still impressive."
+  },
+  {
+    id: 128, title: "Magnetic Slime", category: "science", emoji: "🧲",
+    ages: "6-12", time: "30 min", difficulty: "medium",
+    supplies: ["Iron oxide powder (from a craft or science store)", "White school glue", "Contact lens solution", "Baking soda", "A strong neodymium magnet", "Gloves (iron oxide stains)"],
+    description: "Add iron oxide powder to slime to make it respond to a magnet - it creeps, stretches, and reaches for the magnet.",
+    steps: [
+      "Make base slime: mix 120ml white glue with a teaspoon of baking soda.",
+      "Stir in 2-3 tablespoons of iron oxide powder until fully combined. The slime will turn black.",
+      "Add contact lens solution one tablespoon at a time, mixing after each addition.",
+      "Knead until the slime pulls away from the bowl cleanly.",
+      "Hold a strong neodymium magnet close to the slime without touching it.",
+      "Watch the slime creep and reach toward the magnet.",
+      "Move the magnet to guide the slime across a surface.",
+      "Place the magnet underneath a tray and move the slime on top."
+    ],
+    tips: "Wear gloves - iron oxide stains everything permanently. A neodymium magnet (rare earth) is essential - regular fridge magnets are too weak."
+  },
+  {
+    id: 129, title: "Sound Vibrations with Salt", category: "science", emoji: "🔊",
+    ages: "5-12", time: "20 min", difficulty: "easy",
+    supplies: ["A large bowl or empty tin", "Cling film or a balloon stretched over the opening", "Salt or sugar", "A speaker or your voice", "A rubber band to secure"],
+    description: "Place salt on a stretched membrane and make it dance by exposing it to sound vibrations.",
+    steps: [
+      "Stretch cling film tightly over the opening of a large bowl or tin and secure with a rubber band.",
+      "Sprinkle a thin even layer of salt over the surface.",
+      "Bring a speaker playing bass-heavy music close to the surface but not touching.",
+      "Watch the salt jump and form patterns.",
+      "Try different frequencies - low bass vs high treble.",
+      "Try shouting at different pitches directly at the surface.",
+      "Try tapping the side of the bowl.",
+      "Discuss: sound is made of vibrations that travel through air and move objects in their path."
+    ],
+    tips: "This works even better with a subwoofer speaker. Try playing a single tone at different frequencies and watch the salt arrange into different geometric patterns."
+  },
+  {
+    id: 130, title: "Build a Sundial", category: "science", emoji: "🌞",
+    ages: "6-12", time: "45 min + sunny day", difficulty: "medium",
+    supplies: ["A flat piece of card or a paper plate", "A pencil or short straight stick", "Modelling clay to hold the stick upright", "Marker", "A compass or phone compass"],
+    description: "Build a working sundial and mark the hours over a day to track how the sun moves across the sky.",
+    steps: [
+      "Push a pencil vertically through the centre of a paper plate and secure with clay underneath.",
+      "Take it outside and use a compass to face the plate so north is marked on the edge.",
+      "At the start of each hour, mark where the shadow of the pencil falls and label it with the time.",
+      "Come back every hour through the day to mark the next shadow.",
+      "By the end of the day you will have a working sundial.",
+      "Test it the next sunny day - does the shadow match your markings?",
+      "Discuss: why does the shadow move? (Earth rotates, making the sun appear to move across the sky.)"
+    ],
+    tips: "This is a multi-hour activity done across a whole day. Start first thing in the morning for the most markings."
+  },
+  {
+    id: 131, title: "Water Xylophone", category: "science", emoji: "🎵",
+    ages: "3-10", time: "15 min", difficulty: "easy",
+    supplies: ["6-8 identical glasses or glass bottles", "Water", "Food colouring", "A metal spoon or chopstick to tap with"],
+    description: "Fill glasses with different amounts of water to create a musical instrument you can actually play.",
+    steps: [
+      "Line up the glasses in a row.",
+      "Fill the first glass almost full, and each subsequent glass with progressively less water.",
+      "Add a different colour of food colouring to each glass.",
+      "Tap the side of each glass gently with the spoon.",
+      "Notice how the pitch changes with the water level.",
+      "More water = lower pitch. Less water = higher pitch.",
+      "Try to find glasses that match musical notes and play a simple tune.",
+      "Discuss: the water slows down the vibration of the glass, which lowers the frequency (pitch)."
+    ],
+    tips: "Use identical glasses for the best musical results - different shaped glasses produce inconsistent pitches."
+  },
+  {
+    id: 132, title: "Tornado in a Bottle", category: "science", emoji: "🌪️",
+    ages: "4-10", time: "15 min", difficulty: "easy",
+    supplies: ["Two large plastic bottles with lids", "Water", "A tornado tube connector (cheap from science stores) or waterproof tape", "Optional: glitter or small pieces of paper"],
+    description: "Connect two bottles and swirl them to create a miniature water tornado you can hold in your hands.",
+    steps: [
+      "Fill one bottle two-thirds full with water.",
+      "Add a pinch of glitter or tiny pieces of paper for visibility.",
+      "Connect the two bottles mouth-to-mouth with the tornado tube, or tape them together tightly.",
+      "Flip the filled bottle to the top.",
+      "Swirl the top bottle in a circular motion for 3-4 seconds.",
+      "Hold still and watch the water form a funnel vortex as it drains into the bottom bottle.",
+      "The vortex allows air to pass up while water spirals down.",
+      "Flip and repeat.",
+      "Discuss: the spinning motion creates centrifugal force, pushing water to the sides and leaving a air column in the centre."
+    ],
+    tips: "The circular swirl is key - a simple up-and-down flip does not create the vortex. Practice the wrist motion a few times."
+  },
+
+  // ── ART - DRAWING (more) ─────────────────────────────────────────────────
+  {
+    id: 133, title: "One-Line Drawing Challenge", category: "art", emoji: "✏️",
+    ages: "5-12", time: "20 min", difficulty: "medium",
+    supplies: ["Paper", "Pen or fine-tip marker"],
+    description: "Draw an animal or object without lifting your pen from the paper - one continuous flowing line.",
+    steps: [
+      "Choose a simple subject: a cat, a fish, a house, a face.",
+      "Put your pen down and do not lift it until the drawing is finished.",
+      "Move slowly and think ahead - you cannot go back.",
+      "Lines can cross over each other.",
+      "Try the same subject 5 times in a row and see how it improves.",
+      "Compare everyone's versions of the same subject.",
+      "Try a more complex subject: a dog, a person riding a bike, a tree with fruit."
+    ],
+    tips: "This is harder than it sounds and produces unexpectedly beautiful results. The imperfections are part of the charm. Try it with eyes closed for a bonus challenge."
+  },
+  {
+    id: 134, title: "Grid Drawing", category: "art", emoji: "🖼️",
+    ages: "7-12", time: "45 min", difficulty: "medium",
+    supplies: ["A printed or simple reference image", "Pencil", "Ruler", "Eraser", "Drawing paper"],
+    description: "Use a grid to break a picture into small squares and copy each section - a technique professional artists use to scale up images.",
+    steps: [
+      "Draw a light grid of equal squares over your reference image.",
+      "Draw the same number of squares (but larger) on your drawing paper.",
+      "Label the rows and columns on both grids so you know which square is which.",
+      "Look at just one small square at a time and copy only what is inside that square.",
+      "Do not look at the whole picture - focus on lines and shapes within each square.",
+      "Once all squares are done, erase the grid lines.",
+      "Add shading and detail.",
+      "Discuss: this technique is called the grid method and has been used by artists for centuries."
+    ],
+    tips: "Start with a simple image with clear outlines. Photographs of animals or portraits work very well."
+  },
+  {
+    id: 135, title: "Blind Contour Drawing", category: "art", emoji: "👁️",
+    ages: "6-12", time: "15 min", difficulty: "medium",
+    supplies: ["Paper", "Pen or pencil", "A subject to draw (hand, fruit, a toy)"],
+    description: "Draw an object while looking only at the object, not your paper - the results are always funny and often beautiful.",
+    steps: [
+      "Set up your subject where you can see it clearly.",
+      "Put your pen on the paper and look at the subject.",
+      "Slowly move your pen as your eyes trace the edges and details of the subject.",
+      "Do not look at the paper at all - not even a glance.",
+      "Move your pen at the same speed your eye moves.",
+      "When finished, look at the result.",
+      "It will be distorted but will have an unusual energy and detail.",
+      "Try the same subject 3 times and compare them."
+    ],
+    tips: "Your own hand is the perfect first subject - it is always available and stays still. This exercise improves observation skills dramatically."
+  },
+  {
+    id: 136, title: "Perspective Drawing: Roads and Rooms", category: "art", emoji: "🛣️",
+    ages: "7-12", time: "40 min", difficulty: "medium",
+    supplies: ["Paper", "Pencil", "Ruler", "Coloured pencils"],
+    description: "Learn one-point perspective by drawing a road vanishing into the horizon or a room viewed from one corner.",
+    steps: [
+      "Draw a horizontal line across the middle of your paper - this is the horizon line.",
+      "Mark a dot in the middle of the horizon line - this is the vanishing point.",
+      "For a road: draw two lines from the vanishing point down to the bottom corners of the paper.",
+      "Add fence posts, trees, and road markings that all angle toward the vanishing point.",
+      "For a room: draw a square in the centre, then connect all four corners to the vanishing point.",
+      "Add doors, windows, and floor tiles along the perspective lines.",
+      "Colour in your scene.",
+      "Discuss: objects appear smaller the further away they are - the vanishing point represents infinite distance."
+    ],
+    tips: "Use a ruler for all perspective lines to keep them accurate. Once they understand one-point perspective, look up two-point perspective as the next challenge."
+  },
+  {
+    id: 137, title: "Draw from Imagination: Story Scene", category: "art", emoji: "🌄",
+    ages: "4-12", time: "30-45 min", difficulty: "easy",
+    supplies: ["Large paper", "Pencil for sketching", "Coloured pencils, markers, or paint to finish"],
+    description: "Pick a scene from a favourite story or invent a new world and draw everything you imagine is in it.",
+    steps: [
+      "Choose a setting: a dragon's cave, an underwater city, a forest at night, a planet with two moons.",
+      "Start with the background - fill the whole paper first.",
+      "Add the middle ground: trees, buildings, mountains, water.",
+      "Add the foreground details closest to you: characters, objects, plants.",
+      "Think about light - where is the sun or the light source? Add shadows on the opposite side.",
+      "Add small details that tell a story: a footprint, smoke from a chimney, a door left open.",
+      "Give the scene a title and write it at the bottom."
+    ],
+    tips: "Ask 'what would you see if you were standing there?' to help kids think about foreground, middle ground, and background naturally."
+  },
+  {
+    id: 138, title: "Fingerprint Art Characters", category: "art", emoji: "👆",
+    ages: "3-8", time: "20 min", difficulty: "easy",
+    supplies: ["Washable ink pad or thick paint on a folded paper towel", "White paper", "Fine-tip black marker for details"],
+    description: "Press fingerprints and thumb prints onto paper then turn each blob into a character with a few pen strokes.",
+    steps: [
+      "Press a finger into the ink pad and make a print on the paper.",
+      "Make prints of different sizes using different fingers and thumbs.",
+      "Once dry, add tiny details with a fine marker: eyes, legs, arms, ears, tails.",
+      "A thumbprint with two dots becomes a bee. Four prints in a row become a caterpillar.",
+      "Combine prints: one large thumb for a body, smaller fingerprints for the head and limbs.",
+      "Fill the whole page with a scene of fingerprint characters.",
+      "Sign it at the bottom with your actual fingerprint."
+    ],
+    tips: "The marker detail step is where the magic happens. Leave space around each print so kids can think about what to add."
+  },
+  {
+    id: 139, title: "Blow Painting", category: "art", emoji: "💨",
+    ages: "3-10", time: "20 min", difficulty: "easy",
+    supplies: ["Watery paint (thin it down more than usual)", "Paper", "A straw", "Dropper or spoon to apply paint drops"],
+    description: "Drop watery paint onto paper and blow through a straw to send it racing across in wild unpredictable directions.",
+    steps: [
+      "Thin the paint with water until it is very runny.",
+      "Drop a large blob of paint near the bottom of the paper.",
+      "Hold a straw close to the blob (but not touching) and blow hard.",
+      "The paint shoots outward in the direction you blow.",
+      "Add more colours and blow them into each other.",
+      "Tilt the paper to let colours run and merge.",
+      "Add a second layer once dry.",
+      "Turn the finished piece and find shapes in it - trees, monsters, fireworks."
+    ],
+    tips: "Very thin paint works much better than thick paint. This is great for making abstract tree shapes - blow upward from a blob at the bottom."
+  },
+  {
+    id: 140, title: "Oil Pastel and Black Paint Resist", category: "art", emoji: "🌙",
+    ages: "5-12", time: "40 min", difficulty: "medium",
+    supplies: ["Oil pastels", "Black paint (acrylic or tempera)", "Thick paper or card", "Brush"],
+    description: "Draw a colourful scene with oil pastels then paint over the whole page with black - the pastel shows through like stained glass.",
+    steps: [
+      "Draw your scene with oil pastels, pressing down firmly and filling every area with colour.",
+      "Use bright, vivid colours - yellow, orange, red, bright blue.",
+      "Do not leave any white space in the design area.",
+      "Mix black paint with a small amount of washing-up liquid (this helps it stick to the oily pastel).",
+      "Paint over the entire page with black.",
+      "Work quickly and do not over-brush the same spot.",
+      "Allow to dry completely.",
+      "The coloured oil pastel will show through the black paint as bright windows of colour."
+    ],
+    tips: "Press very hard with the oil pastels for the best resist effect. Thin, light strokes will disappear under the paint."
+  },
+  {
+    id: 141, title: "Zentangle Patterns", category: "art", emoji: "🔵",
+    ages: "7-12", time: "30-45 min", difficulty: "medium",
+    supplies: ["Small squares of white card (9cm x 9cm works well)", "Fine-tip black pen (not pencil)"],
+    description: "Fill small squares with repeating patterns and textures to create meditative, intricate tile artwork.",
+    steps: [
+      "Hold your card in one hand and pen in the other.",
+      "Draw a light pencil border around the edge.",
+      "Inside the border, draw a curvy or straight dividing line to create 2-3 sections.",
+      "Fill each section with a completely different repeating pattern.",
+      "Pattern ideas: overlapping scales, concentric curves, dots in rows, parallel wavy lines, spirals, cross-hatching.",
+      "Fill every bit of white space within each section.",
+      "Do not plan ahead - just start a pattern and repeat it until the section is full.",
+      "Make 4-6 tiles and arrange them into a larger design."
+    ],
+    tips: "Pen only - no pencil. Mistakes become part of the pattern. This activity is genuinely calming and kids often want to do it for a long time."
+  },
+  {
+    id: 142, title: "Newspaper Portrait", category: "art", emoji: "📰",
+    ages: "6-12", time: "45 min", difficulty: "medium",
+    supplies: ["Old newspapers or magazines", "Scissors", "Glue stick", "Card or thick paper for base", "Optional: paint or marker for details"],
+    description: "Tear and cut newspaper into shapes to build a portrait or figure - no drawing needed.",
+    steps: [
+      "Decide on your subject: a face, a full body, an animal.",
+      "Tear newspaper into rough shapes for the large areas first: face, hair, clothing.",
+      "Tear smaller strips for details: eyebrows, lips, nose shadow.",
+      "Arrange everything on the card before gluing to get the composition right.",
+      "Glue down the large pieces first, then layer smaller pieces on top.",
+      "Use magazine pages with colour for specific tones - skin tones, bright clothing.",
+      "Add minimal details with a marker if needed.",
+      "Frame it."
+    ],
+    tips: "The texture of torn newspaper edges gives portraits an interesting, painterly quality. Avoid cutting - torn edges look far more natural."
+  },
+
+  // ── SENSORY PLAY (more) ──────────────────────────────────────────────────
+  {
+    id: 143, title: "Calm-Down Sensory Bottle", category: "sensory", emoji: "🫙",
+    ages: "2-8", time: "15 min to make", difficulty: "easy",
+    supplies: ["A clear plastic bottle with a tight-sealing lid", "Warm water", "Clear glue or glycerine (slows the glitter down)", "Fine glitter in several colours", "Small plastic gems or sequins", "Strong waterproof glue for the lid"],
+    description: "Fill a sealed bottle with slow-swirling glitter and objects - shaking and watching it settle is calming for anxious or overwhelmed children.",
+    steps: [
+      "Fill the bottle about 2/3 full with warm water.",
+      "Add 2-3 big squeezes of clear glue or a few tablespoons of glycerine.",
+      "Add fine glitter generously - at least 3 tablespoons.",
+      "Add small gems, sequins, or glitter foam shapes.",
+      "Fill to the top with water, leaving minimal air.",
+      "Seal the lid with strong waterproof glue and let cure completely.",
+      "Shake and watch.",
+      "The glitter should take 2-3 minutes to fully settle - adjust with more glycerine for slower settling."
+    ],
+    tips: "This is especially powerful for children who struggle with big emotions. Keep one in the car. The child shakes it when upset and has to breathe and wait for it to settle before they can speak about the problem."
+  },
+  {
+    id: 144, title: "Sensory Noodle Bin", category: "sensory", emoji: "🍝",
+    ages: "1-6", time: "15 min to make", difficulty: "easy",
+    supplies: ["Cooked spaghetti or other pasta (cooled and drained)", "A little olive oil to stop sticking", "Optional food colouring", "Large tray or bin", "Cups, forks, tongs"],
+    description: "Cooked cooled spaghetti is one of the most tactile and engaging sensory materials for young children - slippery, stretchy, and endlessly fascinating.",
+    steps: [
+      "Cook spaghetti until well done (softer than usual for best texture).",
+      "Drain and rinse with cold water.",
+      "Toss with a small amount of olive oil to prevent sticking.",
+      "To colour: divide into portions and toss each with a few drops of food colouring.",
+      "Spread in a large tray.",
+      "Add cups, forks, tongs, and small containers.",
+      "Let children explore freely: squeeze, stretch, fill containers, pretend to cook.",
+      "Best done outside or on an easy-clean surface."
+    ],
+    tips: "Expect this to go everywhere. A cheap shower curtain under the tray makes cleanup easy. The texture is initially off-putting for some children - let them dip just one finger to start."
+  },
+  {
+    id: 145, title: "Texture Board Book", category: "sensory", emoji: "📚",
+    ages: "0-4", time: "30 min", difficulty: "easy",
+    supplies: ["Thick card or cardboard squares (A5 size)", "Hole punch and binder rings to bind", "A collection of texture materials: sandpaper, velvet, bubble wrap, foil, fake fur, rough hessian, smooth plastic, soft cotton"],
+    description: "Make a homemade touch-and-feel book with a different texture on every page.",
+    steps: [
+      "Cut each texture material into a piece that fits on a card square.",
+      "Glue each texture firmly to its own card.",
+      "Write a describing word on the back: rough, smooth, bumpy, soft, crinkly, fluffy.",
+      "Decorate the front cover on a blank card.",
+      "Punch two holes along one side of all cards.",
+      "Thread binder rings through to bind the book.",
+      "Read together, letting baby or toddler touch each page.",
+      "Name the texture and guide their hand across it."
+    ],
+    tips: "Make a second copy for grandparents as a gift. This is genuinely useful for babies from 3 months old."
+  },
+  {
+    id: 146, title: "Shaving Foam and Paint Marbling", category: "sensory", emoji: "🎨",
+    ages: "4-10", time: "25 min", difficulty: "easy",
+    supplies: ["Shaving foam (the cheap kind)", "Acrylic or liquid paint in 3-4 colours", "A tray", "A skewer or toothpick", "White paper", "A ruler or card to scrape"],
+    description: "Swirl paint through shaving foam, press paper on top, and pull off a unique marbled print.",
+    steps: [
+      "Squirt a layer of shaving foam into the tray about 1cm deep.",
+      "Smooth it flat with a ruler.",
+      "Drop blobs of paint in different colours across the foam.",
+      "Drag a skewer through the paint in long swirling strokes to create a marble pattern.",
+      "Do not over-swirl or the colours will muddy.",
+      "Lay a sheet of paper flat on top and press gently all over.",
+      "Lift the paper straight up.",
+      "Use the ruler to scrape the foam off the paper in one smooth stroke.",
+      "Reveal the marble pattern underneath and let dry."
+    ],
+    tips: "Each print is completely unique. Flip the scraper and use the clean edge to avoid mixing scraped foam back in. This also makes beautiful gift wrap."
+  },
+  {
+    id: 147, title: "Sand Tray Writing", category: "sensory", emoji: "🏜️",
+    ages: "2-7", time: "Open-ended", difficulty: "easy",
+    supplies: ["A shallow tray or baking dish", "Fine sand, salt, or cornmeal", "Optional: a finger, stick, or stylus for writing"],
+    description: "Write letters, numbers, and drawings in a sand tray - shake to erase and start again. Great for early writing practice.",
+    steps: [
+      "Fill the tray with enough sand or salt to cover the bottom in a thin even layer.",
+      "Tilt and shake to make the surface completely flat.",
+      "Use a finger or stick to write a letter.",
+      "Say the letter sound aloud while writing it.",
+      "Shake the tray to erase and repeat.",
+      "Draw pictures, practise numbers, copy words from a book.",
+      "Let children write freely without correction - it is the movement that matters."
+    ],
+    tips: "The resistance of the sand provides important sensory feedback that helps children remember letter shapes. Salt is finer and works better for small details."
+  },
+
+  // ── GAMES (more) ─────────────────────────────────────────────────────────
+  {
+    id: 148, title: "Mystery Feel Bag", category: "games", emoji: "🛍️",
+    ages: "3-8", time: "20 min", difficulty: "easy",
+    supplies: ["A pillowcase or cloth bag you cannot see through", "10-15 household objects of interesting shapes and textures"],
+    description: "Put your hand in the bag and guess what you are holding using only your sense of touch.",
+    steps: [
+      "While a child is not watching, fill the bag with household objects.",
+      "Good items: a fork, a rubber duck, a pine cone, a small ball, a wooden block, a glove, a key.",
+      "The child puts one hand inside without looking.",
+      "They feel around and describe what they are touching: shape, texture, weight, size.",
+      "They try to guess the object.",
+      "Pull it out to check.",
+      "Switch roles - the child fills the bag and the adult guesses.",
+      "Add a timer for extra challenge."
+    ],
+    tips: "Choose objects that feel very different from each other for younger children. Older children enjoy objects that are similar in shape (different sized balls, different utensils)."
+  },
+  {
+    id: 149, title: "20 Questions", category: "games", emoji: "❓",
+    ages: "5-12", time: "20-30 min", difficulty: "easy",
+    supplies: ["Nothing - just your mind"],
+    description: "One player thinks of something and the others ask yes/no questions to figure it out in 20 questions or fewer.",
+    steps: [
+      "One player thinks of any person, place, or thing.",
+      "They announce whether it is an animal, vegetable (plant/food), or mineral (object/place/person).",
+      "Everyone else takes turns asking yes/no questions.",
+      "The thinker can only answer yes, no, or sometimes.",
+      "Questions must be yes/no: 'Is it alive? Is it bigger than a car? Can you eat it?'",
+      "Keep count of how many questions have been asked.",
+      "If someone guesses correctly within 20 questions they win.",
+      "If 20 questions pass without a correct guess, the thinker wins."
+    ],
+    tips: "Teach children to start broad and narrow down: Is it alive? Is it an animal? Is it a pet? Can it fly? This is also a great critical thinking exercise."
+  },
+  {
+    id: 150, title: "Red Light Green Light", category: "games", emoji: "🚦",
+    ages: "2-8", time: "20 min", difficulty: "easy",
+    supplies: ["An open space, indoors or outdoors"],
+    description: "One caller controls the movement of all players using traffic light commands - the first to reach the caller wins.",
+    steps: [
+      "One player stands at one end and is the traffic light.",
+      "All other players stand at the other end.",
+      "The caller faces away and shouts 'Green light!' - everyone runs forward.",
+      "The caller spins around and shouts 'Red light!' - everyone must freeze immediately.",
+      "Anyone still moving when the caller turns goes back to the start.",
+      "The caller faces away again for the next green light.",
+      "The first player to touch the caller wins and becomes the next traffic light.",
+      "Add 'Yellow light!' for slow walking."
+    ],
+    tips: "Spin fast and unpredictably to catch more players moving. For very young children, skip the elimination rule and just play for fun."
+  },
+  {
+    id: 151, title: "Simon Says", category: "games", emoji: "👑",
+    ages: "3-8", time: "15 min", difficulty: "easy",
+    supplies: ["Nothing"],
+    description: "Follow instructions only when they begin with 'Simon says' - do the action without that phrase and you are out.",
+    steps: [
+      "One player is Simon.",
+      "Simon gives instructions: 'Simon says touch your nose.'",
+      "Everyone must do the action.",
+      "If Simon gives an instruction without saying 'Simon says', anyone who does the action is out.",
+      "Simon should give instructions in quick succession to catch players off guard.",
+      "Last person still in wins.",
+      "Rotate who plays Simon so everyone gets a turn.",
+      "Add themed rounds: animal moves only, yoga poses, sport actions."
+    ],
+    tips: "The best Simon moves fast and mixes in false instructions immediately after real ones. Use funny actions to keep energy high."
+  },
+  {
+    id: 152, title: "Drawing Relay", category: "games", emoji: "🖊️",
+    ages: "4-12", time: "25 min", difficulty: "easy",
+    supplies: ["Large paper (flip chart or taped-together A4 sheets)", "Markers", "Timer"],
+    description: "Take turns adding to a drawing one at a time - the evolving result is always unexpected and hilarious.",
+    steps: [
+      "Agree on a subject: a house, a monster, an alien planet, a zoo.",
+      "The first player draws for 30 seconds.",
+      "When time is up they must stop mid-line if necessary and hand the marker to the next player.",
+      "The next player continues or adds something new.",
+      "Keep going until the paper is full.",
+      "Stand back and look at the whole thing.",
+      "Give the finished artwork a dramatic title."
+    ],
+    tips: "The rule that you must stop when the timer goes - even in the middle of a line - is what creates the chaos and humour."
+  },
+
+  // ── LEARNING (more) ──────────────────────────────────────────────────────
+  {
+    id: 153, title: "Addition with Snacks", category: "learning", emoji: "🍬",
+    ages: "4-7", time: "15 min", difficulty: "easy",
+    supplies: ["Small countable snacks: raisins, cereal, crackers, small sweets", "Two small bowls or cups"],
+    description: "Use snacks as counters to make addition visual and edible.",
+    steps: [
+      "Put 3 raisins in one bowl and 2 raisins in another.",
+      "Ask: how many raisins altogether?",
+      "Push both bowls together and count.",
+      "That is 3 plus 2 equals 5.",
+      "Eat the answer.",
+      "Repeat with different numbers.",
+      "Introduce the plus and equals signs on paper alongside the physical snacks.",
+      "Work up to 10 total items as they get confident."
+    ],
+    tips: "The fact that they eat the answer after each problem is enormously motivating. Do not tell them this is maths - just play the snack game."
+  },
+  {
+    id: 154, title: "Rhyme Time Hunt", category: "learning", emoji: "🎤",
+    ages: "3-6", time: "20 min", difficulty: "easy",
+    supplies: ["No materials needed - can be enhanced with picture cards or objects"],
+    description: "Find rhyming pairs, invent rhyming words, and play with the sounds of language.",
+    steps: [
+      "Say a word and ask for a word that rhymes: cat - hat - bat - mat - sat.",
+      "Walk around the house and pick up objects, saying their name and trying to find a rhyme.",
+      "If an object has no real rhyming word, make one up: 'shelf - welf!'",
+      "Play rhyme or not-rhyme: say two words and they decide if they rhyme.",
+      "Sing nursery rhymes and pause before the rhyming word for them to fill in.",
+      "Make up a silly two-line rhyme together: 'I sat on a cat. The cat wore a hat.'",
+      "Write the rhymes down and illustrate them."
+    ],
+    tips: "Rhyme awareness is one of the strongest predictors of reading success. This is genuinely valuable phonics play, even when it seems silly."
+  },
+  {
+    id: 155, title: "Pattern Making Station", category: "learning", emoji: "🔷",
+    ages: "3-6", time: "20 min", difficulty: "easy",
+    supplies: ["Any objects that come in different colours or types: blocks, buttons, cereal, stickers, coloured tiles"],
+    description: "Create and extend repeating patterns using objects - from simple AB patterns to complex sequences.",
+    steps: [
+      "Start with a simple AB pattern: red block, blue block, red block, blue block.",
+      "Ask them to continue the pattern.",
+      "Introduce AAB: red, red, blue, red, red, blue.",
+      "Try ABC: red, blue, yellow, red, blue, yellow.",
+      "Use shapes instead of just colours: circle, circle, square, circle, circle, square.",
+      "Make a pattern and ask them to identify the rule.",
+      "Let them create a pattern for you to continue.",
+      "Try body patterns: clap, stomp, clap, stomp."
+    ],
+    tips: "Saying the pattern aloud as you make it (red, blue, red, blue) helps children hear the repetition as well as see it."
+  },
+  {
+    id: 156, title: "Size Sorting and Ordering", category: "learning", emoji: "📏",
+    ages: "2-6", time: "15 min", difficulty: "easy",
+    supplies: ["Objects of different sizes: toy cars, blocks, shoes, rocks, sticks, containers"],
+    description: "Sort and order objects from smallest to largest - and introduce the vocabulary of size comparison.",
+    steps: [
+      "Gather 5 objects that come in clearly different sizes (or use building blocks).",
+      "Ask: which one is the biggest? Can you find the smallest?",
+      "Arrange them in order from smallest to largest.",
+      "Introduce vocabulary: small, medium, large, smaller, larger, smallest, largest.",
+      "Compare two at a time: 'Is this block bigger or smaller than this one?'",
+      "Sort into two groups: big things and small things.",
+      "Find things in the house that are bigger than a book and smaller than a book."
+    ],
+    tips: "Use objects from the real environment - shoes, cups, containers - to make the concept feel relevant rather than abstract."
+  },
+  {
+    id: 157, title: "Playdough Letters and Numbers", category: "learning", emoji: "🔤",
+    ages: "3-6", time: "20 min", difficulty: "easy",
+    supplies: ["Playdough (homemade or store-bought)", "Letter or number flashcards (optional - or just call them out)"],
+    description: "Roll playdough into snakes and form letters and numbers - muscle memory from shaping aids retention.",
+    steps: [
+      "Roll a piece of playdough into a long sausage.",
+      "Curve and bend it to form the letter A.",
+      "Say the letter name and its sound.",
+      "Make the same letter a few more times.",
+      "Try their name: each letter built one by one.",
+      "For numbers: build each digit and count out that many small playdough balls alongside it.",
+      "Challenge: can they guess a letter you make with their eyes closed, just by feeling it?"
+    ],
+    tips: "The physical act of forming the letter reinforces memory far better than tracing. Let them be imperfect - a wonky B is a great B."
+  },
+
+  // ── CRAFTS (more) ────────────────────────────────────────────────────────
+  {
+    id: 158, title: "Egg Carton Caterpillar", category: "crafts", emoji: "🐛",
+    ages: "3-7", time: "20 min", difficulty: "easy",
+    supplies: ["An egg carton (one row of 6 cups)", "Paint", "Googly eyes", "Pipe cleaners for antennae", "Glue"],
+    description: "Cut an egg carton into a strip and paint it to make a wiggly caterpillar.",
+    steps: [
+      "Cut a strip of 6 egg cups from the carton.",
+      "Paint each cup a different colour or make a pattern.",
+      "Let dry completely.",
+      "Glue googly eyes onto the first cup (the head).",
+      "Poke two small holes in the top of the head and thread pipe cleaners through for antennae.",
+      "Curl the tips of the antennae around a pencil.",
+      "Add legs by poking short pipe cleaner pieces through the sides of each cup.",
+      "Draw or paint a smile."
+    ],
+    tips: "Make a whole family of caterpillars in different lengths. They also make great finger puppets if you cut out the bottoms of the cups."
+  },
+  {
+    id: 159, title: "Paper Bag Kite", category: "crafts", emoji: "🪁",
+    ages: "4-10", time: "25 min", difficulty: "easy",
+    supplies: ["A large paper bag", "Colourful streamers or strips of tissue paper", "Hole punch", "String (at least 2 metres)", "Markers and stickers to decorate"],
+    description: "Decorate a paper bag and attach streamers and a string - run and watch it fill with air behind you.",
+    steps: [
+      "Open the paper bag fully.",
+      "Decorate the outside with markers and stickers.",
+      "Tape or glue long streamers to the open end of the bag.",
+      "Reinforce the top corners of the bag with extra tape.",
+      "Punch a hole in each of the two top corners.",
+      "Cut a length of string and tie each end through one of the holes.",
+      "Tie the flying string to the middle of this bridge string.",
+      "Hold the string and run - the bag fills with air and flies behind you."
+    ],
+    tips: "This works best with a light breeze. The bag needs to have its opening facing backward (toward you) to catch air."
+  },
+  {
+    id: 160, title: "Cardboard Tube Creatures", category: "crafts", emoji: "🦄",
+    ages: "3-8", time: "25 min", difficulty: "easy",
+    supplies: ["Toilet paper or kitchen roll tubes", "Paint", "Construction paper", "Scissors", "Glue", "Googly eyes", "Pipe cleaners"],
+    description: "Transform cardboard tubes into animals, monsters, robots, and characters.",
+    steps: [
+      "Paint the tube a base colour and let dry.",
+      "Cut construction paper into ears, wings, horns, tails, or other features.",
+      "Glue features onto the tube.",
+      "Add googly eyes.",
+      "For legs: fold a strip of paper accordion-style and attach to the bottom.",
+      "For a caterpillar: make 4-5 tubes, paint them different colours, and connect with pipe cleaners.",
+      "For a rocket: add a pointed paper cone on top and flame strips at the bottom."
+    ],
+    tips: "Save rolls for weeks in advance - have a big collection before sitting down to make a whole zoo."
+  },
+  {
+    id: 161, title: "Puffy Paint Creations", category: "crafts", emoji: "☁️",
+    ages: "3-8", time: "20 min", difficulty: "easy",
+    supplies: ["Equal parts: white glue, shaving foam, and salt", "Food colouring", "Card or thick paper", "Small bowls for mixing"],
+    description: "Mix glue, foam, and salt into a paint that dries puffy and 3D.",
+    steps: [
+      "Mix 2 tablespoons each of white glue, shaving foam, and salt in a bowl.",
+      "Stir until combined.",
+      "Divide into smaller bowls and add food colouring to each.",
+      "Apply to card by spreading, piping from a zip-lock bag, or spooning.",
+      "Build up thick areas for maximum puffiness.",
+      "Leave undisturbed to dry completely - at least 24 hours.",
+      "As it dries it puffs up and becomes a raised 3D surface."
+    ],
+    tips: "The more thickly applied, the more it puffs. Thin layers barely raise. This is excellent for tactile drawings and sensory art."
+  },
+  {
+    id: 162, title: "Twig Photo Frame", category: "crafts", emoji: "🌿",
+    ages: "5-10", time: "40 min", difficulty: "medium",
+    supplies: ["4 straight twigs of similar thickness", "Twine or thin yarn", "Glue gun (adult)", "A printed photo", "Small natural decorations: dried flowers, berries, leaves"],
+    description: "Lash four twigs into a frame with twine and decorate with natural materials.",
+    steps: [
+      "Find 4 twigs roughly the same diameter and cut two to the same length and two slightly longer.",
+      "Lay them out in a rectangle.",
+      "At each corner, wrap twine tightly in an X pattern 6-8 times, then wrap between the twigs 2-3 times and tie off.",
+      "An adult can add a dot of hot glue to each wrapped corner to secure.",
+      "Glue dried flowers, seed heads, or leaves along the frame.",
+      "Attach the photo to the back with glue or tape.",
+      "Tie a hanging loop of twine to the top."
+    ],
+    tips: "Collect twigs after rain when they are slightly flexible. Let the frame dry fully before adding the photo or it may warp."
+  },
+
+  // ── SEASONAL (more) ──────────────────────────────────────────────────────
+  {
+    id: 163, title: "New Year Countdown Jar", category: "seasonal", emoji: "🎆",
+    ages: "4-10", time: "30 min", difficulty: "easy",
+    supplies: ["A large glass jar", "Strips of paper", "Pens", "Optional: glitter, ribbon to decorate the jar"],
+    description: "Fill a jar with memories from the year, then read them aloud on New Year's Eve.",
+    steps: [
+      "In January, decorate a large jar with glitter, ribbon, and a label: 'Good Things This Year'.",
+      "Throughout the year, whenever something good happens, write it on a strip of paper and add it to the jar.",
+      "Ideas: a funny thing someone said, a day that was really fun, something you learned, something you are proud of.",
+      "On New Year's Eve, gather together and take turns pulling slips out of the jar.",
+      "Read each one and remember.",
+      "Talk about which memory was the best.",
+      "Start a new jar for the coming year."
+    ],
+    tips: "Keep the jar somewhere visible so you remember to add to it. Even one strip a week gives you 52 memories by December."
+  },
+  {
+    id: 164, title: "Mother's Day Coupon Book", category: "seasonal", emoji: "💝",
+    ages: "4-10", time: "30 min", difficulty: "easy",
+    supplies: ["Small pieces of card (business card size)", "Markers", "Stapler or hole punch and ribbon to bind"],
+    description: "Make a personalised coupon book of acts of service and kind gestures for Mum.",
+    steps: [
+      "Cut card into small coupons.",
+      "On each one, write or draw a different gift of time or effort.",
+      "Ideas: one free breakfast in bed, one big hug, one tidy bedroom, one back massage, one day without arguing, one written letter.",
+      "Make a cover card: 'Coupons for Mum, with love from [name].'",
+      "Decorate with drawings, hearts, and colour.",
+      "Staple or bind together.",
+      "Present on Mother's Day."
+    ],
+    tips: "These are often treasured for years. Make sure the coupons are things the child can realistically deliver - nothing too vague."
+  },
+  {
+    id: 165, title: "Father's Day Portrait", category: "seasonal", emoji: "👨",
+    ages: "3-10", time: "30 min", difficulty: "easy",
+    supplies: ["Paper", "Pencils, crayons or paint", "Optional: a photo of dad for reference"],
+    description: "Draw, paint, or collage a portrait of Dad with as much detail and love as possible.",
+    steps: [
+      "Sit with a photo of Dad or draw from memory.",
+      "Start with the head shape.",
+      "Add hair, eyes, nose, mouth, and ears.",
+      "Think about what he usually wears and add his favourite outfit.",
+      "Add a background that shows something he loves: a fishing lake, a football pitch, the garden.",
+      "Write a caption at the bottom: 'My Dad' and their age.",
+      "Frame it or put it in an envelope with a handwritten card.",
+      "Date the back."
+    ],
+    tips: "Keep these every year. A collection of Father's Day portraits from age 3 to 10 is one of the most moving gifts imaginable."
+  },
+  {
+    id: 166, title: "DIY Advent Calendar", category: "seasonal", emoji: "📅",
+    ages: "4-10", time: "1-2 hrs to make", difficulty: "medium",
+    supplies: ["24 small envelopes or paper bags", "String and pegs or a paper chain for hanging", "Numbered stickers or markers (1-24)", "Strips of paper for activities inside", "Small treats or trinkets (optional)"],
+    description: "Make a reusable Advent calendar and fill each pocket with a small activity, note, or treat for December.",
+    steps: [
+      "Number 24 envelopes or bags 1 through 24.",
+      "Decorate each one with drawings, stickers, or washi tape.",
+      "Attach to a string with pegs or tape to a wall in a grid.",
+      "For the insides: write one small activity per slip (hot chocolate night, Christmas film, make gingerbread, donate a toy).",
+      "Mix in small treats or tokens for special days.",
+      "Open one each morning from December 1st.",
+      "Store the empty envelopes after Christmas to reuse next year."
+    ],
+    tips: "Activity-based advent calendars are often more anticipated than treat-based ones. Kids love having something to look forward to doing together."
+  }
+
+];
     ages: "5–10", time: "30 min", difficulty: "easy",
     supplies: ["Large paper", "Pencil", "Ruler", "Coloured pencils", "A walk around your home first"],
     description: "Draw a bird's-eye view map of your home -each room, door, and piece of furniture.",
