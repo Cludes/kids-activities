@@ -2685,12 +2685,12 @@ const ACTIVITIES = [
       "Store the empty envelopes after Christmas to reuse next year."
     ],
     tips: "Activity-based advent calendars are often more anticipated than treat-based ones. Kids love having something to look forward to doing together."
-  }
-
-];
+  },
+  {
+    id: 167, title: "Map of Our Home", category: "learning", emoji: "🗺️",
     ages: "5–10", time: "30 min", difficulty: "easy",
     supplies: ["Large paper", "Pencil", "Ruler", "Coloured pencils", "A walk around your home first"],
-    description: "Draw a bird's-eye view map of your home -each room, door, and piece of furniture.",
+    description: "Draw a bird's-eye view map of your home - each room, door, and piece of furniture.",
     steps: [
       "Walk through the whole house together and count the rooms.",
       "Start with a large rectangle for the outside walls.",
