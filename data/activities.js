@@ -186,10 +186,14 @@ const ACTIVITIES = [
   // ── COOKING & BAKING ────────────────────────────────────────────────────
   {
     id: 13, title: "Homemade Pizza", category: "cooking", emoji: "🍕",
-    ages: "4–12", time: "45 min", difficulty: "medium",
-    supplies: ["Pizza dough (store-bought or homemade)", "Tomato sauce", "Shredded cheese", "Toppings of choice", "Baking sheet or pizza stone", "Rolling pin"],
-    description: "Everyone makes their own personal pizza with their favourite toppings.",
+    ages: "4–12", time: "1.5 hrs (with dough)", difficulty: "medium",
+    supplies: ["2¼ tsp instant yeast", "1 cup warm water", "2½ cups plain flour", "1 tsp salt", "1 tsp sugar", "1 tbsp olive oil", "Tomato sauce", "Shredded cheese", "Toppings of choice", "Baking sheet or pizza stone", "Rolling pin"],
+    description: "Make the dough from scratch, then top personal pizzas with whatever each person loves.",
     steps: [
+      "Make the dough: stir yeast, sugar, and warm water together and wait 5 minutes until frothy.",
+      "Add flour, salt, and olive oil. Mix until a shaggy dough forms.",
+      "Knead on a floured surface for 8 minutes until smooth and springy.",
+      "Place in a lightly oiled bowl, cover with a damp cloth, and rest for 1 hour until doubled.",
       "Preheat oven to 220°C / 425°F.",
       "Divide the dough into personal-sized portions.",
       "Sprinkle flour on the counter and roll each portion into a flat round.",
@@ -199,7 +203,7 @@ const ACTIVITIES = [
       "Bake for 10–12 minutes until the crust is golden and cheese is bubbly.",
       "Let cool for 2 minutes before eating."
     ],
-    tips: "Mini naan bread or English muffins make great quick pizza bases for younger kids."
+    tips: "Short on time? Mini naan bread or English muffins make great quick pizza bases. The dough can also be made the night before and left in the fridge overnight."
   },
   {
     id: 14, title: "Fruit Kabobs", category: "cooking", emoji: "🍡",
@@ -219,18 +223,23 @@ const ACTIVITIES = [
   {
     id: 15, title: "Decorated Sugar Cookies", category: "cooking", emoji: "🍪",
     ages: "4–12", time: "1.5 hrs", difficulty: "medium",
-    supplies: ["Sugar cookie dough (store-bought or homemade)", "Cookie cutters", "Royal icing or simple glaze", "Food colouring", "Sprinkles"],
-    description: "Bake and decorate sugar cookies  - the decorating is the best part.",
+    supplies: ["225g butter (softened)", "200g sugar", "1 egg", "1 tsp vanilla", "300g plain flour", "½ tsp baking powder", "Cookie cutters", "Icing sugar", "Milk", "Food colouring", "Sprinkles"],
+    description: "Bake and decorate sugar cookies from scratch  - the decorating is the best part.",
     steps: [
-      "Roll out the cookie dough to about 5mm thick.",
-      "Cut out shapes with cookie cutters.",
-      "Bake according to the recipe or packet instructions, then cool completely.",
-      "Mix icing sugar with a little milk and a drop of food colouring.",
+      "Make the dough: beat softened butter and sugar together until fluffy.",
+      "Add the egg and vanilla and mix well.",
+      "Stir in flour and baking powder until a soft dough forms.",
+      "Wrap in cling film and chill in the fridge for 30 minutes.",
+      "Preheat oven to 180°C / 350°F. Line a baking tray with paper.",
+      "Roll out dough on a floured surface to about 5mm thick.",
+      "Cut out shapes with cookie cutters and place on the tray.",
+      "Bake for 9–11 minutes until just set but not browned. Cool completely.",
+      "Make icing: mix icing sugar with a little milk and food colouring until smooth.",
       "Spread or pipe icing onto the cooled cookies.",
       "Add sprinkles, edible glitter, or candy before the icing sets.",
       "Let dry for 30 minutes."
     ],
-    tips: "Outline cookies with a thicker icing first, then flood with thinner icing  - it looks professional!"
+    tips: "Outline cookies with a thicker icing first, then flood with a thinner icing for a professional finish. Chilling the dough is key - don't skip it."
   },
   {
     id: 16, title: "Smoothie Bowl", category: "cooking", emoji: "🥣",
@@ -249,17 +258,19 @@ const ACTIVITIES = [
   {
     id: 17, title: "Mini Pancakes", category: "cooking", emoji: "🥞",
     ages: "3–10", time: "30 min", difficulty: "easy",
-    supplies: ["Pancake mix or homemade batter", "Butter", "Frying pan", "Small ladle or spoon", "Toppings: maple syrup, berries, banana, whipped cream"],
+    supplies: ["1 cup plain flour", "1 tbsp sugar", "1 tsp baking powder", "½ tsp salt", "1 cup milk", "1 egg", "1 tbsp melted butter", "Extra butter for the pan", "Toppings: maple syrup, berries, banana, whipped cream"],
     description: "Make a giant stack of silver dollar pancakes to build the tallest breakfast tower.",
     steps: [
-      "Mix pancake batter according to recipe.",
+      "Mix flour, sugar, baking powder, and salt in a bowl.",
+      "Whisk milk, egg, and melted butter in a separate jug.",
+      "Pour the wet ingredients into the dry and stir until just combined - a few lumps are fine.",
       "Heat a pan on medium and melt a little butter.",
       "Drop a small spoonful (about a tablespoon) of batter for each mini pancake.",
-      "Cook until bubbles form on top, then flip.",
+      "Cook until bubbles form on the surface and the edges look set, then flip.",
       "Cook 1 more minute until golden underneath.",
       "Stack them up high and add toppings."
     ],
-    tips: "Add blueberries or chocolate chips to the batter before flipping for extra fun."
+    tips: "Don't overmix the batter - lumps are good. Add blueberries or chocolate chips directly onto the batter once it hits the pan, before flipping."
   },
   {
     id: 18, title: "No-Bake Energy Balls", category: "cooking", emoji: "⚡",
@@ -1355,7 +1366,7 @@ const ACTIVITIES = [
     supplies: ["Hard-boiled eggs", "White vinegar", "Food colouring", "Cups", "Water", "Spoons", "Wax crayon for resist technique"],
     description: "Dye hard-boiled eggs in vibrant colours using food dye and vinegar.",
     steps: [
-      "Hard boil and cool eggs completely.",
+      "Hard boil the eggs: place in cold water, bring to a boil, then simmer for 12 minutes. Transfer to cold water to stop cooking. Cool completely.",
       "Mix: ½ cup water + 1 tsp white vinegar + food colouring in each cup.",
       "Optional: draw designs on eggs with a white wax crayon first  - the wax resists the dye.",
       "Lower eggs into cups using a spoon.",
@@ -1499,18 +1510,24 @@ const ACTIVITIES = [
   },
   {
     id: 96, title: "Decorated Cupcakes", category: "cooking", emoji: "🧁",
-    ages: "4–10", time: "1 hr", difficulty: "medium",
-    supplies: ["Plain baked cupcakes (store-bought or homemade)", "Buttercream icing", "Food colouring", "Piping bags or zip-lock bags", "Sprinkles, candy, edible glitter"],
-    description: "The baking is done  - now the fun part: decorating cupcakes into tiny works of art.",
+    ages: "4–10", time: "1.5 hrs", difficulty: "medium",
+    supplies: ["115g butter (softened)", "150g sugar", "2 eggs", "1 tsp vanilla", "150g plain flour", "1½ tsp baking powder", "120ml milk", "For icing: 200g butter, 400g icing sugar, 2 tbsp milk", "Food colouring", "Sprinkles, candy, edible glitter"],
+    description: "Bake fluffy cupcakes from scratch, then decorate them into tiny works of art.",
     steps: [
+      "Preheat oven to 180°C / 350°F. Line a muffin tin with paper cases.",
+      "Beat butter and sugar together until light and fluffy.",
+      "Add eggs one at a time, beating well after each. Add vanilla.",
+      "Fold in flour and baking powder alternating with the milk until just combined.",
+      "Divide evenly between 12 paper cases - fill about two-thirds full.",
+      "Bake for 18–20 minutes until a skewer comes out clean. Cool completely.",
+      "Make buttercream: beat softened butter until pale, then gradually add icing sugar and milk. Beat until fluffy.",
       "Divide buttercream into bowls and colour each one differently.",
       "Spoon each colour into a piping bag or zip-lock bag with a corner snipped off.",
       "Pipe a swirl starting from the outside edge and spiralling inward.",
       "Add sprinkles and decorations before the icing sets.",
-      "Try making faces, flowers, or themed designs.",
       "Display them before eating  - they're too pretty to rush!"
     ],
-    tips: "Chill the cupcakes for 10 minutes before decorating  - warm cupcakes melt the icing."
+    tips: "Room-temperature butter and eggs make the batter fluffier. Chill the cupcakes for 10 minutes before decorating so the icing doesn't melt."
   },
   {
     id: 97, title: "Build Your Own Trail Mix", category: "cooking", emoji: "🥜",
