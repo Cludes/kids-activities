@@ -1,257 +1,428 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kids Activities</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #fdf8f3;
-      --surface: #ffffff;
-      --text: #1c1917;
-      --text-muted: #78716c;
-      --border: #e7e5e4;
-      --radius: 18px;
-      --shadow: 0 2px 12px rgba(0,0,0,0.07);
-      --shadow-hover: 0 8px 28px rgba(0,0,0,0.13);
-
-      --crafts:   #f97316;
-      --cooking:  #eab308;
-      --outdoor:  #22c55e;
-      --science:  #3b82f6;
-      --games:    #8b5cf6;
-      --art:      #ec4899;
-      --sensory:  #14b8a6;
-      --learning: #f59e0b;
-      --seasonal: #ef4444;
+      --bg:         #07090f;
+      --bg-card:    #0f1623;
+      --bg-hover:   #161f30;
+      --border:     #1e2d42;
+      --text:       #e2e8f0;
+      --text-muted: #64748b;
+      --accent:     #38bdf8;
+      --accent-dim: rgba(56,189,248,0.10);
+      --radius:     4px;
+      --shadow:     0 8px 32px rgba(0,0,0,0.55);
     }
 
+    [data-theme="light"] {
+      --bg:         #f8fafc;
+      --bg-card:    #ffffff;
+      --bg-hover:   #f1f5f9;
+      --border:     #e2e8f0;
+      --text:       #0f172a;
+      --text-muted: #64748b;
+      --accent:     #0284c7;
+      --accent-dim: rgba(2,132,199,0.08);
+      --shadow:     0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+
     body {
-      font-family: 'Nunito', sans-serif;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
+      transition: background 0.25s, color 0.25s;
     }
 
     /* ── HEADER ── */
-    header {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 48px 24px 36px;
-      text-align: center;
+    .site-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 200;
+      padding: 1.1rem 0;
+      transition: background 0.3s, border-color 0.3s;
     }
-    header h1 {
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      font-weight: 900;
-      letter-spacing: -0.5px;
-      margin-bottom: 8px;
+    .site-header.scrolled {
+      background: rgba(7,9,15,0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
     }
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.85;
-      margin-bottom: 28px;
+    [data-theme="light"] .site-header.scrolled {
+      background: rgba(248,250,252,0.88);
     }
-    .search-wrap {
-      max-width: 480px;
+    .header-inner {
+      max-width: 1200px;
       margin: 0 auto;
-      position: relative;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    .search-wrap svg {
+    .site-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .site-title:hover { color: var(--accent); }
+    .header-right { display: flex; align-items: center; gap: 0.75rem; }
+
+    .theme-btn {
+      width: 36px; height: 36px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-muted);
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .theme-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .random-hero-btn {
+      padding: 0.5rem 1.1rem;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius);
+      background: transparent;
+      color: var(--text-muted);
+      font-family: "Inter", sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .random-hero-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      background: #07090f;
+    }
+    [data-theme="light"] .hero { background: #f0f4ff; }
+
+    .hero::before {
+      content: "";
       position: absolute;
-      left: 16px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #9ca3af;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 65% 55% at 5% 50%,  rgba(56,189,248,0.18) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 50% at 95% 45%, rgba(139,92,246,0.20) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 50% 95%, rgba(236,72,153,0.10) 0%, transparent 55%);
       pointer-events: none;
     }
-    #search {
-      width: 100%;
-      padding: 14px 16px 14px 48px;
-      border: none;
-      border-radius: 50px;
-      font-family: 'Nunito', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      background: white;
-      color: var(--text);
-      outline: none;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+
+    .hero-inner {
+      position: relative;
+      text-align: center;
+      padding: 0 2rem;
+      max-width: 880px;
+      margin: 0 auto;
     }
-    #search::placeholder { color: #9ca3af; font-weight: 400; }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      border: 1px solid rgba(56,189,248,0.35);
+      background: rgba(56,189,248,0.08);
+      color: var(--accent);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-radius: var(--radius);
+      margin-bottom: 2rem;
+    }
+
+    .hero-title {
+      font-size: clamp(3.5rem, 9vw, 7rem);
+      font-weight: 800;
+      line-height: 1.0;
+      letter-spacing: -0.04em;
+      margin-bottom: 1.75rem;
+      color: var(--text);
+    }
+
+    .hero-title-gradient {
+      background: linear-gradient(135deg, #38bdf8 0%, #818cf8 45%, #c084fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 500px;
+      margin: 0 auto 2.75rem;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1.9rem;
+      border-radius: var(--radius);
+      font-family: "Inter", sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      border: none;
+      transition: all 0.2s;
+      letter-spacing: 0.01em;
+    }
+    .btn:hover { text-decoration: none; transform: translateY(-2px); }
+
+    .btn-primary { background: var(--accent); color: #07090f; }
+    .btn-primary:hover { background: #7dd3fc; box-shadow: 0 6px 24px rgba(56,189,248,0.35); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.18);
+    }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+    [data-theme="light"] .btn-outline { border-color: rgba(0,0,0,0.2); }
+    [data-theme="light"] .btn-outline:hover { border-color: var(--accent); }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      opacity: 0.6;
+    }
+    .hero-scroll-line {
+      width: 1px;
+      height: 36px;
+      background: linear-gradient(to bottom, var(--text-muted), transparent);
+    }
+
+    /* ── ACTIVITIES SECTION ── */
+    #activities {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 6rem;
+    }
 
     /* ── CATEGORY NAV ── */
     .cat-nav {
-      background: white;
+      background: var(--bg);
       border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
       z-index: 100;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: background 0.25s;
+    }
+    [data-theme="light"] .cat-nav {
+      background: rgba(248,250,252,0.92);
+      backdrop-filter: blur(10px);
     }
     .cat-nav-inner {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 12px 20px;
+      padding: 0.85rem 2rem;
       display: flex;
-      gap: 8px;
+      gap: 6px;
       overflow-x: auto;
       scrollbar-width: none;
       align-items: center;
     }
     .cat-nav-inner::-webkit-scrollbar { display: none; }
+
     .cat-btn {
       display: flex;
       align-items: center;
-      gap: 6px;
-      padding: 8px 16px;
-      border: 2px solid var(--border);
-      border-radius: 50px;
-      background: white;
-      font-family: 'Nunito', sans-serif;
-      font-size: 0.875rem;
-      font-weight: 700;
+      gap: 5px;
+      padding: 7px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: transparent;
+      font-family: "Inter", sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
       color: var(--text-muted);
       cursor: pointer;
       white-space: nowrap;
-      transition: all 0.15s ease;
+      transition: all 0.15s;
+      letter-spacing: 0.01em;
     }
-    .cat-btn:hover { border-color: #a78bfa; color: var(--text); transform: translateY(-1px); }
+    .cat-btn:hover { border-color: var(--accent); color: var(--text); }
+
     .cat-btn.active { color: white; border-color: transparent; }
-    .cat-btn[data-cat="all"].active       { background: #6d28d9; }
-    .cat-btn[data-cat="crafts"].active    { background: var(--crafts); }
-    .cat-btn[data-cat="cooking"].active   { background: var(--cooking); color: #1c1917; }
-    .cat-btn[data-cat="outdoor"].active   { background: var(--outdoor); }
-    .cat-btn[data-cat="science"].active   { background: var(--science); }
-    .cat-btn[data-cat="games"].active     { background: var(--games); }
-    .cat-btn[data-cat="art"].active       { background: var(--art); }
-    .cat-btn[data-cat="sensory"].active   { background: var(--sensory); }
-    .cat-btn[data-cat="learning"].active  { background: var(--learning); color: #1c1917; }
-    .cat-btn[data-cat="seasonal"].active  { background: var(--seasonal); }
+    .cat-btn[data-cat="all"].active       { background: #6d28d9; border-color: #6d28d9; }
+    .cat-btn[data-cat="crafts"].active    { background: #c2410c; border-color: #c2410c; }
+    .cat-btn[data-cat="cooking"].active   { background: #a16207; border-color: #a16207; }
+    .cat-btn[data-cat="outdoor"].active   { background: #15803d; border-color: #15803d; }
+    .cat-btn[data-cat="science"].active   { background: #1d4ed8; border-color: #1d4ed8; }
+    .cat-btn[data-cat="games"].active     { background: #6d28d9; border-color: #6d28d9; }
+    .cat-btn[data-cat="art"].active       { background: #be185d; border-color: #be185d; }
+    .cat-btn[data-cat="sensory"].active   { background: #0f766e; border-color: #0f766e; }
+    .cat-btn[data-cat="learning"].active  { background: #b45309; border-color: #b45309; }
+    .cat-btn[data-cat="seasonal"].active  { background: #b91c1c; border-color: #b91c1c; }
 
-    /* ── MAIN ── */
-    main {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 28px 20px 60px;
-    }
-
+    /* ── TOOLBAR ── */
     .toolbar {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 12px;
-      margin-bottom: 24px;
+      padding: 1.75rem 0 1.25rem;
     }
     #count {
-      font-size: 0.95rem;
-      font-weight: 700;
+      font-size: 0.8rem;
+      font-weight: 600;
       color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
     }
-    .toolbar-right { display: flex; gap: 8px; }
-
-    #random-btn {
-      padding: 9px 18px;
-      border: 2px solid #6d28d9;
-      border-radius: 50px;
-      background: white;
-      color: #6d28d9;
-      font-family: 'Nunito', sans-serif;
-      font-size: 0.875rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.15s;
+    .search-wrap {
+      position: relative;
+      width: 240px;
     }
-    #random-btn:hover { background: #6d28d9; color: white; }
+    .search-wrap svg {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    #search {
+      width: 100%;
+      padding: 8px 12px 8px 34px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg-card);
+      font-family: "Inter", sans-serif;
+      font-size: 0.85rem;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search::placeholder { color: var(--text-muted); }
+    #search:focus { border-color: var(--accent); }
 
     /* ── GRID ── */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
+      gap: 1rem;
     }
 
     .card {
-      background: var(--surface);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
       border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
       cursor: pointer;
-      transition: transform 0.18s ease, box-shadow 0.18s ease;
-      border-top: 4px solid var(--border);
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s, background 0.2s;
+      position: relative;
+      overflow: hidden;
     }
-    .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .card::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+      background: var(--bg-hover);
+    }
+    .card:hover::after { opacity: 1; }
 
-    .card[data-cat="crafts"]   { border-top-color: var(--crafts); }
-    .card[data-cat="cooking"]  { border-top-color: var(--cooking); }
-    .card[data-cat="outdoor"]  { border-top-color: var(--outdoor); }
-    .card[data-cat="science"]  { border-top-color: var(--science); }
-    .card[data-cat="games"]    { border-top-color: var(--games); }
-    .card[data-cat="art"]      { border-top-color: var(--art); }
-    .card[data-cat="sensory"]  { border-top-color: var(--sensory); }
-    .card[data-cat="learning"] { border-top-color: var(--learning); }
-    .card[data-cat="seasonal"] { border-top-color: var(--seasonal); }
+    .card[data-cat="crafts"]:hover   { border-color: #f97316; } .card[data-cat="crafts"]::after   { background: #f97316; }
+    .card[data-cat="cooking"]:hover  { border-color: #eab308; } .card[data-cat="cooking"]::after  { background: #eab308; }
+    .card[data-cat="outdoor"]:hover  { border-color: #22c55e; } .card[data-cat="outdoor"]::after  { background: #22c55e; }
+    .card[data-cat="science"]:hover  { border-color: #38bdf8; } .card[data-cat="science"]::after  { background: #38bdf8; }
+    .card[data-cat="games"]:hover    { border-color: #8b5cf6; } .card[data-cat="games"]::after    { background: #8b5cf6; }
+    .card[data-cat="art"]:hover      { border-color: #ec4899; } .card[data-cat="art"]::after      { background: #ec4899; }
+    .card[data-cat="sensory"]:hover  { border-color: #14b8a6; } .card[data-cat="sensory"]::after  { background: #14b8a6; }
+    .card[data-cat="learning"]:hover { border-color: #f59e0b; } .card[data-cat="learning"]::after { background: #f59e0b; }
+    .card[data-cat="seasonal"]:hover { border-color: #ef4444; } .card[data-cat="seasonal"]::after { background: #ef4444; }
 
-    .card-body { padding: 20px; }
-
-    .card-top {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-    .card-emoji {
-      font-size: 2rem;
-      line-height: 1;
-      flex-shrink: 0;
-    }
-    .card-title {
-      font-size: 1.05rem;
-      font-weight: 800;
-      line-height: 1.3;
-    }
+    .card-body { padding: 1.4rem 1.5rem; }
+    .card-top { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+    .card-emoji { font-size: 1.8rem; line-height: 1; flex-shrink: 0; }
+    .card-title { font-size: 0.95rem; font-weight: 700; line-height: 1.35; color: var(--text); }
     .card-desc {
-      font-size: 0.875rem;
+      font-size: 0.82rem;
       color: var(--text-muted);
-      line-height: 1.6;
+      line-height: 1.65;
       margin-bottom: 14px;
     }
-    .card-meta {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
+    .card-meta { display: flex; gap: 6px; flex-wrap: wrap; }
+
     .badge {
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      padding: 4px 10px;
-      border-radius: 20px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      background: #f3f4f6;
-      color: #374151;
+      padding: 3px 9px;
+      border-radius: var(--radius);
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: rgba(255,255,255,0.06);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      letter-spacing: 0.01em;
     }
-    .badge-cat {
-      color: white;
-    }
-    .badge-cat[data-cat="crafts"]   { background: var(--crafts); }
-    .badge-cat[data-cat="cooking"]  { background: var(--cooking); color: #1c1917; }
-    .badge-cat[data-cat="outdoor"]  { background: var(--outdoor); }
-    .badge-cat[data-cat="science"]  { background: var(--science); }
-    .badge-cat[data-cat="games"]    { background: var(--games); }
-    .badge-cat[data-cat="art"]      { background: var(--art); }
-    .badge-cat[data-cat="sensory"]  { background: var(--sensory); }
-    .badge-cat[data-cat="learning"] { background: var(--learning); color: #1c1917; }
-    .badge-cat[data-cat="seasonal"] { background: var(--seasonal); }
+    [data-theme="light"] .badge { background: #f1f5f9; border-color: #e2e8f0; }
+
+    .badge-cat { border: none; }
+    .badge-cat[data-cat="crafts"]   { background: rgba(249,115,22,0.15);  color: #fb923c; }
+    .badge-cat[data-cat="cooking"]  { background: rgba(234,179,8,0.15);   color: #fbbf24; }
+    .badge-cat[data-cat="outdoor"]  { background: rgba(34,197,94,0.15);   color: #4ade80; }
+    .badge-cat[data-cat="science"]  { background: rgba(56,189,248,0.15);  color: #38bdf8; }
+    .badge-cat[data-cat="games"]    { background: rgba(139,92,246,0.15);  color: #a78bfa; }
+    .badge-cat[data-cat="art"]      { background: rgba(236,72,153,0.15);  color: #f472b6; }
+    .badge-cat[data-cat="sensory"]  { background: rgba(20,184,166,0.15);  color: #2dd4bf; }
+    .badge-cat[data-cat="learning"] { background: rgba(245,158,11,0.15);  color: #fbbf24; }
+    .badge-cat[data-cat="seasonal"] { background: rgba(239,68,68,0.15);   color: #f87171; }
 
     .difficulty-dots { display: flex; gap: 3px; align-items: center; }
-    .dot { width: 7px; height: 7px; border-radius: 50%; background: #d1d5db; }
-    .dot.filled { background: #374151; }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--border); }
+    .dot.filled { background: var(--text-muted); }
 
     .no-results {
       grid-column: 1 / -1;
@@ -259,164 +430,218 @@
       padding: 80px 20px;
       color: var(--text-muted);
     }
-    .no-results span { font-size: 3rem; display: block; margin-bottom: 16px; }
-    .no-results h3 { font-size: 1.3rem; margin-bottom: 8px; }
+    .no-results .no-icon { font-size: 2.5rem; display: block; margin-bottom: 16px; }
+    .no-results h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; color: var(--text); }
 
     /* ── MODAL ── */
     .modal-overlay {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.45);
+      background: rgba(0,0,0,0.6);
       z-index: 1000;
       align-items: flex-start;
       justify-content: center;
       padding: 20px;
       overflow-y: auto;
+      backdrop-filter: blur(4px);
     }
     .modal-overlay.open { display: flex; }
 
     .modal {
-      background: white;
-      border-radius: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
       width: 100%;
-      max-width: 620px;
+      max-width: 600px;
       margin: auto;
       overflow: hidden;
-      box-shadow: 0 25px 60px rgba(0,0,0,0.25);
-      animation: modalIn 0.2s ease;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+      animation: modalIn 0.18s ease;
     }
     @keyframes modalIn {
-      from { opacity: 0; transform: translateY(20px) scale(0.97); }
+      from { opacity: 0; transform: translateY(16px) scale(0.98); }
       to   { opacity: 1; transform: translateY(0) scale(1); }
     }
 
+    .modal-accent-bar { height: 3px; }
+    .modal-accent-bar[data-cat="crafts"]   { background: #f97316; }
+    .modal-accent-bar[data-cat="cooking"]  { background: #eab308; }
+    .modal-accent-bar[data-cat="outdoor"]  { background: #22c55e; }
+    .modal-accent-bar[data-cat="science"]  { background: #38bdf8; }
+    .modal-accent-bar[data-cat="games"]    { background: #8b5cf6; }
+    .modal-accent-bar[data-cat="art"]      { background: #ec4899; }
+    .modal-accent-bar[data-cat="sensory"]  { background: #14b8a6; }
+    .modal-accent-bar[data-cat="learning"] { background: #f59e0b; }
+    .modal-accent-bar[data-cat="seasonal"] { background: #ef4444; }
+
     .modal-header {
-      padding: 28px 28px 20px;
+      padding: 1.75rem 1.75rem 1.25rem;
       border-bottom: 1px solid var(--border);
       position: relative;
     }
     .modal-header-top {
       display: flex;
       align-items: flex-start;
-      gap: 16px;
+      gap: 14px;
       margin-bottom: 14px;
     }
-    .modal-emoji { font-size: 2.8rem; line-height: 1; flex-shrink: 0; }
-    .modal-title { font-size: 1.5rem; font-weight: 900; line-height: 1.2; padding-right: 40px; }
+    .modal-emoji { font-size: 2.4rem; line-height: 1; flex-shrink: 0; }
+    .modal-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      padding-right: 40px;
+      color: var(--text);
+    }
     .modal-close {
       position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      border: none;
-      background: #f3f4f6;
+      top: 1.5rem; right: 1.5rem;
+      width: 32px; height: 32px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--bg-hover);
       cursor: pointer;
-      font-size: 1.1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background 0.15s;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      display: flex; align-items: center; justify-content: center;
+      transition: border-color 0.15s, color 0.15s;
     }
-    .modal-close:hover { background: #e5e7eb; }
+    .modal-close:hover { border-color: var(--accent); color: var(--accent); }
 
-    .modal-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+    .modal-meta { display: flex; gap: 6px; flex-wrap: wrap; }
 
-    .modal-body { padding: 24px 28px; }
+    .modal-body { padding: 1.5rem 1.75rem; }
 
     .modal-desc {
-      font-size: 1rem;
-      line-height: 1.7;
+      font-size: 0.95rem;
+      line-height: 1.75;
       color: var(--text-muted);
-      margin-bottom: 24px;
+      margin-bottom: 1.75rem;
     }
 
-    .modal-section { margin-bottom: 24px; }
+    .modal-section { margin-bottom: 1.75rem; }
     .modal-section h3 {
-      font-size: 0.8rem;
-      font-weight: 800;
+      font-size: 0.7rem;
+      font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 0.12em;
       color: var(--text-muted);
-      margin-bottom: 12px;
+      margin-bottom: 0.85rem;
     }
 
     .supplies-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 7px;
       list-style: none;
     }
     .supplies-list li {
-      padding: 6px 12px;
-      background: #f3f4f6;
-      border-radius: 8px;
-      font-size: 0.875rem;
-      font-weight: 600;
+      padding: 5px 11px;
+      background: var(--bg-hover);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--text);
     }
 
     .steps-list { list-style: none; }
     .steps-list li {
       display: flex;
-      gap: 14px;
+      gap: 12px;
       padding: 10px 0;
-      border-bottom: 1px solid #f3f4f6;
-      font-size: 0.95rem;
-      line-height: 1.6;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: var(--text);
     }
     .steps-list li:last-child { border-bottom: none; }
     .step-num {
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      background: #ede9fe;
-      color: #6d28d9;
-      font-weight: 800;
-      font-size: 0.8rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 24px; height: 24px;
+      border-radius: var(--radius);
+      background: var(--accent-dim);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 0.75rem;
+      display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
-      margin-top: 1px;
+      margin-top: 2px;
     }
 
     .tip-box {
-      background: #fef3c7;
-      border-left: 4px solid #f59e0b;
-      border-radius: 0 12px 12px 0;
-      padding: 14px 16px;
-      font-size: 0.9rem;
-      line-height: 1.6;
+      border-left: 3px solid var(--accent);
+      background: var(--accent-dim);
+      padding: 0.85rem 1.1rem;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      font-size: 0.88rem;
+      line-height: 1.7;
+      color: var(--text-muted);
     }
-    .tip-box strong { color: #92400e; }
+    .tip-box strong { color: var(--accent); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+    }
 
     @media (max-width: 640px) {
-      header { padding: 36px 16px 28px; }
-      main { padding: 20px 14px 50px; }
-      .modal-overlay { padding: 0; align-items: flex-end; }
-      .modal { border-radius: 24px 24px 0 0; max-width: 100%; }
-      .modal-header { padding: 24px 20px 16px; }
-      .modal-body { padding: 20px; }
+      .hero-title { font-size: 3rem; }
+      .hero-actions { flex-direction: column; align-items: center; }
+      #activities { padding: 0 1rem 4rem; }
+      .cat-nav-inner { padding: 0.75rem 1rem; }
+      .toolbar { padding: 1.25rem 0 0.75rem; }
+      .search-wrap { width: 100%; }
       .grid { grid-template-columns: 1fr; }
+      .modal-overlay { padding: 0; align-items: flex-end; }
+      .modal { border-radius: 8px 8px 0 0; max-width: 100%; }
+      .modal-header { padding: 1.25rem 1.25rem 1rem; }
+      .modal-body { padding: 1.25rem; }
+      .header-inner { padding: 0 1rem; }
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>🌟 Kids Activities</h1>
-  <p>Crafts, cooking, outdoor adventures, science, and more</p>
-  <div class="search-wrap">
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-    </svg>
-    <input type="search" id="search" placeholder="Search activities, supplies, ideas...">
+<!-- Fixed Header -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#" class="site-title">Kids Activities</a>
+    <div class="header-right">
+      <button class="random-hero-btn" id="header-random">Random</button>
+      <button class="theme-btn" id="theme-btn" title="Toggle theme">☀️</button>
+    </div>
   </div>
 </header>
 
-<nav class="cat-nav">
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-badge">94 Activities · 9 Categories</span>
+    <h1 class="hero-title">
+      <span class="hero-title-gradient">Let's Make<br>Something.</span>
+    </h1>
+    <p class="hero-sub">Crafts, cooking, outdoor adventures, science experiments, games, art, sensory play, and more — all in one place.</p>
+    <div class="hero-actions">
+      <a href="#activities" class="btn btn-primary">Browse Activities</a>
+      <button class="btn btn-outline" id="hero-random-btn">🎲 Random Pick</button>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- Category Nav (sticky) -->
+<nav class="cat-nav" id="cat-nav">
   <div class="cat-nav-inner">
     <button class="cat-btn active" data-cat="all">⭐ All</button>
     <button class="cat-btn" data-cat="crafts">✂️ Crafts</button>
@@ -431,19 +656,28 @@
   </div>
 </nav>
 
-<main>
+<!-- Activities Grid -->
+<section id="activities">
   <div class="toolbar">
     <span id="count"></span>
-    <div class="toolbar-right">
-      <button id="random-btn">🎲 Random Activity</button>
+    <div class="search-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="search" id="search" placeholder="Search activities...">
     </div>
   </div>
   <div class="grid" id="grid"></div>
-</main>
+</section>
+
+<footer>
+  Made with love · Updated 2025
+</footer>
 
 <!-- Modal -->
 <div class="modal-overlay" id="overlay">
   <div class="modal" id="modal">
+    <div class="modal-accent-bar" id="m-accent"></div>
     <div class="modal-header">
       <div class="modal-header-top">
         <span class="modal-emoji" id="m-emoji"></span>
@@ -472,32 +706,32 @@
 
 <script src="data/activities.js"></script>
 <script>
-  const CATEGORIES = {
-    all:      { label: 'All', emoji: '⭐' },
-    crafts:   { label: 'Crafts', emoji: '✂️' },
-    cooking:  { label: 'Cooking', emoji: '🍳' },
-    outdoor:  { label: 'Outdoor', emoji: '🌿' },
-    science:  { label: 'Science', emoji: '🔬' },
-    games:    { label: 'Games', emoji: '🎮' },
-    art:      { label: 'Art', emoji: '🎨' },
-    sensory:  { label: 'Sensory', emoji: '🤲' },
-    learning: { label: 'Learning', emoji: '📚' },
-    seasonal: { label: 'Seasonal', emoji: '🎄' },
-  };
-
   const CAT_LABELS = {
-    crafts: 'Crafts', cooking: 'Cooking & Baking', outdoor: 'Outdoor',
-    science: 'Science', games: 'Games & Play', art: 'Art',
+    crafts: 'Crafts', cooking: 'Cooking', outdoor: 'Outdoor',
+    science: 'Science', games: 'Games', art: 'Art',
     sensory: 'Sensory', learning: 'Learning', seasonal: 'Seasonal'
   };
 
   let currentCat = 'all';
   let currentSearch = '';
 
-  const grid      = document.getElementById('grid');
-  const countEl   = document.getElementById('count');
-  const searchEl  = document.getElementById('search');
-  const overlay   = document.getElementById('overlay');
+  const grid    = document.getElementById('grid');
+  const countEl = document.getElementById('count');
+  const overlay = document.getElementById('overlay');
+
+  // Header scroll effect
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // Theme toggle
+  const themeBtn = document.getElementById('theme-btn');
+  themeBtn.addEventListener('click', () => {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    themeBtn.textContent = isDark ? '🌙' : '☀️';
+  });
 
   function difficultyDots(level) {
     const map = { easy: 1, medium: 2, hard: 3 };
@@ -510,8 +744,7 @@
   function filtered() {
     const q = currentSearch.toLowerCase().trim();
     return ACTIVITIES.filter(a => {
-      const catMatch = currentCat === 'all' || a.category === currentCat;
-      if (!catMatch) return false;
+      if (currentCat !== 'all' && a.category !== currentCat) return false;
       if (!q) return true;
       return (
         a.title.toLowerCase().includes(q) ||
@@ -524,13 +757,14 @@
 
   function render() {
     const items = filtered();
-    countEl.textContent = `${items.length} activit${items.length === 1 ? 'y' : 'ies'}`;
+    const n = items.length;
+    countEl.textContent = `${n} activit${n === 1 ? 'y' : 'ies'}`;
 
-    if (items.length === 0) {
+    if (!n) {
       grid.innerHTML = `<div class="no-results">
-        <span>🔍</span>
+        <span class="no-icon">🔍</span>
         <h3>Nothing found</h3>
-        <p>Try a different search or browse a different category.</p>
+        <p>Try a different search or category.</p>
       </div>`;
       return;
     }
@@ -555,7 +789,9 @@
 
     grid.querySelectorAll('.card').forEach(card => {
       card.addEventListener('click', () => openModal(+card.dataset.id));
-      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') openModal(+card.dataset.id); });
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') openModal(+card.dataset.id);
+      });
     });
   }
 
@@ -563,6 +799,7 @@
     const a = ACTIVITIES.find(x => x.id === id);
     if (!a) return;
 
+    document.getElementById('m-accent').dataset.cat = a.category;
     document.getElementById('m-emoji').textContent = a.emoji;
     document.getElementById('m-title').textContent = a.title;
     document.getElementById('m-desc').textContent = a.description;
@@ -579,13 +816,12 @@
 
     document.getElementById('m-steps').innerHTML =
       a.steps.map((s, i) =>
-        `<li><span class="step-num">${i + 1}</span><span>${s}</span></li>`
+        `<li><span class="step-num">${i+1}</span><span>${s}</span></li>`
       ).join('');
 
     const tipSection = document.getElementById('m-tip-section');
-    const tipEl = document.getElementById('m-tip');
     if (a.tips) {
-      tipEl.innerHTML = `<strong>💡 Tip:</strong> ${a.tips}`;
+      document.getElementById('m-tip').innerHTML = `<strong>Tip:</strong> ${a.tips}`;
       tipSection.style.display = '';
     } else {
       tipSection.style.display = 'none';
@@ -600,6 +836,12 @@
     document.body.style.overflow = '';
   }
 
+  function openRandom() {
+    const items = filtered();
+    if (!items.length) return;
+    openModal(items[Math.floor(Math.random() * items.length)].id);
+  }
+
   document.getElementById('modal-close').addEventListener('click', closeModal);
   overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
@@ -610,25 +852,20 @@
       btn.classList.add('active');
       currentCat = btn.dataset.cat;
       render();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   });
 
   let searchTimer;
-  searchEl.addEventListener('input', e => {
+  document.getElementById('search').addEventListener('input', e => {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       currentSearch = e.target.value;
       render();
-    }, 200);
+    }, 180);
   });
 
-  document.getElementById('random-btn').addEventListener('click', () => {
-    const items = filtered();
-    if (!items.length) return;
-    const random = items[Math.floor(Math.random() * items.length)];
-    openModal(random.id);
-  });
+  document.getElementById('hero-random-btn').addEventListener('click', openRandom);
+  document.getElementById('header-random').addEventListener('click', openRandom);
 
   render();
 </script>
