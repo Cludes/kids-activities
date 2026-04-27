@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kids Activities</title>
+  <title>Kids Activities - Crafts, Science, Cooking, Outdoor &amp; More for Kids</title>
+  <meta name="description" content="Hundreds of fun kids activities including crafts, cooking, science experiments, outdoor adventures, STEM, sensory play, and more. Free printable worksheets for toddlers, preschoolers and school-age children.">
+  <meta name="keywords" content="kids activities, crafts for kids, science experiments, cooking with kids, outdoor activities, STEM activities, toddler activities, printable worksheets, rainy day activities, boredom busters">
+  <meta property="og:title" content="Kids Activities - Always Something to Do Together">
+  <meta property="og:description" content="Hundreds of fun, printable, and searchable kids activities for all ages.">
+  <meta name="theme-color" content="#07090f">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -198,35 +203,44 @@
     }
     .cat-row::-webkit-scrollbar { display: none; }
     .cat-btn {
-      display: flex; align-items: center; gap: 6px;
-      padding: 9px 18px; border: 1px solid var(--border); border-radius: var(--radius);
-      background: transparent; font-family: "Inter", sans-serif;
-      font-size: 0.9rem; font-weight: 600; color: var(--text-muted);
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 8px 16px; border: 1px solid var(--border); border-radius: 20px;
+      background: var(--bg-card); font-family: "Inter", sans-serif;
+      font-size: 0.82rem; font-weight: 600; color: var(--text-muted);
       cursor: pointer; white-space: nowrap; transition: all 0.15s;
+      line-height: 1;
     }
-    .cat-btn:hover { border-color: var(--accent); color: var(--text); }
+    .cat-btn:hover { border-color: var(--accent); color: var(--text); background: var(--bg-hover); }
+    .cat-emoji { font-size: 0.85rem; line-height: 1; }
     .cat-btn .cat-count {
-      background: var(--border); border-radius: 3px;
-      padding: 2px 6px; font-size: 0.75rem; font-weight: 700; color: var(--text-muted);
+      background: var(--bg-hover); border-radius: 10px;
+      padding: 2px 7px; font-size: 0.72rem; font-weight: 700; color: var(--text-muted);
+      transition: background 0.15s, color 0.15s;
     }
-    .cat-btn.active { color: white; border-color: transparent; background: var(--accent); }
-    .cat-btn.active .cat-count { background: rgba(0,0,0,0.2); color: white; }
-    .cat-btn[data-cat="all"].active    { background: #6d28d9; }
-    .cat-btn[data-cat="crafts"].active { background: #c2410c; }
-    .cat-btn[data-cat="cooking"].active{ background: #a16207; }
-    .cat-btn[data-cat="outdoor"].active{ background: #15803d; }
-    .cat-btn[data-cat="science"].active{ background: #1d4ed8; }
-    .cat-btn[data-cat="games"].active  { background: #6d28d9; }
-    .cat-btn[data-cat="art"].active    { background: #be185d; }
-    .cat-btn[data-cat="sensory"].active{ background: #0f766e; }
-    .cat-btn[data-cat="learning"].active{ background: #b45309; }
-    .cat-btn[data-cat="seasonal"].active{ background: #b91c1c; }
+    .cat-btn.active { color: white; border-color: transparent; }
+    .cat-btn.active .cat-count { background: rgba(0,0,0,0.25); color: rgba(255,255,255,0.85); }
+    /* per-category active colors injected dynamically by injectCategoryStyles() */
 
-    /* Difficulty + search row */
+    /* Filter rows */
     .filter-row {
-      max-width: 1200px; margin: 0 auto; padding: 0.6rem 2rem;
+      max-width: 1200px; margin: 0 auto; padding: 0;
+    }
+    .filter-row-main {
+      padding: 0.55rem 2rem;
       display: flex; align-items: center; justify-content: space-between;
-      gap: 1rem; flex-wrap: wrap;
+      gap: 0.75rem; flex-wrap: wrap;
+    }
+    .filter-advanced {
+      padding: 0.5rem 2rem 0.7rem;
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+      background: rgba(255,255,255,0.015);
+    }
+    .filter-advanced.hidden { display: none; }
+    [data-theme="light"] .filter-advanced { background: rgba(0,0,0,0.015); }
+    .filter-adv-label {
+      font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--text-muted); margin-right: 2px;
     }
     .filter-chips { display: flex; align-items: center; gap: 5px; }
     .filter-tools { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -258,8 +272,9 @@
     #search::placeholder { color: var(--text-muted); }
     #search:focus { border-color: var(--accent); }
     .sort-select {
-      padding: 7px 30px 7px 10px; border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 7px 26px 7px 10px; border: 1px solid var(--border); border-radius: var(--radius);
       background: var(--bg-card); color: var(--text); font-size: 0.82rem; font-family: "Inter", sans-serif;
+      cursor: pointer;
     }
     .tools-chip {
       padding: 7px 12px; border: 1px solid var(--border); border-radius: var(--radius);
@@ -343,36 +358,7 @@
       opacity: 0; transition: opacity 0.2s;
     }
     .card:hover::before { opacity: 1; }
-    .card[data-cat="crafts"]::before    { background: #f97316; }
-    .card[data-cat="cooking"]::before   { background: #eab308; }
-    .card[data-cat="outdoor"]::before   { background: #22c55e; }
-    .card[data-cat="science"]::before   { background: #38bdf8; }
-    .card[data-cat="games"]::before     { background: #8b5cf6; }
-    .card[data-cat="art"]::before       { background: #ec4899; }
-    .card[data-cat="sensory"]::before   { background: #14b8a6; }
-    .card[data-cat="learning"]::before  { background: #f59e0b; }
-    .card[data-cat="seasonal"]::before  { background: #ef4444; }
-
-    .card[data-cat="crafts"]:hover    { border-color: #f97316; }
-    .card[data-cat="cooking"]:hover   { border-color: #eab308; }
-    .card[data-cat="outdoor"]:hover   { border-color: #22c55e; }
-    .card[data-cat="science"]:hover   { border-color: #38bdf8; }
-    .card[data-cat="games"]:hover     { border-color: #8b5cf6; }
-    .card[data-cat="art"]:hover       { border-color: #ec4899; }
-    .card[data-cat="sensory"]:hover   { border-color: #14b8a6; }
-    .card[data-cat="learning"]:hover  { border-color: #f59e0b; }
-    .card[data-cat="seasonal"]:hover  { border-color: #ef4444; }
-
-    /* Category left border - always visible */
-    .card[data-cat="crafts"]   { border-left: 3px solid #f97316; }
-    .card[data-cat="cooking"]  { border-left: 3px solid #eab308; }
-    .card[data-cat="outdoor"]  { border-left: 3px solid #22c55e; }
-    .card[data-cat="science"]  { border-left: 3px solid #38bdf8; }
-    .card[data-cat="games"]    { border-left: 3px solid #8b5cf6; }
-    .card[data-cat="art"]      { border-left: 3px solid #ec4899; }
-    .card[data-cat="sensory"]  { border-left: 3px solid #14b8a6; }
-    .card[data-cat="learning"] { border-left: 3px solid #f59e0b; }
-    .card[data-cat="seasonal"] { border-left: 3px solid #ef4444; }
+    /* per-category card border/hover/accent injected dynamically by injectCategoryStyles() */
 
     /* Featured card overrides */
     .card.featured { flex-direction: row; }
@@ -398,15 +384,7 @@
     }
     [data-theme="light"] .badge { background: #f1f5f9; border-color: #e2e8f0; }
     .badge-cat { border: none; }
-    .badge-cat[data-cat="crafts"]   { background: rgba(249,115,22,0.15); color: #fb923c; }
-    .badge-cat[data-cat="cooking"]  { background: rgba(234,179,8,0.15);  color: #fbbf24; }
-    .badge-cat[data-cat="outdoor"]  { background: rgba(34,197,94,0.15);  color: #4ade80; }
-    .badge-cat[data-cat="science"]  { background: rgba(56,189,248,0.15); color: #38bdf8; }
-    .badge-cat[data-cat="games"]    { background: rgba(139,92,246,0.15); color: #a78bfa; }
-    .badge-cat[data-cat="art"]      { background: rgba(236,72,153,0.15); color: #f472b6; }
-    .badge-cat[data-cat="sensory"]  { background: rgba(20,184,166,0.15); color: #2dd4bf; }
-    .badge-cat[data-cat="learning"] { background: rgba(245,158,11,0.15); color: #fbbf24; }
-    .badge-cat[data-cat="seasonal"] { background: rgba(239,68,68,0.15);  color: #f87171; }
+    /* per-category badge colors injected dynamically by injectCategoryStyles() */
 
     .difficulty-dots { display: flex; gap: 3px; align-items: center; }
     .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--border); }
@@ -437,15 +415,7 @@
       to   { opacity: 1; transform: translateY(0) scale(1); }
     }
     .modal-accent-bar { height: 3px; }
-    .modal-accent-bar[data-cat="crafts"]   { background: #f97316; }
-    .modal-accent-bar[data-cat="cooking"]  { background: #eab308; }
-    .modal-accent-bar[data-cat="outdoor"]  { background: #22c55e; }
-    .modal-accent-bar[data-cat="science"]  { background: #38bdf8; }
-    .modal-accent-bar[data-cat="games"]    { background: #8b5cf6; }
-    .modal-accent-bar[data-cat="art"]      { background: #ec4899; }
-    .modal-accent-bar[data-cat="sensory"]  { background: #14b8a6; }
-    .modal-accent-bar[data-cat="learning"] { background: #f59e0b; }
-    .modal-accent-bar[data-cat="seasonal"] { background: #ef4444; }
+    /* modal accent bar colors injected dynamically by injectCategoryStyles() */
 
     .modal-header {
       padding: 1.5rem 1.6rem 1.1rem; border-bottom: 1px solid var(--border); position: relative;
@@ -542,9 +512,9 @@
       .hero-stat:last-child { border-bottom: none; }
       #activities { padding: 0 1rem 4rem; }
       .cat-row { padding: 0.65rem 1rem; }
-      .filter-row { padding: 0.5rem 1rem; }
-      #search { width: 100%; }
-      .filter-row { flex-direction: column; align-items: flex-start; }
+      .filter-row-main { padding: 0.5rem 1rem; flex-direction: column; align-items: flex-start; }
+      .filter-advanced { padding: 0.5rem 1rem; }
+      #search { width: 180px; }
       .card.featured { flex-direction: column; }
       .modal-overlay { padding: 0; align-items: flex-end; }
       .modal { border-radius: 8px 8px 0 0; max-width: 100%; }
@@ -579,11 +549,11 @@
         <span class="hero-stat-label">Activities</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-num">9</span>
+        <span class="hero-stat-num" id="hero-cat-count">-</span>
         <span class="hero-stat-label">Categories</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-num">Ages 3-8</span>
+        <span class="hero-stat-num">Ages 2-13</span>
         <span class="hero-stat-label">Perfect For</span>
       </div>
     </div>
@@ -595,49 +565,56 @@
   <div class="cat-row-wrap">
     <div class="cat-row" id="cat-row"></div>
   </div>
-  <div class="filter-row">
-    <div class="filter-chips">
-      <span class="filter-label">Difficulty</span>
-      <button class="chip active" data-diff="all">All</button>
-      <button class="chip" data-diff="easy">Easy</button>
-      <button class="chip" data-diff="medium">Medium</button>
-      <button class="chip" data-diff="hard">Hard</button>
+  <div class="filter-row" id="filter-row">
+    <div class="filter-row-main">
+      <div class="filter-chips">
+        <span class="filter-label">Difficulty</span>
+        <button class="chip active" data-diff="all">All</button>
+        <button class="chip" data-diff="easy">Easy</button>
+        <button class="chip" data-diff="medium">Medium</button>
+        <button class="chip" data-diff="hard">Hard</button>
+      </div>
+      <div class="filter-tools">
+        <div class="search-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="search" id="search" placeholder="Search activities...">
+        </div>
+        <select class="sort-select" id="sort-select" aria-label="Sort activities">
+          <option value="recommended">Sort: Recommended</option>
+          <option value="title-asc">Title A-Z</option>
+          <option value="time-asc">Shortest First</option>
+          <option value="age-asc">Youngest Ages</option>
+        </select>
+        <button class="tools-chip" id="favorites-toggle">Favorites (0)</button>
+        <button class="tools-chip" id="do-now-toggle">&#9889; Do Now</button>
+        <button class="tools-chip" id="adv-toggle" aria-expanded="false">&#9881; Filters</button>
+      </div>
     </div>
-    <div class="filter-tools">
-      <button class="tools-chip" id="favorites-toggle">Favorites</button>
-      <select class="sort-select" id="sort-select" aria-label="Sort activities">
-        <option value="recommended">Sort: Recommended</option>
-        <option value="title-asc">Sort: Title A-Z</option>
-        <option value="time-asc">Sort: Shortest Time</option>
-        <option value="age-asc">Sort: Youngest Ages</option>
-      </select>
+    <div class="filter-advanced hidden" id="filter-advanced">
+      <span class="filter-adv-label">More Filters</span>
       <select class="sort-select" id="age-select" aria-label="Filter by age">
         <option value="all">Age: All</option>
-        <option value="2-4">Age: 2-4</option>
-        <option value="5-7">Age: 5-7</option>
-        <option value="8-10">Age: 8-10</option>
-        <option value="11-13">Age: 11-13</option>
+        <option value="2-4">Ages 2-4</option>
+        <option value="5-7">Ages 5-7</option>
+        <option value="8-10">Ages 8-10</option>
+        <option value="11-13">Ages 11-13</option>
       </select>
       <select class="sort-select" id="mess-select" aria-label="Filter by mess level">
         <option value="all">Mess: All</option>
-        <option value="low">Mess: Low</option>
-        <option value="medium">Mess: Medium</option>
-        <option value="high">Mess: High</option>
+        <option value="low">Low Mess</option>
+        <option value="medium">Medium Mess</option>
+        <option value="high">High Mess</option>
       </select>
       <select class="sort-select" id="cost-select" aria-label="Filter by cost">
         <option value="all">Cost: All</option>
-        <option value="free">Cost: Free</option>
-        <option value="low">Cost: Low</option>
-        <option value="medium">Cost: Medium</option>
+        <option value="free">Free</option>
+        <option value="low">Low Cost</option>
+        <option value="medium">Medium Cost</option>
       </select>
       <button class="tools-chip" id="printable-toggle">Printable</button>
-      <button class="tools-chip" id="do-now-toggle">Do This Now</button>
-      <div class="search-wrap">
-        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-        </svg>
-        <input type="search" id="search" placeholder="Search activities...">
-      </div>
+      <button class="small-btn" id="clear-filters">Reset All</button>
     </div>
   </div>
 </div>
@@ -646,7 +623,7 @@
   <div class="grid-header">
     <span id="count"></span>
     <div class="grid-header-actions">
-      <button class="small-btn" id="clear-filters">Reset Filters</button>
+      <button class="small-btn" id="grid-random-btn">Random Pick</button>
     </div>
   </div>
   <div class="grid" id="grid"></div>
@@ -705,9 +682,27 @@
   const CAT_LABELS = {
     crafts: 'Crafts', cooking: 'Cooking', outdoor: 'Outdoor', science: 'Science',
     games: 'Games', art: 'Art', sensory: 'Sensory', learning: 'Learning', seasonal: 'Seasonal',
-    rainyday: 'Rainy Day', travel: 'Travel', emotional: 'Emotional Skills', party: 'Party'
+    rainyday: 'Rainy Day', travel: 'Travel', emotional: 'Emotional Skills', party: 'Party',
+    indoor: 'Indoor', stem: 'STEM', toddler: 'Toddler', holiday: 'Holiday'
   };
-  const CATEGORY_PRIORITY = ['crafts', 'cooking', 'outdoor', 'science', 'games', 'art', 'sensory', 'learning', 'seasonal', 'rainyday', 'travel', 'emotional', 'party'];
+  const CAT_EMOJIS = {
+    crafts: '✂️', cooking: '🍳', outdoor: '🌿', science: '🔬',
+    games: '🎲', art: '🎨', sensory: '👐', learning: '📚', seasonal: '🍂',
+    rainyday: '🌧️', travel: '✈️', emotional: '💚', party: '🎉',
+    indoor: '🏠', stem: '⚙️', toddler: '🧸', holiday: '🎄'
+  };
+  const CAT_COLORS = {
+    crafts: '#f97316', cooking: '#eab308', outdoor: '#22c55e', science: '#38bdf8',
+    games: '#8b5cf6', art: '#ec4899', sensory: '#14b8a6', learning: '#f59e0b',
+    seasonal: '#ef4444', rainyday: '#60a5fa', travel: '#a78bfa', emotional: '#34d399',
+    party: '#fb7185', indoor: '#e879f9', stem: '#22d3ee', toddler: '#fbbf24',
+    holiday: '#f87171'
+  };
+  const FALLBACK_PALETTE = ['#f97316','#38bdf8','#8b5cf6','#ec4899','#14b8a6','#f59e0b','#22c55e','#ef4444','#60a5fa','#a78bfa','#34d399','#fb7185'];
+  const CATEGORY_PRIORITY = [
+    'crafts', 'cooking', 'outdoor', 'science', 'games', 'art', 'sensory', 'learning',
+    'seasonal', 'rainyday', 'indoor', 'stem', 'toddler', 'holiday', 'travel', 'emotional', 'party'
+  ];
   const STORAGE_FAV_KEY = 'kidsActivitiesFavoritesV1';
   const AGE_BUCKETS = {
     '2-4': [2, 4],
@@ -727,6 +722,7 @@
   let showPrintableOnly = false;
   let showDoNowOnly = false;
   let currentModalId = null;
+  let advFiltersOpen = false;
 
   const grid = document.getElementById('grid');
   const countEl = document.getElementById('count');
@@ -827,7 +823,11 @@
       rainyday: ['Independent play', 'Problem solving'],
       travel: ['Patience', 'Portable play skills'],
       emotional: ['Emotional naming', 'Self-regulation'],
-      party: ['Social confidence', 'Team participation']
+      party: ['Social confidence', 'Team participation'],
+      indoor: ['Focused attention', 'Creative thinking'],
+      stem: ['STEM reasoning', 'Engineering mindset'],
+      toddler: ['Sensory exploration', 'Early language'],
+      holiday: ['Cultural traditions', 'Family connection']
     };
     return defaults[activity.category] || ['Creativity', 'Problem solving'];
   }
@@ -852,6 +852,30 @@
     };
   }
 
+  function injectCategoryStyles() {
+    const allCats = [...new Set(ACTIVITY_DATA.map(a => a.category))];
+    let fallbackIdx = 0;
+    const css = allCats.map(cat => {
+      const color = CAT_COLORS[cat] || FALLBACK_PALETTE[fallbackIdx++ % FALLBACK_PALETTE.length];
+      const hex = color.replace('#', '');
+      const r = parseInt(hex.slice(0,2),16);
+      const g = parseInt(hex.slice(2,4),16);
+      const b = parseInt(hex.slice(4,6),16);
+      return [
+        `.card[data-cat="${cat}"] { border-left: 3px solid ${color}; }`,
+        `.card[data-cat="${cat}"]:hover { border-color: ${color}; }`,
+        `.card[data-cat="${cat}"]::before { background: ${color}; }`,
+        `.badge-cat[data-cat="${cat}"] { background: rgba(${r},${g},${b},0.14); color: ${color}; }`,
+        `.modal-accent-bar[data-cat="${cat}"] { background: ${color}; }`,
+        `.cat-btn[data-cat="${cat}"].active { background: ${color}; border-color: ${color}; }`
+      ].join('\n');
+    }).join('\n');
+    const style = document.createElement('style');
+    style.id = 'cat-dynamic-styles';
+    style.textContent = css;
+    document.head.appendChild(style);
+  }
+
   function buildCategoryButtons() {
     const row = document.getElementById('cat-row');
     const categories = [...new Set(ACTIVITY_DATA.map(a => a.category))];
@@ -864,11 +888,12 @@
       return a.localeCompare(b);
     });
 
+    const emojiTag = (cat) => CAT_EMOJIS[cat] ? `<span class="cat-emoji" aria-hidden="true">${CAT_EMOJIS[cat]}</span>` : '';
     const buttonHtml = [
-      `<button class="cat-btn active" data-cat="all">All <span class="cat-count">${ACTIVITY_DATA.length}</span></button>`,
+      `<button class="cat-btn active" data-cat="all"><span class="cat-emoji" aria-hidden="true">⭐</span>All <span class="cat-count">${ACTIVITY_DATA.length}</span></button>`,
       ...categories.map(cat => {
         const count = ACTIVITY_DATA.filter(a => a.category === cat).length;
-        return `<button class="cat-btn" data-cat="${cat}">${categoryLabel(cat)} <span class="cat-count">${count}</span></button>`;
+        return `<button class="cat-btn" data-cat="${cat}">${emojiTag(cat)}${categoryLabel(cat)} <span class="cat-count">${count}</span></button>`;
       })
     ];
     row.innerHTML = buttonHtml.join('');
@@ -1141,6 +1166,13 @@
     document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
     document.querySelectorAll('.chip[data-diff]').forEach(c => c.classList.toggle('active', c.dataset.diff === 'all'));
 
+    // Close advanced panel
+    document.getElementById('filter-advanced').classList.add('hidden');
+    const advBtn = document.getElementById('adv-toggle');
+    advBtn.classList.remove('active');
+    advBtn.setAttribute('aria-expanded', 'false');
+    advFiltersOpen = false;
+
     updateToggleUi();
     render();
   }
@@ -1158,8 +1190,11 @@
   });
 
   document.getElementById('stat-total').textContent = ACTIVITY_DATA.length;
-  document.getElementById('hero-badge').textContent = `${ACTIVITY_DATA.length} Activities · ${new Set(ACTIVITY_DATA.map(a => a.category)).size} Categories`;
+  const catCount = new Set(ACTIVITY_DATA.map(a => a.category)).size;
+  document.getElementById('hero-badge').textContent = `${ACTIVITY_DATA.length} Activities · ${catCount} Categories`;
+  document.getElementById('hero-cat-count').textContent = catCount;
 
+  injectCategoryStyles();
   buildCategoryButtons();
 
   document.getElementById('modal-close').addEventListener('click', closeModal);
@@ -1230,6 +1265,15 @@
     if (currentModalId != null) toggleFavorite(currentModalId);
   });
 
+  document.getElementById('adv-toggle').addEventListener('click', () => {
+    advFiltersOpen = !advFiltersOpen;
+    const panel = document.getElementById('filter-advanced');
+    const btn = document.getElementById('adv-toggle');
+    panel.classList.toggle('hidden', !advFiltersOpen);
+    btn.classList.toggle('active', advFiltersOpen);
+    btn.setAttribute('aria-expanded', String(advFiltersOpen));
+  });
+
   function openRandom() {
     const items = filtered();
     if (!items.length) return;
@@ -1238,6 +1282,7 @@
 
   document.getElementById('hero-random-btn').addEventListener('click', openRandom);
   document.getElementById('header-random').addEventListener('click', openRandom);
+  document.getElementById('grid-random-btn').addEventListener('click', openRandom);
 
   updateToggleUi();
   render();
