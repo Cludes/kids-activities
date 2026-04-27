@@ -27,7 +27,9 @@ const ACTIVITIES = [
       "Use a black marker to draw a nose and mouth. Add whiskers for a cat, an elongated trunk for an elephant, or a beak for a bird.",
       "Add details with paint or markers: spots on a cheetah, stripes on a tiger, scales on a fish, feather patterns on an owl. Use a fine brush for detailed work.",
       "Write the animal's name in small letters on the back along with the creator's name and date.",
-      "If making more than one, display them as a zoo or farm by stringing them along a piece of yarn with paper clips. Talk about each animal: where does it live? What does it eat?"
+      "If making more than one, display them as a zoo or farm by stringing them along a piece of yarn with paper clips. Talk about each animal: where does it live? What does it eat?",
+      "Extend the learning: ask the child to tell you three facts about the animal they made. Look up one new fact together. For older children, write a short fact card to display beside the animal on the yarn.",
+      "Cleanup and celebration: wash hands and brushes together, then admire the finished creation. Ask: what would you do differently next time? Which part turned out best?"
     ],
     "tips": "Laying out all the newspaper and gathering every material before painting means no mid-activity scrambling. Making a zoo? Give each person a different animal so you end up with a whole collection at the end."
   },
@@ -153,7 +155,9 @@ const ACTIVITIES = [
       "Cut 3-5 lengths of yarn roughly 30cm long and tie them evenly spaced along the bottom of the ring.",
       "Thread beads onto each hanging strand: push a bead up, tie a knot below it to hold it in place, add another bead above the knot, repeat.",
       "Attach a feather to the bottom of each hanging strand by wrapping a small piece of yarn tightly around the feather quill and the yarn end, then knotting securely.",
-      "Tie a loop of yarn to the top of the ring for hanging. Hang it above a bed or window and talk about the tradition: dream catchers were made by many Native American cultures to filter out bad dreams."
+      "Tie a loop of yarn to the top of the ring for hanging. Hang it above a bed or window and talk about the tradition: dream catchers were made by many Native American cultures to filter out bad dreams.",
+      "Variation for older children: try making a more geometric web by spacing anchor points evenly around the ring (tie 8 equally-spaced points first), then weaving between them in a precise pattern rather than free-form.",
+      "Reflection: once it is hung, ask what the child hopes the dream catcher will catch. What is their most recent good dream? What is a dream they would like to have?"
     ],
     "tips": "The web does not need to be geometrically perfect - a naturally irregular web looks more authentic and beautiful. Using multiple colours of yarn for the web creates a gradient effect."
   },
@@ -213,7 +217,9 @@ const ACTIVITIES = [
       "Starting from one side, gently grab the top layer of tissue paper and pull it upward and toward the centre. Do this slowly - tissue paper tears if you rush.",
       "Continue pulling up each layer separately, alternating sides, until all layers are fluffed toward the centre. The flower should look full and rounded.",
       "Twist the pipe cleaner stem to adjust the angle of the flower head. Wrap two stems together to create a stronger, longer stem.",
-      "Arrange several flowers together in a bunch and secure with a ribbon, or place them in a vase. They also look beautiful strung along a piece of twine as a paper garland."
+      "Arrange several flowers together in a bunch and secure with a ribbon, or place them in a vase. They also look beautiful strung along a piece of twine as a paper garland.",
+      "Variation: for a smaller, tighter flower (like a peony or rose), use only 4 sheets of tissue paper and do not trim the ends before accordioning. The denser, uncut tips create a fuller, rounder bloom.",
+      "Display and gift: make 6-8 flowers together and arrange in a small vase or tie with ribbon as a gift bouquet. These keep their colour for weeks if stored dry and away from humidity."
     ],
     "tips": "Mixing two colours in the same stack creates an ombre or two-tone flower. These flowers last for weeks if kept dry - make a large bunch and they work as a permanent centrepiece."
   },
@@ -508,7 +514,9 @@ const ACTIVITIES = [
       "Create sections across the bowl: granola along one edge, sliced banana down the middle, berries on the other side. Work fast but neatly.",
       "Sprinkle chia seeds and shredded coconut over the top for crunch and texture.",
       "Add a final drizzle of honey or nut butter in a zigzag line across everything.",
-      "Photograph it before eating! Then ask: which topping would you choose differently next time? What new fruit could we add?"
+      "Photograph it before eating! Then ask: which topping would you choose differently next time? What new fruit could we add?",
+      "Nutrition moment: name the colour groups in the bowl. Purple berries, yellow banana, brown granola, white coconut. Talk about why eating many colours is good for the body - different colours contain different nutrients.",
+      "Make it a regular habit: smoothie bowls are quick enough for a school morning. Let the child design their own signature bowl with a specific name: 'The Purple Power Bowl', 'The Sunrise Bowl', 'The Green Dragon Bowl'."
     ],
     "tips": "Freeze bananas when they are very ripe - they blend smoother and taste sweeter. Try adding a handful of spinach: it turns the bowl bright green and kids cannot taste it at all."
   },
@@ -535,12 +543,16 @@ const ACTIVITIES = [
     "steps": [
       "Mix flour, sugar, baking powder, and salt in a bowl.",
       "Whisk milk, egg, and melted butter in a separate jug.",
-      "Pour the wet ingredients into the dry and stir until just combined - a few lumps are fine.",
-      "Heat a pan on medium and melt a little butter.",
-      "Drop a small spoonful (about a tablespoon) of batter for each mini pancake.",
-      "Cook until bubbles form on the surface and the edges look set, then flip.",
-      "Cook 1 more minute until golden underneath.",
-      "Stack them up high and add toppings."
+      "Pour the wet ingredients into the dry and stir until just combined - a few lumps are fine. Over-mixing develops gluten and makes the pancakes tough instead of fluffy.",
+      "Heat a non-stick pan or griddle on medium heat. Melt a small knob of butter and swirl to coat. Test the temperature with a drop of water - it should sizzle immediately.",
+      "Drop a small spoonful (about a tablespoon) of batter for each mini pancake, leaving space between each one as they spread slightly.",
+      "Cook until bubbles form across the surface and the edges look set and slightly dry. This takes about 2 minutes. Do not press down on the pancake.",
+      "Flip carefully with a flat spatula in one confident motion. Hesitant flips cause the pancake to fold.",
+      "Cook 1 more minute until golden underneath. Lift a corner gently to check - it should be evenly golden.",
+      "Stack them up high. How tall can the tower get before it falls? Place toppings strategically - syrup goes on last or the stack slides.",
+      "Counting maths: how many pancakes did you make in total? Share them equally - how many does each person get? Is there a remainder?",
+      "Clean up together: wipe the pan with paper towel while still warm (not hot), wash the mixing bowls, and clear the cooking area. A clean kitchen is part of good cooking.",
+      "Variation: add blueberries, chocolate chips, or banana slices directly to the batter once it hits the pan, before flipping. This way each pancake has its add-ins perfectly distributed."
     ],
     "tips": "Don't overmix the batter - lumps are good. Add blueberries or chocolate chips directly onto the batter once it hits the pan, before flipping."
   },
@@ -594,15 +606,19 @@ const ACTIVITIES = [
     "description": "Shake cream in a jar until it magically turns into butter  - science and snack in one.",
     "steps": [
       "Pour cream into the jar, filling it about halfway.",
-      "Add a pinch of salt and seal the lid tightly.",
-      "Shake the jar hard. Take turns  - it takes about 10–15 minutes of shaking.",
-      "First it will become whipped cream, then start to look chunky.",
-      "Keep shaking until a solid yellow lump forms and separates from the liquid.",
-      "That liquid is buttermilk  - save it for pancakes!",
-      "Rinse the butter blob with cold water and press it a few times to remove leftover buttermilk.",
-      "Spread on crackers and taste it!"
+      "Add a pinch of salt and seal the lid tightly. Wrap a rubber band around the lid for extra grip and check it is truly secure before the shaking starts.",
+      "Shake the jar hard. Take turns - it takes about 10-15 minutes of shaking. Set a timer so everyone shakes for the same amount of time.",
+      "First it will become whipped cream - stop and show the child this stage. Taste it! It is lightly sweet and fluffy. Keep shaking.",
+      "The whipped cream will start to look chunky and yellow-tinged. The fat molecules are clumping together. Keep shaking.",
+      "Keep shaking until a solid yellow lump forms and separates from the liquid. The change happens suddenly - the moment the butter forms is dramatic and exciting.",
+      "That liquid is buttermilk - pour it into a separate container. Real buttermilk can be used for pancakes, scones, or muffins.",
+      "Rinse the butter blob under cold water, pressing it gently with clean hands to squeeze out any remaining buttermilk. Rinse until the water runs clear.",
+      "Press the butter into a small ramekin or wrap in cling film. It can be refrigerated and used like any other butter.",
+      "Science explanation: cream contains fat globules suspended in liquid. Shaking agitates them repeatedly until the membranes around the fat break and the fat molecules stick together, forming butter.",
+      "Taste comparison: try your homemade butter next to shop-bought butter. Can you taste the difference? What is different?",
+      "Spread on crackers or warm toast immediately and eat. This is genuinely delicious."
     ],
-    "tips": "Marble-sized balls in the jar will speed up the process by helping churn the cream."
+    "tips": "Marble-sized balls in the jar will speed up the process by helping churn the cream. Cream at room temperature churns faster than cold cream straight from the fridge."
   },
   {
     "id": 20,
@@ -627,6 +643,9 @@ const ACTIVITIES = [
       "Use a spreader or the back of a spoon to fill each groove from end to end. Show children how to spread in smooth strokes rather than clumping it all in the middle.",
       "Count out the raisins or dried cranberries together - these are the ants! Press 5-8 in a neat row along each log, pushing them slightly into the filling so they stay put.",
       "Ask: why do we call them ants on a log? What do the raisins remind you of? Can you make the ants march in a different pattern?",
+      "Variation: try different fillings side by side and compare. Peanut butter vs cream cheese: which do you prefer? Try adding sliced banana coins on top of the filling as well as raisins.",
+      "Introduce the food groups: celery is a vegetable, peanut butter has protein and healthy fat, raisins are dried fruit with natural sugar. Discuss why each food group is important.",
+      "For a group activity: set up a DIY station where each child builds their own. Offer multiple toppings - chocolate chips, dried cranberries, sunflower seeds - so each person can customise.",
       "Serve straight away - celery softens if left sitting more than 20 minutes. Pairs well with apple slices or cheese crackers for a full snack plate."
     ],
     "tips": "For extra fun, use a mix of raisins, chocolate chips, and dried cranberries and let kids choose their own ant species. Children who normally refuse celery often eat it happily when they have built it themselves."
@@ -939,7 +958,9 @@ const ACTIVITIES = [
       "Go outside together and choose a hanging spot: a tree branch at least 2-3 metres up, away from fences or surfaces that cats can jump from.",
       "Hang the feeder and step back at least 3 metres. Birds will not approach while you are standing too close.",
       "Make a simple tally chart with columns for different birds. Check the feeder twice a day and record every visitor. Use a bird identification guide or a free phone app to name species.",
-      "Discuss: why do birds need extra food in winter? How does a bird's beak shape tell you what it eats? Replace feeders every 2 weeks or when empty."
+      "Discuss: why do birds need extra food in winter? How does a bird's beak shape tell you what it eats? Replace feeders every 2 weeks or when empty.",
+      "Weather watch: check the feeder after rain or wind. How did the weather affect the seed? Did more birds visit on colder days? Make a simple weather-vs-bird-count chart over a week.",
+      "Make a second feeder using a slightly different seed mix and hang both. Compare which one attracts more birds and different species - this is a simple controlled experiment."
     ],
     "tips": "If you do not have birdseed, use crushed crackers, rolled oats, or sunflower seeds. Making several feeders and hanging them at different heights attracts a wider range of species."
   },
@@ -961,16 +982,20 @@ const ACTIVITIES = [
     ],
     "description": "Build a miniature garden world with tiny paths, a pond, and a home for fairies.",
     "steps": [
-      "Fill a pot or section of garden with soil.",
-      "Plant small plants or succulents  - these are the trees.",
-      "Lay a small mirror flat in the soil as a fairy pond.",
-      "Create a pebble path leading to the mirror.",
-      "Build a small house from sticks, bark, and leaves.",
-      "Add a gate from two twigs and a piece of string.",
-      "Place tiny figurines or animals in the garden.",
-      "Water your plants and tend to your garden over time."
+      "Choose and prepare the container: a shallow terracotta pot (30cm+), a ceramic planter, a vintage colander, or a section of raised garden bed all work well. Ensure the container has drainage holes - fairy gardens in waterlogged soil quickly rot.",
+      "Fill with potting soil: use quality potting mix for containers, not garden soil which compacts. Fill to 5cm below the rim to leave room for features. Lightly pack it so it is firm but not dense.",
+      "Plan before planting: lay out all items on a table first and arrange them before committing anything to soil. Think about where paths lead, where water features sit, and how the plants relate to structures in terms of scale.",
+      "Plant small plants or succulents - these become the fairy garden trees and hedges. Creeping thyme, sedum, or baby's tears all work at a suitable scale. Make holes with a finger and nestle roots in firmly, pressing soil around them.",
+      "Lay a small mirror flat in the soil as a fairy pond. Position it slightly sunk into the surface so the edges are level with the soil - this looks most realistic. Place a few pebbles around the edge to frame it.",
+      "Create a pebble path: sort small pebbles by size and colour if possible. Press them gently into the soil surface in a winding or straight path from the edge of the pot to the pond or house.",
+      "Build a small house from sticks, bark, and leaves: find two flat pieces of bark for walls, a piece of thick bark for a roof, and a twig frame for the door opening. Press the walls into the soil and lean the roof across them.",
+      "Add a gate from two twigs and a piece of string: push two short upright twigs into the soil beside the path and stretch a string across them horizontally. This marks the entrance to the garden.",
+      "Place tiny figurines, animals, or handmade accessories: a small stone becomes a bench, a button becomes a stepping stone, a bottle cap becomes a birdbath filled with a drop of water.",
+      "Add natural details: a piece of moss creates a lawn, scattered pine needles become a leaf pile, a small dried flower head becomes a table arrangement. Layer these details until the scene feels inhabited.",
+      "Water your plants: use a small spray bottle rather than pouring water directly to avoid disturbing the decorative elements. Succulents need very little water - once a week is usually sufficient.",
+      "Tend to the garden over time: fairy gardens are living environments that change. Plants grow, pebbles shift, seasonal decorations can be changed. Add a tiny seasonal item at each significant occasion - a tiny pumpkin at Halloween, a sprig of holly in winter."
     ],
-    "tips": "A cat litter tray works perfectly as a contained fairy garden for inside if needed."
+    "tips": "A cat litter tray works perfectly as a contained fairy garden for inside if needed. Succulents are nearly indestructible and need almost no maintenance - ideal for young gardeners."
   },
   {
     "id": 32,
@@ -1050,16 +1075,20 @@ const ACTIVITIES = [
     ],
     "description": "Plant seeds and watch them grow over weeks  - sunflowers, herbs, or veggies all work well.",
     "steps": [
-      "Choose what to grow  - beans and sunflowers are fast and satisfying for kids.",
-      "Fill pots with potting mix.",
-      "Make a small hole with your finger for each seed.",
-      "Drop in one or two seeds and cover gently.",
-      "Water lightly  - just until the soil is damp.",
-      "Write the plant name and date on a marker and stick it in the pot.",
-      "Place in a sunny spot and water regularly.",
-      "Keep a growing journal with drawings and measurements."
+      "Choose what to grow: beans and sunflowers are fast and satisfying for kids because results appear quickly. Beans sprout in 5-7 days; sunflowers appear in 7-10 days. Herbs like basil and coriander are useful and grow fast. Cherry tomatoes take longer but reward patience magnificently.",
+      "Read the seed packet together: what does it say about spacing, depth, sunlight, and watering needs? Seed packets are packed with information. Even young children can understand 'full sun' and 'water when soil is dry'.",
+      "Prepare the pots or bed: fill pots with good quality potting mix, not garden soil which compacts. If using a garden bed, loosen the soil with a fork to 15cm depth, remove stones and roots.",
+      "Make holes for seeds: use your finger to press a hole to the correct depth. For beans: 3-4cm. For sunflowers: 2-3cm. For small herb seeds: just barely covered. Proper depth is critical for germination.",
+      "Plant the seeds: place one seed per hole (or two for beans, thinning to the strongest seedling later). Cover gently with soil and press down lightly to ensure good seed-to-soil contact.",
+      "Water carefully: water lightly so the soil is evenly damp, not waterlogged. A watering can with a rose head is ideal - a stream from a jug can wash seeds out of position. Check by pushing a finger 2cm into the soil - it should feel damp, not wet.",
+      "Label each pot clearly: write the plant name and the date planted on a plant marker, lolly stick, or strip of masking tape on the pot.",
+      "Place in the correct light: most vegetable seeds need full sun (6+ hours of direct sunlight daily). Herbs tolerate partial shade. Indoors, place on the sunniest windowsill and rotate pots a quarter turn every day so all sides get light.",
+      "Start a growing journal: draw the pot with soil on day 1. Return every 2-3 days and draw what has changed. Measure seedling height weekly with a ruler and record.",
+      "Watch for germination: the first signs are tiny pale loops of stem pushing up through the soil. Mark the date in the journal - this is an exciting moment.",
+      "Thin and transplant: if multiple seeds sprouted very close together, gently remove the weaker one at soil level with scissors. Once seedlings have 2 true leaves, they can be transplanted to bigger pots.",
+      "Tend daily and discuss growth: check soil moisture each day. As plants grow, stake tall plants, remove yellowed leaves, and watch for pests. Talk about what the plant needs and why. The habit of daily garden attention is the most valuable thing to teach."
     ],
-    "tips": "Bean seeds sprout in just 5–7 days, giving kids quick feedback. Grow cress on a damp cotton ball for same-day results."
+    "tips": "Bean seeds sprout in just 5-7 days, giving kids quick feedback. Grow cress on a damp cotton ball for same-day results. Keep a growing journal with drawings and measurements."
   },
   {
     "id": 35,
@@ -1208,16 +1237,20 @@ const ACTIVITIES = [
     ],
     "description": "Layer different liquids to create a rainbow column  - they won't mix because of density differences.",
     "steps": [
-      "Pour honey slowly down the side of the glass first.",
-      "Carefully add corn syrup on top.",
-      "Add dish soap.",
-      "Add blue-tinted water very slowly and gently.",
-      "Add vegetable oil.",
-      "Each layer should sit clearly above the last.",
-      "Gently drop small objects and watch each one sink to the layer that matches its density.",
-      "Try a grape, a cork, a coin, a small plastic toy."
+      "Prepare all materials before starting: the layers must be poured quickly, one after another, and you will not have time to search for items mid-pour. Set out: honey, corn syrup (or golden syrup), washing-up liquid, water with blue food colouring added, vegetable oil. Measure each into a separate small jug for easy pouring.",
+      "Understand the science first: this experiment works because different liquids have different densities - the amount of mass packed into each unit of volume. Heavier liquids sink; lighter liquids float on top. The layers stay separate because the liquids do not mix.",
+      "Use a tall, clear, straight-sided glass or cylinder - narrower glasses create a cleaner visual separation between layers. Wider containers work but the layers look less dramatic.",
+      "Layer 1 - Honey: pour honey slowly and carefully down the inside edge of the glass. It is the densest liquid and must go in first. Use a spoon or the back of a ladle to guide it gently. Never pour from height - it creates air bubbles that blur the layers.",
+      "Layer 2 - Corn syrup: hold a spoon just above the honey surface and pour corn syrup very slowly over the back of the spoon. The spoon diffuses the stream and prevents the new liquid from punching through the layer below.",
+      "Layer 3 - Washing-up liquid: pour the dish soap over the back of the spoon in the same way. Choose a brightly coloured variety for visual contrast - blue soap between amber corn syrup and blue water looks striking.",
+      "Layer 4 - Coloured water: add a strong concentration of food colouring to water first and stir well. Pour the coloured water over the back of the spoon with patience. This is the layer most prone to mixing with the soap - go slowly.",
+      "Layer 5 - Vegetable oil: pour oil directly over the water. Oil and water famously do not mix - the oil will sit cleanly on top of the water. You can see this immediately.",
+      "Stand back and observe: the layers should be distinct - amber honey at the base, then corn syrup, then coloured dish soap, then blue water, then clear oil floating at the top. Photograph it.",
+      "Density experiments with objects: carefully drop small objects and predict where each will stop. A grape (denser than water, less dense than syrup) should stop at the water/syrup boundary. A cork floats at the top. A coin sinks to the honey. A small plastic toy stops at the oil/water boundary.",
+      "Record predictions vs results: before each drop, ask the child to predict where the object will stop. Record on paper: prediction vs actual. Discuss why each result occurred in terms of density.",
+      "Cleanup and reset: do not pour the density tower down the drain all at once - honey and syrup together can block pipes. Discard in the bin or dilute heavily with water. Wash the glass thoroughly. Discuss what would happen if you stirred the tower vigorously."
     ],
-    "tips": "Pour each layer over the back of a spoon to keep the layers clean and separate."
+    "tips": "Pour each layer over the back of a spoon to keep the layers clean and separate. The slower you pour, the more distinct the layers will be. Predict where objects will float before dropping them in."
   },
   {
     "id": 40,
@@ -3440,7 +3473,9 @@ const ACTIVITIES = [
       "SNAP - Shuffle and deal ALL cards face-down in equal stacks. Nobody looks at their cards. Players take turns flipping their top card into a shared central pile.",
       "The moment two matching numbers (or face cards) appear on top of the pile in a row - the first player to shout SNAP and slap the pile wins ALL the cards in it. Add them to the bottom of your personal stack.",
       "If someone calls SNAP incorrectly, they give one card to every other player as a penalty. The player who collects all the cards in the deck wins.",
-      "After the game, talk about it: what is the difference between a luck game and a strategy game? Which parts of Go Fish involved strategy? Which parts were pure luck?"
+      "After the game, talk about it: what is the difference between a luck game and a strategy game? Which parts of Go Fish involved strategy? Which parts were pure luck?",
+      "Adapt for younger children: for ages 3-5, use only cards numbered 1-5. Reduce the Go Fish hand to 3 cards. For Snap, match suit colours (red vs black) rather than numbers - this is much simpler and just as exciting at that age.",
+      "Extend for older children: introduce new card games using the same deck - War (each player flips a card, higher card wins the pile), Pairs/Memory (all cards face down, flip two at a time to find matches), or Crazy Eights."
     ],
     "tips": "For younger children, play Go Fish using only number cards 1-5 to simplify the rules. For Snap with toddlers, match colours (red vs black) instead of numbers - much easier and just as exciting."
   },
@@ -4142,16 +4177,20 @@ const ACTIVITIES = [
     ],
     "description": "Use a grid to break a picture into small squares and copy each section - a technique professional artists use to scale up images.",
     "steps": [
-      "Draw a light grid of equal squares over your reference image.",
-      "Draw the same number of squares (but larger) on your drawing paper.",
-      "Label the rows and columns on both grids so you know which square is which.",
-      "Look at just one small square at a time and copy only what is inside that square.",
-      "Do not look at the whole picture - focus on lines and shapes within each square.",
-      "Once all squares are done, erase the grid lines.",
-      "Add shading and detail.",
-      "Discuss: this technique is called the grid method and has been used by artists for centuries."
+      "Choose a reference image: for a first grid drawing, choose a simple image with clear outlines - an animal portrait, a face, or a simple object. Avoid images with complex backgrounds. A printed photograph or illustration works well.",
+      "Draw the grid on your reference image: using a ruler and pencil, draw evenly spaced lines across the image both horizontally and vertically. For a small image (A5), a 4x4 grid is ideal. Each square should be equal in size.",
+      "Label the rows and columns: number the columns 1, 2, 3 along the top and letter the rows A, B, C down the side. Do the same on your drawing paper so you always know which square you are copying.",
+      "Draw the same grid on your drawing paper at a larger scale: if your reference squares are 2cm, make your drawing squares 4cm. This scales up the image automatically. Use a ruler and light pencil.",
+      "Focus on one square at a time: cover all other squares on your reference with pieces of paper, leaving only the square you are currently copying visible. This prevents your brain from trying to draw the whole object at once.",
+      "Copy what is in each square with line and shape only: do not think 'I am drawing an eye.' Think 'I am drawing a curved line from the top-left of this square to the top-right, then curving down.' Drawing shapes rather than symbols is the key insight.",
+      "Work systematically: complete each square before moving to the next. Some people work left-to-right across rows; others work from the most important area outward. Either method works.",
+      "Once all squares are copied, erase the grid lines from the drawing paper lightly so they fade but the drawing remains. Erasing too hard can remove drawing lines.",
+      "Add shading and detail: look at the reference image for areas of shadow and highlight. Use a range of pencil pressures to create light-medium-dark tones. Blend with a fingertip for smooth gradients.",
+      "Compare your drawing with the reference: hold them side by side. What is accurate? What would you adjust? Identifying specific differences is more useful than general 'that doesn't look right' feelings.",
+      "Discuss the history: the grid method has been used by professional artists for centuries to scale up small sketches into large murals. It is a legitimate professional technique, not a cheat.",
+      "Try it again with a more complex image: once the method is understood, try a face, a complex animal, or an architectural scene. The method is identical regardless of complexity."
     ],
-    "tips": "Start with a simple image with clear outlines. Photographs of animals or portraits work very well."
+    "tips": "Start with a simple image with clear outlines. Photographs of animals or portraits work very well. Cover all squares except the one you are copying to prevent your brain from jumping ahead."
   },
   {
     "id": 135,
@@ -4168,16 +4207,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw an object while looking only at the object, not your paper - the results are always funny and often beautiful.",
     "steps": [
-      "Set up your subject where you can see it clearly.",
-      "Put your pen on the paper and look at the subject.",
-      "Slowly move your pen as your eyes trace the edges and details of the subject.",
-      "Do not look at the paper at all - not even a glance.",
-      "Move your pen at the same speed your eye moves.",
-      "When finished, look at the result.",
-      "It will be distorted but will have an unusual energy and detail.",
-      "Try the same subject 3 times and compare them."
+      "Choose your subject: your own hand is the perfect first subject because it is always available, stays completely still, and is familiar enough that the distorted result is immediately recognisable and funny.",
+      "Set up properly: sit comfortably with paper in front of you and the subject visible to your side or above the paper. You must be able to look at the subject without your eyes naturally falling to the paper.",
+      "Understand the purpose: this exercise trains your eyes to observe rather than drawing from memory. Most people draw what they think something looks like rather than what it actually looks like. Blind contour forces genuine observation.",
+      "Place pen on paper and look only at the subject: position the pen at the outer edge of the subject and look at that same starting point on the actual subject. Your pen will follow where your eye travels.",
+      "Begin moving: trace the outer edge very slowly with your eyes and simultaneously move the pen at the same pace. When your eye travels 1mm along the contour, your pen moves 1mm. Do not rush.",
+      "Never look at the paper - not even a quick glance. The distortion that results is the point, not a failure. Looking disrupts the eye-hand connection the exercise is training.",
+      "Follow every detail: when your eye reaches a knuckle line, a fingernail edge, or the gap between fingers, follow it faithfully. The more slowly and carefully you look, the more information your pen captures.",
+      "When finished, look at the paper for the first time: the result will be distorted and proportionally wrong. It will also have a remarkable, energetic quality that careful planned drawings often lack.",
+      "Compare 3 drawings of the same subject: do the same drawing 3 more times and compare them. Notice what is consistent across all versions - these are things you observe most accurately.",
+      "Try modified versions: semi-blind (allowed one glance when moving to a new major area), timed (30 seconds only), or continuous line (pen never leaves the paper). Each variation develops a different observation skill.",
+      "Apply the lesson to regular drawing: after blind contour practice, do a regular observed drawing of the same subject. Most people find their observation is noticeably sharper than before the exercise.",
+      "Try different subjects: a shoe, a plant, a piece of fruit, or a toy. The subject with the most detail produces the most interesting results. Choose something with texture, varied edges, and overlapping parts."
     ],
-    "tips": "Your own hand is the perfect first subject - it is always available and stays still. This exercise improves observation skills dramatically."
+    "tips": "Your own hand is the perfect first subject - it is always available and stays still. This exercise improves observation skills dramatically. The distorted result is evidence of close observation, not a mistake."
   },
   {
     "id": 136,
@@ -4195,16 +4238,20 @@ const ACTIVITIES = [
     ],
     "description": "Learn one-point perspective by drawing a road vanishing into the horizon or a room viewed from one corner.",
     "steps": [
-      "Draw a horizontal line across the middle of your paper - this is the horizon line.",
-      "Mark a dot in the middle of the horizon line - this is the vanishing point.",
-      "For a road: draw two lines from the vanishing point down to the bottom corners of the paper.",
-      "Add fence posts, trees, and road markings that all angle toward the vanishing point.",
-      "For a room: draw a square in the centre, then connect all four corners to the vanishing point.",
-      "Add doors, windows, and floor tiles along the perspective lines.",
-      "Colour in your scene.",
-      "Discuss: objects appear smaller the further away they are - the vanishing point represents infinite distance."
+      "Understand what perspective drawing does: when we look down a straight road, it appears to narrow to a point in the distance even though the road is actually the same width the whole way. Perspective drawing recreates this visual illusion on flat paper.",
+      "Set up the tools: use a sharp pencil and a ruler. Every line in perspective drawing must be straight - freehand perspective lines ruin the illusion. Have an eraser ready for construction lines that will be removed later.",
+      "Draw the horizon line: a light horizontal pencil line across the middle of the paper. This represents the viewer's eye level. Move it higher for a bird's-eye view; lower for a worm's-eye view.",
+      "Mark the vanishing point: a small dot on the horizon line. This is where all parallel lines appear to converge in the distance. Label it VP. Off-centre placement creates more interesting compositions.",
+      "Draw a road: two straight lines from the vanishing point down to the bottom corners of the paper. The gap between these lines at the bottom is the road width in the foreground; they converge at VP in the distance.",
+      "Add elements alongside the road: every horizontal element must align toward VP. For fence posts: mark the base position of the first post, then draw a line from VP through that point. The next post goes on this line, shorter than the first. Trees and lamp posts follow the same rule.",
+      "Add road markings: dashed white lines also angle toward VP. Each dash is shorter and smaller as it approaches the VP. Kerb lines, shadows, and any ground-level element follows the same convergence.",
+      "For a room interior: draw a square in the centre of the paper - this is the back wall. Connect all four corners to VP. These are the ceiling, floor, and side wall edges.",
+      "Add doors, windows, and furniture: all horizontal edges of these elements angle toward VP. A window's bottom sill and top frame both angle toward the same VP. Floor tiles are rectangles whose parallel sides meet at VP.",
+      "Colour the scene: objects closer to the viewer are larger, more detailed, and more vivid in colour. Objects nearer the VP are smaller, less detailed, and slightly lighter. This atmospheric perspective strengthens the depth illusion.",
+      "Check every line: hold a ruler along any horizontal surface line in the drawing - does it point toward the VP? If not, adjust it. Checking each line creates technical precision.",
+      "Discuss and extend: objects appear smaller the further away they are because of how light converges at the eye. Look at a real straight road or corridor and identify the vanishing point in the real world. Then introduce two-point perspective as the next step: buildings seen at an angle use two vanishing points."
     ],
-    "tips": "Use a ruler for all perspective lines to keep them accurate. Once they understand one-point perspective, look up two-point perspective as the next challenge."
+    "tips": "Use a ruler for all perspective lines to keep them accurate. Once they understand one-point perspective, look up two-point perspective as the next challenge. Check every line points to VP."
   },
   {
     "id": 137,
@@ -4282,16 +4329,20 @@ const ACTIVITIES = [
     ],
     "description": "Drop watery paint onto paper and blow through a straw to send it racing across in wild unpredictable directions.",
     "steps": [
-      "Thin the paint with water until it is very runny.",
-      "Drop a large blob of paint near the bottom of the paper.",
-      "Hold a straw close to the blob (but not touching) and blow hard.",
-      "The paint shoots outward in the direction you blow.",
-      "Add more colours and blow them into each other.",
-      "Tilt the paper to let colours run and merge.",
-      "Add a second layer once dry.",
-      "Turn the finished piece and find shapes in it - trees, monsters, fireworks."
+      "Prepare the workspace: cover the table with newspaper and put on an apron. Blow painting sprays unexpectedly far. Secure the paper with tape at two corners to prevent it flying when blown.",
+      "Thin the paint thoroughly: mix paint with water until significantly more watery than normal. A good test: tilt the dish - the paint should run freely. Thick paint does not flow when blown and produces short stubby bursts instead of long dramatic branches.",
+      "Choose your subject: the most spectacular blow paintings look like trees, fireworks, sea anemones, or abstract splashes. Choose 2-4 complementary colours that will look good when they blend.",
+      "Load the paper: using a dropper, teaspoon, or brush, place a generous blob of paint near the bottom or centre of the paper. Use more paint than seems right - too little produces thin, weak results.",
+      "Blow through the straw: hold the straw 2-3cm above the paint blob (not touching). Blow a single hard, fast breath aimed at the centre of the blob. The paint shoots outward in the direction of your breath.",
+      "Control the direction: by tilting the straw at different angles you control which way the paint flows. Blow upward from a blob at the bottom to create a tree trunk and branches. Blow in all directions from a central blob for a firework or sea creature.",
+      "Add secondary branches: place tiny droplets of paint at the tips of the main branches and blow more gently to extend them into finer sub-branches. This layering creates the most realistic tree structures.",
+      "Add colour: drop different coloured paint onto the existing painting while still wet. Blow the new colour and it will mix with and separate from the first colour, creating organic colour blends.",
+      "Tilt the paper: while paint is still very wet, tilt the paper in different directions and let gravity draw the paint. This combines blown and gravity-run paint for more complex effects.",
+      "Let partially dry before a second layer: after 5-10 minutes the paint is tacky. Adding a second round of blowing at this point creates layered depth - newer layers sit on top of and separate from dried layers.",
+      "Look for shapes: once complete, hold the painting at arm's length and find the shapes. Turn it sideways and upside down. What does it look like from different angles? Rotating often reveals unexpected images.",
+      "Cut, frame, or combine: cut individual tree shapes and mount them on coloured card. Or add painted hills and sky at the base to complete a landscape. Blow paintings also work as unique gift wrap."
     ],
-    "tips": "Very thin paint works much better than thick paint. This is great for making abstract tree shapes - blow upward from a blob at the bottom."
+    "tips": "Very thin paint works much better than thick paint. This is great for making abstract tree shapes - blow upward from a blob at the bottom. Use less paint than seems right for branches, more for trunks."
   },
   {
     "id": 140,
@@ -4309,16 +4360,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw a colourful scene with oil pastels then paint over the whole page with black - the pastel shows through like stained glass.",
     "steps": [
-      "Draw your scene with oil pastels, pressing down firmly and filling every area with colour.",
-      "Use bright, vivid colours - yellow, orange, red, bright blue.",
-      "Do not leave any white space in the design area.",
-      "Mix black paint with a small amount of washing-up liquid (this helps it stick to the oily pastel).",
-      "Paint over the entire page with black.",
-      "Work quickly and do not over-brush the same spot.",
-      "Allow to dry completely.",
-      "The coloured oil pastel will show through the black paint as bright windows of colour."
+      "Understand the technique: oil pastels contain wax and oil, which repel water-based paint. Drawing with oil pastel then painting over it with black paint creates a stunning effect where the coloured pastel glows through the dark background like stained glass.",
+      "Prepare the workspace: use thick card or cardboard for the base - thin paper buckles when wet and paint pools. Watercolour paper is ideal; cereal box card works well.",
+      "Choose your subject: this technique works best with subjects that have a natural night-time or dramatic quality. Best subjects: a city skyline at night, a tree with a full moon, an animal face with bold markings, or a stained-glass geometric design.",
+      "Sketch lightly in pencil before drawing in pastel: a quick pencil guide of the main shapes means you can plan composition without committing. The pencil lines will be covered by the pastel.",
+      "Draw with oil pastels pressing very firmly: apply with heavy, determined pressure. Light strokes will not deposit enough oil and the paint will cover them instead of resisting it. The colour should be dense and saturated.",
+      "Fill every area with colour: leave no white space within your design. White uncoloured areas will simply show as black in the final result. Choose warm, bright, vivid colours - yellow, orange, red, bright blue, lime green.",
+      "Mix black paint with a small amount of washing-up liquid: pure black paint does not stick well to oily pastel surface. Add 1 teaspoon of washing-up liquid per 4 tablespoons of paint. This reduces surface tension just enough.",
+      "Apply the black paint with a large flat brush: load the brush generously and use wide, sweeping strokes. Cover the entire surface in one direction first. Do not scrub or go over the same area repeatedly.",
+      "Work quickly: the wash should be completed within 2-3 minutes before the paint begins to dry. Over-brushing when the paint is already drying tears the surface and lifts the pastel.",
+      "Allow to dry completely without touching: the temptation to check by scratching is strong - resist it. The effect is not fully visible until completely dry.",
+      "Reveal the result: when dry, the coloured oil pastel glows through the black paint. If some areas are not covered with black, add another thin coat carefully.",
+      "Extend the technique: add white oil pastel stars by pressing firmly on a dried black area. The white pastel marks show as bright scratched-back elements. This creates a dramatic night-sky effect with the coloured landscape below."
     ],
-    "tips": "Press very hard with the oil pastels for the best resist effect. Thin, light strokes will disappear under the paint."
+    "tips": "Press very hard with the oil pastels for the best resist effect. Thin, light strokes will disappear under the paint. Adding washing-up liquid to the black paint is essential for proper coverage."
   },
   {
     "id": 141,
@@ -4334,16 +4389,20 @@ const ACTIVITIES = [
     ],
     "description": "Fill small squares with repeating patterns and textures to create meditative, intricate tile artwork.",
     "steps": [
-      "Hold your card in one hand and pen in the other.",
-      "Draw a light pencil border around the edge.",
-      "Inside the border, draw a curvy or straight dividing line to create 2-3 sections.",
-      "Fill each section with a completely different repeating pattern.",
-      "Pattern ideas: overlapping scales, concentric curves, dots in rows, parallel wavy lines, spirals, cross-hatching.",
-      "Fill every bit of white space within each section.",
-      "Do not plan ahead - just start a pattern and repeat it until the section is full.",
-      "Make 4-6 tiles and arrange them into a larger design."
+      "Prepare the supplies: zentangle is done on small manageable tiles rather than large paper - this makes it feel achievable. Cut white card into 9x9cm squares. Black fine-tip pen only - no pencil, no erasing, no planning.",
+      "Hold the tile in one hand: zentangle is traditionally held in the non-dominant hand and rotated as you draw, so each pattern section can be approached from a comfortable angle.",
+      "Draw the border: make a small dot in each corner about 3mm from the edge. Connect the dots with slightly curved lines to create a soft border. This frames the drawing space and begins the deliberate quality of zentangle.",
+      "Draw the string: inside the border, draw a free-flowing curvy line (or several lines) that divides the tile into 2-4 sections. This is the string. It can be a single S-curve, a wavy line, or an overlapping pattern.",
+      "Choose the first section and a pattern: zentangle patterns are simple, repeatable marks. Begin with a section that is not too large. Good beginner patterns: overlapping scales, concentric curves, parallel wavy lines, dots in rows, spirals.",
+      "Fill the entire section with that one pattern: every bit of white space within the section should be covered. Unfinished sections look incomplete. The pattern should be regular but not mechanically perfect - slight variation is natural.",
+      "Move to the next section with a completely different pattern: contrast between sections creates visual interest. After curves, choose a sharp angular pattern. After small marks, choose large shapes. Cross-hatching, brick rectangles, spiky sun shapes.",
+      "Continue section by section: fill each section with a different pattern using pen only, no erasing. Rotate the tile in your hand as you move between sections so each pattern is drawn comfortably.",
+      "Add shading with a pencil (optional): once the tile is completely filled with pen, a soft pencil can add shadows under certain elements - beneath scales, at the edges of sections, behind circles. Blend with a fingertip for a three-dimensional effect.",
+      "Sign the back: write your name, date, and the patterns used on the back of the tile. This records your progress and creates a personal archive.",
+      "Make multiple tiles and arrange them: 4 or 6 tiles arranged together create a larger mosaic. Patterns from different tiles may align in interesting ways across borders.",
+      "Practice the meditative quality: zentangle is deliberately slow and focused. The rule of no erasing reduces anxiety. The repetitive nature of each pattern quiets mental chatter. Many children find 20-30 minutes of zentangle genuinely calming."
     ],
-    "tips": "Pen only - no pencil. Mistakes become part of the pattern. This activity is genuinely calming and kids often want to do it for a long time."
+    "tips": "Pen only - no pencil. Mistakes become part of the pattern. This activity is genuinely calming and kids often want to do it for a long time. Rotate the tile in your hand to approach each section at a comfortable angle."
   },
   {
     "id": 142,
@@ -4362,16 +4421,20 @@ const ACTIVITIES = [
     ],
     "description": "Tear and cut newspaper into shapes to build a portrait or figure - no drawing needed.",
     "steps": [
-      "Decide on your subject: a face, a full body, an animal.",
-      "Tear newspaper into rough shapes for the large areas first: face, hair, clothing.",
-      "Tear smaller strips for details: eyebrows, lips, nose shadow.",
-      "Arrange everything on the card before gluing to get the composition right.",
-      "Glue down the large pieces first, then layer smaller pieces on top.",
-      "Use magazine pages with colour for specific tones - skin tones, bright clothing.",
-      "Add minimal details with a marker if needed.",
-      "Frame it."
+      "Choose your subject and gather source materials: a portrait (face and shoulders) is the most manageable starting point. Collect old newspapers and magazines. Sort before starting: pages with small text (good for skin tones), bold black headlines, colour photos, and patterned pages.",
+      "Prepare the base: use thick card or mounting board approximately A4 size. This needs to be rigid enough to support multiple layers of paper and glue without warping.",
+      "Sketch the composition lightly in pencil: draw a simple face outline on the card. This guide helps you position torn pieces accurately. The pencil marks will be covered.",
+      "Choose your tone palette: decide which newspaper sections represent which tones. Cream/unprinted newsprint for light skin areas; black headline pages for dark hair or shadow; colour pages for clothing.",
+      "Tear large background pieces first: never cut - torn edges are essential. Cut newspaper has a harsh geometric edge that looks artificial. Torn edges have a natural softness that blends with adjacent pieces.",
+      "Tear medium pieces for the face: the forehead, cheeks, and chin each need their own pieces. Tear while pulling slightly apart to control the edge direction. Practice tearing different directions to get curved edges where needed.",
+      "Tear tiny strips for facial details: eyebrows (two thin dark-print strips), lips (a curved piece from a reddish magazine page), the nose bridge (a subtle shadow piece). Smallest pieces define the character.",
+      "Dry-arrange before any gluing: lay every piece on the card without glue first. Step back and assess. Move pieces, swap tones, try options. Gluing before this step always leads to regret.",
+      "Glue from back to front: start with the most rearward element (background, then head shape, then facial features on top). Apply glue stick to the back of each piece. For large pieces, brush diluted PVA onto the card first.",
+      "Layer and overlap deliberately: visible overlapping of torn pieces gives newspaper portrait its unique quality. It looks built rather than drawn. Edges of lower pieces visible beneath upper pieces add texture and depth.",
+      "Add marker details very sparingly: a few precise lines for pupil definition or a thin jaw outline if needed. Use marker as a final precision tool only, not as a drawing substitute.",
+      "Display: newspaper portraits have a powerful visual quality unlike any other medium. The text of the newspaper becomes an unexpected design element - words about the world become the substance of a human face. Frame with a simple mat board mount."
     ],
-    "tips": "The texture of torn newspaper edges gives portraits an interesting, painterly quality. Avoid cutting - torn edges look far more natural."
+    "tips": "The texture of torn newspaper edges gives portraits an interesting, painterly quality. Avoid cutting - torn edges look far more natural. Dry-arrange everything before committing any piece with glue."
   },
   {
     "id": 143,
@@ -4391,14 +4454,18 @@ const ACTIVITIES = [
     ],
     "description": "Fill a sealed bottle with slow-swirling glitter and objects - shaking and watching it settle is calming for anxious or overwhelmed children.",
     "steps": [
-      "Fill the bottle about 2/3 full with warm water.",
-      "Add 2-3 big squeezes of clear glue or a few tablespoons of glycerine.",
-      "Add fine glitter generously - at least 3 tablespoons.",
-      "Add small gems, sequins, or glitter foam shapes.",
-      "Fill to the top with water, leaving minimal air.",
-      "Seal the lid with strong waterproof glue and let cure completely.",
-      "Shake and watch.",
-      "The glitter should take 2-3 minutes to fully settle - adjust with more glycerine for slower settling."
+      "Gather and test the bottle: use a clear plastic bottle with a screw-on lid. Test the closure by filling with water and turning upside down. Any leak will make the finished bottle unusable.",
+      "Introduce the purpose: 'We are going to make a special calm-down bottle. When you feel upset, shake it and watch the glitter settle. Your job is to keep breathing until every piece has settled - that usually takes 2-3 minutes.'",
+      "Fill with warm water: warm water keeps glycerine or glue fluid. Cold water causes glycerine to thicken and the glitter settles too fast. Fill the bottle about two-thirds full.",
+      "Add the slowing agent: clear glue or glycerine makes the glitter swirl slowly. Add 2-3 generous squeezes of clear PVA glue or 2-3 tablespoons of glycerine. More slowing agent means slower settling.",
+      "Add fine glitter: add at least 3-4 tablespoons. A single colour is beautiful; multiple colours are exciting. Ultra-fine cosmetic glitter catches light better than standard craft glitter.",
+      "Add small objects: plastic gems, sequins, or glitter foam shapes drift and swirl alongside the glitter, adding visual interest.",
+      "Add food colouring if desired: 2-3 drops tint the water and give the bottle a distinct character. Blue is calming; choose a colour the child finds soothing.",
+      "Test the settling speed: screw the lid on temporarily and shake. Time how long the glitter takes to settle fully. Aim for 2-3 minutes. Too fast - add more glycerine. Never settling - add a little more water.",
+      "Top up with water to the brim: minimal air space means minimal bubbles when shaken.",
+      "Seal the lid permanently: apply strong waterproof adhesive around the rim before screwing the lid on for the last time. Hold firmly and let cure for at least 30 minutes. Never skip this step.",
+      "Personalise: decorate the outside with stickers, washi tape, or a personalised label. Writing the child's name on it increases ownership and investment in using it.",
+      "Teach the calming protocol: 'When you are upset, shake the bottle hard. Then sit and breathe slowly. Keep breathing until every piece of glitter has settled completely. Then you are ready to talk.' The bottle provides a concrete, observable endpoint for the calming period."
     ],
     "tips": "This is especially powerful for children who struggle with big emotions. Keep one in the car. The child shakes it when upset and has to breathe and wait for it to settle before they can speak about the problem."
   },
@@ -4419,14 +4486,18 @@ const ACTIVITIES = [
     ],
     "description": "Cooked cooled spaghetti is one of the most tactile and engaging sensory materials for young children - slippery, stretchy, and endlessly fascinating.",
     "steps": [
-      "Cook spaghetti until well done (softer than usual for best texture).",
-      "Drain and rinse with cold water.",
-      "Toss with a small amount of olive oil to prevent sticking.",
-      "To colour: divide into portions and toss each with a few drops of food colouring.",
-      "Spread in a large tray.",
-      "Add cups, forks, tongs, and small containers.",
-      "Let children explore freely: squeeze, stretch, fill containers, pretend to cook.",
-      "Best done outside or on an easy-clean surface."
+      "Decide on the scale: a standard large baking tray serves one child. A larger storage bin or baby bath serves two or three children. Bigger is generally better for sensory bins - overfull small trays frustrate rather than engage.",
+      "Cook the spaghetti: bring a large pot of water to a boil. Cook for at least 12 minutes - longer than package recommends. Over-cooked pasta is softer and more pliable, which is more satisfying to squeeze and stretch.",
+      "Drain and cool: drain and rinse with cold water for 1-2 minutes until completely cool. Warm pasta in a sensory bin can be startling for young children.",
+      "Add olive oil: toss cooled pasta with 1-2 tablespoons of olive oil to prevent clumping into a solid mass. Each strand should move freely through fingers.",
+      "Add colour (optional): divide pasta into portions in separate bowls. Add 5-10 drops of food colouring to each and toss gently. Using 3-4 colours creates a visually rich multi-coloured bin.",
+      "Arrange in the tray with tools: spread pasta evenly. Place cups, spoons, tongs, forks, a small colander, and small containers around the edges. Providing tools extends the play enormously.",
+      "Introduce the child: for children who are tactile-defensive, start by just watching, then offer a spoon for indirect contact before encouraging direct hand contact. Never force.",
+      "Free play period: step back and let the child lead. Typical explorations include squeezing handfuls, filling and emptying containers, pretending to cook, picking up strands with tongs.",
+      "Hidden treasure: bury 5-10 small plastic animals, letters, or toy figures in the pasta before play begins. This adds a treasure hunt element that significantly extends engagement.",
+      "Guided play prompts: 'Can you fill the cup with spaghetti? How many spoons does it take? Can you pick up one strand with the tongs? What does it feel like?'",
+      "Extend with imaginative play: if the child is playing 'cooking', add a small bottle of 'sauce' (water with red food colouring), plastic plates and bowls, and pretend cutlery.",
+      "Cleanup: expect pasta on the floor. A cheap shower curtain or tablecloth under the tray contains most of it. Discard pasta after the session. Wash all tools with soapy water."
     ],
     "tips": "Expect this to go everywhere. A cheap shower curtain under the tray makes cleanup easy. The texture is initially off-putting for some children - let them dip just one finger to start."
   },
@@ -4445,16 +4516,20 @@ const ACTIVITIES = [
     ],
     "description": "Make a homemade touch-and-feel book with a different texture on every page.",
     "steps": [
-      "Cut each texture material into a piece that fits on a card square.",
-      "Glue each texture firmly to its own card.",
-      "Write a describing word on the back: rough, smooth, bumpy, soft, crinkly, fluffy.",
-      "Decorate the front cover on a blank card.",
-      "Punch two holes along one side of all cards.",
-      "Thread binder rings through to bind the book.",
-      "Read together, letting baby or toddler touch each page.",
-      "Name the texture and guide their hand across it."
+      "Collect a variety of texture materials: aim for 8-10 very different textures. Good options: fine sandpaper, velvet, bubble wrap, aluminium foil, corrugated cardboard, fake fur, rough hessian, smooth plastic, soft cotton, felt, cork. Pair by contrast: smooth next to rough, soft next to scratchy.",
+      "Cut the base cards: cut thick cardboard or foam board into uniform squares - approximately A5 size (15x21cm). Larger pages are easier for babies and toddlers to grasp and turn. Cut enough for all textures plus a front and back cover.",
+      "Cut texture materials to fit: cut each material into a piece that covers most of one card face, leaving a 2cm border at the edges so glue does not contact little fingers.",
+      "Plan the order: lay out all texture cards in the sequence they will appear. Consider placing the most interesting or contrasting textures early to establish engagement.",
+      "Attach each texture firmly: use strong craft glue. Apply glue to the card and press the texture material down firmly. For bubble wrap and foil, apply glue over the entire back surface. Hold each piece with pressure for 30 seconds.",
+      "Let all cards dry flat: stack dried cards separately until all are complete. Do not stack wet-glued cards on top of each other.",
+      "Add descriptive words: on the back of each texture card, write in large clear letters the describing word: ROUGH, SMOOTH, BUMPY, SOFT, CRINKLY, PRICKLY, FLUFFY, SHINY. Reading the word aloud while touching builds vocabulary alongside tactile awareness.",
+      "Create the front cover: write the title in large cheerful letters: 'My Touch Book'. Decorate with the child's name and a simple drawn design, or add a texture sample directly to the cover.",
+      "Create the back cover and bind: punch two holes along the left side of every card at the same position. Thread a binder ring through both holes. Binder rings allow the book to be flipped through but lie flat when open.",
+      "Read together: sit with the child in your lap and turn through each page. Run their fingers across the texture while saying the word. 'Feel this one - it is ROUGH. Can you say rough? What else is rough? Sandpaper. Tree bark. A cat's tongue.'",
+      "Make a second copy as a gift: a personalised touch book is a genuinely useful gift for babies from 3 months old. Grandparents especially appreciate receiving one made by a grandchild.",
+      "Build the book over time: add new pages as new textures are discovered. Take the book on nature walks and add a page with a piece of bark or a dried leaf when you return. A texture book that grows over months becomes a personal vocabulary record."
     ],
-    "tips": "Make a second copy for grandparents as a gift. This is genuinely useful for babies from 3 months old."
+    "tips": "Make a second copy for grandparents as a gift. This is genuinely useful for babies from 3 months old. Add new texture pages over time as children discover interesting materials on walks."
   },
   {
     "id": 146,
@@ -4530,16 +4605,20 @@ const ACTIVITIES = [
     ],
     "description": "Put your hand in the bag and guess what you are holding using only your sense of touch.",
     "steps": [
-      "While a child is not watching, fill the bag with household objects.",
-      "Good items: a fork, a rubber duck, a pine cone, a small ball, a wooden block, a glove, a key.",
-      "The child puts one hand inside without looking.",
-      "They feel around and describe what they are touching: shape, texture, weight, size.",
-      "They try to guess the object.",
-      "Pull it out to check.",
-      "Switch roles - the child fills the bag and the adult guesses.",
-      "Add a timer for extra challenge."
+      "Select the bag: use an opaque pillowcase or cloth bag - the child must not be able to see shapes through it even when light shines. Test by holding the bag up to a light source; if shapes are visible, use a thicker bag or add a second layer.",
+      "Choose objects carefully: the best mystery bag objects are familiar items with distinctive shapes and textures. Start with 8-10 objects. Good choices: a fork, a rubber duck, a pinecone, a small ball, a wooden block, a glove, a key, a paintbrush, a coin.",
+      "Fill the bag while the child is not watching: object selection is secret. If the child sees what goes in, the mystery is gone. Fill it in another room or behind your back.",
+      "Introduce the rules: 'You can only use your sense of touch. No peeking. Put one hand in. Feel the shape, the texture, and the weight. Tell me what you notice before you guess.'",
+      "The child reaches in: they should feel only one object at a time without grabbing all the objects at once. Guide them: 'Just feel one thing without taking it out yet.'",
+      "Encourage descriptive language before guessing: ask 'What does it feel like? Is it smooth or bumpy? Hard or soft? Heavy or light? What shape is it? How big is it?' This forces careful observation rather than quick guessing.",
+      "The guess: once they have described it fully, they guess and pull it out to check. Incorrect guesses are interesting: 'You thought it was a bottle cap because it was round and flat. That makes sense. Here is what it actually was.'",
+      "Vocabulary of touch: each round, introduce one new texture word. Rough/smooth, soft/hard, warm/cool, rigid/flexible, light/heavy, sharp/blunt.",
+      "Role reversal: the child fills the bag and the adult guesses. This is often the most enjoyable version - children delight in tricking adults and are excellent at choosing confusing objects.",
+      "Harder challenge: add objects that are similar in shape - a marble and a small bouncy ball, a door knob and a large button, different-sized blocks. Distinguishing between similar-feeling objects requires much finer tactile discrimination.",
+      "Themed rounds: 'Today everything in the bag is from the kitchen.' Or 'from the garden.' Or 'from your bedroom.' Themed rounds encourage thinking about object categories.",
+      "Reflect: which object was hardest to identify? Which was easiest and why? What clue was most useful - shape, texture, weight, or temperature? Naming the useful strategy reinforces it."
     ],
-    "tips": "Choose objects that feel very different from each other for younger children. Older children enjoy objects that are similar in shape (different sized balls, different utensils)."
+    "tips": "Choose objects that feel very different from each other for younger children. Older children enjoy objects that are similar in shape (different sized balls, different utensils). Role reversal is always the most fun round."
   },
   {
     "id": 149,
@@ -4554,16 +4633,20 @@ const ACTIVITIES = [
     ],
     "description": "One player thinks of something and the others ask yes/no questions to figure it out in 20 questions or fewer.",
     "steps": [
-      "One player thinks of any person, place, or thing.",
-      "They announce whether it is an animal, vegetable (plant/food), or mineral (object/place/person).",
-      "Everyone else takes turns asking yes/no questions.",
-      "The thinker can only answer yes, no, or sometimes.",
-      "Questions must be yes/no: 'Is it alive? Is it bigger than a car? Can you eat it?'",
-      "Keep count of how many questions have been asked.",
-      "If someone guesses correctly within 20 questions they win.",
-      "If 20 questions pass without a correct guess, the thinker wins."
+      "Introduce the game: 'One person thinks of something - any person, place, or thing. Everyone else asks yes or no questions to figure out what it is. But you only get 20 questions total, so ask wisely.'",
+      "Explain the categories: before questions begin, the thinker announces whether their thing is an animal, vegetable (any plant or food), or mineral (any object, place, manufactured thing, or person). This classic three-way classification narrows the field immediately.",
+      "Teach the strategy of starting broad: inexperienced players ask specific questions immediately ('Is it a giraffe?') and waste questions. Experienced players start with broad binary splits that halve the possibilities with each answer: 'Is it alive? Is it larger than a car? Is it found indoors?'",
+      "The thinker can answer: yes, no, or sometimes/it depends. This third answer is important - it acknowledges things that are sometimes true and prevents the game from becoming frustratingly binary.",
+      "Question strategy practice: before the first round, give examples of good broad questions vs. bad specific questions. 'Is it an animal? (eliminates half the categories)' vs. 'Is it a penguin? (only eliminates one option)'.",
+      "Keep a visible tally: mark the question count on paper or fingers so everyone knows how many remain. The countdown creates urgency and excitement.",
+      "Encourage collaboration: in a group, players take turns asking questions but can confer between turns. This is more social and educational than competitive.",
+      "Teaching moment at question 10: pause when 10 questions have been asked. 'We have 10 questions left and we know it is a living thing, smaller than a dog, found in a house. What should we ask next to narrow it down fastest?'",
+      "Final guess attempt: at question 19, allow an official guess before the last question. If incorrect, the 20th question can be used for one final guess.",
+      "Debrief after each round: 'What was the most useful question? Which question wasted the most? If you were playing again, what would you ask in the first three questions?'",
+      "Advanced variant with only 10 questions: once the group is skilled at the game, reduce to 10 questions. This forces much tighter strategic thinking.",
+      "Connect to real-world thinking: 'This is how doctors diagnose patients and detectives solve cases - asking specific questions that eliminate possibilities. What question would you ask first if you had to figure out what was in a mysterious locked box?'"
     ],
-    "tips": "Teach children to start broad and narrow down: Is it alive? Is it an animal? Is it a pet? Can it fly? This is also a great critical thinking exercise."
+    "tips": "Teach children to start broad and narrow down: Is it alive? Is it an animal? Is it a pet? Can it fly? This is also a great critical thinking exercise. Start with the animal/vegetable/mineral classification."
   },
   {
     "id": 150,
@@ -4578,16 +4661,20 @@ const ACTIVITIES = [
     ],
     "description": "One caller controls the movement of all players using traffic light commands - the first to reach the caller wins.",
     "steps": [
-      "One player stands at one end and is the traffic light.",
-      "All other players stand at the other end.",
-      "The caller faces away and shouts 'Green light!' - everyone runs forward.",
-      "The caller spins around and shouts 'Red light!' - everyone must freeze immediately.",
-      "Anyone still moving when the caller turns goes back to the start.",
-      "The caller faces away again for the next green light.",
-      "The first player to touch the caller wins and becomes the next traffic light.",
-      "Add 'Yellow light!' for slow walking."
+      "Set up the playing space: choose an open area at least 10 metres long. Mark the starting line with chalk, rope, or two shoes. Mark the finish line similarly. The distance creates genuine tension.",
+      "Choose the first traffic light player: the caller stands at the finish line with their back to the field. All other players line up at the starting line.",
+      "Introduce the rules clearly: 'When I say Green Light, you run forward. When I say Red Light, I turn around - anyone still moving goes back to start. Yellow Light means slow walk only. First person to touch me wins.'",
+      "The caller's technique: vary the timing unpredictably. Call Green Light, then immediately Red Light for a very short burst. Then Green Light with a long wait. Unpredictable timing catches more people out.",
+      "Practice round without elimination: play a first round where no one goes back to start. 'This round we are just practicing.' A practice round builds understanding before the stakes matter.",
+      "Begin the competitive game: caller faces away and calls 'Green Light!' - players advance. Caller spins and calls 'Red Light!' - all players freeze. Anyone still moving goes back to start.",
+      "Enforce Yellow Light strictly: slow walking means very slow - barely shuffling. Any pace faster than a slow shuffle during Yellow Light is a violation.",
+      "As players approach the finish: the caller should spin faster and call Red Light sooner. The final tag is often dramatic and contested.",
+      "Winner becomes the new caller: the first player to touch the caller wins and immediately takes the caller's position. Quick turnaround maintains momentum.",
+      "Variations for different ages: for ages 2-3, skip elimination entirely and just practice stopping on command. For ages 6+, add a Purple Light (spin on the spot 3 times) or Blue Light (freeze in a funny pose).",
+      "Reverse the game: the caller moves away from the start line and all players must keep a set distance. This reversal is a complete change of the power dynamic and refreshes the game.",
+      "Discuss the game: what made it hard? Was it better to be closer to the caller or further back? Did you sprint or move slowly and carefully? This metacognitive discussion helps children develop intentional play strategies."
     ],
-    "tips": "Spin fast and unpredictably to catch more players moving. For very young children, skip the elimination rule and just play for fun."
+    "tips": "Spin fast and unpredictably to catch more players moving. For very young children, skip the elimination rule and just play for fun. Adding Yellow Light for slow walking adds a useful intermediate challenge."
   },
   {
     "id": 151,
@@ -4602,16 +4689,20 @@ const ACTIVITIES = [
     ],
     "description": "Follow instructions only when they begin with 'Simon says' - do the action without that phrase and you are out.",
     "steps": [
-      "One player is Simon.",
-      "Simon gives instructions: 'Simon says touch your nose.'",
-      "Everyone must do the action.",
-      "If Simon gives an instruction without saying 'Simon says', anyone who does the action is out.",
-      "Simon should give instructions in quick succession to catch players off guard.",
-      "Last person still in wins.",
-      "Rotate who plays Simon so everyone gets a turn.",
-      "Add themed rounds: animal moves only, yoga poses, sport actions."
+      "Set up the playing space: Simon Says works in any open area where all players can see Simon and be seen by Simon. No equipment needed.",
+      "Introduce the game: 'One player is Simon. Simon gives instructions. If Simon says "Simon says touch your nose", you must do it. But if Simon says "touch your nose" without "Simon says" first, you must NOT do it - anyone who does is out.'",
+      "Choose the first Simon: start with an adult or older child who can give clear, quick instructions. The quality of Simon's delivery determines the quality of the game.",
+      "Elimination version: Simon gives rapid-fire instructions, some with 'Simon says' and some without. Eliminated players sit to the side. The last player remaining wins and becomes the next Simon.",
+      "The key technique for a good Simon: give 3-4 'Simon says' instructions rapidly, building a rhythm, then suddenly drop the phrase on the next instruction. The rhythm lulls players into automatic compliance.",
+      "Beginners' version without elimination: for ages 3-4, play without elimination. Everyone just plays along and has fun with the actions. Focus on following correctly rather than catching mistakes.",
+      "Choose physically interesting actions: 'Simon says do a star jump. Simon says touch your toes. Simon says walk like a crab. Simon says spin around twice. Simon says balance on one leg.'",
+      "Themed rounds: 'All actions are yoga poses' or 'all actions are sports moves' or 'all animal movements'. Themes create coherence and learning opportunities in a familiar game structure.",
+      "Progressive difficulty: start with slow, clear instructions. Gradually increase the pace until Simon is rattling through commands rapidly. Speed creates more errors and more excitement.",
+      "Child becomes Simon: when a child becomes Simon, the game dynamics change completely. Children give either very easy or very devious instructions. Both are valuable - easy builds confidence; devious demonstrates understanding of the rule mechanism.",
+      "Silent Simon (advanced variation): Simon performs actions silently and players must copy, but if Simon performs a specific signal without the spoken 'Simon says' equivalent, players must not copy. This requires careful visual attention.",
+      "Debrief the game: 'How did Simon trick you? What was your best trick as Simon? Was it easier to follow instructions when they were slow or fast?' Simon Says is an excellent attention and impulse-control exercise in game form."
     ],
-    "tips": "The best Simon moves fast and mixes in false instructions immediately after real ones. Use funny actions to keep energy high."
+    "tips": "The best Simon moves fast and mixes in false instructions immediately after real ones. Use funny actions to keep energy high. Themed rounds (yoga, animals, sports) add variety and learning."
   },
   {
     "id": 152,
@@ -4657,16 +4748,20 @@ const ACTIVITIES = [
     ],
     "description": "Use snacks as counters to make addition visual and edible.",
     "steps": [
-      "Put 3 raisins in one bowl and 2 raisins in another.",
-      "Ask: how many raisins altogether?",
-      "Push both bowls together and count.",
-      "That is 3 plus 2 equals 5.",
-      "Eat the answer.",
-      "Repeat with different numbers.",
-      "Introduce the plus and equals signs on paper alongside the physical snacks.",
-      "Work up to 10 total items as they get confident."
+      "Choose the right snack: small, countable, and motivating. Raisins, cereal loops, small crackers, dried blueberries, or mini marshmallows all work well. The snack is both the manipulative and the reward. Check for dietary needs first.",
+      "Set up the workspace: place two small bowls or cups in front of the child, side by side. These represent the two numbers being added. A third central area is where the combined total will be counted.",
+      "Introduce the concept: 'We are going to do a snack game. I put some snacks in this bowl, and some in that bowl. Your job is to count how many there are altogether. And then - you get to eat them.'",
+      "Start with very small numbers: begin with totals of 3-5 items only. Place 2 in one bowl and 1 in the other. 'How many here? How many here? How many altogether?' Combine into one pile and count.",
+      "Introduce the language: 'Two plus one equals three. The word plus means we are combining. The word equals means the answer.' Say the equation aloud while pushing the bowls together.",
+      "The child eats the answer: 'Count them into your mouth! One... two... three!' The physical act of eating the counted items is powerfully memorable. Counting edibles combines physical and gustatory reinforcement.",
+      "Repeat with different combinations: try 1+4, 3+2, 2+2. Each time, use the snacks, say the equation, push the bowls together, count the total, and eat. Repetition with edible motivation sustains attention far better than worksheets.",
+      "Introduce the written equation: after a few rounds, write the equation on paper alongside the physical snacks. '2 + 1 = 3.' Point to each symbol as you say it. The visual equation connects to the physical reality in front of them.",
+      "Reverse it: give the child a total and ask them to fill the two bowls any way they like. 'Can you put 5 snacks total in these two bowls?' This introduces the understanding that one number can be composed in multiple ways.",
+      "Progress to larger numbers: once totals up to 5 feel confident, work up to 10. Place 7 in one bowl and 3 in another. Count each bowl first, then combine. This extends to the full range within ten.",
+      "Make a visual number line: draw a number line on paper from 0-10. After each equation, find the starting number, count forward the second number, and land on the answer. The number line visualises addition as movement.",
+      "Connect to daily life: 'If I have 4 apples and I buy 3 more, how many do I have? If you have 6 blocks and your friend gives you 2, how many now?' Real-world contexts make arithmetic meaningful rather than abstract."
     ],
-    "tips": "The fact that they eat the answer after each problem is enormously motivating. Do not tell them this is maths - just play the snack game."
+    "tips": "The fact that they eat the answer after each problem is enormously motivating. Do not tell them this is maths - just play the snack game. The physical counting before eating is the learning."
   },
   {
     "id": 154,
@@ -4709,16 +4804,20 @@ const ACTIVITIES = [
     ],
     "description": "Create and extend repeating patterns using objects - from simple AB patterns to complex sequences.",
     "steps": [
-      "Start with a simple AB pattern: red block, blue block, red block, blue block.",
-      "Ask them to continue the pattern.",
-      "Introduce AAB: red, red, blue, red, red, blue.",
-      "Try ABC: red, blue, yellow, red, blue, yellow.",
-      "Use shapes instead of just colours: circle, circle, square, circle, circle, square.",
-      "Make a pattern and ask them to identify the rule.",
-      "Let them create a pattern for you to continue.",
-      "Try body patterns: clap, stomp, clap, stomp."
+      "Gather pattern-making materials: any objects in two or more varieties work. Best options: coloured linking cubes, buttons in different colours, small tiles, peg beads, coloured counters, or cereal pieces. Have at least 20-30 pieces total with enough of each type to make a long pattern.",
+      "Introduce what a pattern is: 'A pattern is something that repeats in the same order. If I put red, blue, red, blue, red, blue - what comes next? A pattern tells us what to expect next because it always repeats.'",
+      "Start with an AB pattern (the simplest): lay out red, blue, red, blue, red... and ask the child to continue. AB patterns are the most accessible starting point. Watch whether they continue correctly or break the pattern.",
+      "Say the pattern aloud: 'Red, blue, red, blue.' Say it rhythmically like a chant. Hearing the pattern spoken aloud helps children process it auditorily as well as visually.",
+      "Try an AAB pattern: red, red, blue, red, red, blue... Once the child identifies the rule, ask: 'What is the rule? How many reds before each blue?' The rule articulation step moves from pattern following to pattern understanding.",
+      "Try an ABC pattern with three elements: red, blue, yellow, red, blue, yellow. Three-element patterns are significantly harder than two-element patterns. Allow more time and provide verbal scaffolding.",
+      "Introduce shape patterns alongside colour patterns: square, circle, triangle, square, circle, triangle. This shows that patterns are a property of arrangement, not just colour.",
+      "Hide part of the pattern: lay out a pattern but place an opaque piece over one element. 'Something is hiding here. What do you think it is?' Predicting a hidden element requires understanding the pattern rule.",
+      "The child creates a pattern for you to continue: place the materials in front of them and say 'Your turn to make a pattern. I have to continue it.' A child who creates their own pattern demonstrates deeper understanding than one who only follows.",
+      "You make an error for them to spot: lay out a pattern but deliberately break it at one point. 'Can you see if I made any mistakes?' Finding the error requires comparing each element against the expected rule.",
+      "Body and sound patterns: clap, stomp, clap, stomp - AB body pattern. Clap, clap, stomp - AAB. Body patterns make the concept kinesthetic and work well for children who are less engaged by objects.",
+      "Find patterns in the real world: walk around the house and identify patterns in the environment. Floor tiles, a striped jumper, a chequered tablecloth, window panes, brick wall courses. Connecting mathematical patterns to the designed world is a powerful insight."
     ],
-    "tips": "Saying the pattern aloud as you make it (red, blue, red, blue) helps children hear the repetition as well as see it."
+    "tips": "Saying the pattern aloud as you make it (red, blue, red, blue) helps children hear the repetition as well as see it. Always ask the child to state the pattern rule before they try to continue it."
   },
   {
     "id": 156,
@@ -4794,16 +4893,20 @@ const ACTIVITIES = [
     ],
     "description": "Cut an egg carton into a strip and paint it to make a wiggly caterpillar.",
     "steps": [
-      "Cut a strip of 6 egg cups from the carton.",
-      "Paint each cup a different colour or make a pattern.",
-      "Let dry completely.",
-      "Glue googly eyes onto the first cup (the head).",
-      "Poke two small holes in the top of the head and thread pipe cleaners through for antennae.",
-      "Curl the tips of the antennae around a pencil.",
-      "Add legs by poking short pipe cleaner pieces through the sides of each cup.",
-      "Draw or paint a smile."
+      "Prepare the egg carton: choose a cardboard egg carton (not foam - cardboard takes paint better). Cut a strip of 6 connected cups from the carton. For a longer caterpillar, use a full 12-cup strip.",
+      "Plan the colour scheme: caterpillars can be single colour, striped, spotted, or fantastically inventive. Look at a photo of a real caterpillar - many have extraordinary colour patterns. Decide on a colour for each segment before opening any paint.",
+      "Paint the base colours: turn the strip upside down (bumpy side up, which becomes the caterpillar's back). Paint each cup/segment in its designated colour. Use a separate brush for each colour or wash thoroughly between colours.",
+      "Allow to dry completely: wet paint on cardboard needs 15-20 minutes to fully dry. Rushing this step means every subsequent addition smears. Use drying time to prepare accessories: cut pipe cleaners, source googly eyes.",
+      "Add detail patterns on the dry base: add spots, stripes, or patterns using a thin brush or marker. Many real caterpillars have black dots along their sides or yellow rings between segments.",
+      "Create the head: the first segment is the head. Glue two googly eyes onto its front face. Position them symmetrically. For extra personality, use two different-sized googly eyes.",
+      "Add antennae: poke two small holes with a pencil point in the top of the head. Cut two 8cm lengths of pipe cleaner. Thread one through each hole and bend the outer ends into small spirals. This prevents them from pulling through.",
+      "Add legs: poke a short pipe cleaner through each side of the middle body segments. Bend the protruding ends downward to form legs. Curl the tips slightly to create feet.",
+      "Draw the face: using a fine marker, add a smile, eyebrows, nostrils (two small dots), and rosy cheeks. Even simple marks create strong character.",
+      "Make the caterpillar move: hold the caterpillar and gently flex the egg carton strip so the body bends - this mimics the undulating movement of a real caterpillar. If pipe cleaner legs are properly positioned, they appear to walk.",
+      "Create a habitat: lay a large sheet of green paper flat. Add cut paper leaves and a paper branch. Place the caterpillar on the branch. Alternatively, use a shoebox as a diorama scene.",
+      "Learn about metamorphosis: now that you have a caterpillar, discuss what it will become. Look at images of caterpillar, chrysalis, and butterfly together. Ask: 'What do you think happens inside the chrysalis?'"
     ],
-    "tips": "Make a whole family of caterpillars in different lengths. They also make great finger puppets if you cut out the bottoms of the cups."
+    "tips": "Make a whole family of caterpillars in different lengths. They also make great finger puppets if you cut out the bottoms of the cups. Use cardboard not foam egg cartons - paint soaks into cardboard properly."
   },
   {
     "id": 159,
@@ -4822,16 +4925,20 @@ const ACTIVITIES = [
     ],
     "description": "Decorate a paper bag and attach streamers and a string - run and watch it fill with air behind you.",
     "steps": [
-      "Open the paper bag fully.",
-      "Decorate the outside with markers and stickers.",
-      "Tape or glue long streamers to the open end of the bag.",
-      "Reinforce the top corners of the bag with extra tape.",
-      "Punch a hole in each of the two top corners.",
-      "Cut a length of string and tie each end through one of the holes.",
-      "Tie the flying string to the middle of this bridge string.",
-      "Hold the string and run - the bag fills with air and flies behind you."
+      "Choose the right day: check the weather before gathering materials. A light to moderate breeze is ideal - enough to fill the bag with air, not so strong it tears. Completely calm days do not work. Check by watching trees: leaves rustling = ideal; branches swaying = too windy.",
+      "Select the bag: a large paper shopping bag (30cm tall or larger) works best. Brown kraft paper bags are ideal. Test by shaking the bag - it should hold its shape and not crumple easily.",
+      "Decorate the bag before attaching the flying string: open the bag fully and lay it flat. Design and decorate the outside with markers, paint, and stickers. Allow paint to dry fully before continuing.",
+      "Reinforce the stress points: the corners where the flying string attaches are under significant tension during flight. Apply three overlapping layers of tape at each top corner. Without reinforcement, the string tears through quickly.",
+      "Attach the streamers: cut 5-6 streamers from tissue paper, crepe paper, or thin plastic at least 40cm long. Tape these along the inside of the open bottom edge of the bag. They should hang freely below the bag when flying.",
+      "Punch the flying holes: use a hole punch to create a clean hole at each of the two reinforced top corners. Clean-punched holes are stronger than poked or torn holes.",
+      "Create the bridle: cut a 50cm length of string. Tie one end through one hole with a secure double knot. Pull the bag taut and tie the other end through the second hole. This string bridge is the bridle.",
+      "Attach the flying line: tie the end of a long string (at least 2-3 metres) to the centre of the bridle. Test the knot by pulling firmly - it should not slip.",
+      "Test fly first: before running, hold the kite out at arm's length and let it catch the wind while standing still. The bag should puff out and pull slightly. If it collapses, check that the opening faces forward into the wind.",
+      "Flying technique: hold the string and run with the wind at your back. Hold the kite low at first, then let string out gradually as it rises. Running at a steady pace is more effective than running fast.",
+      "Control and manoeuvre: pull the string in to make the kite climb; let string out to let it descend. Walking slowly in different directions changes the kite's position. On a good wind day, the kite will fly without needing to run.",
+      "Discuss simple flight physics: 'Why does the bag puff out and float up? When you run, you push air into the bag opening. Does air have weight? What do you think?' Air has weight, and the bag trapping moving air creates lift."
     ],
-    "tips": "This works best with a light breeze. The bag needs to have its opening facing backward (toward you) to catch air."
+    "tips": "This works best with a light breeze. The bag needs to have its opening facing backward (toward you) to catch air. Reinforce the corner holes with extra tape before punching to prevent tearing during flight."
   },
   {
     "id": 160,
