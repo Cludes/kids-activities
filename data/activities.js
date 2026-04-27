@@ -2638,16 +2638,20 @@ const ACTIVITIES = [
     ],
     "description": "Bake salt dough cutouts and paint them as keepsake Christmas ornaments.",
     "steps": [
-      "Mix salt, flour, and water to form a smooth dough.",
-      "Roll to about 5mm thick.",
-      "Cut shapes with cookie cutters.",
-      "Use a straw to poke a hole at the top before baking.",
-      "Bake at 120°C / 250°F for 2–3 hours until completely hard.",
-      "Cool, then paint and decorate.",
-      "Thread ribbon or string through the hole.",
-      "Write the year on the back  - these last for decades."
+      "Mix the salt dough: combine 1 cup plain flour and 1 cup fine table salt in a bowl. Add half a cup of water gradually, mixing as you pour. Knead with hands for 3-4 minutes until the dough is smooth and pliable with no dry crumbles.",
+      "Test the dough: it should feel like firm Play-Doh - not sticky, not crumbly. If too sticky, add flour a tablespoon at a time. If too dry and cracking, add water a teaspoon at a time. The consistency makes a big difference to the finished ornament.",
+      "Lightly flour a clean surface and roll the dough to approximately 5mm thickness. Thicker than this and ornaments will crack during baking; thinner and they become fragile.",
+      "Press in handprints first: before using cookie cutters, press a child's hand firmly into a flat section of dough to create a handprint. The handprint ornament is often the most treasured. Write the child's name and age in the dough next to the print using a toothpick.",
+      "Cut shapes with cookie cutters: stars, Christmas trees, snowflakes, bells, circles, gingerbread people. Press firmly and lift the cutter cleanly. Remove the surrounding dough and re-roll it for more shapes.",
+      "Poke a hole at the top of each shape before baking: use a drinking straw, pushed all the way through and twisted slightly. Make the hole slightly larger than you think necessary - dough swells slightly during baking and the hole shrinks.",
+      "Add impressed decoration before baking: press buttons, coins, keys, or textured fabric into the dough surface to leave impressions. Roll the blunt end of a pencil across the surface to make patterns. Press in dried flower petals as decorative details.",
+      "Bake in the lowest oven setting (110-120 degrees Celsius, 230-250 Fahrenheit) for 2-3 hours. Low and slow is the key - high temperatures cause bubbling and cracking. Check every 30 minutes. The dough is done when it feels completely hard throughout.",
+      "Allow to cool completely on a wire rack before decorating. Warm dough that feels hard will often flex slightly; fully cooled dough is rigid.",
+      "Paint with acrylic paints in seasonal colours: red, green, gold, silver, white. Let the base coat dry before adding details. Use a fine brush for outlines and text.",
+      "Seal with clear varnish or mod podge: apply two coats, allowing drying time between coats. The sealant protects the paint and gives the ornament a professional finish. Unsealed salt dough ornaments absorb moisture and eventually soften.",
+      "Thread ribbon or string through the hole: a loop of narrow ribbon makes the most elegant hanger. Write the year and age on the back with a permanent marker - these ornaments last for decades and become irreplaceable family records."
     ],
-    "tips": "Press a child's handprint into dough before baking for an irreplaceable keepsake."
+    "tips": "Press a child's handprint into dough before baking for an irreplaceable keepsake. Low and slow baking prevents cracking. Seal with varnish to make them last for decades."
   },
   {
     "id": 86,
@@ -2733,16 +2737,20 @@ const ACTIVITIES = [
     ],
     "description": "Press and dry flowers to preserve them, then arrange them into botanical art.",
     "steps": [
-      "Pick flowers in the morning when they are fully open but fresh.",
-      "Place flowers face-down on a sheet of paper.",
-      "Cover with another sheet of paper.",
-      "Place inside a heavy book and stack more books on top.",
-      "Leave undisturbed for 2 weeks.",
-      "Carefully remove dried flowers.",
-      "Arrange on card and glue down with tiny dabs of glue.",
-      "Display in a frame."
+      "Collect flowers at peak condition: pick flowers in the morning after the dew has dried but before the midday sun wilts them. Choose flowers that are fully open but not past their prime - petals should be firm, not papery. Thin, flat flowers press best.",
+      "Select the right species: flat flowers press beautifully - pansies, violas, daisies, cosmos, forget-me-nots, primroses, buttercups. Avoid thick flowers like roses (press individual petals instead), bulky flowers, and any that are very three-dimensional.",
+      "Prepare for pressing: cut the stem off close to the flower head. For flowers with thick central buttons (like daisies), use your fingers to gently press the centre flat before placing in the book.",
+      "Arrange for pressing: lay the flower face-down on a sheet of plain paper or blotting paper. Space flowers so they do not overlap. Place a second sheet of paper over the top, then lay the paper stack inside the centre of a large heavy book.",
+      "Add weight: close the book and add more heavy books on top. A stack 20-30cm high of thick books is ideal. The purpose is to press evenly and absorb moisture. More weight = flatter, quicker result.",
+      "Wait without disturbing: leave for a minimum of 2 weeks. Checking too early causes the flower to tear or wrinkle. Mark the book with a sticky note so nobody accidentally opens it.",
+      "Check the flowers at 2 weeks: carefully open the book and gently lift one flower with a flat butter knife or tweezers. A fully pressed flower is completely flat, papery, and dry. If it feels at all leathery or flexible, replace and wait another week.",
+      "Arrange pressed flowers on card: use tweezers for precise placement. Try a botanical illustration style (flowers with stems and leaves arranged in a natural formation), a loose scattered pattern, or a structured wreath shape.",
+      "Glue down with minimal adhesive: use tiny dabs of white PVA glue or a small amount of rubber cement on a toothpick. Press each flower down and let dry under a light weight for 1 hour.",
+      "Add botanical labels for older children: write the common name and Latin name of each flower. Look up the Latin names together - this introduces scientific nomenclature and the history of botanical illustration.",
+      "Frame the finished piece: a simple white or cream mount in a clip frame creates an immediately professional-looking result. Sign and date the back.",
+      "Make multiple versions for gifting: a card-sized arrangement fits in a greeting card, or press flowers into a small book as a gift. Pressed flower bookmarks (laminated or sealed in contact paper) are easy gifts that children can make for every teacher and grandparent."
     ],
-    "tips": "Flat flowers like pansies, daisies, and violas press the most beautifully. Thick flowers don't press well."
+    "tips": "Flat flowers like pansies, daisies, and violas press the most beautifully. Thick flowers don't press well - use individual petals instead. Wait the full two weeks for best results."
   },
   {
     "id": 89,
@@ -2794,16 +2802,20 @@ const ACTIVITIES = [
     ],
     "description": "Seal a tiny winter scene inside a jar with swirling snow  - a keepsake to keep forever.",
     "steps": [
-      "Glue your figurine to the inside of the jar lid. Let cure completely (overnight).",
-      "Fill the jar almost full with distilled water.",
-      "Add 2–3 teaspoons of glycerine  - this slows the snow fall.",
-      "Add white glitter or fake snow flakes.",
-      "Run a line of waterproof glue around the lid thread.",
-      "Screw the lid on tightly (figurine now inside the jar).",
-      "Let the glue cure for 24 hours.",
-      "Flip the jar over and shake!"
+      "Gather supplies: a clean glass jar with a watertight lid is the most important element. Mason jars work perfectly. Test the lid by filling with water, screwing on the lid, and inverting - no leaks allowed.",
+      "Choose a figurine or scene for the inside: waterproof plastic figurines work best. Small plastic Christmas figures, LEGO characters, or waterproof resin figurines are all suitable. Avoid anything that can rust, dissolve, or has moving parts that could clog.",
+      "Glue the figurine to the inside of the jar LID: this is the key technique - the figurine attaches to the lid, so when the jar is flipped upside down, the figurine is right-side up inside the globe. Use strong waterproof epoxy glue (not super glue or PVA, which dissolve in water).",
+      "Allow the glue to cure completely - this usually takes overnight (12-24 hours). Test that the figurine is firmly attached by gently wiggling it. If it moves at all, re-glue and wait longer.",
+      "Mix the snow globe liquid: fill the jar almost to the brim with distilled water (tap water goes cloudy over time due to minerals). Add 2-3 teaspoons of glycerine (available from pharmacies). Glycerine makes the water slightly viscous, which slows the snow fall dramatically.",
+      "Add the snow: use white glitter, ultra-fine white glitter, or fake snow flakes designed for snow globes. Add approximately 1-2 tablespoons. More is not always better - too much snow obscures the figurine when not shaken.",
+      "Test the water level: lower the lid with the glued figurine into the jar. The water should come just to the rim when the lid is sitting on top. If too full, remove a little water. If not full enough, add more water.",
+      "Seal the lid: run a thin bead of waterproof sealant (silicone sealant or marine epoxy) around the lid thread before screwing it on. Screw the lid tightly. Wipe away any sealant that squeezes out.",
+      "Allow the sealant to cure for 24 hours before inverting: resist the urge to test it immediately. The sealant needs full curing time to be watertight.",
+      "Flip and shake: after 24 hours, flip the jar upside down. The figurine is now right-side up, visible through the glass, surrounded by swirling snow. The glycerine creates the slow, magical descent.",
+      "Decorate the outside of the jar: tie a ribbon around the lid edge, glue felt or fake fur around the bottom edge, or use a glitter pen to add decorative designs to the glass.",
+      "Add personalisation: use a waterproof marker or etching tools to write a name, date, or message on the glass or lid. Snow globes with handwritten messages become genuine keepsakes."
     ],
-    "tips": "Distilled water stays clearer than tap water over time. More glycerine = slower, more magical snow fall."
+    "tips": "Distilled water stays clearer than tap water over time. More glycerine = slower, more magical snow fall. Waterproof epoxy glue is essential - other glues dissolve in water."
   },
   {
     "id": 91,
@@ -2820,16 +2832,20 @@ const ACTIVITIES = [
     ],
     "description": "Turn a handprint into a turkey by adding feathers, a beak, and a wattle.",
     "steps": [
-      "Paint the palm and thumb brown.",
-      "Spread fingers wide and press firmly onto paper  - the fingers become tail feathers.",
-      "Let dry.",
-      "Paint each finger-feather a different colour: red, orange, yellow.",
-      "Add a small orange triangle beak to the thumb-head.",
-      "Draw a red wattle below the beak.",
-      "Add two eyes.",
-      "Write the child's name and year on the back."
+      "Prepare the painting area: cover the table with newspaper or a plastic sheet. Have brown, orange, red, and yellow paint ready in separate shallow dishes wide enough to fit a child's hand flat. Have a bowl of warm soapy water for cleanup.",
+      "Introduce the turkey concept: 'Your hand is going to become a turkey! Your thumb will be the turkey's head, and your four fingers will be the feathers. Hold your hand up and wiggle your fingers - those are going to be the most magnificent feathers.'",
+      "Paint the palm and thumb: use a brush to paint the entire palm and the thumb with brown paint. Paint fully to the wrist. Ask the child to spread their fingers as wide apart as possible.",
+      "Make the handprint: press the painted hand firmly onto paper with fingers spread. Press each finger down deliberately, then lift the hand straight up cleanly. Do not slide or smear.",
+      "Allow the brown print to dry completely before adding colour (5-10 minutes). This prevents colours blending into brown mud.",
+      "Paint the feathers: using a small brush, paint each finger-print feather a different colour - red, orange, yellow, or a colour of the child's choice. Paint from the tip of each feather print downward toward the body for neat results.",
+      "Add the turkey face to the thumb: paint a small red circle as the head of the wattle below the thumb tip. Add an orange triangle beak pointing to the side. Draw two small black dots for eyes with a marker after paint dries.",
+      "Add feet: below the palm print, draw two simple stick-legs with clawed feet using orange marker or paint. Turkey feet are classic three-pronged claws and easy to draw.",
+      "Create a background: add a simple outdoor scene around the turkey - a green grass line, a blue sky, a yellow sun. This frames the handprint and makes it display-worthy.",
+      "Add Thanksgiving context for older children: write a 'What I am thankful for' list around the turkey, with each feather labelled with something the child is grateful for. This makes a wonderful Thanksgiving keepsake.",
+      "Make a series: if doing this annually, use the same paper colour each year and compare hand sizes. A collection of turkey handprints from age 3 to 10 is a striking record of growth.",
+      "Write the child's name, age, and year on the back in permanent marker. Laminate for longevity or frame immediately - this artwork deserves display."
     ],
-    "tips": "Layer the colours on the feathers before pressing for a multi-coloured print with no drying time needed."
+    "tips": "Layer the colours on the feathers before pressing for a multi-coloured print with no drying time needed. The thumb is the head - press carefully to get a clean thumb outline."
   },
   {
     "id": 92,
@@ -2911,16 +2927,20 @@ const ACTIVITIES = [
     ],
     "description": "Press coloured tissue paper onto sticky contact paper to make a stained-glass sun catcher that glows.",
     "steps": [
-      "Cut a circle or sun shape from the contact paper.",
-      "Peel the backing and lay sticky-side up.",
-      "Cut small pieces of tissue paper in bright colours.",
-      "Press pieces all over the sticky surface, overlapping for new colours.",
-      "Cover the back with another piece of contact paper, sticky sides together.",
-      "Trim the edges.",
-      "Punch a hole at the top and thread string to hang.",
-      "Hang in a sunny window and watch the colours glow."
+      "Gather materials: clear contact paper (also called sticky-back plastic or Con-Tact paper), coloured tissue paper in multiple bright colours, scissors, a hole punch, and string or ribbon for hanging.",
+      "Plan the shape: suncatchers look best as bold, simple shapes - a circle, a sun shape, a star, a heart, or a simple flower silhouette. Avoid complex shapes with narrow sections that are hard to cut cleanly.",
+      "Cut two identical pieces of contact paper in your chosen shape. This is easier done before peeling - draw the shape on the backing paper and cut through both contact paper pieces simultaneously.",
+      "Peel the backing from one piece of contact paper and lay it sticky-side up on a flat surface. Use small pieces of tape to tack the corners down so it doesn't curl or move while you work.",
+      "Tear or cut tissue paper into small irregular pieces approximately 2-4 cm across. Tearing creates organic soft edges; cutting creates clean geometric edges. Both look beautiful. Have a variety of warm colours (red, orange, yellow) or cool colours (blue, green, purple) or a rainbow mix.",
+      "Press tissue paper pieces onto the sticky surface, overlapping pieces freely. Overlapping is encouraged: orange over yellow creates a warm blend, blue over red creates purple. Cover the entire sticky surface with no gaps showing.",
+      "Create a border effect: use a single colour around the outside edge for a frame effect, or arrange colours in a pattern - stripes, concentric rings, or a gradient from one colour to another.",
+      "Peel the backing from the second piece of contact paper and carefully lay it sticky-side down directly on top of the tissue paper covered piece, sandwiching the tissue between the two sticky layers. Press firmly from centre outward to eliminate air bubbles.",
+      "Trim the edges cleanly with scissors: following the shape outline, cut away any uneven edges for a neat, professional finish.",
+      "Punch a hole at the top of the shape with a hole punch. Thread a loop of string or ribbon through the hole.",
+      "Hang in a sunny window: the light shining through the tissue paper creates a stained-glass glow effect. Morning east-facing windows or afternoon west-facing windows give maximum light.",
+      "For a seasonal variation: cut tissue paper in specific shapes before pressing (snowflakes for winter, leaf shapes for Autumn, petal shapes for spring). The shaped tissue creates more intentional imagery within the suncatcher."
     ],
-    "tips": "No skills required and the result always looks beautiful. A great activity for all ages at the same time."
+    "tips": "No skills required and the result always looks beautiful. A great activity for all ages at the same time. Warm colours (red, orange, yellow) glow more intensely than cool colours in sunlight."
   },
   {
     "id": 95,
@@ -2941,14 +2961,20 @@ const ACTIVITIES = [
     ],
     "description": "Dip thick bread fingers into egg custard and pan-fry them into golden dippable sticks.",
     "steps": [
-      "Whisk eggs, milk, cinnamon, and vanilla in a shallow bowl.",
-      "Cut each slice of bread into 3 long strips.",
-      "Melt butter in a pan over medium heat.",
-      "Dip each strip in the egg mixture  - coat all sides, let it soak for a few seconds.",
-      "Cook in the pan for 2–3 minutes each side until golden brown.",
-      "Serve in a bunch with maple syrup in a small pot for dipping."
+      "Choose thick, slightly stale bread: brioche, Texas toast, challah, or thick-cut white bread. Day-old bread is actually ideal - it absorbs the custard without becoming soggy and falling apart. Thin sandwich bread will disintegrate.",
+      "Make the custard mixture: crack 2 eggs into a shallow bowl or dish wide enough to lay a bread strip flat. Add a quarter cup of milk, 1 teaspoon of cinnamon, half a teaspoon of vanilla extract, and a pinch of salt. Whisk together thoroughly until fully combined and no streaks of egg white remain.",
+      "Taste the custard: before cooking, taste a small amount. Add more cinnamon or vanilla if desired. This step teaches children that tasting and adjusting at each stage is how professional cooks work.",
+      "Slice the bread into sticks: cut each slice of bread into 3 long strips by cutting lengthways (parallel to the longest side). The strips should be approximately 3-4 cm wide. Remove crusts if preferred.",
+      "Heat the pan: place a non-stick frying pan or griddle over medium heat. Add a small knob of butter - approximately 1 teaspoon per 3 sticks. The butter should melt and sizzle gently but not turn brown. If it browns immediately, reduce the heat.",
+      "Dip each bread stick in the custard: lay each strip flat in the custard mixture and press down gently so it absorbs the liquid on the bottom. Then flip it and press down on the other side. Let each side soak for 3-5 seconds. The strip should feel noticeably heavier with absorbed custard but still hold together.",
+      "Cook the first side: place custard-dipped sticks in the butter pan. Do not move them for 2-3 minutes. The bottom should turn deep golden brown before flipping. Patience is the key.",
+      "Flip and cook the second side: use tongs or a spatula to flip each stick. Cook for another 2-3 minutes until the second side is golden brown. The stick should feel firm with a slight spring when pressed.",
+      "Test for doneness: the stick should be golden on both flat sides, feel firm, and have no wet custard pooling in the centre. If the outside is browning too fast before the inside sets, reduce heat and cook more slowly.",
+      "Arrange for serving: stack the sticks in a bundle on a plate - this is the 'sticks' presentation that makes them so visually appealing and fun to eat. Pour maple syrup into a small ramekin or bowl for dipping.",
+      "Add optional toppings: a dusting of icing sugar, a scattering of fresh berries, a handful of sliced banana, or a dollop of whipped cream all complement the cinnamon-vanilla flavour beautifully.",
+      "Discuss the chemistry: the egg in the custard coagulates (solidifies) when heated, which is what makes the coating firm. The sugar in the bread and milk caramelises on contact with the hot pan, creating the golden colour. These are real cooking chemistry concepts."
     ],
-    "tips": "Day-old bread absorbs the custard better without falling apart. Add a pinch of nutmeg to the mix for extra warmth."
+    "tips": "Day-old bread absorbs the custard better without falling apart. Add a pinch of nutmeg to the mix for extra warmth. Serve immediately - French toast sticks lose their crispness as they sit."
   },
   {
     "id": 96,
@@ -3220,15 +3246,20 @@ const ACTIVITIES = [
     ],
     "description": "Lie on blankets and identify constellations, planets, and satellites passing overhead.",
     "steps": [
-      "Pick a clear night away from bright indoor lights.",
-      "Lay blankets on the grass and lie flat on your backs.",
-      "Let your eyes adjust for 10 minutes  - you'll see far more once they do.",
-      "Use a star map app to identify what you're looking at.",
-      "Find Orion's Belt, the Southern Cross, or the Big Dipper depending on your location.",
-      "Look for satellites  - steady moving lights. Wave at them.",
-      "Watch for shooting stars  - especially during meteor showers."
+      "Plan ahead: check the weather forecast for a clear night with minimal cloud cover. Look up what is visible in your hemisphere this month using a free stargazing app or website. Note any special events - planets visible, upcoming meteor showers, or the moon phase.",
+      "Prepare equipment: gather blankets and pillows or sleeping bags for comfort - you will be looking up for 30-60 minutes and comfort makes a big difference. Bring warm drinks. Download a star map app (Star Walk, Stellarium, SkySafari are excellent) before going outside.",
+      "Choose your location: move as far from indoor lighting as possible. The backyard away from street-facing windows, a park, or a dark field. The darker the location, the more stars visible. A 15-minute drive to a darker area transforms the experience.",
+      "Turn off all indoor and outdoor lights before stepping outside. Let eyes begin adjusting from inside. Red light torches (or a phone with a red filter app) preserve night vision better than white lights.",
+      "Lie on your backs on the blankets and do nothing for 10 full minutes. Night vision improves dramatically in the first 10 minutes after leaving bright light. Resist using the phone. Just watch as more and more stars appear.",
+      "Start with the obvious: find the brightest objects first - Venus or Jupiter if visible (they shine without twinkling unlike stars), the Moon if present, and the most prominent constellation cluster visible. In the Northern Hemisphere: Orion's Belt. In the Southern Hemisphere: the Southern Cross.",
+      "Use the star map app: hold it up facing the sky and it overlays constellation lines and names over the live view. Identify 3-5 constellations and learn their mythology: Orion the Hunter, Scorpius the Scorpion, Ursa Major the Great Bear.",
+      "Hunt for satellites: look for steady (non-twinkling) moving points of light. These are satellites in low Earth orbit, visible by reflected sunlight. They cross the sky in 2-5 minutes. The International Space Station is the brightest.",
+      "Look for meteors: on any clear night, a patient observer will typically see 5-10 meteors per hour. They appear as brief streaks of light. During meteor showers, rates can be 50-100 per hour.",
+      "Use binoculars if available: scan along the Milky Way band for clusters of stars. Look at the Moon's surface and identify craters. Find Jupiter and look for its 4 large moons - they appear as a row of tiny dots.",
+      "Discuss the scale: the nearest star (other than the Sun) is Proxima Centauri, 4.2 light years away - meaning the light you are seeing left it 4.2 years ago. The Andromeda Galaxy, visible as a faint smudge, is 2.5 million light years away.",
+      "Settle in and simply watch: after the educational portion, spend 15-20 minutes just lying quietly looking at the sky. This unhurried, quiet time under the stars is genuinely valuable and increasingly rare in modern life."
     ],
-    "tips": "Turn off phone brightness after using the map  - bright screens kill night vision. Look up the next meteor shower date in advance."
+    "tips": "Turn off phone brightness after using the map - bright screens kill night vision. Look up the next meteor shower date in advance. The best stargazing is 2 hours before midnight."
   },
   {
     "id": 105,
@@ -3245,16 +3276,20 @@ const ACTIVITIES = [
     ],
     "description": "Knot and weave embroidery thread into a woven bracelet to give to a friend.",
     "steps": [
-      "Cut 4–6 strands of different colours, each about 60cm long.",
-      "Tie them together with an overhand knot, leaving a 5cm tail.",
-      "Tape the knot to a table or clipboard so both hands are free.",
-      "Take the leftmost string and make forward knots across all other strings.",
-      "When it reaches the right side, it becomes the rightmost string.",
-      "Repeat with the new leftmost string  - diagonal stripes will form.",
-      "Continue until the bracelet is long enough to tie around a wrist.",
-      "Finish with an overhand knot and trim the ends."
+      "Gather materials: embroidery floss (also called embroidery thread) is ideal - it comes in hundreds of colours and splits easily for thinner strands. Choose 4-6 colours that work well together. Cut 6 strands of each colour, each approximately 60cm long.",
+      "Prepare the strands: hold all strands together and tie them in a simple overhand knot 5cm from one end, leaving a tail that will eventually be tied around the wrist. Smooth the strands out flat - each colour should be a separate strand.",
+      "Anchor the bracelet: tape the knot end firmly to a table, a clipboard, or the top of a sturdy book. You need both hands free for knotting. Safety-pin it to a jeans knee is another popular method.",
+      "Sort the strands into colour order before beginning: arrange them left to right in the order you want the stripes to appear. The leftmost colour will form the first stripe as it knots across all other strands.",
+      "Learn the forward knot: this is the only knot used in classic friendship bracelets. Take the far-left strand in your right hand. Loop it over the strand immediately to its right to form an upside-down 'P' shape. Push the end through the loop from below and pull upward firmly. Repeat this TWICE on the same strand. A single forward knot forms a small coloured bump; you always knot twice per strand.",
+      "Knot the first row: after double-knotting on the second strand, continue knotting the same leftmost strand across all remaining strands, always double-knotting each one. When it reaches the far right position, the first coloured stripe is complete and that strand is now the rightmost strand.",
+      "Begin the second row: the new leftmost strand is now the second colour. Knot it across all other strands in exactly the same way. A second stripe forms immediately below the first.",
+      "Continue rows: each row takes approximately 2-3 minutes. After 10-12 rows, a clear diagonal striped pattern becomes visible and feels genuinely satisfying.",
+      "Keep rows tight and even: push each finished row upward toward the starting knot to keep the weaving dense and uniform. Loose rows create a floppy, uneven bracelet.",
+      "Continue until the bracelet is long enough to wrap around the wrist with 3-4cm to spare (for tying). An average child's wrist needs approximately 18-20cm of woven bracelet.",
+      "Finish the bracelet: when the desired length is reached, tie all strands together in a single overhand knot. Trim ends to approximately 8cm - these become the tying tails.",
+      "To wear: wrap around the wrist with both knotted tails and ask someone to tie them snugly. Tradition says you make a wish when you put it on, and when it falls off naturally your wish comes true."
     ],
-    "tips": "YouTube videos are very helpful for the first bracelet. Start with just 4 strings in 2 colours to learn the knot."
+    "tips": "YouTube videos are very helpful for the first bracelet. Start with just 4 strings in 2 colours to learn the knot. The forward knot is the only knot - always twice on each strand."
   },
   {
     "id": 106,
@@ -3274,16 +3309,20 @@ const ACTIVITIES = [
     ],
     "description": "Twist, fold, and dye white t-shirts into one-of-a-kind wearable art.",
     "steps": [
-      "Dampen the shirt with water.",
-      "For a spiral: pinch the centre, twist the shirt into a flat disc, wrap rubber bands across it.",
-      "For stripes: fold the shirt accordion-style and wrap with rubber bands.",
-      "Apply dye to each section  - squeeze the bottle right against the fabric.",
-      "Flip and apply dye to the back.",
-      "Wrap tightly in plastic wrap and leave for 6–24 hours.",
-      "Rinse under cold water while still rubber-banded, then remove bands.",
-      "Rinse until clear, wash in hot water, and dry."
+      "Prepare shirts the day before: wash new shirts before tie-dyeing to remove sizing agents that prevent dye absorption. Keep damp (not dripping) before applying rubber bands. Cotton fabric absorbs dye best - 100% cotton is ideal; blends produce muted results.",
+      "Plan your pattern: there are 5 classic tie-dye patterns, each created by different folding methods. Choose which to try. Spiral: pinch the centre, twist until flat disc. Bullseye: pinch anywhere, rubber band in rings. Stripes: accordion fold lengthways. Crumple: scrunch randomly. Sunburst: multiple small pinches, each banded.",
+      "Create the spiral pattern (the most popular): lay the damp shirt flat. Pinch a point anywhere - the centre chest or slightly off-centre. Twist the shirt in one direction, using both hands to keep the twist even and the disc flat. Continue twisting until the entire shirt is a flat, round disc. Wrap 3-4 rubber bands across the disc like slices of a pie, dividing it into sections.",
+      "Apply colour to each section: wear gloves throughout. Squeeze dye from the bottle directly onto the fabric - do not be shy, saturate each section thoroughly. More dye produces more vivid colour. Apply different colours to adjacent sections.",
+      "Flip the shirt over and dye the back: the back sections will roughly correspond to the front sections. Apply the same or complementary colours to each back section.",
+      "Wrap the entire dyed shirt tightly in plastic wrap or seal it in a zip-lock bag. This keeps the dye wet and prevents it from drying before it bonds with the fabric. Some dye kits include bags for this purpose.",
+      "Set for 6-24 hours: the longer the dye sets, the more vivid and permanent the colour. A full 24-hour set produces the most vibrant results. Keep at room temperature.",
+      "Rinse carefully: after setting, take the wrapped shirt to a sink or outdoor hose. While still rubber-banded, rinse under cold running water until the water running off the shirt is nearly clear. The rubber bands prevent sections from cross-contaminating.",
+      "Remove rubber bands and rinse again: cut off all rubber bands and completely unfurl the shirt. Rinse again under cold water - the reveal is always exciting. Fold areas will be lighter than open areas.",
+      "Wash: put the shirt into the washing machine alone or with other items that are already coloured (never with whites). Use warm water. This removes all remaining loose dye and sets the colour permanently.",
+      "Dry and display: tumble dry or air dry. The final colours are brighter after washing and drying. Hang up and admire.",
+      "Troubleshoot: pale colours - not enough dye applied; muddy brown sections - complementary colours mixed together directly; bleeding between sections - rubber bands not tight enough or dye too liquid. Each failure teaches something."
     ],
-    "tips": "More dye = more vivid colour. Don't be shy with it. Wear old clothes and gloves  - the dye stains everything."
+    "tips": "More dye = more vivid colour. Don't be shy with it. Wear old clothes and gloves - the dye stains everything. 100% cotton gives the most vivid results."
   },
   {
     "id": 107,
@@ -3301,16 +3340,20 @@ const ACTIVITIES = [
     ],
     "description": "Layer paper strips over a mould to build a bowl that hardens as it dries.",
     "steps": [
-      "Mix flour and water into a smooth paste (like thin pancake batter).",
-      "Blow up a balloon or turn a bowl upside down and cover with cling film.",
-      "Dip newspaper strips in paste one at a time, remove excess, and layer over the mould.",
-      "Apply 3–4 layers, making sure each layer goes in a different direction.",
-      "Let dry completely (at least overnight).",
-      "Apply 2–3 more layers and dry again.",
-      "Remove from the mould, trim the edges neatly.",
-      "Paint, decorate, and seal with varnish."
+      "Make the paste: mix 1 part plain flour with 2 parts water in a bowl and whisk until completely smooth with no lumps. The consistency should be like thin pancake batter. Alternatively, use PVA glue mixed 50/50 with water - this gives a stronger, clearer finished bowl.",
+      "Prepare the mould: a balloon blown to the desired bowl size works perfectly. Cover the balloon with a light film of petroleum jelly to prevent sticking. Alternatively, turn a real bowl upside-down and cover it with plastic wrap before papering.",
+      "Tear newspaper into strips: approximately 2-3cm wide and 10-15cm long. Tearing (rather than cutting) creates natural feathered edges that blend together better when layered, creating a smoother finished surface.",
+      "Apply the first layer: dip each strip in the paste, run two fingers along it to remove excess, and lay it on the mould. Overlap strips by about half their width. Cover the entire mould surface. For the first layer, apply all strips in the same direction (e.g., all horizontal).",
+      "Apply the second and third layers: change direction with each layer (horizontal, then diagonal, then vertical). Alternating directions in each layer creates a cross-hatched, stronger structure - the same principle used in plywood. Apply 3-4 layers in the first session.",
+      "Allow to dry completely: this is critical. Applying wet layers over wet layers creates a soft, soggy structure that takes forever to dry and is weaker. Leave overnight at minimum. The paper will change colour slightly when dry, going from wet grey to lighter.",
+      "Apply 3-4 more layers: in a second session, add another batch of crossed layers. A strong bowl needs at least 6 total layers. For a very sturdy bowl intended for actual use, aim for 8-10 layers.",
+      "Allow to dry again completely: another overnight drying period. Test by pressing firmly - the bowl should feel rigid throughout, with no soft spots.",
+      "Remove from the mould: pop the balloon if used, or gently peel the bowl away from the plastic-wrapped mould. The bowl holds its shape without the mould inside.",
+      "Trim and refine: use scissors to trim the rim to a clean, even edge. Sand any rough spots gently with fine sandpaper. Smooth any lumps by dampening and pressing flat.",
+      "Paint: apply a base coat of white acrylic paint first - this creates a brilliant base for other colours. Allow to dry, then paint in chosen colours and patterns. Let the paint dry fully between colours.",
+      "Seal: apply 2-3 coats of clear varnish or mod podge, allowing drying between coats. This waterproofs the bowl enough for dry items and gives a professional finish. Note: these bowls are not safe for liquids or food, but they make beautiful decorative bowls."
     ],
-    "tips": "More layers = stronger bowl. At least 6 total. Let each batch of layers dry fully before adding the next."
+    "tips": "More layers = stronger bowl. At least 6 total. Let each batch of layers dry fully before adding the next. Alternating strip directions in each layer makes it much stronger."
   },
   {
     "id": 108,
@@ -3329,15 +3372,20 @@ const ACTIVITIES = [
     ],
     "description": "Hang shells from a stick on different-length strings to make a chime that sings in the breeze.",
     "steps": [
-      "An adult uses a drill or heated nail to make a small hole in each shell.",
-      "Cut strings of different lengths  - the variety makes the chime look and sound better.",
-      "Thread each shell onto a string, tying a bead below it to stop it slipping through.",
-      "Tie the other end of each string along the length of the stick.",
-      "Space them unevenly for a better sound.",
-      "Tie a string to each end of the stick to hang it.",
-      "Hang outside and listen."
+      "Collect shells: gather a variety of sizes, shapes, and thicknesses. Beach shells, garden snail shells, and craft-store shells all work. Thicker shells (cockle, whelk, oyster) are more durable; thinner shells (mussel, clam) can crack when drilling.",
+      "Drill the holes (adult task): use a small drill bit (1-2mm diameter) and drill slowly at a slow speed with light pressure. Alternatively, heat a thick nail with a lighter and carefully press through the shell - this works for thinner shells. Always hold shells with pliers or a clamp, never in the hand.",
+      "Test hole placement: the hole should be near the top edge of each shell. Shells hang most naturally when the hole is 3-5mm from the top edge. Holes placed too far from the edge make the shell hang unevenly.",
+      "Select and prepare the hanging bar: a piece of smooth driftwood, a painted wooden dowel, a straight bamboo cane, or a natural branch. The bar should be slightly longer than the widest span of your planned chime. Sand any rough edges.",
+      "Cut hanging strings to varying lengths: cut 5-8 lengths of twine, fishing line, or strong thread, each a different length. Varying lengths create visual depth and ensure shells hang at different heights so they can touch and create sound.",
+      "Thread each shell: tie a double overhand knot below the hole in the shell, or thread a bead through the string before threading the shell (the bead acts as a stopper so the shell cannot slide off).",
+      "Add beads and sea glass: alternate shells with wooden beads, glass beads, pieces of sea glass, or small flat pebbles. These add colour, texture, and additional chiming sounds.",
+      "Tie the strings to the hanging bar: space them evenly, or cluster them in groups of 2-3 for a more organic look. Tie each string with a double knot and trim any excess.",
+      "Hang for a test sound: hang the completed chime outdoors in a breezy spot and listen. The shells clacking together create the classic wind chime sound. Adjust string lengths so shells can reach each other but are not so close they tangle.",
+      "Reinforce knots: once the arrangement is satisfying, apply a small drop of super glue to each knot at the bar. This prevents strings working loose over time.",
+      "Add a hanging string to the bar: tie strings to each end of the bar and gather them above the centre, tying them together at the desired hanging height. Test that the bar hangs level.",
+      "Install outdoors: hang from a porch roof, pergola beam, or tree branch. Wind chimes need exposure to the breeze and some exposure to rain is generally fine with natural shells and sealed wood."
     ],
-    "tips": "Thinner shells (like mussel) break easily  - use thicker shells. Add beads, driftwood pieces, and sea glass for variety."
+    "tips": "Thinner shells (like mussel) break easily - use thicker shells where possible. Add beads, driftwood pieces, and sea glass for variety. An adult should drill the holes."
   },
   {
     "id": 109,
@@ -3355,14 +3403,20 @@ const ACTIVITIES = [
     ],
     "description": "Cover card strips with stickers to make personalised bookmarks for favourite books.",
     "steps": [
-      "Cut card into long thin strips.",
-      "Cover each strip completely with stickers  - overlap them, mix sizes.",
-      "Write a name or message with marker if any card shows through.",
-      "Seal with a strip of clear sticky-back laminate on both sides.",
-      "Trim the edges neatly.",
-      "Punch a hole at the top and thread ribbon through."
+      "Cut bookmark strips from thick card or thin cardstock: 5cm wide and 18-20cm long is the ideal bookmark size. A cereal box cut open provides free, sturdy card that works perfectly.",
+      "Round the corners with scissors for a more professional look: cut small diagonal snips at each corner, then round the snipped edges. This prevents corners from bending and tearing.",
+      "Introduce the project: 'These bookmarks are going to be completely covered in stickers. You choose which stickers go where. There are no rules except: cover every bit of card so no white shows through.'",
+      "Apply stickers layer by layer: start with large background stickers and build up smaller ones on top. Overlapping is encouraged and creates interesting layered effects. Sticker textures, shapes, and themes can be mixed freely.",
+      "Write a name, message, or favourite quote with a fine marker if any card shows through the sticker coverage. 'Read More Books', 'This book belongs to [name]', or a favourite quote from a beloved book all work well.",
+      "Seal with clear contact paper (sticky-back laminate) for durability: cut two pieces slightly larger than the bookmark. Apply one to the front (pressing from centre outward to eliminate bubbles) and one to the back.",
+      "Trim the laminate edges flush with the card: use scissors to follow the bookmark outline precisely. The laminate extends the life of the bookmark enormously and gives it a polished feel.",
+      "Punch a hole at the top with a hole punch: 1cm from the top edge, centred. Thread a 15cm length of ribbon, yarn, or embroidery floss through the hole and tie with a simple knot, leaving both tails loose as a tassel.",
+      "For a tassel: fold multiple thin ribbons or threads through the hole together and tie at the fold. This creates a professional-looking tassel that hangs from the top of the book.",
+      "Make a themed set: all one colour scheme, all animal stickers, all space stickers. A themed set of 5-6 bookmarks makes an excellent personalised gift.",
+      "Package for gifting: stack the bookmarks, tie with a ribbon, and insert into an envelope or a small clear bag. Write 'Handmade by [name]' on the packaging.",
+      "Discuss reading as you make: 'What is your favourite book right now? What book would you most want to use this bookmark in? Why do bookmarks matter?' This naturally frames reading as something special and worth marking."
     ],
-    "tips": "Make a set as a gift  - pack 5 bookmarks in an envelope with a note."
+    "tips": "Make a set as a gift - pack 5 bookmarks in an envelope with a note. Laminating with sticky-back contact paper makes them last much longer."
   },
   {
     "id": 110,
@@ -3405,15 +3459,20 @@ const ACTIVITIES = [
     ],
     "description": "Build the tallest freestanding tower using only spaghetti and marshmallows as connectors.",
     "steps": [
-      "Give each builder or team equal amounts of spaghetti and marshmallows.",
-      "Set a 20-minute build timer.",
-      "Push marshmallows onto spaghetti ends to join pieces.",
-      "Build upward  - consider triangular supports for stability.",
-      "No tape, no glue, no other materials.",
-      "When time is up, measure each tower's height.",
-      "Tallest freestanding tower wins."
+      "Introduce the challenge: 'You have a set number of marshmallows and spaghetti strands and 20 minutes. Your goal is to build the tallest freestanding tower you can. No tape, no glue, nothing else.' Divide into teams if there are multiple children, or compete against an adult.",
+      "Distribute equal materials: each team or builder receives exactly the same supplies - for example 20 spaghetti strands and 10 marshmallows. Equal materials make the results a fair comparison of engineering skill, not resource advantage.",
+      "Set the timer for 20 minutes: visible countdown adds stakes. Call out time remaining at 10 minutes, 5 minutes, and 1 minute.",
+      "Explain the physics before building: marshmallows act as joints and spaghetti acts as beams. Push spaghetti ends into marshmallows to make connections. The structure needs to support its own weight, so rigid triangular shapes work far better than squares (which collapse sideways).",
+      "Begin building: the best strategy is to create a wide triangular base first, then build pyramids upward rather than stacking straight vertical sections (which fall). Encourage builders to discover this through failure rather than telling them directly.",
+      "Observe and coach without solving: if a section collapses, ask 'What shape are the walls? What if you added a diagonal strut here?' rather than fixing it directly. Problem-solving under constraints is the core learning.",
+      "When structures grow tall, they become top-heavy: adding marshmallows at the top for connection points adds weight. Encourage builders to think about keeping the top section as light as possible.",
+      "Call time: when the timer reaches zero, all building stops. Hands off.",
+      "Measure each freestanding tower from the floor to the highest point: a tower that has fallen or is leaning on another object does not qualify as freestanding.",
+      "Celebrate and compare: 'What made the winning tower work? What would you do differently with a fresh set of materials?'",
+      "Engineering debrief: triangles are rigid and distribute weight along three sides simultaneously. Squares flex and collapse. The Eiffel Tower, bridges, and steel buildings all use triangular trusses for this reason.",
+      "Optional rebuild round: give a second set of materials and 15 minutes to apply what was learned. Almost always, second towers are dramatically taller than first attempts."
     ],
-    "tips": "Triangular shapes are much stronger than squares. The winning strategy almost always involves a wide triangular base."
+    "tips": "Triangular shapes are much stronger than squares. The winning strategy almost always involves a wide triangular base. Debrief what worked before a second round."
   },
   {
     "id": 112,
@@ -3428,14 +3487,20 @@ const ACTIVITIES = [
     ],
     "description": "Roll picture dice and build a story together using whatever images come up.",
     "steps": [
-      "Each player rolls 3 dice.",
-      "The first player starts a story using all 3 of their images in the opening.",
-      "The next player rolls their dice and continues the story using their images.",
-      "Keep going until everyone has had 2–3 turns.",
-      "The last player must find a way to end the story.",
-      "You can retell the whole story from the beginning when done."
+      "Gather the dice: standard Story Dice sets (like Rory's Story Cubes) have pictures instead of numbers on each face. Alternatively, make your own by writing or drawing 6 simple images on blank wooden cubes, or cutting circles and sticking picture stickers onto regular dice.",
+      "Explain the rules: each player rolls their dice and must include all rolled images in their part of the story. The images can appear in any order. Nothing is too silly - the best stories involve unexpected image combinations.",
+      "Decide the story form: will this be a round-robin (each player continues where the last left off) or a group story where everyone contributes one sentence at a time? For younger children, the round-robin with longer turns works better.",
+      "First player rolls 3 dice and opens the story: they must use all 3 images in their opening. For example, if the dice show an eye, a house, and a clock, the opener might be: 'Once, in a house where all the clocks had eyes, a strange ticking began at midnight...'",
+      "Second player rolls and continues: they pick up the story exactly where the first player left off and add their 3 images. The narrative must be continuous - no starting over.",
+      "Continue around the group: each player rolls when it is their turn and continues the story. Encourage increasingly dramatic or surprising elements. The story naturally builds in complexity with each contribution.",
+      "The final player must end the story: they should try to resolve any unresolved plot threads and create a satisfying (or deliberately unsatisfying) conclusion using their 3 images.",
+      "After the first complete story, invite someone to retell the whole story from memory, including all the wild details contributed by each player. Memory of a co-created story is surprisingly vivid.",
+      "Try themed variations: 'The whole story must be set underwater' or 'This is a detective story' or 'Everything must rhyme.' Constraints make storytelling more creative, not less.",
+      "For very young children (ages 3-5): skip the dice and simply show an image card and ask 'What is happening in this picture? What happens next?' Build the story card by card.",
+      "Record the story: have someone write down the key story beats as they happen, or record on a phone. Typed-up or illustrated versions of these stories make wonderful keepsakes.",
+      "Discuss what made the story interesting: 'What was your favourite part? Which image combination was the hardest to include? What would happen next if we kept going?'"
     ],
-    "tips": "Make your own story dice by drawing simple images on blank wooden cubes or sticking small picture stickers on regular dice."
+    "tips": "Make your own story dice by drawing simple images on blank wooden cubes or sticking small picture stickers on regular dice. All 3 rolled images must appear in each turn."
   },
   {
     "id": 113,
@@ -3451,15 +3516,20 @@ const ACTIVITIES = [
     ],
     "description": "Dance freely while music plays, freeze like a statue the instant it stops.",
     "steps": [
-      "Clear a dancing space.",
-      "One person controls the music and pauses it randomly.",
-      "Everyone dances wildly while it plays.",
-      "The instant the music stops, freeze completely still.",
-      "Anyone who moves after the music stops is out (or just giggled at).",
-      "Last dancer standing wins.",
-      "Give the winner the job of controlling the music next round."
+      "Create a clear dancing space by moving furniture to the walls: the more room available, the more extravagant the dancing. Hard floors work best. Ensure no sharp corners are within stumbling range.",
+      "Designate a music controller: this person is responsible for starting and stopping the music at unpredictable intervals. The controller can participate but needs to have one hand on the pause button at all times.",
+      "Introduce the game: 'When the music plays, dance as big and wild and silly as you possibly can. When the music stops, freeze completely still and hold your position until the music starts again. Anyone who moves after the music stops is out.'",
+      "Play a demonstration round: the controller plays music for 10 seconds then pauses. Everyone freezes. Point out who moved. This establishes the rules clearly before the competition begins.",
+      "Start the real game: music controller plays music for anywhere from 3 to 20 seconds, choosing the pause moment unpredictably. Very short plays (2-3 seconds) after a long play catches everyone off guard.",
+      "Freeze judging: when the music stops, the controller scans everyone. Any movement at all - a wobble, a blink, a giggle - counts. For serious competitive play, an eliminated player must leave the dance floor. For casual fun with young children, just giggle at the wobblers and continue.",
+      "Encourage increasingly dramatic freeze poses: 'Freeze like you are reaching for the sky!' 'Freeze like a melting ice cream!' 'Freeze in slow motion!' Themed freeze poses make the non-dancing pauses just as fun.",
+      "Use a variety of music: fast pop, slow waltz, silly kid's songs, heavy metal, classical. Different tempos inspire different dancing styles. The sudden change from heavy metal to slow classical during a pause is always funny.",
+      "For the elimination version: as players are eliminated, they can become additional judges. Two eliminations from one freeze creates lively debate.",
+      "Last dancer standing: the winner becomes the music controller for the next round. They get to choose the most devious pause moments.",
+      "Non-competitive variation for under-5s: there are no eliminations. Instead, the controller calls out a pose when the music stops: 'Freeze like a flamingo!', 'Freeze like a robot!', 'Freeze like you are made of spaghetti!' Everyone holds the pose until the music starts again.",
+      "Play multiple rounds: this game has essentially unlimited replay value and naturally ends when children are genuinely tired. 20-30 minutes of this is vigorous physical activity with no running or rough play required."
     ],
-    "tips": "For under-5s, skip the elimination and make it purely about the silly freezing poses. Call out a pose to freeze in: 'freeze like a flamingo!'"
+    "tips": "For under-5s, skip the elimination and make it purely about the silly freezing poses. Call out a pose to freeze in: 'freeze like a flamingo!' A mix of music speeds keeps it interesting."
   },
   {
     "id": 114,
@@ -3477,15 +3547,20 @@ const ACTIVITIES = [
     ],
     "description": "Design, fold, and test paper airplanes -experiment with different designs for distance and accuracy.",
     "steps": [
-      "Each person starts with the classic dart fold as a baseline.",
-      "Fly it and measure the distance.",
-      "Now experiment: wider wings, thinner nose, more folds, a paperclip on the nose for weight.",
-      "Test each modification and measure the result.",
-      "Try for accuracy: place a target (a hoop on the floor) and aim for it.",
-      "Try for time in air: which design glides the longest?",
-      "Discuss what changes helped and why  - wing shape, weight distribution."
+      "Gather paper: printer paper is ideal for most designs. Slightly heavier paper (90gsm) flies better than standard printer paper for most distance designs, but standard works fine. Each person needs at least 5-6 sheets for testing.",
+      "Start with the classic dart: fold the paper in half lengthwise, crease sharply. Open flat. Fold the top two corners down to the centre line. Fold the new outer edges to the centre line again. Fold in half along the original centre crease. Fold each wing down in line with the bottom of the plane. This is the baseline design.",
+      "Test flight the dart: throw from the same distance with the same force each time. Mark the landing spot with a piece of tape and measure the distance. This is the baseline to beat.",
+      "Experiment systematically: change one variable at a time so you can see what effect each change has. First test: add a small paperclip to the nose. Second test: wider wings. Third test: shorter, stubbier design. Fourth test: turn the wing tips up slightly.",
+      "The paperclip nose test: add a small paperclip to the nose of the dart and test again. Most designs fly noticeably farther with a small amount of nose weight, which improves stability and reduces nose-up tumbling.",
+      "Try for maximum distance: compare all tested designs and configurations. The longest-throwing design typically has moderate wing width, smooth wing surfaces (no folds sticking up), and a small amount of nose weight.",
+      "Test for accuracy: place a hula hoop or drawn circle on the floor 3 metres away. Each person throws their best plane 5 times. Award points for landing inside the circle. Accuracy requires a more stable, controllable plane than pure distance.",
+      "Test for time in air (hang time): time how long each design stays aloft from release to landing. Glider-style designs with wider wings, less aggressive nose folds, and slightly upward-bent wing tips maximise glide time.",
+      "Try the Nakamura Lock design: search 'Nakamura lock paper airplane' for the folding instructions. This is broadly accepted as the best long-distance design achievable with a single sheet of paper. Follow the steps precisely.",
+      "Discuss aerodynamics: four forces act on a flying plane - lift (wings pushing up), gravity (pulling down), thrust (the throw), and drag (air resistance slowing it down). Wider wings create more lift; smoother surfaces reduce drag.",
+      "Optional indoor variation: for distance, throw down a hallway. For accuracy, hang a hoop from a doorframe as a target. For hang time, throw up toward the ceiling and see which plane glides the longest.",
+      "Compare results and declare category champions: Fastest to Ground (worst glider), Best Glider (longest hang time), Most Accurate, and Longest Distance. Different designs win each category, which illustrates that optimising for one thing often compromises another."
     ],
-    "tips": "A paperclip on the nose dramatically improves distance in most designs. The 'Nakamura lock' is the longest-flying design for most kids to fold."
+    "tips": "A paperclip on the nose dramatically improves distance in most designs. The 'Nakamura lock' is the longest-flying design for most kids to fold. Change one variable at a time when testing."
   },
   {
     "id": 115,
@@ -3501,15 +3576,20 @@ const ACTIVITIES = [
     ],
     "description": "Test which materials magnets attract and which they don't -and explore how magnetic force works through surfaces.",
     "steps": [
-      "Lay out all the objects and predict: will the magnet attract it?",
-      "Test each item and sort into 'attracted' and 'not attracted' piles.",
-      "Does the magnet work through paper? Through your hand? Through water?",
-      "Hold two magnets facing each other -feel the push and pull.",
-      "Try to move a paperclip without touching it by sliding the magnet under the table.",
-      "Make a paperclip dance: hold a paperclip by thread, bring a magnet close -it will hover!",
-      "Discuss: what do the attracted materials have in common? (Iron, steel.)"
+      "Lay out a collection of 15-20 objects before starting: mix materials - metal items (paperclip, coin, key, nail, steel spoon), non-metals (plastic ruler, pencil, rubber eraser, fabric, glass bottle, wooden block, aluminium foil), and mixed materials (stapler with plastic housing, can with steel body).",
+      "Make predictions first: before testing anything, go through each object and predict 'attracted' or 'not attracted' and sort them into two piles. This establishes a hypothesis to test, which is the core scientific process.",
+      "Test each object: hold the magnet near each item without touching and observe. Items containing iron or steel will snap to the magnet or be pulled toward it. Many children expect all metals to attract - aluminium, copper, and gold do not.",
+      "Sort into confirmed piles: 'attracted' and 'not attracted'. Compare to predictions. Note surprises: aluminium foil is a common false positive that children expect to attract but doesn't.",
+      "Test through materials: does the magnetic force work through a sheet of paper? (Yes.) Through a thin book? (Usually yes.) Through your hand? (Yes, if the magnet is strong enough.) Through a glass of water? (Yes.) Through a steel baking tray? (No - steel blocks and redirects magnetic fields.)",
+      "Explore the two poles: mark one end of the magnet with tape. Hold the marked end near the same-marked end of another magnet - they will repel. Flip one - they attract. Explain: every magnet has a North and South pole. Like poles repel, opposite poles attract.",
+      "Hovering paperclip demonstration: tie a 20cm length of thread to a paperclip. Tape the other end of the thread to a table. Hold the magnet above the paperclip, slowly bringing it closer until the paperclip lifts and hovers, held up by attraction but held down by the thread. The paperclip appears to float in mid-air.",
+      "Remote control paperclip: place a paperclip on a piece of paper on a smooth table. Hold the magnet under the table and move it - the paperclip follows the magnet's movements from above.",
+      "Make a compass: magnetise a needle by stroking it 20 times in one direction with a magnet. Float the needle on a piece of foam or leaf in a bowl of water. It will rotate to point north-south.",
+      "Discuss what attracted items have in common: iron and steel are magnetic. Other metals (aluminium, copper, gold, silver) are not. Explain that iron is the key element - magnets work by aligning the microscopic magnetic domains in iron-containing materials.",
+      "Introduce the concept of magnetic fields: sprinkle iron filings on a piece of paper and hold a magnet underneath. The filings arrange in curved lines showing the magnetic field shape - a direct visualisation of an invisible force.",
+      "Clean up safely: return all tools to their storage places. Keep strong magnets away from phones, credit cards, and computer screens. Wash hands after handling metal items."
     ],
-    "tips": "Neodymium (rare earth) magnets are dramatically stronger than toy magnets -keep them away from phones and young children, but they're great for demonstrations."
+    "tips": "Neodymium (rare earth) magnets are dramatically stronger than toy magnets - keep them away from phones and young children, but great for demonstrations. Not all metals are magnetic - this surprises most children."
   },
   {
     "id": 116,
@@ -3527,15 +3607,20 @@ const ACTIVITIES = [
     ],
     "description": "Watch water travel up paper towels and mix colours to create a walking rainbow over several hours.",
     "steps": [
-      "Set up 7 glasses in a row.",
-      "Fill glasses 1, 3, 5, and 7 halfway with water.",
-      "Colour glass 1 red, glass 3 yellow, glass 5 blue, glass 7 red.",
-      "Leave glasses 2, 4, and 6 empty.",
-      "Fold paper towels into long strips and drape them between each glass, dipping into the water.",
-      "Watch over the next few hours as the water walks up the paper towel and drips into the empty glasses.",
-      "Secondary colours form where two colours meet: orange, green, and purple."
+      "Set up the experiment in the morning: this experiment takes 3-8 hours to complete, so an early start means you can check progress throughout the day and see the full result by evening.",
+      "Arrange 7 glasses in a straight row: clear glasses or jars allow the best observation of the water movement and colour mixing. Label them 1 through 7 with tape or a marker.",
+      "Fill glasses 1, 3, 5, and 7 halfway with water: leave glasses 2, 4, and 6 completely empty. The pattern alternates full-empty-full-empty-full-empty-full.",
+      "Add food colouring to the full glasses: glass 1 gets red (10+ drops for strong colour), glass 3 gets yellow, glass 5 gets blue, glass 7 gets red again. Stir each glass. Strong, concentrated colour gives the most vivid walking rainbow.",
+      "Fold paper towels into bridges: fold each paper towel lengthways into thirds to create a long, narrow strip about 4cm wide. You need 6 bridges - one between each adjacent pair of glasses.",
+      "Place the bridges: drape each folded paper towel so one end sits in the coloured water and the other end hangs into the adjacent empty glass. The paper towel should touch the bottom of the water glass and hang down into the empty glass. Ensure all 6 bridges are in place.",
+      "Observe the first 10 minutes: nothing seems to happen at first. Capillary action (water being pulled upward through the tiny fibres of the paper towel) begins immediately but is not yet visible. Point out that the paper towel at the water surface is already slightly wet and the colour is beginning to travel upward.",
+      "Check every 30 minutes: the coloured water is visibly climbing the paper towels. By 30-60 minutes, coloured droplets begin falling into the empty glasses. Name what you see: 'The red water is climbing up the paper towel bridge!'",
+      "Discuss capillary action: water molecules are attracted to the paper fibres and to each other. This attraction pulls water upward against gravity, like water travelling up tree roots and stems.",
+      "Observe colour mixing in real time: the empty glass between red (glass 1) and yellow (glass 3) will gradually fill with orange. Between yellow and blue will become green. Between blue and red will become purple. This is the walking rainbow - primary colours walking to meet each other and mix into secondary colours.",
+      "Predict before observing: 'What colour do you think will form in glass 2? Why? What happens when yellow and blue water mix?' Make predictions before the mixing is complete.",
+      "Leave until complete: the full rainbow takes 3-8 hours depending on temperature and paper towel thickness. Take photos every hour to make a time-lapse sequence. Compare the empty glasses at the end: orange, green, and purple should each be clearly visible."
     ],
-    "tips": "Set this up in the morning and check back throughout the day. The full rainbow takes 3-6 hours to complete."
+    "tips": "Set this up in the morning and check back throughout the day. The full rainbow takes 3-6 hours to complete. Use strong food colouring for vivid colours - weak colouring produces pale results."
   },
   {
     "id": 117,
@@ -3552,15 +3637,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw with pastels on dark paper for vivid, dreamy artwork that glows off the page.",
     "steps": [
-      "Start on dark or black paper for the most striking effect.",
-      "Draw the outline of your subject first.",
-      "Fill in with bold pastel colour -press firmly for bright coverage.",
-      "Use a finger or cotton ball to blend two colours into each other.",
-      "Add lighter colours on top of dark for highlights.",
-      "Draw stars or spots on top for a night sky effect.",
-      "Seal with hairspray to stop smudging."
+      "Set up the workspace: spread newspaper or a plastic tablecloth on the work surface. Pastels (both soft chalky pastels and oil pastels) are messy - hands and clothing will pick up colour. This is part of the charm.",
+      "Choose your paper: this activity truly transforms on dark or black paper. White paper is fine, but black paper makes pastels appear luminous and glowing. Dark blue and dark grey paper also work beautifully. Cut to the desired working size.",
+      "Choose a subject that has areas of colour rather than fine detail: pastels do broad, blended colour brilliantly but struggle with tiny precise lines. Ideal subjects: a night sky with stars, a sunset, a forest silhouette, an underwater scene, a rainbow.",
+      "Sketch the outline lightly: if using a coloured pastel, use a light colour to roughly sketch the main shapes. Avoid pressing hard at this stage - the outline is just a guide. Alternatively, skip the outline entirely and work purely with colour blocks.",
+      "Fill areas with bold pastel colour: press firmly when applying pastels. The more pressure, the more pigment deposits on the paper. Build up colour in broad strokes, working from light areas to dark.",
+      "Blend colours into each other: use a fingertip, cotton ball, or cotton bud to blend where two colours meet. Circular blending motions smooth the transition. This creates the gradient effect that gives pastel art its distinctive dreamy quality.",
+      "Add highlights: lighter pastel colours applied on top of darker colours create highlights and the illusion of light hitting a surface. White pastel over dark blue sky makes the night sky look deep. Yellow over orange in a sunset looks like light shining through.",
+      "Add detail and texture: use the sharp edge or corner of a pastel stick to draw finer lines on top of the blended background: stars, wave crests, leaf edges, window lights in a building silhouette.",
+      "Work from light to dark on light paper, dark to light on dark paper: on black paper, start with the deepest mid-tones and build toward the lightest highlights last. The lightest colours are the most visible and striking on dark paper.",
+      "Stand back and assess: step back 1-2 metres from the drawing periodically. Details that look wrong up close often look right from a distance. Pastels especially benefit from being viewed from a step back.",
+      "Seal the finished artwork: pastels smudge easily unless sealed. Spray with hairspray held 30cm away, applying 2-3 light coats. This fixes the pastel pigment to the paper. Commercial pastel fixative is available from art shops and gives a better result.",
+      "Display: mount on a piece of contrasting card (black artwork looks striking on white card, colourful artwork on black). The mounting adds visual weight and makes the artwork look gallery-quality."
     ],
-    "tips": "Dark paper makes pastel colours appear to glow. A night sky, a sunset, or a forest silhouette all look stunning this way."
+    "tips": "Dark paper makes pastel colours appear to glow. A night sky, a sunset, or a forest silhouette all look stunning this way. Seal with hairspray to prevent smudging."
   },
   {
     "id": 118,
@@ -3579,15 +3669,20 @@ const ACTIVITIES = [
     ],
     "description": "Cut shapes from card to use as stencils, then sponge paint through them for clean, repeating prints.",
     "steps": [
-      "Draw a simple shape on card: a star, heart, leaf, animal outline.",
-      "Cut it out carefully -the hole is your stencil.",
-      "Hold or tape the stencil flat on paper.",
-      "Dab paint through the hole with a sponge -use an up-and-down dabbing motion, not a brush stroke.",
-      "Lift the stencil straight up to reveal a clean edge.",
-      "Repeat across the paper in a pattern.",
-      "Use multiple stencils and colours for a layered design."
+      "Prepare the stencil materials: thick card (cereal box card is perfect), foam sheets, or stencil plastic from craft stores. Foam is more flexible and grips paper better; card is easier to cut precisely. Cut pieces approximately 15x15cm for each stencil.",
+      "Design the stencil shapes: simple, bold shapes with no floating islands (areas completely surrounded by the cut-out) work best. Ideal first stencils: stars, hearts, circles, leaf shapes, simple fish, handprints. Complex designs with many thin connecting bridges fall apart quickly.",
+      "Cut out the shapes carefully: use scissors for gentle curves, a craft knife on a cutting mat for precise straight lines. The cut-out hole is the stencil - the piece removed is also a stencil for a different effect (positive vs negative printing).",
+      "Prepare paint: pour small amounts of 2-3 colours onto separate plates. Acrylic paint is ideal - it dries quickly and does not bleed under stencils as much as watery paint. If using house emulsion paint, add a touch of washing-up liquid to improve flow.",
+      "Load the sponge correctly: dip the sponge in paint and blot off the excess on a spare piece of paper. The sponge should look barely loaded - this is called a 'dry sponge' technique. Too much paint causes bleeding under the stencil edges.",
+      "Position and hold the stencil: place the stencil flat on the paper and hold it firmly with one hand (or tape it down with masking tape). Even slight movement causes a blurred edge. One flat hand pressing the stencil down is more effective than fingers at the edges.",
+      "Apply paint with a pure up-and-down dabbing motion: tap the loaded sponge straight down into the stencil hole, then straight back up. Never drag sideways - this forces paint under the stencil edges. Build colour gradually with multiple light dabs.",
+      "Add shading within the stencil: apply darker colour at the edges of the hole and lighter colour toward the centre while the stencil is still in place. This creates a three-dimensional, rounded appearance.",
+      "Lift the stencil straight up: when removing the stencil, lift it directly upward in one clean movement. Tilting or sliding causes smearing. The clean edge revealed is the satisfying reward.",
+      "Allow to dry completely before repositioning: if applying another stencil overlapping the first area, wait for the first application to be fully dry. Wet paint under a new stencil picks up on the bottom and transfers to the next use.",
+      "Create a repeating pattern: print the same stencil across the paper in a regular or irregular arrangement. Alternate colours, alternate the stencil orientation, or overlap slightly for a layered effect. Greetings card designs, wrapping paper, and fabric printing all use this principle.",
+      "Combine multiple stencils: use two or three stencil designs together to build a scene - stencil tree trunks, then leaf shapes, then birds, building up a layered forest image one stencil at a time."
     ],
-    "tips": "Let each colour dry before applying the next stencil over the same area. Don't let paint seep under the stencil edges."
+    "tips": "Let each colour dry before applying the next stencil over the same area. Use barely-loaded, nearly-dry sponge and dab straight up and down - never drag sideways."
   },
   {
     "id": 119,
@@ -3605,15 +3700,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw into a layer of paint on a flat surface, press paper on top, and lift it to reveal a unique print.",
     "steps": [
-      "Roll or spread a thin, even layer of paint over a flat smooth surface.",
-      "Draw a design into the paint with a pencil tip, skewer, or finger.",
-      "You can also press leaves or textures into the paint.",
-      "Lay a piece of paper on top and press firmly all over.",
-      "Peel the paper back slowly from one corner.",
-      "The design transfers in reverse.",
-      "Each print is unique -you can only make one."
+      "Prepare the printing surface: a smooth, flat, non-absorbent surface holds the paint layer best. A ceramic tile, the back of a plastic tray, a smooth chopping board, or a piece of glass all work. The surface should be slightly larger than the paper you will print onto.",
+      "Mix paint to the right consistency: acrylic paint works well but dries quickly, so work fast. Finger paint is slower-drying and forgiving. The paint should be thick enough to stay where applied but thin enough to transfer when pressed. If too thick, add a drop of water.",
+      "Apply the paint layer: use a rubber roller (brayer) for the most even coat, rolling paint from a plate onto the surface. Alternatively, spread paint with a palette knife or the back of a spoon. The layer should be thin and even - approximately 1-2mm thick.",
+      "Work quickly: begin drawing in the paint before it begins to dry. Drying time depends on humidity and paint type - typically 5-10 minutes. If the paint skins over before you are ready, scrape it off and start fresh.",
+      "Draw your design into the wet paint: use a pencil tip, the handle of a paintbrush, a skewer, a fork, a comb, or a fingertip. Lines drawn into the paint remove it from those areas. Where you draw will appear as lighter lines in the final print.",
+      "Add texture: press objects into the wet paint to create texture imprints - crumpled foil, bubble wrap, lace, leaves, fabric. Press firmly and remove. These textures will transfer to the paper.",
+      "Lay the paper on top of the paint surface: hold the paper at two corners and lower it straight down to avoid shifting. Place it face down on the paint surface.",
+      "Press firmly and evenly: use the flat of your hand or a clean roller to press the paper down across the entire surface. Spend about 30 seconds pressing, working from the centre outward to avoid air pockets.",
+      "Peel back slowly from one corner: grasp one corner of the paper and pull it back slowly at a low angle. Peeling too fast can tear the paper or smear the design. Peeling slowly gives a cleaner transfer.",
+      "Reveal and display: set the print face-up to dry on a flat surface. The design appears in reverse. Areas where you drew lines appear lighter; the background areas appear with full colour.",
+      "Each monoprint is unique: the printing surface can be used for one print only - after that the paint is depleted. This is why it is called 'mono' print. A second press from the same surface creates a 'ghost print' - a paler, soft version with the remaining paint.",
+      "Make a series: create 5-6 monoprints with the same colours but different drawn designs. As a set, they feel like a cohesive collection. Try the same design twice and compare how the ghost print differs from the original."
     ],
-    "tips": "Work quickly before the paint dries. A thin, even paint layer gives the cleanest print -too thick and it smears."
+    "tips": "Work quickly before the paint dries. A thin, even paint layer gives the cleanest print - too thick and it smears. Each print is unique - you can only make one direct print from each setup."
   },
   {
     "id": 120,
@@ -3631,15 +3731,20 @@ const ACTIVITIES = [
     ],
     "description": "Fill a box with drawings, notes, and objects that capture this moment in time, then seal and hide it.",
     "steps": [
-      "Each person writes a letter to their future self: what are you into right now? What do you wish for?",
-      "Draw a self-portrait.",
-      "Include a photo if you have one to print.",
-      "Add small objects: a coin, a ticket stub, a favourite sticker.",
-      "Write down the date and when the capsule should be opened.",
-      "Seal the container with tape.",
-      "Hide it somewhere memorable -under a bed, in a shelf, buried in the garden with a map."
+      "Introduce the concept: 'We are going to make a box that captures exactly who you are right now, today - your interests, your thoughts, your favourite things. Then we are going to seal it and not open it for a year (or two, or five). When we open it, you will be older and it will feel like getting a letter from your younger self.'",
+      "Choose the container: a metal tin with a lid, a wooden box, a sealed glass jar, or a cardboard box reinforced with tape all work. The container should be large enough to hold several items. Label the outside: 'Time Capsule of [Name] - DO NOT OPEN UNTIL [date]'.",
+      "Write a letter to your future self: provide paper and encourage writing or drawing. Suggested prompts: 'My favourite things right now are...', 'My best friends are...', 'What I want to be when I grow up is...', 'The hardest thing for me right now is...', 'I hope by the time I read this, I have...', 'Something I want you to remember is...'",
+      "Draw a self-portrait: dated and signed. Compare to school photos from the same year. Self-portraits are fascinating to compare at the opening date.",
+      "Record current interests and measurements: write down height, weight, shoe size, favourite colour, favourite food, favourite book, favourite song. These mundane details are precisely what will feel most surprising and nostalgic at the opening.",
+      "Include a small photo: print a recent photo of yourself, your family, your bedroom, or your pet. Print size is fine. Label the back with names and date.",
+      "Add small objects: a coin minted in the current year, a ticket stub from a recent event, a favourite sticker or trading card, a lock of hair in a labelled envelope, a small toy that represents this period. Keep items flat where possible to fit the container.",
+      "Include a 'current events' summary: write down one or two things happening in the world right now. This contextualises the capsule historically and will feel remarkable when read later.",
+      "Set the opening date and seal: write the opening date clearly on the outside. Seal the lid with tape. Sign your name across the tape so any tampering will be visible.",
+      "Store in a memorable but practical location: under the bed, on a specific shelf, inside a book, or buried in the garden with a hand-drawn map. The location should be memorable enough to find again but not somewhere the capsule will accidentally be thrown out.",
+      "Mark the opening date on a calendar: schedule the future opening as a recurring calendar reminder so it is not forgotten. The anticipation of an approaching opening date is a genuine pleasure.",
+      "At the opening: read the letter aloud, compare the self-portrait to current appearance, check the listed measurements and interests. What changed? What stayed the same? What did the past self get right or wrong about the future?"
     ],
-    "tips": "Set a specific open date: 'open on [child's name]'s 10th birthday' or 'open in 2 years.' The anticipation is the best part."
+    "tips": "Set a specific open date: 'open on [child's name]'s 10th birthday' or 'open in 2 years.' Write current measurements (height, shoe size) - these mundane details are the most fascinating to find later."
   },
   {
     "id": 121,
@@ -3657,15 +3762,20 @@ const ACTIVITIES = [
     ],
     "description": "Make a flip book where changing the first letter creates new rhyming words -cat, bat, hat, sat.",
     "steps": [
-      "Choose a word family ending: -at, -og, -ig, -en, -ot.",
-      "Write the ending on the right side of a card strip.",
-      "Make a smaller strip that flips on the left side, showing one letter per page: c, b, h, s, m.",
-      "Cut the letter strip into individual sections and clip or ring-bind on the left.",
-      "Flip through letters to make different words.",
-      "Read each word aloud as you flip.",
-      "Make one for each vowel sound."
+      "Introduce the concept of word families (also called rimes or phonograms): words that share the same ending sound are in the same family. The -at family includes cat, bat, hat, sat, fat, mat, rat. Show a few examples by reading them aloud together before building anything.",
+      "Choose the first word family ending: start with a simple 3-letter family. Good starting families: -at (lots of words), -og (dog, log, fog, jog), -ig (big, dig, fig, wig), -en (hen, pen, ten, men), -ot (hot, dot, lot, pot). Write the chosen ending large and clear on a piece of card.",
+      "Prepare the base card: cut a piece of thick card approximately 8cm wide and 12cm tall. On the right-hand half, write the family ending large and clear in marker. Leave the left half empty for the flipping letters.",
+      "Make the flip strip: cut a narrower strip of card approximately 4cm wide and 20cm tall. This strip will fold or clip at the left side of the base card. On this strip, write one letter per section (each section about 4cm tall): C, B, H, S, M, R, F on separate sections.",
+      "Bind the flip strip: use a binder clip, a book ring, or a hole punch and treasury tag to attach the flip strip to the left side of the base card at the top. The strip should flip forward freely so each new letter appears next to the word ending.",
+      "Add illustrations: beside each letter, draw a tiny picture of the word it creates. Beside C: a cat. Beside B: a bat. Beside H: a hat. These picture cues support early readers who are not yet confident with all letter sounds.",
+      "Flip through the letters together: flip to C and read 'cat' together. Flip to B - 'bat'. Flip to H - 'hat'. Run through all letters. Some will create nonsense words (sometimes letters + endings do not make real words) - treat this as a puzzle: 'Is that a real word or a made-up word?'",
+      "Play games with the flip book: 'I am thinking of an animal that lives on a farm and says meow. Can you flip to that word?' 'What word starts with the sound you hear at the start of the word Batman?' These games build phoneme-grapheme connection naturally.",
+      "Extend with blends: once single letters are confident, try consonant blends: fl-, st-, sn-, gr-. The -at family with blends: flat, stat, snat (nonsense), grat (nonsense). Identifying real vs nonsense words is a sophisticated phonological skill.",
+      "Make a set of word family books: create one flip book for each of the major short vowel families: -at, -og, -ig, -en, -ot. Store them together. Over time, the child will have a reference library of word families covering most simple three-letter words.",
+      "Consolidate with writing: after reading with the flip book, give the child a whiteboard or paper and call out letters for them to combine with the ending and write. 'Put an S in front of -at. What word did you write?' This transitions from reading to spelling.",
+      "Celebrate progress: note which families the child reads confidently without sounding out. These are words moving from the 'decoding' pile to the 'sight recognition' pile - a meaningful milestone in early literacy development."
     ],
-    "tips": "Use bright colours for consonants and one colour for the ending to help kids visually separate the parts of the word."
+    "tips": "Use bright colours for consonants and one colour for the ending to help kids visually separate the parts of the word. Add a picture clue beside each letter to support beginning readers."
   },
   {
     "id": 123,
