@@ -209,7 +209,7 @@
       background: var(--border); border-radius: 3px;
       padding: 2px 6px; font-size: 0.75rem; font-weight: 700; color: var(--text-muted);
     }
-    .cat-btn.active { color: white; border-color: transparent; }
+    .cat-btn.active { color: white; border-color: transparent; background: var(--accent); }
     .cat-btn.active .cat-count { background: rgba(0,0,0,0.2); color: white; }
     .cat-btn[data-cat="all"].active    { background: #6d28d9; }
     .cat-btn[data-cat="crafts"].active { background: #c2410c; }
@@ -497,6 +497,16 @@
       padding: 4px 10px; background: var(--bg-hover); border: 1px solid var(--border);
       border-radius: var(--radius); font-size: 0.8rem; font-weight: 500; color: var(--text);
     }
+    .learning-list { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+    .learning-list li {
+      padding: 4px 10px; border: 1px solid var(--border); border-radius: var(--radius);
+      background: rgba(56,189,248,0.08); font-size: 0.8rem; color: var(--text);
+    }
+    .safety-box {
+      border-left: 3px solid #f59e0b; background: rgba(245,158,11,0.1);
+      padding: 0.8rem 1rem; border-radius: 0 var(--radius) var(--radius) 0;
+      font-size: 0.86rem; line-height: 1.7; color: var(--text-muted);
+    }
     .steps-list { list-style: none; }
     .steps-list li {
       display: flex; gap: 11px; padding: 9px 0; border-bottom: 1px solid var(--border);
@@ -583,18 +593,7 @@
 
 <div class="sticky-nav" id="sticky-nav">
   <div class="cat-row-wrap">
-    <div class="cat-row" id="cat-row">
-      <button class="cat-btn active" data-cat="all">All</button>
-      <button class="cat-btn" data-cat="crafts">Crafts</button>
-      <button class="cat-btn" data-cat="cooking">Cooking</button>
-      <button class="cat-btn" data-cat="outdoor">Outdoor</button>
-      <button class="cat-btn" data-cat="science">Science</button>
-      <button class="cat-btn" data-cat="games">Games</button>
-      <button class="cat-btn" data-cat="art">Art</button>
-      <button class="cat-btn" data-cat="sensory">Sensory</button>
-      <button class="cat-btn" data-cat="learning">Learning</button>
-      <button class="cat-btn" data-cat="seasonal">Seasonal</button>
-    </div>
+    <div class="cat-row" id="cat-row"></div>
   </div>
   <div class="filter-row">
     <div class="filter-chips">
@@ -612,6 +611,27 @@
         <option value="time-asc">Sort: Shortest Time</option>
         <option value="age-asc">Sort: Youngest Ages</option>
       </select>
+      <select class="sort-select" id="age-select" aria-label="Filter by age">
+        <option value="all">Age: All</option>
+        <option value="2-4">Age: 2-4</option>
+        <option value="5-7">Age: 5-7</option>
+        <option value="8-10">Age: 8-10</option>
+        <option value="11-13">Age: 11-13</option>
+      </select>
+      <select class="sort-select" id="mess-select" aria-label="Filter by mess level">
+        <option value="all">Mess: All</option>
+        <option value="low">Mess: Low</option>
+        <option value="medium">Mess: Medium</option>
+        <option value="high">Mess: High</option>
+      </select>
+      <select class="sort-select" id="cost-select" aria-label="Filter by cost">
+        <option value="all">Cost: All</option>
+        <option value="free">Cost: Free</option>
+        <option value="low">Cost: Low</option>
+        <option value="medium">Cost: Medium</option>
+      </select>
+      <button class="tools-chip" id="printable-toggle">Printable</button>
+      <button class="tools-chip" id="do-now-toggle">Do This Now</button>
       <div class="search-wrap">
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
           <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
@@ -646,6 +666,7 @@
       <div class="modal-actions">
         <button class="modal-btn" id="m-fav">Favorite</button>
         <button class="modal-btn" id="m-copy">Copy Supplies</button>
+        <button class="modal-btn" id="m-worksheet">Worksheet</button>
         <button class="modal-btn" id="m-print">Print</button>
       </div>
       <button class="modal-close" id="modal-close">x</button>
@@ -663,6 +684,14 @@
         <h3>How To Do It</h3>
         <ol class="steps-list" id="m-steps"></ol>
       </div>
+      <div class="modal-section" id="m-learning-section" style="display:none;">
+        <h3>Learning Benefits</h3>
+        <ul class="learning-list" id="m-learning"></ul>
+      </div>
+      <div class="modal-section" id="m-safety-section" style="display:none;">
+        <h3>Safety Notes</h3>
+        <div class="safety-box" id="m-safety"></div>
+      </div>
       <div class="modal-section" id="m-tip-section">
         <h3>Tip</h3>
         <div class="tip-box" id="m-tip"></div>
@@ -674,25 +703,44 @@
 <script src="data/activities.js"></script>
 <script>
   const CAT_LABELS = {
-    crafts:'Crafts', cooking:'Cooking', outdoor:'Outdoor', science:'Science',
-    games:'Games', art:'Art', sensory:'Sensory', learning:'Learning', seasonal:'Seasonal'
+    crafts: 'Crafts', cooking: 'Cooking', outdoor: 'Outdoor', science: 'Science',
+    games: 'Games', art: 'Art', sensory: 'Sensory', learning: 'Learning', seasonal: 'Seasonal',
+    rainyday: 'Rainy Day', travel: 'Travel', emotional: 'Emotional Skills', party: 'Party'
   };
+  const CATEGORY_PRIORITY = ['crafts', 'cooking', 'outdoor', 'science', 'games', 'art', 'sensory', 'learning', 'seasonal', 'rainyday', 'travel', 'emotional', 'party'];
   const STORAGE_FAV_KEY = 'kidsActivitiesFavoritesV1';
+  const AGE_BUCKETS = {
+    '2-4': [2, 4],
+    '5-7': [5, 7],
+    '8-10': [8, 10],
+    '11-13': [11, 13]
+  };
 
   let currentCat = 'all';
   let currentDiff = 'all';
   let currentSearch = '';
   let currentSort = 'recommended';
+  let currentAgeBucket = 'all';
+  let currentMess = 'all';
+  let currentCost = 'all';
   let showFavoritesOnly = false;
+  let showPrintableOnly = false;
+  let showDoNowOnly = false;
   let currentModalId = null;
 
   const grid = document.getElementById('grid');
   const countEl = document.getElementById('count');
   const overlay = document.getElementById('overlay');
   const favoritesToggle = document.getElementById('favorites-toggle');
+  const printableToggle = document.getElementById('printable-toggle');
+  const doNowToggle = document.getElementById('do-now-toggle');
   const sortSelect = document.getElementById('sort-select');
+  const ageSelect = document.getElementById('age-select');
+  const messSelect = document.getElementById('mess-select');
+  const costSelect = document.getElementById('cost-select');
 
   const favorites = loadFavorites();
+  const ACTIVITY_DATA = ACTIVITIES.map(normalizeActivity);
 
   function loadFavorites() {
     try {
@@ -710,7 +758,7 @@
 
   function parseMinutes(timeText) {
     if (!timeText) return 9999;
-    const txt = timeText.toLowerCase();
+    const txt = String(timeText).toLowerCase();
     const m = txt.match(/(\d+(?:\.\d+)?)(?:\s*[\-\u2013]\s*(\d+(?:\.\d+)?))?\s*(min|mins|hr|hrs|hour|hours)/i);
     if (!m) return 9999;
     const start = parseFloat(m[1]);
@@ -720,36 +768,130 @@
     return unit.startsWith('h') ? avg * 60 : avg;
   }
 
-  function minAge(ages) {
-    const m = String(ages || '').match(/(\d+)/);
-    return m ? parseInt(m[1], 10) : 99;
+  function parseAgeBounds(ages) {
+    const nums = String(ages || '').match(/\d+/g);
+    if (!nums || !nums.length) return [99, 99];
+    const parsed = nums.map(n => parseInt(n, 10)).filter(Number.isFinite);
+    if (!parsed.length) return [99, 99];
+    return [Math.min(...parsed), Math.max(...parsed)];
   }
 
-  // Header scroll
-  const header = document.getElementById('site-header');
-  window.addEventListener('scroll', () => {
-    header.classList.toggle('scrolled', window.scrollY > 60);
-  }, { passive: true });
+  function minAge(ages) {
+    return parseAgeBounds(ages)[0];
+  }
 
-  // Theme toggle
-  const themeBtn = document.getElementById('theme-btn');
-  themeBtn.addEventListener('click', () => {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
-    themeBtn.textContent = isDark ? '🌙' : '☀️';
-  });
+  function titleCase(text) {
+    return String(text || '')
+      .split(/\s|-/)
+      .filter(Boolean)
+      .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ');
+  }
 
-  // Populate cat counts
-  document.querySelectorAll('.cat-btn[data-cat]').forEach(btn => {
-    const cat = btn.dataset.cat;
-    const count = cat === 'all' ? ACTIVITIES.length : ACTIVITIES.filter(a => a.category === cat).length;
-    const label = btn.textContent.trim();
-    btn.innerHTML = `${label} <span class="cat-count">${count}</span>`;
-  });
+  function categoryLabel(category) {
+    return CAT_LABELS[category] || titleCase(category);
+  }
 
-  // Hero stats
-  document.getElementById('stat-total').textContent = ACTIVITIES.length;
-  document.getElementById('hero-badge').textContent = `${ACTIVITIES.length} Activities · 9 Categories`;
+  function estimateCost(activity) {
+    if (activity.cost) return activity.cost;
+    const joined = (activity.supplies || []).join(' ').toLowerCase();
+    if (/none|household|recycled|paper|cardboard|water/.test(joined)) return 'free';
+    if ((activity.supplies || []).length <= 4) return 'low';
+    return 'medium';
+  }
+
+  function estimateMess(activity) {
+    if (activity.mess) return activity.mess;
+    return ({ easy: 'low', medium: 'medium', hard: 'high' })[activity.difficulty] || 'medium';
+  }
+
+  function estimateSetupTime(activity) {
+    if (activity.setupTime) return activity.setupTime;
+    return ({ easy: '5-10 min', medium: '10-15 min', hard: '15-25 min' })[activity.difficulty] || '10-15 min';
+  }
+
+  function estimateLearningObjectives(activity) {
+    if (Array.isArray(activity.learningObjectives) && activity.learningObjectives.length) {
+      return activity.learningObjectives;
+    }
+    const defaults = {
+      crafts: ['Fine motor skills', 'Creativity'],
+      cooking: ['Practical life skills', 'Measuring and sequencing'],
+      outdoor: ['Gross motor movement', 'Nature observation'],
+      science: ['Hypothesis testing', 'Observation skills'],
+      games: ['Turn taking', 'Strategy'],
+      art: ['Creative expression', 'Visual design'],
+      sensory: ['Sensory regulation', 'Focused attention'],
+      learning: ['Critical thinking', 'Early academics'],
+      seasonal: ['Traditions and storytelling', 'Family collaboration'],
+      rainyday: ['Independent play', 'Problem solving'],
+      travel: ['Patience', 'Portable play skills'],
+      emotional: ['Emotional naming', 'Self-regulation'],
+      party: ['Social confidence', 'Team participation']
+    };
+    return defaults[activity.category] || ['Creativity', 'Problem solving'];
+  }
+
+  function normalizeActivity(activity) {
+    const ageBounds = parseAgeBounds(activity.ages);
+    const supplyCount = (activity.supplies || []).length;
+    const estimatedMinutes = parseMinutes(activity.time);
+    const mess = estimateMess(activity);
+    return {
+      ...activity,
+      mess,
+      cost: estimateCost(activity),
+      setupTime: estimateSetupTime(activity),
+      printable: Boolean(activity.printable),
+      learningObjectives: estimateLearningObjectives(activity),
+      safetyNotes: activity.safetyNotes || '',
+      ageMin: ageBounds[0],
+      ageMax: ageBounds[1],
+      estimatedMinutes,
+      doNowEligible: estimatedMinutes <= 20 && supplyCount <= 6 && mess !== 'high'
+    };
+  }
+
+  function buildCategoryButtons() {
+    const row = document.getElementById('cat-row');
+    const categories = [...new Set(ACTIVITY_DATA.map(a => a.category))];
+    categories.sort((a, b) => {
+      const ai = CATEGORY_PRIORITY.indexOf(a);
+      const bi = CATEGORY_PRIORITY.indexOf(b);
+      const ar = ai === -1 ? 999 : ai;
+      const br = bi === -1 ? 999 : bi;
+      if (ar !== br) return ar - br;
+      return a.localeCompare(b);
+    });
+
+    const buttonHtml = [
+      `<button class="cat-btn active" data-cat="all">All <span class="cat-count">${ACTIVITY_DATA.length}</span></button>`,
+      ...categories.map(cat => {
+        const count = ACTIVITY_DATA.filter(a => a.category === cat).length;
+        return `<button class="cat-btn" data-cat="${cat}">${categoryLabel(cat)} <span class="cat-count">${count}</span></button>`;
+      })
+    ];
+    row.innerHTML = buttonHtml.join('');
+
+    row.querySelectorAll('.cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        row.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCat = btn.dataset.cat;
+        fadeRender();
+        document.getElementById('activities').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+
+  function ageMatchesBucket(activity) {
+    if (currentAgeBucket === 'all') return true;
+    const bucket = AGE_BUCKETS[currentAgeBucket];
+    if (!bucket) return true;
+    const min = bucket[0];
+    const max = bucket[1];
+    return activity.ageMin <= max && activity.ageMax >= min;
+  }
 
   function diffDots(level) {
     const n = { easy: 1, medium: 2, hard: 3 }[level] || 1;
@@ -758,8 +900,8 @@
     ).join('')}</span>`;
   }
 
-  function activityImageAlt(a) {
-    return a.imageAlt || `Finished ${a.title} activity`;
+  function activityImageAlt(activity) {
+    return activity.imageAlt || `Finished ${activity.title} activity`;
   }
 
   function sorted(items) {
@@ -768,9 +910,9 @@
       case 'title-asc':
         return copy.sort((a, b) => a.title.localeCompare(b.title));
       case 'time-asc':
-        return copy.sort((a, b) => parseMinutes(a.time) - parseMinutes(b.time));
+        return copy.sort((a, b) => a.estimatedMinutes - b.estimatedMinutes);
       case 'age-asc':
-        return copy.sort((a, b) => minAge(a.ages) - minAge(b.ages));
+        return copy.sort((a, b) => a.ageMin - b.ageMin);
       default:
         return copy;
     }
@@ -778,45 +920,56 @@
 
   function filtered() {
     const q = currentSearch.toLowerCase().trim();
-    const items = ACTIVITIES.filter(a => {
+    const items = ACTIVITY_DATA.filter(a => {
       if (currentCat !== 'all' && a.category !== currentCat) return false;
       if (currentDiff !== 'all' && a.difficulty !== currentDiff) return false;
+      if (currentMess !== 'all' && a.mess !== currentMess) return false;
+      if (currentCost !== 'all' && a.cost !== currentCost) return false;
+      if (!ageMatchesBucket(a)) return false;
       if (showFavoritesOnly && !favorites.has(a.id)) return false;
+      if (showPrintableOnly && !a.printable) return false;
+      if (showDoNowOnly && !a.doNowEligible) return false;
       if (!q) return true;
       return (
         a.title.toLowerCase().includes(q) ||
         a.description.toLowerCase().includes(q) ||
+        a.learningObjectives.join(' ').toLowerCase().includes(q) ||
         a.supplies.some(s => s.toLowerCase().includes(q))
       );
     });
     return sorted(items);
   }
 
-  function cardHTML(a, featured) {
-    const imageTag = a.image
-      ? `<img class="card-photo" src="${a.image}" alt="${activityImageAlt(a)}" loading="lazy" decoding="async">`
+  function cardHTML(activity, featured) {
+    const imageTag = activity.image
+      ? `<img class="card-photo" src="${activity.image}" alt="${activityImageAlt(activity)}" loading="lazy" decoding="async">`
       : '';
-    const favActive = favorites.has(a.id) ? ' active' : '';
+    const favActive = favorites.has(activity.id) ? ' active' : '';
     return `
-      <div class="card${featured ? ' featured' : ''}" data-cat="${a.category}" data-id="${a.id}" tabindex="0" role="button" aria-label="${a.title}">
-        <button class="card-fav${favActive}" data-fav-id="${a.id}" aria-label="Toggle favorite">★</button>
+      <div class="card${featured ? ' featured' : ''}" data-cat="${activity.category}" data-id="${activity.id}" tabindex="0" role="button" aria-label="${activity.title}">
+        <button class="card-fav${favActive}" data-fav-id="${activity.id}" aria-label="Toggle favorite">★</button>
         ${imageTag}
         <div class="card-body">
-          <div class="card-title">${a.title}</div>
-          <div class="card-desc">${a.description}</div>
+          <div class="card-title">${activity.title}</div>
+          <div class="card-desc">${activity.description}</div>
           <div class="card-meta">
-            ${currentCat === 'all' ? `<span class="badge badge-cat" data-cat="${a.category}">${CAT_LABELS[a.category]}</span>` : ''}
-            <span class="badge">&#x23F1; ${a.time}</span>
-            <span class="badge">${a.ages}</span>
-            <span class="badge">${diffDots(a.difficulty)}</span>
+            ${currentCat === 'all' ? `<span class="badge badge-cat" data-cat="${activity.category}">${categoryLabel(activity.category)}</span>` : ''}
+            <span class="badge">&#x23F1; ${activity.time}</span>
+            <span class="badge">${activity.ages}</span>
+            <span class="badge">${diffDots(activity.difficulty)}</span>
+            <span class="badge">Mess: ${titleCase(activity.mess)}</span>
+            <span class="badge">Cost: ${titleCase(activity.cost)}</span>
+            ${activity.printable ? '<span class="badge">Printable</span>' : ''}
           </div>
         </div>
       </div>`;
   }
 
-  function updateFavoritesUi() {
+  function updateToggleUi() {
     favoritesToggle.classList.toggle('active', showFavoritesOnly);
-    favoritesToggle.textContent = showFavoritesOnly ? `Favorites (${favorites.size})` : `Favorites (${favorites.size})`;
+    favoritesToggle.textContent = `Favorites (${favorites.size})`;
+    printableToggle.classList.toggle('active', showPrintableOnly);
+    doNowToggle.classList.toggle('active', showDoNowOnly);
   }
 
   function toggleFavorite(id) {
@@ -826,7 +979,7 @@
     if (currentModalId === id) {
       document.getElementById('m-fav').textContent = favorites.has(id) ? 'Unfavorite' : 'Favorite';
     }
-    updateFavoritesUi();
+    updateToggleUi();
     render();
   }
 
@@ -845,7 +998,7 @@
     grid.querySelectorAll('.card').forEach(card => {
       const open = (ev) => {
         if (ev.target.closest('.card-fav')) return;
-        openModal(+card.dataset.id);
+        openModal(Number(card.dataset.id));
       };
       card.addEventListener('click', open);
       card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(e); });
@@ -854,7 +1007,7 @@
     grid.querySelectorAll('.card-fav').forEach(btn => {
       btn.addEventListener('click', e => {
         e.stopPropagation();
-        toggleFavorite(+btn.dataset.favId);
+        toggleFavorite(Number(btn.dataset.favId));
       });
     });
   }
@@ -864,8 +1017,12 @@
     setTimeout(() => { render(); grid.classList.remove('fading'); }, 140);
   }
 
+  function findActivity(id) {
+    return ACTIVITY_DATA.find(x => x.id === id);
+  }
+
   function openModal(id) {
-    const a = ACTIVITIES.find(x => x.id === id);
+    const a = findActivity(id);
     if (!a) return;
     currentModalId = id;
     document.getElementById('m-accent').dataset.cat = a.category;
@@ -885,14 +1042,34 @@
 
     document.getElementById('m-desc').textContent = a.description;
     document.getElementById('m-meta').innerHTML = `
-      <span class="badge badge-cat" data-cat="${a.category}">${CAT_LABELS[a.category]}</span>
+      <span class="badge badge-cat" data-cat="${a.category}">${categoryLabel(a.category)}</span>
       <span class="badge">&#x23F1; ${a.time}</span>
       <span class="badge">Ages ${a.ages}</span>
-      <span class="badge">${diffDots(a.difficulty)} ${a.difficulty.charAt(0).toUpperCase() + a.difficulty.slice(1)}</span>`;
+      <span class="badge">${diffDots(a.difficulty)} ${a.difficulty.charAt(0).toUpperCase() + a.difficulty.slice(1)}</span>
+      <span class="badge">Setup: ${a.setupTime}</span>
+      <span class="badge">Mess: ${titleCase(a.mess)}</span>
+      <span class="badge">Cost: ${titleCase(a.cost)}</span>
+      ${a.printable ? '<span class="badge">Printable</span>' : ''}`;
     document.getElementById('m-supplies').innerHTML = a.supplies.map(s => `<li>${s}</li>`).join('');
     document.getElementById('m-steps').innerHTML = a.steps.map((s, i) =>
       `<li><span class="step-num">${i + 1}</span><span>${s}</span></li>`).join('');
     document.getElementById('m-fav').textContent = favorites.has(a.id) ? 'Unfavorite' : 'Favorite';
+
+    const learningSection = document.getElementById('m-learning-section');
+    if (a.learningObjectives.length) {
+      document.getElementById('m-learning').innerHTML = a.learningObjectives.map(item => `<li>${item}</li>`).join('');
+      learningSection.style.display = '';
+    } else {
+      learningSection.style.display = 'none';
+    }
+
+    const safetySection = document.getElementById('m-safety-section');
+    if (a.safetyNotes) {
+      document.getElementById('m-safety').textContent = a.safetyNotes;
+      safetySection.style.display = '';
+    } else {
+      safetySection.style.display = 'none';
+    }
 
     const tipSec = document.getElementById('m-tip-section');
     if (a.tips) {
@@ -913,18 +1090,31 @@
   }
 
   function copySupplies() {
-    const a = ACTIVITIES.find(x => x.id === currentModalId);
+    const a = findActivity(currentModalId);
     if (!a) return;
     const text = `${a.title}\n\nSupplies:\n- ${a.supplies.join('\n- ')}`;
-    navigator.clipboard?.writeText(text);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text);
+    }
   }
 
   function printActivity() {
-    const a = ACTIVITIES.find(x => x.id === currentModalId);
+    const a = findActivity(currentModalId);
     if (!a) return;
     const w = window.open('', '_blank', 'width=900,height=700');
     if (!w) return;
-    w.document.write(`<!doctype html><html><head><title>${a.title}</title><style>body{font-family:Arial,sans-serif;padding:24px;line-height:1.5;}h1{margin:0 0 10px;}h2{margin-top:20px;}li{margin:6px 0;}</style></head><body><h1>${a.title}</h1><p>${a.description}</p><h2>Supplies</h2><ul>${a.supplies.map(s=>`<li>${s}</li>`).join('')}</ul><h2>Steps</h2><ol>${a.steps.map(s=>`<li>${s}</li>`).join('')}</ol>${a.tips ? `<h2>Tip</h2><p>${a.tips}</p>` : ''}</body></html>`);
+    w.document.write(`<!doctype html><html><head><title>${a.title}</title><style>body{font-family:Arial,sans-serif;padding:24px;line-height:1.5;}h1{margin:0 0 10px;}h2{margin-top:20px;}li{margin:6px 0;}</style></head><body><h1>${a.title}</h1><p>${a.description}</p><h2>Supplies</h2><ul>${a.supplies.map(s=>`<li>${s}</li>`).join('')}</ul><h2>Steps</h2><ol>${a.steps.map(s=>`<li>${s}</li>`).join('')}</ol>${a.learningObjectives.length ? `<h2>Learning Benefits</h2><ul>${a.learningObjectives.map(s=>`<li>${s}</li>`).join('')}</ul>` : ''}${a.safetyNotes ? `<h2>Safety Notes</h2><p>${a.safetyNotes}</p>` : ''}${a.tips ? `<h2>Tip</h2><p>${a.tips}</p>` : ''}</body></html>`);
+    w.document.close();
+    w.focus();
+    w.print();
+  }
+
+  function worksheetActivity() {
+    const a = findActivity(currentModalId);
+    if (!a) return;
+    const w = window.open('', '_blank', 'width=900,height=700');
+    if (!w) return;
+    w.document.write(`<!doctype html><html><head><title>${a.title} Worksheet</title><style>body{font-family:Arial,sans-serif;padding:24px;line-height:1.6;}h1{margin:0 0 10px;}h2{margin-top:20px;border-bottom:1px solid #ddd;padding-bottom:4px;}ul{padding-left:20px;}li{margin:6px 0;} .line{height:28px;border-bottom:1px solid #ddd;}</style></head><body><h1>${a.title} Worksheet</h1><p><strong>Ages:</strong> ${a.ages} | <strong>Time:</strong> ${a.time}</p><h2>Checklist</h2><ul>${a.supplies.map(s=>`<li>☐ ${s}</li>`).join('')}</ul><h2>My Steps</h2><ol>${a.steps.map(s=>`<li>${s}</li>`).join('')}</ol><h2>What I Learned</h2><ul>${a.learningObjectives.map(s=>`<li>${s}</li>`).join('')}</ul><h2>Notes</h2><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div></body></html>`);
     w.document.close();
     w.focus();
     w.print();
@@ -935,28 +1125,46 @@
     currentDiff = 'all';
     currentSearch = '';
     currentSort = 'recommended';
+    currentAgeBucket = 'all';
+    currentMess = 'all';
+    currentCost = 'all';
     showFavoritesOnly = false;
+    showPrintableOnly = false;
+    showDoNowOnly = false;
+
     document.getElementById('search').value = '';
     sortSelect.value = 'recommended';
+    ageSelect.value = 'all';
+    messSelect.value = 'all';
+    costSelect.value = 'all';
+
     document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
     document.querySelectorAll('.chip[data-diff]').forEach(c => c.classList.toggle('active', c.dataset.diff === 'all'));
-    updateFavoritesUi();
+
+    updateToggleUi();
     render();
   }
+
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  const themeBtn = document.getElementById('theme-btn');
+  themeBtn.addEventListener('click', () => {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    themeBtn.textContent = isDark ? '🌙' : '☀️';
+  });
+
+  document.getElementById('stat-total').textContent = ACTIVITY_DATA.length;
+  document.getElementById('hero-badge').textContent = `${ACTIVITY_DATA.length} Activities · ${new Set(ACTIVITY_DATA.map(a => a.category)).size} Categories`;
+
+  buildCategoryButtons();
 
   document.getElementById('modal-close').addEventListener('click', closeModal);
   overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
-
-  document.querySelectorAll('.cat-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentCat = btn.dataset.cat;
-      fadeRender();
-      document.getElementById('activities').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
 
   document.querySelectorAll('.chip[data-diff]').forEach(chip => {
     chip.addEventListener('click', () => {
@@ -978,7 +1186,19 @@
 
   favoritesToggle.addEventListener('click', () => {
     showFavoritesOnly = !showFavoritesOnly;
-    updateFavoritesUi();
+    updateToggleUi();
+    render();
+  });
+
+  printableToggle.addEventListener('click', () => {
+    showPrintableOnly = !showPrintableOnly;
+    updateToggleUi();
+    render();
+  });
+
+  doNowToggle.addEventListener('click', () => {
+    showDoNowOnly = !showDoNowOnly;
+    updateToggleUi();
     render();
   });
 
@@ -987,9 +1207,25 @@
     render();
   });
 
+  ageSelect.addEventListener('change', () => {
+    currentAgeBucket = ageSelect.value;
+    render();
+  });
+
+  messSelect.addEventListener('change', () => {
+    currentMess = messSelect.value;
+    render();
+  });
+
+  costSelect.addEventListener('change', () => {
+    currentCost = costSelect.value;
+    render();
+  });
+
   document.getElementById('clear-filters').addEventListener('click', resetFilters);
   document.getElementById('m-copy').addEventListener('click', copySupplies);
   document.getElementById('m-print').addEventListener('click', printActivity);
+  document.getElementById('m-worksheet').addEventListener('click', worksheetActivity);
   document.getElementById('m-fav').addEventListener('click', () => {
     if (currentModalId != null) toggleFavorite(currentModalId);
   });
@@ -1003,7 +1239,7 @@
   document.getElementById('hero-random-btn').addEventListener('click', openRandom);
   document.getElementById('header-random').addEventListener('click', openRandom);
 
-  updateFavoritesUi();
+  updateToggleUi();
   render();
 </script>
 </body>
