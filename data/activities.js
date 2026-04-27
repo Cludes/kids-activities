@@ -1,10 +1,9 @@
 const ACTIVITIES = [
 
-  // ── CRAFTS ──────────────────────────────────────────────────────────────
   {
     id: 1, title: "Paper Plate Animals", category: "crafts", emoji: "🐾",
     ages: "3–8", time: "30 min", difficulty: "easy",
-    supplies: ["Paper plates", "Washable paint", "Scissors", "Glue stick", "Construction paper", "Googly eyes", "Markers"],
+    supplies: ["Paper plates","Washable paint","Scissors","Glue stick","Construction paper","Googly eyes","Markers"],
     description: "Turn plain paper plates into your favourite animals using paint and basic craft supplies.",
     steps: [
       "Choose which animal you want to make.",
@@ -12,14 +11,14 @@ const ACTIVITIES = [
       "While it dries, cut out ears, tails, fins, or wings from construction paper.",
       "Glue all the paper pieces onto the dry plate.",
       "Stick on googly eyes.",
-      "Add a mouth, stripes, spots, or other details with markers."
+      "Add a mouth, stripes, spots, or other details with markers.",
     ],
     tips: "Lay down newspaper before painting. Making a zoo? Everyone picks a different animal!"
   },
   {
     id: 2, title: "Sock Puppets", category: "crafts", emoji: "🧦",
     ages: "4–10", time: "20 min", difficulty: "easy",
-    supplies: ["Old clean socks", "Googly eyes", "Felt scraps", "Glue gun or fabric glue", "Yarn", "Scissors", "Markers"],
+    supplies: ["Old clean socks","Googly eyes","Felt scraps","Glue gun or fabric glue","Yarn","Scissors","Markers"],
     description: "Give old socks a second life as wacky characters ready for a puppet show.",
     steps: [
       "Slip a sock over your hand to figure out where the face should go.",
@@ -27,14 +26,14 @@ const ACTIVITIES = [
       "Glue on googly eyes.",
       "Cut felt into tongues, ears, hair, or other features and glue them on.",
       "Add yarn for hair or a mane.",
-      "Let dry completely, then put on a puppet show!"
+      "Let dry completely, then put on a puppet show!",
     ],
     tips: "Set up a table with a blanket draped over it as a puppet theatre."
   },
   {
     id: 3, title: "Cardboard Box Playhouse", category: "crafts", emoji: "🏠",
     ages: "4–10", time: "1–2 hrs", difficulty: "medium",
-    supplies: ["Large cardboard box", "Box cutter (adult use)", "Washable paint", "Brushes", "Tape", "Markers"],
+    supplies: ["Large cardboard box","Box cutter (adult use)","Washable paint","Brushes","Tape","Markers"],
     description: "Transform a large appliance or moving box into a kid-sized house, shop, or rocket ship.",
     steps: [
       "Decide what the box will be  - house, spaceship, shop, castle.",
@@ -42,14 +41,14 @@ const ACTIVITIES = [
       "Kids paint the outside with the chosen design.",
       "Add details with markers  - bricks, flowers, a sign, flames for a rocket.",
       "Decorate the inside too  - draw shelves, a fireplace, instrument panels.",
-      "Leave to dry, then move in!"
+      "Leave to dry, then move in!",
     ],
     tips: "If you have two boxes, tape them together for a bigger build."
   },
   {
     id: 4, title: "Origami Animals", category: "crafts", emoji: "🦢",
     ages: "6–12", time: "20 min", difficulty: "medium",
-    supplies: ["Square pieces of paper (origami paper or cut from magazines)", "Markers for adding faces"],
+    supplies: ["Square pieces of paper (origami paper or cut from magazines)","Markers for adding faces"],
     description: "Fold paper into animals  - start with a simple dog or boat and work up to a crane.",
     steps: [
       "Start with the classic paper crane or a simple dog face.",
@@ -57,14 +56,14 @@ const ACTIVITIES = [
       "Follow along with a printed guide or YouTube tutorial for the specific animal.",
       "Make sharp, crisp folds by running your fingernail along each crease.",
       "Add eyes or other details with a marker.",
-      "Make a whole flock or zoo!"
+      "Make a whole flock or zoo!",
     ],
     tips: "Start with a dog face or fortune teller  - they only take a few steps. Cranes are great for ages 7+."
   },
   {
     id: 5, title: "Dream Catcher", category: "crafts", emoji: "🌙",
     ages: "6–12", time: "45 min", difficulty: "medium",
-    supplies: ["Small embroidery hoop or bendy twig", "Yarn in several colours", "Feathers", "Beads", "Scissors"],
+    supplies: ["Small embroidery hoop or bendy twig","Yarn in several colours","Feathers","Beads","Scissors"],
     description: "Weave a beautiful dream catcher to hang above your bed.",
     steps: [
       "Wrap the outside ring tightly with yarn, overlapping as you go.",
@@ -72,14 +71,14 @@ const ACTIVITIES = [
       "Thread beads onto the web yarn as you go.",
       "Continue until you reach the centre, then tie off.",
       "Cut three lengths of yarn and tie them to the bottom of the ring.",
-      "Thread beads and tie feathers onto each hanging strand."
+      "Thread beads and tie feathers onto each hanging strand.",
     ],
     tips: "The 'wrong' ones still look beautiful. Use multiple colours for a rainbow effect."
   },
   {
     id: 6, title: "Popsicle Stick Picture Frame", category: "crafts", emoji: "🖼️",
     ages: "4–10", time: "30 min", difficulty: "easy",
-    supplies: ["Popsicle sticks (8–12 per frame)", "White glue or hot glue (adult)", "Paint", "Decorations: gems, buttons, stickers", "Magnet strips or string to hang"],
+    supplies: ["Popsicle sticks (8–12 per frame)","White glue or hot glue (adult)","Paint","Decorations: gems, buttons, stickers","Magnet strips or string to hang"],
     description: "Build a custom picture frame for a favourite photo or drawing.",
     steps: [
       "Lay four popsicle sticks in a square, overlapping at the corners.",
@@ -87,14 +86,14 @@ const ACTIVITIES = [
       "Add a second layer of sticks on top for thickness and extra strength.",
       "Paint the frame your favourite colour and let dry.",
       "Decorate with gems, buttons, paint dots, or stickers.",
-      "Glue a strip magnet on the back or tie string to hang it up, then add your photo."
+      "Glue a strip magnet on the back or tie string to hang it up, then add your photo.",
     ],
     tips: "Make a bunch and give them as gifts with a printed photo inside."
   },
   {
     id: 7, title: "Tissue Paper Flowers", category: "crafts", emoji: "🌸",
     ages: "4–10", time: "20 min", difficulty: "easy",
-    supplies: ["Tissue paper in several colours", "Pipe cleaners or wooden skewers", "Scissors"],
+    supplies: ["Tissue paper in several colours","Pipe cleaners or wooden skewers","Scissors"],
     description: "Make a whole bouquet of fluffy flowers that never wilt.",
     steps: [
       "Stack 6–8 sheets of tissue paper on top of each other.",
@@ -102,14 +101,14 @@ const ACTIVITIES = [
       "Fold the accordion in half and wrap a pipe cleaner tightly around the middle  - twist to secure.",
       "Fan out both ends of the accordion so it looks like a bow tie.",
       "Gently pull each layer of tissue paper upward toward the centre to fluff the petals.",
-      "Arrange your flowers in a vase or tie them in a bunch."
+      "Arrange your flowers in a vase or tie them in a bunch.",
     ],
     tips: "Mix two colours per flower for a beautiful ombre effect."
   },
   {
     id: 8, title: "Paper Bag Puppets", category: "crafts", emoji: "🎭",
     ages: "3–8", time: "20 min", difficulty: "easy",
-    supplies: ["Small paper lunch bags", "Construction paper", "Crayons or markers", "Googly eyes", "Glue"],
+    supplies: ["Small paper lunch bags","Construction paper","Crayons or markers","Googly eyes","Glue"],
     description: "Fold-bottom paper bags become animated characters  - the folded flap is the mouth.",
     steps: [
       "Lay the bag flat with the folded bottom facing up  - this becomes the head.",
@@ -117,14 +116,14 @@ const ACTIVITIES = [
       "Draw a tongue or teeth on the part of the bag below the flap.",
       "Cut ears, hair, horns, or antennae from construction paper and glue on.",
       "Slide your hand inside and open and close the flap to make it talk.",
-      "Put on a show!"
+      "Put on a show!",
     ],
     tips: "Make a cast of characters and act out a favourite story together."
   },
   {
     id: 9, title: "Rock Painting", category: "crafts", emoji: "🪨",
     ages: "4–12", time: "45 min", difficulty: "easy",
-    supplies: ["Smooth rocks (collected or bought)", "Acrylic paint", "Small brushes", "Mod Podge or clear sealer", "Black marker"],
+    supplies: ["Smooth rocks (collected or bought)","Acrylic paint","Small brushes","Mod Podge or clear sealer","Black marker"],
     description: "Turn ordinary rocks into colourful characters, animals, or inspirational messages.",
     steps: [
       "Wash and dry your rocks completely.",
@@ -133,14 +132,14 @@ const ACTIVITIES = [
       "Let each colour dry before adding the next so they don't blend by accident.",
       "Outline details with a black marker for extra pop.",
       "Seal with Mod Podge or clear acrylic sealer once fully dry.",
-      "Hide them in the neighbourhood for others to find, or keep them as decorations!"
+      "Hide them in the neighbourhood for others to find, or keep them as decorations!",
     ],
     tips: "Flat, palm-sized river rocks work best. Prime with white paint first for brighter colours."
   },
   {
     id: 10, title: "Yarn Wrapped Letters", category: "crafts", emoji: "🔤",
     ages: "5–12", time: "30–60 min", difficulty: "easy",
-    supplies: ["Cardboard or pre-cut wooden letters", "Yarn in multiple colours", "Scissors", "White glue"],
+    supplies: ["Cardboard or pre-cut wooden letters","Yarn in multiple colours","Scissors","White glue"],
     description: "Wrap letters with colourful yarn to spell out a name or word for a bedroom wall.",
     steps: [
       "Cut a notch at the start of your letter to anchor the yarn.",
@@ -148,14 +147,14 @@ const ACTIVITIES = [
       "Continue wrapping tightly, adding small dabs of glue as you go.",
       "Switch colours by tying on a new piece of yarn and tucking the knot under the next wrap.",
       "When you reach the end, tuck the yarn tail under the last few wraps and glue.",
-      "Let dry fully, then hang on the wall!"
+      "Let dry fully, then hang on the wall!",
     ],
     tips: "Spell out a child's name for their bedroom door  - a great gift idea too."
   },
   {
     id: 11, title: "Toilet Roll Binoculars", category: "crafts", emoji: "🔭",
     ages: "3–7", time: "15 min", difficulty: "easy",
-    supplies: ["2 toilet paper rolls per pair", "Tape", "Paint or markers", "Yarn or string", "Hole punch"],
+    supplies: ["2 toilet paper rolls per pair","Tape","Paint or markers","Yarn or string","Hole punch"],
     description: "Make pretend binoculars for backyard exploring and imaginary adventures.",
     steps: [
       "Tape the two toilet rolls side by side.",
@@ -163,14 +162,14 @@ const ACTIVITIES = [
       "Let dry.",
       "Punch a hole on each outer side.",
       "Thread yarn through both holes and tie a knot so the binoculars hang around your neck.",
-      "Head outside to spot birds, bugs, and neighbours!"
+      "Head outside to spot birds, bugs, and neighbours!",
     ],
     tips: "Add star stickers to the outside for a galaxy explorer look."
   },
   {
     id: 12, title: "Collage Nature Frames", category: "crafts", emoji: "🍂",
     ages: "4–10", time: "40 min", difficulty: "easy",
-    supplies: ["Cardboard or a plain wooden frame", "Collected nature items: leaves, twigs, seeds, shells", "White glue", "Paint"],
+    supplies: ["Cardboard or a plain wooden frame","Collected nature items: leaves, twigs, seeds, shells","White glue","Paint"],
     description: "Press and glue natural materials onto a frame to make a one-of-a-kind piece.",
     steps: [
       "Paint the base frame or cardboard and let dry.",
@@ -178,16 +177,14 @@ const ACTIVITIES = [
       "Glue items down starting with the largest pieces first.",
       "Fill gaps with smaller items like seeds, pebbles, or tiny shells.",
       "Let dry overnight  - heavy items may need extra glue.",
-      "Display it or add a photo in the middle."
+      "Display it or add a photo in the middle.",
     ],
     tips: "Collect materials on a walk beforehand. Press flowers in a heavy book for a few days first."
   },
-
-  // ── COOKING & BAKING ────────────────────────────────────────────────────
   {
     id: 13, title: "Homemade Pizza", category: "cooking", emoji: "🍕",
     ages: "4–12", time: "1.5 hrs (with dough)", difficulty: "medium",
-    supplies: ["2¼ tsp instant yeast", "1 cup warm water", "2½ cups plain flour", "1 tsp salt", "1 tsp sugar", "1 tbsp olive oil", "Tomato sauce", "Shredded cheese", "Toppings of choice", "Baking sheet or pizza stone", "Rolling pin"],
+    supplies: ["2¼ tsp instant yeast","1 cup warm water","2½ cups plain flour","1 tsp salt","1 tsp sugar","1 tbsp olive oil","Tomato sauce","Shredded cheese","Toppings of choice","Baking sheet or pizza stone","Rolling pin"],
     description: "Make the dough from scratch, then top personal pizzas with whatever each person loves.",
     steps: [
       "Make the dough: stir yeast, sugar, and warm water together and wait 5 minutes until frothy.",
@@ -201,14 +198,14 @@ const ACTIVITIES = [
       "Spread a spoonful of tomato sauce, leaving a border for the crust.",
       "Add cheese and chosen toppings.",
       "Bake for 10–12 minutes until the crust is golden and cheese is bubbly.",
-      "Let cool for 2 minutes before eating."
+      "Let cool for 2 minutes before eating.",
     ],
     tips: "Short on time? Mini naan bread or English muffins make great quick pizza bases. The dough can also be made the night before and left in the fridge overnight."
   },
   {
     id: 14, title: "Fruit Kabobs", category: "cooking", emoji: "🍡",
     ages: "3–10", time: "15 min", difficulty: "easy",
-    supplies: ["Assorted fruit: strawberries, grapes, melon, pineapple, banana", "Wooden skewers or reusable picks", "Yogurt dip (optional)"],
+    supplies: ["Assorted fruit: strawberries, grapes, melon, pineapple, banana","Wooden skewers or reusable picks","Yogurt dip (optional)"],
     description: "Thread colourful fruit onto skewers to make a rainbow snack  - no cooking needed.",
     steps: [
       "Wash and dry all fruit.",
@@ -216,14 +213,14 @@ const ACTIVITIES = [
       "Lay out the fruit in colour order to plan a rainbow pattern.",
       "Thread the fruit onto skewers, alternating colours.",
       "Arrange on a plate.",
-      "Serve with yogurt as a dip."
+      "Serve with yogurt as a dip.",
     ],
     tips: "Use blunt party picks instead of sharp skewers for young kids. Challenge them to make a pattern."
   },
   {
     id: 15, title: "Decorated Sugar Cookies", category: "cooking", emoji: "🍪",
     ages: "4–12", time: "1.5 hrs", difficulty: "medium",
-    supplies: ["225g butter (softened)", "200g sugar", "1 egg", "1 tsp vanilla", "300g plain flour", "½ tsp baking powder", "Cookie cutters", "Icing sugar", "Milk", "Food colouring", "Sprinkles"],
+    supplies: ["225g butter (softened)","200g sugar","1 egg","1 tsp vanilla","300g plain flour","½ tsp baking powder","Cookie cutters","Icing sugar","Milk","Food colouring","Sprinkles"],
     description: "Bake and decorate sugar cookies from scratch  - the decorating is the best part.",
     steps: [
       "Make the dough: beat softened butter and sugar together until fluffy.",
@@ -237,28 +234,28 @@ const ACTIVITIES = [
       "Make icing: mix icing sugar with a little milk and food colouring until smooth.",
       "Spread or pipe icing onto the cooled cookies.",
       "Add sprinkles, edible glitter, or candy before the icing sets.",
-      "Let dry for 30 minutes."
+      "Let dry for 30 minutes.",
     ],
     tips: "Outline cookies with a thicker icing first, then flood with a thinner icing for a professional finish. Chilling the dough is key - don't skip it."
   },
   {
     id: 16, title: "Smoothie Bowl", category: "cooking", emoji: "🥣",
     ages: "4–12", time: "15 min", difficulty: "easy",
-    supplies: ["Frozen banana", "Frozen berries", "Yogurt", "Milk or juice", "Toppings: granola, fresh fruit, seeds, coconut", "Blender"],
+    supplies: ["Frozen banana","Frozen berries","Yogurt","Milk or juice","Toppings: granola, fresh fruit, seeds, coconut","Blender"],
     description: "Blend a thick, vibrant smoothie base and top it like a bowl of edible art.",
     steps: [
       "Add frozen banana, frozen berries, yogurt, and a splash of liquid to the blender.",
       "Blend until smooth and thick  - it should be spoonable, not pourable.",
       "Pour into a bowl.",
       "Arrange toppings in sections across the top: granola, sliced banana, berries, seeds, coconut.",
-      "Eat immediately before it melts."
+      "Eat immediately before it melts.",
     ],
     tips: "The less liquid you add, the thicker and more scoopable it will be. Kids love arranging the toppings themselves."
   },
   {
     id: 17, title: "Mini Pancakes", category: "cooking", emoji: "🥞",
     ages: "3–10", time: "30 min", difficulty: "easy",
-    supplies: ["1 cup plain flour", "1 tbsp sugar", "1 tsp baking powder", "½ tsp salt", "1 cup milk", "1 egg", "1 tbsp melted butter", "Extra butter for the pan", "Toppings: maple syrup, berries, banana, whipped cream"],
+    supplies: ["1 cup plain flour","1 tbsp sugar","1 tsp baking powder","½ tsp salt","1 cup milk","1 egg","1 tbsp melted butter","Extra butter for the pan","Toppings: maple syrup, berries, banana, whipped cream"],
     description: "Make a giant stack of silver dollar pancakes to build the tallest breakfast tower.",
     steps: [
       "Mix flour, sugar, baking powder, and salt in a bowl.",
@@ -268,14 +265,14 @@ const ACTIVITIES = [
       "Drop a small spoonful (about a tablespoon) of batter for each mini pancake.",
       "Cook until bubbles form on the surface and the edges look set, then flip.",
       "Cook 1 more minute until golden underneath.",
-      "Stack them up high and add toppings."
+      "Stack them up high and add toppings.",
     ],
     tips: "Don't overmix the batter - lumps are good. Add blueberries or chocolate chips directly onto the batter once it hits the pan, before flipping."
   },
   {
     id: 18, title: "No-Bake Energy Balls", category: "cooking", emoji: "⚡",
     ages: "5–12", time: "20 min", difficulty: "easy",
-    supplies: ["1 cup rolled oats", "½ cup peanut butter", "⅓ cup honey", "½ cup mini chocolate chips", "Bowl", "Baking sheet"],
+    supplies: ["1 cup rolled oats","½ cup peanut butter","⅓ cup honey","½ cup mini chocolate chips","Bowl","Baking sheet"],
     description: "Roll oats, peanut butter, honey, and chocolate chips into protein-packed snack balls.",
     steps: [
       "Combine oats, peanut butter, honey, and chocolate chips in a bowl.",
@@ -284,14 +281,14 @@ const ACTIVITIES = [
       "Roll tablespoon-sized portions between your palms into balls.",
       "Place on a lined baking sheet.",
       "Refrigerate for another 30 minutes before eating.",
-      "Store in an airtight container in the fridge for up to a week."
+      "Store in an airtight container in the fridge for up to a week.",
     ],
     tips: "Swap peanut butter for sunflower seed butter for a nut-free version. Add desiccated coconut or dried cranberries."
   },
   {
     id: 19, title: "Homemade Butter", category: "cooking", emoji: "🧈",
     ages: "4–12", time: "20 min", difficulty: "easy",
-    supplies: ["1 cup heavy whipping cream (room temperature)", "A jar with a tight lid", "Pinch of salt", "Crackers to taste it on"],
+    supplies: ["1 cup heavy whipping cream (room temperature)","A jar with a tight lid","Pinch of salt","Crackers to taste it on"],
     description: "Shake cream in a jar until it magically turns into butter  - science and snack in one.",
     steps: [
       "Pour cream into the jar, filling it about halfway.",
@@ -301,28 +298,28 @@ const ACTIVITIES = [
       "Keep shaking until a solid yellow lump forms and separates from the liquid.",
       "That liquid is buttermilk  - save it for pancakes!",
       "Rinse the butter blob with cold water and press it a few times to remove leftover buttermilk.",
-      "Spread on crackers and taste it!"
+      "Spread on crackers and taste it!",
     ],
     tips: "Marble-sized balls in the jar will speed up the process by helping churn the cream."
   },
   {
     id: 20, title: "Ants on a Log", category: "cooking", emoji: "🐜",
     ages: "3–8", time: "10 min", difficulty: "easy",
-    supplies: ["Celery stalks", "Peanut butter or cream cheese", "Raisins or dried cranberries"],
+    supplies: ["Celery stalks","Peanut butter or cream cheese","Raisins or dried cranberries"],
     description: "A classic no-cook snack that kids can assemble entirely themselves.",
     steps: [
       "Wash and dry the celery.",
       "Cut stalks into 3–4 sections (the 'logs').",
       "Spread peanut butter or cream cheese into the hollow groove of each piece.",
       "Press raisins or dried cranberries into the filling in a row  - those are your ants!",
-      "Serve immediately."
+      "Serve immediately.",
     ],
     tips: "Try sunflower seeds, chocolate chips, or mini M&Ms as the 'ants' for variety."
   },
   {
     id: 21, title: "Banana Nice Cream", category: "cooking", emoji: "🍦",
     ages: "4–12", time: "10 min + freeze time", difficulty: "easy",
-    supplies: ["3–4 ripe bananas", "Optional mix-ins: peanut butter, cocoa powder, berries, vanilla", "Blender or food processor", "Freezer container"],
+    supplies: ["3–4 ripe bananas","Optional mix-ins: peanut butter, cocoa powder, berries, vanilla","Blender or food processor","Freezer container"],
     description: "Blend frozen bananas into a creamy one-ingredient ice cream  - no dairy, no sugar added.",
     steps: [
       "Peel and slice ripe bananas.",
@@ -330,14 +327,14 @@ const ACTIVITIES = [
       "Break up the frozen banana and add to a blender.",
       "Blend, stopping to scrape the sides, until completely smooth and creamy.",
       "Add any mix-ins and blend briefly.",
-      "Eat immediately for a soft-serve texture, or freeze another hour for a firmer scoop."
+      "Eat immediately for a soft-serve texture, or freeze another hour for a firmer scoop.",
     ],
     tips: "The riper the banana (lots of spots), the sweeter and creamier the result."
   },
   {
     id: 22, title: "Homemade Lemonade", category: "cooking", emoji: "🍋",
     ages: "4–12", time: "15 min", difficulty: "easy",
-    supplies: ["6 lemons", "½ cup sugar", "4 cups cold water", "Citrus juicer", "Pitcher"],
+    supplies: ["6 lemons","½ cup sugar","4 cups cold water","Citrus juicer","Pitcher"],
     description: "Squeeze, stir, and taste your way to the perfect glass of lemonade.",
     steps: [
       "Make simple syrup: stir sugar and ½ cup water in a small saucepan over medium heat until sugar dissolves. Cool.",
@@ -345,14 +342,14 @@ const ACTIVITIES = [
       "Squeeze all the lemons using the juicer.",
       "Pour juice into a pitcher with the cooled syrup and remaining 3.5 cups of water.",
       "Stir, taste, and adjust  - more sugar, more lemon, or more water.",
-      "Serve over ice."
+      "Serve over ice.",
     ],
     tips: "Make strawberry or lavender lemonade by blending in a handful of strawberries or adding dried lavender to the syrup."
   },
   {
     id: 23, title: "Yogurt Parfait", category: "cooking", emoji: "🫙",
     ages: "3–8", time: "10 min", difficulty: "easy",
-    supplies: ["Greek yogurt", "Granola", "Fresh or frozen berries", "Honey", "Tall glasses or bowls"],
+    supplies: ["Greek yogurt","Granola","Fresh or frozen berries","Honey","Tall glasses or bowls"],
     description: "Layer yogurt, granola, and fruit into a tall glass for a beautiful breakfast or snack.",
     steps: [
       "Spoon a layer of yogurt into the bottom of the glass.",
@@ -360,14 +357,14 @@ const ACTIVITIES = [
       "Add a layer of fruit.",
       "Repeat layers until the glass is full.",
       "Drizzle honey over the top.",
-      "Add one final piece of fruit for decoration."
+      "Add one final piece of fruit for decoration.",
     ],
     tips: "This is a great 'cook in charge' activity  - kids assemble it completely independently."
   },
   {
     id: 24, title: "Cinnamon Toast Stars", category: "cooking", emoji: "⭐",
     ages: "3–8", time: "15 min", difficulty: "easy",
-    supplies: ["Bread", "Butter", "Cinnamon sugar (1 tbsp sugar + 1 tsp cinnamon)", "Star-shaped cookie cutter", "Toaster or oven"],
+    supplies: ["Bread","Butter","Cinnamon sugar (1 tbsp sugar + 1 tsp cinnamon)","Star-shaped cookie cutter","Toaster or oven"],
     description: "Cut toast into stars, butter them, and dust with cinnamon sugar for a magical snack.",
     steps: [
       "Toast the bread until lightly golden.",
@@ -375,16 +372,14 @@ const ACTIVITIES = [
       "Mix cinnamon and sugar together in a small bowl.",
       "Use the cookie cutter to press a star shape from each piece of toast.",
       "Sprinkle cinnamon sugar over the stars.",
-      "Eat the stars and the scraps!"
+      "Eat the stars and the scraps!",
     ],
     tips: "Use holiday cookie cutters to match the season. The offcuts are great dipped in jam."
   },
-
-  // ── OUTDOOR ─────────────────────────────────────────────────────────────
   {
     id: 25, title: "Backyard Scavenger Hunt", category: "outdoor", emoji: "🔍",
     ages: "3–10", time: "30–45 min", difficulty: "easy",
-    supplies: ["Printed or hand-drawn checklist", "Small bag or bucket to collect items"],
+    supplies: ["Printed or hand-drawn checklist","Small bag or bucket to collect items"],
     description: "Hunt for items in the backyard or neighbourhood using a checklist.",
     steps: [
       "Write or draw a list of 10–15 things to find: a red leaf, something smooth, a feather, a round rock, a spider web, something that smells nice.",
@@ -392,14 +387,14 @@ const ACTIVITIES = [
       "Set a time limit and boundaries.",
       "Hunt for everything on the list.",
       "Reconvene and compare finds.",
-      "Award a 'nature expert' certificate for finding everything!"
+      "Award a 'nature expert' certificate for finding everything!",
     ],
     tips: "Make it harder for older kids by adding descriptions instead of names: 'something that blows in the wind', 'evidence an animal lives here'."
   },
   {
     id: 26, title: "Sidewalk Chalk Art Gallery", category: "outdoor", emoji: "🎨",
     ages: "3–12", time: "1 hr", difficulty: "easy",
-    supplies: ["Chunky sidewalk chalk in multiple colours", "A driveway or path", "Water and a brush (optional)"],
+    supplies: ["Chunky sidewalk chalk in multiple colours","A driveway or path","Water and a brush (optional)"],
     description: "Turn the driveway into an art gallery  - life-sized drawings, murals, and games.",
     steps: [
       "Decide on a theme: underwater world, outer space, jungle, city.",
@@ -407,14 +402,14 @@ const ACTIVITIES = [
       "Draw and colour freely.",
       "Try a life-sized outline: lie down and trace around someone's whole body.",
       "Add hopscotch or a board game grid.",
-      "Take photos before the rain washes it away."
+      "Take photos before the rain washes it away.",
     ],
     tips: "Dip chalk in water before drawing for more vivid, paint-like colours."
   },
   {
     id: 27, title: "Bug Hunt & Field Journal", category: "outdoor", emoji: "🐛",
     ages: "4–10", time: "45 min", difficulty: "easy",
-    supplies: ["Magnifying glass", "Bug catcher or jar with air holes", "Notebook and pencil", "Field guide app (optional)"],
+    supplies: ["Magnifying glass","Bug catcher or jar with air holes","Notebook and pencil","Field guide app (optional)"],
     description: "Hunt for insects and other tiny creatures, sketch them, and log where you found them.",
     steps: [
       "Choose a search area  - under rocks, in leaf piles, on plants, in soil.",
@@ -422,14 +417,14 @@ const ACTIVITIES = [
       "Catch a bug safely in a jar for a closer look.",
       "Sketch it in the notebook and write down its colours, number of legs, and where you found it.",
       "Try to identify it with a book or app.",
-      "Carefully release it exactly where you found it."
+      "Carefully release it exactly where you found it.",
     ],
     tips: "The best time is after rain when bugs are more active. Always replace any rocks or logs you move."
   },
   {
     id: 28, title: "Backyard Obstacle Course", category: "outdoor", emoji: "🏅",
     ages: "4–12", time: "45 min", difficulty: "medium",
-    supplies: ["Hula hoops", "Cones or markers", "Jump rope", "Bucket and balls", "Pool noodles", "Chalk for lines"],
+    supplies: ["Hula hoops","Cones or markers","Jump rope","Bucket and balls","Pool noodles","Chalk for lines"],
     description: "Design and run an obstacle course  - then challenge each other to beat the record time.",
     steps: [
       "Plan the course on paper first: crawl, jump, balance, throw.",
@@ -437,14 +432,14 @@ const ACTIVITIES = [
       "Do a practice run to make sure each obstacle is safe and possible.",
       "Time each other with a stopwatch.",
       "Adjust difficulty: add more hops, narrow the balance beam, move the bucket further.",
-      "Award a gold medal for the fastest time."
+      "Award a gold medal for the fastest time.",
     ],
     tips: "Let kids help design stations  - they'll make it harder than you would!"
   },
   {
     id: 29, title: "Mud Kitchen", category: "outdoor", emoji: "🪣",
     ages: "2–7", time: "Open-ended", difficulty: "easy",
-    supplies: ["Old pots, pans, spoons", "Water", "Dirt patch or sand", "Flowers, leaves, sticks for garnish", "Old kitchen tools"],
+    supplies: ["Old pots, pans, spoons","Water","Dirt patch or sand","Flowers, leaves, sticks for garnish","Old kitchen tools"],
     description: "Set up an outdoor mud kitchen for hours of imaginative cooking play.",
     steps: [
       "Find a patch of dirt or set up a tray of soil.",
@@ -452,28 +447,28 @@ const ACTIVITIES = [
       "Add water gradually to make different textures of mud.",
       "Collect flowers, leaves, pebbles, and sticks for ingredients and garnish.",
       "Get cooking: mud soup, leaf salad, stone stew  - anything goes.",
-      "Display finished dishes on a shelf or step for a mud restaurant."
+      "Display finished dishes on a shelf or step for a mud restaurant.",
     ],
     tips: "Old clothes or a painting smock are a must. This is one of the best open-ended play activities there is."
   },
   {
     id: 30, title: "Pinecone Bird Feeder", category: "outdoor", emoji: "🐦",
     ages: "4–10", time: "20 min", difficulty: "easy",
-    supplies: ["Large pinecones", "Peanut butter or shortening", "Birdseed", "Twine", "Tray for rolling"],
+    supplies: ["Large pinecones","Peanut butter or shortening","Birdseed","Twine","Tray for rolling"],
     description: "Roll pinecones in peanut butter and birdseed to make a feeder for backyard birds.",
     steps: [
       "Tie a length of twine tightly around the top of each pinecone.",
       "Spread peanut butter generously over the whole pinecone, pushing it into the gaps.",
       "Pour birdseed onto a tray.",
       "Roll the coated pinecone through the seed, pressing so seeds stick all over.",
-      "Hang from a tree branch and wait for visitors."
+      "Hang from a tree branch and wait for visitors.",
     ],
     tips: "Hang near a window for easy bird watching. Keep a notebook nearby to log which birds you see."
   },
   {
     id: 31, title: "Fairy Garden", category: "outdoor", emoji: "🧚",
     ages: "4–10", time: "1 hr", difficulty: "medium",
-    supplies: ["Shallow pot or garden bed section", "Potting soil", "Small plants or succulents", "Pebbles, shells, twigs", "Mini figurines or toys", "Small mirror (for a pond)"],
+    supplies: ["Shallow pot or garden bed section","Potting soil","Small plants or succulents","Pebbles, shells, twigs","Mini figurines or toys","Small mirror (for a pond)"],
     description: "Build a miniature garden world with tiny paths, a pond, and a home for fairies.",
     steps: [
       "Fill a pot or section of garden with soil.",
@@ -483,14 +478,14 @@ const ACTIVITIES = [
       "Build a small house from sticks, bark, and leaves.",
       "Add a gate from two twigs and a piece of string.",
       "Place tiny figurines or animals in the garden.",
-      "Water your plants and tend to your garden over time."
+      "Water your plants and tend to your garden over time.",
     ],
     tips: "A cat litter tray works perfectly as a contained fairy garden for inside if needed."
   },
   {
     id: 32, title: "Cloud Watching & Journaling", category: "outdoor", emoji: "☁️",
     ages: "4–12", time: "20–40 min", difficulty: "easy",
-    supplies: ["Blanket", "Notebook and pencils or crayons", "Cloud identification chart (printed)"],
+    supplies: ["Blanket","Notebook and pencils or crayons","Cloud identification chart (printed)"],
     description: "Lie on the grass and find shapes in clouds, then draw and name what you see.",
     steps: [
       "Lay a blanket on the grass and lie down.",
@@ -499,14 +494,14 @@ const ACTIVITIES = [
       "Draw each cloud formation in the notebook.",
       "Write or dictate what you thought it looked like.",
       "Use the cloud chart to learn the actual weather name: cumulus, stratus, cirrus.",
-      "Note the weather and whether it changed."
+      "Note the weather and whether it changed.",
     ],
     tips: "Do this a few times and keep the journal going  - patterns will emerge over weeks."
   },
   {
     id: 33, title: "Leaf Rubbings", category: "outdoor", emoji: "🍁",
     ages: "3–8", time: "20 min", difficulty: "easy",
-    supplies: ["Collected leaves of different shapes and sizes", "White paper", "Unwrapped crayons", "Tape"],
+    supplies: ["Collected leaves of different shapes and sizes","White paper","Unwrapped crayons","Tape"],
     description: "Place leaves under paper and rub crayons over them to reveal the hidden pattern.",
     steps: [
       "Collect a variety of leaves from outside.",
@@ -515,14 +510,14 @@ const ACTIVITIES = [
       "Rub the side of an unwrapped crayon firmly back and forth across the paper.",
       "The leaf's shape and veins will appear.",
       "Use different colours on the same leaf for a layered effect.",
-      "Label each leaf with its tree name."
+      "Label each leaf with its tree name.",
     ],
     tips: "Use multiple colours of crayon on one leaf for a beautiful effect. Press all your leaves in a book to keep them flat first."
   },
   {
     id: 34, title: "Backyard Garden Planting", category: "outdoor", emoji: "🌱",
     ages: "3–12", time: "1 hr", difficulty: "medium",
-    supplies: ["Seeds or seedlings: tomatoes, sunflowers, herbs, beans", "Pots or garden bed", "Potting mix", "Watering can", "Plant markers"],
+    supplies: ["Seeds or seedlings: tomatoes, sunflowers, herbs, beans","Pots or garden bed","Potting mix","Watering can","Plant markers"],
     description: "Plant seeds and watch them grow over weeks  - sunflowers, herbs, or veggies all work well.",
     steps: [
       "Choose what to grow  - beans and sunflowers are fast and satisfying for kids.",
@@ -532,14 +527,14 @@ const ACTIVITIES = [
       "Water lightly  - just until the soil is damp.",
       "Write the plant name and date on a marker and stick it in the pot.",
       "Place in a sunny spot and water regularly.",
-      "Keep a growing journal with drawings and measurements."
+      "Keep a growing journal with drawings and measurements.",
     ],
     tips: "Bean seeds sprout in just 5–7 days, giving kids quick feedback. Grow cress on a damp cotton ball for same-day results."
   },
   {
     id: 35, title: "Water Balloon Olympics", category: "outdoor", emoji: "💦",
     ages: "4–12", time: "1 hr", difficulty: "easy",
-    supplies: ["Water balloons (fill ahead of time or use quick-fill sets)", "Towels", "Buckets or tubs", "Sponges (optional)"],
+    supplies: ["Water balloons (fill ahead of time or use quick-fill sets)","Towels","Buckets or tubs","Sponges (optional)"],
     description: "A series of fun water challenges  - toss, balance, relay, and target throw.",
     steps: [
       "Fill a big bucket of water balloons.",
@@ -548,14 +543,14 @@ const ACTIVITIES = [
       "Event 3: Relay race  - carry a water balloon on a spoon.",
       "Event 4: Balance race  - balance a balloon on your head or between your knees.",
       "Tally points and award a champion.",
-      "Finish with a free-for-all!"
+      "Finish with a free-for-all!",
     ],
     tips: "Use reusable water balloons if possible to avoid the clean-up mess."
   },
   {
     id: 36, title: "Nature Weaving", category: "outdoor", emoji: "🌿",
     ages: "5–12", time: "40 min", difficulty: "medium",
-    supplies: ["Two forked sticks or a frame made from four sticks tied together", "String or yarn", "Collected items: grass, leaves, flowers, feathers, thin twigs"],
+    supplies: ["Two forked sticks or a frame made from four sticks tied together","String or yarn","Collected items: grass, leaves, flowers, feathers, thin twigs"],
     description: "Stretch yarn across a stick frame and weave natural materials through it to make wall art.",
     steps: [
       "Tie four sticks together in a rectangle, or find a naturally forked branch.",
@@ -563,16 +558,14 @@ const ACTIVITIES = [
       "Weave collected items in and out of the yarn rows.",
       "Mix colours and textures  - leaves, grass, flowers, thin stems.",
       "Fill the frame as tightly or loosely as you like.",
-      "Tie a string to the top to hang it up."
+      "Tie a string to the top to hang it up.",
     ],
     tips: "This works beautifully with Autumn colours. Hang outside to let it gradually decompose naturally."
   },
-
-  // ── SCIENCE & EXPERIMENTS ───────────────────────────────────────────────
   {
     id: 37, title: "Baking Soda Volcano", category: "science", emoji: "🌋",
     ages: "3–10", time: "30 min", difficulty: "easy",
-    supplies: ["Baking soda", "White vinegar", "Red food colouring", "Washing-up liquid", "Play dough or clay (optional, for the volcano shape)", "Tray"],
+    supplies: ["Baking soda","White vinegar","Red food colouring","Washing-up liquid","Play dough or clay (optional, for the volcano shape)","Tray"],
     description: "The classic eruption experiment  - watch the chemical reaction foam and overflow.",
     steps: [
       "Build a volcano shape from play dough or clay around a small cup or bottle on a tray.",
@@ -581,14 +574,14 @@ const ACTIVITIES = [
       "When ready to erupt, pour in a splash of white vinegar.",
       "Watch it foam over the sides!",
       "Reload with more baking soda and vinegar for multiple eruptions.",
-      "Discuss: the gas produced is carbon dioxide  - the same gas in fizzy drinks."
+      "Discuss: the gas produced is carbon dioxide  - the same gas in fizzy drinks.",
     ],
     tips: "Add more vinegar slowly for a slower, more lava-like flow. Try orange food colouring instead of red."
   },
   {
     id: 38, title: "DIY Slime", category: "science", emoji: "🟢",
     ages: "5–12", time: "20 min", difficulty: "medium",
-    supplies: ["White school glue (120ml)", "Saline contact lens solution", "Baking soda", "Food colouring", "Glitter (optional)", "Bowl and spoon"],
+    supplies: ["White school glue (120ml)","Saline contact lens solution","Baking soda","Food colouring","Glitter (optional)","Bowl and spoon"],
     description: "Make stretchy, satisfying slime using glue and a saline activator.",
     steps: [
       "Pour glue into a bowl and add food colouring and glitter.",
@@ -596,14 +589,14 @@ const ACTIVITIES = [
       "Add saline solution one tablespoon at a time, stirring after each addition.",
       "Once it starts to pull away from the bowl, knead with your hands.",
       "Keep kneading until it's no longer sticky  - add tiny bits more saline if needed.",
-      "Store in an airtight container."
+      "Store in an airtight container.",
     ],
     tips: "Less saline = stickier slime. More saline = firmer slime. The baking soda is what helps it come together properly."
   },
   {
     id: 39, title: "Rainbow Density Tower", category: "science", emoji: "🌈",
     ages: "5–12", time: "30 min", difficulty: "medium",
-    supplies: ["Tall glass or cylinder", "Honey", "Corn syrup", "Washing-up liquid", "Water (tinted blue)", "Vegetable oil", "Food colouring", "Small objects to drop in"],
+    supplies: ["Tall glass or cylinder","Honey","Corn syrup","Washing-up liquid","Water (tinted blue)","Vegetable oil","Food colouring","Small objects to drop in"],
     description: "Layer different liquids to create a rainbow column  - they won't mix because of density differences.",
     steps: [
       "Pour honey slowly down the side of the glass first.",
@@ -613,14 +606,14 @@ const ACTIVITIES = [
       "Add vegetable oil.",
       "Each layer should sit clearly above the last.",
       "Gently drop small objects and watch each one sink to the layer that matches its density.",
-      "Try a grape, a cork, a coin, a small plastic toy."
+      "Try a grape, a cork, a coin, a small plastic toy.",
     ],
     tips: "Pour each layer over the back of a spoon to keep the layers clean and separate."
   },
   {
     id: 40, title: "Grow Sugar Crystals", category: "science", emoji: "💎",
     ages: "6–12", time: "30 min + 3–7 days growing", difficulty: "medium",
-    supplies: ["2 cups sugar", "1 cup water", "Saucepan", "Jar", "String or a wooden skewer", "Clothespeg or pencil"],
+    supplies: ["2 cups sugar","1 cup water","Saucepan","Jar","String or a wooden skewer","Clothespeg or pencil"],
     description: "Dissolve sugar in hot water, then watch crystals slowly grow on a string over several days.",
     steps: [
       "Boil water in a saucepan, then dissolve sugar in it  - keep adding until no more will dissolve.",
@@ -629,14 +622,14 @@ const ACTIVITIES = [
       "Move the jar somewhere undisturbed.",
       "Check daily  - crystals will begin forming within 24–48 hours.",
       "After 3–7 days, pull out your rock candy and let it dry.",
-      "It's edible! Taste it."
+      "It's edible! Taste it.",
     ],
     tips: "Wet the string and roll it in sugar before putting it in the jar  - this gives crystals a starting point."
   },
   {
     id: 41, title: "Milk Swirl Science", category: "science", emoji: "🥛",
     ages: "3–10", time: "15 min", difficulty: "easy",
-    supplies: ["Full-fat milk", "Food colouring (4 colours)", "Washing-up liquid", "Cotton swab", "Shallow dish"],
+    supplies: ["Full-fat milk","Food colouring (4 colours)","Washing-up liquid","Cotton swab","Shallow dish"],
     description: "Drop food colouring into milk, touch it with soapy water, and watch an explosion of colour.",
     steps: [
       "Pour milk into a shallow dish to cover the bottom.",
@@ -645,14 +638,14 @@ const ACTIVITIES = [
       "Touch the tip gently to the surface of the milk near a drop of colour.",
       "Watch the colours swirl and explode outward!",
       "Try touching different spots.",
-      "Discuss why it happens: soap breaks down the fat in milk, creating movement."
+      "Discuss why it happens: soap breaks down the fat in milk, creating movement.",
     ],
     tips: "This works with full-fat milk only  - the fat is what reacts with the soap. Skim milk barely reacts."
   },
   {
     id: 42, title: "Oobleck", category: "science", emoji: "🫧",
     ages: "3–10", time: "15 min", difficulty: "easy",
-    supplies: ["2 cups cornstarch", "1 cup water", "Food colouring", "Large tray or bowl"],
+    supplies: ["2 cups cornstarch","1 cup water","Food colouring","Large tray or bowl"],
     description: "Make a non-Newtonian fluid that acts like a solid when you squeeze it and a liquid when you let go.",
     steps: [
       "Add food colouring to water in a large bowl.",
@@ -660,14 +653,14 @@ const ACTIVITIES = [
       "Stop adding when the mixture feels weird  - it should resist a fast stir but pour slowly.",
       "Try punching it  - your fist will bounce off. Then open your hand and let it ooze through.",
       "Roll some into a ball fast  - it holds. Then stop rolling  - it melts.",
-      "This is a non-Newtonian fluid. It behaves like a liquid under no pressure and a solid under pressure."
+      "This is a non-Newtonian fluid. It behaves like a liquid under no pressure and a solid under pressure.",
     ],
     tips: "Make it on a tray for containment. It washes off easily with water. Add more cornstarch if too runny."
   },
   {
     id: 43, title: "Invisible Ink Messages", category: "science", emoji: "🕵️",
     ages: "5–12", time: "20 min", difficulty: "easy",
-    supplies: ["Lemon juice", "Water", "Cotton swab or thin paintbrush", "White paper", "Heat source: lamp or toaster (adult supervised)"],
+    supplies: ["Lemon juice","Water","Cotton swab or thin paintbrush","White paper","Heat source: lamp or toaster (adult supervised)"],
     description: "Write secret messages with lemon juice that only appear when heated.",
     steps: [
       "Mix lemon juice with a little water in a small bowl.",
@@ -676,14 +669,14 @@ const ACTIVITIES = [
       "Let it dry completely  - it will be invisible.",
       "Give the paper to someone to decode.",
       "To reveal: hold the paper close to a warm lightbulb or pass over a toaster (adult supervised).",
-      "The message will slowly appear brown as the lemon juice oxidises."
+      "The message will slowly appear brown as the lemon juice oxidises.",
     ],
     tips: "Write a treasure map in invisible ink for an extra-fun scavenger hunt."
   },
   {
     id: 44, title: "Paper Bridge Challenge", category: "science", emoji: "🌉",
     ages: "6–12", time: "45 min", difficulty: "hard",
-    supplies: ["Several sheets of paper per person", "Scissors", "Tape", "Coins or weights to test load"],
+    supplies: ["Several sheets of paper per person","Scissors","Tape","Coins or weights to test load"],
     description: "Each person builds a bridge from paper only  - then test who holds the most weight.",
     steps: [
       "Give each builder 5 sheets of paper, scissors, and tape.",
@@ -692,14 +685,14 @@ const ACTIVITIES = [
       "Test each bridge by stacking coins in the middle one at a time.",
       "Count the coins before it collapses.",
       "Compare designs  - which shapes were strongest? (Arches, triangles, corrugated folds.)",
-      "Rebuild using what you learned and test again."
+      "Rebuild using what you learned and test again.",
     ],
     tips: "Folding paper into a corrugated (accordion) pattern dramatically increases its strength. Try to guide kids to discover this."
   },
   {
     id: 45, title: "Seed Germination Observation Jar", category: "science", emoji: "🌾",
     ages: "4–10", time: "20 min + daily observation", difficulty: "easy",
-    supplies: ["Clear glass or jar", "Paper towels", "Bean or pea seeds", "Water", "Notebook to record observations"],
+    supplies: ["Clear glass or jar","Paper towels","Bean or pea seeds","Water","Notebook to record observations"],
     description: "Press seeds against a glass jar to watch roots and shoots emerge over several days.",
     steps: [
       "Scrunch a paper towel and stuff it into a clear jar.",
@@ -708,14 +701,14 @@ const ACTIVITIES = [
       "Place on a windowsill.",
       "Check daily and draw what you see in a notebook.",
       "Water every other day to keep it damp but not soaking.",
-      "Watch roots grow down and the shoot push up toward the light."
+      "Watch roots grow down and the shoot push up toward the light.",
     ],
     tips: "Once they've sprouted well, plant them in soil to grow on. Bean seeds work in about 5 days."
   },
   {
     id: 46, title: "Egg Drop Challenge", category: "science", emoji: "🥚",
     ages: "7–12", time: "1 hr", difficulty: "hard",
-    supplies: ["1 raw egg per team", "Straws, tape, rubber bands, bubble wrap, cotton balls, plastic bags, popsicle sticks", "A high-up drop point (upper floor window or deck)"],
+    supplies: ["1 raw egg per team","Straws, tape, rubber bands, bubble wrap, cotton balls, plastic bags, popsicle sticks","A high-up drop point (upper floor window or deck)"],
     description: "Build a structure to protect an egg from a high drop  - only the structure can break.",
     steps: [
       "Give each team an egg and the same set of materials.",
@@ -723,16 +716,14 @@ const ACTIVITIES = [
       "The structure must weigh as little as possible while protecting the egg.",
       "Take turns dropping from the same height.",
       "Inspect eggs for cracks.",
-      "Discuss what worked: cushioning, weight distribution, crumple zones."
+      "Discuss what worked: cushioning, weight distribution, crumple zones.",
     ],
     tips: "Start from a lower height and increase. This teaches iteration  - fix what failed and try again."
   },
-
-  // ── GAMES & PLAY ────────────────────────────────────────────────────────
   {
     id: 47, title: "Treasure Hunt with Clues", category: "games", emoji: "🗺️",
     ages: "4–12", time: "1 hr", difficulty: "medium",
-    supplies: ["Clue cards (written or drawn)", "A hidden 'treasure' (small toy, treat, or activity)", "Pencil"],
+    supplies: ["Clue cards (written or drawn)","A hidden 'treasure' (small toy, treat, or activity)","Pencil"],
     description: "Write a chain of clues leading from one hiding spot to the next, ending at a surprise.",
     steps: [
       "Decide on 6–8 hiding spots around the house or yard.",
@@ -740,14 +731,14 @@ const ACTIVITIES = [
       "Hide each clue at the location it describes.",
       "Put the final treasure at the last location.",
       "Give hunters the first clue and let them go.",
-      "For young kids, use pictures instead of words for clues."
+      "For young kids, use pictures instead of words for clues.",
     ],
     tips: "Make riddle clues harder for older kids: 'I keep things cool and things you eat, look inside me for your treat.' For younger kids: draw pictures of each location."
   },
   {
     id: 48, title: "Freeze Dance Party", category: "games", emoji: "🕺",
     ages: "2–10", time: "20–30 min", difficulty: "easy",
-    supplies: ["Music player", "Space to move"],
+    supplies: ["Music player","Space to move"],
     description: "Dance wildly when music plays, freeze in a statue pose when it stops.",
     steps: [
       "Clear a space in the living room.",
@@ -755,14 +746,14 @@ const ACTIVITIES = [
       "One person controls the music and pauses it at random.",
       "Anyone who moves after the music stops is out (or just laughed at!).",
       "Last dancer standing wins and gets to control the music next.",
-      "Play with themes: freeze like a robot, freeze like an animal."
+      "Play with themes: freeze like a robot, freeze like an animal.",
     ],
     tips: "Skip the elimination version with young kids  - everyone keeps dancing regardless. Focus on silly freezing poses."
   },
   {
     id: 49, title: "Shadow Puppet Theatre", category: "games", emoji: "🎪",
     ages: "4–10", time: "30–45 min", difficulty: "easy",
-    supplies: ["Torch or lamp", "White sheet or blank wall", "Hands"],
+    supplies: ["Torch or lamp","White sheet or blank wall","Hands"],
     description: "Create animals and characters using your hands and a light source  - then put on a show.",
     steps: [
       "Hang a white sheet or find a blank pale wall.",
@@ -770,14 +761,14 @@ const ACTIVITIES = [
       "Stand between the light and the sheet.",
       "Practice hand shapes: dog, bird, rabbit, butterfly, crocodile.",
       "Make up a story and perform it using the puppets.",
-      "Take turns being the audience."
+      "Take turns being the audience.",
     ],
     tips: "Look up hand shadow guides online to learn more shapes. Cardboard cut-out characters on sticks work great too."
   },
   {
     id: 50, title: "Blanket Fort City", category: "games", emoji: "🏕️",
     ages: "3–10", time: "45 min–open-ended", difficulty: "medium",
-    supplies: ["Blankets, sheets, duvets", "Chairs, cushions, couch", "Clothes pegs", "Fairy lights (optional)", "Pillows"],
+    supplies: ["Blankets, sheets, duvets","Chairs, cushions, couch","Clothes pegs","Fairy lights (optional)","Pillows"],
     description: "Build the ultimate blanket fort and spend time inside it reading, playing, or watching a movie.",
     steps: [
       "Plan the fort: how big? One room or multi-room? Secret entrance?",
@@ -786,14 +777,14 @@ const ACTIVITIES = [
       "Build up layers for a sturdy structure.",
       "Add fairy lights inside for atmosphere.",
       "Furnish with pillows, soft toys, and snacks.",
-      "Declare it complete and move in."
+      "Declare it complete and move in.",
     ],
     tips: "Make rules: no adults without knocking. Add a password for the entrance."
   },
   {
     id: 51, title: "Indoor Bowling", category: "games", emoji: "🎳",
     ages: "3–8", time: "30 min", difficulty: "easy",
-    supplies: ["10 empty plastic bottles or toilet rolls", "A soft ball or rolled-up sock", "Tape for a lane"],
+    supplies: ["10 empty plastic bottles or toilet rolls","A soft ball or rolled-up sock","Tape for a lane"],
     description: "Set up a bowling lane in the hallway using bottles and a soft ball.",
     steps: [
       "Arrange 10 bottles or rolls in a triangle at one end of the hallway.",
@@ -802,14 +793,14 @@ const ACTIVITIES = [
       "Count how many knocked down per turn.",
       "Keep score on paper.",
       "Give each player 2 rolls per frame.",
-      "10 frames makes a full game."
+      "10 frames makes a full game.",
     ],
     tips: "Put a little rice or sand in each bottle so they don't blow over between turns."
   },
   {
     id: 52, title: "Charades for Kids", category: "games", emoji: "🎬",
     ages: "5–12", time: "30 min", difficulty: "easy",
-    supplies: ["Slips of paper with actions, animals, or movie titles", "Bowl or hat", "Timer"],
+    supplies: ["Slips of paper with actions, animals, or movie titles","Bowl or hat","Timer"],
     description: "Act out words silently while others guess  - no talking allowed.",
     steps: [
       "Write simple prompts on slips of paper (animals, foods, actions, characters) and put in a bowl.",
@@ -818,14 +809,14 @@ const ACTIVITIES = [
       "Their team has 60 seconds to guess.",
       "If they guess correctly before time runs out, that team gets a point.",
       "Take turns until everyone has had a go.",
-      "Most points wins."
+      "Most points wins.",
     ],
     tips: "For younger kids, use only animal categories. For older kids add movies, songs, and books."
   },
   {
     id: 53, title: "The Floor is Lava", category: "games", emoji: "🔥",
     ages: "3–10", time: "20–30 min", difficulty: "easy",
-    supplies: ["Cushions, pillows, books, pieces of cardboard", "Living room furniture"],
+    supplies: ["Cushions, pillows, books, pieces of cardboard","Living room furniture"],
     description: "The floor has turned to lava  - use cushions and furniture to get across without touching it.",
     steps: [
       "Call out 'THE FLOOR IS LAVA!' suddenly.",
@@ -833,14 +824,14 @@ const ACTIVITIES = [
       "Scatter cushions and pillows as stepping stones.",
       "Create challenges: get from the couch to the kitchen without touching the floor.",
       "If you touch the lava, you're out  - or you have to sit on a lava island and be rescued.",
-      "Set a mission: retrieve a toy from across the room using only stepping stones."
+      "Set a mission: retrieve a toy from across the room using only stepping stones.",
     ],
     tips: "This is much better as a sudden surprise game than a planned one. Call it out when least expected!"
   },
   {
     id: 54, title: "Telephone Pictionary", category: "games", emoji: "📝",
     ages: "6–12", time: "30 min", difficulty: "easy",
-    supplies: ["A stack of small papers per player", "Pencils"],
+    supplies: ["A stack of small papers per player","Pencils"],
     description: "Combine Telephone and Pictionary  - write a phrase, pass it, someone draws it, the next person guesses what the drawing is, and so on.",
     steps: [
       "Give each player a stack of papers and a pencil.",
@@ -849,14 +840,14 @@ const ACTIVITIES = [
       "The next person reads the phrase, hides it, and draws it on the next paper.",
       "Pass again. The next person looks only at the drawing and writes what they think it is.",
       "Keep alternating draw/write until the stack returns to the original writer.",
-      "Read out the chain from start to finish  - usually hilarious."
+      "Read out the chain from start to finish  - usually hilarious.",
     ],
     tips: "The more players the better. Works brilliantly with 5+ people."
   },
   {
     id: 55, title: "Balloon Tennis", category: "games", emoji: "🎾",
     ages: "3–8", time: "20 min", difficulty: "easy",
-    supplies: ["Balloons", "Paper plates on sticks (or just hands)", "A 'net' made from string or tape on the floor"],
+    supplies: ["Balloons","Paper plates on sticks (or just hands)","A 'net' made from string or tape on the floor"],
     description: "Hit a balloon back and forth over an imaginary net  - keep it in the air as long as possible.",
     steps: [
       "Blow up 2–3 balloons.",
@@ -864,14 +855,14 @@ const ACTIVITIES = [
       "Stretch a piece of string low between two chairs as the net, or use a tape line on the floor.",
       "Hit the balloon back and forth.",
       "Count consecutive hits as a team record and try to beat it.",
-      "For a competition: a point is scored when the balloon hits the floor on the other side."
+      "For a competition: a point is scored when the balloon hits the floor on the other side.",
     ],
     tips: "Balloons are slow enough for toddlers but surprisingly challenging. Try keeping two balloons up at once."
   },
   {
     id: 56, title: "Homemade Board Game", category: "games", emoji: "🎲",
     ages: "6–12", time: "1–2 hrs to make, then play", difficulty: "medium",
-    supplies: ["Large cardboard", "Markers", "Dice", "Small toys or buttons as playing pieces", "Index cards"],
+    supplies: ["Large cardboard","Markers","Dice","Small toys or buttons as playing pieces","Index cards"],
     description: "Design and build your own board game from scratch, then play it.",
     steps: [
       "Decide on a theme: jungle adventure, space race, underwater treasure hunt.",
@@ -880,16 +871,14 @@ const ACTIVITIES = [
       "Write challenge cards: 'do 10 star jumps', 'say the alphabet backwards', 'answer a trivia question'.",
       "Decorate the board with artwork.",
       "Write the rules down.",
-      "Play it with the family  - and adjust rules that don't work well."
+      "Play it with the family  - and adjust rules that don't work well.",
     ],
     tips: "The fact that they made it makes even a simple game special. Keep it and play it again."
   },
-
-  // ── ART ─────────────────────────────────────────────────────────────────
   {
     id: 57, title: "Watercolour Painting", category: "art", emoji: "🖌️",
     ages: "3–12", time: "30–45 min", difficulty: "easy",
-    supplies: ["Watercolour paints", "Brushes (several sizes)", "Watercolour paper or thick paper", "Water jar", "Paper towels"],
+    supplies: ["Watercolour paints","Brushes (several sizes)","Watercolour paper or thick paper","Water jar","Paper towels"],
     description: "Explore watercolour techniques: wet-on-wet, dry brush, salt textures, and resist.",
     steps: [
       "Wet the paper all over with clean water for a soft, blending effect (wet-on-wet technique).",
@@ -897,14 +886,14 @@ const ACTIVITIES = [
       "Let dry and then paint details on top.",
       "Try salt: sprinkle table salt onto wet paint and watch the texture that forms as it dries.",
       "Try resist: draw with a white wax candle before painting  - the wax repels the paint.",
-      "Try dry brush: use almost-dry paint for a rough textured stroke."
+      "Try dry brush: use almost-dry paint for a rough textured stroke.",
     ],
     tips: "Expensive watercolour paper makes a huge difference  - it handles water without warping or tearing."
   },
   {
     id: 58, title: "Marble Painting", category: "art", emoji: "🔮",
     ages: "3–10", time: "20 min", difficulty: "easy",
-    supplies: ["Marbles or small bouncy balls", "Paint in several colours", "Paper", "A tray with raised sides or a cardboard box lid"],
+    supplies: ["Marbles or small bouncy balls","Paint in several colours","Paper","A tray with raised sides or a cardboard box lid"],
     description: "Roll paint-covered marbles around a tray to create swirling abstract prints.",
     steps: [
       "Cut paper to fit inside the tray or box lid.",
@@ -913,14 +902,14 @@ const ACTIVITIES = [
       "Tilt and move the tray so marbles roll through the paint.",
       "The marbles leave trails of colour across the paper.",
       "Remove marbles and let the print dry.",
-      "Try two colours that blend nicely: blue and yellow, red and yellow."
+      "Try two colours that blend nicely: blue and yellow, red and yellow.",
     ],
     tips: "Use a shoebox lid for a perfectly-sized contained space. This makes beautiful wrapping paper."
   },
   {
     id: 59, title: "Hand & Footprint Art", category: "art", emoji: "✋",
     ages: "2–8", time: "30 min", difficulty: "easy",
-    supplies: ["Washable paint", "Paper or canvas", "Brushes or sponges", "Markers for details", "Wet cloth for cleanup"],
+    supplies: ["Washable paint","Paper or canvas","Brushes or sponges","Markers for details","Wet cloth for cleanup"],
     description: "Use handprints and footprints as the base for animals, trees, monsters, and more.",
     steps: [
       "Paint a child's hand or foot with a brush or press into a sponge pad.",
@@ -928,14 +917,14 @@ const ACTIVITIES = [
       "Lift carefully without smudging.",
       "Let dry.",
       "Turn the print into something with markers: a thumbprint = ladybug, full handprint = turkey, footprint = fish.",
-      "Date it  - these are precious to look back on."
+      "Date it  - these are precious to look back on.",
     ],
     tips: "Make a yearly handprint on the same date to watch hands grow over years."
   },
   {
     id: 60, title: "Salt Painting", category: "art", emoji: "🧂",
     ages: "4–10", time: "30 min + dry time", difficulty: "easy",
-    supplies: ["White glue in a bottle (with nozzle)", "Table salt", "Watercolour paints", "Black cardboard", "Pipette or paintbrush"],
+    supplies: ["White glue in a bottle (with nozzle)","Table salt","Watercolour paints","Black cardboard","Pipette or paintbrush"],
     description: "Squeeze glue into patterns, coat with salt, then drop watercolour paint that spreads like magic.",
     steps: [
       "Draw a pattern or picture by squeezing glue directly from the bottle onto black cardboard.",
@@ -944,14 +933,14 @@ const ACTIVITIES = [
       "Use a pipette or damp brush to drop small amounts of watercolour paint onto the salt.",
       "Watch the colour spread along the salt trail.",
       "Use multiple colours and watch them blend where they meet.",
-      "Let dry fully."
+      "Let dry fully.",
     ],
     tips: "The slower and more gently you apply the watercolour, the further and more evenly it spreads."
   },
   {
     id: 61, title: "Tape Resist Art", category: "art", emoji: "📐",
     ages: "4–10", time: "45 min", difficulty: "easy",
-    supplies: ["Masking tape or painter's tape", "Watercolour or acrylic paint", "Paper or canvas", "Brushes"],
+    supplies: ["Masking tape or painter's tape","Watercolour or acrylic paint","Paper or canvas","Brushes"],
     description: "Apply tape in a geometric pattern, paint over everything, then peel back to reveal crisp white lines.",
     steps: [
       "Press pieces of tape onto paper in any pattern  - stripes, triangles, a starry sky, abstract shapes.",
@@ -959,14 +948,14 @@ const ACTIVITIES = [
       "Paint over the entire surface with multiple colours.",
       "Let dry completely.",
       "Slowly peel back the tape to reveal the white lines underneath.",
-      "The contrast is dramatic and always looks impressive."
+      "The contrast is dramatic and always looks impressive.",
     ],
     tips: "Paint each section a different colour for a stained-glass effect. Pulling the tape off is the best part  - do it slowly."
   },
   {
     id: 62, title: "Bubble Wrap Printing", category: "art", emoji: "🫧",
     ages: "3–8", time: "20 min", difficulty: "easy",
-    supplies: ["Bubble wrap", "Washable paint", "Paper", "Roller or brush", "Scissors"],
+    supplies: ["Bubble wrap","Washable paint","Paper","Roller or brush","Scissors"],
     description: "Paint bubble wrap and press it onto paper to create texture prints  - circles everywhere!",
     steps: [
       "Cut bubble wrap into shapes: a circle for a sun, a rectangle for a tree trunk texture.",
@@ -974,14 +963,14 @@ const ACTIVITIES = [
       "Press it firmly onto paper and lift straight up.",
       "Look at the pattern of circles left behind.",
       "Use different colours on different pieces.",
-      "Try layering prints for a complex pattern."
+      "Try layering prints for a complex pattern.",
     ],
     tips: "The small-bubble wrap makes the finest texture. Large bubble wrap makes bold dots perfect for spotty animals."
   },
   {
     id: 63, title: "Sponge Painting", category: "art", emoji: "🟡",
     ages: "3–8", time: "30 min", difficulty: "easy",
-    supplies: ["Kitchen sponges", "Scissors", "Paint", "Paper", "Plates for paint"],
+    supplies: ["Kitchen sponges","Scissors","Paint","Paper","Plates for paint"],
     description: "Cut sponges into shapes and use them to stamp repeating patterns.",
     steps: [
       "Cut sponges into simple shapes: stars, hearts, circles, triangles.",
@@ -990,14 +979,14 @@ const ACTIVITIES = [
       "Press firmly onto paper and lift straight up.",
       "Reload with paint for each stamp.",
       "Create repeat patterns, borders, or a scene using different shapes.",
-      "Mix colours on the page by overlapping stamps."
+      "Mix colours on the page by overlapping stamps.",
     ],
     tips: "Dampening the sponge slightly before painting gives a softer print. Dry sponges give a more textured, rough edge."
   },
   {
     id: 64, title: "Spin Art", category: "art", emoji: "🌀",
     ages: "4–10", time: "20 min", difficulty: "easy",
-    supplies: ["A salad spinner", "Paper cut to fit inside the spinner", "Liquid paint in squeeze bottles"],
+    supplies: ["A salad spinner","Paper cut to fit inside the spinner","Liquid paint in squeeze bottles"],
     description: "Drop paint into a spinning salad spinner for instant centrifuge art.",
     steps: [
       "Cut paper into a circle to fit the inside of a salad spinner.",
@@ -1005,14 +994,14 @@ const ACTIVITIES = [
       "Squeeze small amounts of paint from different colours onto the paper.",
       "Put the lid on and spin as fast as you can.",
       "Open and see the swirled pattern.",
-      "Experiment with more paint, different colours, and spin speed."
+      "Experiment with more paint, different colours, and spin speed.",
     ],
     tips: "This is one of the most exciting moments in kids' art  - the reveal. Build anticipation before opening the lid."
   },
   {
     id: 65, title: "Self Portrait", category: "art", emoji: "🪞",
     ages: "4–12", time: "30–45 min", difficulty: "medium",
-    supplies: ["Mirror", "Paper", "Pencils", "Coloured pencils, crayons or paint"],
+    supplies: ["Mirror","Paper","Pencils","Coloured pencils, crayons or paint"],
     description: "Look carefully in a mirror and draw yourself  - every feature, colour, and expression.",
     steps: [
       "Set a mirror up in front of the artist.",
@@ -1021,14 +1010,14 @@ const ACTIVITIES = [
       "Draw each feature carefully, looking back at the mirror often.",
       "Add hair, eyebrows, and any distinguishing features.",
       "Add colour with pencils, crayons, or paint.",
-      "Sign and date it."
+      "Sign and date it.",
     ],
     tips: "Keep self-portraits from year to year. It's fascinating to see how both the face and the drawing skill change."
   },
   {
     id: 66, title: "Collage Making", category: "art", emoji: "✂️",
     ages: "3–10", time: "45 min", difficulty: "easy",
-    supplies: ["Old magazines, newspapers, wrapping paper", "Scissors", "Glue stick", "Background paper or cardboard"],
+    supplies: ["Old magazines, newspapers, wrapping paper","Scissors","Glue stick","Background paper or cardboard"],
     description: "Cut and arrange magazine images into a scene, theme, or abstract composition.",
     steps: [
       "Choose a theme: animals, food, nature, a place you'd like to visit, a dream bedroom.",
@@ -1036,16 +1025,14 @@ const ACTIVITIES = [
       "Collect a big pile of cut pieces before starting to arrange.",
       "Play with arrangements on the background paper before gluing anything.",
       "Glue everything down once you're happy with the layout.",
-      "Add drawings or writing to fill gaps."
+      "Add drawings or writing to fill gaps.",
     ],
     tips: "Cut letters out of headlines to make a word message in the collage."
   },
-
-  // ── SENSORY PLAY ────────────────────────────────────────────────────────
   {
     id: 67, title: "Homemade Playdough", category: "sensory", emoji: "🫶",
     ages: "2–8", time: "20 min to make", difficulty: "easy",
-    supplies: ["2 cups flour", "½ cup salt", "2 tbsp cream of tartar", "2 tbsp oil", "1.5 cups boiling water", "Food colouring"],
+    supplies: ["2 cups flour","½ cup salt","2 tbsp cream of tartar","2 tbsp oil","1.5 cups boiling water","Food colouring"],
     description: "Make the softest, longest-lasting playdough from pantry staples  - then play with it.",
     steps: [
       "Mix flour, salt, and cream of tartar in a bowl.",
@@ -1053,14 +1040,14 @@ const ACTIVITIES = [
       "Add oil and coloured water to the dry mixture.",
       "Stir quickly  - it will be lumpy at first.",
       "Once cool enough to handle, knead vigorously for 5 minutes until smooth.",
-      "Store in an airtight container  - it keeps for months."
+      "Store in an airtight container  - it keeps for months.",
     ],
     tips: "Add glitter, essential oils, or dried herbs to the dough for texture and scent. Lavender dough is calming."
   },
   {
     id: 68, title: "Rainbow Rice Sensory Bin", category: "sensory", emoji: "🌈",
     ages: "1–6", time: "30 min to prep", difficulty: "easy",
-    supplies: ["4 cups uncooked rice", "Rubbing alcohol or hand sanitizer", "Food colouring", "Zip-lock bags", "Large bin or tray", "Scoops, cups, funnels, small toys"],
+    supplies: ["4 cups uncooked rice","Rubbing alcohol or hand sanitizer","Food colouring","Zip-lock bags","Large bin or tray","Scoops, cups, funnels, small toys"],
     description: "Dye rice in rainbow colours and pour it into a bin for scooping, pouring, and hiding treasures.",
     steps: [
       "Put 1 cup rice in a zip-lock bag, add a splash of alcohol and a few drops of food colouring.",
@@ -1069,14 +1056,14 @@ const ACTIVITIES = [
       "Repeat for each colour.",
       "Mix all colours in a large bin.",
       "Add scoops, funnels, small cups, and hidden toys.",
-      "Let them play freely."
+      "Let them play freely.",
     ],
     tips: "Hide small figurines or letters in the rice for a seek-and-find element. Layer colours for a rainbow effect before mixing."
   },
   {
     id: 69, title: "Ice Excavation", category: "sensory", emoji: "🧊",
     ages: "2–8", time: "15 min to prep, open-ended play", difficulty: "easy",
-    supplies: ["Water", "Toy figurines or gems to freeze inside", "Large container for freezing", "Pipettes, spray bottles, salt, warm water for melting", "Tray"],
+    supplies: ["Water","Toy figurines or gems to freeze inside","Large container for freezing","Pipettes, spray bottles, salt, warm water for melting","Tray"],
     description: "Freeze toys inside a block of ice overnight, then excavate them using warm water and salt.",
     steps: [
       "Place small toys or gems in a container of water and freeze overnight.",
@@ -1084,14 +1071,14 @@ const ACTIVITIES = [
       "Give children pipettes with warm water, spray bottles, and salt.",
       "They drip water and sprinkle salt to melt the ice and free the toys.",
       "Discuss how salt lowers the melting point of ice.",
-      "The longer and more slowly they work, the more satisfying it is."
+      "The longer and more slowly they work, the more satisfying it is.",
     ],
     tips: "Dinosaurs, gems, and tiny sea creatures are popular choices. Dye the water blue for an underwater effect."
   },
   {
     id: 70, title: "Cloud Dough", category: "sensory", emoji: "☁️",
     ages: "2–7", time: "10 min to make", difficulty: "easy",
-    supplies: ["8 cups flour", "1 cup baby oil or vegetable oil", "Large tray or bin"],
+    supplies: ["8 cups flour","1 cup baby oil or vegetable oil","Large tray or bin"],
     description: "Mix flour and oil to make a moulding material that crumbles and packs like wet sand.",
     steps: [
       "Pour flour into a large bin.",
@@ -1099,14 +1086,14 @@ const ACTIVITIES = [
       "Mix with hands until it resembles wet sand  - it should hold a shape when squeezed.",
       "Add more oil if it won't hold a shape, more flour if too oily.",
       "Mould into shapes, build with it, crumble it, sift it.",
-      "Store in an airtight container for weeks."
+      "Store in an airtight container for weeks.",
     ],
     tips: "This is satisfying for all ages. Add food colouring to the oil before mixing for coloured cloud dough."
   },
   {
     id: 71, title: "Water Play Station", category: "sensory", emoji: "💧",
     ages: "1–6", time: "Open-ended", difficulty: "easy",
-    supplies: ["Large tub or washing-up basin", "Warm water", "Measuring cups, spoons, funnels, sponges, ladles", "Food colouring (optional)", "Waterproof aprons or old clothes"],
+    supplies: ["Large tub or washing-up basin","Warm water","Measuring cups, spoons, funnels, sponges, ladles","Food colouring (optional)","Waterproof aprons or old clothes"],
     description: "Set up a water table with tools to pour, measure, sink, and float  - open-ended and messy.",
     steps: [
       "Fill a tub with warm water  - knee height for toddlers.",
@@ -1115,14 +1102,14 @@ const ACTIVITIES = [
       "Add a few drops of food colouring to make it visually interesting.",
       "Add a small amount of bubbles for extra fun.",
       "Let them pour, splash, and experiment freely.",
-      "Extend with ice cubes to melt, or coloured water mixing."
+      "Extend with ice cubes to melt, or coloured water mixing.",
     ],
     tips: "Do this outside in summer. Put a towel down around the tub for easy cleanup."
   },
   {
     id: 72, title: "Oobleck Sensory Play", category: "sensory", emoji: "🟢",
     ages: "2–8", time: "10 min to make", difficulty: "easy",
-    supplies: ["2 cups cornstarch", "1 cup water", "Food colouring", "Tray with deep sides"],
+    supplies: ["2 cups cornstarch","1 cup water","Food colouring","Tray with deep sides"],
     description: "Play with a non-Newtonian fluid that is solid when pressed and liquid when relaxed.",
     steps: [
       "Mix food colouring into water.",
@@ -1131,14 +1118,14 @@ const ACTIVITIES = [
       "The texture is right when it feels hard when you punch it but oozes through your fingers when you open your hand.",
       "Run hands through it, make it drip, build it up, watch it melt.",
       "Let them explore freely for as long as they want.",
-      "Dries completely for easy cleanup  - just sweep or vacuum."
+      "Dries completely for easy cleanup  - just sweep or vacuum.",
     ],
     tips: "Lay a shower curtain or tarp underneath for easy cleanup. Cornstarch oobleck washes off easily with water."
   },
   {
     id: 73, title: "Gel Bag Sensory Squishies", category: "sensory", emoji: "🫙",
     ages: "0–4", time: "10 min", difficulty: "easy",
-    supplies: ["Heavy-duty zip-lock freezer bag", "Hair gel", "Small colourful items: beads, sequins, foam shapes, glitter", "Strong tape"],
+    supplies: ["Heavy-duty zip-lock freezer bag","Hair gel","Small colourful items: beads, sequins, foam shapes, glitter","Strong tape"],
     description: "Seal gel and small objects in a bag to create a no-mess sensory squishy for babies and toddlers.",
     steps: [
       "Fill a zip-lock bag halfway with clear hair gel.",
@@ -1147,14 +1134,14 @@ const ACTIVITIES = [
       "Seal the bag tightly.",
       "Reinforce the seal with several strips of strong packing tape.",
       "Let children squish, move objects around, and explore.",
-      "Make several with different colours and contents."
+      "Make several with different colours and contents.",
     ],
     tips: "These are particularly good for babies who explore with their hands. Always supervise and check the seal before each use."
   },
   {
     id: 74, title: "Foam Soap Sensory Tray", category: "sensory", emoji: "🫧",
     ages: "2–6", time: "10 min", difficulty: "easy",
-    supplies: ["Foam hand soap or shaving foam", "Food colouring", "Tray", "Spoons and cups", "Glitter (optional)"],
+    supplies: ["Foam hand soap or shaving foam","Food colouring","Tray","Spoons and cups","Glitter (optional)"],
     description: "Squirt foam on a tray and add colour  - a cloud-like sensory base for scooping and shaping.",
     steps: [
       "Squirt a large pile of foam soap or shaving foam onto a tray.",
@@ -1162,14 +1149,14 @@ const ACTIVITIES = [
       "Swirl lightly with a spoon  - too much swirling makes it grey.",
       "Provide scoops, cups, and utensils.",
       "Let children freely explore: scoop, pour, squeeze, draw patterns in it.",
-      "Add glitter or plastic gems for treasure play."
+      "Add glitter or plastic gems for treasure play.",
     ],
     tips: "This wipes up easily and smells great. Do it at the kitchen table for easy cleanup  - foam doesn't stain most surfaces."
   },
   {
     id: 75, title: "Moon Sand", category: "sensory", emoji: "🌕",
     ages: "2–8", time: "10 min to make", difficulty: "easy",
-    supplies: ["8 cups play sand or fine sand", "1 cup cornstarch", "½ cup water", "Large bin", "Moulds, scoops, small toys"],
+    supplies: ["8 cups play sand or fine sand","1 cup cornstarch","½ cup water","Large bin","Moulds, scoops, small toys"],
     description: "Mix sand with cornstarch for a mouldable sand that holds shapes better than regular sand.",
     steps: [
       "Combine sand and cornstarch in a large bin.",
@@ -1178,14 +1165,14 @@ const ACTIVITIES = [
       "Pack into moulds and flip them out like sandcastles.",
       "Use cookie cutters, cups, and spoons as tools.",
       "Add small dinosaurs or vehicles for play scenes.",
-      "Store covered to prevent drying out."
+      "Store covered to prevent drying out.",
     ],
     tips: "Add a few drops of food colouring to the water for coloured moon sand. Perfect for indoor sandpit play."
   },
   {
     id: 76, title: "Kinetic Sand DIY", category: "sensory", emoji: "🏖️",
     ages: "3–10", time: "10 min to make", difficulty: "easy",
-    supplies: ["2 cups fine sand", "1 tbsp cornstarch", "½ tsp dish soap", "¼ cup water", "Bowl"],
+    supplies: ["2 cups fine sand","1 tbsp cornstarch","½ tsp dish soap","¼ cup water","Bowl"],
     description: "Make a flowing, mouldable sand substitute that sticks to itself and not to hands.",
     steps: [
       "Mix sand and cornstarch together in a bowl.",
@@ -1194,16 +1181,14 @@ const ACTIVITIES = [
       "Mix with hands until a uniform texture forms.",
       "It should clump and mould but not be wet.",
       "Mould into shapes, cut with plastic tools, watch it flow.",
-      "Store in an airtight container."
+      "Store in an airtight container.",
     ],
     tips: "This recipe is great but true kinetic sand is hard to replicate exactly at home  - expect a slightly different texture."
   },
-
-  // ── LEARNING & EDUCATION ────────────────────────────────────────────────
   {
     id: 77, title: "Nature Journal", category: "learning", emoji: "📓",
     ages: "5–12", time: "Ongoing", difficulty: "easy",
-    supplies: ["Blank or lined notebook", "Pencils, coloured pencils", "Magnifying glass", "Ruler"],
+    supplies: ["Blank or lined notebook","Pencils, coloured pencils","Magnifying glass","Ruler"],
     description: "Keep an ongoing nature journal with observational drawings, measurements, and notes.",
     steps: [
       "Set up a journal: name and date on the inside cover.",
@@ -1212,14 +1197,14 @@ const ACTIVITIES = [
       "Label parts you know: petal, vein, wing.",
       "Write down where you found it, the weather, the date.",
       "Measure it and record the size.",
-      "Return to the same spots over seasons to record how things change."
+      "Return to the same spots over seasons to record how things change.",
     ],
     tips: "This is a habit, not a one-time project. The journal becomes a treasure over years. Press leaves and flowers between pages."
   },
   {
     id: 78, title: "Maths with LEGO", category: "learning", emoji: "🧱",
     ages: "4–10", time: "30 min", difficulty: "easy",
-    supplies: ["LEGO bricks in various sizes", "Paper and pencil"],
+    supplies: ["LEGO bricks in various sizes","Paper and pencil"],
     description: "Use LEGO bricks to make maths physical and visual  - fractions, addition, multiplication, measurement.",
     steps: [
       "For addition: pick any two bricks and count the total studs.",
@@ -1227,14 +1212,14 @@ const ACTIVITIES = [
       "For fractions: a 2x4 brick is 1 whole. How many 1x2 bricks equal it? Each is ½.",
       "For area: measure a flat plate in studs. Length x width = area.",
       "For height: build a tower, measure in bricks, convert to centimetres.",
-      "Create story problems: 'You have 3 towers of 5. How many bricks is that?'"
+      "Create story problems: 'You have 3 towers of 5. How many bricks is that?'",
     ],
     tips: "Let children come up with their own problems. The tactile, visual nature of LEGO makes abstract maths click."
   },
   {
     id: 79, title: "Alphabet Scavenger Hunt", category: "learning", emoji: "🔤",
     ages: "3–7", time: "20 min", difficulty: "easy",
-    supplies: ["Paper with alphabet listed", "Pencil", "A house or backyard"],
+    supplies: ["Paper with alphabet listed","Pencil","A house or backyard"],
     description: "Find one object starting with each letter of the alphabet around the house or yard.",
     steps: [
       "Print or write out the alphabet on paper.",
@@ -1242,14 +1227,14 @@ const ACTIVITIES = [
       "Write or draw each item next to its letter.",
       "Tricky ones: X (box?), Q (quilt?), Z (zipper?).",
       "Take photos instead of writing for non-readers.",
-      "See how quickly you can complete the whole alphabet."
+      "See how quickly you can complete the whole alphabet.",
     ],
     tips: "For younger children, focus on just 5–10 letters. For older ones, challenge them to find a different word for each letter than they did last time."
   },
   {
     id: 80, title: "Story Stones", category: "learning", emoji: "🪨",
     ages: "3–8", time: "45 min to make, open-ended play", difficulty: "easy",
-    supplies: ["Smooth flat stones", "Acrylic paint", "Brushes", "Sealer", "A bag or box to store them in"],
+    supplies: ["Smooth flat stones","Acrylic paint","Brushes","Sealer","A bag or box to store them in"],
     description: "Paint characters, places, and objects on stones, then use them to prompt storytelling.",
     steps: [
       "Paint each stone with a white base coat and let dry.",
@@ -1258,14 +1243,14 @@ const ACTIVITIES = [
       "Paint objects: a key, a door, a boat, a star.",
       "Seal with varnish and let dry completely.",
       "To use: pull out 5 random stones and make up a story that includes all of them.",
-      "Take turns adding to the story using the next stone."
+      "Take turns adding to the story using the next stone.",
     ],
     tips: "Simpler, bolder images work better than detailed ones on small stones. Use a black marker for outlines."
   },
   {
     id: 81, title: "DIY Jigsaw Puzzle", category: "learning", emoji: "🧩",
     ages: "4–10", time: "40 min", difficulty: "medium",
-    supplies: ["A printed or drawn picture on thick paper or card", "Scissors", "Envelope or bag to store pieces"],
+    supplies: ["A printed or drawn picture on thick paper or card","Scissors","Envelope or bag to store pieces"],
     description: "Draw or print a picture, cut it into pieces, and swap puzzles with someone else to solve.",
     steps: [
       "Draw a detailed picture on thick cardboard, or print and glue a photo.",
@@ -1273,14 +1258,14 @@ const ACTIVITIES = [
       "Cut out each piece carefully.",
       "Mix the pieces up and try to solve it yourself.",
       "Swap your puzzle with someone else's to solve.",
-      "For more difficulty: cut into more pieces or more irregular shapes."
+      "For more difficulty: cut into more pieces or more irregular shapes.",
     ],
     tips: "The process of making the puzzle is just as engaging as solving it. Laminating makes pieces more durable."
   },
   {
     id: 82, title: "Colour Mixing Exploration", category: "learning", emoji: "🎨",
     ages: "3–8", time: "20 min", difficulty: "easy",
-    supplies: ["Red, yellow, and blue paint (the three primary colours)", "White and black", "Mixing palette or ice cube tray", "Paper to test colours", "Brush"],
+    supplies: ["Red, yellow, and blue paint (the three primary colours)","White and black","Mixing palette or ice cube tray","Paper to test colours","Brush"],
     description: "Mix primary colours to discover what happens  - and try to make every colour in the rainbow.",
     steps: [
       "Put red, yellow, and blue paint in separate ice cube tray sections.",
@@ -1290,14 +1275,14 @@ const ACTIVITIES = [
       "Try adding white to any colour  - what happens?",
       "Try adding black to any colour.",
       "Try to match a specific colour: brown, pink, grey, teal.",
-      "Paint a rainbow using only the colours you mixed."
+      "Paint a rainbow using only the colours you mixed.",
     ],
     tips: "Frame this as a science experiment, not an art project  - curiosity over neatness."
   },
   {
     id: 83, title: "Measurement Cooking", category: "learning", emoji: "📏",
     ages: "5–10", time: "30–45 min", difficulty: "medium",
-    supplies: ["Measuring cups and spoons", "Scales", "Ingredients for a simple recipe", "Recipe card"],
+    supplies: ["Measuring cups and spoons","Scales","Ingredients for a simple recipe","Recipe card"],
     description: "Cook a simple recipe while practising fractions, measurement, and following instructions.",
     steps: [
       "Choose a simple recipe: muffins, pancakes, no-bake cookies.",
@@ -1306,14 +1291,14 @@ const ACTIVITIES = [
       "Discuss: what is ½ a cup? Can we use a ¼ cup twice instead?",
       "Weigh on scales and compare to cup measurements.",
       "Follow steps in order  - discuss why sequence matters in cooking.",
-      "Eat and discuss what worked and what you might change."
+      "Eat and discuss what worked and what you might change.",
     ],
     tips: "Slightly wrong amounts in forgiving recipes (muffins, pancakes) are fine. The learning matters more than perfect results."
   },
   {
     id: 84, title: "Backyard Weather Station", category: "learning", emoji: "🌤️",
     ages: "6–12", time: "1 hr to build, daily use", difficulty: "medium",
-    supplies: ["Plastic bottle (rain gauge)", "Ruler", "Thermometer", "Pinwheel or homemade wind vane", "Notebook for records"],
+    supplies: ["Plastic bottle (rain gauge)","Ruler","Thermometer","Pinwheel or homemade wind vane","Notebook for records"],
     description: "Build simple weather instruments and record daily observations over weeks.",
     steps: [
       "Make a rain gauge: mark centimetre lines on a straight-sided plastic bottle.",
@@ -1322,16 +1307,14 @@ const ACTIVITIES = [
       "Each morning, record: temperature, rainfall since yesterday, wind direction, cloud cover.",
       "Draw a weather symbol for each day.",
       "After two weeks, look for patterns.",
-      "Compare your data to the official forecast  - how accurate were you?"
+      "Compare your data to the official forecast  - how accurate were you?",
     ],
     tips: "Keep the same observation time every day (morning is ideal) for consistent data."
   },
-
-  // ── SEASONAL & HOLIDAY ──────────────────────────────────────────────────
   {
     id: 85, title: "Salt Dough Christmas Ornaments", category: "seasonal", emoji: "🎄",
     ages: "3–12", time: "1 hr + drying", difficulty: "medium",
-    supplies: ["1 cup salt", "1 cup flour", "½ cup water", "Cookie cutters", "Straw (for making hole)", "Paint and string"],
+    supplies: ["1 cup salt","1 cup flour","½ cup water","Cookie cutters","Straw (for making hole)","Paint and string"],
     description: "Bake salt dough cutouts and paint them as keepsake Christmas ornaments.",
     steps: [
       "Mix salt, flour, and water to form a smooth dough.",
@@ -1341,14 +1324,14 @@ const ACTIVITIES = [
       "Bake at 120°C / 250°F for 2–3 hours until completely hard.",
       "Cool, then paint and decorate.",
       "Thread ribbon or string through the hole.",
-      "Write the year on the back  - these last for decades."
+      "Write the year on the back  - these last for decades.",
     ],
     tips: "Press a child's handprint into dough before baking for an irreplaceable keepsake."
   },
   {
     id: 86, title: "Valentine's Day Cards", category: "seasonal", emoji: "💌",
     ages: "3–12", time: "30–45 min", difficulty: "easy",
-    supplies: ["Card or thick paper", "Red and pink paint", "Scissors", "Glue", "Glitter", "Markers"],
+    supplies: ["Card or thick paper","Red and pink paint","Scissors","Glue","Glitter","Markers"],
     description: "Make handmade cards for family and friends using stamping, cutting, and decorating.",
     steps: [
       "Fold card in half.",
@@ -1356,14 +1339,14 @@ const ACTIVITIES = [
       "Add glitter glue, sticker gems, or hand-drawn details.",
       "Inside: write a message or dictate one to be written.",
       "Try potato stamp hearts: cut a potato in half and carve a heart, paint and stamp.",
-      "Make a card for everyone in the family and any special people."
+      "Make a card for everyone in the family and any special people.",
     ],
     tips: "The potato heart stamp makes very satisfying, perfect hearts  - much better than trying to draw them."
   },
   {
     id: 87, title: "Easter Egg Dyeing", category: "seasonal", emoji: "🐣",
     ages: "3–12", time: "45 min", difficulty: "easy",
-    supplies: ["Hard-boiled eggs", "White vinegar", "Food colouring", "Cups", "Water", "Spoons", "Wax crayon for resist technique"],
+    supplies: ["Hard-boiled eggs","White vinegar","Food colouring","Cups","Water","Spoons","Wax crayon for resist technique"],
     description: "Dye hard-boiled eggs in vibrant colours using food dye and vinegar.",
     steps: [
       "Hard boil the eggs: place in cold water, bring to a boil, then simmer for 12 minutes. Transfer to cold water to stop cooking. Cool completely.",
@@ -1372,14 +1355,14 @@ const ACTIVITIES = [
       "Lower eggs into cups using a spoon.",
       "Leave for at least 5 minutes  - longer = darker colour.",
       "Remove and let dry on a rack.",
-      "Layer colours: dye yellow first, then dip in blue for green."
+      "Layer colours: dye yellow first, then dip in blue for green.",
     ],
     tips: "Rubber bands stretched around the egg before dyeing create stripe patterns when removed."
   },
   {
     id: 88, title: "Spring Flower Pressing", category: "seasonal", emoji: "🌼",
     ages: "4–12", time: "20 min + 2 weeks pressing", difficulty: "easy",
-    supplies: ["Freshly picked flowers and leaves", "Heavy books", "Paper", "White glue", "Card for display"],
+    supplies: ["Freshly picked flowers and leaves","Heavy books","Paper","White glue","Card for display"],
     description: "Press and dry flowers to preserve them, then arrange them into botanical art.",
     steps: [
       "Pick flowers in the morning when they are fully open but fresh.",
@@ -1389,14 +1372,14 @@ const ACTIVITIES = [
       "Leave undisturbed for 2 weeks.",
       "Carefully remove dried flowers.",
       "Arrange on card and glue down with tiny dabs of glue.",
-      "Display in a frame."
+      "Display in a frame.",
     ],
     tips: "Flat flowers like pansies, daisies, and violas press the most beautifully. Thick flowers don't press well."
   },
   {
     id: 89, title: "Autumn Leaf Wreath", category: "seasonal", emoji: "🍂",
     ages: "4–10", time: "45 min", difficulty: "easy",
-    supplies: ["Collected Autumn leaves", "A paper plate", "Scissors", "Glue", "String to hang"],
+    supplies: ["Collected Autumn leaves","A paper plate","Scissors","Glue","String to hang"],
     description: "Arrange and glue colourful Autumn leaves onto a ring to make a seasonal wreath.",
     steps: [
       "Cut the centre out of a paper plate to make a ring.",
@@ -1405,14 +1388,14 @@ const ACTIVITIES = [
       "Glue each leaf down, working from the outside in.",
       "Add a second and third layer for fullness.",
       "Tie string through the top to hang.",
-      "Add small pinecones, acorns, or berries for extra texture."
+      "Add small pinecones, acorns, or berries for extra texture.",
     ],
     tips: "Press leaves for a few days first so they don't curl. Spray with hairspray when done to help preserve them."
   },
   {
     id: 90, title: "Snow Globe in a Jar", category: "seasonal", emoji: "❄️",
     ages: "5–12", time: "30 min", difficulty: "medium",
-    supplies: ["Clean glass jar with tight lid", "Waterproof figurine or small toy", "Distilled water", "Glycerine (from pharmacy)", "White glitter or fake snow", "Waterproof glue"],
+    supplies: ["Clean glass jar with tight lid","Waterproof figurine or small toy","Distilled water","Glycerine (from pharmacy)","White glitter or fake snow","Waterproof glue"],
     description: "Seal a tiny winter scene inside a jar with swirling snow  - a keepsake to keep forever.",
     steps: [
       "Glue your figurine to the inside of the jar lid. Let cure completely (overnight).",
@@ -1422,14 +1405,14 @@ const ACTIVITIES = [
       "Run a line of waterproof glue around the lid thread.",
       "Screw the lid on tightly (figurine now inside the jar).",
       "Let the glue cure for 24 hours.",
-      "Flip the jar over and shake!"
+      "Flip the jar over and shake!",
     ],
     tips: "Distilled water stays clearer than tap water over time. More glycerine = slower, more magical snow fall."
   },
   {
     id: 91, title: "Thanksgiving Handprint Turkey", category: "seasonal", emoji: "🦃",
     ages: "2–8", time: "30 min", difficulty: "easy",
-    supplies: ["Brown, orange, red, yellow paint", "Paper", "Markers"],
+    supplies: ["Brown, orange, red, yellow paint","Paper","Markers"],
     description: "Turn a handprint into a turkey by adding feathers, a beak, and a wattle.",
     steps: [
       "Paint the palm and thumb brown.",
@@ -1439,14 +1422,14 @@ const ACTIVITIES = [
       "Add a small orange triangle beak to the thumb-head.",
       "Draw a red wattle below the beak.",
       "Add two eyes.",
-      "Write the child's name and year on the back."
+      "Write the child's name and year on the back.",
     ],
     tips: "Layer the colours on the feathers before pressing for a multi-coloured print with no drying time needed."
   },
   {
     id: 92, title: "Halloween Paper Bag Costumes", category: "seasonal", emoji: "🎃",
     ages: "4–10", time: "45 min", difficulty: "medium",
-    supplies: ["Large paper grocery bags", "Scissors", "Paints or markers", "Tape", "Felt, yarn, foam sheets"],
+    supplies: ["Large paper grocery bags","Scissors","Paints or markers","Tape","Felt, yarn, foam sheets"],
     description: "Cut and decorate a paper bag helmet or armour for a quick costume  - knight, robot, monster.",
     steps: [
       "Cut eye holes and a face opening in a large bag that fits over the head.",
@@ -1455,14 +1438,14 @@ const ACTIVITIES = [
       "For body armour: cut a second bag into a tunic shape.",
       "Decorate and tape shoulder sections.",
       "Try on and adjust before the paint fully dries.",
-      "Wear over clothes as part of the costume."
+      "Wear over clothes as part of the costume.",
     ],
     tips: "This is a great last-minute costume base. The robot concept works best  - all straight lines and silver paint."
   },
   {
     id: 93, title: "St. Patrick's Day Rainbow", category: "seasonal", emoji: "🌈",
     ages: "3–8", time: "30 min", difficulty: "easy",
-    supplies: ["Paper", "Red, orange, yellow, green, blue, purple paint or strips of paper", "Cotton balls", "Glue"],
+    supplies: ["Paper","Red, orange, yellow, green, blue, purple paint or strips of paper","Cotton balls","Glue"],
     description: "Build a rainbow scene with cotton-wool clouds at each end and a pot of gold.",
     steps: [
       "Draw or glue a large arc on paper using rainbow colours in order: red, orange, yellow, green, blue, purple.",
@@ -1470,14 +1453,14 @@ const ACTIVITIES = [
       "Glue pulled-apart cotton balls at each end as clouds.",
       "Draw or cut out a small black pot and glue at one end.",
       "Fill the pot with gold circles cut from yellow paper.",
-      "Add a green field at the bottom and a blue sky."
+      "Add a green field at the bottom and a blue sky.",
     ],
     tips: "Use the ROYGBIV order as a memory lesson. Sing 'Over the Rainbow' while you make it."
   },
   {
     id: 94, title: "Summer Suncatcher", category: "seasonal", emoji: "☀️",
     ages: "4–10", time: "30 min + dry time", difficulty: "easy",
-    supplies: ["Clear contact paper or sticky back plastic", "Tissue paper in bright colours", "Scissors", "String", "Window"],
+    supplies: ["Clear contact paper or sticky back plastic","Tissue paper in bright colours","Scissors","String","Window"],
     description: "Press coloured tissue paper onto sticky contact paper to make a stained-glass sun catcher that glows.",
     steps: [
       "Cut a circle or sun shape from the contact paper.",
@@ -1487,16 +1470,14 @@ const ACTIVITIES = [
       "Cover the back with another piece of contact paper, sticky sides together.",
       "Trim the edges.",
       "Punch a hole at the top and thread string to hang.",
-      "Hang in a sunny window and watch the colours glow."
+      "Hang in a sunny window and watch the colours glow.",
     ],
     tips: "No skills required and the result always looks beautiful. A great activity for all ages at the same time."
   },
-
-  // ── COOKING (more) ──────────────────────────────────────────────────────
   {
     id: 95, title: "French Toast Sticks", category: "cooking", emoji: "🍞",
     ages: "4–10", time: "20 min", difficulty: "easy",
-    supplies: ["Thick bread (brioche or Texas toast)", "2 eggs", "¼ cup milk", "1 tsp cinnamon", "1 tsp vanilla", "Butter", "Maple syrup for dipping"],
+    supplies: ["Thick bread (brioche or Texas toast)","2 eggs","¼ cup milk","1 tsp cinnamon","1 tsp vanilla","Butter","Maple syrup for dipping"],
     description: "Dip thick bread fingers into egg custard and pan-fry them into golden dippable sticks.",
     steps: [
       "Whisk eggs, milk, cinnamon, and vanilla in a shallow bowl.",
@@ -1504,14 +1485,14 @@ const ACTIVITIES = [
       "Melt butter in a pan over medium heat.",
       "Dip each strip in the egg mixture  - coat all sides, let it soak for a few seconds.",
       "Cook in the pan for 2–3 minutes each side until golden brown.",
-      "Serve in a bunch with maple syrup in a small pot for dipping."
+      "Serve in a bunch with maple syrup in a small pot for dipping.",
     ],
     tips: "Day-old bread absorbs the custard better without falling apart. Add a pinch of nutmeg to the mix for extra warmth."
   },
   {
     id: 96, title: "Decorated Cupcakes", category: "cooking", emoji: "🧁",
     ages: "4–10", time: "1.5 hrs", difficulty: "medium",
-    supplies: ["115g butter (softened)", "150g sugar", "2 eggs", "1 tsp vanilla", "150g plain flour", "1½ tsp baking powder", "120ml milk", "For icing: 200g butter, 400g icing sugar, 2 tbsp milk", "Food colouring", "Sprinkles, candy, edible glitter"],
+    supplies: ["115g butter (softened)","150g sugar","2 eggs","1 tsp vanilla","150g plain flour","1½ tsp baking powder","120ml milk","For icing: 200g butter, 400g icing sugar, 2 tbsp milk","Food colouring","Sprinkles, candy, edible glitter"],
     description: "Bake fluffy cupcakes from scratch, then decorate them into tiny works of art.",
     steps: [
       "Preheat oven to 180°C / 350°F. Line a muffin tin with paper cases.",
@@ -1525,14 +1506,14 @@ const ACTIVITIES = [
       "Spoon each colour into a piping bag or zip-lock bag with a corner snipped off.",
       "Pipe a swirl starting from the outside edge and spiralling inward.",
       "Add sprinkles and decorations before the icing sets.",
-      "Display them before eating  - they're too pretty to rush!"
+      "Display them before eating  - they're too pretty to rush!",
     ],
     tips: "Room-temperature butter and eggs make the batter fluffier. Chill the cupcakes for 10 minutes before decorating so the icing doesn't melt."
   },
   {
     id: 97, title: "Build Your Own Trail Mix", category: "cooking", emoji: "🥜",
     ages: "3–10", time: "10 min", difficulty: "easy",
-    supplies: ["Selection of: nuts, seeds, dried fruit, chocolate chips, cereal, pretzels, coconut", "Small bowls for each ingredient", "Paper cups or bags to fill"],
+    supplies: ["Selection of: nuts, seeds, dried fruit, chocolate chips, cereal, pretzels, coconut","Small bowls for each ingredient","Paper cups or bags to fill"],
     description: "Set out an ingredient bar and let everyone mix their own perfect snack bag.",
     steps: [
       "Pour each ingredient into its own small bowl.",
@@ -1540,14 +1521,14 @@ const ACTIVITIES = [
       "Take turns scooping ingredients they want.",
       "Mix them together.",
       "Taste test  - is it sweet enough? Crunchy enough?",
-      "Seal the bags and label them."
+      "Seal the bags and label them.",
     ],
     tips: "Talk about what each ingredient does  - nuts for protein, dried fruit for energy. Great for a hike or long car ride."
   },
   {
     id: 98, title: "Popcorn Seasoning Bar", category: "cooking", emoji: "🍿",
     ages: "4–12", time: "15 min", difficulty: "easy",
-    supplies: ["Plain popped popcorn", "Melted butter", "Toppings: cinnamon sugar, parmesan, ranch powder, sweet chilli, nutritional yeast, salt"],
+    supplies: ["Plain popped popcorn","Melted butter","Toppings: cinnamon sugar, parmesan, ranch powder, sweet chilli, nutritional yeast, salt"],
     description: "Make a big bowl of plain popcorn and set up a seasoning bar to customise each person's portion.",
     steps: [
       "Pop a large batch of plain popcorn.",
@@ -1555,14 +1536,14 @@ const ACTIVITIES = [
       "Set out all seasonings in small dishes.",
       "Drizzle a little melted butter over each bowl (it helps seasonings stick).",
       "Shake on chosen seasonings and toss well.",
-      "Compare flavour combos  - who had the best one?"
+      "Compare flavour combos  - who had the best one?",
     ],
     tips: "Try cinnamon sugar + a pinch of cayenne for a surprising sweet-heat combo. Parmesan + garlic salt is a crowd favourite."
   },
   {
     id: 99, title: "Pita Pocket Pizzas", category: "cooking", emoji: "🫓",
     ages: "3–10", time: "20 min", difficulty: "easy",
-    supplies: ["Mini pita breads", "Tomato sauce", "Shredded mozzarella", "Toppings of choice", "Baking tray", "Oven"],
+    supplies: ["Mini pita breads","Tomato sauce","Shredded mozzarella","Toppings of choice","Baking tray","Oven"],
     description: "Mini pita breads become personal pizzas in under 15 minutes  - perfect for fussy eaters.",
     steps: [
       "Preheat oven to 200°C / 400°F.",
@@ -1570,16 +1551,14 @@ const ACTIVITIES = [
       "Spread a spoonful of tomato sauce on each.",
       "Add cheese and chosen toppings.",
       "Bake for 8–10 minutes until cheese is melted and edges are crispy.",
-      "Cool for 2 minutes before eating."
+      "Cool for 2 minutes before eating.",
     ],
     tips: "These are also great in an air fryer  - 5 minutes at 180°C and they're perfect and crispy."
   },
-
-  // ── OUTDOOR (more) ──────────────────────────────────────────────────────
   {
     id: 100, title: "Kite Flying", category: "outdoor", emoji: "🪁",
     ages: "3–12", time: "1+ hr", difficulty: "easy",
-    supplies: ["A kite (store-bought or homemade)", "An open area like a park or beach", "Wind"],
+    supplies: ["A kite (store-bought or homemade)","An open area like a park or beach","Wind"],
     description: "Head to an open space on a breezy day and fly a kite  - one of the most joyful outdoor activities there is.",
     steps: [
       "Check the wind  - a light to moderate breeze is ideal. Too still or too gusty won't work.",
@@ -1588,14 +1567,14 @@ const ACTIVITIES = [
       "One person holds the kite up, the other holds the string and walks backwards.",
       "Release the kite into the wind and let out string steadily as it rises.",
       "Steer by pulling and releasing the string to ride updrafts.",
-      "Reel in slowly to land."
+      "Reel in slowly to land.",
     ],
     tips: "Run with your back to the wind, not toward it. If the kite nosedives, let out more string quickly."
   },
   {
     id: 101, title: "Backyard Camping Night", category: "outdoor", emoji: "⛺",
     ages: "4–12", time: "Evening + overnight", difficulty: "medium",
-    supplies: ["Tent or blanket fort", "Sleeping bags", "Torches or fairy lights", "Snacks", "Books or card games", "Hot chocolate"],
+    supplies: ["Tent or blanket fort","Sleeping bags","Torches or fairy lights","Snacks","Books or card games","Hot chocolate"],
     description: "Camp in the backyard for a night of stargazing, stories, and sleeping under the sky.",
     steps: [
       "Set up the tent together in the afternoon.",
@@ -1604,14 +1583,14 @@ const ACTIVITIES = [
       "As it gets dark, lie on a blanket and look for constellations.",
       "Tell stories by torchlight.",
       "Settle in for the night  - you're surprisingly close to home but it feels like an adventure.",
-      "Make pancakes or toast outside in the morning."
+      "Make pancakes or toast outside in the morning.",
     ],
     tips: "Bring a torch for each person so nobody has to be scared of the dark. Make it a special event, not just sleeping outside."
   },
   {
     id: 102, title: "Nature Mandala", category: "outdoor", emoji: "🌺",
     ages: "4–12", time: "30–60 min", difficulty: "easy",
-    supplies: ["A flat patch of ground or a large flat rock", "Collected natural materials: leaves, petals, stones, seeds, bark, feathers"],
+    supplies: ["A flat patch of ground or a large flat rock","Collected natural materials: leaves, petals, stones, seeds, bark, feathers"],
     description: "Arrange natural materials in a circular repeating pattern directly on the ground  - no glue needed.",
     steps: [
       "Choose a flat clear surface to work on.",
@@ -1620,14 +1599,14 @@ const ACTIVITIES = [
       "Rotate items the same way around each ring  - all pointing in or all pointing out.",
       "Add rings until the mandala is as large as you want.",
       "Take a photo from directly above.",
-      "Leave it for nature to slowly reclaim."
+      "Leave it for nature to slowly reclaim.",
     ],
     tips: "This is deeply calming for anxious or energetic kids. There are no mistakes  - anything placed symmetrically works."
   },
   {
     id: 103, title: "Puddle Painting", category: "outdoor", emoji: "🌧️",
     ages: "2–7", time: "Open-ended", difficulty: "easy",
-    supplies: ["Rain or a garden hose", "Waterproof outdoor paint or food colouring", "Old clothes and boots", "A hard outdoor surface"],
+    supplies: ["Rain or a garden hose","Waterproof outdoor paint or food colouring","Old clothes and boots","A hard outdoor surface"],
     description: "Add colour to puddles and splash through them to create big swirling outdoor art.",
     steps: [
       "Wait for rain or create puddles with a hose.",
@@ -1635,14 +1614,14 @@ const ACTIVITIES = [
       "Watch the colours spread across the surface.",
       "Splash gently at first  - the colour moves as you move.",
       "Drag a stick through to create patterns.",
-      "Jump in for the full effect."
+      "Jump in for the full effect.",
     ],
     tips: "Wear old clothes. The paint will wash off skin and most surfaces with water. Do it on the driveway, not on grass."
   },
   {
     id: 104, title: "Stargazing", category: "outdoor", emoji: "🌟",
     ages: "4–12", time: "1 hr", difficulty: "easy",
-    supplies: ["Blankets", "Pillows", "Star map app (e.g. Star Walk) or printed chart", "Hot drinks", "Binoculars if available"],
+    supplies: ["Blankets","Pillows","Star map app (e.g. Star Walk) or printed chart","Hot drinks","Binoculars if available"],
     description: "Lie on blankets and identify constellations, planets, and satellites passing overhead.",
     steps: [
       "Pick a clear night away from bright indoor lights.",
@@ -1651,16 +1630,14 @@ const ACTIVITIES = [
       "Use a star map app to identify what you're looking at.",
       "Find Orion's Belt, the Southern Cross, or the Big Dipper depending on your location.",
       "Look for satellites  - steady moving lights. Wave at them.",
-      "Watch for shooting stars  - especially during meteor showers."
+      "Watch for shooting stars  - especially during meteor showers.",
     ],
     tips: "Turn off phone brightness after using the map  - bright screens kill night vision. Look up the next meteor shower date in advance."
   },
-
-  // ── CRAFTS (more) ───────────────────────────────────────────────────────
   {
     id: 105, title: "Friendship Bracelets", category: "crafts", emoji: "🤝",
     ages: "6–12", time: "30–60 min", difficulty: "medium",
-    supplies: ["Embroidery floss in several colours", "Scissors", "Tape or clipboard to anchor the bracelet while weaving"],
+    supplies: ["Embroidery floss in several colours","Scissors","Tape or clipboard to anchor the bracelet while weaving"],
     description: "Knot and weave embroidery thread into a woven bracelet to give to a friend.",
     steps: [
       "Cut 4–6 strands of different colours, each about 60cm long.",
@@ -1670,14 +1647,14 @@ const ACTIVITIES = [
       "When it reaches the right side, it becomes the rightmost string.",
       "Repeat with the new leftmost string  - diagonal stripes will form.",
       "Continue until the bracelet is long enough to tie around a wrist.",
-      "Finish with an overhand knot and trim the ends."
+      "Finish with an overhand knot and trim the ends.",
     ],
     tips: "YouTube videos are very helpful for the first bracelet. Start with just 4 strings in 2 colours to learn the knot."
   },
   {
     id: 106, title: "Tie-Dye T-Shirts", category: "crafts", emoji: "👕",
     ages: "5–12", time: "1 hr + cure time", difficulty: "medium",
-    supplies: ["White 100% cotton t-shirts", "Tie-dye kit or fabric dye", "Rubber bands", "Gloves", "Plastic wrap or bags", "Bucket of water"],
+    supplies: ["White 100% cotton t-shirts","Tie-dye kit or fabric dye","Rubber bands","Gloves","Plastic wrap or bags","Bucket of water"],
     description: "Twist, fold, and dye white t-shirts into one-of-a-kind wearable art.",
     steps: [
       "Dampen the shirt with water.",
@@ -1687,14 +1664,14 @@ const ACTIVITIES = [
       "Flip and apply dye to the back.",
       "Wrap tightly in plastic wrap and leave for 6–24 hours.",
       "Rinse under cold water while still rubber-banded, then remove bands.",
-      "Rinse until clear, wash in hot water, and dry."
+      "Rinse until clear, wash in hot water, and dry.",
     ],
     tips: "More dye = more vivid colour. Don't be shy with it. Wear old clothes and gloves  - the dye stains everything."
   },
   {
     id: 107, title: "Paper Mache Bowl", category: "crafts", emoji: "🫙",
     ages: "6–12", time: "3 sessions over 2 days", difficulty: "hard",
-    supplies: ["Newspaper torn into strips", "Flour + water paste (1:2 ratio) or PVA glue diluted with water", "A balloon or bowl to use as a mould", "Paint and varnish to finish"],
+    supplies: ["Newspaper torn into strips","Flour + water paste (1:2 ratio) or PVA glue diluted with water","A balloon or bowl to use as a mould","Paint and varnish to finish"],
     description: "Layer paper strips over a mould to build a bowl that hardens as it dries.",
     steps: [
       "Mix flour and water into a smooth paste (like thin pancake batter).",
@@ -1704,14 +1681,14 @@ const ACTIVITIES = [
       "Let dry completely (at least overnight).",
       "Apply 2–3 more layers and dry again.",
       "Remove from the mould, trim the edges neatly.",
-      "Paint, decorate, and seal with varnish."
+      "Paint, decorate, and seal with varnish.",
     ],
     tips: "More layers = stronger bowl. At least 6 total. Let each batch of layers dry fully before adding the next."
   },
   {
     id: 108, title: "Shell Wind Chimes", category: "crafts", emoji: "🐚",
     ages: "5–10", time: "30 min", difficulty: "easy",
-    supplies: ["Collected shells", "A sturdy stick or piece of driftwood", "Twine or fishing line", "A drill or nail to make holes in shells", "Beads (optional)"],
+    supplies: ["Collected shells","A sturdy stick or piece of driftwood","Twine or fishing line","A drill or nail to make holes in shells","Beads (optional)"],
     description: "Hang shells from a stick on different-length strings to make a chime that sings in the breeze.",
     steps: [
       "An adult uses a drill or heated nail to make a small hole in each shell.",
@@ -1720,14 +1697,14 @@ const ACTIVITIES = [
       "Tie the other end of each string along the length of the stick.",
       "Space them unevenly for a better sound.",
       "Tie a string to each end of the stick to hang it.",
-      "Hang outside and listen."
+      "Hang outside and listen.",
     ],
     tips: "Thinner shells (like mussel) break easily  - use thicker shells. Add beads, driftwood pieces, and sea glass for variety."
   },
   {
     id: 109, title: "Sticker Collage Bookmarks", category: "crafts", emoji: "🔖",
     ages: "3–8", time: "15 min", difficulty: "easy",
-    supplies: ["Card cut into bookmark strips (2cm x 15cm)", "Stickers of all kinds", "Markers", "Clear sticky-back laminate or tape for sealing"],
+    supplies: ["Card cut into bookmark strips (2cm x 15cm)","Stickers of all kinds","Markers","Clear sticky-back laminate or tape for sealing"],
     description: "Cover card strips with stickers to make personalised bookmarks for favourite books.",
     steps: [
       "Cut card into long thin strips.",
@@ -1735,12 +1712,10 @@ const ACTIVITIES = [
       "Write a name or message with marker if any card shows through.",
       "Seal with a strip of clear sticky-back laminate on both sides.",
       "Trim the edges neatly.",
-      "Punch a hole at the top and thread ribbon through."
+      "Punch a hole at the top and thread ribbon through.",
     ],
     tips: "Make a set as a gift  - pack 5 bookmarks in an envelope with a note."
   },
-
-  // ── GAMES (more) ─────────────────────────────────────────────────────────
   {
     id: 110, title: "Go Fish & Snap", category: "games", emoji: "🃏",
     ages: "4–8", time: "20–30 min", difficulty: "easy",
@@ -1750,14 +1725,14 @@ const ACTIVITIES = [
       "Go Fish: deal 5 cards each. On your turn, ask another player for a number you hold. If they have it, they hand it over. If not, they say 'Go Fish!' and you draw from the pile. Collect all 4 of a kind to score.",
       "Snap: deal all cards face-down in equal piles. Take turns flipping a card into the centre. When two matching cards appear in a row, first to shout SNAP wins the pile.",
       "Whoever has the most cards when the deck runs out wins Go Fish.",
-      "For Snap: the person who collects all cards wins."
+      "For Snap: the person who collects all cards wins.",
     ],
     tips: "For very young children, remove face cards from Go Fish to leave only numbers 1-10. Snap is usually preferred by ages 4-6."
   },
   {
     id: 111, title: "Spaghetti Tower Challenge", category: "games", emoji: "🍝",
     ages: "6–12", time: "30 min", difficulty: "hard",
-    supplies: ["Uncooked spaghetti (20 strands per person)", "Mini marshmallows (30 per person)", "Measuring tape"],
+    supplies: ["Uncooked spaghetti (20 strands per person)","Mini marshmallows (30 per person)","Measuring tape"],
     description: "Build the tallest freestanding tower using only spaghetti and marshmallows as connectors.",
     steps: [
       "Give each builder or team equal amounts of spaghetti and marshmallows.",
@@ -1766,7 +1741,7 @@ const ACTIVITIES = [
       "Build upward  - consider triangular supports for stability.",
       "No tape, no glue, no other materials.",
       "When time is up, measure each tower's height.",
-      "Tallest freestanding tower wins."
+      "Tallest freestanding tower wins.",
     ],
     tips: "Triangular shapes are much stronger than squares. The winning strategy almost always involves a wide triangular base."
   },
@@ -1781,14 +1756,14 @@ const ACTIVITIES = [
       "The next player rolls their dice and continues the story using their images.",
       "Keep going until everyone has had 2–3 turns.",
       "The last player must find a way to end the story.",
-      "You can retell the whole story from the beginning when done."
+      "You can retell the whole story from the beginning when done.",
     ],
     tips: "Make your own story dice by drawing simple images on blank wooden cubes or sticking small picture stickers on regular dice."
   },
   {
     id: 113, title: "Musical Statues", category: "games", emoji: "🎵",
     ages: "2–8", time: "20 min", difficulty: "easy",
-    supplies: ["Music player", "Space to move"],
+    supplies: ["Music player","Space to move"],
     description: "Dance freely while music plays, freeze like a statue the instant it stops.",
     steps: [
       "Clear a dancing space.",
@@ -1797,16 +1772,14 @@ const ACTIVITIES = [
       "The instant the music stops, freeze completely still.",
       "Anyone who moves after the music stops is out (or just giggled at).",
       "Last dancer standing wins.",
-      "Give the winner the job of controlling the music next round."
+      "Give the winner the job of controlling the music next round.",
     ],
     tips: "For under-5s, skip the elimination and make it purely about the silly freezing poses. Call out a pose to freeze in: 'freeze like a flamingo!'"
   },
-
-  // ── SCIENCE (more) ──────────────────────────────────────────────────────
   {
     id: 114, title: "Paper Airplane Challenge", category: "science", emoji: "✈️",
     ages: "5–12", time: "45 min", difficulty: "medium",
-    supplies: ["A4 paper (lots of it)", "Measuring tape", "Tape", "Paperclips"],
+    supplies: ["A4 paper (lots of it)","Measuring tape","Tape","Paperclips"],
     description: "Design, fold, and test paper airplanes -experiment with different designs for distance and accuracy.",
     steps: [
       "Each person starts with the classic dart fold as a baseline.",
@@ -1815,14 +1788,14 @@ const ACTIVITIES = [
       "Test each modification and measure the result.",
       "Try for accuracy: place a target (a hoop on the floor) and aim for it.",
       "Try for time in air: which design glides the longest?",
-      "Discuss what changes helped and why  - wing shape, weight distribution."
+      "Discuss what changes helped and why  - wing shape, weight distribution.",
     ],
     tips: "A paperclip on the nose dramatically improves distance in most designs. The 'Nakamura lock' is the longest-flying design for most kids to fold."
   },
   {
     id: 115, title: "Magnet Exploration", category: "science", emoji: "🧲",
     ages: "4–10", time: "30 min", difficulty: "easy",
-    supplies: ["Several magnets (different sizes and strengths)", "A tray of mixed objects: coins, paperclips, rubber bands, plastic toys, fabric, aluminium foil, pencils, steel screws"],
+    supplies: ["Several magnets (different sizes and strengths)","A tray of mixed objects: coins, paperclips, rubber bands, plastic toys, fabric, aluminium foil, pencils, steel screws"],
     description: "Test which materials magnets attract and which they don't -and explore how magnetic force works through surfaces.",
     steps: [
       "Lay out all the objects and predict: will the magnet attract it?",
@@ -1831,14 +1804,14 @@ const ACTIVITIES = [
       "Hold two magnets facing each other -feel the push and pull.",
       "Try to move a paperclip without touching it by sliding the magnet under the table.",
       "Make a paperclip dance: hold a paperclip by thread, bring a magnet close -it will hover!",
-      "Discuss: what do the attracted materials have in common? (Iron, steel.)"
+      "Discuss: what do the attracted materials have in common? (Iron, steel.)",
     ],
     tips: "Neodymium (rare earth) magnets are dramatically stronger than toy magnets -keep them away from phones and young children, but they're great for demonstrations."
   },
   {
     id: 116, title: "Walking Rainbow Water", category: "science", emoji: "🌈",
     ages: "4–10", time: "20 min + observation", difficulty: "easy",
-    supplies: ["7 clear glasses or jars", "Water", "Red, yellow, and blue food colouring", "Paper towels"],
+    supplies: ["7 clear glasses or jars","Water","Red, yellow, and blue food colouring","Paper towels"],
     description: "Watch water travel up paper towels and mix colours to create a walking rainbow over several hours.",
     steps: [
       "Set up 7 glasses in a row.",
@@ -1847,16 +1820,14 @@ const ACTIVITIES = [
       "Leave glasses 2, 4, and 6 empty.",
       "Fold paper towels into long strips and drape them between each glass, dipping into the water.",
       "Watch over the next few hours as the water walks up the paper towel and drips into the empty glasses.",
-      "Secondary colours form where two colours meet: orange, green, and purple."
+      "Secondary colours form where two colours meet: orange, green, and purple.",
     ],
     tips: "Set this up in the morning and check back throughout the day. The full rainbow takes 3-6 hours to complete."
   },
-
-  // ── ART (more) ──────────────────────────────────────────────────────────
   {
     id: 117, title: "Pastel Drawing", category: "art", emoji: "🖍️",
     ages: "4–12", time: "30 min", difficulty: "easy",
-    supplies: ["Soft pastels or oil pastels", "Dark or coloured paper", "Cotton balls or fingers for blending"],
+    supplies: ["Soft pastels or oil pastels","Dark or coloured paper","Cotton balls or fingers for blending"],
     description: "Draw with pastels on dark paper for vivid, dreamy artwork that glows off the page.",
     steps: [
       "Start on dark or black paper for the most striking effect.",
@@ -1865,14 +1836,14 @@ const ACTIVITIES = [
       "Use a finger or cotton ball to blend two colours into each other.",
       "Add lighter colours on top of dark for highlights.",
       "Draw stars or spots on top for a night sky effect.",
-      "Seal with hairspray to stop smudging."
+      "Seal with hairspray to stop smudging.",
     ],
     tips: "Dark paper makes pastel colours appear to glow. A night sky, a sunset, or a forest silhouette all look stunning this way."
   },
   {
     id: 118, title: "Stencil Art", category: "art", emoji: "🟦",
     ages: "4–10", time: "30 min", difficulty: "easy",
-    supplies: ["Card or foam sheets to cut stencils from", "Scissors", "Sponges or stiff brushes", "Paint", "Paper"],
+    supplies: ["Card or foam sheets to cut stencils from","Scissors","Sponges or stiff brushes","Paint","Paper"],
     description: "Cut shapes from card to use as stencils, then sponge paint through them for clean, repeating prints.",
     steps: [
       "Draw a simple shape on card: a star, heart, leaf, animal outline.",
@@ -1881,14 +1852,14 @@ const ACTIVITIES = [
       "Dab paint through the hole with a sponge -use an up-and-down dabbing motion, not a brush stroke.",
       "Lift the stencil straight up to reveal a clean edge.",
       "Repeat across the paper in a pattern.",
-      "Use multiple stencils and colours for a layered design."
+      "Use multiple stencils and colours for a layered design.",
     ],
     tips: "Let each colour dry before applying the next stencil over the same area. Don't let paint seep under the stencil edges."
   },
   {
     id: 119, title: "Monoprint", category: "art", emoji: "🖨️",
     ages: "5–10", time: "20 min", difficulty: "easy",
-    supplies: ["Paint", "A smooth flat surface (a chopping board, plate, or baking tray)", "Paper", "A pencil or skewer"],
+    supplies: ["Paint","A smooth flat surface (a chopping board, plate, or baking tray)","Paper","A pencil or skewer"],
     description: "Draw into a layer of paint on a flat surface, press paper on top, and lift it to reveal a unique print.",
     steps: [
       "Roll or spread a thin, even layer of paint over a flat smooth surface.",
@@ -1897,16 +1868,14 @@ const ACTIVITIES = [
       "Lay a piece of paper on top and press firmly all over.",
       "Peel the paper back slowly from one corner.",
       "The design transfers in reverse.",
-      "Each print is unique -you can only make one."
+      "Each print is unique -you can only make one.",
     ],
     tips: "Work quickly before the paint dries. A thin, even paint layer gives the cleanest print -too thick and it smears."
   },
-
-  // ── LEARNING (more) ─────────────────────────────────────────────────────
   {
     id: 120, title: "Time Capsule", category: "learning", emoji: "📦",
     ages: "5–12", time: "45 min", difficulty: "easy",
-    supplies: ["A container with a lid: box, tin, or jar", "Paper and pens", "Small objects to include", "Tape to seal"],
+    supplies: ["A container with a lid: box, tin, or jar","Paper and pens","Small objects to include","Tape to seal"],
     description: "Fill a box with drawings, notes, and objects that capture this moment in time, then seal and hide it.",
     steps: [
       "Each person writes a letter to their future self: what are you into right now? What do you wish for?",
@@ -1915,14 +1884,14 @@ const ACTIVITIES = [
       "Add small objects: a coin, a ticket stub, a favourite sticker.",
       "Write down the date and when the capsule should be opened.",
       "Seal the container with tape.",
-      "Hide it somewhere memorable -under a bed, in a shelf, buried in the garden with a map."
+      "Hide it somewhere memorable -under a bed, in a shelf, buried in the garden with a map.",
     ],
     tips: "Set a specific open date: 'open on [child's name]'s 10th birthday' or 'open in 2 years.' The anticipation is the best part."
   },
   {
     id: 121, title: "Word Family Flip Book", category: "learning", emoji: "📖",
     ages: "4–7", time: "30 min", difficulty: "easy",
-    supplies: ["Card or thick paper", "Scissors", "Markers", "Binder clip or ring to hold together"],
+    supplies: ["Card or thick paper","Scissors","Markers","Binder clip or ring to hold together"],
     description: "Make a flip book where changing the first letter creates new rhyming words -cat, bat, hat, sat.",
     steps: [
       "Choose a word family ending: -at, -og, -ig, -en, -ot.",
@@ -1931,15 +1900,14 @@ const ACTIVITIES = [
       "Cut the letter strip into individual sections and clip or ring-bind on the left.",
       "Flip through letters to make different words.",
       "Read each word aloud as you flip.",
-      "Make one for each vowel sound."
+      "Make one for each vowel sound.",
     ],
     tips: "Use bright colours for consonants and one colour for the ending to help kids visually separate the parts of the word."
   },
-  // ── SCIENCE (more) ──────────────────────────────────────────────────────
   {
     id: 123, title: "Dancing Raisins", category: "science", emoji: "🍇",
     ages: "3-10", time: "15 min", difficulty: "easy",
-    supplies: ["A tall clear glass", "Carbonated water or lemonade", "A handful of raisins", "Optional: other small dense items to test"],
+    supplies: ["A tall clear glass","Carbonated water or lemonade","A handful of raisins","Optional: other small dense items to test"],
     description: "Drop raisins into fizzy water and watch them rise and fall repeatedly as bubbles attach and release.",
     steps: [
       "Fill a tall clear glass almost full with fizzy water or lemonade.",
@@ -1949,14 +1917,14 @@ const ACTIVITIES = [
       "At the surface, the bubbles pop and the raisin sinks again.",
       "This cycle repeats for several minutes.",
       "Try other objects: a small piece of pasta, a corn kernel, a dried cranberry.",
-      "Ask: why do smooth objects work less well than rough ones?"
+      "Ask: why do smooth objects work less well than rough ones?",
     ],
     tips: "Freshly opened fizzy water works much better than flat. The raisins will keep dancing for 10-15 minutes before the fizz runs out."
   },
   {
     id: 124, title: "DIY Lava Lamp", category: "science", emoji: "🫧",
     ages: "5-12", time: "20 min", difficulty: "easy",
-    supplies: ["A tall clear bottle or glass", "Vegetable oil (fill 3/4 of the container)", "Water", "Food colouring", "Alka-Seltzer tablets or baking soda + citric acid"],
+    supplies: ["A tall clear bottle or glass","Vegetable oil (fill 3/4 of the container)","Water","Food colouring","Alka-Seltzer tablets or baking soda + citric acid"],
     description: "Create a bubbling lava lamp using the science of oil and water density plus a fizzing reaction.",
     steps: [
       "Fill the bottle about three-quarters full with vegetable oil.",
@@ -1967,14 +1935,14 @@ const ACTIVITIES = [
       "The tablet reacts with the water to produce carbon dioxide gas bubbles.",
       "The bubbles carry coloured water up through the oil, then pop at the surface and the water sinks back down.",
       "Keep adding pieces to keep the lamp going.",
-      "Discuss: why do oil and water stay separate? (They have different densities and oil is non-polar.)"
+      "Discuss: why do oil and water stay separate? (They have different densities and oil is non-polar.)",
     ],
     tips: "For a glowing lava lamp, shine a torch up through the bottom of the bottle in a dark room."
   },
   {
     id: 125, title: "Balloon Rocket", category: "science", emoji: "🚀",
     ages: "4-10", time: "20 min", difficulty: "easy",
-    supplies: ["A long piece of string (at least 3 metres)", "A straw", "Balloons", "Tape", "Two anchor points (chairs, door handles, trees)"],
+    supplies: ["A long piece of string (at least 3 metres)","A straw","Balloons","Tape","Two anchor points (chairs, door handles, trees)"],
     description: "Thread a straw onto a string stretched across a room and attach a blown-up balloon to launch a rocket.",
     steps: [
       "Thread the straw onto the string before tying the ends.",
@@ -1985,14 +1953,14 @@ const ACTIVITIES = [
       "Let go.",
       "The escaping air propels the straw along the string.",
       "Measure how far it travels.",
-      "Test variables: bigger balloon, smaller balloon, angled string, heavier straw."
+      "Test variables: bigger balloon, smaller balloon, angled string, heavier straw.",
     ],
     tips: "A fishing line works better than regular string as it has less friction. Try racing two rockets on parallel strings."
   },
   {
     id: 126, title: "Chromatography Art", category: "science", emoji: "🌈",
     ages: "4-10", time: "20 min", difficulty: "easy",
-    supplies: ["White coffee filters or paper towels", "Washable markers (not permanent)", "A cup of water", "Pencil or straw to suspend the filter"],
+    supplies: ["White coffee filters or paper towels","Washable markers (not permanent)","A cup of water","Pencil or straw to suspend the filter"],
     description: "Draw on a coffee filter with markers, dip the bottom in water, and watch the colours separate into their hidden components.",
     steps: [
       "Draw thick dots or bands of colour near the bottom of a coffee filter.",
@@ -2002,14 +1970,14 @@ const ACTIVITIES = [
       "As it passes through the marker ink, it separates the dye molecules.",
       "Black markers often reveal hidden blues, reds, and yellows.",
       "Allow to dry flat and you have a piece of art.",
-      "Discuss: different dye molecules travel at different speeds, which is how chromatography separates mixtures."
+      "Discuss: different dye molecules travel at different speeds, which is how chromatography separates mixtures.",
     ],
     tips: "Use a black marker for the most dramatic results - it contains many colours. Brown and purple also separate beautifully."
   },
   {
     id: 127, title: "Elephant Toothpaste", category: "science", emoji: "🐘",
     ages: "6-12", time: "15 min", difficulty: "medium",
-    supplies: ["6% hydrogen peroxide (from a pharmacy)", "1 packet dry active yeast", "Warm water", "Washing-up liquid", "Food colouring", "A tall plastic bottle", "Tray to catch overflow"],
+    supplies: ["6% hydrogen peroxide (from a pharmacy)","1 packet dry active yeast","Warm water","Washing-up liquid","Food colouring","A tall plastic bottle","Tray to catch overflow"],
     description: "Mix yeast and hydrogen peroxide to produce a dramatic eruption of foam that looks like giant toothpaste.",
     steps: [
       "Place the plastic bottle on a tray.",
@@ -2020,14 +1988,14 @@ const ACTIVITIES = [
       "Pour the yeast mixture into the bottle quickly and step back.",
       "A column of foam will shoot upward rapidly.",
       "Touch the foam - it is warm because the reaction is exothermic.",
-      "Discuss: the yeast acts as a catalyst, rapidly breaking down hydrogen peroxide into water and oxygen gas. The soap traps the gas as foam."
+      "Discuss: the yeast acts as a catalyst, rapidly breaking down hydrogen peroxide into water and oxygen gas. The soap traps the gas as foam.",
     ],
     tips: "Higher concentration hydrogen peroxide (12-15%) produces a much larger reaction but is harder to find. The 6% version is safe and still impressive."
   },
   {
     id: 128, title: "Magnetic Slime", category: "science", emoji: "🧲",
     ages: "6-12", time: "30 min", difficulty: "medium",
-    supplies: ["Iron oxide powder (from a craft or science store)", "White school glue", "Contact lens solution", "Baking soda", "A strong neodymium magnet", "Gloves (iron oxide stains)"],
+    supplies: ["Iron oxide powder (from a craft or science store)","White school glue","Contact lens solution","Baking soda","A strong neodymium magnet","Gloves (iron oxide stains)"],
     description: "Add iron oxide powder to slime to make it respond to a magnet - it creeps, stretches, and reaches for the magnet.",
     steps: [
       "Make base slime: mix 120ml white glue with a teaspoon of baking soda.",
@@ -2037,14 +2005,14 @@ const ACTIVITIES = [
       "Hold a strong neodymium magnet close to the slime without touching it.",
       "Watch the slime creep and reach toward the magnet.",
       "Move the magnet to guide the slime across a surface.",
-      "Place the magnet underneath a tray and move the slime on top."
+      "Place the magnet underneath a tray and move the slime on top.",
     ],
     tips: "Wear gloves - iron oxide stains everything permanently. A neodymium magnet (rare earth) is essential - regular fridge magnets are too weak."
   },
   {
     id: 129, title: "Sound Vibrations with Salt", category: "science", emoji: "🔊",
     ages: "5-12", time: "20 min", difficulty: "easy",
-    supplies: ["A large bowl or empty tin", "Cling film or a balloon stretched over the opening", "Salt or sugar", "A speaker or your voice", "A rubber band to secure"],
+    supplies: ["A large bowl or empty tin","Cling film or a balloon stretched over the opening","Salt or sugar","A speaker or your voice","A rubber band to secure"],
     description: "Place salt on a stretched membrane and make it dance by exposing it to sound vibrations.",
     steps: [
       "Stretch cling film tightly over the opening of a large bowl or tin and secure with a rubber band.",
@@ -2054,14 +2022,14 @@ const ACTIVITIES = [
       "Try different frequencies - low bass vs high treble.",
       "Try shouting at different pitches directly at the surface.",
       "Try tapping the side of the bowl.",
-      "Discuss: sound is made of vibrations that travel through air and move objects in their path."
+      "Discuss: sound is made of vibrations that travel through air and move objects in their path.",
     ],
     tips: "This works even better with a subwoofer speaker. Try playing a single tone at different frequencies and watch the salt arrange into different geometric patterns."
   },
   {
     id: 130, title: "Build a Sundial", category: "science", emoji: "🌞",
     ages: "6-12", time: "45 min + sunny day", difficulty: "medium",
-    supplies: ["A flat piece of card or a paper plate", "A pencil or short straight stick", "Modelling clay to hold the stick upright", "Marker", "A compass or phone compass"],
+    supplies: ["A flat piece of card or a paper plate","A pencil or short straight stick","Modelling clay to hold the stick upright","Marker","A compass or phone compass"],
     description: "Build a working sundial and mark the hours over a day to track how the sun moves across the sky.",
     steps: [
       "Push a pencil vertically through the centre of a paper plate and secure with clay underneath.",
@@ -2070,14 +2038,14 @@ const ACTIVITIES = [
       "Come back every hour through the day to mark the next shadow.",
       "By the end of the day you will have a working sundial.",
       "Test it the next sunny day - does the shadow match your markings?",
-      "Discuss: why does the shadow move? (Earth rotates, making the sun appear to move across the sky.)"
+      "Discuss: why does the shadow move? (Earth rotates, making the sun appear to move across the sky.)",
     ],
     tips: "This is a multi-hour activity done across a whole day. Start first thing in the morning for the most markings."
   },
   {
     id: 131, title: "Water Xylophone", category: "science", emoji: "🎵",
     ages: "3-10", time: "15 min", difficulty: "easy",
-    supplies: ["6-8 identical glasses or glass bottles", "Water", "Food colouring", "A metal spoon or chopstick to tap with"],
+    supplies: ["6-8 identical glasses or glass bottles","Water","Food colouring","A metal spoon or chopstick to tap with"],
     description: "Fill glasses with different amounts of water to create a musical instrument you can actually play.",
     steps: [
       "Line up the glasses in a row.",
@@ -2087,14 +2055,14 @@ const ACTIVITIES = [
       "Notice how the pitch changes with the water level.",
       "More water = lower pitch. Less water = higher pitch.",
       "Try to find glasses that match musical notes and play a simple tune.",
-      "Discuss: the water slows down the vibration of the glass, which lowers the frequency (pitch)."
+      "Discuss: the water slows down the vibration of the glass, which lowers the frequency (pitch).",
     ],
     tips: "Use identical glasses for the best musical results - different shaped glasses produce inconsistent pitches."
   },
   {
     id: 132, title: "Tornado in a Bottle", category: "science", emoji: "🌪️",
     ages: "4-10", time: "15 min", difficulty: "easy",
-    supplies: ["Two large plastic bottles with lids", "Water", "A tornado tube connector (cheap from science stores) or waterproof tape", "Optional: glitter or small pieces of paper"],
+    supplies: ["Two large plastic bottles with lids","Water","A tornado tube connector (cheap from science stores) or waterproof tape","Optional: glitter or small pieces of paper"],
     description: "Connect two bottles and swirl them to create a miniature water tornado you can hold in your hands.",
     steps: [
       "Fill one bottle two-thirds full with water.",
@@ -2105,16 +2073,14 @@ const ACTIVITIES = [
       "Hold still and watch the water form a funnel vortex as it drains into the bottom bottle.",
       "The vortex allows air to pass up while water spirals down.",
       "Flip and repeat.",
-      "Discuss: the spinning motion creates centrifugal force, pushing water to the sides and leaving a air column in the centre."
+      "Discuss: the spinning motion creates centrifugal force, pushing water to the sides and leaving a air column in the centre.",
     ],
     tips: "The circular swirl is key - a simple up-and-down flip does not create the vortex. Practice the wrist motion a few times."
   },
-
-  // ── ART - DRAWING (more) ─────────────────────────────────────────────────
   {
     id: 133, title: "One-Line Drawing Challenge", category: "art", emoji: "✏️",
     ages: "5-12", time: "20 min", difficulty: "medium",
-    supplies: ["Paper", "Pen or fine-tip marker"],
+    supplies: ["Paper","Pen or fine-tip marker"],
     description: "Draw an animal or object without lifting your pen from the paper - one continuous flowing line.",
     steps: [
       "Choose a simple subject: a cat, a fish, a house, a face.",
@@ -2123,14 +2089,14 @@ const ACTIVITIES = [
       "Lines can cross over each other.",
       "Try the same subject 5 times in a row and see how it improves.",
       "Compare everyone's versions of the same subject.",
-      "Try a more complex subject: a dog, a person riding a bike, a tree with fruit."
+      "Try a more complex subject: a dog, a person riding a bike, a tree with fruit.",
     ],
     tips: "This is harder than it sounds and produces unexpectedly beautiful results. The imperfections are part of the charm. Try it with eyes closed for a bonus challenge."
   },
   {
     id: 134, title: "Grid Drawing", category: "art", emoji: "🖼️",
     ages: "7-12", time: "45 min", difficulty: "medium",
-    supplies: ["A printed or simple reference image", "Pencil", "Ruler", "Eraser", "Drawing paper"],
+    supplies: ["A printed or simple reference image","Pencil","Ruler","Eraser","Drawing paper"],
     description: "Use a grid to break a picture into small squares and copy each section - a technique professional artists use to scale up images.",
     steps: [
       "Draw a light grid of equal squares over your reference image.",
@@ -2140,14 +2106,14 @@ const ACTIVITIES = [
       "Do not look at the whole picture - focus on lines and shapes within each square.",
       "Once all squares are done, erase the grid lines.",
       "Add shading and detail.",
-      "Discuss: this technique is called the grid method and has been used by artists for centuries."
+      "Discuss: this technique is called the grid method and has been used by artists for centuries.",
     ],
     tips: "Start with a simple image with clear outlines. Photographs of animals or portraits work very well."
   },
   {
     id: 135, title: "Blind Contour Drawing", category: "art", emoji: "👁️",
     ages: "6-12", time: "15 min", difficulty: "medium",
-    supplies: ["Paper", "Pen or pencil", "A subject to draw (hand, fruit, a toy)"],
+    supplies: ["Paper","Pen or pencil","A subject to draw (hand, fruit, a toy)"],
     description: "Draw an object while looking only at the object, not your paper - the results are always funny and often beautiful.",
     steps: [
       "Set up your subject where you can see it clearly.",
@@ -2157,14 +2123,14 @@ const ACTIVITIES = [
       "Move your pen at the same speed your eye moves.",
       "When finished, look at the result.",
       "It will be distorted but will have an unusual energy and detail.",
-      "Try the same subject 3 times and compare them."
+      "Try the same subject 3 times and compare them.",
     ],
     tips: "Your own hand is the perfect first subject - it is always available and stays still. This exercise improves observation skills dramatically."
   },
   {
     id: 136, title: "Perspective Drawing: Roads and Rooms", category: "art", emoji: "🛣️",
     ages: "7-12", time: "40 min", difficulty: "medium",
-    supplies: ["Paper", "Pencil", "Ruler", "Coloured pencils"],
+    supplies: ["Paper","Pencil","Ruler","Coloured pencils"],
     description: "Learn one-point perspective by drawing a road vanishing into the horizon or a room viewed from one corner.",
     steps: [
       "Draw a horizontal line across the middle of your paper - this is the horizon line.",
@@ -2174,14 +2140,14 @@ const ACTIVITIES = [
       "For a room: draw a square in the centre, then connect all four corners to the vanishing point.",
       "Add doors, windows, and floor tiles along the perspective lines.",
       "Colour in your scene.",
-      "Discuss: objects appear smaller the further away they are - the vanishing point represents infinite distance."
+      "Discuss: objects appear smaller the further away they are - the vanishing point represents infinite distance.",
     ],
     tips: "Use a ruler for all perspective lines to keep them accurate. Once they understand one-point perspective, look up two-point perspective as the next challenge."
   },
   {
     id: 137, title: "Draw from Imagination: Story Scene", category: "art", emoji: "🌄",
     ages: "4-12", time: "30-45 min", difficulty: "easy",
-    supplies: ["Large paper", "Pencil for sketching", "Coloured pencils, markers, or paint to finish"],
+    supplies: ["Large paper","Pencil for sketching","Coloured pencils, markers, or paint to finish"],
     description: "Pick a scene from a favourite story or invent a new world and draw everything you imagine is in it.",
     steps: [
       "Choose a setting: a dragon's cave, an underwater city, a forest at night, a planet with two moons.",
@@ -2190,14 +2156,14 @@ const ACTIVITIES = [
       "Add the foreground details closest to you: characters, objects, plants.",
       "Think about light - where is the sun or the light source? Add shadows on the opposite side.",
       "Add small details that tell a story: a footprint, smoke from a chimney, a door left open.",
-      "Give the scene a title and write it at the bottom."
+      "Give the scene a title and write it at the bottom.",
     ],
     tips: "Ask 'what would you see if you were standing there?' to help kids think about foreground, middle ground, and background naturally."
   },
   {
     id: 138, title: "Fingerprint Art Characters", category: "art", emoji: "👆",
     ages: "3-8", time: "20 min", difficulty: "easy",
-    supplies: ["Washable ink pad or thick paint on a folded paper towel", "White paper", "Fine-tip black marker for details"],
+    supplies: ["Washable ink pad or thick paint on a folded paper towel","White paper","Fine-tip black marker for details"],
     description: "Press fingerprints and thumb prints onto paper then turn each blob into a character with a few pen strokes.",
     steps: [
       "Press a finger into the ink pad and make a print on the paper.",
@@ -2206,14 +2172,14 @@ const ACTIVITIES = [
       "A thumbprint with two dots becomes a bee. Four prints in a row become a caterpillar.",
       "Combine prints: one large thumb for a body, smaller fingerprints for the head and limbs.",
       "Fill the whole page with a scene of fingerprint characters.",
-      "Sign it at the bottom with your actual fingerprint."
+      "Sign it at the bottom with your actual fingerprint.",
     ],
     tips: "The marker detail step is where the magic happens. Leave space around each print so kids can think about what to add."
   },
   {
     id: 139, title: "Blow Painting", category: "art", emoji: "💨",
     ages: "3-10", time: "20 min", difficulty: "easy",
-    supplies: ["Watery paint (thin it down more than usual)", "Paper", "A straw", "Dropper or spoon to apply paint drops"],
+    supplies: ["Watery paint (thin it down more than usual)","Paper","A straw","Dropper or spoon to apply paint drops"],
     description: "Drop watery paint onto paper and blow through a straw to send it racing across in wild unpredictable directions.",
     steps: [
       "Thin the paint with water until it is very runny.",
@@ -2223,14 +2189,14 @@ const ACTIVITIES = [
       "Add more colours and blow them into each other.",
       "Tilt the paper to let colours run and merge.",
       "Add a second layer once dry.",
-      "Turn the finished piece and find shapes in it - trees, monsters, fireworks."
+      "Turn the finished piece and find shapes in it - trees, monsters, fireworks.",
     ],
     tips: "Very thin paint works much better than thick paint. This is great for making abstract tree shapes - blow upward from a blob at the bottom."
   },
   {
     id: 140, title: "Oil Pastel and Black Paint Resist", category: "art", emoji: "🌙",
     ages: "5-12", time: "40 min", difficulty: "medium",
-    supplies: ["Oil pastels", "Black paint (acrylic or tempera)", "Thick paper or card", "Brush"],
+    supplies: ["Oil pastels","Black paint (acrylic or tempera)","Thick paper or card","Brush"],
     description: "Draw a colourful scene with oil pastels then paint over the whole page with black - the pastel shows through like stained glass.",
     steps: [
       "Draw your scene with oil pastels, pressing down firmly and filling every area with colour.",
@@ -2240,14 +2206,14 @@ const ACTIVITIES = [
       "Paint over the entire page with black.",
       "Work quickly and do not over-brush the same spot.",
       "Allow to dry completely.",
-      "The coloured oil pastel will show through the black paint as bright windows of colour."
+      "The coloured oil pastel will show through the black paint as bright windows of colour.",
     ],
     tips: "Press very hard with the oil pastels for the best resist effect. Thin, light strokes will disappear under the paint."
   },
   {
     id: 141, title: "Zentangle Patterns", category: "art", emoji: "🔵",
     ages: "7-12", time: "30-45 min", difficulty: "medium",
-    supplies: ["Small squares of white card (9cm x 9cm works well)", "Fine-tip black pen (not pencil)"],
+    supplies: ["Small squares of white card (9cm x 9cm works well)","Fine-tip black pen (not pencil)"],
     description: "Fill small squares with repeating patterns and textures to create meditative, intricate tile artwork.",
     steps: [
       "Hold your card in one hand and pen in the other.",
@@ -2257,14 +2223,14 @@ const ACTIVITIES = [
       "Pattern ideas: overlapping scales, concentric curves, dots in rows, parallel wavy lines, spirals, cross-hatching.",
       "Fill every bit of white space within each section.",
       "Do not plan ahead - just start a pattern and repeat it until the section is full.",
-      "Make 4-6 tiles and arrange them into a larger design."
+      "Make 4-6 tiles and arrange them into a larger design.",
     ],
     tips: "Pen only - no pencil. Mistakes become part of the pattern. This activity is genuinely calming and kids often want to do it for a long time."
   },
   {
     id: 142, title: "Newspaper Portrait", category: "art", emoji: "📰",
     ages: "6-12", time: "45 min", difficulty: "medium",
-    supplies: ["Old newspapers or magazines", "Scissors", "Glue stick", "Card or thick paper for base", "Optional: paint or marker for details"],
+    supplies: ["Old newspapers or magazines","Scissors","Glue stick","Card or thick paper for base","Optional: paint or marker for details"],
     description: "Tear and cut newspaper into shapes to build a portrait or figure - no drawing needed.",
     steps: [
       "Decide on your subject: a face, a full body, an animal.",
@@ -2274,16 +2240,14 @@ const ACTIVITIES = [
       "Glue down the large pieces first, then layer smaller pieces on top.",
       "Use magazine pages with colour for specific tones - skin tones, bright clothing.",
       "Add minimal details with a marker if needed.",
-      "Frame it."
+      "Frame it.",
     ],
     tips: "The texture of torn newspaper edges gives portraits an interesting, painterly quality. Avoid cutting - torn edges look far more natural."
   },
-
-  // ── SENSORY PLAY (more) ──────────────────────────────────────────────────
   {
     id: 143, title: "Calm-Down Sensory Bottle", category: "sensory", emoji: "🫙",
     ages: "2-8", time: "15 min to make", difficulty: "easy",
-    supplies: ["A clear plastic bottle with a tight-sealing lid", "Warm water", "Clear glue or glycerine (slows the glitter down)", "Fine glitter in several colours", "Small plastic gems or sequins", "Strong waterproof glue for the lid"],
+    supplies: ["A clear plastic bottle with a tight-sealing lid","Warm water","Clear glue or glycerine (slows the glitter down)","Fine glitter in several colours","Small plastic gems or sequins","Strong waterproof glue for the lid"],
     description: "Fill a sealed bottle with slow-swirling glitter and objects - shaking and watching it settle is calming for anxious or overwhelmed children.",
     steps: [
       "Fill the bottle about 2/3 full with warm water.",
@@ -2293,14 +2257,14 @@ const ACTIVITIES = [
       "Fill to the top with water, leaving minimal air.",
       "Seal the lid with strong waterproof glue and let cure completely.",
       "Shake and watch.",
-      "The glitter should take 2-3 minutes to fully settle - adjust with more glycerine for slower settling."
+      "The glitter should take 2-3 minutes to fully settle - adjust with more glycerine for slower settling.",
     ],
     tips: "This is especially powerful for children who struggle with big emotions. Keep one in the car. The child shakes it when upset and has to breathe and wait for it to settle before they can speak about the problem."
   },
   {
     id: 144, title: "Sensory Noodle Bin", category: "sensory", emoji: "🍝",
     ages: "1-6", time: "15 min to make", difficulty: "easy",
-    supplies: ["Cooked spaghetti or other pasta (cooled and drained)", "A little olive oil to stop sticking", "Optional food colouring", "Large tray or bin", "Cups, forks, tongs"],
+    supplies: ["Cooked spaghetti or other pasta (cooled and drained)","A little olive oil to stop sticking","Optional food colouring","Large tray or bin","Cups, forks, tongs"],
     description: "Cooked cooled spaghetti is one of the most tactile and engaging sensory materials for young children - slippery, stretchy, and endlessly fascinating.",
     steps: [
       "Cook spaghetti until well done (softer than usual for best texture).",
@@ -2310,14 +2274,14 @@ const ACTIVITIES = [
       "Spread in a large tray.",
       "Add cups, forks, tongs, and small containers.",
       "Let children explore freely: squeeze, stretch, fill containers, pretend to cook.",
-      "Best done outside or on an easy-clean surface."
+      "Best done outside or on an easy-clean surface.",
     ],
     tips: "Expect this to go everywhere. A cheap shower curtain under the tray makes cleanup easy. The texture is initially off-putting for some children - let them dip just one finger to start."
   },
   {
     id: 145, title: "Texture Board Book", category: "sensory", emoji: "📚",
     ages: "0-4", time: "30 min", difficulty: "easy",
-    supplies: ["Thick card or cardboard squares (A5 size)", "Hole punch and binder rings to bind", "A collection of texture materials: sandpaper, velvet, bubble wrap, foil, fake fur, rough hessian, smooth plastic, soft cotton"],
+    supplies: ["Thick card or cardboard squares (A5 size)","Hole punch and binder rings to bind","A collection of texture materials: sandpaper, velvet, bubble wrap, foil, fake fur, rough hessian, smooth plastic, soft cotton"],
     description: "Make a homemade touch-and-feel book with a different texture on every page.",
     steps: [
       "Cut each texture material into a piece that fits on a card square.",
@@ -2327,14 +2291,14 @@ const ACTIVITIES = [
       "Punch two holes along one side of all cards.",
       "Thread binder rings through to bind the book.",
       "Read together, letting baby or toddler touch each page.",
-      "Name the texture and guide their hand across it."
+      "Name the texture and guide their hand across it.",
     ],
     tips: "Make a second copy for grandparents as a gift. This is genuinely useful for babies from 3 months old."
   },
   {
     id: 146, title: "Shaving Foam and Paint Marbling", category: "sensory", emoji: "🎨",
     ages: "4-10", time: "25 min", difficulty: "easy",
-    supplies: ["Shaving foam (the cheap kind)", "Acrylic or liquid paint in 3-4 colours", "A tray", "A skewer or toothpick", "White paper", "A ruler or card to scrape"],
+    supplies: ["Shaving foam (the cheap kind)","Acrylic or liquid paint in 3-4 colours","A tray","A skewer or toothpick","White paper","A ruler or card to scrape"],
     description: "Swirl paint through shaving foam, press paper on top, and pull off a unique marbled print.",
     steps: [
       "Squirt a layer of shaving foam into the tray about 1cm deep.",
@@ -2345,14 +2309,14 @@ const ACTIVITIES = [
       "Lay a sheet of paper flat on top and press gently all over.",
       "Lift the paper straight up.",
       "Use the ruler to scrape the foam off the paper in one smooth stroke.",
-      "Reveal the marble pattern underneath and let dry."
+      "Reveal the marble pattern underneath and let dry.",
     ],
     tips: "Each print is completely unique. Flip the scraper and use the clean edge to avoid mixing scraped foam back in. This also makes beautiful gift wrap."
   },
   {
     id: 147, title: "Sand Tray Writing", category: "sensory", emoji: "🏜️",
     ages: "2-7", time: "Open-ended", difficulty: "easy",
-    supplies: ["A shallow tray or baking dish", "Fine sand, salt, or cornmeal", "Optional: a finger, stick, or stylus for writing"],
+    supplies: ["A shallow tray or baking dish","Fine sand, salt, or cornmeal","Optional: a finger, stick, or stylus for writing"],
     description: "Write letters, numbers, and drawings in a sand tray - shake to erase and start again. Great for early writing practice.",
     steps: [
       "Fill the tray with enough sand or salt to cover the bottom in a thin even layer.",
@@ -2361,16 +2325,14 @@ const ACTIVITIES = [
       "Say the letter sound aloud while writing it.",
       "Shake the tray to erase and repeat.",
       "Draw pictures, practise numbers, copy words from a book.",
-      "Let children write freely without correction - it is the movement that matters."
+      "Let children write freely without correction - it is the movement that matters.",
     ],
     tips: "The resistance of the sand provides important sensory feedback that helps children remember letter shapes. Salt is finer and works better for small details."
   },
-
-  // ── GAMES (more) ─────────────────────────────────────────────────────────
   {
     id: 148, title: "Mystery Feel Bag", category: "games", emoji: "🛍️",
     ages: "3-8", time: "20 min", difficulty: "easy",
-    supplies: ["A pillowcase or cloth bag you cannot see through", "10-15 household objects of interesting shapes and textures"],
+    supplies: ["A pillowcase or cloth bag you cannot see through","10-15 household objects of interesting shapes and textures"],
     description: "Put your hand in the bag and guess what you are holding using only your sense of touch.",
     steps: [
       "While a child is not watching, fill the bag with household objects.",
@@ -2380,7 +2342,7 @@ const ACTIVITIES = [
       "They try to guess the object.",
       "Pull it out to check.",
       "Switch roles - the child fills the bag and the adult guesses.",
-      "Add a timer for extra challenge."
+      "Add a timer for extra challenge.",
     ],
     tips: "Choose objects that feel very different from each other for younger children. Older children enjoy objects that are similar in shape (different sized balls, different utensils)."
   },
@@ -2397,7 +2359,7 @@ const ACTIVITIES = [
       "Questions must be yes/no: 'Is it alive? Is it bigger than a car? Can you eat it?'",
       "Keep count of how many questions have been asked.",
       "If someone guesses correctly within 20 questions they win.",
-      "If 20 questions pass without a correct guess, the thinker wins."
+      "If 20 questions pass without a correct guess, the thinker wins.",
     ],
     tips: "Teach children to start broad and narrow down: Is it alive? Is it an animal? Is it a pet? Can it fly? This is also a great critical thinking exercise."
   },
@@ -2414,7 +2376,7 @@ const ACTIVITIES = [
       "Anyone still moving when the caller turns goes back to the start.",
       "The caller faces away again for the next green light.",
       "The first player to touch the caller wins and becomes the next traffic light.",
-      "Add 'Yellow light!' for slow walking."
+      "Add 'Yellow light!' for slow walking.",
     ],
     tips: "Spin fast and unpredictably to catch more players moving. For very young children, skip the elimination rule and just play for fun."
   },
@@ -2431,14 +2393,14 @@ const ACTIVITIES = [
       "Simon should give instructions in quick succession to catch players off guard.",
       "Last person still in wins.",
       "Rotate who plays Simon so everyone gets a turn.",
-      "Add themed rounds: animal moves only, yoga poses, sport actions."
+      "Add themed rounds: animal moves only, yoga poses, sport actions.",
     ],
     tips: "The best Simon moves fast and mixes in false instructions immediately after real ones. Use funny actions to keep energy high."
   },
   {
     id: 152, title: "Drawing Relay", category: "games", emoji: "🖊️",
     ages: "4-12", time: "25 min", difficulty: "easy",
-    supplies: ["Large paper (flip chart or taped-together A4 sheets)", "Markers", "Timer"],
+    supplies: ["Large paper (flip chart or taped-together A4 sheets)","Markers","Timer"],
     description: "Take turns adding to a drawing one at a time - the evolving result is always unexpected and hilarious.",
     steps: [
       "Agree on a subject: a house, a monster, an alien planet, a zoo.",
@@ -2447,16 +2409,14 @@ const ACTIVITIES = [
       "The next player continues or adds something new.",
       "Keep going until the paper is full.",
       "Stand back and look at the whole thing.",
-      "Give the finished artwork a dramatic title."
+      "Give the finished artwork a dramatic title.",
     ],
     tips: "The rule that you must stop when the timer goes - even in the middle of a line - is what creates the chaos and humour."
   },
-
-  // ── LEARNING (more) ──────────────────────────────────────────────────────
   {
     id: 153, title: "Addition with Snacks", category: "learning", emoji: "🍬",
     ages: "4-7", time: "15 min", difficulty: "easy",
-    supplies: ["Small countable snacks: raisins, cereal, crackers, small sweets", "Two small bowls or cups"],
+    supplies: ["Small countable snacks: raisins, cereal, crackers, small sweets","Two small bowls or cups"],
     description: "Use snacks as counters to make addition visual and edible.",
     steps: [
       "Put 3 raisins in one bowl and 2 raisins in another.",
@@ -2466,7 +2426,7 @@ const ACTIVITIES = [
       "Eat the answer.",
       "Repeat with different numbers.",
       "Introduce the plus and equals signs on paper alongside the physical snacks.",
-      "Work up to 10 total items as they get confident."
+      "Work up to 10 total items as they get confident.",
     ],
     tips: "The fact that they eat the answer after each problem is enormously motivating. Do not tell them this is maths - just play the snack game."
   },
@@ -2482,7 +2442,7 @@ const ACTIVITIES = [
       "Play rhyme or not-rhyme: say two words and they decide if they rhyme.",
       "Sing nursery rhymes and pause before the rhyming word for them to fill in.",
       "Make up a silly two-line rhyme together: 'I sat on a cat. The cat wore a hat.'",
-      "Write the rhymes down and illustrate them."
+      "Write the rhymes down and illustrate them.",
     ],
     tips: "Rhyme awareness is one of the strongest predictors of reading success. This is genuinely valuable phonics play, even when it seems silly."
   },
@@ -2499,7 +2459,7 @@ const ACTIVITIES = [
       "Use shapes instead of just colours: circle, circle, square, circle, circle, square.",
       "Make a pattern and ask them to identify the rule.",
       "Let them create a pattern for you to continue.",
-      "Try body patterns: clap, stomp, clap, stomp."
+      "Try body patterns: clap, stomp, clap, stomp.",
     ],
     tips: "Saying the pattern aloud as you make it (red, blue, red, blue) helps children hear the repetition as well as see it."
   },
@@ -2515,14 +2475,14 @@ const ACTIVITIES = [
       "Introduce vocabulary: small, medium, large, smaller, larger, smallest, largest.",
       "Compare two at a time: 'Is this block bigger or smaller than this one?'",
       "Sort into two groups: big things and small things.",
-      "Find things in the house that are bigger than a book and smaller than a book."
+      "Find things in the house that are bigger than a book and smaller than a book.",
     ],
     tips: "Use objects from the real environment - shoes, cups, containers - to make the concept feel relevant rather than abstract."
   },
   {
     id: 157, title: "Playdough Letters and Numbers", category: "learning", emoji: "🔤",
     ages: "3-6", time: "20 min", difficulty: "easy",
-    supplies: ["Playdough (homemade or store-bought)", "Letter or number flashcards (optional - or just call them out)"],
+    supplies: ["Playdough (homemade or store-bought)","Letter or number flashcards (optional - or just call them out)"],
     description: "Roll playdough into snakes and form letters and numbers - muscle memory from shaping aids retention.",
     steps: [
       "Roll a piece of playdough into a long sausage.",
@@ -2531,16 +2491,14 @@ const ACTIVITIES = [
       "Make the same letter a few more times.",
       "Try their name: each letter built one by one.",
       "For numbers: build each digit and count out that many small playdough balls alongside it.",
-      "Challenge: can they guess a letter you make with their eyes closed, just by feeling it?"
+      "Challenge: can they guess a letter you make with their eyes closed, just by feeling it?",
     ],
     tips: "The physical act of forming the letter reinforces memory far better than tracing. Let them be imperfect - a wonky B is a great B."
   },
-
-  // ── CRAFTS (more) ────────────────────────────────────────────────────────
   {
     id: 158, title: "Egg Carton Caterpillar", category: "crafts", emoji: "🐛",
     ages: "3-7", time: "20 min", difficulty: "easy",
-    supplies: ["An egg carton (one row of 6 cups)", "Paint", "Googly eyes", "Pipe cleaners for antennae", "Glue"],
+    supplies: ["An egg carton (one row of 6 cups)","Paint","Googly eyes","Pipe cleaners for antennae","Glue"],
     description: "Cut an egg carton into a strip and paint it to make a wiggly caterpillar.",
     steps: [
       "Cut a strip of 6 egg cups from the carton.",
@@ -2550,14 +2508,14 @@ const ACTIVITIES = [
       "Poke two small holes in the top of the head and thread pipe cleaners through for antennae.",
       "Curl the tips of the antennae around a pencil.",
       "Add legs by poking short pipe cleaner pieces through the sides of each cup.",
-      "Draw or paint a smile."
+      "Draw or paint a smile.",
     ],
     tips: "Make a whole family of caterpillars in different lengths. They also make great finger puppets if you cut out the bottoms of the cups."
   },
   {
     id: 159, title: "Paper Bag Kite", category: "crafts", emoji: "🪁",
     ages: "4-10", time: "25 min", difficulty: "easy",
-    supplies: ["A large paper bag", "Colourful streamers or strips of tissue paper", "Hole punch", "String (at least 2 metres)", "Markers and stickers to decorate"],
+    supplies: ["A large paper bag","Colourful streamers or strips of tissue paper","Hole punch","String (at least 2 metres)","Markers and stickers to decorate"],
     description: "Decorate a paper bag and attach streamers and a string - run and watch it fill with air behind you.",
     steps: [
       "Open the paper bag fully.",
@@ -2567,14 +2525,14 @@ const ACTIVITIES = [
       "Punch a hole in each of the two top corners.",
       "Cut a length of string and tie each end through one of the holes.",
       "Tie the flying string to the middle of this bridge string.",
-      "Hold the string and run - the bag fills with air and flies behind you."
+      "Hold the string and run - the bag fills with air and flies behind you.",
     ],
     tips: "This works best with a light breeze. The bag needs to have its opening facing backward (toward you) to catch air."
   },
   {
     id: 160, title: "Cardboard Tube Creatures", category: "crafts", emoji: "🦄",
     ages: "3-8", time: "25 min", difficulty: "easy",
-    supplies: ["Toilet paper or kitchen roll tubes", "Paint", "Construction paper", "Scissors", "Glue", "Googly eyes", "Pipe cleaners"],
+    supplies: ["Toilet paper or kitchen roll tubes","Paint","Construction paper","Scissors","Glue","Googly eyes","Pipe cleaners"],
     description: "Transform cardboard tubes into animals, monsters, robots, and characters.",
     steps: [
       "Paint the tube a base colour and let dry.",
@@ -2583,14 +2541,14 @@ const ACTIVITIES = [
       "Add googly eyes.",
       "For legs: fold a strip of paper accordion-style and attach to the bottom.",
       "For a caterpillar: make 4-5 tubes, paint them different colours, and connect with pipe cleaners.",
-      "For a rocket: add a pointed paper cone on top and flame strips at the bottom."
+      "For a rocket: add a pointed paper cone on top and flame strips at the bottom.",
     ],
     tips: "Save rolls for weeks in advance - have a big collection before sitting down to make a whole zoo."
   },
   {
     id: 161, title: "Puffy Paint Creations", category: "crafts", emoji: "☁️",
     ages: "3-8", time: "20 min", difficulty: "easy",
-    supplies: ["Equal parts: white glue, shaving foam, and salt", "Food colouring", "Card or thick paper", "Small bowls for mixing"],
+    supplies: ["Equal parts: white glue, shaving foam, and salt","Food colouring","Card or thick paper","Small bowls for mixing"],
     description: "Mix glue, foam, and salt into a paint that dries puffy and 3D.",
     steps: [
       "Mix 2 tablespoons each of white glue, shaving foam, and salt in a bowl.",
@@ -2599,14 +2557,14 @@ const ACTIVITIES = [
       "Apply to card by spreading, piping from a zip-lock bag, or spooning.",
       "Build up thick areas for maximum puffiness.",
       "Leave undisturbed to dry completely - at least 24 hours.",
-      "As it dries it puffs up and becomes a raised 3D surface."
+      "As it dries it puffs up and becomes a raised 3D surface.",
     ],
     tips: "The more thickly applied, the more it puffs. Thin layers barely raise. This is excellent for tactile drawings and sensory art."
   },
   {
     id: 162, title: "Twig Photo Frame", category: "crafts", emoji: "🌿",
     ages: "5-10", time: "40 min", difficulty: "medium",
-    supplies: ["4 straight twigs of similar thickness", "Twine or thin yarn", "Glue gun (adult)", "A printed photo", "Small natural decorations: dried flowers, berries, leaves"],
+    supplies: ["4 straight twigs of similar thickness","Twine or thin yarn","Glue gun (adult)","A printed photo","Small natural decorations: dried flowers, berries, leaves"],
     description: "Lash four twigs into a frame with twine and decorate with natural materials.",
     steps: [
       "Find 4 twigs roughly the same diameter and cut two to the same length and two slightly longer.",
@@ -2615,16 +2573,14 @@ const ACTIVITIES = [
       "An adult can add a dot of hot glue to each wrapped corner to secure.",
       "Glue dried flowers, seed heads, or leaves along the frame.",
       "Attach the photo to the back with glue or tape.",
-      "Tie a hanging loop of twine to the top."
+      "Tie a hanging loop of twine to the top.",
     ],
     tips: "Collect twigs after rain when they are slightly flexible. Let the frame dry fully before adding the photo or it may warp."
   },
-
-  // ── SEASONAL (more) ──────────────────────────────────────────────────────
   {
     id: 163, title: "New Year Countdown Jar", category: "seasonal", emoji: "🎆",
     ages: "4-10", time: "30 min", difficulty: "easy",
-    supplies: ["A large glass jar", "Strips of paper", "Pens", "Optional: glitter, ribbon to decorate the jar"],
+    supplies: ["A large glass jar","Strips of paper","Pens","Optional: glitter, ribbon to decorate the jar"],
     description: "Fill a jar with memories from the year, then read them aloud on New Year's Eve.",
     steps: [
       "In January, decorate a large jar with glitter, ribbon, and a label: 'Good Things This Year'.",
@@ -2633,14 +2589,14 @@ const ACTIVITIES = [
       "On New Year's Eve, gather together and take turns pulling slips out of the jar.",
       "Read each one and remember.",
       "Talk about which memory was the best.",
-      "Start a new jar for the coming year."
+      "Start a new jar for the coming year.",
     ],
     tips: "Keep the jar somewhere visible so you remember to add to it. Even one strip a week gives you 52 memories by December."
   },
   {
     id: 164, title: "Mother's Day Coupon Book", category: "seasonal", emoji: "💝",
     ages: "4-10", time: "30 min", difficulty: "easy",
-    supplies: ["Small pieces of card (business card size)", "Markers", "Stapler or hole punch and ribbon to bind"],
+    supplies: ["Small pieces of card (business card size)","Markers","Stapler or hole punch and ribbon to bind"],
     description: "Make a personalised coupon book of acts of service and kind gestures for Mum.",
     steps: [
       "Cut card into small coupons.",
@@ -2649,14 +2605,14 @@ const ACTIVITIES = [
       "Make a cover card: 'Coupons for Mum, with love from [name].'",
       "Decorate with drawings, hearts, and colour.",
       "Staple or bind together.",
-      "Present on Mother's Day."
+      "Present on Mother's Day.",
     ],
     tips: "These are often treasured for years. Make sure the coupons are things the child can realistically deliver - nothing too vague."
   },
   {
     id: 165, title: "Father's Day Portrait", category: "seasonal", emoji: "👨",
     ages: "3-10", time: "30 min", difficulty: "easy",
-    supplies: ["Paper", "Pencils, crayons or paint", "Optional: a photo of dad for reference"],
+    supplies: ["Paper","Pencils, crayons or paint","Optional: a photo of dad for reference"],
     description: "Draw, paint, or collage a portrait of Dad with as much detail and love as possible.",
     steps: [
       "Sit with a photo of Dad or draw from memory.",
@@ -2666,14 +2622,14 @@ const ACTIVITIES = [
       "Add a background that shows something he loves: a fishing lake, a football pitch, the garden.",
       "Write a caption at the bottom: 'My Dad' and their age.",
       "Frame it or put it in an envelope with a handwritten card.",
-      "Date the back."
+      "Date the back.",
     ],
     tips: "Keep these every year. A collection of Father's Day portraits from age 3 to 10 is one of the most moving gifts imaginable."
   },
   {
     id: 166, title: "DIY Advent Calendar", category: "seasonal", emoji: "📅",
     ages: "4-10", time: "1-2 hrs to make", difficulty: "medium",
-    supplies: ["24 small envelopes or paper bags", "String and pegs or a paper chain for hanging", "Numbered stickers or markers (1-24)", "Strips of paper for activities inside", "Small treats or trinkets (optional)"],
+    supplies: ["24 small envelopes or paper bags","String and pegs or a paper chain for hanging","Numbered stickers or markers (1-24)","Strips of paper for activities inside","Small treats or trinkets (optional)"],
     description: "Make a reusable Advent calendar and fill each pocket with a small activity, note, or treat for December.",
     steps: [
       "Number 24 envelopes or bags 1 through 24.",
@@ -2682,14 +2638,14 @@ const ACTIVITIES = [
       "For the insides: write one small activity per slip (hot chocolate night, Christmas film, make gingerbread, donate a toy).",
       "Mix in small treats or tokens for special days.",
       "Open one each morning from December 1st.",
-      "Store the empty envelopes after Christmas to reuse next year."
+      "Store the empty envelopes after Christmas to reuse next year.",
     ],
     tips: "Activity-based advent calendars are often more anticipated than treat-based ones. Kids love having something to look forward to doing together."
   },
   {
     id: 167, title: "Map of Our Home", category: "learning", emoji: "🗺️",
     ages: "5–10", time: "30 min", difficulty: "easy",
-    supplies: ["Large paper", "Pencil", "Ruler", "Coloured pencils", "A walk around your home first"],
+    supplies: ["Large paper","Pencil","Ruler","Coloured pencils","A walk around your home first"],
     description: "Draw a bird's-eye view map of your home - each room, door, and piece of furniture.",
     steps: [
       "Walk through the whole house together and count the rooms.",
@@ -2699,16 +2655,14 @@ const ACTIVITIES = [
       "Add furniture as simple shapes: rectangle for a bed, circle for a table.",
       "Label each room.",
       "Colour each room differently.",
-      "Add a compass rose with N, S, E, W."
+      "Add a compass rose with N, S, E, W.",
     ],
     tips: "After drawing the home, extend the activity to draw the street, then the neighbourhood. Introduction to scale and spatial thinking."
   },
-
-  // ── COOKING (more) ──────────────────────────────────────────────────────
   {
     id: 168, title: "Homemade Pasta", category: "cooking", emoji: "🍝",
     ages: "5-12", time: "1 hr", difficulty: "medium",
-    supplies: ["2 cups plain flour", "3 eggs", "1 tbsp olive oil", "Pinch of salt", "Rolling pin", "Large pot", "Sauce of choice"],
+    supplies: ["2 cups plain flour","3 eggs","1 tbsp olive oil","Pinch of salt","Rolling pin","Large pot","Sauce of choice"],
     description: "Make fresh egg pasta from scratch using just flour and eggs, then cook and eat it minutes later.",
     steps: [
       "Mound the flour on a clean surface and make a well in the centre.",
@@ -2719,14 +2673,14 @@ const ACTIVITIES = [
       "Divide into 4 pieces. Flatten each and roll out as thin as possible.",
       "Dust with flour, fold loosely, then cut into strips for tagliatelle.",
       "Cook in boiling salted water for 2-3 minutes - much faster than dried pasta.",
-      "Toss with butter and parmesan, or your favourite sauce."
+      "Toss with butter and parmesan, or your favourite sauce.",
     ],
     tips: "The dough should feel like soft leather when done - not sticky, not dry. If it tears when you roll it, let it rest longer."
   },
   {
     id: 169, title: "Stuffed Quesadillas", category: "cooking", emoji: "🫓",
     ages: "4-12", time: "20 min", difficulty: "easy",
-    supplies: ["Large flour tortillas", "Shredded cheese", "Fillings of choice: beans, corn, capsicum, chicken, spinach", "Butter or oil", "Frying pan", "Sour cream and salsa to serve"],
+    supplies: ["Large flour tortillas","Shredded cheese","Fillings of choice: beans, corn, capsicum, chicken, spinach","Butter or oil","Frying pan","Sour cream and salsa to serve"],
     description: "Layer cheese and fillings between tortillas and pan-fry until crispy and melty.",
     steps: [
       "Lay a tortilla flat in a cold pan, then turn the heat to medium.",
@@ -2736,14 +2690,14 @@ const ACTIVITIES = [
       "Cook for 2-3 minutes until the underside is golden.",
       "Flip carefully and cook the other side for 2 minutes.",
       "Slide out, let cool for 1 minute, then cut into wedges.",
-      "Serve with sour cream and salsa for dipping."
+      "Serve with sour cream and salsa for dipping.",
     ],
     tips: "Don't overfill or they will burst when flipped. Cheese on both sides of the filling acts as glue to hold everything together."
   },
   {
     id: 170, title: "Fruit Crumble", category: "cooking", emoji: "🍓",
     ages: "4-12", time: "45 min", difficulty: "easy",
-    supplies: ["4 cups fruit: apples, berries, peaches, or a mix", "2 tbsp sugar for the fruit", "1 cup plain flour", "100g cold butter", "75g sugar for crumble", "75g rolled oats", "Baking dish"],
+    supplies: ["4 cups fruit: apples, berries, peaches, or a mix","2 tbsp sugar for the fruit","1 cup plain flour","100g cold butter","75g sugar for crumble","75g rolled oats","Baking dish"],
     description: "Toss fruit in a dish, rub together a buttery crumble topping, and bake until golden and bubbling.",
     steps: [
       "Preheat oven to 180°C / 350°F.",
@@ -2753,14 +2707,14 @@ const ACTIVITIES = [
       "Rub the butter into the flour with your fingertips until it resembles breadcrumbs.",
       "Spread the crumble evenly over the fruit.",
       "Bake for 30-35 minutes until the top is golden and fruit is bubbling at the edges.",
-      "Serve warm with ice cream or custard."
+      "Serve warm with ice cream or custard.",
     ],
     tips: "Cold butter is essential for a crumbly topping - warm butter makes it greasy. Apples and blackberries are a classic combination."
   },
   {
     id: 171, title: "Homemade Granola", category: "cooking", emoji: "🌾",
     ages: "4-12", time: "35 min", difficulty: "easy",
-    supplies: ["3 cups rolled oats", "1 cup mixed nuts or seeds", "½ cup honey or maple syrup", "3 tbsp coconut oil", "1 tsp vanilla", "1 tsp cinnamon", "Pinch of salt", "Optional: dried fruit or chocolate chips to add after"],
+    supplies: ["3 cups rolled oats","1 cup mixed nuts or seeds","½ cup honey or maple syrup","3 tbsp coconut oil","1 tsp vanilla","1 tsp cinnamon","Pinch of salt","Optional: dried fruit or chocolate chips to add after"],
     description: "Toast oats, nuts, and honey in the oven for a crunchy granola that fills the kitchen with the best smell.",
     steps: [
       "Preheat oven to 160°C / 325°F. Line a large baking tray with paper.",
@@ -2772,14 +2726,14 @@ const ACTIVITIES = [
       "Bake for 25-30 minutes, stirring once halfway through, until golden.",
       "Cool completely on the tray - it crisps up as it cools.",
       "Stir in dried fruit or chocolate chips once cool.",
-      "Store in a sealed jar for up to 2 weeks."
+      "Store in a sealed jar for up to 2 weeks.",
     ],
     tips: "Don't stir it too often while baking - leaving it undisturbed creates bigger satisfying clusters."
   },
   {
     id: 172, title: "Cinnamon Scrolls", category: "cooking", emoji: "🌀",
     ages: "5-12", time: "2 hrs", difficulty: "medium",
-    supplies: ["2¼ tsp instant yeast", "1 cup warm milk", "80g melted butter", "2 eggs", "3 cups plain flour", "¼ cup sugar", "1 tsp salt", "For filling: 100g softened butter + ½ cup brown sugar + 2 tsp cinnamon", "For icing: 1 cup icing sugar + 2-3 tbsp milk"],
+    supplies: ["2¼ tsp instant yeast","1 cup warm milk","80g melted butter","2 eggs","3 cups plain flour","¼ cup sugar","1 tsp salt","For filling: 100g softened butter + ½ cup brown sugar + 2 tsp cinnamon","For icing: 1 cup icing sugar + 2-3 tbsp milk"],
     description: "Roll up soft dough with a cinnamon butter filling and bake into pull-apart scrolls with a vanilla glaze.",
     steps: [
       "Mix yeast, warm milk, and a pinch of sugar. Rest 5 minutes until frothy.",
@@ -2792,14 +2746,14 @@ const ACTIVITIES = [
       "Roll up tightly from the long side. Cut into 12 equal pieces.",
       "Place cut-side up in a greased baking dish. Rest for 20 minutes.",
       "Bake at 190°C / 375°F for 20-25 minutes until golden.",
-      "Stir icing sugar and milk into a pourable glaze and drizzle over warm scrolls."
+      "Stir icing sugar and milk into a pourable glaze and drizzle over warm scrolls.",
     ],
     tips: "Use unflavoured dental floss to slice the roll cleanly without squashing the scrolls."
   },
   {
     id: 173, title: "Vegetable Soup from Scratch", category: "cooking", emoji: "🍲",
     ages: "4-12", time: "45 min", difficulty: "easy",
-    supplies: ["2 carrots", "2 celery stalks", "1 onion", "2 potatoes", "1 zucchini", "1 litre vegetable stock", "1 can diced tomatoes", "Olive oil", "Salt, pepper, dried herbs", "Large pot"],
+    supplies: ["2 carrots","2 celery stalks","1 onion","2 potatoes","1 zucchini","1 litre vegetable stock","1 can diced tomatoes","Olive oil","Salt, pepper, dried herbs","Large pot"],
     description: "Chop vegetables together and simmer into a hearty soup - a genuine meal cooked from scratch.",
     steps: [
       "Peel and chop all vegetables into bite-sized pieces. Kids can help with soft vegetables using a safe knife.",
@@ -2810,33 +2764,14 @@ const ACTIVITIES = [
       "Add a pinch of salt, pepper, and dried herbs like thyme or parsley.",
       "Bring to a boil, then reduce heat and simmer for 20 minutes until vegetables are tender.",
       "Taste and adjust seasoning.",
-      "Serve with crusty bread."
+      "Serve with crusty bread.",
     ],
     tips: "Let kids choose two vegetables to add that are their own contribution. They are far more likely to eat soup they helped make."
-  },
-
-  // ── OUTDOOR (more) ──────────────────────────────────────────────────────
-  {
-    id: 174, title: "Rock Painting", category: "outdoor", emoji: "🪨",
-    ages: "3-12", time: "45 min", difficulty: "easy",
-    supplies: ["Smooth flat rocks", "White acrylic base coat", "Acrylic paint in various colours", "Fine brushes", "Sealer or Mod Podge"],
-    description: "Paint collected rocks into miniature artworks - animals, faces, patterns, or messages - then hide them for someone to find.",
-    steps: [
-      "Collect smooth flat rocks - river rocks work best.",
-      "Paint each rock with a white base coat and let dry.",
-      "Plan your design: a ladybug, a monster face, a mandala, a word, a tiny landscape.",
-      "Paint the main colour first and let dry before adding detail.",
-      "Use a fine brush for eyes, outlines, and small details.",
-      "Let dry fully.",
-      "Seal with a coat of Mod Podge or varnish to weatherproof it.",
-      "Hide your rock on a nature walk for someone else to discover."
-    ],
-    tips: "Write on the back: 'You found me! Take me home or rehide me.' Many towns have rock-hiding communities on social media."
   },
   {
     id: 175, title: "Nature Photography Walk", category: "outdoor", emoji: "📷",
     ages: "4-12", time: "45 min", difficulty: "easy",
-    supplies: ["A phone, tablet, or simple camera", "Optional: a printed list of photography challenges"],
+    supplies: ["A phone, tablet, or simple camera","Optional: a printed list of photography challenges"],
     description: "Give each person a camera and a list of shot challenges - textures, tiny things, shadows, reflections - and go hunting.",
     steps: [
       "Write a challenge list: something tiny, something rough, a shadow, a reflection, a repeating pattern, something moving in the wind, a colour you don't usually notice.",
@@ -2846,14 +2781,14 @@ const ACTIVITIES = [
       "Try to get as close as possible to small subjects - fill the frame.",
       "Look for interesting angles: ground level, looking up through leaves, straight down.",
       "Back home, review photos together and pick a favourite from each person.",
-      "Print the best ones to display."
+      "Print the best ones to display.",
     ],
     tips: "Kids often notice incredible details adults walk straight past. Give them complete creative control over what to photograph."
   },
   {
     id: 176, title: "Build a Birdhouse", category: "outdoor", emoji: "🏡",
     ages: "7-12", time: "2 hrs", difficulty: "hard",
-    supplies: ["Untreated pine boards", "Hammer and nails or wood glue", "Drill with hole saw bit (adult use)", "Sandpaper", "Exterior paint or wood stain"],
+    supplies: ["Untreated pine boards","Hammer and nails or wood glue","Drill with hole saw bit (adult use)","Sandpaper","Exterior paint or wood stain"],
     description: "Measure, cut, and assemble a simple wooden birdhouse to hang in the garden.",
     steps: [
       "Look up entry hole sizes for local birds - different species need different sized openings.",
@@ -2865,14 +2800,14 @@ const ACTIVITIES = [
       "Attach the roof at a slight angle so rain runs off.",
       "Paint or stain the outside only - never paint the inside.",
       "Drill a small hole in the floor for drainage.",
-      "Hang in a sheltered spot 2-3 metres off the ground."
+      "Hang in a sheltered spot 2-3 metres off the ground.",
     ],
     tips: "Don't add a perch below the hole - predators use them to reach inside. Research the right hole diameter for the birds in your area."
   },
   {
     id: 177, title: "Backyard Scavenger Bingo", category: "outdoor", emoji: "🎯",
     ages: "3-10", time: "30 min", difficulty: "easy",
-    supplies: ["Printed or hand-drawn 5x5 bingo cards with nature items in each square", "Pencils or counters to mark squares"],
+    supplies: ["Printed or hand-drawn 5x5 bingo cards with nature items in each square","Pencils or counters to mark squares"],
     description: "Play bingo by finding and ticking off nature items in the backyard - first to complete a row wins.",
     steps: [
       "Draw 5x5 bingo cards with items like: pinecone, red leaf, feather, ant, smooth stone, spider web, yellow flower, butterfly, bird, snail, mushroom, seed pod.",
@@ -2880,14 +2815,14 @@ const ACTIVITIES = [
       "Head outside and search the yard.",
       "Tick off each item as you spot or find it.",
       "Call BINGO when you complete a row - horizontal, vertical, or diagonal.",
-      "Play again for a full house."
+      "Play again for a full house.",
     ],
     tips: "Take photos of each item found instead of collecting them - kinder to nature and easier to review afterwards."
   },
   {
     id: 178, title: "Shadow Tracing", category: "outdoor", emoji: "🌞",
     ages: "3-10", time: "30 min + check later", difficulty: "easy",
-    supplies: ["Chalk", "A sunny day", "A watch or timer"],
+    supplies: ["Chalk","A sunny day","A watch or timer"],
     description: "Trace shadows on the driveway at different times of day and watch how dramatically they move and change length.",
     steps: [
       "In the morning, have someone stand still on the driveway.",
@@ -2897,16 +2832,14 @@ const ACTIVITIES = [
       "Return in the afternoon and trace again.",
       "Compare: which shadow is longest? Which direction does each point?",
       "Discuss why: the sun appears to move across the sky as the Earth rotates.",
-      "Try tracing the shadow of a fixed object like a letterbox to see the same effect."
+      "Try tracing the shadow of a fixed object like a letterbox to see the same effect.",
     ],
     tips: "Stand in exactly the same spot each time by drawing a circle for your feet. The difference between morning and midday shadows is dramatic."
   },
-
-  // ── SENSORY (more) ──────────────────────────────────────────────────────
   {
     id: 179, title: "Scented Playdough", category: "sensory", emoji: "👃",
     ages: "2-8", time: "20 min", difficulty: "easy",
-    supplies: ["2 cups flour", "½ cup salt", "2 tbsp cream of tartar", "2 tbsp oil", "1.5 cups boiling water", "Food colouring", "Essential oil or extract: lavender, peppermint, lemon, or vanilla"],
+    supplies: ["2 cups flour","½ cup salt","2 tbsp cream of tartar","2 tbsp oil","1.5 cups boiling water","Food colouring","Essential oil or extract: lavender, peppermint, lemon, or vanilla"],
     description: "Make homemade playdough infused with a calming or energising scent - lavender for quiet time, peppermint for play.",
     steps: [
       "Mix flour, salt, and cream of tartar in a bowl.",
@@ -2915,14 +2848,14 @@ const ACTIVITIES = [
       "Stir quickly - it will clump together rapidly.",
       "Once cool enough to handle, knead for 5 minutes until smooth.",
       "Store in an airtight container - keeps for months.",
-      "Match scent to colour: lavender with purple, lemon with yellow, peppermint with green."
+      "Match scent to colour: lavender with purple, lemon with yellow, peppermint with green.",
     ],
     tips: "A few drops of extract goes a long way. Lavender playdough is particularly good for sensory breaks or winding down before rest time."
   },
   {
     id: 180, title: "Texture Exploration Tray", category: "sensory", emoji: "🤲",
     ages: "0-5", time: "15 min to prep", difficulty: "easy",
-    supplies: ["A large tray or muffin tin", "Small amounts of different textures: cooked pasta, dry rice, sand, cotton balls, jelly, flour, smooth pebbles, fabric scraps"],
+    supplies: ["A large tray or muffin tin","Small amounts of different textures: cooked pasta, dry rice, sand, cotton balls, jelly, flour, smooth pebbles, fabric scraps"],
     description: "Fill sections of a tray with completely different textures for little hands to explore, compare, and describe.",
     steps: [
       "Prepare each texture separately - cook and cool pasta, set jelly, sift flour.",
@@ -2931,14 +2864,14 @@ const ACTIVITIES = [
       "Name each texture as they touch it: smooth, bumpy, cold, soft, scratchy, slimy.",
       "Let them mix textures if they want to - there are no rules.",
       "Watch which ones they return to most.",
-      "Let them help wipe down the tray at the end."
+      "Let them help wipe down the tray at the end.",
     ],
     tips: "Always supervise closely with babies. For under-2s, avoid small items - use only large safe materials like cooked pasta, fabric, and cotton balls."
   },
   {
     id: 181, title: "Frozen Sensory Bin", category: "sensory", emoji: "🧊",
     ages: "1-6", time: "10 min to prep", difficulty: "easy",
-    supplies: ["Ice cubes or a tray-sized block of ice", "Warm water in a jug", "Salt shaker", "Food colouring droppers", "Small toys or gems to explore", "Tray or bin"],
+    supplies: ["Ice cubes or a tray-sized block of ice","Warm water in a jug","Salt shaker","Food colouring droppers","Small toys or gems to explore","Tray or bin"],
     description: "Explore a tray of ice with warm water, salt, and colour - watching and feeling the ice transform as it melts.",
     steps: [
       "Fill a large tray with ice cubes or place a block of ice in the centre.",
@@ -2947,14 +2880,14 @@ const ACTIVITIES = [
       "Let children pour warm water and watch it carve channels through the ice.",
       "Sprinkle salt and observe the tiny craters and holes it creates.",
       "Add drops of food colouring and watch colour flow into the cracks.",
-      "Talk about what is happening: heat melts ice, salt lowers the freezing point."
+      "Talk about what is happening: heat melts ice, salt lowers the freezing point.",
     ],
     tips: "Add one drop of each primary colour and let them mix naturally as the ice melts - a colour-mixing lesson that happens on its own."
   },
   {
     id: 182, title: "Sensory Bottles", category: "sensory", emoji: "🫙",
     ages: "0-5", time: "15 min", difficulty: "easy",
-    supplies: ["Clear plastic bottles with tight lids", "Water", "Glycerine (from a pharmacy)", "Glitter, small beads, sequins, tiny toys", "Superglue to seal the lid"],
+    supplies: ["Clear plastic bottles with tight lids","Water","Glycerine (from a pharmacy)","Glitter, small beads, sequins, tiny toys","Superglue to seal the lid"],
     description: "Fill sealed bottles with glitter and water to make calming sensory bottles - like a snow globe you shake and watch.",
     steps: [
       "Fill a clean bottle about three-quarters full with water.",
@@ -2964,16 +2897,14 @@ const ACTIVITIES = [
       "Fill to the very top with more water so there is no air bubble.",
       "Apply superglue around the inside of the lid and seal tightly.",
       "Let the glue cure for 24 hours before giving to a child.",
-      "Shake and watch the glitter swirl and slowly settle."
+      "Shake and watch the glitter swirl and slowly settle.",
     ],
     tips: "More glycerine = slower, more hypnotic fall. These are brilliant for calming an upset toddler. Make a calm-down bottle with only blue glitter."
   },
-
-  // ── LEARNING (more) ─────────────────────────────────────────────────────
   {
     id: 183, title: "Build a Solar System", category: "learning", emoji: "🪐",
     ages: "6-12", time: "1.5 hrs", difficulty: "medium",
-    supplies: ["8 polystyrene or paper balls in different sizes", "Paint in various colours", "Black cardboard or foam board for a base", "Skewers or wire", "Reference chart of planet order and colours"],
+    supplies: ["8 polystyrene or paper balls in different sizes","Paint in various colours","Black cardboard or foam board for a base","Skewers or wire","Reference chart of planet order and colours"],
     description: "Paint and arrange all eight planets in the correct order at roughly the right scale to make a display.",
     steps: [
       "Look up the planets in order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
@@ -2983,14 +2914,14 @@ const ACTIVITIES = [
       "Mount on skewers in black foam board or hang on strings from a stick at different distances.",
       "Label each planet.",
       "Add a sun at one end.",
-      "Discuss facts: which is hottest, coldest, has the most moons, has rings?"
+      "Discuss facts: which is hottest, coldest, has the most moons, has rings?",
     ],
     tips: "True scale is impossible in a room - Jupiter would need to be the size of a basketball if Earth were a marble. Use that fact as a conversation starter."
   },
   {
     id: 184, title: "Coin Sorting and Counting", category: "learning", emoji: "🪙",
     ages: "4-8", time: "20 min", difficulty: "easy",
-    supplies: ["A collection of coins", "Muffin tin or small bowls", "Paper and pencil for totals"],
+    supplies: ["A collection of coins","Muffin tin or small bowls","Paper and pencil for totals"],
     description: "Sort coins by denomination, count and group them, then add up the totals.",
     steps: [
       "Tip a mixed collection of coins onto a table.",
@@ -2999,14 +2930,14 @@ const ACTIVITIES = [
       "Work out the value of each pile: 7 x 10c = 70c.",
       "Add all the piles together for a grand total.",
       "Challenge: can you make exactly $1 using different combinations?",
-      "Who can make a dollar using the most coins? The fewest?"
+      "Who can make a dollar using the most coins? The fewest?",
     ],
     tips: "Keep a jar of mixed coins for this activity. It builds skip counting, addition, and early multiplication in a hands-on, practical way."
   },
   {
     id: 185, title: "Morse Code Messages", category: "learning", emoji: "📡",
     ages: "7-12", time: "30 min", difficulty: "medium",
-    supplies: ["Printed Morse code chart", "Paper and pencil", "Optional: a torch to flash messages in the dark"],
+    supplies: ["Printed Morse code chart","Paper and pencil","Optional: a torch to flash messages in the dark"],
     description: "Learn Morse code basics and write or flash secret messages to each other.",
     steps: [
       "Print or draw a Morse code chart showing dots and dashes for each letter.",
@@ -3015,14 +2946,14 @@ const ACTIVITIES = [
       "Write a short secret message - 3-5 words.",
       "Swap messages and decode each other's.",
       "Use a torch to flash messages in a dark room: short flash for dot, long flash for dash.",
-      "See how fast you can send and receive SOS."
+      "See how fast you can send and receive SOS.",
     ],
     tips: "Start with just 5-6 letters and expand over multiple sessions. Once they can do SOS they feel like spies. International distress signal - genuinely useful to know."
   },
   {
     id: 186, title: "Newspaper Maths Market", category: "learning", emoji: "🛒",
     ages: "5-10", time: "30 min", difficulty: "easy",
-    supplies: ["Supermarket catalogues or printed food ads", "Scissors", "A pretend budget written on paper", "Pencil and paper for adding up"],
+    supplies: ["Supermarket catalogues or printed food ads","Scissors","A pretend budget written on paper","Pencil and paper for adding up"],
     description: "Give kids a pretend budget and a catalogue - plan a weekly shop without going over.",
     steps: [
       "Cut out food items from catalogues and arrange them as a pretend shop.",
@@ -3031,14 +2962,14 @@ const ACTIVITIES = [
       "Let them choose items and add up the running total as they go.",
       "If they go over budget, they must decide what to swap out.",
       "Compare shopping lists - who was under budget? Who had the most nutritious shop?",
-      "Discuss: what costs more - fresh or packaged food?"
+      "Discuss: what costs more - fresh or packaged food?",
     ],
     tips: "This teaches real addition, budgeting, and decision-making. Accept any valid maths strategy they use to add up - mental, written, or on fingers."
   },
   {
     id: 187, title: "Make a Mini Dictionary", category: "learning", emoji: "📚",
     ages: "5-10", time: "45 min", difficulty: "easy",
-    supplies: ["26 small cards or a stapled booklet with one page per letter", "Pencils and coloured pencils"],
+    supplies: ["26 small cards or a stapled booklet with one page per letter","Pencils and coloured pencils"],
     description: "Make a personalised picture dictionary - one illustrated word per letter - using words that matter to you.",
     steps: [
       "Create a booklet with one page per letter of the alphabet.",
@@ -3047,12 +2978,10 @@ const ACTIVITIES = [
       "Write the word clearly at the top of the page.",
       "Draw and colour a picture of it below.",
       "Write a simple definition or a sentence using the word.",
-      "Decorate the cover and give the dictionary a title."
+      "Decorate the cover and give the dictionary a title.",
     ],
     tips: "Tricky letters like X, Q, and Z are great thinking challenges. Accept creative answers: X for xylophone, Q for quail, Z for zigzag."
   },
-
-  // ── GAMES (more) ─────────────────────────────────────────────────────────
   {
     id: 188, title: "Two Truths and a Lie", category: "games", emoji: "🤥",
     ages: "6-12", time: "20 min", difficulty: "easy",
@@ -3065,39 +2994,9 @@ const ACTIVITIES = [
       "Everyone else votes on which one they think is the lie.",
       "Reveal the answer.",
       "Score a point if your lie fooled everyone.",
-      "Score a point if you correctly spotted someone else's lie."
+      "Score a point if you correctly spotted someone else's lie.",
     ],
     tips: "Great for long car trips or around the dinner table. Gets better the more everyone knows each other - makes it harder to fool people."
-  },
-  {
-    id: 189, title: "Simon Says", category: "games", emoji: "👆",
-    ages: "2-8", time: "15 min", difficulty: "easy",
-    supplies: ["No materials needed", "Space to move"],
-    description: "Follow instructions only when they begin with 'Simon Says' - act on a plain command and you are out.",
-    steps: [
-      "One person is Simon and stands at the front.",
-      "Simon gives instructions: 'Simon says touch your nose', 'Simon says jump three times'.",
-      "Everyone follows only instructions that begin with 'Simon says'.",
-      "If Simon gives an instruction WITHOUT saying 'Simon says' first and you do it, you are out.",
-      "Last person remaining becomes the next Simon.",
-      "Speed up the instructions to make it harder."
-    ],
-    tips: "For very young children, skip the elimination rule and play purely for the fun of moving together. Add silly commands: 'Simon says make your best dinosaur face.'"
-  },
-  {
-    id: 190, title: "20 Questions", category: "games", emoji: "❓",
-    ages: "5-12", time: "20 min", difficulty: "easy",
-    supplies: ["No materials needed"],
-    description: "One person thinks of something - animal, vegetable, or mineral - and others use yes/no questions to guess it in 20 tries.",
-    steps: [
-      "One person thinks of something and announces only whether it is animal, vegetable, or mineral.",
-      "Animal = any living creature. Vegetable = any plant or plant product. Mineral = everything else.",
-      "Others take turns asking yes/no questions only.",
-      "Keep count - 20 questions maximum.",
-      "If someone guesses correctly before 20 questions, they become the next thinker.",
-      "If nobody guesses in 20 questions, the thinker wins and goes again."
-    ],
-    tips: "Teach kids to work from broad to narrow: 'Is it alive?', 'Is it bigger than a dog?', 'Can you find it in a kitchen?' Wild guesses waste questions."
   },
   {
     id: 191, title: "Wink Murder", category: "games", emoji: "😉",
@@ -3111,14 +3010,14 @@ const ACTIVITIES = [
       "The murderer silently winks at other players one at a time.",
       "If you are winked at, wait 3-5 seconds then dramatically 'die' and sit out.",
       "The detective gets three guesses to identify the murderer before the game ends.",
-      "If the detective guesses correctly, they win. If the murderer eliminates everyone, they win."
+      "If the detective guesses correctly, they win. If the murderer eliminates everyone, they win.",
     ],
     tips: "The murderer needs to wink subtly without the detective noticing. Play over several rounds so everyone gets a turn at each role."
   },
   {
     id: 192, title: "Scavenger Hunt with Riddles", category: "games", emoji: "🔎",
     ages: "5-12", time: "45 min to set up", difficulty: "medium",
-    supplies: ["Index cards for writing riddles", "A small prize at the end"],
+    supplies: ["Index cards for writing riddles","A small prize at the end"],
     description: "Hide riddle cards around the house or garden where each answer leads to the next hiding spot.",
     steps: [
       "Plan 6-8 hiding locations around your space.",
@@ -3127,32 +3026,14 @@ const ACTIVITIES = [
       "Place each clue at the spot described by the previous one.",
       "Put a prize or treat at the final location.",
       "Hand out the first clue and let the hunt begin.",
-      "For young children, draw pictures of each location instead of writing riddles."
+      "For young children, draw pictures of each location instead of writing riddles.",
     ],
     tips: "Make the difficulty match the child's reading level. Rhyming riddles feel more exciting and satisfying to solve."
-  },
-
-  // ── ART (more) ──────────────────────────────────────────────────────────
-  {
-    id: 193, title: "Origami Animals", category: "art", emoji: "🦢",
-    ages: "6-12", time: "30 min", difficulty: "medium",
-    supplies: ["Square paper - origami paper or cut from regular paper", "A flat surface", "Markers to add detail after folding"],
-    description: "Fold paper into animals - start simple and work up to more complex shapes.",
-    steps: [
-      "Start with a very simple shape: a paper boat, a dog face, or a fortune teller.",
-      "Find a beginner origami diagram or video and follow it step by step.",
-      "Make each fold as sharp and precise as possible - run a fingernail along each crease.",
-      "Work slowly - unfold and redo any step that goes wrong rather than pushing through.",
-      "Once the basic shape is done, add details with a marker: eyes, feathers, patterns.",
-      "Try the same model a second time - it always turns out much better.",
-      "Display finished animals together as a collection."
-    ],
-    tips: "The paper crane is the classic beginner-to-intermediate challenge. The fortune teller (cootie catcher) is the easiest and most satisfying for younger kids."
   },
   {
     id: 194, title: "Leaf Print Cards", category: "art", emoji: "🍃",
     ages: "3-10", time: "30 min", difficulty: "easy",
-    supplies: ["Collected leaves with interesting shapes and veins", "Washable paint", "Blank cards or thick paper", "A paintbrush or small roller"],
+    supplies: ["Collected leaves with interesting shapes and veins","Washable paint","Blank cards or thick paper","A paintbrush or small roller"],
     description: "Paint leaves and press them onto cards to create nature-printed gifts.",
     steps: [
       "Collect leaves with interesting shapes and clearly visible veins.",
@@ -3162,14 +3043,14 @@ const ACTIVITIES = [
       "Smooth it down with your palm, then peel back to reveal the print.",
       "Let dry and repeat with more leaves and colours.",
       "Add details with a fine marker: a stem, a ground line, a simple sky.",
-      "Write a message inside - these make beautiful greeting cards."
+      "Write a message inside - these make beautiful greeting cards.",
     ],
     tips: "Apply paint with a small roller for the most even coverage. Overlapping prints in different colours creates beautiful layered depth."
   },
   {
     id: 195, title: "Watercolour Resist Landscapes", category: "art", emoji: "🌄",
     ages: "5-12", time: "45 min", difficulty: "easy",
-    supplies: ["Watercolour paper", "White wax candle or white oil pastel", "Watercolour paints", "Brushes", "Water jar"],
+    supplies: ["Watercolour paper","White wax candle or white oil pastel","Watercolour paints","Brushes","Water jar"],
     description: "Draw a scene in invisible white wax, then wash watercolour over it - the hidden drawing is dramatically revealed.",
     steps: [
       "Plan a simple scene: hills, a moon and stars, trees on a horizon, or a lake.",
@@ -3179,14 +3060,14 @@ const ACTIVITIES = [
       "Brush the paint over the whole surface in broad sweeping strokes.",
       "Watch the wax drawing appear as the paint is rejected by the wax.",
       "Add more layers of different colours - the wax keeps resisting everything.",
-      "Let dry flat."
+      "Let dry flat.",
     ],
     tips: "The harder you press the wax, the stronger the resist. A night sky - white stars and a moon on a dark blue painted sky - is always stunning."
   },
   {
     id: 196, title: "Drawing from Still Life", category: "art", emoji: "🍎",
     ages: "6-12", time: "30-45 min", difficulty: "medium",
-    supplies: ["2-4 objects arranged on a table: fruit, a bottle, flowers, a cup", "Paper", "Pencil", "Eraser", "Optional: coloured pencils"],
+    supplies: ["2-4 objects arranged on a table: fruit, a bottle, flowers, a cup","Paper","Pencil","Eraser","Optional: coloured pencils"],
     description: "Arrange everyday objects and draw them exactly as they look - practising observation, proportion, and shading.",
     steps: [
       "Arrange 2-4 objects with interesting shapes together on a table.",
@@ -3196,66 +3077,14 @@ const ACTIVITIES = [
       "Once shapes look right, add outlines and details.",
       "Add shading: find the light source and shade the opposite side of each object.",
       "Look at the actual objects much more than your paper.",
-      "Add colour if desired."
+      "Add colour if desired.",
     ],
     tips: "The most common mistake is drawing what you think something looks like rather than what you actually see. Keep your eyes on the objects."
-  },
-
-  // ── CRAFTS (more) ───────────────────────────────────────────────────────
-  {
-    id: 197, title: "Paper Bag Puppets", category: "crafts", emoji: "🎭",
-    ages: "3-8", time: "20 min", difficulty: "easy",
-    supplies: ["Brown paper lunch bags", "Googly eyes or paper circles", "Markers", "Glue", "Felt, yarn, and foam scraps for decoration"],
-    description: "Turn a paper bag into a puppet character and put on a show.",
-    steps: [
-      "Hold the bag flat with the folded bottom facing you at the top - this flap is the mouth.",
-      "Glue eyes onto the flap (the folded section).",
-      "Add a mouth below the flap on the bag body.",
-      "Decorate the character: yarn hair, felt ears, paper arms, a drawn costume.",
-      "Let dry.",
-      "Slide your hand inside and move the flap to make the mouth open and close.",
-      "Make 2-3 different characters and perform a show using a cardboard box as a stage."
-    ],
-    tips: "A cardboard box with the front cut away makes a perfect puppet theatre. Drape a tea towel over the front to hide the puppeteers from the audience."
-  },
-  {
-    id: 198, title: "Yarn Wrapped Letters", category: "crafts", emoji: "🔡",
-    ages: "4-10", time: "30 min", difficulty: "easy",
-    supplies: ["Cardboard letters cut from thick cardboard or bought from a craft store", "Yarn in various colours", "White glue", "Scissors"],
-    description: "Wrap coloured yarn tightly around cardboard letters to create personalised name art for a bedroom wall.",
-    steps: [
-      "Cut or buy large cardboard letters spelling a name or word.",
-      "Secure one end of yarn to the back of the first letter with glue.",
-      "Wrap yarn tightly around the letter, covering every bit of cardboard.",
-      "When changing colour, secure the end at the back with glue and start the new colour.",
-      "Work carefully around curves and into sharp angles.",
-      "When fully covered, secure the final end at the back.",
-      "Hang on a wall or lean on a shelf."
-    ],
-    tips: "Use 2-3 colours in a deliberate pattern for a striped effect. Thicker chunky yarn covers faster and looks bolder. Great for a child's bedroom door or wall."
-  },
-  {
-    id: 199, title: "Dream Catcher", category: "crafts", emoji: "🌙",
-    ages: "6-12", time: "45 min", difficulty: "medium",
-    supplies: ["A metal or wooden craft hoop", "Suede lacing or twine to wrap the hoop", "String or thin cord for the web", "Beads", "Feathers", "Scissors"],
-    description: "Weave a spider-web pattern inside a wrapped hoop and hang feathers and beads to make a dream catcher.",
-    steps: [
-      "Wrap the hoop completely with suede lacing, overlapping slightly as you work.",
-      "Tie string at the top of the hoop.",
-      "Knot the string onto the ring about 5cm away, then draw it across and knot again, working around the whole ring.",
-      "On the second pass, knot the string to the centre of each segment of the first round.",
-      "Thread a bead onto the string occasionally as you weave.",
-      "Continue inward, making the web progressively smaller.",
-      "Tie off and add a final bead in the centre.",
-      "Hang 3-5 lengths of string from the bottom with beads and a feather tied to each end.",
-      "Add a loop at the top for hanging above a bed."
-    ],
-    tips: "Watch a short video first to understand the weaving motion. The web does not need to be perfect - irregular webs look handmade and charming."
   },
   {
     id: 200, title: "Pressed Flower Bookmarks", category: "crafts", emoji: "🌸",
     ages: "4-10", time: "20 min + 2 weeks pressing", difficulty: "easy",
-    supplies: ["Freshly picked small flowers", "Heavy books for pressing", "Card strips 2cm x 15cm", "Clear sticky-back laminate", "White glue"],
+    supplies: ["Freshly picked small flowers","Heavy books for pressing","Card strips 2cm x 15cm","Clear sticky-back laminate","White glue"],
     description: "Press flowers flat in a book, glue them to card strips, and seal with laminate for beautiful keepsake bookmarks.",
     steps: [
       "Pick small flat flowers: pansies, daisies, violas, or clover.",
@@ -3266,16 +3095,14 @@ const ACTIVITIES = [
       "Let the glue dry completely.",
       "Seal the front with a strip of clear sticky-back laminate.",
       "Trim edges neatly with scissors.",
-      "Punch a hole at the top and thread ribbon through."
+      "Punch a hole at the top and thread ribbon through.",
     ],
     tips: "Flat flowers press the most beautifully. Thick flowers like roses don't press well. Small ferns and leaves add beautiful green detail around the flowers."
   },
-
-  // ── SCIENCE (more) ──────────────────────────────────────────────────────
   {
     id: 201, title: "Make a Compass", category: "science", emoji: "🧭",
     ages: "6-12", time: "20 min", difficulty: "easy",
-    supplies: ["A sewing needle", "A strong magnet", "A small piece of cork or foam", "A bowl of still water"],
+    supplies: ["A sewing needle","A strong magnet","A small piece of cork or foam","A bowl of still water"],
     description: "Magnetise a needle by stroking it with a magnet, float it on cork in water, and watch it find north.",
     steps: [
       "Stroke the needle along one end of the magnet 30-40 times, always in the same direction.",
@@ -3284,14 +3111,14 @@ const ACTIVITIES = [
       "Place the cork flat in a bowl of still water.",
       "Watch the needle slowly rotate and settle - it will point north/south.",
       "Check it against a phone compass to confirm.",
-      "Try to break the magnetism: heat the needle briefly, then test it again."
+      "Try to break the magnetism: heat the needle briefly, then test it again.",
     ],
     tips: "The needle needs to rest flat and horizontal with its full length parallel to the water surface. Keep the bowl away from metal objects or other magnets."
   },
   {
     id: 202, title: "Static Electricity Experiments", category: "science", emoji: "⚡",
     ages: "4-10", time: "20 min", difficulty: "easy",
-    supplies: ["Balloons", "A wool jumper or hair", "Small pieces of tissue paper", "An empty aluminium can", "A running tap"],
+    supplies: ["Balloons","A wool jumper or hair","Small pieces of tissue paper","An empty aluminium can","A running tap"],
     description: "Use a charged balloon to bend running water, roll a can, lift paper, and make hair stand on end.",
     steps: [
       "Inflate a balloon and rub it vigorously on a wool jumper or on your hair for 30 seconds.",
@@ -3299,14 +3126,14 @@ const ACTIVITIES = [
       "Hold the charged balloon near a thin trickle of running water - the stream bends toward it.",
       "Place an empty can on its side and slowly bring the charged balloon close - the can rolls without being touched.",
       "Rub the balloon on your hair and lift it slowly - the hair rises and follows.",
-      "Discuss why: rubbing transfers electrons, creating opposite charges that attract each other."
+      "Discuss why: rubbing transfers electrons, creating opposite charges that attract each other.",
     ],
     tips: "Works best on dry days - humidity drains the charge quickly. The bending water trick is the most dramatic and surprising."
   },
   {
     id: 203, title: "Build a Periscope", category: "science", emoji: "🔭",
     ages: "7-12", time: "45 min", difficulty: "medium",
-    supplies: ["Two small milk cartons", "Two small mirrors", "Scissors", "Tape", "A ruler and pencil"],
+    supplies: ["Two small milk cartons","Two small mirrors","Scissors","Tape","A ruler and pencil"],
     description: "Build a working periscope from cardboard and mirrors to see around corners and over obstacles.",
     steps: [
       "Rinse and dry both milk cartons. Cut the tops off both.",
@@ -3316,14 +3143,14 @@ const ACTIVITIES = [
       "Tape a small mirror inside each end at a 45-degree angle, facing its opening.",
       "The mirrors must face each other so light reflects from one down to the other.",
       "Look through the bottom opening - you should see what is in front of the top opening.",
-      "Try looking over a fence, around a corner, or under a gap."
+      "Try looking over a fence, around a corner, or under a gap.",
     ],
     tips: "The 45-degree mirror angle is critical. Fold a square piece of paper diagonally in half to use as a guide for setting the angle."
   },
   {
     id: 204, title: "Yeast and Sugar Experiment", category: "science", emoji: "🫧",
     ages: "5-12", time: "30 min", difficulty: "easy",
-    supplies: ["3 small bottles", "Dry active yeast (1 tsp per bottle)", "Sugar", "Warm water", "3 balloons"],
+    supplies: ["3 small bottles","Dry active yeast (1 tsp per bottle)","Sugar","Warm water","3 balloons"],
     description: "Feed yeast different amounts of sugar and watch which balloon inflates the most as the yeast produces gas.",
     steps: [
       "Label three bottles: no sugar, 1 tsp sugar, 3 tsp sugar.",
@@ -3333,16 +3160,14 @@ const ACTIVITIES = [
       "Place all three in a warm spot.",
       "Observe over 30 minutes - which balloon inflates fastest? Biggest?",
       "The more sugar, the more the yeast feeds, the more carbon dioxide it produces.",
-      "Discuss: this is exactly what happens inside bread dough as it rises."
+      "Discuss: this is exactly what happens inside bread dough as it rises.",
     ],
     tips: "The warm water is critical - yeast is a living organism that needs warmth to activate. Cold water won't work."
   },
-
-  // ── SEASONAL (more) ─────────────────────────────────────────────────────
   {
     id: 205, title: "Christmas Gingerbread House", category: "seasonal", emoji: "🏠",
     ages: "4-12", time: "2 hrs", difficulty: "hard",
-    supplies: ["Gingerbread house kit OR pre-baked gingerbread panels", "3 egg whites + 500g icing sugar for royal icing", "Sweets, lollies, and sprinkles for decoration", "A thick cardboard base", "Piping bags"],
+    supplies: ["Gingerbread house kit OR pre-baked gingerbread panels","3 egg whites + 500g icing sugar for royal icing","Sweets, lollies, and sprinkles for decoration","A thick cardboard base","Piping bags"],
     description: "Assemble and decorate a gingerbread house together - the messier and more creative, the better.",
     steps: [
       "Make royal icing: beat egg whites until frothy, gradually add icing sugar until thick and glossy.",
@@ -3352,14 +3177,14 @@ const ACTIVITIES = [
       "Hold the roof in place and let dry for 10 minutes.",
       "Now decorate: pipe icing as snow on the roof edges, use lollies as roof tiles, candy canes as fence posts.",
       "Add a path, windows, a door, and anything else imaginable.",
-      "Step back and admire the chaos."
+      "Step back and admire the chaos.",
     ],
     tips: "Royal icing sets like cement - work quickly once applied. A heavy tin placed inside the house temporarily holds walls straight while they dry."
   },
   {
     id: 206, title: "Anzac Biscuits", category: "seasonal", emoji: "🌹",
     ages: "4-12", time: "30 min", difficulty: "easy",
-    supplies: ["1 cup rolled oats", "1 cup plain flour", "1 cup sugar", "¾ cup desiccated coconut", "125g butter", "2 tbsp golden syrup", "1 tsp bicarbonate of soda", "2 tbsp boiling water"],
+    supplies: ["1 cup rolled oats","1 cup plain flour","1 cup sugar","¾ cup desiccated coconut","125g butter","2 tbsp golden syrup","1 tsp bicarbonate of soda","2 tbsp boiling water"],
     description: "Bake the classic Anzac biscuit - simple, crispy, and meaningful.",
     steps: [
       "Preheat oven to 160°C / 325°F. Line two baking trays.",
@@ -3369,14 +3194,14 @@ const ACTIVITIES = [
       "Pour the butter mixture into the dry ingredients and stir to combine.",
       "Roll tablespoon-sized portions into balls and place on trays, pressing slightly to flatten.",
       "Bake for 12-15 minutes until golden - they crisp up as they cool.",
-      "Cool on the tray for 5 minutes before moving to a rack."
+      "Cool on the tray for 5 minutes before moving to a rack.",
     ],
     tips: "Less baking time gives a chewier result. More time gives a crunchier biscuit. These keep well in a tin for up to two weeks."
   },
   {
     id: 207, title: "Mother's Day Breakfast Tray", category: "seasonal", emoji: "🌷",
     ages: "4-12", time: "30 min", difficulty: "easy",
-    supplies: ["Eggs", "Bread for toast", "Orange juice", "A flower from the garden in a small glass", "A serving tray", "A handmade card"],
+    supplies: ["Eggs","Bread for toast","Orange juice","A flower from the garden in a small glass","A serving tray","A handmade card"],
     description: "Prepare a simple breakfast tray with scrambled eggs, toast, juice, a flower, and a card - a classic for a reason.",
     steps: [
       "Make the card the evening before - write why Mum is special inside.",
@@ -3387,14 +3212,14 @@ const ACTIVITIES = [
       "Remove from heat while still slightly soft - residual heat finishes them.",
       "Toast bread and butter it. Pour juice into a glass.",
       "Arrange everything on the tray with the card and flower.",
-      "Deliver quietly and proudly."
+      "Deliver quietly and proudly.",
     ],
     tips: "Scrambled eggs should be soft and creamy - the most common mistake is cooking them over too-high heat. Low and slow is the secret."
   },
   {
     id: 208, title: "New Year Countdown Bags", category: "seasonal", emoji: "🎆",
     ages: "3-10", time: "1 hr to prepare", difficulty: "easy",
-    supplies: ["12 small bags or envelopes numbered 1-12", "Small activities and treats to put inside each", "Decorating supplies: markers, stickers, glitter"],
+    supplies: ["12 small bags or envelopes numbered 1-12","Small activities and treats to put inside each","Decorating supplies: markers, stickers, glitter"],
     description: "Fill 12 bags with small surprises to open every 30 minutes from 8pm to midnight on New Year's Eve.",
     steps: [
       "Decorate 12 small bags and number them 1 through 12.",
@@ -3403,16 +3228,14 @@ const ACTIVITIES = [
       "On New Year's Eve, open one bag every 30 minutes starting at 8pm.",
       "The midnight bag should have party poppers, sparklers, or noisemakers.",
       "Count down to midnight together.",
-      "Keep the tradition going each year with new surprises."
+      "Keep the tradition going each year with new surprises.",
     ],
     tips: "Include activities that get everyone involved: 'play one round of Go Fish', 'everyone write a goal for next year', 'make the silliest face you can.' Makes the countdown fly by."
   },
-
-  // ── COOKING (new batch) ─────────────────────────────────────────────────
   {
     id: 209, title: "Banana Muffins", category: "cooking", emoji: "🧁",
     ages: "4–12", time: "35 min", difficulty: "easy",
-    supplies: ["1½ cups (188g) all-purpose flour", "1 tsp baking powder", "1 tsp baking soda", "½ tsp salt", "1 tsp cinnamon", "¼ tsp nutmeg", "1½ cups mashed ripe banana (about 3–4 bananas)", "6 tbsp melted unsalted butter", "⅔ cup packed brown sugar", "1 large egg", "1 tsp vanilla extract", "2 tbsp milk", "12-cup muffin pan", "Muffin liners"],
+    supplies: ["1½ cups (188g) all-purpose flour","1 tsp baking powder","1 tsp baking soda","½ tsp salt","1 tsp cinnamon","¼ tsp nutmeg","1½ cups mashed ripe banana (about 3–4 bananas)","6 tbsp melted unsalted butter","⅔ cup packed brown sugar","1 large egg","1 tsp vanilla extract","2 tbsp milk","12-cup muffin pan","Muffin liners"],
     description: "Classic bakery-style banana muffins with a domed top. The trick is starting at high heat, then dropping to finish them through - it forces the tops to spring up before the inside sets. A real baking-science lesson for kids.",
     steps: [
       "Preheat oven to 425°F (220°C). Line a 12-cup muffin tin with paper liners.",
@@ -3422,14 +3245,14 @@ const ACTIVITIES = [
       "Pour the dry ingredients into the wet and stir until just combined - a few lumps are fine. Do not overmix.",
       "Fill each liner to the top. Bake at 425°F for exactly 5 minutes.",
       "Without opening the door, reduce heat to 350°F (175°C) and bake for a further 16–18 minutes until a toothpick comes out clean.",
-      "Cool in the pan for 5 minutes, then transfer to a rack."
+      "Cool in the pan for 5 minutes, then transfer to a rack.",
     ],
     tips: "Riper bananas = sweeter muffins. Black-spotted bananas give the best flavour. The high-then-low temperature technique creates a tall domed top - explain this to kids as the oven's 'jump-start'."
   },
   {
     id: 210, title: "Homemade Butter in a Jar", category: "cooking", emoji: "🧈",
     ages: "4–12", time: "20 min", difficulty: "easy",
-    supplies: ["½ cup heavy whipping cream (room temperature)", "Pinch of salt (optional)", "Clean glass jar with tight-fitting lid", "2 marbles (optional, to speed things up)", "Crackers or bread to taste"],
+    supplies: ["½ cup heavy whipping cream (room temperature)","Pinch of salt (optional)","Clean glass jar with tight-fitting lid","2 marbles (optional, to speed things up)","Crackers or bread to taste"],
     description: "Shake a jar of cream for 15 minutes and watch it transform into real butter - with a science lesson about fat, emulsions, and physical change included. Room-temperature cream works much faster than cold cream.",
     steps: [
       "Let the cream sit on the counter for 20–30 minutes to reach room temperature - cold cream takes far longer.",
@@ -3439,14 +3262,14 @@ const ACTIVITIES = [
       "Keep shaking. After 10–15 minutes the fat will suddenly clump and separate from white liquid (buttermilk).",
       "Pour off the buttermilk (save it for pancakes).",
       "Add salt if desired and rinse the butter with cold water, kneading it until the water runs clear.",
-      "Spread onto crackers and eat immediately."
+      "Spread onto crackers and eat immediately.",
     ],
     tips: "The science: heavy cream is an emulsion of fat droplets in water. Shaking breaks the membrane around fat molecules, forcing them to clump together into solid butter. The remaining liquid is real buttermilk. Room temperature makes the fat soft enough to stick together."
   },
   {
     id: 211, title: "Flour Tortillas from Scratch", category: "cooking", emoji: "🫓",
     ages: "5–12", time: "40 min", difficulty: "easy",
-    supplies: ["3 cups all-purpose flour", "1½ tsp fine salt", "1 tsp baking powder", "⅓ cup lard, butter, or vegetable shortening", "1 cup hot (not boiling) water", "Rolling pin", "Cast iron skillet or heavy pan"],
+    supplies: ["3 cups all-purpose flour","1½ tsp fine salt","1 tsp baking powder","⅓ cup lard, butter, or vegetable shortening","1 cup hot (not boiling) water","Rolling pin","Cast iron skillet or heavy pan"],
     description: "An authentic Mexican staple that kids can make almost entirely themselves. Kneading, resting, rolling - it's hands-on at every step. A gateway into how fats and gluten interact in dough.",
     steps: [
       "Whisk flour, salt, and baking powder together in a large bowl.",
@@ -3456,14 +3279,14 @@ const ACTIVITIES = [
       "Cover with a kitchen towel and rest for 10 minutes - this relaxes the gluten so rolling is easier.",
       "Divide dough into 12 equal balls. On a floured surface, roll each ball very thin (2–3mm).",
       "Heat a dry skillet on medium-high. Cook each tortilla for 30–60 seconds per side until dark spots appear.",
-      "Stack cooked tortillas under a towel to keep them soft and warm."
+      "Stack cooked tortillas under a towel to keep them soft and warm.",
     ],
     tips: "The rest step is critical - don't skip it or the dough will spring back when you try to roll it. Lard gives the most authentic flavour, but butter works well too."
   },
   {
     id: 212, title: "Onigiri (Japanese Rice Balls)", category: "cooking", emoji: "🍙",
     ages: "5–12", time: "30 min", difficulty: "easy",
-    supplies: ["2 cups Japanese short-grain sushi rice", "2½ cups water", "1 tsp salt (for hands)", "Nori (dried seaweed sheets), cut into strips", "Fillings: canned tuna + mayo, umeboshi plum, or plain salted salmon", "Small bowl of water"],
+    supplies: ["2 cups Japanese short-grain sushi rice","2½ cups water","1 tsp salt (for hands)","Nori (dried seaweed sheets), cut into strips","Fillings: canned tuna + mayo, umeboshi plum, or plain salted salmon","Small bowl of water"],
     description: "Japan's most popular portable snack - compact triangles of rice wrapped in nori. Onigiri are genuinely called 'craft day in the kitchen' in Japan. Kids learn about Japanese food culture while developing the satisfying skill of hand-shaping rice.",
     steps: [
       "Rinse rice in cold water until water runs clear. Cook with 2½ cups water: bring to a boil, cover, reduce to lowest heat for 15 minutes, then rest covered for 10 minutes.",
@@ -3473,14 +3296,14 @@ const ACTIVITIES = [
       "Place a small amount of filling in the hollow.",
       "Close rice over the filling and cup both hands around the rice.",
       "Apply firm, even pressure with your palms and fingers, rotating the ball to form a triangle shape.",
-      "Wrap a strip of nori around the outside. Eat immediately or wrap in cling film for later."
+      "Wrap a strip of nori around the outside. Eat immediately or wrap in cling film for later.",
     ],
     tips: "Use freshly cooked, still-warm rice - cold rice will not stick. Wet hands prevent sticking and the salt seasons the outside. Onigiri moulds (about $5 online) make perfect triangles every time and are great for younger kids."
   },
   {
     id: 213, title: "Fresh Pasta Dough", category: "cooking", emoji: "🍝",
     ages: "6–12", time: "1 hr", difficulty: "medium",
-    supplies: ["2 cups (260g) '00' flour or plain all-purpose flour", "3 large eggs (about 170g)", "1 tsp olive oil", "Pinch of salt", "Rolling pin or pasta machine", "Large pot for cooking", "Semolina or extra flour for dusting"],
+    supplies: ["2 cups (260g) '00' flour or plain all-purpose flour","3 large eggs (about 170g)","1 tsp olive oil","Pinch of salt","Rolling pin or pasta machine","Large pot for cooking","Semolina or extra flour for dusting"],
     description: "Making pasta from scratch connects kids to Italian culinary tradition and demonstrates gluten development in a way no other recipe can. The dough starts crumbly, then becomes silky smooth with kneading - a tangible lesson in food science.",
     steps: [
       "Mound the flour on a clean bench or in a large bowl. Make a well in the centre.",
@@ -3491,14 +3314,14 @@ const ACTIVITIES = [
       "Wrap in cling film and rest at room temperature for 30 minutes.",
       "Divide into 4 pieces. Roll each piece very thin (1–2mm) with a rolling pin, or use a pasta machine.",
       "Dust with semolina, then roll up loosely and slice into fettucine-width strips. Unroll and toss to separate.",
-      "Cook in a large pot of well-salted boiling water for just 2–3 minutes. Fresh pasta cooks much faster than dried."
+      "Cook in a large pot of well-salted boiling water for just 2–3 minutes. Fresh pasta cooks much faster than dried.",
     ],
     tips: "Kids often give up on the kneading - set a timer for 8 minutes and encourage them to keep going. The transformation from rough crumble to silky dough is remarkable and well worth the effort."
   },
   {
     id: 214, title: "Korean Mung Bean Pancakes (Bindaetteok)", category: "cooking", emoji: "🥞",
     ages: "7–12", time: "45 min", difficulty: "medium",
-    supplies: ["1 cup dried split mung beans (soak overnight)", "½ cup water", "1 tsp salt", "½ cup bean sprouts", "2 spring onions, sliced", "½ cup kimchi, chopped (optional)", "Vegetable oil for frying", "Blender", "Dipping sauce: 2 tbsp soy sauce + 1 tbsp rice vinegar + ½ tsp sesame oil"],
+    supplies: ["1 cup dried split mung beans (soak overnight)","½ cup water","1 tsp salt","½ cup bean sprouts","2 spring onions, sliced","½ cup kimchi, chopped (optional)","Vegetable oil for frying","Blender","Dipping sauce: 2 tbsp soy sauce + 1 tbsp rice vinegar + ½ tsp sesame oil"],
     description: "A beloved Korean street food that happens to be completely gluten-free. Soaked mung beans are blended into a thick batter. Kids learn about legumes, fermentation (if using kimchi), and Korean culinary culture while making something genuinely delicious.",
     steps: [
       "Soak dried mung beans in cold water overnight or for at least 4 hours. Drain.",
@@ -3508,29 +3331,14 @@ const ACTIVITIES = [
       "Pour batter in small rounds (about 8cm wide). Press flat with a spatula.",
       "Cook for 3–4 minutes until the bottom is golden and crispy, then flip.",
       "Cook a further 2–3 minutes until cooked through.",
-      "Mix dipping sauce ingredients and serve alongside."
+      "Mix dipping sauce ingredients and serve alongside.",
     ],
     tips: "The batter should be thick - like hummus. If it is too runny the pancakes fall apart. The longer you soak the beans, the easier they blend."
   },
   {
-    id: 215, title: "No-Bake Energy Balls", category: "cooking", emoji: "⚽",
-    ages: "4–12", time: "20 min", difficulty: "easy",
-    supplies: ["1 cup rolled oats", "½ cup peanut butter or almond butter", "⅓ cup honey", "½ cup chocolate chips", "¼ cup ground flaxseed (optional)", "1 tsp vanilla extract", "Large bowl", "Baking tray lined with baking paper"],
-    description: "Mix, roll, chill. These lunchbox-ready bites require zero cooking and teach kids about binding agents, the role of fat in texture, and the science of refrigerating to firm up fats.",
-    steps: [
-      "Combine oats, peanut butter, honey, chocolate chips, flaxseed, and vanilla in a large bowl.",
-      "Stir until everything is fully combined - the mixture should hold together when squeezed.",
-      "Refrigerate the mixture for 30 minutes - this firms up the fat and makes it easier to roll.",
-      "Roll tablespoon-sized portions between your palms into balls.",
-      "Place on lined tray. Refrigerate for a further 15 minutes until firm.",
-      "Store in an airtight container in the fridge for up to one week."
-    ],
-    tips: "If the mixture is too sticky to roll, add more oats one tablespoon at a time. If too dry and crumbly, add a little more honey."
-  },
-  {
     id: 216, title: "Yeast Bread Rolls", category: "cooking", emoji: "🍞",
     ages: "6–12", time: "2 hrs (inc. rise time)", difficulty: "medium",
-    supplies: ["3 cups (375g) bread flour or all-purpose flour", "2¼ tsp (7g / 1 sachet) instant yeast", "1 tsp salt", "2 tsp sugar", "1 cup warm water (40°C / 105°F)", "2 tbsp olive oil or melted butter"],
+    supplies: ["3 cups (375g) bread flour or all-purpose flour","2¼ tsp (7g / 1 sachet) instant yeast","1 tsp salt","2 tsp sugar","1 cup warm water (40°C / 105°F)","2 tbsp olive oil or melted butter"],
     description: "Nothing demonstrates biology more vividly than watching yeast eat sugar and exhale CO2, making dough double in size. Kids learn about fermentation, gluten, and the Maillard reaction when the rolls brown in the oven.",
     steps: [
       "Combine warm water, sugar, and yeast. Stir gently and wait 5–10 minutes - it should become frothy. If it doesn't, the yeast is dead and you need fresh yeast.",
@@ -3540,14 +3348,14 @@ const ACTIVITIES = [
       "Punch the dough down (kids love this). Divide into 8 equal balls.",
       "Place on a lined baking tray, slightly apart. Cover and rest 20 minutes.",
       "Preheat oven to 200°C (400°F). Bake rolls for 18–20 minutes until golden brown.",
-      "Tap the bottom - a hollow sound means they are cooked."
+      "Tap the bottom - a hollow sound means they are cooked.",
     ],
     tips: "Water temperature matters: too hot (above 50°C) kills yeast, too cold and it won't activate. Ideal is warm bath temperature. This is a great experiment - try the same recipe with dead yeast to see what doesn't happen."
   },
   {
     id: 217, title: "Homemade Lemonade with Simple Syrup", category: "cooking", emoji: "🍋",
     ages: "4–12", time: "20 min", difficulty: "easy",
-    supplies: ["1 cup fresh lemon juice (about 6 lemons)", "1 cup white sugar", "1 cup water (for syrup)", "4 cups cold water", "Pitcher", "Citrus juicer", "Measuring cups"],
+    supplies: ["1 cup fresh lemon juice (about 6 lemons)","1 cup white sugar","1 cup water (for syrup)","4 cups cold water","Pitcher","Citrus juicer","Measuring cups"],
     description: "A classic that teaches kids about dissolving solids, acidity, and taste balance. Making the simple syrup first is the key technique - sugar dissolves far better in hot water than cold, which is real chemistry they can observe.",
     steps: [
       "Make simple syrup: combine sugar and 1 cup water in a small saucepan over medium heat, stirring until sugar fully dissolves (about 3 minutes). Cool completely.",
@@ -3555,14 +3363,14 @@ const ACTIVITIES = [
       "Halve and juice lemons, straining out seeds.",
       "Combine cooled simple syrup, lemon juice, and 4 cups cold water in a pitcher. Stir well.",
       "Taste and adjust: add more syrup if too tart, more lemon if too sweet.",
-      "Serve over ice. Garnish with lemon slices."
+      "Serve over ice. Garnish with lemon slices.",
     ],
     tips: "Challenge kids to taste the lemonade before adding the syrup and describe it - then after. Ask why dissolving sugar in hot water works better. Simple syrup stores in the fridge for 2 weeks, so you can make a batch on Sunday and use it all week."
   },
   {
     id: 218, title: "Rock Candy Sugar Crystals", category: "cooking", emoji: "🍭",
     ages: "6–12", time: "10 min + 7–10 days", difficulty: "easy",
-    supplies: ["4 cups granulated sugar", "1 cup water", "Cotton string or wooden skewer", "Glass jar (tall and narrow)", "Food colouring (optional)", "Saucepan", "Clothespeg to hold string"],
+    supplies: ["4 cups granulated sugar","1 cup water","Cotton string or wooden skewer","Glass jar (tall and narrow)","Food colouring (optional)","Saucepan","Clothespeg to hold string"],
     description: "Watch chemistry happen over a week as sugar crystals build up on a string. This teaches supersaturation, crystallization, and the concept that hotter liquids dissolve more solute. The end result is edible rock candy.",
     steps: [
       "Day 1 - seed the string: dip the string in a little sugar syrup, roll in granulated sugar and hang to dry overnight. These seeds are where crystals will start forming.",
@@ -3571,14 +3379,14 @@ const ACTIVITIES = [
       "Suspend the seeded string in the jar, hanging from a clothespeg across the rim. The string should not touch the jar sides or bottom.",
       "Place in a cool, undisturbed spot.",
       "Check daily but do not stir or move the jar.",
-      "After 7–10 days, pull out the crystals and let them dry on baking paper for one hour before eating."
+      "After 7–10 days, pull out the crystals and let them dry on baking paper for one hour before eating.",
     ],
     tips: "The science: hot water holds more dissolved sugar than cold. When the solution cools, there is more sugar than the water can hold in solution, so excess sugar deposits onto the string as solid crystals. Larger jars and more surface area on the string = bigger crystals."
   },
   {
     id: 219, title: "Soft Pretzels", category: "cooking", emoji: "🥨",
     ages: "6–12", time: "1 hr 15 min", difficulty: "medium",
-    supplies: ["2¼ tsp instant yeast", "1 cup warm water", "1 tbsp brown sugar", "1 tsp salt", "2¾ cups all-purpose flour", "2 tbsp melted butter", "Baking soda bath: 6 cups water + ¼ cup baking soda", "Coarse salt for topping"],
+    supplies: ["2¼ tsp instant yeast","1 cup warm water","1 tbsp brown sugar","1 tsp salt","2¾ cups all-purpose flour","2 tbsp melted butter","Baking soda bath: 6 cups water + ¼ cup baking soda","Coarse salt for topping"],
     description: "The baking soda bath is the star of this recipe - it's what gives pretzels their distinctive chewy crust and deep brown colour. This Maillard reaction and alkaline chemistry lesson is disguised as a delicious snack.",
     steps: [
       "Combine warm water, sugar, and yeast. Wait 5 minutes until frothy.",
@@ -3588,16 +3396,14 @@ const ACTIVITIES = [
       "Divide dough into 8 pieces. Roll each into a long rope (about 55cm), then cross the ends over each other and press down to form a pretzel shape.",
       "Boil baking soda and water in a large pot. Using a slotted spoon, dip each pretzel for 30 seconds, then place on the tray.",
       "Sprinkle with coarse salt. Bake for 12–14 minutes until deep brown.",
-      "Brush with melted butter immediately after baking."
+      "Brush with melted butter immediately after baking.",
     ],
     tips: "The baking soda bath raises the pH of the surface, which dramatically speeds up the Maillard reaction (browning) at oven temperatures. This is the same chemistry used to make bagels and gives both their signature chewy exterior."
   },
-
-  // ── SCIENCE (new batch) ─────────────────────────────────────────────────
   {
     id: 220, title: "Red Cabbage pH Indicator", category: "science", emoji: "🔬",
     ages: "6–12", time: "45 min", difficulty: "easy",
-    supplies: ["¼ head red cabbage", "Boiling water", "Several small clear cups", "Items to test: lemon juice, bicarbonate of soda solution, vinegar, milk, washing-up liquid, cola, coffee", "Sieve or strainer", "Eye dropper or spoon"],
+    supplies: ["¼ head red cabbage","Boiling water","Several small clear cups","Items to test: lemon juice, bicarbonate of soda solution, vinegar, milk, washing-up liquid, cola, coffee","Sieve or strainer","Eye dropper or spoon"],
     description: "Red cabbage contains anthocyanin, a pigment that changes colour depending on pH. Kids can test everyday liquids and classify them as acid, neutral, or alkali without any lab equipment - the colour chart is genuinely beautiful and scientifically accurate.",
     steps: [
       "Chop the cabbage into rough chunks and place in a bowl or jug.",
@@ -3607,31 +3413,14 @@ const ACTIVITIES = [
       "Add a small amount of each test substance to a separate cup. Use the same amount each time for fair results.",
       "Record the colour change: pink/red = acid; purple = neutral (pH 7); green = alkali.",
       "Ask kids to predict before they add each substance.",
-      "Optional: add baking soda to an acidic red solution and watch it turn purple then green."
+      "Optional: add baking soda to an acidic red solution and watch it turn purple then green.",
     ],
     tips: "The scale: pink = very acidic (lemon juice ~pH 2), purple = neutral, blue-green = mildly alkaline (baking soda), bright green/yellow = strongly alkaline (washing-up liquid). This experiment works because anthocyanin molecules physically change shape at different pH levels, absorbing different light wavelengths."
   },
   {
-    id: 221, title: "Elephant Toothpaste", category: "science", emoji: "🐘",
-    ages: "6–12", time: "15 min", difficulty: "easy",
-    supplies: ["½ cup 3% hydrogen peroxide (from pharmacy)", "1 tbsp active dry yeast", "3 tbsp warm water", "1 tbsp dish soap", "Food colouring (optional)", "Tall narrow bottle (500ml plastic bottle works well)", "Baking tray to catch foam", "Safety glasses"],
-    description: "An explosive exothermic reaction that produces a foam tower several times taller than the bottle. Yeast contains catalase, which rapidly decomposes hydrogen peroxide into water and oxygen gas. The dish soap traps the oxygen as bubbles.",
-    steps: [
-      "Place the bottle on a baking tray outside or on a covered surface.",
-      "Add food colouring to the hydrogen peroxide in the bottle.",
-      "Add dish soap and gently swirl - do not create bubbles.",
-      "In a separate cup, mix yeast with warm water and stir for 30 seconds until dissolved.",
-      "Put on safety glasses.",
-      "Pour the yeast mixture into the bottle and immediately step back.",
-      "Watch foam erupt rapidly out of the bottle.",
-      "Note: the foam will be warm - this is an exothermic reaction. The heat proves energy is being released."
-    ],
-    tips: "The foam is safe to touch - it is just soap, water, and oxygen. Higher-concentration hydrogen peroxide (6% hairdressing developer) creates a more dramatic reaction but generates more heat. Stick to 3% for young children. The warmth of the foam is key evidence of the exothermic reaction - have kids feel it after it has stopped expanding."
-  },
-  {
     id: 222, title: "Chromatography - What's in Black Ink?", category: "science", emoji: "🖊️",
     ages: "6–12", time: "30 min", difficulty: "easy",
-    supplies: ["Water-based black felt-tip pens (various brands)", "Coffee filter paper or paper towels", "Tall glasses or jars", "Water", "Tape and pencil to label"],
+    supplies: ["Water-based black felt-tip pens (various brands)","Coffee filter paper or paper towels","Tall glasses or jars","Water","Tape and pencil to label"],
     description: "Black ink looks like one colour but is actually a mixture of several dyes. Chromatography separates them as they travel up wet paper at different speeds, revealing hidden colour bands. Each pen brand reveals a completely different mixture.",
     steps: [
       "Cut coffee filter paper into strips about 3cm wide and tall enough to reach the bottom of the glass with the top folded over the rim.",
@@ -3640,14 +3429,14 @@ const ACTIVITIES = [
       "Tape the top of the strip to a pencil laid across the glass rim so the strip hangs down with its bottom in the water.",
       "Watch as water slowly rises up the paper. After 15–20 minutes, distinct colour bands will appear.",
       "Compare strips from different pen brands - some will show blue/pink/yellow, others green/orange.",
-      "Let strips dry, then stick them in a notebook and label each pen brand."
+      "Let strips dry, then stick them in a notebook and label each pen brand.",
     ],
     tips: "This works because different dye molecules have different sizes and attractions to water (polarity). Smaller or more water-loving molecules travel further up the paper. This is the exact same technique chemists use to identify unknown substances in labs."
   },
   {
     id: 223, title: "Growing Sugar Crystals (Rock Candy)", category: "science", emoji: "🍬",
     ages: "6–12", time: "15 min + 7–10 days", difficulty: "easy",
-    supplies: ["3 cups granulated sugar", "1 cup water", "Saucepan", "Glass jar", "Cotton string or wooden skewer", "Food colouring", "Clothes peg"],
+    supplies: ["3 cups granulated sugar","1 cup water","Saucepan","Glass jar","Cotton string or wooden skewer","Food colouring","Clothes peg"],
     description: "A week-long experiment that produces edible crystals. Children observe supersaturation and crystallisation in real time - checking the jar each day reveals measurable crystal growth and teaches patience as part of the scientific process.",
     steps: [
       "Prepare the seed string by wetting it in sugar solution, rolling it in dry sugar, and leaving it to dry overnight on baking paper.",
@@ -3656,14 +3445,14 @@ const ACTIVITIES = [
       "Pour into the jar. Suspend the string so it hangs in the middle and doesn't touch the jar sides.",
       "Cover loosely with a paper towel (not a lid - the solution needs to slowly evaporate).",
       "Leave in a cool, undisturbed location. Check daily and photograph the growth.",
-      "After 7–10 days, remove and allow to dry for 1 hour on baking paper."
+      "After 7–10 days, remove and allow to dry for 1 hour on baking paper.",
     ],
     tips: "Crystallisation works because as the water slowly evaporates from the solution, the remaining water can no longer hold all the dissolved sugar in solution. Excess sugar deposits onto the seed crystals in an orderly molecular pattern. The seed crystals on the string are essential - they provide a starting template for the crystal structure."
   },
   {
     id: 224, title: "Homopolar Motor", category: "science", emoji: "⚡",
     ages: "8–12", time: "20 min", difficulty: "medium",
-    supplies: ["AA battery", "Small strong neodymium disc magnet", "Length of copper wire (about 30cm)", "Wire strippers or scissors"],
+    supplies: ["AA battery","Small strong neodymium disc magnet","Length of copper wire (about 30cm)","Wire strippers or scissors"],
     description: "One of the simplest electric motors ever made, invented by Michael Faraday in 1821. A bare copper wire, a battery, and a magnet are all you need to demonstrate the Lorentz force - the same principle inside every electric motor and generator on Earth.",
     steps: [
       "Stack one or two neodymium disc magnets on the negative (flat) end of the AA battery.",
@@ -3671,14 +3460,14 @@ const ACTIVITIES = [
       "Bend the copper wire into a rough heart or 'V' shape - the midpoint will rest on the positive (nub) end of the battery, and the two dangling ends will touch the outer edge of the magnet.",
       "Hold the battery upright (positive end up) and balance the bent wire so the top loop rests on the positive terminal and both wire ends touch the magnet on the sides.",
       "The wire should immediately begin spinning. If it doesn't, adjust the wire shape slightly.",
-      "Try different wire shapes - spirals, zigzags - and see which spin fastest."
+      "Try different wire shapes - spirals, zigzags - and see which spin fastest.",
     ],
     tips: "The science: current flows from the positive terminal through the wire to the magnet (negative terminal). The magnet's field interacts with the current in the wire to create the Lorentz force, which pushes the wire sideways - creating rotation. This is the fundamental principle of every electric motor."
   },
   {
     id: 225, title: "Lolly Stick Cobra Wave", category: "science", emoji: "🐍",
     ages: "7–12", time: "45 min", difficulty: "medium",
-    supplies: ["100+ lolly (popsicle) sticks", "Flat surface", "Patience"],
+    supplies: ["100+ lolly (popsicle) sticks","Flat surface","Patience"],
     description: "Weave craft sticks into an interlocking chain pattern that stores elastic potential energy. When you release one end, a wave of sticks explodes outward at speed. The longer the chain, the bigger and more dramatic the release. Brilliant for teaching stored energy and chain reactions.",
     steps: [
       "Start with three sticks in a Z pattern: lay stick A horizontal, lay stick B crossing over it diagonally, and lay stick C under A and over B to lock the tension.",
@@ -3686,14 +3475,14 @@ const ACTIVITIES = [
       "Work slowly - the chain wants to release as you build it. Keep a finger holding the last section.",
       "Once you have a chain of 20+ sticks, try releasing one end by lifting the edge slightly.",
       "Watch the wave of exploding sticks travel down the chain.",
-      "Challenge: how long can you make the chain before releasing it?"
+      "Challenge: how long can you make the chain before releasing it?",
     ],
     tips: "Search 'popsicle stick cobra wave' to see a video of the pattern before starting - visual reference is very helpful for the weaving technique. The science is real: each stick is bent under tension, storing elastic potential energy. The whole chain converts that stored energy to kinetic energy in sequence when released."
   },
   {
     id: 226, title: "Invisible Ink Secret Messages", category: "science", emoji: "🕵️",
     ages: "5–12", time: "20 min", difficulty: "easy",
-    supplies: ["Lemon juice (fresh or bottled)", "Small bowl", "Cotton bud or fine paintbrush", "White paper", "Lamp or hair dryer for revealing"],
+    supplies: ["Lemon juice (fresh or bottled)","Small bowl","Cotton bud or fine paintbrush","White paper","Lamp or hair dryer for revealing"],
     description: "Write messages that are invisible when dry but appear as brown writing when heat is applied. This works because lemon juice is a mild acid that lowers the ignition temperature of paper - so when heated, the writing chars before the blank paper does.",
     steps: [
       "Pour lemon juice into a small bowl.",
@@ -3701,14 +3490,14 @@ const ACTIVITIES = [
       "Wait for it to dry completely - the writing will be invisible.",
       "To reveal: hold the paper close to a lamp bulb (not LED - they don't generate heat), or use a hair dryer on high heat, or ask an adult to hold it briefly over a candle flame.",
       "The message appears in light brown writing.",
-      "Challenge: can you write a message small enough to fit inside a dot?"
+      "Challenge: can you write a message small enough to fit inside a dot?",
     ],
     tips: "Milk and diluted bicarbonate of soda solution also work as invisible ink. With bicarbonate, reveal by painting iodine solution over the paper - the message turns dark purple because iodine reacts with the starch breakdown products. Each method works by a different chemistry pathway."
   },
   {
     id: 227, title: "Non-Newtonian Fluid (Oobleck)", category: "science", emoji: "🌊",
     ages: "3–12", time: "10 min", difficulty: "easy",
-    supplies: ["2 cups cornstarch (cornflour)", "1 cup water", "Food colouring (optional)", "Large shallow tray or bowl", "Optional: speaker playing bass music"],
+    supplies: ["2 cups cornstarch (cornflour)","1 cup water","Food colouring (optional)","Large shallow tray or bowl","Optional: speaker playing bass music"],
     description: "Named after the Dr Seuss book, oobleck is a shear-thickening non-Newtonian fluid - it acts as a solid when force is applied quickly and a liquid when handled slowly. Punching it feels like hitting concrete; letting your hand sink in slowly goes straight through.",
     steps: [
       "Add food colouring to the water if desired.",
@@ -3717,14 +3506,14 @@ const ACTIVITIES = [
       "When it can be squeezed into a ball (which immediately slumps back to liquid), it's ready.",
       "Explore: punch it quickly (it feels solid), then let your hand sink in slowly (goes through like liquid).",
       "Try: rolling it in your hands - it feels solid. Stop rolling - it pours out of your hands.",
-      "Optional: place the tray on a speaker playing low bass frequencies and watch it 'dance' and form standing wave patterns."
+      "Optional: place the tray on a speaker playing low bass frequencies and watch it 'dance' and form standing wave patterns.",
     ],
     tips: "The science: cornstarch particles in suspension have rough surfaces. Fast force packs them together, trapping water and making them act as a solid. Slow force allows particles to slide past each other, behaving as a liquid. The name comes from the 1949 Dr Seuss book 'Bartholomew and the Oobleck.' Easy cleanup: let it dry fully, then it sweeps up easily."
   },
   {
     id: 228, title: "Bouncy Egg (Naked Egg)", category: "science", emoji: "🥚",
     ages: "5–12", time: "10 min + 24–48 hrs", difficulty: "easy",
-    supplies: ["Raw egg", "White vinegar (enough to cover the egg)", "Glass jar", "Optional: corn syrup for osmosis extension"],
+    supplies: ["Raw egg","White vinegar (enough to cover the egg)","Glass jar","Optional: corn syrup for osmosis extension"],
     description: "Vinegar is acetic acid, and eggshell is calcium carbonate. Submerge an egg in vinegar for 24–48 hours and the shell completely dissolves, leaving only the rubbery membrane. The result bounces from a low height (but will eventually break).",
     steps: [
       "Gently place the raw egg in a glass jar.",
@@ -3733,14 +3522,14 @@ const ACTIVITIES = [
       "Leave for 24 hours. Check - if the shell is not fully dissolved, replace the vinegar and wait another 24 hours.",
       "Carefully remove the egg and rinse gently under cold water. The shell is gone.",
       "Try dropping it from a very low height (5cm). It bounces!",
-      "Extension: place the naked egg in corn syrup for 24 hours - osmosis will shrink it. Then place in water - osmosis will expand it back."
+      "Extension: place the naked egg in corn syrup for 24 hours - osmosis will shrink it. Then place in water - osmosis will expand it back.",
     ],
     tips: "The chemical equation is: CaCO3 + 2CH3COOH → Ca(CH3COO)2 + H2O + CO2. The bubbles prove it is a chemical reaction, not just dissolving. The rubbery membrane left behind is actually stronger than you might expect - it can hold the egg's contents intact."
   },
   {
     id: 229, title: "Density Tower", category: "science", emoji: "🌈",
     ages: "6–12", time: "30 min", difficulty: "easy",
-    supplies: ["Honey", "Corn syrup", "Dish soap", "Water (coloured with food dye)", "Vegetable oil", "Rubbing alcohol (coloured differently)", "Tall clear glass or cylinder", "Measuring cups", "Small objects to drop in (grape, raisin, coin, plastic toy)"],
+    supplies: ["Honey","Corn syrup","Dish soap","Water (coloured with food dye)","Vegetable oil","Rubbing alcohol (coloured differently)","Tall clear glass or cylinder","Measuring cups","Small objects to drop in (grape, raisin, coin, plastic toy)"],
     description: "Layer six liquids in a glass using only their densities - no stirring required. Denser liquids sink below less dense ones. Then drop small objects in and watch them settle at the layer matching their own density.",
     steps: [
       "Prepare equal amounts of each liquid (about 60ml each). Colour water and alcohol differently with food dye.",
@@ -3749,14 +3538,14 @@ const ACTIVITIES = [
       "Wait for the layers to settle - you should see 6 distinct coloured bands.",
       "Drop in small objects one at a time and observe which layer they rest in.",
       "Record predictions vs results.",
-      "Note: a grape sinks below oil but floats above syrup. A raisin sinks to near the bottom."
+      "Note: a grape sinks below oil but floats above syrup. A raisin sinks to near the bottom.",
     ],
     tips: "Density order from densest (bottom) to least dense (top): honey (1.4 g/cm³), corn syrup (1.33), dish soap (1.06), water (1.0), vegetable oil (0.91), rubbing alcohol (0.79). Objects sink or float based on their own density relative to the liquid. This is why ships made of steel float - their overall density including air inside is less than water."
   },
   {
     id: 230, title: "Baking Soda Rocket (Film Canister)", category: "science", emoji: "🚀",
     ages: "6–12", time: "20 min", difficulty: "easy",
-    supplies: ["Old-style film canisters with snap-on lids (check online - the ones with lids that clip inside work best)", "Baking soda", "White vinegar", "Tissue paper", "Open outdoor space", "Safety glasses"],
+    supplies: ["Old-style film canisters with snap-on lids (check online - the ones with lids that clip inside work best)","Baking soda","White vinegar","Tissue paper","Open outdoor space","Safety glasses"],
     description: "An acid-base reaction produces carbon dioxide gas that builds pressure inside a sealed container until it launches the canister into the air. The speed of the launch depends on the ratio of baking soda to vinegar - real rocket propulsion science.",
     steps: [
       "Take this outside - canisters can launch 3+ metres high.",
@@ -3766,16 +3555,14 @@ const ACTIVITIES = [
       "Drop the tissue parcel into the canister and immediately snap the lid on tightly.",
       "Stand the canister upside down (lid on ground) and step back quickly.",
       "After a few seconds (usually 5–10), it launches.",
-      "Experiment: vary the amounts of baking soda and vinegar and record which combination launches highest."
+      "Experiment: vary the amounts of baking soda and vinegar and record which combination launches highest.",
     ],
     tips: "If the lid doesn't pop off, the canister may have too much liquid - try less vinegar. The tissue parcel buys extra time by slowing down the initial acid-base contact. The gas produced is carbon dioxide (CO2) - the same gas in fizzy drinks."
   },
-
-  // ── OUTDOOR ─────────────────────────────────────────────────────────────
   {
     id: 231, title: "Nature Scavenger Hunt", category: "outdoor", emoji: "🍃",
     ages: "3–12", time: "1 hr", difficulty: "easy",
-    supplies: ["Printed or written scavenger hunt list", "Small bags or baskets for collecting", "Magnifying glass", "Pencil for ticking off items"],
+    supplies: ["Printed or written scavenger hunt list","Small bags or baskets for collecting","Magnifying glass","Pencil for ticking off items"],
     description: "A structured but open-ended exploration of the outdoors. The list can be tailored to age - younger kids get colour-based items ('find something red'), older kids get specific challenges ('find evidence of an insect'). The hunt builds observation, classification, and patience.",
     steps: [
       "Create a list of 15–20 items suited to your location and season: a smooth rock, something fluffy, a yellow leaf, animal tracks, a feather, something smaller than your fingernail, bark with an interesting texture, a seed, a spider web.",
@@ -3783,14 +3570,14 @@ const ACTIVITIES = [
       "Set a time limit and boundaries.",
       "For younger kids: give a 'colour wheel' and ask them to find something matching each colour.",
       "For older kids: add challenges like 'something alive', 'evidence of weather', 'something that has been eaten by an animal.'",
-      "Reconvene and share finds. Try to identify what you've found using an identification guide or app."
+      "Reconvene and share finds. Try to identify what you've found using an identification guide or app.",
     ],
     tips: "The iNaturalist app lets kids photograph finds and get an AI-assisted species identification - this dramatically increases engagement in older kids. Remind children to only collect things already fallen or detached - not to pick living plants or disturb creatures."
   },
   {
     id: 232, title: "Bark and Leaf Rubbings", category: "outdoor", emoji: "🌳",
     ages: "3–10", time: "45 min", difficulty: "easy",
-    supplies: ["Plain white paper", "Wax crayons with wrappers removed", "Clipboard or firm backing board", "Nature journal or scrapbook"],
+    supplies: ["Plain white paper","Wax crayons with wrappers removed","Clipboard or firm backing board","Nature journal or scrapbook"],
     description: "Pressing paper against bark or leaves and rubbing with the side of a crayon lifts the texture off the surface in beautiful detail. It's a tactile record of the natural world that's also secretly teaching observation and fine motor control.",
     steps: [
       "Find a tree with interesting bark - rough, ridged, or peeling bark gives the best results.",
@@ -3799,14 +3586,14 @@ const ACTIVITIES = [
       "Collect rubbings from 5–10 different trees.",
       "For leaves: place a leaf flat on a table, vein-side up. Lay paper over it and rub as before.",
       "Write the date and location on each rubbing.",
-      "Back home, try to identify the trees using the bark and leaf patterns."
+      "Back home, try to identify the trees using the bark and leaf patterns.",
     ],
     tips: "Use the broad side of the crayon, not the tip, and apply firm even pressure. Trees with deeply ridged bark (oak, pine, elm) give the most dramatic results. Smooth-barked trees (birch, beech) give subtle, delicate patterns. Creating a full-year bark journal tracking the same tree across seasons is a lovely long-term project."
   },
   {
     id: 233, title: "Minibeast Hunt", category: "outdoor", emoji: "🐛",
     ages: "3–10", time: "1 hr", difficulty: "easy",
-    supplies: ["Plastic tubs or bug viewers", "Magnifying glass", "Paintbrush (for gently moving small creatures)", "Identification guide or printed ID chart", "Notebook"],
+    supplies: ["Plastic tubs or bug viewers","Magnifying glass","Paintbrush (for gently moving small creatures)","Identification guide or printed ID chart","Notebook"],
     description: "Systematic searching of specific microhabitats - under rocks, in leaf litter, on bark, in long grass - reveals a world most kids walk straight past. Learning to identify common invertebrates connects children to biodiversity and ecosystem roles.",
     steps: [
       "Check under flat rocks, logs, and leaf litter first - these are prime spots.",
@@ -3816,14 +3603,14 @@ const ACTIVITIES = [
       "Identify what you find: woodlice, centipedes, beetles, worms, slugs, earwigs.",
       "Count how many of each type you found - this is a real wildlife survey.",
       "Return everything gently to where you found it.",
-      "Draw and label your finds in a nature journal."
+      "Draw and label your finds in a nature journal.",
     ],
     tips: "Wet, rainy weather the night before dramatically increases finds - worms surface and beetles become active. Always replace rocks and logs exactly as you found them - they are a whole ecosystem for the creatures living under them."
   },
   {
     id: 234, title: "Mud Kitchen Play", category: "outdoor", emoji: "🌱",
     ages: "2–8", time: "1–2 hrs", difficulty: "easy",
-    supplies: ["Patch of bare earth or sand", "Water source (hose or watering can)", "Old pots, pans, spoons, and cups", "Optional: seeds, petals, leaves, pebbles for 'ingredients'"],
+    supplies: ["Patch of bare earth or sand","Water source (hose or watering can)","Old pots, pans, spoons, and cups","Optional: seeds, petals, leaves, pebbles for 'ingredients'"],
     description: "Digging, pouring, mixing, and stirring mud is one of the most developmentally rich activities for young children. It builds fine and gross motor skills, sensory tolerance, creative play, and early scientific thinking - all while being completely free.",
     steps: [
       "Set up a 'kitchen' with old pots and utensils on an outdoor table or low surface.",
@@ -3832,28 +3619,28 @@ const ACTIVITIES = [
       "Add 'ingredients': petals for colour, pebbles for texture, leaves, seeds, sand.",
       "Talk about what happens when you add more water (runnier) vs. more soil (stiffer).",
       "Encourage decorating finished creations with sticks and natural materials.",
-      "Clean-up is part of the activity: hose down the area together."
+      "Clean-up is part of the activity: hose down the area together.",
     ],
     tips: "Research shows mud play may expose children to beneficial soil bacteria (Mycobacterium vaccae) linked to improved mood and immune development. It also contains naturally occurring microbes that build immune resilience. Old clothes or a full waterproof suit removes any worry about mess."
   },
   {
     id: 235, title: "Pinecone Bird Feeders", category: "outdoor", emoji: "🐦",
     ages: "3–10", time: "30 min", difficulty: "easy",
-    supplies: ["Large pinecones", "Peanut butter (or sunflower seed butter for nut-free)", "Birdseed mix", "String or twine", "Tray or plate for rolling"],
+    supplies: ["Large pinecones","Peanut butter (or sunflower seed butter for nut-free)","Birdseed mix","String or twine","Tray or plate for rolling"],
     description: "Make something that gives back to wildlife. Kids learn about bird nutrition, local species, and the practical side of conservation. The feeders can be monitored over days and weeks to track which bird species visit.",
     steps: [
       "Tie a length of string around the top of the pinecone (between the scales), leaving enough to hang it.",
       "Spread peanut butter generously between the scales of the pinecone using a knife or butter spreader.",
       "Roll the peanut-butter-coated cone in a tray of birdseed until it is thickly coated.",
       "Hang from a tree branch or fence post, away from cat-accessible surfaces.",
-      "Keep a tally of bird species that visit."
+      "Keep a tally of bird species that visit.",
     ],
     tips: "Place feeders at least 1.5 metres off the ground and away from fences to protect birds from cats. Keep a bird identification guide nearby. Best seeds to attract variety: sunflower hearts (most birds), nyjer/thistle seed (finches), suet (woodpeckers, nuthatches). Avoid salted peanuts or desiccated coconut as these can harm birds."
   },
   {
     id: 236, title: "Measuring Shadow Clock", category: "outdoor", emoji: "☀️",
     ages: "6–12", time: "1 day (check every hour)", difficulty: "easy",
-    supplies: ["A stick about 30cm long", "Stones or chalk", "Ruler", "Notebook", "Sunny day"],
+    supplies: ["A stick about 30cm long","Stones or chalk","Ruler","Notebook","Sunny day"],
     description: "Plant a stick in the ground and mark where its shadow falls every hour throughout the day. By the end of the day, children have built a working sundial and recorded evidence of the Earth's rotation - real astronomy with zero equipment.",
     steps: [
       "Find a flat, open sunny area. Push the stick vertically into the ground.",
@@ -3862,14 +3649,14 @@ const ACTIVITIES = [
       "After several hours, observe: the shadow moves in a curved arc from west to east.",
       "The shortest shadow occurs at solar noon (slightly different from clock noon depending on your location).",
       "The angle between marks is related to Earth's 15° per hour rotation.",
-      "Come back on the same date next month and compare - the shadow length and arc will be slightly different."
+      "Come back on the same date next month and compare - the shadow length and arc will be slightly different.",
     ],
     tips: "This is a genuine astronomical instrument. The shadow's direction and length change because the Earth rotates (giving east-to-west apparent sun movement) and orbits the sun (changing the sun's altitude through the year). The shortest shadow of the year occurs at the summer solstice."
   },
   {
     id: 237, title: "Backyard Nature Journal", category: "outdoor", emoji: "📔",
     ages: "5–12", time: "30 min (ongoing)", difficulty: "easy",
-    supplies: ["Blank notebook or sketchbook", "Pencils and pens", "Watercolour pencils (optional)", "Ruler", "Date stamp or pen"],
+    supplies: ["Blank notebook or sketchbook","Pencils and pens","Watercolour pencils (optional)","Ruler","Date stamp or pen"],
     description: "A dedicated nature observation journal transforms aimless outdoor time into structured scientific inquiry. Children choose one patch of ground, plant, or tree to observe and record over weeks and months, building real longitudinal data about nature.",
     steps: [
       "Choose a specific spot to observe regularly: a tree, a garden bed, a patch of grass, a pond edge.",
@@ -3878,16 +3665,14 @@ const ACTIVITIES = [
       "Record measurements: tree trunk circumference, height of a plant, number of bird visits per hour.",
       "Note seasonal changes: when do first buds appear? When do leaves drop? What insects are present?",
       "Press and tape in leaves, feathers, or other flat finds.",
-      "After a month, compare entries - patterns and changes become visible."
+      "After a month, compare entries - patterns and changes become visible.",
     ],
     tips: "Real naturalists including Darwin and Gilbert White kept journals exactly like this - mention this to older kids. The practice of sitting still and observing for 15 minutes at a time builds attention, patience, and the core skill of scientific observation."
   },
-
-  // ── ART ──────────────────────────────────────────────────────────────────
   {
     id: 238, title: "Crayon Resist Watercolour", category: "art", emoji: "🖍️",
     ages: "4–12", time: "40 min", difficulty: "easy",
-    supplies: ["White wax crayons", "Regular coloured wax crayons", "Watercolour paper (thicker is better)", "Liquid watercolour paints or water-colour pan set", "Brushes", "Water pot"],
+    supplies: ["White wax crayons","Regular coloured wax crayons","Watercolour paper (thicker is better)","Liquid watercolour paints or water-colour pan set","Brushes","Water pot"],
     description: "Draw with crayon, then wash over with watercolour - the wax repels the water-based paint to reveal the drawing underneath. White crayon makes a particularly magical invisible drawing. Demonstrates the chemistry of hydrophobic and hydrophilic materials.",
     steps: [
       "For the classic magic version: draw a design on white paper with a WHITE crayon. The drawing is nearly invisible.",
@@ -3895,14 +3680,14 @@ const ACTIVITIES = [
       "For a more colourful version: draw a design pressing hard with coloured crayons, then paint over with dark watercolour.",
       "Try drawing a night sky scene in crayon then washing over with black or dark blue watercolour.",
       "Experiment: does the effect work better with more or less water in the paint?",
-      "Let dry completely before viewing the final result."
+      "Let dry completely before viewing the final result.",
     ],
     tips: "The science: wax is hydrophobic (water-repelling) and watercolour paint is water-based. Water molecules are more attracted to each other than to the waxy surface, so the paint beads up or slides off the crayon marks. The harder you press the crayon, the stronger the resist effect."
   },
   {
     id: 239, title: "Paper Marbling with Shaving Cream", category: "art", emoji: "🌀",
     ages: "4–12", time: "30 min", difficulty: "easy",
-    supplies: ["White shaving cream (foam, not gel)", "Food colouring or acrylic paint", "Baking tray or shallow dish", "White cardstock or heavy paper", "Skewer or toothpick for swirling", "Ruler or piece of card for scraping"],
+    supplies: ["White shaving cream (foam, not gel)","Food colouring or acrylic paint","Baking tray or shallow dish","White cardstock or heavy paper","Skewer or toothpick for swirling","Ruler or piece of card for scraping"],
     description: "Spread shaving cream, drop colours in, swirl with a skewer, press paper on top, then scrape off the foam to reveal a perfectly marbled print. No two prints are ever the same. The foam holds the pigment suspended long enough to transfer to paper.",
     steps: [
       "Spread shaving cream in an even, 2cm-deep layer across the baking tray.",
@@ -3911,14 +3696,14 @@ const ACTIVITIES = [
       "Quickly and firmly press the paper face-down onto the cream.",
       "Lift straight up (don't slide).",
       "Use a ruler to scrape the excess cream cleanly off the paper.",
-      "Let dry flat for 20 minutes. The marbled pattern is revealed under the cream."
+      "Let dry flat for 20 minutes. The marbled pattern is revealed under the cream.",
     ],
     tips: "Work quickly after swirling as the colours begin to bleed together over time. Scraping the cream cleanly in one smooth pass gives the clearest print. Once dry, the paper makes beautiful wrapping paper, book covers, or cards. The technique is based on the Turkish art of Ebru (water marbling)."
   },
   {
     id: 240, title: "Batik-Style Crayon Art", category: "art", emoji: "🎨",
     ages: "6–12", time: "45 min", difficulty: "medium",
-    supplies: ["White or light-coloured paper (medium weight)", "Wax crayons", "Dark watercolour or diluted black ink", "Brush", "Newspaper to protect surface"],
+    supplies: ["White or light-coloured paper (medium weight)","Wax crayons","Dark watercolour or diluted black ink","Brush","Newspaper to protect surface"],
     description: "This simplified version of the Indonesian textile art of batik creates gorgeous crackled prints. Colouring thickly with crayon, then crumpling the paper before painting over it, creates a network of dark crack lines through the design that looks like fired ceramic.",
     steps: [
       "Draw a bold design on the paper with wax crayons, pressing very firmly. Fill in areas with solid colour.",
@@ -3928,14 +3713,14 @@ const ACTIVITIES = [
       "Brush dark watercolour or ink generously over the entire surface.",
       "While still damp, very gently rinse or sponge off the excess paint.",
       "The dark paint settles into the wax cracks, creating the batik effect.",
-      "Let dry flat."
+      "Let dry flat.",
     ],
     tips: "The crumpling is essential - it cracks the wax layer, creating channels for the dark paint to settle into. The more thoroughly you colour with wax beforehand, the more dramatic the contrast. This mirrors the resist-dyeing technique used in real batik fabric, where wax is applied to fabric before dipping in dye."
   },
   {
     id: 241, title: "Homemade Puffy Paint", category: "art", emoji: "🌟",
     ages: "3–10", time: "30 min", difficulty: "easy",
-    supplies: ["Equal parts white school glue and shaving cream", "Food colouring", "Mixing bowls", "Heavy cardstock", "Spoon for applying"],
+    supplies: ["Equal parts white school glue and shaving cream","Food colouring","Mixing bowls","Heavy cardstock","Spoon for applying"],
     description: "Mixing glue with shaving cream creates a thick, raised paint that dries with a satisfying 3D texture. It is surprisingly durable once set. Kids learn about volume, mixing, and what happens when air-filled foam is trapped in a polymer.",
     steps: [
       "Mix equal amounts of white glue and shaving cream in small bowls - about 2 tablespoons of each per colour.",
@@ -3943,14 +3728,14 @@ const ACTIVITIES = [
       "Divide into smaller portions and add a different food colouring to each.",
       "Use a spoon or craft stick to apply to cardstock in thick blobs, swirls, or patterns.",
       "Leave to dry completely - this takes 4–6 hours or overnight.",
-      "Once dry, the paint has a raised, slightly foamy texture."
+      "Once dry, the paint has a raised, slightly foamy texture.",
     ],
     tips: "The puffy texture comes from the air bubbles in the shaving foam being trapped inside the glue polymer as it dries. Thick application gives the most 3D effect. It works best on heavy cardstock - regular paper may buckle under the moisture. Sprinkling glitter into the wet paint before it dries gives a sparkly finish."
   },
   {
     id: 242, title: "Nature Printing", category: "art", emoji: "🍂",
     ages: "3–10", time: "45 min", difficulty: "easy",
-    supplies: ["Leaves, flowers, vegetables (halved), feathers", "Washable paint", "Plain white or kraft paper", "Paint tray or palette", "Sponge brush or roller for applying paint"],
+    supplies: ["Leaves, flowers, vegetables (halved), feathers","Washable paint","Plain white or kraft paper","Paint tray or palette","Sponge brush or roller for applying paint"],
     description: "Coat natural objects with paint and press them onto paper to make prints. Celery stalks cut crossways print perfect rose shapes; halved apples reveal a natural star pattern inside. Kids learn that observation reveals unexpected forms.",
     steps: [
       "Collect a variety of flat natural objects: leaves (with interesting vein patterns), flowers, ferns, halved vegetables.",
@@ -3959,14 +3744,14 @@ const ACTIVITIES = [
       "Lift straight up without sliding.",
       "Reload with paint for each print.",
       "Try: celery bunch crosscut for roses, apple halved lengthways for star print, potato carved into a shape for stamps.",
-      "Layer prints with complementary colours for a complex composition."
+      "Layer prints with complementary colours for a complex composition.",
     ],
     tips: "Thinner, more even paint application gives sharper prints than thick globs. Delicate leaves work better with a brayer (small roller) than a brush. The celery-rose print consistently surprises children and is worth including specifically. Press flat leaves under heavy books to flatten them before printing for cleaner edges."
   },
   {
     id: 243, title: "Salt Crystal Painting", category: "art", emoji: "✨",
     ages: "4–10", time: "45 min + drying", difficulty: "easy",
-    supplies: ["White school glue", "Table salt", "Watercolour paints", "Heavy cardstock", "Brushes", "Dropper or fine brush for applying watercolour"],
+    supplies: ["White school glue","Table salt","Watercolour paints","Heavy cardstock","Brushes","Dropper or fine brush for applying watercolour"],
     description: "Draw designs with white glue, pour salt over while wet, then let dry. When you add drops of liquid watercolour to the dried salt lines, the colour spreads and blooms along the salt crystals in a process driven by capillary action. Visually spectacular.",
     steps: [
       "Use white glue to draw designs directly onto cardstock - swirls, geometric shapes, flowers, or abstract lines.",
@@ -3976,16 +3761,14 @@ const ACTIVITIES = [
       "Mix liquid watercolours or very diluted paint in small cups.",
       "Hold a loaded brush or dropper just above (not touching) a salt crystal.",
       "Let one drop fall. Watch the colour spread and travel along the salt line by capillary action.",
-      "Continue adding drops of different colours to different sections."
+      "Continue adding drops of different colours to different sections.",
     ],
     tips: "Do not touch the brush to the salt - just let drops fall and they will spread by capillary action. The salt crystals wick the colour along their interconnected structure. Leaving deliberate gaps between colours creates beautiful blending where they meet. Once dry, the finished piece has genuine crystalline sparkle."
   },
-
-  // ── SENSORY ──────────────────────────────────────────────────────────────
   {
     id: 244, title: "Homemade Playdough (No Cook)", category: "sensory", emoji: "🟡",
     ages: "2–8", time: "10 min", difficulty: "easy",
-    supplies: ["1¼ cups all-purpose flour", "⅓ cup fine salt", "2 tbsp cream of tartar", "2 tbsp cooking oil (coconut oil gives silkiest result)", "¾ cup boiling water", "Food colouring", "Airtight container for storage"],
+    supplies: ["1¼ cups all-purpose flour","⅓ cup fine salt","2 tbsp cream of tartar","2 tbsp cooking oil (coconut oil gives silkiest result)","¾ cup boiling water","Food colouring","Airtight container for storage"],
     description: "The best soft playdough you can make at home, and the recipe is entirely kitchen-safe. Salt acts as a preservative, cream of tartar acts as a stabiliser, and the hot water gelatinises the starch in the flour to create that perfect smooth, non-sticky texture.",
     steps: [
       "Mix flour, salt, and cream of tartar together in a bowl.",
@@ -3994,29 +3777,14 @@ const ACTIVITIES = [
       "Stir quickly until a rough dough forms.",
       "Once cool enough to handle, tip onto a surface and knead for 2–3 minutes until very smooth.",
       "Divide and knead in different food colours if making multiple batches.",
-      "Store in an airtight container or zip-lock bag. Lasts 4–6 weeks."
+      "Store in an airtight container or zip-lock bag. Lasts 4–6 weeks.",
     ],
     tips: "If too sticky: knead in a little more flour. If too dry: knead in a few drops of water. The cream of tartar is what makes this recipe superior to the basic salt-and-flour version - it creates a stretchy, elastic texture that holds up to heavy kneading. Kool-Aid powder can replace food colouring for scented playdough."
   },
   {
-    id: 245, title: "Cloud Dough", category: "sensory", emoji: "☁️",
-    ages: "2–8", time: "5 min", difficulty: "easy",
-    supplies: ["8 cups all-purpose flour", "1 cup baby oil or vegetable oil", "Large tray or sensory bin", "Moulds, cups, and scoops for play"],
-    description: "Cloud dough is crumbly when you let it fall through your fingers but can be packed and moulded when squeezed. It has a uniquely satisfying dry texture that contrasts with wet sensory materials. The oil-to-flour ratio is what creates the mouldable quality.",
-    steps: [
-      "Combine flour and oil in a large bin or tray.",
-      "Mix thoroughly with your hands until evenly combined - no oily patches.",
-      "The dough is ready when it crumbles loosely but holds its shape when squeezed.",
-      "Provide small cups, moulds, spoons, and scoops for open-ended play.",
-      "Try moulding it into shapes that hold for a moment before crumbling.",
-      "Add in small toys, figurines, or kinetic elements for themed play."
-    ],
-    tips: "The ratio is approximately 8:1 flour to oil. Too much oil and it becomes greasy; too little and it won't mould at all. Scented baby oil adds an olfactory dimension. For colour, knead in a small amount of powdered food colouring (liquid makes it clump). Smells wonderful and is non-toxic, but not designed for eating."
-  },
-  {
     id: 246, title: "Sensory Rice Bin", category: "sensory", emoji: "🌾",
     ages: "1–6", time: "15 min to set up", difficulty: "easy",
-    supplies: ["2–3 cups uncooked rice", "Rubbing alcohol and food colouring (for dyeing)", "Zip-lock bags", "Large shallow bin or tray", "Scoops, cups, spoons, small figurines", "Funnels and sieves"],
+    supplies: ["2–3 cups uncooked rice","Rubbing alcohol and food colouring (for dyeing)","Zip-lock bags","Large shallow bin or tray","Scoops, cups, spoons, small figurines","Funnels and sieves"],
     description: "Dyed rice in a bin is one of the most flexible sensory activities for toddlers and preschoolers - it can be re-themed endlessly with different tools and toys. The process of dyeing the rice is itself a simple science activity about colour mixing and evaporation.",
     steps: [
       "To dye the rice: place 1 cup rice in a zip-lock bag. Add 1 tsp rubbing alcohol and several drops of food colouring. Seal and shake until all rice is coated.",
@@ -4024,14 +3792,14 @@ const ACTIVITIES = [
       "Make several colours separately then mix in the bin.",
       "Fill the bin and add play tools: measuring cups, spoons, funnels, small scoops.",
       "Add small figurines, dinosaurs, or vehicles for themed play.",
-      "For themed bins: bury small objects for a 'dig' game; add number or letter tiles for learning play."
+      "For themed bins: bury small objects for a 'dig' game; add number or letter tiles for learning play.",
     ],
     tips: "Undyed white rice also works perfectly well. The dyeing step is optional but children often become very invested in creating their preferred colours. Small amounts of rice on the floor are inevitable - lay a sheet underneath the bin for easy cleanup. Dried lentils, pasta, and chickpeas can all substitute or be mixed in for added texture variety."
   },
   {
     id: 247, title: "Edible Finger Paint (for Babies and Toddlers)", category: "sensory", emoji: "👶",
     ages: "6 months–3 years", time: "10 min", difficulty: "easy",
-    supplies: ["Plain whole-milk yoghurt", "Food colouring", "Large sheet of paper or baking tray", "Baby-safe wipeable surface", "Old clothes or nappy only"],
+    supplies: ["Plain whole-milk yoghurt","Food colouring","Large sheet of paper or baking tray","Baby-safe wipeable surface","Old clothes or nappy only"],
     description: "100% taste-safe paint for babies and young toddlers who still explore with their mouths. The thick yoghurt texture moves like real paint and the food colouring is safe if ingested. Develops tactile sensory processing and early mark-making.",
     steps: [
       "Divide yoghurt into small bowls - 2 tbsp per colour is plenty.",
@@ -4040,14 +3808,14 @@ const ACTIVITIES = [
       "Spoon small amounts of each colour onto the paper.",
       "Let the baby or toddler explore completely freely - hands, feet, arms.",
       "Photograph the finished art before cleaning up.",
-      "Clean up is easy: wipe off paper, put child straight in the bath."
+      "Clean up is easy: wipe off paper, put child straight in the bath.",
     ],
     tips: "This is most enjoyed outdoors in warm weather where cleanup is effortless. The yoghurt will start to smell if left for hours, so this is a shorter activity. Cornflour paste (equal parts cornflour and water, cooked briefly to thicken, then cooled) is an alternative base with an interesting slippery-then-sticky texture."
   },
   {
     id: 248, title: "Kinetic Sand (Homemade)", category: "sensory", emoji: "🏖️",
     ages: "3–10", time: "10 min", difficulty: "easy",
-    supplies: ["2 cups fine beach or craft sand", "1 tbsp cornstarch", "½ tsp dish soap", "Water (added drop by drop)", "Shallow tray", "Moulds and tools"],
+    supplies: ["2 cups fine beach or craft sand","1 tbsp cornstarch","½ tsp dish soap","Water (added drop by drop)","Shallow tray","Moulds and tools"],
     description: "Homemade kinetic sand flows like sand but holds its shape when moulded - almost like wet sand that stays wet. The cornstarch and soap molecules coat the sand grains and reduce their friction, allowing them to slide past each other while still clumping.",
     steps: [
       "Combine sand and cornstarch in the tray and mix well.",
@@ -4056,14 +3824,14 @@ const ACTIVITIES = [
       "Test consistency: the sand should pack into a mould but still flow when poured. Stop adding water before it becomes truly wet.",
       "Press into moulds for clean shapes that hold perfectly then pop out.",
       "Slice across a moulded shape with a plastic knife for a satisfying clean cut.",
-      "Store in an airtight container - add a few drops of water and re-mix if it dries out."
+      "Store in an airtight container - add a few drops of water and re-mix if it dries out.",
     ],
     tips: "The right consistency is the key: slightly less water than you think is needed. Too wet and it just becomes wet sand; too dry and it won't mould. The dish soap is what gives it the slightly cohesive, slow-flowing quality. Fine-grained sand gives a smoother result than coarser grades."
   },
   {
     id: 249, title: "Water Bead Sensory Bin", category: "sensory", emoji: "💧",
     ages: "3–10", time: "4 hrs to hydrate beads", difficulty: "easy",
-    supplies: ["Water beads (polymer beads, available cheaply online)", "Large bin or bowl", "Water", "Small containers, spoons, and tools"],
+    supplies: ["Water beads (polymer beads, available cheaply online)","Large bin or bowl","Water","Small containers, spoons, and tools"],
     description: "Dry polymer beads expand to 200 times their original size when soaked in water, creating squishy, slippery, jewel-like spheres. The texture is unlike anything else and the process of watching them grow is itself a science lesson in osmosis and polymer absorption.",
     steps: [
       "Place a small number of dry beads in the bin (they expand dramatically - start with 2 tbsp dry).",
@@ -4072,14 +3840,14 @@ const ACTIVITIES = [
       "Once fully hydrated, drain any excess water.",
       "Explore the texture: squish, squeeze, pour between containers, sort by colour.",
       "Add small toys for scooping and searching games.",
-      "Store in water in a sealed container for up to 2 weeks."
+      "Store in water in a sealed container for up to 2 weeks.",
     ],
     tips: "Water beads are non-toxic but are a choking hazard and should never be used with children under 3 without close supervision. They look exactly like candy, which increases risk. They are not edible. If swallowed, they can expand inside the digestive tract - take any ingestion seriously. Always supervise closely. Dehydrated beads can be reused by soaking again in water."
   },
   {
     id: 250, title: "Foam Sensory Dough (Soap Foam Dough)", category: "sensory", emoji: "🫧",
     ages: "2–8", time: "5 min", difficulty: "easy",
-    supplies: ["2 cups cornstarch", "½ cup hair conditioner or hand lotion", "Optional: glitter, food colouring"],
+    supplies: ["2 cups cornstarch","½ cup hair conditioner or hand lotion","Optional: glitter, food colouring"],
     description: "Two ingredients create a soft, pillowy dough that is part foam and part clay. It doesn't stick to hands, has a pleasant smell, and is silky smooth. The conditioner coats the starch particles, reducing friction and giving the dough its distinctive non-sticky quality.",
     steps: [
       "Pour cornstarch into a large bowl.",
@@ -4087,16 +3855,14 @@ const ACTIVITIES = [
       "Knead together until it reaches a smooth dough consistency.",
       "If crumbly: add a little more conditioner. If sticky: add more cornstarch.",
       "Add glitter or colour if desired.",
-      "Play: it moulds, pinches, and rolls without sticking to hands at all."
+      "Play: it moulds, pinches, and rolls without sticking to hands at all.",
     ],
     tips: "This is sometimes called 'moon dough' and it is one of the least messy sensory doughs because it doesn't stick to anything. The smell of the conditioner adds a calming aromatic dimension. Flavoured lip gloss or scented body lotion can create themes (vanilla, strawberry, mint). Does not last long - best made fresh and played with the same day."
   },
-
-  // ── LEARNING ─────────────────────────────────────────────────────────────
   {
     id: 251, title: "Sight Word Rice Tray", category: "learning", emoji: "🔤",
     ages: "4–7", time: "15 min", difficulty: "easy",
-    supplies: ["Shallow tray or baking dish", "2 cups fine sand, rice, or salt", "Sight word cards or printed list", "Finger for writing"],
+    supplies: ["Shallow tray or baking dish","2 cups fine sand, rice, or salt","Sight word cards or printed list","Finger for writing"],
     description: "Fill a tray with sand or salt, say a word aloud, and children write it with their finger in the tray. The tactile-kinesthetic combination of seeing, hearing, and physically forming letters dramatically boosts retention compared to pencil-and-paper practice.",
     steps: [
       "Fill the tray with a thin, even layer of sand, rice, or fine salt.",
@@ -4105,14 +3871,14 @@ const ACTIVITIES = [
       "Shake the tray to erase and prepare for the next word.",
       "Start with 3-letter sight words (the, and, are) and build up.",
       "Variation: adult writes a word in the tray and child reads it before shaking it away.",
-      "Variation: write numbers or practice letter formations for younger children."
+      "Variation: write numbers or practice letter formations for younger children.",
     ],
     tips: "The combination of visual, auditory, and kinesthetic (movement/touch) learning pathways makes this far more effective for most children than standard writing practice. The impermanence of sand also removes fear of making mistakes - kids are much more willing to try. Kosher salt gives a very fine, smooth surface."
   },
   {
     id: 252, title: "Estimation Station", category: "learning", emoji: "🧮",
     ages: "4–10", time: "20 min", difficulty: "easy",
-    supplies: ["Various clear jars or containers", "Items to count: dried beans, pennies, marbles, buttons", "Paper and pencil for recording guesses"],
+    supplies: ["Various clear jars or containers","Items to count: dried beans, pennies, marbles, buttons","Paper and pencil for recording guesses"],
     description: "Estimation is a genuine mathematical skill used by scientists, engineers, and bakers every day. Fill jars with different numbers of items (10 to 500), let kids guess, then count together and discuss the gap between estimate and reality. Develops number sense.",
     steps: [
       "Fill several jars with different quantities of items: 10 buttons, 50 coins, 200 dried beans, etc.",
@@ -4121,14 +3887,14 @@ const ACTIVITIES = [
       "Record the difference between estimate and actual: who was closest?",
       "Discuss strategies: 'I counted one layer and multiplied', 'I knew this jar holds about 50 so...'",
       "Refill jars with different amounts and repeat.",
-      "Extension: use the same item in different shaped containers - how does container shape affect perception?"
+      "Extension: use the same item in different shaped containers - how does container shape affect perception?",
     ],
     tips: "The final discussion about strategies is the most valuable part. Children who develop estimation strategies rather than just guessing develop quantitative intuition that supports all maths learning. The same-item-different-container extension directly demonstrates how visual shape biases our number sense."
   },
   {
     id: 253, title: "Coding with Scratch", category: "learning", emoji: "💻",
     ages: "7–12", time: "1 hr", difficulty: "medium",
-    supplies: ["Computer or tablet with internet access", "Scratch.mit.edu account (free)"],
+    supplies: ["Computer or tablet with internet access","Scratch.mit.edu account (free)"],
     description: "MIT's Scratch platform teaches real programming logic (loops, conditionals, variables, events) through a visual block-based interface. Children make interactive games, animations, and stories. The skills transfer directly to text-based coding languages.",
     steps: [
       "Visit scratch.mit.edu and create a free account.",
@@ -4138,14 +3904,14 @@ const ACTIVITIES = [
       "Add events: 'when green flag clicked', 'when space key pressed.'",
       "Add a loop: 'repeat forever - move 3 steps - if touching edge, bounce.'",
       "Once the basics are in, encourage completely free creative building.",
-      "Share the finished project with the Scratch community."
+      "Share the finished project with the Scratch community.",
     ],
     tips: "The biggest mistake is over-structuring - once kids understand the basic movement and event blocks, giving them 20 minutes of completely free building time often produces more learning than 20 more minutes of tutorials. Scratch projects can be remixed: kids can take any public project, look at its code, and modify it."
   },
   {
     id: 254, title: "Fraction Pizza", category: "learning", emoji: "🍕",
     ages: "5–9", time: "30 min", difficulty: "easy",
-    supplies: ["Paper plates", "Scissors", "Markers or crayons", "Ruler"],
+    supplies: ["Paper plates","Scissors","Markers or crayons","Ruler"],
     description: "Making paper pizzas cut into different fraction portions is the most effective hands-on introduction to fractions. Children draw, label, and physically manipulate halves, quarters, thirds, and eighths - making abstract numbers concrete and edible.",
     steps: [
       "Give each child a paper plate. Ask them to decorate it as a pizza - tomato sauce, cheese, toppings.",
@@ -4154,14 +3920,14 @@ const ACTIVITIES = [
       "Make a third pizza. Try to fold into thirds (fold one side over to 1/3, then the other over). Cut into thirds (1/3).",
       "Lay all the fractions on the table: compare ½ vs ¼ - which is bigger? Does that make sense?",
       "Combine pieces: ¼ + ¼ = ½. Show this physically.",
-      "Challenge: how many ¼ pieces equal ½? How many ⅛ pieces equal ¼?"
+      "Challenge: how many ¼ pieces equal ½? How many ⅛ pieces equal ¼?",
     ],
     tips: "Folding into thirds is genuinely tricky and should be done by adults for younger children. The comparison step - holding ½ next to ¼ and seeing that ½ is physically bigger even though 2 > 1 in the denominator - is the specific misconception this activity corrects. Use the language 'out of' consistently: '1 out of 4 equal pieces.'"
   },
   {
     id: 255, title: "Newspaper Weather Reporter", category: "learning", emoji: "🌦️",
     ages: "5–10", time: "30 min daily", difficulty: "easy",
-    supplies: ["Simple weather instruments or observation checklist", "Notebook for recording", "Temperature thermometer (outdoor)", "Ruler for rainfall (use a straight-sided container)"],
+    supplies: ["Simple weather instruments or observation checklist","Notebook for recording","Temperature thermometer (outdoor)","Ruler for rainfall (use a straight-sided container)"],
     description: "Children become daily weather observers, recording temperature, rainfall, wind direction, and cloud cover in a personal weather journal. Over weeks, patterns emerge - this is exactly what meteorologists do and builds genuine data literacy.",
     steps: [
       "Check the weather at the same time every day.",
@@ -4170,14 +3936,14 @@ const ACTIVITIES = [
       "Draw or name the cloud types: cumulus (fluffy white), stratus (flat grey layer), cirrus (wispy high streaks).",
       "After one week: look for patterns. Cooler mornings? Rain on specific days?",
       "After one month: graph the temperatures on a simple bar chart.",
-      "Compare your readings to the official weather forecast: how accurate were they?"
+      "Compare your readings to the official weather forecast: how accurate were they?",
     ],
     tips: "Cloud identification is genuinely engaging for most children - print a cloud ID chart. The most memorable learning happens when a child correctly predicts rain based on their own observations. A simple rain gauge can be made from any straight-sided jar with a ruler."
   },
   {
     id: 256, title: "Map Your Home", category: "learning", emoji: "🗺️",
     ages: "5–10", time: "45 min", difficulty: "easy",
-    supplies: ["Graph paper or blank paper", "Ruler", "Pencil", "Measuring tape or metre stick", "Coloured pencils"],
+    supplies: ["Graph paper or blank paper","Ruler","Pencil","Measuring tape or metre stick","Coloured pencils"],
     description: "Children measure rooms, halls, and furniture and create a scale floor plan of their home. This combines measurement, scale, ratio, and spatial reasoning in a context that is personally meaningful. A completed floor plan is genuinely impressive.",
     steps: [
       "Discuss what a map is and how scale works: 1cm on paper = 1 metre in real life, for example.",
@@ -4186,14 +3952,14 @@ const ACTIVITIES = [
       "Add internal walls, doorways (shown as gaps), and windows.",
       "Add furniture: measure key pieces (sofa, beds, table) and draw them to scale.",
       "Add a compass rose (N/S/E/W marker) and a scale bar.",
-      "Colour-code rooms: kitchen in yellow, bedrooms in blue, etc."
+      "Colour-code rooms: kitchen in yellow, bedrooms in blue, etc.",
     ],
     tips: "The scale step is where learning happens - help children understand that the ratio must be consistent throughout the map. 1cm:1m or 1cm:50cm are both good scales depending on house size. Once the home is mapped, challenge them to plan a furniture rearrangement on paper before actually moving anything."
   },
   {
     id: 257, title: "Bottle Cap Counting Game", category: "learning", emoji: "🔢",
     ages: "3–6", time: "20 min", difficulty: "easy",
-    supplies: ["At least 55 clean bottle caps", "Small containers or egg carton sections", "Marker", "Sticky labels"],
+    supplies: ["At least 55 clean bottle caps","Small containers or egg carton sections","Marker","Sticky labels"],
     description: "Label containers 1 through 10 and have children count matching bottle caps into each one. This foundational maths activity builds one-to-one correspondence, subitising, and the link between numerals (written numbers) and cardinality (how many).",
     steps: [
       "Label 10 small containers or egg carton sections with numbers 1 through 10.",
@@ -4202,16 +3968,14 @@ const ACTIVITIES = [
       "Build up all 10 containers, then count the total caps used together.",
       "Advanced: remove the number labels and ask children to label the containers themselves after counting.",
       "Extension: use two containers to practise simple addition: 'put 3 in here and 4 here - how many altogether?'",
-      "Extension: practise subtraction: start with 7 caps in a container, remove 3, how many left?"
+      "Extension: practise subtraction: start with 7 caps in a container, remove 3, how many left?",
     ],
     tips: "True counting with one-to-one correspondence (touching each object while saying one number per touch) is the foundation of all number sense. Many children who can recite numbers cannot yet do this reliably. Physical objects that children can touch, move, and count are far more effective than any worksheet for this developmental stage."
   },
-
-  // ── GAMES ────────────────────────────────────────────────────────────────
   {
     id: 258, title: "Capture the Flag", category: "games", emoji: "🚩",
     ages: "6–12", time: "30–60 min", difficulty: "easy",
-    supplies: ["2 flags or bandanas in different colours", "Open outdoor space with some cover (trees, bushes)", "Something to mark the midfield boundary (chalk line or rope)"],
+    supplies: ["2 flags or bandanas in different colours","Open outdoor space with some cover (trees, bushes)","Something to mark the midfield boundary (chalk line or rope)"],
     description: "One of the best outdoor group games ever invented. It develops strategic thinking, teamwork, decision-making under pressure, and physical agility - all simultaneously. Works with 6 to 20+ players.",
     steps: [
       "Divide into two equal teams. Each team defends one half of the play area.",
@@ -4220,14 +3984,14 @@ const ACTIVITIES = [
       "If tagged in enemy territory, you go to 'jail' (a designated spot in their zone).",
       "Jailed players can be freed if a teammate crosses into enemy territory and tags them.",
       "A team wins by successfully carrying the enemy flag back to their own zone.",
-      "Set time limits if games are going too long."
+      "Set time limits if games are going too long.",
     ],
     tips: "The strategy element elevates this above simple chase games. Good teams split into attackers (crossing the line) and defenders (guarding their own flag). Younger or smaller players benefit from a rule allowing them 5 free steps before they can be tagged after crossing the line."
   },
   {
     id: 259, title: "Four Square", category: "games", emoji: "⬛",
     ages: "6–12", time: "20–45 min", difficulty: "easy",
-    supplies: ["Playground ball or rubber bouncy ball", "Chalk to draw court on pavement", "At least 4 players"],
+    supplies: ["Playground ball or rubber bouncy ball","Chalk to draw court on pavement","At least 4 players"],
     description: "A classic playground game requiring only chalk and a ball. The 12x12 foot court divided into four squares is the only equipment needed. It builds hand-eye coordination, agility, and quick decision-making. The rotating queue format means everyone plays continuously.",
     steps: [
       "Draw a 12x12 foot (about 3.5m x 3.5m) square on pavement, divided into 4 equal smaller squares. Label them 1, 2, 3, 4 (or King, Queen, Jack, Ace).",
@@ -4236,14 +4000,14 @@ const ACTIVITIES = [
       "That player must hit the ball into any other square using open palms. No catching - only hitting.",
       "When a player fails (ball lands on their line, misses, catches, or ball bounces twice in their square), they move to the back of the queue.",
       "Everyone else advances squares. Queue players step into square 4.",
-      "The goal is to reach and stay in square 1."
+      "The goal is to reach and stay in square 1.",
     ],
     tips: "Common rule variations: the King can make up one special rule per turn (everyone must use only left hand, etc.). Ball must bounce once in the target square before the player hits it. No 'cherry bombs' (spiking) unless agreed. The game requires minimal supervision and runs itself."
   },
   {
     id: 260, title: "Sardines", category: "games", emoji: "🐟",
     ages: "5–12", time: "20–40 min", difficulty: "easy",
-    supplies: ["A home or large outdoor area with hiding spots", "3+ players"],
+    supplies: ["A home or large outdoor area with hiding spots","3+ players"],
     description: "The reverse of hide and seek - one person hides and everyone else searches. When you find the hidden person you quietly join them in the hiding spot. The last seeker left looking has to find an increasingly packed (and increasingly giggly) hiding spot.",
     steps: [
       "One player is the first 'sardine' and goes to hide while everyone else covers their eyes and counts to 40.",
@@ -4252,14 +4016,14 @@ const ACTIVITIES = [
       "If the spot becomes too crowded, the sardine can move to an adjacent spot.",
       "More and more seekers pack into the hiding spot.",
       "The last person to find the group becomes the sardine for the next round.",
-      "The game ends in laughter as players discover the packed hiding spot."
+      "The game ends in laughter as players discover the packed hiding spot.",
     ],
     tips: "This game works best in a building or large garden with plenty of hiding options. The comedy of large groups of children trying to silently squeeze into a small cupboard or behind a sofa is the entire point. The game is self-rewarding: finding the sardine early means a longer period of shared giggling."
   },
   {
     id: 261, title: "Kick the Can", category: "games", emoji: "🥫",
     ages: "6–12", time: "30–60 min", difficulty: "easy",
-    supplies: ["Empty tin can (or traffic cone)", "Open space with hiding options", "4+ players"],
+    supplies: ["Empty tin can (or traffic cone)","Open space with hiding options","4+ players"],
     description: "A cross between hide and seek and tag. One player guards the can while others hide. Tagged players are captured, but can be freed if a teammate kicks the can without being tagged first. The rescue dynamic makes it far more exciting than standard tag.",
     steps: [
       "Place the can in the centre of the play area. The 'It' player kicks it, then retrieves and replaces it while everyone hides.",
@@ -4268,14 +4032,14 @@ const ACTIVITIES = [
       "If 'It' spots a player, they call their name and race to the can. 'It' must touch the can and call the name before the hider can kick it.",
       "Tagged players sit in a 'jail' near the can.",
       "The game ends when all players are captured, or after a set time limit.",
-      "The last player caught (or the one who kicked the can most) becomes the next 'It.'"
+      "The last player caught (or the one who kicked the can most) becomes the next 'It.'",
     ],
     tips: "The key strategy: some players sacrifice themselves as decoys near the can while others approach from a different direction for the actual kick. This natural emergence of coordinated tactics is the developmental value of the game. Can be played at dusk for added atmosphere."
   },
   {
     id: 262, title: "Balloon Stomp", category: "games", emoji: "🎈",
     ages: "4–10", time: "15 min", difficulty: "easy",
-    supplies: ["1 balloon per player plus extras", "String (about 60cm per player)", "Open space"],
+    supplies: ["1 balloon per player plus extras","String (about 60cm per player)","Open space"],
     description: "Each player ties a balloon to their ankle and tries to pop everyone else's balloons while protecting their own. The last player with an intact balloon wins. Simple to set up, genuinely competitive, great for parties.",
     steps: [
       "Blow up one balloon per player.",
@@ -4285,46 +4049,14 @@ const ACTIVITIES = [
       "On 'go', everyone tries to stomp and pop others' balloons while protecting their own.",
       "If your balloon pops, you are out. Sit outside the boundary.",
       "Last player with an intact balloon wins.",
-      "Optional: once you are out, you must stand still but can use your arms to deflect stompers."
+      "Optional: once you are out, you must stand still but can use your arms to deflect stompers.",
     ],
     tips: "Encourage players to give everyone a balloon to start, including those who pop first, so they can continue playing as 'ghosts' who can stomp but cannot win. This keeps everyone active rather than sitting out. Works equally well indoors with clear furniture space."
   },
   {
-    id: 263, title: "Red Light Green Light", category: "games", emoji: "🚦",
-    ages: "3–10", time: "15–20 min", difficulty: "easy",
-    supplies: ["Open space (lawn or hall)", "3+ players"],
-    description: "A deceptively simple game that directly trains impulse control, listening, and physical balance. The leader calls 'green light' (everyone advances) and 'red light' (everyone freezes instantly). Anyone caught moving on red is sent back to the start.",
-    steps: [
-      "One player is the caller and stands at one end. Everyone else lines up at the opposite end.",
-      "Caller faces away and calls 'green light' - everyone moves toward the caller.",
-      "Caller spins around and calls 'red light' - everyone must freeze instantly.",
-      "Anyone the caller sees moving is sent back to the start line.",
-      "Caller faces away again and repeats.",
-      "Variation: add 'yellow light' for slow walking only.",
-      "First player to touch the caller wins and becomes the new caller."
-    ],
-    tips: "The developmental magic of this game is in the impulse control required - young children find freezing mid-run physically and neurologically challenging. This is exactly what researchers call 'inhibitory control' and it is a foundational executive function skill. Calling 'green light' in rapid succession then suddenly 'red light' is the classic way to catch moving players."
-  },
-  {
-    id: 264, title: "Simon Says", category: "games", emoji: "👑",
-    ages: "3–10", time: "15 min", difficulty: "easy",
-    supplies: ["Open space", "2+ players (much better with a group)"],
-    description: "The original executive function workout for children. Players must follow instructions only when prefixed with 'Simon says' - doing an action without this prefix means elimination. Speed, misleading tones, and rapid switching are all tools of the leader.",
-    steps: [
-      "One player is Simon. Everyone else stands in a group facing Simon.",
-      "Simon calls out actions: 'Simon says touch your nose', 'Simon says jump three times.'",
-      "Players must do the action only if preceded by 'Simon says.'",
-      "If Simon says 'Clap your hands' without the prefix and a player claps, they are out.",
-      "The last player remaining becomes the new Simon.",
-      "Advanced Simon: give actions quickly, use the same tone for both versions, move your own body to mislead.",
-      "Simon can also give impossible actions as traps: 'Simon says touch your left ear with your right hand.'"
-    ],
-    tips: "The educational research on this game is clear: it trains the exact same neural circuits as formal attention and inhibition tasks. Playing Simon Says several times a week has been shown in studies to improve preschoolers' scores on executive function measures. The speed and misleading pace should increase as players get better."
-  },
-  {
     id: 265, title: "Obstacle Course Challenge", category: "games", emoji: "🏃",
     ages: "3–12", time: "30–60 min", difficulty: "easy",
-    supplies: ["Hula hoops", "Cones or buckets", "Jump rope", "Chalk for lines", "Cushions or pillows", "Tunnel (or blanket over chairs)"],
+    supplies: ["Hula hoops","Cones or buckets","Jump rope","Chalk for lines","Cushions or pillows","Tunnel (or blanket over chairs)"],
     description: "Design and build a custom obstacle course in the garden or living room. The building is half the fun. Children who design the course themselves invest more effort in completing it and naturally calibrate the difficulty to their own abilities.",
     steps: [
       "Plan the course together: draw a rough map of what goes where.",
@@ -4333,7 +4065,7 @@ const ACTIVITIES = [
       "Time each person with a stopwatch - record it and try to beat your own time.",
       "Reverse the course for an extra challenge.",
       "Add a creative element: each station has a challenge card (jump 5 times, do 3 star jumps, say the alphabet to the letter F before proceeding).",
-      "Award certificates for completion times."
+      "Award certificates for completion times.",
     ],
     tips: "The design-build phase teaches spatial reasoning and planning. The self-timing teaches that improvement comes from practice. For mixed-age groups, create different 'difficulty lanes' running in parallel so all ages compete appropriately. Indoor courses on cushions build proprioception (body awareness) particularly well."
   }
