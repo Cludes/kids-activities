@@ -5213,6 +5213,188 @@ const ACTIVITIES = [
       "Take photos and archive the exhibit digitally.",
     ],
     tips: "A timed 'curator tour' helps kids explain their ideas and builds confidence."
+  },
+  {
+    id: 330, title: "Rain Cloud in a Jar", category: "science", emoji: "☁️",
+    ages: "4-10", time: "20 min", difficulty: "easy",
+    supplies: ["Clear jar","Water","Shaving foam","Blue food colouring","Dropper or spoon"],
+    description: "Create a mini water cycle model by dripping blue water through a shaving foam cloud.",
+    steps: [
+      "Fill a clear jar about three-quarters with water.",
+      "Add a thick shaving-foam layer on top as the cloud.",
+      "Mix food colouring with a little water in a cup.",
+      "Drop coloured water onto the foam slowly.",
+      "Watch as the cloud becomes heavy and 'rain' falls through.",
+      "Discuss how real clouds hold water before rain falls.",
+    ],
+    tips: "Add colour one drop at a time to get dramatic rain streaks."
+  },
+  {
+    id: 331, title: "Popsicle Stick Catapult", category: "science", emoji: "🚀",
+    ages: "6-12", time: "30 min", difficulty: "medium",
+    supplies: ["Popsicle sticks","Rubber bands","Plastic spoon","Mini pom-poms or marshmallows","Measuring tape"],
+    description: "Build a simple catapult and test launch distance with different projectiles.",
+    steps: [
+      "Stack 6-8 sticks and wrap both ends tightly with rubber bands.",
+      "Bind two single sticks together at one end.",
+      "Slide the large stack between the two single sticks near the bound end.",
+      "Attach a spoon to the top stick using a rubber band.",
+      "Place a soft projectile in the spoon.",
+      "Press down and release to launch.",
+      "Measure distances and compare results.",
+    ],
+    tips: "Use soft projectiles indoors to keep it safe and mess-free."
+  },
+  {
+    id: 332, title: "Balloon-Powered Car", category: "science", emoji: "🎈",
+    ages: "6-12", time: "45 min", difficulty: "medium",
+    supplies: ["Cardboard base","4 bottle caps","2 skewers","Straws","Balloon","Tape"],
+    description: "Build a car that moves using escaping balloon air as propulsion.",
+    steps: [
+      "Make a lightweight cardboard chassis.",
+      "Attach straw axle guides under the chassis.",
+      "Slide skewers through guides and add bottle-cap wheels.",
+      "Tape a straw on top as an air nozzle.",
+      "Fit a balloon over one end of the straw and secure with tape.",
+      "Inflate through the straw, pinch, and set car down.",
+      "Release and observe how far it travels.",
+    ],
+    tips: "Straight axles and loose wheel friction make the biggest difference."
+  },
+  {
+    id: 333, title: "Shoebox Planetarium", category: "science", emoji: "🌌",
+    ages: "6-12", time: "40 min", difficulty: "medium",
+    supplies: ["Shoebox","Black paper","Pin or push pin","Torch","Tape","Star chart"],
+    description: "Build a simple constellation projector using a shoebox and torch.",
+    steps: [
+      "Line the inside of a shoebox with black paper.",
+      "Choose one constellation from a star chart.",
+      "Prick matching holes into one side of the box.",
+      "Seal the box except for a torch opening on the opposite side.",
+      "Shine the torch through and project stars onto a wall.",
+      "Try different constellations on extra panels.",
+    ],
+    tips: "Smaller pin holes create sharper star points."
+  },
+  {
+    id: 334, title: "Question Jar Conversations", category: "learning", emoji: "💬",
+    ages: "5-12", time: "20 min", difficulty: "easy",
+    supplies: ["Jar","Paper strips","Pens"],
+    description: "Build a jar of thoughtful and silly questions for family chat time.",
+    steps: [
+      "Write one question per strip of paper.",
+      "Mix easy, funny, and reflective questions.",
+      "Place all strips in a jar.",
+      "Take turns drawing and answering.",
+      "Ask follow-up questions for deeper conversation.",
+      "Add new questions every week.",
+    ],
+    tips: "Great for dinner, car rides, and low-screen evenings."
+  },
+  {
+    id: 335, title: "LEGO Maze Coding", category: "learning", emoji: "🧱",
+    ages: "6-12", time: "35 min", difficulty: "medium",
+    supplies: ["LEGO bricks","Grid paper","Small toy figure","Arrow cards"],
+    description: "Design a maze and write step-by-step instructions to navigate it like code.",
+    steps: [
+      "Build a small maze on a baseplate.",
+      "Set a start and finish point.",
+      "Write movement commands (forward, turn left, turn right).",
+      "Run the commands using the toy figure.",
+      "Debug wrong instructions and fix them.",
+      "Swap mazes with another player.",
+    ],
+    tips: "Use command cards physically to visualize algorithm flow."
+  },
+  {
+    id: 336, title: "Backyard Orienteering", category: "outdoor", emoji: "🧭",
+    ages: "6-12", time: "40 min", difficulty: "medium",
+    supplies: ["Simple map of yard or park","Compass","Marker flags or cones","Clue cards"],
+    description: "Navigate to checkpoints using map cues and simple compass directions.",
+    steps: [
+      "Draw a simple map with 5-8 checkpoints.",
+      "Hide clue cards at each checkpoint.",
+      "Teach basic north, south, east, west first.",
+      "Start at base and follow directions to checkpoint one.",
+      "Collect clues and continue until all checkpoints are found.",
+      "Time each run and compare routes.",
+    ],
+    tips: "Keep early maps simple and scale up complexity over time."
+  },
+  {
+    id: 337, title: "Herb Taste Lab", category: "cooking", emoji: "🌿",
+    ages: "4-12", time: "25 min", difficulty: "easy",
+    supplies: ["Fresh herbs (basil, mint, parsley, chives)","Crackers or plain yogurt","Small bowls","Notebook"],
+    description: "Sample herbs and record flavor notes like a mini food scientist.",
+    steps: [
+      "Wash and prep small herb samples.",
+      "Smell each herb first and describe aroma.",
+      "Taste each with a plain base like cracker or yogurt.",
+      "Rate each herb for sweetness, freshness, and intensity.",
+      "Vote on favorite combinations.",
+      "Create one simple snack featuring the winner.",
+    ],
+    tips: "Mint + yogurt and basil + tomato are easy winning pairings."
+  },
+  {
+    id: 338, title: "Constellation Dot Art", category: "art", emoji: "✨",
+    ages: "5-12", time: "30 min", difficulty: "easy",
+    supplies: ["Black paper","White paint pen or chalk marker","Reference constellation chart","Ruler"],
+    description: "Draw constellation star maps and connect them with clean geometric lines.",
+    steps: [
+      "Pick one constellation to recreate.",
+      "Plot star positions as white dots on black paper.",
+      "Connect key stars lightly with a ruler.",
+      "Add constellation name and date label.",
+      "Make a full mini-series of 4-6 constellations.",
+    ],
+    tips: "Different dot sizes make bright stars feel more realistic."
+  },
+  {
+    id: 339, title: "Storyboarding a Short Film", category: "learning", emoji: "🎞️",
+    ages: "7-12", time: "35 min", difficulty: "medium",
+    supplies: ["Storyboard template or blank paper","Pencil","Eraser","Marker"],
+    description: "Plan a short movie scene-by-scene using storyboard panels before filming.",
+    steps: [
+      "Pick a 30-60 second story idea.",
+      "Split the story into 6-10 shots.",
+      "Draw each shot in one panel with arrows for movement.",
+      "Write brief camera notes under each panel.",
+      "Review sequence and remove unnecessary shots.",
+      "Film using the storyboard as your guide.",
+    ],
+    tips: "Simple stick figures are perfect for strong planning."
+  },
+  {
+    id: 340, title: "Seed Paper Cards", category: "crafts", emoji: "💌",
+    ages: "6-12", time: "1 hr + dry time", difficulty: "medium",
+    supplies: ["Scrap paper","Blender","Water","Wildflower seeds","Mesh screen or sieve","Towels"],
+    description: "Make handmade paper with embedded seeds that can later be planted.",
+    steps: [
+      "Tear scrap paper and soak in water for 30 minutes.",
+      "Blend into pulp.",
+      "Stir seeds gently into the pulp.",
+      "Spread onto mesh screen in a thin even layer.",
+      "Press with towels to remove excess water.",
+      "Leave flat to dry fully.",
+      "Cut into cards and decorate.",
+    ],
+    tips: "Avoid over-blending once seeds are added so they stay viable."
+  },
+  {
+    id: 341, title: "Room Makeover Math Plan", category: "learning", emoji: "📐",
+    ages: "8-12", time: "45 min", difficulty: "medium",
+    supplies: ["Graph paper","Ruler","Pencil","Tape measure"],
+    description: "Redesign a bedroom layout to scale while practicing measurement and area.",
+    steps: [
+      "Measure room length and width.",
+      "Choose a drawing scale, such as 1 square = 20 cm.",
+      "Draw the room outline including doors and windows.",
+      "Measure furniture and draw movable cutouts.",
+      "Test different layouts on paper.",
+      "Pick best plan based on space and movement paths.",
+    ],
+    tips: "Using paper furniture cutouts makes iteration fast and fun."
   }
 
 ];

@@ -229,6 +229,7 @@
       gap: 1rem; flex-wrap: wrap;
     }
     .filter-chips { display: flex; align-items: center; gap: 5px; }
+    .filter-tools { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
     .filter-label {
       font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
       letter-spacing: 0.08em; color: var(--text-muted); margin-right: 4px;
@@ -256,6 +257,16 @@
     }
     #search::placeholder { color: var(--text-muted); }
     #search:focus { border-color: var(--accent); }
+    .sort-select {
+      padding: 7px 30px 7px 10px; border: 1px solid var(--border); border-radius: var(--radius);
+      background: var(--bg-card); color: var(--text); font-size: 0.82rem; font-family: "Inter", sans-serif;
+    }
+    .tools-chip {
+      padding: 7px 12px; border: 1px solid var(--border); border-radius: var(--radius);
+      background: transparent; color: var(--text-muted); font-size: 0.82rem; cursor: pointer;
+      font-family: "Inter", sans-serif; font-weight: 600;
+    }
+    .tools-chip.active { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
 
     /* ── MAIN ── */
     #activities { max-width: 1200px; margin: 0 auto; padding: 0 2rem 6rem; }
@@ -268,6 +279,13 @@
       font-size: 0.78rem; font-weight: 600; color: var(--text-muted);
       text-transform: uppercase; letter-spacing: 0.08em;
     }
+    .grid-header-actions { display: flex; align-items: center; gap: 0.45rem; }
+    .small-btn {
+      padding: 6px 10px; border: 1px solid var(--border); border-radius: var(--radius);
+      background: transparent; color: var(--text-muted); font-size: 0.78rem; cursor: pointer;
+      font-family: "Inter", sans-serif; font-weight: 600;
+    }
+    .small-btn:hover { border-color: var(--accent); color: var(--accent); }
 
     /* ── GRID ── */
     .grid {
@@ -307,6 +325,16 @@
     .card.featured .card-photo {
       width: 38%; min-height: 220px; aspect-ratio: auto;
       border-right: 1px solid var(--border); border-bottom: none;
+    }
+    .card-fav {
+      position: absolute; top: 8px; right: 8px; z-index: 5;
+      width: 30px; height: 30px; border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.35); background: rgba(0,0,0,0.35);
+      color: #e2e8f0; cursor: pointer; font-size: 0.95rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card-fav.active {
+      color: #fbbf24; border-color: #fbbf24; background: rgba(251,191,36,0.16);
     }
 
     /* Top accent line on hover */
@@ -438,6 +466,13 @@
     }
     .modal-close:hover { border-color: var(--accent); color: var(--accent); }
     .modal-meta { display: flex; gap: 5px; flex-wrap: wrap; }
+    .modal-actions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+    .modal-btn {
+      padding: 6px 10px; border: 1px solid var(--border); border-radius: var(--radius);
+      background: transparent; color: var(--text-muted); font-size: 0.76rem; cursor: pointer;
+      font-family: "Inter", sans-serif; font-weight: 600;
+    }
+    .modal-btn:hover { border-color: var(--accent); color: var(--accent); }
     .modal-body { padding: 1.4rem 1.6rem; }
     .modal-photo-wrap {
       margin-bottom: 1.25rem;
@@ -569,11 +604,20 @@
       <button class="chip" data-diff="medium">Medium</button>
       <button class="chip" data-diff="hard">Hard</button>
     </div>
-    <div class="search-wrap">
-      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-      </svg>
-      <input type="search" id="search" placeholder="Search activities...">
+    <div class="filter-tools">
+      <button class="tools-chip" id="favorites-toggle">Favorites</button>
+      <select class="sort-select" id="sort-select" aria-label="Sort activities">
+        <option value="recommended">Sort: Recommended</option>
+        <option value="title-asc">Sort: Title A-Z</option>
+        <option value="time-asc">Sort: Shortest Time</option>
+        <option value="age-asc">Sort: Youngest Ages</option>
+      </select>
+      <div class="search-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="search" id="search" placeholder="Search activities...">
+      </div>
     </div>
   </div>
 </div>
@@ -581,6 +625,9 @@
 <section id="activities">
   <div class="grid-header">
     <span id="count"></span>
+    <div class="grid-header-actions">
+      <button class="small-btn" id="clear-filters">Reset Filters</button>
+    </div>
   </div>
   <div class="grid" id="grid"></div>
 </section>
@@ -596,6 +643,11 @@
         <h2 class="modal-title" id="m-title"></h2>
       </div>
       <div class="modal-meta" id="m-meta"></div>
+      <div class="modal-actions">
+        <button class="modal-btn" id="m-fav">Favorite</button>
+        <button class="modal-btn" id="m-copy">Copy Supplies</button>
+        <button class="modal-btn" id="m-print">Print</button>
+      </div>
       <button class="modal-close" id="modal-close">x</button>
     </div>
     <div class="modal-body">
@@ -625,14 +677,53 @@
     crafts:'Crafts', cooking:'Cooking', outdoor:'Outdoor', science:'Science',
     games:'Games', art:'Art', sensory:'Sensory', learning:'Learning', seasonal:'Seasonal'
   };
+  const STORAGE_FAV_KEY = 'kidsActivitiesFavoritesV1';
 
-  let currentCat  = 'all';
+  let currentCat = 'all';
   let currentDiff = 'all';
   let currentSearch = '';
+  let currentSort = 'recommended';
+  let showFavoritesOnly = false;
+  let currentModalId = null;
 
-  const grid    = document.getElementById('grid');
+  const grid = document.getElementById('grid');
   const countEl = document.getElementById('count');
   const overlay = document.getElementById('overlay');
+  const favoritesToggle = document.getElementById('favorites-toggle');
+  const sortSelect = document.getElementById('sort-select');
+
+  const favorites = loadFavorites();
+
+  function loadFavorites() {
+    try {
+      const raw = localStorage.getItem(STORAGE_FAV_KEY);
+      const arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr.map(Number) : []);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveFavorites() {
+    localStorage.setItem(STORAGE_FAV_KEY, JSON.stringify([...favorites]));
+  }
+
+  function parseMinutes(timeText) {
+    if (!timeText) return 9999;
+    const txt = timeText.toLowerCase();
+    const m = txt.match(/(\d+(?:\.\d+)?)(?:\s*[\-\u2013]\s*(\d+(?:\.\d+)?))?\s*(min|mins|hr|hrs|hour|hours)/i);
+    if (!m) return 9999;
+    const start = parseFloat(m[1]);
+    const end = m[2] ? parseFloat(m[2]) : start;
+    const avg = (start + end) / 2;
+    const unit = m[3].toLowerCase();
+    return unit.startsWith('h') ? avg * 60 : avg;
+  }
+
+  function minAge(ages) {
+    const m = String(ages || '').match(/(\d+)/);
+    return m ? parseInt(m[1], 10) : 99;
+  }
 
   // Header scroll
   const header = document.getElementById('site-header');
@@ -661,17 +752,36 @@
   document.getElementById('hero-badge').textContent = `${ACTIVITIES.length} Activities · 9 Categories`;
 
   function diffDots(level) {
-    const n = { easy:1, medium:2, hard:3 }[level] || 1;
-    return `<span class="difficulty-dots">${[1,2,3].map(i =>
-      `<span class="dot${i<=n?' filled':''}"></span>`
+    const n = { easy: 1, medium: 2, hard: 3 }[level] || 1;
+    return `<span class="difficulty-dots">${[1, 2, 3].map(i =>
+      `<span class="dot${i <= n ? ' filled' : ''}"></span>`
     ).join('')}</span>`;
+  }
+
+  function activityImageAlt(a) {
+    return a.imageAlt || `Finished ${a.title} activity`;
+  }
+
+  function sorted(items) {
+    const copy = [...items];
+    switch (currentSort) {
+      case 'title-asc':
+        return copy.sort((a, b) => a.title.localeCompare(b.title));
+      case 'time-asc':
+        return copy.sort((a, b) => parseMinutes(a.time) - parseMinutes(b.time));
+      case 'age-asc':
+        return copy.sort((a, b) => minAge(a.ages) - minAge(b.ages));
+      default:
+        return copy;
+    }
   }
 
   function filtered() {
     const q = currentSearch.toLowerCase().trim();
-    return ACTIVITIES.filter(a => {
+    const items = ACTIVITIES.filter(a => {
       if (currentCat !== 'all' && a.category !== currentCat) return false;
       if (currentDiff !== 'all' && a.difficulty !== currentDiff) return false;
+      if (showFavoritesOnly && !favorites.has(a.id)) return false;
       if (!q) return true;
       return (
         a.title.toLowerCase().includes(q) ||
@@ -679,26 +789,18 @@
         a.supplies.some(s => s.toLowerCase().includes(q))
       );
     });
-  }
-
-  function fallbackImageUrl(a) {
-    const titlePart = encodeURIComponent(a.title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(' ').slice(0, 3).join(','));
-    const catPart = encodeURIComponent(a.category);
-    return `https://source.unsplash.com/900x600/?kids,${catPart},${titlePart}`;
-  }
-
-  function activityImageUrl(a) {
-    return a.image || fallbackImageUrl(a);
-  }
-
-  function activityImageAlt(a) {
-    return a.imageAlt || `Finished ${a.title} activity`;
+    return sorted(items);
   }
 
   function cardHTML(a, featured) {
+    const imageTag = a.image
+      ? `<img class="card-photo" src="${a.image}" alt="${activityImageAlt(a)}" loading="lazy" decoding="async">`
+      : '';
+    const favActive = favorites.has(a.id) ? ' active' : '';
     return `
       <div class="card${featured ? ' featured' : ''}" data-cat="${a.category}" data-id="${a.id}" tabindex="0" role="button" aria-label="${a.title}">
-        <img class="card-photo" src="${activityImageUrl(a)}" alt="${activityImageAlt(a)}" loading="lazy" decoding="async">
+        <button class="card-fav${favActive}" data-fav-id="${a.id}" aria-label="Toggle favorite">★</button>
+        ${imageTag}
         <div class="card-body">
           <div class="card-title">${a.title}</div>
           <div class="card-desc">${a.description}</div>
@@ -710,6 +812,22 @@
           </div>
         </div>
       </div>`;
+  }
+
+  function updateFavoritesUi() {
+    favoritesToggle.classList.toggle('active', showFavoritesOnly);
+    favoritesToggle.textContent = showFavoritesOnly ? `Favorites (${favorites.size})` : `Favorites (${favorites.size})`;
+  }
+
+  function toggleFavorite(id) {
+    if (favorites.has(id)) favorites.delete(id);
+    else favorites.add(id);
+    saveFavorites();
+    if (currentModalId === id) {
+      document.getElementById('m-fav').textContent = favorites.has(id) ? 'Unfavorite' : 'Favorite';
+    }
+    updateFavoritesUi();
+    render();
   }
 
   function render() {
@@ -725,9 +843,19 @@
     grid.innerHTML = items.map((a, i) => cardHTML(a, showFeatured && i === 0)).join('');
 
     grid.querySelectorAll('.card').forEach(card => {
-      const open = () => openModal(+card.dataset.id);
+      const open = (ev) => {
+        if (ev.target.closest('.card-fav')) return;
+        openModal(+card.dataset.id);
+      };
       card.addEventListener('click', open);
-      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(); });
+      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(e); });
+    });
+
+    grid.querySelectorAll('.card-fav').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        toggleFavorite(+btn.dataset.favId);
+      });
     });
   }
 
@@ -739,33 +867,82 @@
   function openModal(id) {
     const a = ACTIVITIES.find(x => x.id === id);
     if (!a) return;
+    currentModalId = id;
     document.getElementById('m-accent').dataset.cat = a.category;
     document.getElementById('m-emoji').textContent = a.emoji;
     document.getElementById('m-title').textContent = a.title;
+
     const photoWrap = document.getElementById('m-photo-wrap');
     const photo = document.getElementById('m-photo');
-    photo.src = activityImageUrl(a);
-    photo.alt = activityImageAlt(a);
-    photoWrap.style.display = '';
+    if (a.image) {
+      photo.src = a.image;
+      photo.alt = activityImageAlt(a);
+      photoWrap.style.display = '';
+    } else {
+      photo.removeAttribute('src');
+      photoWrap.style.display = 'none';
+    }
+
     document.getElementById('m-desc').textContent = a.description;
     document.getElementById('m-meta').innerHTML = `
       <span class="badge badge-cat" data-cat="${a.category}">${CAT_LABELS[a.category]}</span>
       <span class="badge">&#x23F1; ${a.time}</span>
       <span class="badge">Ages ${a.ages}</span>
-      <span class="badge">${diffDots(a.difficulty)} ${a.difficulty.charAt(0).toUpperCase()+a.difficulty.slice(1)}</span>`;
+      <span class="badge">${diffDots(a.difficulty)} ${a.difficulty.charAt(0).toUpperCase() + a.difficulty.slice(1)}</span>`;
     document.getElementById('m-supplies').innerHTML = a.supplies.map(s => `<li>${s}</li>`).join('');
-    document.getElementById('m-steps').innerHTML = a.steps.map((s,i) =>
-      `<li><span class="step-num">${i+1}</span><span>${s}</span></li>`).join('');
+    document.getElementById('m-steps').innerHTML = a.steps.map((s, i) =>
+      `<li><span class="step-num">${i + 1}</span><span>${s}</span></li>`).join('');
+    document.getElementById('m-fav').textContent = favorites.has(a.id) ? 'Unfavorite' : 'Favorite';
+
     const tipSec = document.getElementById('m-tip-section');
     if (a.tips) {
       document.getElementById('m-tip').innerHTML = `<strong>Tip:</strong> ${a.tips}`;
       tipSec.style.display = '';
-    } else { tipSec.style.display = 'none'; }
+    } else {
+      tipSec.style.display = 'none';
+    }
+
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
 
-  function closeModal() { overlay.classList.remove('open'); document.body.style.overflow = ''; }
+  function closeModal() {
+    currentModalId = null;
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function copySupplies() {
+    const a = ACTIVITIES.find(x => x.id === currentModalId);
+    if (!a) return;
+    const text = `${a.title}\n\nSupplies:\n- ${a.supplies.join('\n- ')}`;
+    navigator.clipboard?.writeText(text);
+  }
+
+  function printActivity() {
+    const a = ACTIVITIES.find(x => x.id === currentModalId);
+    if (!a) return;
+    const w = window.open('', '_blank', 'width=900,height=700');
+    if (!w) return;
+    w.document.write(`<!doctype html><html><head><title>${a.title}</title><style>body{font-family:Arial,sans-serif;padding:24px;line-height:1.5;}h1{margin:0 0 10px;}h2{margin-top:20px;}li{margin:6px 0;}</style></head><body><h1>${a.title}</h1><p>${a.description}</p><h2>Supplies</h2><ul>${a.supplies.map(s=>`<li>${s}</li>`).join('')}</ul><h2>Steps</h2><ol>${a.steps.map(s=>`<li>${s}</li>`).join('')}</ol>${a.tips ? `<h2>Tip</h2><p>${a.tips}</p>` : ''}</body></html>`);
+    w.document.close();
+    w.focus();
+    w.print();
+  }
+
+  function resetFilters() {
+    currentCat = 'all';
+    currentDiff = 'all';
+    currentSearch = '';
+    currentSort = 'recommended';
+    showFavoritesOnly = false;
+    document.getElementById('search').value = '';
+    sortSelect.value = 'recommended';
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
+    document.querySelectorAll('.chip[data-diff]').forEach(c => c.classList.toggle('active', c.dataset.diff === 'all'));
+    updateFavoritesUi();
+    render();
+  }
 
   document.getElementById('modal-close').addEventListener('click', closeModal);
   overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
@@ -793,7 +970,28 @@
   let searchTimer;
   document.getElementById('search').addEventListener('input', e => {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => { currentSearch = e.target.value; render(); }, 180);
+    searchTimer = setTimeout(() => {
+      currentSearch = e.target.value;
+      render();
+    }, 180);
+  });
+
+  favoritesToggle.addEventListener('click', () => {
+    showFavoritesOnly = !showFavoritesOnly;
+    updateFavoritesUi();
+    render();
+  });
+
+  sortSelect.addEventListener('change', () => {
+    currentSort = sortSelect.value;
+    render();
+  });
+
+  document.getElementById('clear-filters').addEventListener('click', resetFilters);
+  document.getElementById('m-copy').addEventListener('click', copySupplies);
+  document.getElementById('m-print').addEventListener('click', printActivity);
+  document.getElementById('m-fav').addEventListener('click', () => {
+    if (currentModalId != null) toggleFavorite(currentModalId);
   });
 
   function openRandom() {
@@ -801,9 +999,11 @@
     if (!items.length) return;
     openModal(items[Math.floor(Math.random() * items.length)].id);
   }
+
   document.getElementById('hero-random-btn').addEventListener('click', openRandom);
   document.getElementById('header-random').addEventListener('click', openRandom);
 
+  updateFavoritesUi();
   render();
 </script>
 </body>
