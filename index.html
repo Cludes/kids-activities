@@ -9,6 +9,20 @@
   <meta property="og:title" content="Kids Activities - Always Something to Do Together">
   <meta property="og:description" content="Hundreds of fun, printable, and searchable kids activities for all ages.">
   <meta name="theme-color" content="#07090f">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Kids Activities",
+    "description": "Hundreds of fun kids activities including crafts, cooking, science, outdoor, STEM, sensory play, and more for ages 2-13.",
+    "url": "https://cludes.github.io/kids-activities/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://cludes.github.io/kids-activities/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -313,6 +327,7 @@
 
     /* ── MAIN ── */
     #activities { max-width: 1200px; margin: 0 auto; padding: 0 2rem 6rem; }
+    #recently-viewed-section { max-width: 1200px; margin: 0 auto; padding: 0 2rem 1rem; }
 
     .grid-header {
       display: flex; align-items: center; justify-content: space-between;
@@ -643,11 +658,23 @@
         <option value="low">Low Cost</option>
         <option value="medium">Medium Cost</option>
       </select>
+      <select class="sort-select" id="duration-select" aria-label="Filter by duration">
+        <option value="all">Time: All</option>
+        <option value="15">Under 15 min</option>
+        <option value="30">Under 30 min</option>
+        <option value="60">Under 1 hour</option>
+        <option value="61">1+ hours</option>
+      </select>
       <button class="tools-chip" id="printable-toggle">Printable</button>
       <button class="small-btn" id="clear-filters">Reset All</button>
     </div>
   </div>
 </div>
+
+<section id="recently-viewed-section" style="display:none;">
+  <div class="grid-header"><span>Recently Viewed</span></div>
+  <div class="grid" id="recently-viewed-grid"></div>
+</section>
 
 <section id="activities">
   <div class="grid-header">
@@ -712,28 +739,33 @@
   const CAT_LABELS = {
     crafts: 'Crafts', cooking: 'Cooking', outdoor: 'Outdoor', science: 'Science',
     games: 'Games', art: 'Art', sensory: 'Sensory', learning: 'Learning', seasonal: 'Seasonal',
-    rainyday: 'Rainy Day', travel: 'Travel', emotional: 'Emotional Skills', party: 'Party',
-    indoor: 'Indoor', stem: 'STEM', toddler: 'Toddler', holiday: 'Holiday'
+    rainyday: 'Rainy Day', travel: 'Travel', emotional: 'Emotional', party: 'Party',
+    indoor: 'Indoor', stem: 'STEM', toddler: 'Toddler', holiday: 'Holiday',
+    movement: 'Movement', music: 'Music', mindfulness: 'Mindfulness'
   };
   const CAT_EMOJIS = {
     crafts: '✂️', cooking: '🍳', outdoor: '🌿', science: '🔬',
     games: '🎲', art: '🎨', sensory: '👐', learning: '📚', seasonal: '🍂',
     rainyday: '🌧️', travel: '✈️', emotional: '💚', party: '🎉',
-    indoor: '🏠', stem: '⚙️', toddler: '🧸', holiday: '🎄'
+    indoor: '🏠', stem: '⚙️', toddler: '🧸', holiday: '🎄',
+    movement: '🏃', music: '🎵', mindfulness: '🌿'
   };
   const CAT_COLORS = {
     crafts: '#f97316', cooking: '#eab308', outdoor: '#22c55e', science: '#38bdf8',
     games: '#8b5cf6', art: '#ec4899', sensory: '#14b8a6', learning: '#f59e0b',
     seasonal: '#ef4444', rainyday: '#60a5fa', travel: '#a78bfa', emotional: '#34d399',
     party: '#fb7185', indoor: '#e879f9', stem: '#22d3ee', toddler: '#fbbf24',
-    holiday: '#f87171'
+    holiday: '#f87171', movement: '#f43f5e', music: '#a855f7', mindfulness: '#10b981'
   };
   const FALLBACK_PALETTE = ['#f97316','#38bdf8','#8b5cf6','#ec4899','#14b8a6','#f59e0b','#22c55e','#ef4444','#60a5fa','#a78bfa','#34d399','#fb7185'];
   const CATEGORY_PRIORITY = [
     'crafts', 'cooking', 'outdoor', 'science', 'games', 'art', 'sensory', 'learning',
-    'seasonal', 'rainyday', 'indoor', 'stem', 'toddler', 'holiday', 'travel', 'emotional', 'party'
+    'seasonal', 'rainyday', 'indoor', 'stem', 'toddler', 'holiday', 'movement', 'music',
+    'mindfulness', 'travel', 'emotional', 'party'
   ];
   const STORAGE_FAV_KEY = 'kidsActivitiesFavoritesV1';
+  const STORAGE_RECENT_KEY = 'kidsActivitiesRecentV1';
+  const RECENT_MAX = 8;
   const AGE_BUCKETS = {
     '2-4': [2, 4],
     '5-7': [5, 7],
@@ -748,6 +780,7 @@
   let currentAgeBucket = 'all';
   let currentMess = 'all';
   let currentCost = 'all';
+  let currentDuration = 'all';
   let showFavoritesOnly = false;
   let showPrintableOnly = false;
   let showDoNowOnly = false;
@@ -764,8 +797,10 @@
   const ageSelect = document.getElementById('age-select');
   const messSelect = document.getElementById('mess-select');
   const costSelect = document.getElementById('cost-select');
+  const durationSelect = document.getElementById('duration-select');
 
   const favorites = loadFavorites();
+  let recentIds = loadRecent();
   const ACTIVITY_DATA = ACTIVITIES.map(normalizeActivity);
 
   function loadFavorites() {
@@ -780,6 +815,48 @@
 
   function saveFavorites() {
     localStorage.setItem(STORAGE_FAV_KEY, JSON.stringify([...favorites]));
+  }
+
+  function loadRecent() {
+    try {
+      const raw = localStorage.getItem(STORAGE_RECENT_KEY);
+      const arr = raw ? JSON.parse(raw) : [];
+      return Array.isArray(arr) ? arr.map(Number).filter(Boolean) : [];
+    } catch { return []; }
+  }
+
+  function saveRecent() {
+    localStorage.setItem(STORAGE_RECENT_KEY, JSON.stringify(recentIds));
+  }
+
+  function trackRecent(id) {
+    recentIds = [id, ...recentIds.filter(x => x !== id)].slice(0, RECENT_MAX);
+    saveRecent();
+    renderRecentlyViewed();
+  }
+
+  function renderRecentlyViewed() {
+    const section = document.getElementById('recently-viewed-section');
+    const rvGrid = document.getElementById('recently-viewed-grid');
+    if (!recentIds.length) { section.style.display = 'none'; return; }
+    const activities = recentIds.map(id => ACTIVITY_DATA.find(a => a.id === id)).filter(Boolean);
+    if (!activities.length) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    rvGrid.innerHTML = activities.map(a => cardHTML(a, false)).join('');
+    rvGrid.querySelectorAll('.card').forEach(card => {
+      const open = (ev) => {
+        if (ev.target.closest('.card-fav')) return;
+        openModal(Number(card.dataset.id));
+      };
+      card.addEventListener('click', open);
+      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(e); });
+    });
+    rvGrid.querySelectorAll('.card-fav').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        toggleFavorite(Number(btn.dataset.favId));
+      });
+    });
   }
 
   function parseMinutes(timeText) {
@@ -984,6 +1061,13 @@
       if (currentDiff !== 'all' && a.difficulty !== currentDiff) return false;
       if (currentMess !== 'all' && a.mess !== currentMess) return false;
       if (currentCost !== 'all' && a.cost !== currentCost) return false;
+      if (currentDuration !== 'all') {
+        const mins = a.estimatedMinutes;
+        if (currentDuration === '15' && mins > 15) return false;
+        if (currentDuration === '30' && mins > 30) return false;
+        if (currentDuration === '60' && mins > 60) return false;
+        if (currentDuration === '61' && mins <= 60) return false;
+      }
       if (!ageMatchesBucket(a)) return false;
       if (showFavoritesOnly && !favorites.has(a.id)) return false;
       if (showPrintableOnly && !a.printable) return false;
@@ -1084,6 +1168,7 @@
     const a = findActivity(id);
     if (!a) return;
     currentModalId = id;
+    trackRecent(id);
     document.getElementById('m-accent').dataset.cat = a.category;
     document.getElementById('m-emoji').textContent = a.emoji;
     document.getElementById('m-title').textContent = a.title;
@@ -1187,6 +1272,7 @@
     currentAgeBucket = 'all';
     currentMess = 'all';
     currentCost = 'all';
+    currentDuration = 'all';
     showFavoritesOnly = false;
     showPrintableOnly = false;
     showDoNowOnly = false;
@@ -1196,6 +1282,7 @@
     ageSelect.value = 'all';
     messSelect.value = 'all';
     costSelect.value = 'all';
+    durationSelect.value = 'all';
 
     document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
     document.querySelectorAll('.chip[data-diff]').forEach(c => c.classList.toggle('active', c.dataset.diff === 'all'));
@@ -1308,6 +1395,11 @@
     render();
   });
 
+  durationSelect.addEventListener('change', () => {
+    currentDuration = durationSelect.value;
+    render();
+  });
+
   document.getElementById('clear-filters').addEventListener('click', resetFilters);
   document.getElementById('m-copy').addEventListener('click', copySupplies);
   document.getElementById('m-print').addEventListener('click', printActivity);
@@ -1337,6 +1429,7 @@
 
   updateToggleUi();
   render();
+  renderRecentlyViewed();
 </script>
 </body>
 </html>
