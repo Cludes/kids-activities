@@ -188,14 +188,37 @@
     .cat-row-wrap {
       position: relative;
     }
+    .cat-row-wrap::before, .cat-row-wrap::after {
+      content: ""; position: absolute; top: 0; bottom: 0;
+      width: 56px; pointer-events: none; z-index: 2;
+    }
+    .cat-row-wrap::before {
+      left: 0;
+      background: linear-gradient(to left, transparent, var(--bg) 80%);
+    }
     .cat-row-wrap::after {
-      content: ""; position: absolute; right: 0; top: 0; bottom: 0;
-      width: 72px; pointer-events: none; z-index: 2;
-      background: linear-gradient(to right, transparent, var(--bg));
+      right: 0;
+      background: linear-gradient(to right, transparent, var(--bg) 80%);
+    }
+    [data-theme="light"] .cat-row-wrap::before {
+      background: linear-gradient(to left, transparent, rgba(248,250,252,0.97) 80%);
     }
     [data-theme="light"] .cat-row-wrap::after {
-      background: linear-gradient(to right, transparent, rgba(248,250,252,0.97));
+      background: linear-gradient(to right, transparent, rgba(248,250,252,0.97) 80%);
     }
+    .cat-scroll-btn {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      z-index: 3; background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 50%; width: 28px; height: 28px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 0.75rem; color: var(--text-muted);
+      transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+      padding: 0; line-height: 1;
+    }
+    .cat-scroll-btn:hover { color: var(--text); border-color: var(--accent); }
+    .cat-scroll-btn.hidden { opacity: 0; pointer-events: none; }
+    .cat-scroll-btn-left { left: 6px; }
+    .cat-scroll-btn-right { right: 6px; }
     .cat-row {
       max-width: 1200px; margin: 0 auto; padding: 0.75rem 2rem;
       display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none; align-items: center;
@@ -563,7 +586,9 @@
 
 <div class="sticky-nav" id="sticky-nav">
   <div class="cat-row-wrap">
+    <button class="cat-scroll-btn cat-scroll-btn-left hidden" id="cat-scroll-left" aria-label="Scroll categories left">&#8249;</button>
     <div class="cat-row" id="cat-row"></div>
+    <button class="cat-scroll-btn cat-scroll-btn-right hidden" id="cat-scroll-right" aria-label="Scroll categories right">&#8250;</button>
   </div>
   <div class="filter-row" id="filter-row">
     <div class="filter-row-main">
@@ -1200,6 +1225,23 @@
 
   injectCategoryStyles();
   buildCategoryButtons();
+
+  // Category row scroll arrows
+  (function() {
+    const row = document.getElementById('cat-row');
+    const btnL = document.getElementById('cat-scroll-left');
+    const btnR = document.getElementById('cat-scroll-right');
+    const STEP = 240;
+    function updateArrows() {
+      btnL.classList.toggle('hidden', row.scrollLeft <= 4);
+      btnR.classList.toggle('hidden', row.scrollLeft + row.clientWidth >= row.scrollWidth - 4);
+    }
+    btnL.addEventListener('click', () => { row.scrollBy({ left: -STEP, behavior: 'smooth' }); });
+    btnR.addEventListener('click', () => { row.scrollBy({ left: STEP, behavior: 'smooth' }); });
+    row.addEventListener('scroll', updateArrows, { passive: true });
+    // Run after buttons are built
+    setTimeout(updateArrows, 50);
+  })();
 
   document.getElementById('modal-close').addEventListener('click', closeModal);
   overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
