@@ -2200,15 +2200,20 @@ const ACTIVITIES = [
     ],
     "description": "Set up a water table with tools to pour, measure, sink, and float  - open-ended and messy.",
     "steps": [
-      "Fill a tub with warm water  - knee height for toddlers.",
-      "Set out pouring tools: jugs, cups, spoons, funnels, squeeze bottles.",
-      "Add objects to test: what sinks? What floats?",
-      "Add a few drops of food colouring to make it visually interesting.",
-      "Add a small amount of bubbles for extra fun.",
-      "Let them pour, splash, and experiment freely.",
-      "Extend with ice cubes to melt, or coloured water mixing."
+      "Set up the water station: place a large tub (washing-up bowl, storage box, or plastic storage bin) at a height appropriate for the child - on the floor for toddlers, on a low table for older children. Lay towels around the base.",
+      "Fill with warm water - warm is more inviting and comfortable than cold for extended play. Add just enough to come about halfway up the tub.",
+      "Set out pouring tools: measuring jugs, cups of various sizes, ladles, spoons, squeeze bottles, funnels, and sieves. Arrange them alongside the tub like a laboratory setup.",
+      "Add objects for sinking and floating experiments: a coin, a grape, a piece of apple, a toy car, a foam block, a stone, a pen lid. Ask: which ones do you think will sink? Let them test each one and check their predictions.",
+      "Add 3-4 drops of food colouring and stir to make the water visually interesting. Blue makes a beautiful ocean; green makes a swamp; yellow makes a sunny pond.",
+      "Add a small squeeze of washing-up liquid and swish to create bubbles. The bubbles add another sensory layer and fascinate young children.",
+      "Introduce the pouring challenge: can you pour the water from the big jug into the small cup without spilling? How many small cups does it take to fill the big jug? This naturally introduces volume and measurement concepts.",
+      "Add ice cubes and watch them float. Ask: will they melt faster if left floating or placed on the warm tub edge? Track how long each takes to melt.",
+      "Introduce colour mixing: fill three small clear bottles with red, yellow, and blue water. Pour red into yellow - what happens? Pour all three together. Introduce the vocabulary: primary colours, secondary colours, mix.",
+      "Try the absorption experiment: dip a sponge, a piece of fabric, a piece of plastic, and a paper towel. Which absorbs the most? Wring each one out into a measuring cup and compare volumes.",
+      "Extend the play: ask children to set up their own experiment. What question do they want to answer? What materials do they need? This develops scientific thinking and inquiry skills.",
+      "Cleanup: use the water to water houseplants or the garden before tipping it away. Wipe down the tub and floor. Make cleanup part of the routine - children can help mop up with towels."
     ],
-    "tips": "Do this outside in summer. Put a towel down around the tub for easy cleanup."
+    "tips": "Do this outside in summer for freedom from mess worries. Put a towel down around the tub for easy cleanup. The sink/float experiment is always a hit - make predictions first, then test."
   },
   {
     "id": 72,
@@ -2226,15 +2231,20 @@ const ACTIVITIES = [
     ],
     "description": "Play with a non-Newtonian fluid that is solid when pressed and liquid when relaxed.",
     "steps": [
-      "Mix food colouring into water.",
-      "Slowly stir water into cornstarch in a large tray.",
-      "Don't over-stir  - scoop and fold instead.",
-      "The texture is right when it feels hard when you punch it but oozes through your fingers when you open your hand.",
-      "Run hands through it, make it drip, build it up, watch it melt.",
-      "Let them explore freely for as long as they want.",
-      "Dries completely for easy cleanup  - just sweep or vacuum."
+      "Note: this is a variation of the Oobleck activity (ID 42) specifically framed as sensory play rather than a science experiment. The mixture and preparation are the same - focus here is on unstructured exploration.",
+      "Set up on a large tray with deep sides, or directly on a shower curtain on the floor. Mix food colouring into 1 cup of water, then slowly stir the coloured water into 2 cups of cornstarch.",
+      "Do not over-stir: scoop and fold the mixture rather than stirring vigorously. The mixture is ready when it feels hard when you punch the surface but oozes through your fingers when you open your hand slowly.",
+      "Before children arrive, demonstrate the two key properties: punch the surface hard (resists like a solid), then lay your hand flat and let it slowly sink (behaves like a liquid). Watch their faces.",
+      "Allow completely free exploration without any suggested activities. Step back. Sensory play is most valuable when child-directed. Observe what they choose to do with the material.",
+      "Typical spontaneous explorations: dripping it from great height and watching it 'solidify' mid-air, making handprints that immediately fill back in, rolling a portion into a ball then watching it melt, scooping and watching it pour.",
+      "If attention wanes, add a catalyst: bury small plastic toys in the oobleck and challenge them to extract the toys as quickly as possible. The resistance makes this surprisingly tricky and satisfying.",
+      "Try mixing in glitter or fine sand for a variation in texture and visual effect.",
+      "Demonstrate the 'walking on oobleck' principle if you make a large enough batch: if you step quickly and firmly, the surface resists. Stand still and you sink slowly.",
+      "Discuss the science in age-appropriate terms: for toddlers - 'isn't it funny how it's hard when you hit it but soft when you hold it gently?'; for older children - introduce 'non-Newtonian fluid' and explain the science.",
+      "As the session winds down, let them mix in more water to create a liquid pool, or add more cornstarch to make it drier. Experimenting with the consistency ratio teaches cause and effect.",
+      "Cleanup: allow oobleck to dry fully on the tray and it becomes a dry powder that brushes or vacuums away easily. Do not rinse large amounts down the sink."
     ],
-    "tips": "Lay a shower curtain or tarp underneath for easy cleanup. Cornstarch oobleck washes off easily with water."
+    "tips": "Lay a shower curtain or tarp underneath for easy cleanup. Cornstarch oobleck washes off easily with water. Let it dry completely before sweeping up - much easier than wiping it wet."
   },
   {
     "id": 73,
@@ -2252,15 +2262,20 @@ const ACTIVITIES = [
     ],
     "description": "Seal gel and small objects in a bag to create a no-mess sensory squishy for babies and toddlers.",
     "steps": [
-      "Fill a zip-lock bag halfway with clear hair gel.",
-      "Add small items: glitter, sequins, small plastic gems, foam shapes.",
-      "Squeeze out as much air as possible.",
-      "Seal the bag tightly.",
-      "Reinforce the seal with several strips of strong packing tape.",
-      "Let children squish, move objects around, and explore.",
-      "Make several with different colours and contents."
+      "This activity is specifically designed for babies and very young toddlers who are still in the oral exploration stage. It provides rich visual and tactile stimulation with zero mess and zero choking hazard.",
+      "Choose your bag: use a heavy-duty zip-lock freezer bag, not a regular sandwich bag. Freezer bags are thicker and much harder to breach. If in doubt, use two bags nested inside each other.",
+      "Select the gel: clear hair gel works best as it is transparent and allows maximum visibility of the items inside. Colourless hair gel with a blue tint also looks beautiful. Avoid scented gels for babies.",
+      "Fill the bag approximately half-full with gel - do not overfill or the bag will be taut and hard to press. Half-full allows the gel and contents to shift when pushed.",
+      "Choose safe, visually interesting items to embed: large glitter (not fine dust), flat sequins, foam letter shapes, small plastic gems, googly eyes, foam animal shapes. Avoid small hard beads, buttons, or anything with sharp edges.",
+      "Add the items to the gel before sealing. Use 5-10 items per bag - too many creates a cluttered visual; too few is unstimulating.",
+      "Squeeze out as much air as possible before sealing. Air pockets will cause the bag to puff up and potentially pop under pressure.",
+      "Seal the bag and then reinforce it with 3-4 strips of strong packing tape or duct tape along the entire top seal. Press firmly and ensure the tape wraps around the seal, not just over it.",
+      "Check the seal by pressing firmly on all parts of the bag. If any gel seeps out, add more tape or start again with a new bag.",
+      "Introduce the sensory bag: lay it flat on a smooth surface and let the baby or toddler touch, press, push, and explore. The gel moves and the items shift in satisfying ways.",
+      "Tape the bag to a low window with sunlight shining through: the light makes the colours glow beautifully and adds a new visual dimension.",
+      "Check the seal before every single use. Discard and remake if any wear or weakening of the seal is detected. Safety is paramount with this activity."
     ],
-    "tips": "These are particularly good for babies who explore with their hands. Always supervise and check the seal before each use."
+    "tips": "These are particularly good for babies who explore with their hands. Always supervise and check the seal before each use. Tape to a window for a gorgeous light-through effect."
   },
   {
     "id": 74,
@@ -2279,14 +2294,20 @@ const ACTIVITIES = [
     ],
     "description": "Squirt foam on a tray and add colour  - a cloud-like sensory base for scooping and shaping.",
     "steps": [
-      "Squirt a large pile of foam soap or shaving foam onto a tray.",
-      "Drop food colouring onto different parts of the foam.",
-      "Swirl lightly with a spoon  - too much swirling makes it grey.",
-      "Provide scoops, cups, and utensils.",
-      "Let children freely explore: scoop, pour, squeeze, draw patterns in it.",
-      "Add glitter or plastic gems for treasure play."
+      "Set up at the kitchen table or on a low wipeable surface. Place a large rimmed baking tray, roasting dish, or shallow storage box on the surface to contain the foam.",
+      "Gather tools and accessories: plastic spoons, cups, cookie cutters, plastic figures, small rakes, spatulas, and anything with interesting shapes to press into foam.",
+      "Squirt a generous mound of foam hand soap or shaving foam onto the tray. A can of shaving foam produces the most voluminous, stable clouds of foam. Foam soap from a pump dispenser also works well.",
+      "Drop 2-3 different colours of food colouring onto different areas of the foam. Keep the drops separate initially for a beautiful marbled effect - resist the urge to mix immediately.",
+      "Swirl the colours very gently with a spoon - just 2-3 light strokes to partially blend. Over-mixing creates a flat grey. The partially-blended look with visible colour swirls is the most appealing.",
+      "Add optional extras: a pinch of glitter for sparkle, plastic gems buried in the foam for treasure hunting, dried flower petals pressed into the surface for a garden effect.",
+      "Allow free exploration: children typically begin by running fingers through, then scooping, then pressing objects in to make prints. Resist directing the play.",
+      "Introduce shape-making: demonstrate packing foam into a cookie cutter shape and flipping it out (it holds briefly before melting). Ask them to try.",
+      "Try the 'ice cream shop': provide scoops, cups, and cones (made from rolled paper) and let children serve foam 'ice cream'. This type of imaginative play extends the session significantly.",
+      "Introduce measurement: how many scoops fill the big cup? How many small cups equal one big cup? The foam makes maths spatial and fun.",
+      "Extend with water: add a small drizzle of water to one section of the foam and watch it change texture. More water = more liquid. Observe the change.",
+      "Cleanup is easy: wipe the tray clean with a damp cloth. Any foam on hands and clothes rinses off with water. The soap actually cleans as it cleans up."
     ],
-    "tips": "This wipes up easily and smells great. Do it at the kitchen table for easy cleanup  - foam doesn't stain most surfaces."
+    "tips": "This wipes up easily and smells great. Do it at the kitchen table for easy cleanup. Partial colour swirling looks much better than fully mixed - encourage restraint with the mixing."
   },
   {
     "id": 75,
@@ -2305,15 +2326,20 @@ const ACTIVITIES = [
     ],
     "description": "Mix sand with cornstarch for a mouldable sand that holds shapes better than regular sand.",
     "steps": [
-      "Combine sand and cornstarch in a large bin.",
-      "Gradually add water and mix with hands.",
-      "The mixture should pack firmly when squeezed but crumble like dry sand otherwise.",
-      "Pack into moulds and flip them out like sandcastles.",
-      "Use cookie cutters, cups, and spoons as tools.",
-      "Add small dinosaurs or vehicles for play scenes.",
-      "Store covered to prevent drying out."
+      "Gather your materials: 8 cups of play sand or fine-grain sand (from a garden centre), 1 cup of cornstarch, and half a cup of water. Fine sand produces a smoother, more satisfying moon sand texture than coarse sand.",
+      "Combine the dry ingredients first: mix the sand and cornstarch in the large bin until evenly distributed. The cornstarch is the binding agent that gives moon sand its shape-holding properties.",
+      "Add the water gradually: pour in small amounts at a time and mix thoroughly between additions. The mixture will initially look dry and refuse to bind - keep adding water slowly.",
+      "Test the consistency: squeeze a handful firmly. It should pack into a shape that holds for several seconds before slowly crumbling. If it crumbles immediately: add more water. If it feels wet and sticky: add more sand or cornstarch.",
+      "The finished texture should feel cool, heavy, and satisfying - denser than regular sand but not wet. It should pack as firmly as wet beach sand.",
+      "Introduce moon sand to children by first demonstrating its unique property: pack it firmly into a cup, invert, tap the bottom, and lift away. The perfect cup shape sits on the surface momentarily before slowly crumbling. This always produces delight.",
+      "Provide a range of tools: sandcastle moulds, cake tins, cookie cutters, scoops, rolling pins (to flatten), and plastic knives (to cut shapes). Moon sand cuts cleanly unlike regular sand.",
+      "Set up a mini building site: add small toy vehicles, dump trucks, diggers, and construction figures. Moon sand is perfect for roads, tunnels, and earthworks.",
+      "Create a fantasy landscape: dinosaur world (add plastic dinosaurs), an arctic scene (add food colouring to create blue-tinted moon sand with plastic penguins), or a fairy garden (add tiny figurines and pebbles).",
+      "Teach the moon connection: the texture is similar to what scientists believe the moon's surface might feel like - granular and powdery but capable of holding footprints. Show a photo of an astronaut's boot print on the moon.",
+      "Add food colouring to the water before mixing for coloured moon sand. Blue, green, and red create vivid versions. Mix two colours for a marbled effect.",
+      "Store covered tightly between sessions to prevent drying out. If it dries out, sprinkle a little water and remix."
     ],
-    "tips": "Add a few drops of food colouring to the water for coloured moon sand. Perfect for indoor sandpit play."
+    "tips": "Add a few drops of food colouring to the water for coloured moon sand. Perfect for indoor sandpit play. Store covered to prevent drying."
   },
   {
     "id": 76,
@@ -2332,15 +2358,20 @@ const ACTIVITIES = [
     ],
     "description": "Make a flowing, mouldable sand substitute that sticks to itself and not to hands.",
     "steps": [
-      "Mix sand and cornstarch together in a bowl.",
-      "Add dish soap to the water and stir.",
-      "Pour the soapy water into the sand mixture.",
-      "Mix with hands until a uniform texture forms.",
-      "It should clump and mould but not be wet.",
-      "Mould into shapes, cut with plastic tools, watch it flow.",
-      "Store in an airtight container."
+      "Gather materials: 2 cups of fine-grain sand (play sand or clean outdoor sand), 1 tablespoon of cornstarch, half a teaspoon of dish soap, and a quarter cup of water.",
+      "Mix the sand and cornstarch together in a large bowl first. The cornstarch is the binding agent; mixing it dry with the sand ensures even distribution.",
+      "In a separate small cup, mix the dish soap into the water and stir gently. You want it mixed but not frothy.",
+      "Pour the soapy water into the sand mixture slowly, a little at a time. Mix with your hands between each addition - you are looking for the water to distribute evenly through the sand.",
+      "Work the mixture with your hands for 2-3 minutes. True kinetic sand is treated with a silicone compound at the factory; this DIY version gets close but will have a slightly different texture - a little heavier and marginally wetter.",
+      "Test the consistency: it should clump when squeezed, hold the shape of your squeeze briefly, and feel slightly moist but not leave wet residue on your hands. If too wet: add more dry sand. If too dry and crumbly: add a few more drops of soapy water.",
+      "Demonstrate the flowing property: hold a handful and tilt your hand. The sand should slowly flow off in a satisfying cascade. This is the characteristic kinetic sand behaviour.",
+      "Provide plastic tools for moulding and cutting: spatulas, cookie cutters, plastic knives. Kinetic sand cuts cleanly and the shapes hold better than with regular sand.",
+      "Set up a sculpting challenge: can they build a standing tower? A bowl? A flat plaque with their hand impression? The material is more sculptable than regular sand.",
+      "Try the 'sand spaghetti' trick: push the sand through a garlic press or a colander with large holes. The long strands of sand are a classic kinetic sand play pattern.",
+      "Introduce measurement and weights: how many scoops fill this container? If you press the sand down hard, does the same amount take up less space? Introduce the concept of density.",
+      "Store in an airtight container between uses. If the mixture dries out slightly over time, knead in a few drops of water to restore texture."
     ],
-    "tips": "This recipe is great but true kinetic sand is hard to replicate exactly at home  - expect a slightly different texture."
+    "tips": "This recipe is great but true kinetic sand uses silicone and is hard to replicate exactly at home - expect a slightly different texture. Use the finest sand available for best results."
   },
   {
     "id": 77,
@@ -2358,15 +2389,20 @@ const ACTIVITIES = [
     ],
     "description": "Keep an ongoing nature journal with observational drawings, measurements, and notes.",
     "steps": [
-      "Set up a journal: name and date on the inside cover.",
-      "On each outing, find one thing to study closely: a leaf, a bug, a cloud, a flower.",
-      "Draw it as carefully and accurately as possible.",
-      "Label parts you know: petal, vein, wing.",
-      "Write down where you found it, the weather, the date.",
-      "Measure it and record the size.",
-      "Return to the same spots over seasons to record how things change."
+      "Set up the journal together: write the child's name and 'Nature Journal' on the cover. On the first page, write the date and answer the question: 'What is my favourite place in nature and why?'",
+      "Explain the purpose: 'This journal is how real scientists keep track of what they discover. Every time we go outside, we're going to look very carefully at one thing and draw it here exactly as it looks.'",
+      "On your first outing, walk slowly and let the child choose their subject. The best entries come from things they choose themselves: an interesting leaf, a spider web, an unusual cloud formation, a flower they've never noticed before.",
+      "Teach close observation before drawing: pick up the subject (or stay very still if it's a butterfly). Look at it for a full minute. Use a magnifying glass if available. Count every detail: how many petals? What colour is the stem? Are the edges smooth or jagged?",
+      "Draw as accurately as possible - not a stylised version, but a real representation. Show children that accuracy matters more than artistic style. Encourage slow, careful line-making rather than quick sketching.",
+      "Label every part that has a name: for a leaf - blade, vein, petiole, margin; for a beetle - wing case, antenna, thorax, leg; for a flower - petal, stamen, pistil, sepal. Look up unknown names and add them.",
+      "Record the context: date, time, weather, temperature if possible, location description ('back left corner of the garden near the old stump'). These details are what make a nature journal scientifically valuable over time.",
+      "Measure and record: length, width, height. Note any smells, textures, or sounds. The more senses recorded, the richer the entry.",
+      "Research one fact: after the observation, look up one interesting fact about what was observed. Write it in the journal: 'I learned that ladybirds can eat 5,000 aphids in their lifetime.'",
+      "Make return visits a routine: go back to the same location in a different season and make a new entry for the same subject. How has it changed? The comparison entries are the most valuable of all.",
+      "Keep a 'life list' at the back of the journal: a running tally of every species of bird, insect, plant, and animal ever observed. Try to add a new entry each week.",
+      "Share and celebrate: at the end of each month, read back through recent entries together. Notice how skills have improved. Consider making copies of favourite pages to share with grandparents or display."
     ],
-    "tips": "This is a habit, not a one-time project. The journal becomes a treasure over years. Press leaves and flowers between pages."
+    "tips": "This is a habit, not a one-time project. The journal becomes a treasure over years. Press leaves and flowers between pages using heavy books. Return to the same spots across seasons for the most valuable entries."
   },
   {
     "id": 78,
@@ -2382,14 +2418,20 @@ const ACTIVITIES = [
     ],
     "description": "Use LEGO bricks to make maths physical and visual  - fractions, addition, multiplication, measurement.",
     "steps": [
-      "For addition: pick any two bricks and count the total studs.",
-      "For multiplication: 4 bricks of 4 = how many studs total? Build it and count.",
-      "For fractions: a 2x4 brick is 1 whole. How many 1x2 bricks equal it? Each is ½.",
-      "For area: measure a flat plate in studs. Length x width = area.",
-      "For height: build a tower, measure in bricks, convert to centimetres.",
-      "Create story problems: 'You have 3 towers of 5. How many bricks is that?'"
+      "Gather LEGO bricks and sort them by stud count into groups: 2-stud bricks, 4-stud bricks, 6-stud bricks, 8-stud bricks, and flat plates. The sorting itself is valuable for pattern recognition.",
+      "Introduce addition with physical manipulation: 'Let's find out what 3+4 equals. Pick up this brick with 3 studs and this brick with 4 studs. Count all the studs together.' Always count physically before confirming with symbols on paper.",
+      "Practice subtraction: build a row of 8 studs using individual 1x1 bricks. Remove 3 of them. Count what remains. Repeat with different starting numbers. The physical removal makes subtraction concrete.",
+      "Introduce multiplication: 'We need 4 groups of 3. Build 4 separate piles, each with 3 bricks. Now count the total.' Move to: 'Can you build a rectangle that shows 4 x 3? Make it 4 bricks long and 3 bricks wide.' Count the studs to verify.",
+      "Teach fractions with equal bricks: hold up a 2x4 brick (8 studs). 'This is our whole. Find bricks that are half this size.' A 1x4 is one half. Two 1x2 bricks also make one half. 'What about a quarter?' Explore multiple combinations.",
+      "Explore area with flat LEGO plates: place a baseplate down. Count the total number of stud positions in one direction (length), then the other (width). Multiply. Compare with counting every stud individually. Introduce the formula: Area = Length x Width.",
+      "Build measurement tools: make a LEGO 'ruler' that is exactly 10 studs long. Measure objects around the room in LEGO units. Then convert: look up how many millimetres a LEGO stud is (8mm) and calculate the real measurement.",
+      "Introduce towers and height: build towers of specific heights. 'Build a tower that is twice as tall as this one.' 'How many bricks would you need to triple its height?' This introduces proportional reasoning.",
+      "Create story problems together: 'There are 3 houses in our city. Each house has 4 windows. How many windows are there altogether? Build it.' Letting children create their own story problems reinforces understanding.",
+      "Progress to perimeter: make a LEGO rectangle. Count all the studs along the outside edges. Can you find a different shaped rectangle that has the same perimeter but a different area?",
+      "Play LEGO maths battles: each player draws two number cards (use playing cards, aces=1). Multiply them using LEGO. First person to build the correct rectangle and count the studs wins a point.",
+      "Document the maths: draw the LEGO shapes on squared paper to create a visual record. Label each shape with its equation. These hand-drawn records reinforce the visual-abstract connection."
     ],
-    "tips": "Let children come up with their own problems. The tactile, visual nature of LEGO makes abstract maths click."
+    "tips": "Let children come up with their own problems. The tactile, visual nature of LEGO makes abstract maths click. Sort bricks by size first - the sorting itself is mathematically rich."
   },
   {
     "id": 79,
@@ -2406,14 +2448,20 @@ const ACTIVITIES = [
     ],
     "description": "Find one object starting with each letter of the alphabet around the house or yard.",
     "steps": [
-      "Print or write out the alphabet on paper.",
-      "Go room by room and find something for each letter.",
-      "Write or draw each item next to its letter.",
-      "Tricky ones: X (box?), Q (quilt?), Z (zipper?).",
-      "Take photos instead of writing for non-readers.",
-      "See how quickly you can complete the whole alphabet."
+      "Create the hunt sheet: write or print the full alphabet in large letters down the left side of the page, leaving a blank line next to each letter for drawing or writing the found item.",
+      "Introduce the challenge with excitement: 'We're going on an alphabet adventure! We need to find something for every single letter of the alphabet, hiding somewhere in our house right now!'",
+      "Set the rules: the item's name must start with that letter (not just contain it). A 'bottle' counts for B. A 'red ball' still counts for B, not R. This phonics reinforcement is a key learning benefit.",
+      "Start with the easy letters: A (apple, armchair), B (book, bag), C (cup, cat), and build momentum before tackling the harder ones.",
+      "Go room by room to be systematic rather than running randomly around the house. Kitchen, living room, bedroom, bathroom each yield different letters.",
+      "For non-readers: take photos of each found item on a phone or tablet, then print or review them at the end and write the letters together.",
+      "The hard letters: X - look for e-x sounds (the word 'box' ends in an X-sound, and many children accept this); Q - quilt, quiet (even if you can only point to something that is quiet); Z - zipper on a bag or jacket is always findable.",
+      "Hint system: for letters with nothing obvious in the current room, say 'Let's think of things that start with N that might be somewhere in the house...' and brainstorm together before hunting.",
+      "Time the hunt and try to beat the personal best next time. Write the finish time on the sheet and date it.",
+      "For younger children (age 3-4): reduce to just 10 target letters, chosen specifically because items are easy to find at home. Success builds confidence.",
+      "For older children: challenge them to find an item that starts with each letter AND is also in a specific category - all foods, all things that are soft, all things that are round.",
+      "End by reading the complete list aloud together, one letter at a time. This review reinforces letter-sound associations and gives a satisfying sense of completion."
     ],
-    "tips": "For younger children, focus on just 5–10 letters. For older ones, challenge them to find a different word for each letter than they did last time."
+    "tips": "For younger children, focus on just 5-10 letters. For older ones, challenge them to find a different word for each letter than they did last time. Z is always findable as a zipper."
   },
   {
     "id": 80,
@@ -2432,15 +2480,20 @@ const ACTIVITIES = [
     ],
     "description": "Paint characters, places, and objects on stones, then use them to prompt storytelling.",
     "steps": [
-      "Paint each stone with a white base coat and let dry.",
-      "Paint characters: a child, a grandma, a dragon, a wizard.",
-      "Paint settings: a forest, a castle, a mountain, the sea.",
-      "Paint objects: a key, a door, a boat, a star.",
-      "Seal with varnish and let dry completely.",
-      "To use: pull out 5 random stones and make up a story that includes all of them.",
-      "Take turns adding to the story using the next stone."
+      "Collect 15-25 smooth, flat stones from a beach, river, or garden. Flat oval or round stones the size of a large palm work best. Wash them and allow to dry completely.",
+      "Plan your story stone set before painting: decide on categories. A good starter set includes: 4 characters (hero child, grandparent or elder, a villain, a magical creature), 4 settings (forest, castle, sea, city), and 7 objects (key, treasure, door, boat, star, animal, weapon or tool).",
+      "Paint a white or light-coloured base coat on each stone and allow to dry for 30 minutes. The base coat makes colours far more vivid and prevents the dark stone colour showing through.",
+      "Paint the images boldly and simply. Detailed tiny painting is hard on stone and hard for children to read during play. Big, clear shapes with distinctive colours work best: a red dragon, a yellow key, a blue wave.",
+      "Use a black fine-liner or marker to add outlines and definition after the paint dries. This makes images 'pop' significantly and compensates for any imprecision in the painting.",
+      "Allow all stones to dry fully (1-2 hours), then apply a coat of clear sealant or mod podge. Two thin coats is better than one thick coat. The sealant makes colours permanent and gives stones a professional finish.",
+      "Store the story stones in a cloth bag, a small box, or a jar. The storage container becomes part of the ritual: children shake the bag before drawing stones.",
+      "Teach the core game: draw 5 random stones from the bag without looking. These 5 stones must all appear in your story. Lay them out and look at them. Take 60 seconds to think. Then begin telling the story aloud.",
+      "Take turns story-adding: one person begins the story and uses the first stone, then draws one more stone and passes the bag. The next person must continue the story and incorporate the new stone. Continue until all stones are used.",
+      "Create 'challenge draws': without looking, draw one stone. You have 30 seconds to incorporate it into the current story. This adds a pace and spontaneity element for older children.",
+      "Extend the set over time: after the initial set is used regularly for a few weeks, add new themed stones. A weather set (sun, rain, snow, lightning), an emotions set (happy face, scared face, angry face), or a fantasy objects set extends possibilities enormously.",
+      "Use story stones as writing prompts: draw 3 stones and write a short story incorporating all three. This bridges the oral storytelling into literacy practice."
     ],
-    "tips": "Simpler, bolder images work better than detailed ones on small stones. Use a black marker for outlines."
+    "tips": "Simpler, bolder images work better than detailed ones on small stones. Use a black marker for outlines after paint dries. Store in a cloth bag for satisfying random draws."
   },
   {
     "id": 81,
@@ -2457,14 +2510,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw or print a picture, cut it into pieces, and swap puzzles with someone else to solve.",
     "steps": [
-      "Draw a detailed picture on thick cardboard, or print and glue a photo.",
-      "Flip it over and draw the puzzle piece shapes on the back.",
-      "Cut out each piece carefully.",
-      "Mix the pieces up and try to solve it yourself.",
-      "Swap your puzzle with someone else's to solve.",
-      "For more difficulty: cut into more pieces or more irregular shapes."
+      "Choose what to puzzle: for younger children, a bold drawing they create themselves works best; for older children, a printed favourite photo or an intricate drawing creates more challenge.",
+      "If using a drawing, encourage them to draw directly on the card/cardboard with coloured markers or crayons. Bold, colourful drawings with clear sections make for satisfying and solvable puzzles.",
+      "If using a printed photo, glue it onto thick cardboard and allow to dry completely under a heavy book to prevent curling. The cardboard backing makes the pieces rigid enough to handle.",
+      "On the back of the finished picture, plan the puzzle piece shapes in pencil. For a beginner puzzle (age 4-6): draw 6-10 large, roughly rectangular pieces. For an intermediate puzzle (age 7-9): draw 12-20 pieces with interlocking knobs and slots. For an expert puzzle (age 10+): draw 25-35 pieces with complex irregular shapes.",
+      "Cut carefully along the drawn lines using scissors (for simple cuts) or a craft knife on a cutting mat (for interlocking shapes). Keep all pieces together.",
+      "Test the puzzle yourself first: put all pieces face-down, mix them up, then assemble your own puzzle. This reveals any pieces that were cut so irregularly they are impossible to assemble - reshape any problematic pieces.",
+      "Introduce the puzzle-making philosophy: 'You are now a puzzle maker. A puzzle should be challenging but solvable. Too easy is boring, too hard is frustrating. You decide how hard to make yours.'",
+      "Mix the pieces and solve your own puzzle first to confirm it works, then swap with a sibling, family member, or friend. The person who made it already knows the solution, so ask them not to help.",
+      "Record solving times: write your name, the puzzle name, and your solving time on the back of an envelope with the pieces. Try to beat your record next time.",
+      "Make a series: the same child makes a new puzzle each week, increasing piece count each time. This creates a progressive challenge series and tracks skill development over time.",
+      "For extra durability: apply a layer of mod podge or clear contact paper (laminate sheets) to the front of the picture before cutting. This makes pieces much more durable and smooth to handle.",
+      "For extra difficulty: make a puzzle with no picture on one side (blank cardboard on both sides). Players must solve it by shape alone, with no visual clues. This is genuinely very difficult and a great challenge for older children."
     ],
-    "tips": "The process of making the puzzle is just as engaging as solving it. Laminating makes pieces more durable."
+    "tips": "The process of making the puzzle is just as engaging as solving it. Laminating makes pieces more durable. Swapping puzzles with a friend adds a social dimension."
   },
   {
     "id": 82,
@@ -2483,16 +2542,20 @@ const ACTIVITIES = [
     ],
     "description": "Mix primary colours to discover what happens  - and try to make every colour in the rainbow.",
     "steps": [
-      "Put red, yellow, and blue paint in separate ice cube tray sections.",
-      "Mix red and yellow  - what colour? Orange!",
-      "Mix yellow and blue  - what colour? Green!",
-      "Mix red and blue  - what colour? Purple!",
-      "Try adding white to any colour  - what happens?",
-      "Try adding black to any colour.",
-      "Try to match a specific colour: brown, pink, grey, teal.",
-      "Paint a rainbow using only the colours you mixed."
+      "Set up the colour mixing station: place a mixing palette, an ice cube tray, or a muffin tin on a covered surface. Put red, yellow, and blue paint in separate compartments with a small brush or cotton swab for each colour.",
+      "Introduce the three primary colours: 'These three colours are called primary colours. They are the most important colours because you can mix them to make almost every other colour. Let's find out what they can make.'",
+      "Mix red and yellow first: put a small amount of each into a clean section. Stir slowly. Watch the orange emerge. Test the orange on a strip of paper. Ask: does it look more red-orange or yellow-orange? Add more red or yellow to adjust.",
+      "Mix yellow and blue: clean brush and palette. Add small amounts of each to a clean section and mix. Green appears. Experiment: what happens with more yellow? More blue? Explore the full range from lime green to teal.",
+      "Mix red and blue: a reddish-purple or cool purple will emerge depending on your paint ratios. Introduce the vocabulary: primary colours make secondary colours. Red + Yellow = Orange, Yellow + Blue = Green, Red + Blue = Purple.",
+      "Explore tints: add white to any colour and stir. The colour becomes lighter and more pastel. Make a tint scale: add one tiny drop of colour to white, mix, test on paper. Add more colour, mix, test. Create a gradient strip from very pale to fully saturated.",
+      "Explore shades: add a tiny amount of black to any colour. The colour becomes deeper and darker. Caution: black is very powerful - start with the tiniest amount possible. Make a shade scale alongside your tint scale.",
+      "Challenge: can you mix brown? (Red + Yellow + Blue = Brown, or Orange + Blue = Brown). Can you mix grey? (Black + White). Can you mix pink? (Red + lots of White). Can you mix teal? (Blue + small amount of Green).",
+      "Set a specific colour matching challenge: pick an object in the room (a piece of fruit, a toy, a book cover) and try to mix a paint colour that matches it exactly. This is very challenging and very engaging.",
+      "Paint a colour wheel: draw a circle divided into 6 sections. Paint the three primary colours in alternating sections, then fill the gaps with the secondary colours mixed from the neighbours. This creates the classic colour wheel.",
+      "Introduce colour relationships: complementary colours (across from each other on the wheel: red and green, blue and orange, yellow and purple). Place two complementary colours next to each other on paper and observe how they make each other appear more vivid.",
+      "Paint a rainbow using only the colours mixed from primary colours today. No shortcuts - every colour in the rainbow must be mixed fresh. This consolidates the whole session's learning."
     ],
-    "tips": "Frame this as a science experiment, not an art project  - curiosity over neatness."
+    "tips": "Frame this as a science experiment, not an art project - curiosity over neatness. Adding too much black ruins colours quickly; always add dark to light, never light to dark."
   },
   {
     "id": 83,
@@ -2510,15 +2573,20 @@ const ACTIVITIES = [
     ],
     "description": "Cook a simple recipe while practising fractions, measurement, and following instructions.",
     "steps": [
-      "Choose a simple recipe: muffins, pancakes, no-bake cookies.",
-      "Read through the whole recipe together before starting.",
-      "Let children measure all ingredients themselves.",
-      "Discuss: what is ½ a cup? Can we use a ¼ cup twice instead?",
-      "Weigh on scales and compare to cup measurements.",
-      "Follow steps in order  - discuss why sequence matters in cooking.",
-      "Eat and discuss what worked and what you might change."
+      "Choose a forgiving recipe where slight measurement errors won't ruin the result: banana muffins, pancakes, oat cookies, or simple bread rolls. Print or write the recipe on a card that the child can hold and follow themselves.",
+      "Before starting, tour the kitchen and find every piece of equipment you will need: measuring cups (1 cup, ½ cup, ¼ cup), measuring spoons (1 tbsp, 1 tsp, ½ tsp), mixing bowls, a whisk, baking tray, and scales. Lay them all out.",
+      "Read through the entire recipe together from start to finish before touching any ingredients. Ask: 'What do you think will happen when we mix the wet ingredients with the dry ingredients?' Predict the outcome.",
+      "Introduce the measurement tools: show the difference between a tablespoon and a teaspoon. Ask the child to fill the 1 cup measure with water, then pour it into the ½ cup measure and count how many times it takes to empty the full cup.",
+      "Teach the levelling technique: overfill the measuring cup with flour, then use the straight edge of a knife to scrape across the top. Explain why a level measurement is accurate and a heaping measurement is not.",
+      "Let the child measure every single ingredient themselves. Do not take over. If they measure slightly wrong - provided it is a forgiving recipe - let it be. Correction undermines confidence at this stage.",
+      "Introduce fractions naturally during measuring: 'The recipe needs ¾ of a cup. We only have the ¼ cup measure. How many times do we need to fill it?' Physical manipulation makes fractional understanding click in ways that written sums cannot.",
+      "Use the scales to measure the same ingredient by both volume (cup) and weight (grams). Compare: 1 cup of flour is about 125 grams. 1 cup of sugar is about 200 grams. Why are they different? Introduce the concept of density.",
+      "When combining wet and dry ingredients, discuss why baking recipes always keep wet and dry separate until the final mix. Demonstrate what happens when you add baking powder to liquid (it fizzes). Explain that the same reaction happens in the oven.",
+      "As it bakes or cooks, keep the child engaged: read the recipe steps, set a timer, watch through the oven window and observe changes. Ask: 'What do you notice happening? Why do you think the muffin rises?'",
+      "While waiting for the result, clean up together. Make the cleanup a game: who can rinse their bowl fastest? Tidying the kitchen is a practical life skill that benefits from being modelled positively.",
+      "Share the finished food and review: 'What did we measure? What fractions did we use? What would you do differently next time?' Eating the result together is the most satisfying form of reward."
     ],
-    "tips": "Slightly wrong amounts in forgiving recipes (muffins, pancakes) are fine. The learning matters more than perfect results."
+    "tips": "Slightly wrong amounts in forgiving recipes (muffins, pancakes) are fine. The learning matters more than perfect results. Have children read each step aloud before doing it."
   },
   {
     "id": 84,
@@ -2537,15 +2605,20 @@ const ACTIVITIES = [
     ],
     "description": "Build simple weather instruments and record daily observations over weeks.",
     "steps": [
-      "Make a rain gauge: mark centimetre lines on a straight-sided plastic bottle.",
-      "Build a wind vane from a straw, pencil, and cut cardboard arrow and tail.",
-      "Set up the thermometer in a shaded spot.",
-      "Each morning, record: temperature, rainfall since yesterday, wind direction, cloud cover.",
-      "Draw a weather symbol for each day.",
-      "After two weeks, look for patterns.",
-      "Compare your data to the official forecast  - how accurate were you?"
+      "Plan your weather station: gather materials to measure four things - temperature (thermometer), rainfall (rain gauge), wind direction (wind vane), and cloud cover (observation + cloud identification guide).",
+      "Build the rain gauge: find a straight-sided clear plastic bottle (2L soft drink bottle works perfectly). Use a ruler and permanent marker to draw measurement lines up the outside at 5mm intervals. Place it outdoors in an open spot away from trees.",
+      "Build a wind vane: push a pencil erect into a foam ball or lump of modelling clay as the base. Balance a drinking straw across the eraser end. Cut a large triangle (tail) and a small arrow from stiff cardboard. Tape tail to one end of the straw and arrow to the other. The tail catches wind, rotating the arrow to point into the wind direction.",
+      "Mark compass directions at the base of the wind vane: N, S, E, W (and optionally NE, NW, SE, SW). Use a compass or phone app to correctly orient the North label.",
+      "Set up the thermometer in a shaded, sheltered spot away from direct sun and wind. Direct sun gives a false-high reading. Record the placement location and always use the same spot.",
+      "Create the weather observation notebook: draw a two-page spread per week with columns for date, temperature, rainfall since yesterday, wind direction (N/S/E/W), cloud cover (clear/partly cloudy/overcast), and a weather symbol (sun/cloud/rain/snow). Include a row for 'my prediction for tomorrow.'",
+      "Take your first daily reading: empty the rain gauge and record what was in it. Read the thermometer. Observe and record wind direction. Look up and assess cloud cover: clear (less than 25% cloud), partly cloudy (25-75%), overcast (more than 75%). Draw a symbol.",
+      "Learn to identify three basic cloud types using a reference guide or phone app: cumulus (fluffy white heaps - often fair weather), stratus (flat grey sheets - often rain), cirrus (wispy high streaks - weather change coming). Record the type seen each day.",
+      "Compare your daily record to the official meteorological forecast. Who was more accurate about rainfall and temperature? How close was your prediction for the next day versus what actually happened?",
+      "After two weeks, look for patterns: which direction does wind blow on rainy days? Does temperature drop before rain arrives? Does cloud type predict the next day's weather? These are real meteorological patterns that professional forecasters use.",
+      "Make a weather chart: draw a graph of daily temperature over the two-week period. Mark rain days with a dot. Add the official high and low temperatures from a newspaper or website. How close was your thermometer?",
+      "Calculate averages: add up all the temperatures and divide by 14 for the average daily temperature. Count how many rain days there were. Calculate the total rainfall in centimetres. Compare to the average for your region and month."
     ],
-    "tips": "Keep the same observation time every day (morning is ideal) for consistent data."
+    "tips": "Keep the same observation time every day (morning is ideal) for consistent data. Emptying the rain gauge daily (after recording) gives accurate daily rainfall rather than cumulative."
   },
   {
     "id": 85,
@@ -2594,14 +2667,20 @@ const ACTIVITIES = [
     ],
     "description": "Make handmade cards for family and friends using stamping, cutting, and decorating.",
     "steps": [
-      "Fold card in half.",
-      "Cut a heart from a sponge and use it to stamp hearts on the front.",
-      "Add glitter glue, sticker gems, or hand-drawn details.",
-      "Inside: write a message or dictate one to be written.",
-      "Try potato stamp hearts: cut a potato in half and carve a heart, paint and stamp.",
-      "Make a card for everyone in the family and any special people."
+      "Gather materials: thick card or folded cardstock forms the card base. You will need red and pink paint for stamping, plus markers, glitter glue, sticker gems, stickers, coloured paper, and scissors for decorating.",
+      "Make a list of recipients together: who will get a card? Mum, Dad, grandparents, a best friend, a teacher, a sibling? Children who make cards for specific people invest more meaning and care in each one.",
+      "Prepare the heart stamp: cut a potato in half. Draw a heart shape on the flat cut side with a marker. Cut away the potato around the heart shape to a depth of about 1cm, leaving the heart shape raised. Dry the flat surface with a paper towel.",
+      "Test the stamp on scrap paper first: press the potato firmly into paint on a flat plate, then stamp onto paper with firm, even pressure. Lift cleanly. Adjust pressure and paint amount until the print is clean and clear.",
+      "Fold the card: a simple A5 card folded in half gives an A6 card, which is a standard greeting card size and fits in a standard envelope. Fold crisp with a thumbnail.",
+      "Stamp the front of the card: let children choose the arrangement - scattered hearts, a big central heart, a heart border, a heart tree. Multiple coloured hearts layered (stamp red, let dry slightly, overlap with pink) creates depth.",
+      "Add texture and dimension to the front: press the stamp into glitter glue for a sparkly heart, or glue on tissue paper, sticker gems, or sequins. Cut a contrasting coloured heart from paper and layer it on top of a stamped heart.",
+      "Add a message inside: for non-writers, dictate a message to be written by an adult. For beginning writers, write the message very lightly in pencil first and let them trace over it in pen or marker. For confident writers, encourage their own words.",
+      "Make an envelope: trace the card on a larger sheet of paper, add flaps on three sides, fold and glue the bottom and side flaps. Decorate the envelope with a small heart stamp and the recipient's name on the front.",
+      "Address the envelope or write the recipient's name prominently. For younger children, this is a valuable handwriting practice moment.",
+      "For a special extra: stamp or draw a small heart on the envelope flap that the recipient will break when they open it - a 'sealed with love' effect.",
+      "Deliver the cards personally if possible, or post them together. The act of giving is as important as the making. Ask children to think about the recipient's face when they open it."
     ],
-    "tips": "The potato heart stamp makes very satisfying, perfect hearts  - much better than trying to draw them."
+    "tips": "The potato heart stamp makes very satisfying, perfect hearts - much better than trying to draw them. Cut the V at the top of the heart on each side with two small diagonal cuts for a clean shape."
   },
   {
     "id": 87,
@@ -2622,15 +2701,20 @@ const ACTIVITIES = [
     ],
     "description": "Dye hard-boiled eggs in vibrant colours using food dye and vinegar.",
     "steps": [
-      "Hard boil the eggs: place in cold water, bring to a boil, then simmer for 12 minutes. Transfer to cold water to stop cooking. Cool completely.",
-      "Mix: ½ cup water + 1 tsp white vinegar + food colouring in each cup.",
-      "Optional: draw designs on eggs with a white wax crayon first  - the wax resists the dye.",
-      "Lower eggs into cups using a spoon.",
-      "Leave for at least 5 minutes  - longer = darker colour.",
-      "Remove and let dry on a rack.",
-      "Layer colours: dye yellow first, then dip in blue for green."
+      "Hard boil the eggs the day before to allow them to cool completely. Place cold eggs in a pan, cover with cold water, bring to a boil over medium heat, then reduce to a gentle simmer for 12 minutes. Transfer immediately to a bowl of ice water to stop cooking. Dry and refrigerate overnight.",
+      "Prepare the dye cups: for each colour, mix together in a cup: half a cup of warm water, 1 teaspoon of white vinegar (the acid helps the dye bond to the egg shell), and 15-20 drops of food colouring. Stir to combine. Deep colours need more dye drops.",
+      "Set up a clean drying station: lay a cooling rack over a sheet of paper towels or newspaper. This is where eggs will rest after dyeing. Have tongs or a slotted spoon at each cup for lowering and removing eggs safely.",
+      "Optional wax resist technique: use a white wax crayon (or birthday candle) to draw designs on the clean, dry egg BEFORE dyeing. Swirls, dots, names, stars. The wax repels the dye, leaving the white design visible through the colour.",
+      "Dye the first colour: lower an egg gently into the cup using a spoon or tongs. The egg should be fully submerged. Leave for 5 minutes for a light colour, 10-15 minutes for a medium colour, or 30+ minutes for a deep, saturated colour.",
+      "Experiment with dye layering: dye an egg yellow first, let it dry on the rack for 5 minutes, then dip it into blue dye. The yellow + blue layers create green. Orange + blue creates brown. Red + yellow creates a deep orange.",
+      "Try the rubber band technique: stretch 2-3 rubber bands in different directions around a dry egg before dyeing. After dyeing and drying, remove the bands to reveal white stripe patterns where the rubber bands blocked the dye.",
+      "Try tie-dye patterns: wrap the egg loosely in a paper towel, then drip different food colouring drops directly onto the towel. Wait 1 minute, then carefully unwrap. The pattern transfers to the egg shell.",
+      "Try marbling: add a few drops of cooking oil to the dye cup. Dip the egg briefly and remove. The oil creates resist patches for a marbled, irregular pattern.",
+      "Allow all eggs to dry completely on the rack. Display in an egg carton lined with shredded paper or hay, or arrange in a bowl for a striking centrepiece.",
+      "Label each egg with the technique used: good for a classroom display or family science exercise about what worked and what did not.",
+      "Eat the eggs within 2 hours if unrefrigerated, or within 1 week in the fridge. Food colouring is food-safe; the eggs are completely safe to eat after dyeing."
     ],
-    "tips": "Rubber bands stretched around the egg before dyeing create stripe patterns when removed."
+    "tips": "Rubber bands stretched around the egg before dyeing create stripe patterns when removed. White or very light-coloured eggshells take colour most vividly - brown eggs give more muted results."
   },
   {
     "id": 88,
@@ -2677,15 +2761,20 @@ const ACTIVITIES = [
     ],
     "description": "Arrange and glue colourful Autumn leaves onto a ring to make a seasonal wreath.",
     "steps": [
-      "Cut the centre out of a paper plate to make a ring.",
-      "Collect a variety of Autumn leaves  - different colours, shapes, and sizes.",
-      "Arrange leaves around the ring, overlapping each other.",
-      "Glue each leaf down, working from the outside in.",
-      "Add a second and third layer for fullness.",
-      "Tie string through the top to hang.",
-      "Add small pinecones, acorns, or berries for extra texture."
+      "Collect Autumn leaves at their peak colour: orange, red, yellow, brown. Look for a variety of sizes and shapes - large maple leaves, small birch leaves, round poplar leaves, spiky oak leaves. The more variety, the more interesting the wreath.",
+      "Press the leaves for 2-3 days before making the wreath: lay them flat between sheets of newspaper under a heavy pile of books. This prevents them from curling as they dry, which makes them much easier to glue down flat.",
+      "Prepare the wreath base: cut the centre out of a paper plate to create a ring. Cut with scissors starting from a small hole cut in the middle. The ring should be about 6-8cm wide. For a stronger base, cut two rings and glue them together.",
+      "Sort the leaves by size: lay out all pressed leaves in piles by size (large, medium, small). You will use large leaves for the base layer, medium for the middle layer, and small for accents on top.",
+      "Begin gluing the base layer: working around the ring, glue large leaves overlapping each other so each leaf covers the stem of the previous one. Cover both the front and the inner and outer edges of the ring for maximum fullness. Use enough glue to hold firmly.",
+      "Add the middle layer: apply a second layer of medium leaves on top of the first, positioned to fill gaps and add depth. Vary the direction so not all leaves point the same way.",
+      "Add the accent layer: place small leaves, interesting leaf shapes, or unusual colours as highlights on top. A cluster of small red leaves against a base of yellow is particularly striking.",
+      "Add natural texture elements: glue on small acorns, acorn caps, tiny pinecones, dried seed pods, small twigs, or dried berries. These three-dimensional elements make the wreath look professional and lush.",
+      "For a paint embellishment: use a gold paint pen or gold acrylic on a dry brush to highlight the leaf edges. A very light dry-brush of gold makes leaves look magical.",
+      "Allow the glue to dry completely (30-60 minutes) before handling. Press any lifting leaves back down and add more glue if needed.",
+      "Preserve the wreath: take it outside and give it a light spray of hairspray from 30cm away. This helps seal the leaves and slow further drying and colour fading.",
+      "Add a hanging loop: punch a hole at the top of the wreath back and thread a loop of ribbon, twine, or string. Tie a bow at the top on the front for a decorative finish."
     ],
-    "tips": "Press leaves for a few days first so they don't curl. Spray with hairspray when done to help preserve them."
+    "tips": "Press leaves for a few days first so they don't curl. Spray with hairspray when done to help preserve them. Overlapping from the same direction gives the most professional, consistent look."
   },
   {
     "id": 90,
@@ -2759,15 +2848,20 @@ const ACTIVITIES = [
     ],
     "description": "Cut and decorate a paper bag helmet or armour for a quick costume  - knight, robot, monster.",
     "steps": [
-      "Cut eye holes and a face opening in a large bag that fits over the head.",
-      "Paint it to match your character: silver for a knight, grey for a robot, orange for a pumpkin.",
-      "Add details with markers and foam cut-outs.",
-      "For body armour: cut a second bag into a tunic shape.",
-      "Decorate and tape shoulder sections.",
-      "Try on and adjust before the paint fully dries.",
-      "Wear over clothes as part of the costume."
+      "Plan the costume type together: a robot (straight geometric shapes, grey/silver paint), a knight (box-head helmet with visor, silver with crest), a jack-o-lantern (orange with triangular features), or a monster (green with jagged teeth) are all excellent paper bag costumes.",
+      "Select the right sized bag for the head piece: the bag needs to slip over the child's head comfortably. Too tight is claustrophobic; too loose falls over the eyes. Test the fit before cutting anything.",
+      "Measure and mark the eye openings carefully: have the child wear the bag (closed end down, open end on neck) and mark where the eyes fall with a felt-tip pen through the bag. Remove the bag before cutting.",
+      "Cut the eye holes slightly larger than marked: rectangular eye holes are easiest to cut and look most robot/knight-like. Round holes suit monsters. Triangular eye holes suit pumpkins. Cut slowly and check size by trying on before cutting further.",
+      "Cut a nose/mouth breathing opening: a wide arch cut at the lower front of the bag provides ventilation and a face opening. For a robot: leave this as a rectangular 'voice box' opening. For a pumpkin: cut a jagged tooth mouth.",
+      "Decorate the helmet: paint the entire bag in the base colour first and allow to dry. Aluminium foil glued on creates genuine metallic robot texture. Foam cut-outs make bolts, dials, and panels. Yarn or twisted foil creates wiring.",
+      "Add signature details: for a robot - small bottle caps as 'buttons', foil strips as 'circuits', a small cereal box taped to the side as a 'computer module'; for a knight - a paper crest with a coloured design glued to the front; for a pumpkin - curly green paper strips as a vine.",
+      "Build the body armour: take a second large bag and cut a neck hole in the closed end (top), then cut armholes in the sides. This creates a bag tunic that goes over the head. Paint and decorate to match the helmet.",
+      "Add shoulder and chest detailing: cut large geometric shapes from cardboard or foam and glue them to the chest and back of the tunic for armour plates. For a robot: add a cardboard 'control panel' to the chest with drawn-on dials and buttons.",
+      "Try on the full costume and assess: the helmet and tunic together create a full-body look. Check mobility - can they walk, bend, wave? Adjust any parts that restrict movement.",
+      "Final decorative touches: add the child's name in foil letters to the robot, add a number to the knight's shield, add a face expression that matches the character's personality.",
+      "Photo opportunity: take a costume portrait before the night to document the creation. The making is worth preserving as much as the wearing."
     ],
-    "tips": "This is a great last-minute costume base. The robot concept works best  - all straight lines and silver paint."
+    "tips": "This is a great last-minute costume base. The robot concept works best - all straight lines and silver paint. Reinforce the bag at the neck hole with tape to prevent tearing."
   },
   {
     "id": 93,
@@ -2785,14 +2879,20 @@ const ACTIVITIES = [
     ],
     "description": "Build a rainbow scene with cotton-wool clouds at each end and a pot of gold.",
     "steps": [
-      "Draw or glue a large arc on paper using rainbow colours in order: red, orange, yellow, green, blue, purple.",
-      "Paint or stick coloured strips of paper in arcs.",
-      "Glue pulled-apart cotton balls at each end as clouds.",
-      "Draw or cut out a small black pot and glue at one end.",
-      "Fill the pot with gold circles cut from yellow paper.",
-      "Add a green field at the bottom and a blue sky."
+      "Prepare the paper: use a large sheet of white paper or card for the main rainbow scene. Landscape orientation works best as the rainbow arc needs horizontal space.",
+      "Introduce the rainbow colours and their order using the mnemonic Roy G Biv: Red, Orange, Yellow, Green, Blue, Indigo (or Blue-Violet), Violet. Repeat it together several times. This sequence is a real scientific fact about how light splits through water droplets.",
+      "Plan the arc together: lightly draw the arc lines in pencil first. Use the edge of a plate as a guide for consistent curves. You need 6 arcs total, each slightly larger than the previous - the outermost is red, innermost is purple.",
+      "Choose your technique: paint using a wide brush for sweeping arcs, or cut strips of coloured paper (tissue paper, construction paper, or painted strips) and glue them in arcs. Torn paper edges give a softer look; straight-cut edges look more graphic.",
+      "Apply each colour in order from the outside in: Red first (outermost arc), then Orange, Yellow, Green, Blue, and Purple on the inside. Each arc should be approximately equal width.",
+      "While waiting for paint to dry, prepare the clouds: pull cotton balls gently apart to create fluffy irregular cloud shapes. Pile multiple cotton balls together, pulling and fluffing, to build up substantial clouds.",
+      "Glue the clouds at each end of the rainbow where the arc meets the ground. Build them up generously - thin clouds look sparse.",
+      "Create the pot of gold at one end: draw or cut a small black cauldron shape. Fill it with gold circles (cut or punched from yellow paper or gold foil), spilling out of the top in a treasure pile.",
+      "Add the landscape: paint or add a green strip across the bottom for a grassy field. Add blue sky, a smiling sun in one corner, and small flowers in the grass.",
+      "For a leprechaun version: add a small green-hatted figure next to the pot, or cut a tiny shamrock and glue it in the corner.",
+      "Reinforce the colour order as you finish: point to each arc and say the colour name. Ask: 'Which colour is on the outside? Which is inside? What comes after green?' This consolidates the colour order learning.",
+      "Display in a window for maximum impact: rainbows look spectacular when backlit. Or photograph it and make a card or digital keepsake."
     ],
-    "tips": "Use the ROYGBIV order as a memory lesson. Sing 'Over the Rainbow' while you make it."
+    "tips": "Use the ROYGBIV order as a memory lesson. Sing 'Over the Rainbow' while you make it. Tissue paper torn into strips and overlapping gives a beautiful soft-edged rainbow effect."
   },
   {
     "id": 94,
@@ -2902,14 +3002,20 @@ const ACTIVITIES = [
     ],
     "description": "Set out an ingredient bar and let everyone mix their own perfect snack bag.",
     "steps": [
-      "Pour each ingredient into its own small bowl.",
-      "Give each person a cup or small bag.",
-      "Take turns scooping ingredients they want.",
-      "Mix them together.",
-      "Taste test  - is it sweet enough? Crunchy enough?",
-      "Seal the bags and label them."
+      "Set up the ingredient bar: gather 6-10 different options and pour each into a separate small bowl or ramekin. Great options include: mixed nuts (cashews, almonds, peanuts), pumpkin seeds, sunflower seeds, dried cranberries, raisins, dried mango pieces, dark chocolate chips, yoghurt-covered raisins, mini pretzels, corn chips, coconut flakes, mini marshmallows.",
+      "Label each bowl with the ingredient name. For children who are learning to read, write the name on a small card propped in front. This also makes it easy to navigate independently.",
+      "Introduce nutrition in simple terms: 'Nuts give us energy that lasts a long time. Dried fruit gives us quick energy. Chocolate is a treat. What combination sounds good to you?' Avoid lecturing - keep it conversational.",
+      "Give everyone their own cup, small bag, or container. Let them go through the bar independently and choose whatever they want in whatever amounts they want. Autonomy over food choices is important.",
+      "Encourage tasting before committing: try one of each ingredient before adding it to the mix. Does the dried mango taste like they expected? Do the pretzels add the crunch they wanted?",
+      "Mix the chosen ingredients together well and taste the full combination. Ask: is it sweet enough? Salty enough? Crunchy enough? Does anything overpower everything else?",
+      "Adjust the mix: if too sweet - add more nuts or pretzels. If too salty - add more dried fruit. If not sweet enough - add more chocolate or dried fruit. Learning to adjust seasoning and balance is a real culinary skill.",
+      "Calculate nutrition for older children: look at the serving size on each package. Estimate the total calories, protein grams, and sugar grams in their trail mix. How does it compare to a bag of crisps?",
+      "Talk about why trail mix was invented: it was designed to be lightweight, calorie-dense, non-perishable food for hikers and mountaineers. It needs to provide sustained energy without refrigeration. This context makes the activity feel meaningful.",
+      "Seal and label the bags with the maker's name and the date. If making for a hike or trip, calculate how many portions you need and scale up the recipe.",
+      "Design a custom mix with a name: 'Sophia's Mega Mix', 'The Adventure Bag', 'Max's Energy Blast'. Creating a named product gives ownership and pride.",
+      "Share and compare: taste each other's mixes and vote on favourites. This social element adds a fun dimension and extends the conversation about taste preferences."
     ],
-    "tips": "Talk about what each ingredient does  - nuts for protein, dried fruit for energy. Great for a hike or long car ride."
+    "tips": "Talk about what each ingredient does - nuts for protein, dried fruit for energy. Great for a hike or long car ride. Avoid too many sweet options or the mix loses its snack appeal."
   },
   {
     "id": 98,
@@ -2926,14 +3032,20 @@ const ACTIVITIES = [
     ],
     "description": "Make a big bowl of plain popcorn and set up a seasoning bar to customise each person's portion.",
     "steps": [
-      "Pop a large batch of plain popcorn.",
-      "Divide into individual bowls.",
-      "Set out all seasonings in small dishes.",
-      "Drizzle a little melted butter over each bowl (it helps seasonings stick).",
-      "Shake on chosen seasonings and toss well.",
-      "Compare flavour combos  - who had the best one?"
+      "Pop a large batch of plain popcorn: stovetop (most fun to watch and listen), microwave plain kernels in a brown paper bag, or use a microwave-safe bowl with a vented lid. Avoid pre-flavoured microwave popcorn - you want plain as the starting base.",
+      "Set up the seasoning bar while the popcorn pops: lay out small bowls or ramekins with each seasoning option. Good options include: cinnamon sugar (mixed 2:1 ratio), grated parmesan, garlic salt, sweet chilli powder, smoked paprika, nutritional yeast (for a cheesy vegan option), cumin and salt, ranch powder, dried oregano, or simple sea salt.",
+      "Allow the popped corn to cool for 2 minutes before seasoning. Very hot popcorn can cause butter to disappear into steam rather than coat the kernels.",
+      "Divide the popcorn into individual bowls - one per person. Give everyone creative control over their own portion.",
+      "Drizzle a small amount of melted butter over each bowl before adding seasonings: this acts as the adhesive that holds dry seasonings to the popcorn. Without butter or oil, most dry seasonings just fall off.",
+      "Apply seasonings generously: toss the popcorn well after each addition. Multiple seasonings can be layered - start with a base savoury seasoning and then add a contrasting one.",
+      "Encourage bold combinations: sweet + salty (cinnamon sugar + a tiny pinch of cayenne), cheesy + herby (parmesan + oregano), smoky + spicy (smoked paprika + garlic salt). These are real flavour pairings used in restaurants.",
+      "Taste test each variation: cut small cups of each person's flavour and share a sample. Discuss: what makes this one work? What would you add or take away?",
+      "Vote on the best flavour combination of the day. Write the winning recipe down: 'Best Popcorn Formula: 2 tsp cinnamon sugar + 1 tsp sea salt per 4 cups popcorn.'",
+      "Discuss the science of popcorn: why does it pop? Each kernel has a tiny drop of moisture inside its hard shell. When heated, the moisture turns to steam, pressure builds, and the shell explodes outward and the starchy inside puffs up.",
+      "Make a batch using hot sauce as the adhesive instead of butter: toss with a few dashes of your favourite hot sauce before adding seasoning. This is a popular competition preparation technique.",
+      "Package the best flavour: pour the winning combination into paper bags and seal with tape. These make great takeaway movie snacks or gifts."
     ],
-    "tips": "Try cinnamon sugar + a pinch of cayenne for a surprising sweet-heat combo. Parmesan + garlic salt is a crowd favourite."
+    "tips": "Try cinnamon sugar + a pinch of cayenne for a surprising sweet-heat combo. Parmesan + garlic salt is a crowd favourite. Toss thoroughly after adding seasonings - undercoating means flavourless bites."
   },
   {
     "id": 99,
@@ -2953,14 +3065,20 @@ const ACTIVITIES = [
     ],
     "description": "Mini pita breads become personal pizzas in under 15 minutes  - perfect for fussy eaters.",
     "steps": [
-      "Preheat oven to 200°C / 400°F.",
-      "Place pita breads on a baking tray.",
-      "Spread a spoonful of tomato sauce on each.",
-      "Add cheese and chosen toppings.",
-      "Bake for 8–10 minutes until cheese is melted and edges are crispy.",
-      "Cool for 2 minutes before eating."
+      "Preheat the oven to 200 degrees Celsius (400 Fahrenheit). While it heats, lay out all topping options in small bowls so each person can see their choices: tomato sauce, grated mozzarella, sliced peppers, sweetcorn, ham, mushrooms, pineapple, olives, pepperoni.",
+      "Introduce the concept of personal pizza: 'Today everyone makes exactly the pizza they want, with exactly the toppings they choose. No sharing, no compromising - this is your pizza.'",
+      "Place pita breads flat on a lined baking tray (or on individual pieces of foil if each person wants to carry their own tray). Mini pita breads are ideal; full-size pita can be halved.",
+      "Demonstrate sauce application: spoon 1-2 tablespoons of tomato sauce onto the pita and spread with the back of the spoon in a circular motion from the centre outward, leaving a 1cm border at the edge (this becomes the crust).",
+      "Let each child build their own pizza completely independently. The only rule: cheese before toppings or toppings before cheese? It is their choice - but discuss why some people prefer toppings under the cheese (they steam) versus on top (they char slightly).",
+      "Add names to each pizza using a toothpick flag or small folded card placed at the tray edge so nobody mixes up their pizza in the oven.",
+      "Slide the trays into the oven and bake for 8-10 minutes until the cheese bubbles and begins to turn gold and the pita edges are crispy.",
+      "While baking, discuss: why does cheese melt? What happens to the tomato sauce in the oven? Why do the edges get crispier than the middle?",
+      "Remove from the oven and allow to cool for at least 2 minutes. The cheese remains extremely hot even after the outside surface cools - warn children to take small bites.",
+      "Taste and review: was the topping combination as expected? Too much of anything? Not enough of something? What would be different next time?",
+      "Try an unconventional variety: a dessert pita pizza (Nutella + sliced banana + strawberry + a dusting of icing sugar), or a breakfast version (egg scrambled on top with cheese).",
+      "Calculate nutrition for older children: total the approximate calories from each topping. Which topping adds the most flavour for the fewest calories? This is a real food science discussion."
     ],
-    "tips": "These are also great in an air fryer  - 5 minutes at 180°C and they're perfect and crispy."
+    "tips": "These are also great in an air fryer - 5 minutes at 180 degrees and they're perfect and crispy. Allow to cool before eating - melted cheese holds heat much longer than it appears to."
   },
   {
     "id": 100,
@@ -2977,15 +3095,20 @@ const ACTIVITIES = [
     ],
     "description": "Head to an open space on a breezy day and fly a kite  - one of the most joyful outdoor activities there is.",
     "steps": [
-      "Check the wind  - a light to moderate breeze is ideal. Too still or too gusty won't work.",
-      "Find a wide-open space away from trees and powerlines.",
-      "Unwind about 10 metres of string before launching.",
-      "One person holds the kite up, the other holds the string and walks backwards.",
-      "Release the kite into the wind and let out string steadily as it rises.",
-      "Steer by pulling and releasing the string to ride updrafts.",
-      "Reel in slowly to land."
+      "Check the wind conditions: the ideal kite-flying wind is light to moderate - 15 to 30 km/h. A good test: hold a thin ribbon or strip of tissue paper at arm's length. If it streams horizontally, it's good kite weather. If it barely moves, too calm. If it whips violently, too gusty.",
+      "Choose the right location: a large open space with no powerlines, trees, or buildings within 100 metres in all directions. Parks, beaches, and sports fields are ideal. Powerlines are a serious hazard - never fly kites near them.",
+      "Unbox or unfold the kite and check all connections: attach bridle lines, check frame joints, and ensure the string is wound onto the reel correctly with no tangles. A tangled reel in the middle of a flight is very frustrating.",
+      "Unwind approximately 10-15 metres of string before launching. This gives enough line for the kite to catch the wind immediately rather than struggling near the ground where wind is less consistent.",
+      "Launch using the two-person method: one person faces into the wind and holds the kite up at arm's length. The other person stands 10-15 metres away holding the reel with string taut between them.",
+      "The reel holder signals the launch: the kite holder releases at the same time the reel holder steps backwards briskly into the wind. As the kite catches the wind and begins to rise, the reel holder lets out string steadily and smoothly.",
+      "As the kite climbs, let out more string gradually to allow it to rise higher. The kite flies most stably at 45-60 degrees above the horizon - not directly overhead. Directly overhead means the kite has climbed too high on too little string.",
+      "Steer and maintain altitude: tug the string gently to keep the kite rising. If it begins to dive to the right, briefly pull left. If it loses altitude, walk backwards slowly (this adds speed and lift). If it begins to nosedive, let out string quickly to release tension.",
+      "Teach the physics: a kite flies because the angle of the kite against the wind creates lift (same principle as an aeroplane wing). The tail provides drag, which keeps the nose pointing into the wind. More tail = more stable but harder to launch.",
+      "Have children take turns holding the string: let them feel the pull and learn to manage tension and direction. Even toddlers can hold a firmly-pulling kite under supervision.",
+      "Look for other phenomena while flying: notice how the kite sometimes bobs and weaves (wind gusts), how high things are (estimate height using the angle of the string and length of line out), and look for birds doing the same thing with air currents.",
+      "To land: slowly reel in the string while walking toward the kite's position. Do not run toward the kite as this loses string tension and the kite will crash. Walk steadily and reel steadily."
     ],
-    "tips": "Run with your back to the wind, not toward it. If the kite nosedives, let out more string quickly."
+    "tips": "Run with your back to the wind, not toward it. If the kite nosedives, let out more string quickly. Homemade kites from bin bags and bamboo sticks can fly just as well as shop-bought ones."
   },
   {
     "id": 101,
@@ -3005,15 +3128,20 @@ const ACTIVITIES = [
     ],
     "description": "Camp in the backyard for a night of stargazing, stories, and sleeping under the sky.",
     "steps": [
-      "Set up the tent together in the afternoon.",
-      "Decorate with fairy lights.",
-      "Make a camp dinner together  - even just sandwiches eaten outside counts.",
-      "As it gets dark, lie on a blanket and look for constellations.",
-      "Tell stories by torchlight.",
-      "Settle in for the night  - you're surprisingly close to home but it feels like an adventure.",
-      "Make pancakes or toast outside in the morning."
+      "Plan the backyard camping evening together in the afternoon: choose a site in the garden, decide on activities, plan the camp dinner, and assign gear to each person. Planning is part of the adventure.",
+      "Set up the tent together: spread the footprint or ground sheet, insert the poles, raise the tent body, and attach the rain fly. Let children do as much as they can manage independently. Understanding how a tent works is a genuinely useful life skill.",
+      "Decorate the camp: hang fairy lights around the tent door, place a battery lantern inside, lay out sleeping bags and pillows. Make it feel special, not just functional. A string of lights transforms a simple tent into a cosy den.",
+      "Make camp dinner outside: even sandwiches eaten on a picnic blanket feel special in the camping context. Ideally, try something that can be cooked outside: sausages on a small camping stove, corn on the cob, or toasted marshmallows over a small backyard fire pit (where permitted).",
+      "As evening falls, stargaze: lay on blankets in the open and let eyes adjust to the dark for 10 minutes. Use a star map app to identify visible stars and constellations. Look for satellites (steady moving lights) and planes (blinking lights with engine sounds).",
+      "Tell stories by torchlight: each person holds a torch under their chin for dramatic effect and tells a story. Stories can be funny, spooky (age-appropriate), or completely absurd. The torchlight and darkness make any story more compelling.",
+      "Play torch tag: in the dark garden, one person is 'it' with a torch. They tag others by shining the torch on them. This is a gentle, hilarious version of tag that works well in small spaces.",
+      "Night sounds listen: lie quietly for 5 minutes and identify every sound you can hear - crickets, frogs, wind, distant traffic, birds. Count how many different sounds there are. This mindfulness exercise is very settling before sleep.",
+      "Settle into the tent: read books, play cards, or chat by torchlight. Even being 15 metres from the back door feels genuinely adventurous to children. That sense of adventure is valuable regardless of the proximity to home.",
+      "For children who become anxious: the back door is always available. Having an exit option matters and does not diminish the experience at all. About 50% of backyard camps end with someone wanting to go inside, and that is perfectly fine.",
+      "Night observation: if you wake in the night, step outside briefly to see how the sky has changed. Stars visible at 10pm are different from those at 2am as the Earth rotates.",
+      "Morning: make camp breakfast outside - pour cereal, spread toast, or make eggs on the camping stove. The morning is often the most magical part of camping. Pack up the tent together and discuss what to do differently next time."
     ],
-    "tips": "Bring a torch for each person so nobody has to be scared of the dark. Make it a special event, not just sleeping outside."
+    "tips": "Bring a torch for each person so nobody has to be scared of the dark. Make it a special event, not just sleeping outside. A sleeping mat under sleeping bags makes a big difference to warmth and comfort."
   },
   {
     "id": 102,
@@ -3029,15 +3157,20 @@ const ACTIVITIES = [
     ],
     "description": "Arrange natural materials in a circular repeating pattern directly on the ground  - no glue needed.",
     "steps": [
-      "Choose a flat clear surface to work on.",
-      "Find the centre and place your first item there.",
-      "Work outward in rings, placing items symmetrically.",
-      "Rotate items the same way around each ring  - all pointing in or all pointing out.",
-      "Add rings until the mandala is as large as you want.",
-      "Take a photo from directly above.",
-      "Leave it for nature to slowly reclaim."
+      "Choose a location with natural materials readily available: a park, garden, forest edge, or beach are ideal. Alternatively, take a nature collection walk first and gather materials into a bag to bring to your workspace.",
+      "Explain the concept of a mandala: 'A mandala is a circular pattern that repeats in a balanced way all around a centre point. They're used in many cultures as art and meditation. We're going to make one from things we find in nature.'",
+      "Find a flat clear surface: a patch of bare earth, a large flat rock, a wooden table outdoors. Mark the centre with a small striking item - a particularly beautiful stone, a bright flower, or a colourful leaf.",
+      "Collect materials: spend 15-20 minutes gathering items. Look for: leaves of different shapes and sizes, flower petals, smooth pebbles, rough stones, bark chips, seeds and seed pods, feathers, twigs, pinecones, moss. Aim for variety in colour, texture, and size.",
+      "Start from the centre and work outward in rings: place the first ring around the centre item. Every item in the first ring should be the same type placed at equal distances - 4 or 8 pebbles, 8 leaves pointing outward, or petals arranged like a flower.",
+      "Apply the symmetry rule: whatever you place in one direction, mirror it in the opposite direction. After placing one item, count around the circle to the opposite position and place a matching item there. Work in pairs of opposites.",
+      "Add the second ring: choose a different material from the first ring. If the first ring was pebbles, the second might be leaves. If the first was pointing outward, the second might point inward. Alternating creates visual rhythm.",
+      "Continue adding rings: a typical mandala has 5-8 rings. Each ring is slightly larger than the previous. The outermost ring often uses the largest items available - pinecones, large leaves, thick twigs.",
+      "Fill in gaps: between rings or between items, fill empty spaces with petals, moss, or small seeds. The finished mandala should feel rich and intentional with no large empty spaces.",
+      "Step back and assess: view from directly above. Is it balanced? Is there a ring that looks thin or unfinished? Add or rearrange as needed.",
+      "Document: photograph from directly above before moving anything. This is the record that outlasts the physical mandala. The photo is often strikingly beautiful and worth printing.",
+      "Leave it to nature: walk away and return later or the next day. Observe how the natural mandala has begun to change - petals have wilted, wind has displaced seeds, insects have carried away food items. Discuss: is the changing version still art?"
     ],
-    "tips": "This is deeply calming for anxious or energetic kids. There are no mistakes  - anything placed symmetrically works."
+    "tips": "This is deeply calming for anxious or energetic children. There are no mistakes - anything placed symmetrically works. Mandalas made on a beach with shells and seaweed are particularly striking."
   },
   {
     "id": 103,
@@ -3055,14 +3188,20 @@ const ACTIVITIES = [
     ],
     "description": "Add colour to puddles and splash through them to create big swirling outdoor art.",
     "steps": [
-      "Wait for rain or create puddles with a hose.",
-      "Add drops of food colouring or diluted outdoor paint to puddles.",
-      "Watch the colours spread across the surface.",
-      "Splash gently at first  - the colour moves as you move.",
-      "Drag a stick through to create patterns.",
-      "Jump in for the full effect."
+      "Set up on a hard outdoor surface: a driveway, paved path, or concrete area works best. Avoid grass (no puddles) or surfaces you are worried about staining (food colouring can temporarily stain some surfaces).",
+      "Create puddles: wait for natural rain puddles, or create them with a garden hose. Let puddles settle for a few minutes before adding colour.",
+      "Introduce the colour options: set out small cups or squeeze bottles with different food colouring or diluted outdoor paint. Discuss which colours to use: complementary colours (blue and orange) create striking contrast; analogous colours (blue and green) blend harmoniously.",
+      "Add colour to the puddles: drop or drizzle 5-10 drops of food colouring per puddle. Watch how the colour diffuses through the water from the entry point outward in spreading rings. This is fascinating to observe before any movement.",
+      "Observe first, then interact: take 60 seconds to watch the colour spreading before doing anything. The natural diffusion pattern is beautiful and worth seeing before it is disturbed.",
+      "Drag a stick slowly through the puddle: the stick creates trails of colour. Figure-eight patterns, spirals, and wave shapes all look different. Dragging fast creates one effect; dragging slow creates another.",
+      "Drip a second colour: add a different colour to the same puddle and watch the two colours interact. Do they mix? Do they stay separate? Add a third colour.",
+      "Create an art installation: use multiple puddles with different colours and link them with a channel scratched in the ground with a stick. Colour can flow between puddles through the channels.",
+      "Splashing art: first test a small splash to see how far the colour travels. Then jump in with both feet - the puddle explodes outward leaving a star-burst colour splash pattern on the surrounding surface. Photograph immediately.",
+      "Foot painting: walk through the coloured puddle, then walk on dry concrete to print coloured footsteps. Make a walking path, a circle, or a pattern of footprints.",
+      "Weather and evaporation discussion: after the play is done, mark the puddle edge with chalk. Check back in 30 minutes and again in 1 hour. The puddle is shrinking - where is the water going? This introduces evaporation.",
+      "Clean up: most food colouring rinses away with a hose and sunlight fades any residue within a day or two. Hose the surface down to reveal the clean result and watch the colour wash away - another satisfying finale."
     ],
-    "tips": "Wear old clothes. The paint will wash off skin and most surfaces with water. Do it on the driveway, not on grass."
+    "tips": "Wear old clothes. The colour will wash off skin and most surfaces with water. Do it on the driveway, not on grass. Photograph from above for the best perspective on the patterns."
   },
   {
     "id": 104,
