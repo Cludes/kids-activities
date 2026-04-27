@@ -221,10 +221,15 @@
     .cat-scroll-btn-right { right: 6px; }
     .cat-row {
       max-width: 1200px; margin: 0 auto; padding: 0.75rem 2rem;
-      display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none; align-items: center;
-      border-bottom: 1px solid var(--border);
+      display: flex; gap: 5px; overflow-x: auto; scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+      align-items: center; border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
     }
-    .cat-row::-webkit-scrollbar { display: none; }
+    .cat-row::-webkit-scrollbar { height: 4px; }
+    .cat-row::-webkit-scrollbar-track { background: transparent; }
+    .cat-row::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .cat-row::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
     .cat-btn {
       display: inline-flex; align-items: center; gap: 7px;
       padding: 8px 16px; border: 1px solid var(--border); border-radius: 20px;
