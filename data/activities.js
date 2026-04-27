@@ -3793,16 +3793,20 @@ const ACTIVITIES = [
     ],
     "description": "Drop raisins into fizzy water and watch them rise and fall repeatedly as bubbles attach and release.",
     "steps": [
-      "Fill a tall clear glass almost full with fizzy water or lemonade.",
-      "Drop in 5-6 raisins and watch closely.",
-      "Bubbles from the carbonation attach to the rough surface of each raisin.",
-      "Once enough bubbles have attached, the raisin floats up to the surface.",
-      "At the surface, the bubbles pop and the raisin sinks again.",
-      "This cycle repeats for several minutes.",
-      "Try other objects: a small piece of pasta, a corn kernel, a dried cranberry.",
-      "Ask: why do smooth objects work less well than rough ones?"
+      "Gather materials and set up the viewing area: a tall, clear glass is essential - you need to see the raisins from the side. Fill the glass almost to the top with fresh carbonated water or clear fizzy lemonade. Open a new bottle for best results, as flat carbonation produces no dancing.",
+      "Before dropping anything in, look at the carbonated water and describe what you see: tiny bubbles rising from the bottom and sides of the glass. These are carbon dioxide gas bubbles coming out of solution.",
+      "Predict before testing: 'I am going to drop raisins in. What do you think will happen? Will they sink, float, or do something else?' Accept all predictions without judgment.",
+      "Drop 5-6 raisins into the fizzy water and watch closely. The raisins sink immediately to the bottom. Note their rough, wrinkled surface texture.",
+      "Observe phase 1 - attachment: within 30-60 seconds, bubbles from the carbonated water begin attaching to the wrinkled surface of the raisins. The wrinkles and pits in the raisin surface provide attachment points that smooth surfaces lack.",
+      "Observe phase 2 - rising: as more bubbles attach, the total buoyancy of the raisin plus its bubble coat increases. Eventually there are enough bubbles attached to lift the raisin. It begins to float upward.",
+      "Observe phase 3 - popping: when the raisin reaches the surface, the bubbles are exposed to air, pop, and the raisin loses its buoyancy. The heavy raisin sinks back down. This cycle repeats continuously.",
+      "Count the cycles: time how long the raisins keep dancing. Fresh carbonated water typically keeps raisins dancing for 10-15 minutes before the carbonation diminishes.",
+      "Test other objects: try a small piece of uncooked pasta, a corn kernel, a dried cranberry, a small smooth bead, and a rough piece of popcorn. Predict which will dance before each test.",
+      "The smooth bead test: a smooth bead provides no surface area for bubble attachment and will either sink and stay, or if light enough, float without dancing. This demonstrates why the raisin's texture is essential.",
+      "Explain the science: 'This is called buoyancy. The bubbles are made of gas, which is lighter than water. When enough bubbles attach to the raisin, the raisin + bubbles together are lighter than the water they displace, so they float up. When bubbles pop at the surface, the raisin alone is heavier than water, so it sinks.'",
+      "Compare to real-world examples: bubbles make bread dough rise, help fish control their depth using a swim bladder, and are used in industrial mining processes to separate minerals by surface texture."
     ],
-    "tips": "Freshly opened fizzy water works much better than flat. The raisins will keep dancing for 10-15 minutes before the fizz runs out."
+    "tips": "Freshly opened fizzy water works much better than flat. The raisins will keep dancing for 10-15 minutes before the fizz runs out. A smooth surface (like a marble) will not dance - it needs texture."
   },
   {
     "id": 124,
@@ -3821,17 +3825,20 @@ const ACTIVITIES = [
     ],
     "description": "Create a bubbling lava lamp using the science of oil and water density plus a fizzing reaction.",
     "steps": [
-      "Fill the bottle about three-quarters full with vegetable oil.",
-      "Add water until the bottle is almost full, leaving a small gap at the top.",
-      "Add 10-15 drops of food colouring - it will sink through the oil and mix with the water at the bottom.",
-      "Break an Alka-Seltzer tablet into 4 pieces.",
-      "Drop one piece into the bottle and watch what happens.",
-      "The tablet reacts with the water to produce carbon dioxide gas bubbles.",
-      "The bubbles carry coloured water up through the oil, then pop at the surface and the water sinks back down.",
-      "Keep adding pieces to keep the lamp going.",
-      "Discuss: why do oil and water stay separate? (They have different densities and oil is non-polar.)"
+      "Set up on a protected surface with a tray or towels underneath: the reaction is contained but it can bubble over the top during active fizzing. A waterproof tray prevents mess and makes cleanup easy.",
+      "Choose your container: a clear plastic bottle (500ml drink bottle works well) or a clear glass jar. Taller and narrower shows the lava lamp effect more dramatically than a short wide container.",
+      "Pour vegetable oil slowly into the container until it is approximately three-quarters full. Watch it settle as a clear, still layer.",
+      "In a separate cup, mix water with 10-15 drops of food colouring - choose a vivid colour (blue and red work especially well). Stir to mix.",
+      "Pour the coloured water slowly into the oil. Watch what happens: the water sinks through the oil and collects at the bottom because water is denser than oil. The food colouring stays in the water layer - it cannot dissolve in oil because oil is non-polar.",
+      "Observe that the two liquids form two distinct layers without mixing, even after stirring. They separate again when you stop. This is called immiscibility - some liquids simply do not dissolve in each other.",
+      "Break an Alka-Seltzer tablet into 4 small pieces. Explain: 'When this tablet touches the water, it will react. Let us watch what happens.' Drop one piece in.",
+      "Observe the fizzing reaction: the tablet reacts with water to release carbon dioxide gas. The gas bubbles form in the water layer, carrying droplets of coloured water upward through the oil layer. When they reach the top, the bubbles pop, releasing the gas, and the coloured water droplets sink back down through the oil.",
+      "Add another piece of tablet to continue the effect: keep adding one piece at a time for a continuous lava lamp display. Discuss why it eventually stops (the tablet is used up).",
+      "Shine a torch through the bottom or side of the container in a darkened room: the coloured blobs glow as they rise and fall, dramatically enhancing the lava lamp effect. This is the visual payoff.",
+      "Explain the density science: 'Oil floats on water because it is less dense - a cup of oil weighs less than the same volume of water. The food colouring stays in the water layer because like dissolves like - water dissolves things that are also water-based.'",
+      "Try variations: use multiple food colours in separate water portions and pour them in together, or try different coloured oils (turmeric turns oil yellow, paprika turns it orange)."
     ],
-    "tips": "For a glowing lava lamp, shine a torch up through the bottom of the bottle in a dark room."
+    "tips": "For a glowing lava lamp, shine a torch up through the bottom of the bottle in a dark room. The effect is most dramatic in a narrow bottle with vivid food colouring."
   },
   {
     "id": 125,
@@ -3850,17 +3857,20 @@ const ACTIVITIES = [
     ],
     "description": "Thread a straw onto a string stretched across a room and attach a blown-up balloon to launch a rocket.",
     "steps": [
-      "Thread the straw onto the string before tying the ends.",
-      "Tie the string tightly between two fixed points - chairs, door handles, or trees - as high and straight as possible.",
-      "Blow up a balloon but do not tie it - hold the end shut.",
-      "Tape the balloon to the straw with two strips of tape while keeping the end pinched closed.",
-      "Hold the balloon at one end of the string.",
-      "Let go.",
-      "The escaping air propels the straw along the string.",
-      "Measure how far it travels.",
-      "Test variables: bigger balloon, smaller balloon, angled string, heavier straw."
+      "Prepare the track: find two fixed anchor points that are at least 3-4 metres apart - two chairs, door handles, stair posts, or two trees. The line needs to be taut, level, and high enough that the balloon rocket does not scrape the ground.",
+      "Thread the straw onto the string before tying the ends: this is the critical step to do first, because you cannot thread the straw on once the string is secured. Slide the straw to the middle of the string.",
+      "Tie the string between the anchor points as tightly as possible: a saggy, slack string produces a slow rocket that barely moves. A tight, taut string allows the rocket to travel the full distance. Knot firmly at both ends.",
+      "Inflate the balloon but do not tie it: blow it up fully, then pinch the end firmly closed with two fingers. Bigger balloon = more thrust = greater distance. Test different balloon sizes for the variable experiment.",
+      "Tape the balloon to the straw: while keeping the balloon end pinched tightly closed, tape the side of the balloon to the underside of the straw with two parallel strips of tape. The balloon should be held firmly against the straw.",
+      "Position the rocket at the starting end: slide the straw along the string to one anchor end. Hold the balloon from the side with the pinched end pointing backward (away from the direction you want it to travel).",
+      "Launch: release the pinched end simultaneously. Do not push - just let go. The escaping air propels the balloon forward along the string.",
+      "Measure the distance traveled: use a measuring tape or count steps. Mark the landing position with a piece of tape.",
+      "Test variables systematically: change one variable at a time and record results. Test 1: larger balloon. Test 2: smaller balloon. Test 3: string angled slightly upward toward the far end. Test 4: heavier straw with tape wrapped around it. Test 5: the nozzle opening size (wider vs narrower).",
+      "Introduce Newton's Third Law: 'Every action has an equal and opposite reaction. The air pushing backward out of the balloon pushes the balloon forward with equal force. This is exactly how real rockets work - they push exhaust gas backward to move forward.'",
+      "Race two rockets on parallel strings: string two parallel tracks and launch two rockets simultaneously. This requires two people holding two balloons at the same end, releasing at the same moment.",
+      "Discuss real rocketry: real rockets burn fuel to create exhaust gases. The faster the exhaust exits and the more of it there is, the greater the thrust. This is why rocket engines are so loud - the exhaust is moving extremely fast."
     ],
-    "tips": "A fishing line works better than regular string as it has less friction. Try racing two rockets on parallel strings."
+    "tips": "A fishing line works better than regular string as it has less friction. Try racing two rockets on parallel strings. The tighter the string, the faster the rocket travels."
   },
   {
     "id": 126,
@@ -3878,16 +3888,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw on a coffee filter with markers, dip the bottom in water, and watch the colours separate into their hidden components.",
     "steps": [
-      "Draw thick dots or bands of colour near the bottom of a coffee filter.",
-      "Fold the filter in half and then in half again to make a cone shape.",
-      "Place the tip of the cone into a shallow cup with just a little water.",
-      "Watch the water travel up the filter by capillary action.",
-      "As it passes through the marker ink, it separates the dye molecules.",
-      "Black markers often reveal hidden blues, reds, and yellows.",
-      "Allow to dry flat and you have a piece of art.",
-      "Discuss: different dye molecules travel at different speeds, which is how chromatography separates mixtures."
+      "Introduce the concept: 'Some colours are actually mixtures of other colours hidden inside. Today we are going to separate a colour into its hidden components using water.' This framing makes the science feel like magic initially.",
+      "Prepare coffee filters or paper towels: cut them into strips approximately 3cm wide and 15cm long, or use whole cone-shaped coffee filters as they are for a circular spreading pattern.",
+      "Select markers for testing: washable washable markers (NOT permanent/Sharpie) work for this experiment. The dye must be water-soluble to separate. Black, brown, and purple markers contain the most hidden colours and give the most dramatic results.",
+      "Apply ink: draw a thick band or several large dots of colour approximately 2cm from the bottom edge of the paper strip. Use just one colour per strip for clear results, or try two colours on the same strip to compare.",
+      "Prepare the water container: pour approximately 1cm of water into a cup or small glass. The water level must be below the ink marks - if the ink line sits in the water, it washes away rather than separating.",
+      "Suspend the strip: drape the paper strip over the rim of the cup so the bottom 1cm dips into the water but the ink mark is above the waterline. Alternatively, tape the strip to a pencil laid across the cup rim.",
+      "Observe the capillary action: within minutes, the water begins climbing the paper strip through capillary action (water being pulled up through the paper fibres). When it reaches the ink mark, it dissolves the dye and carries it upward.",
+      "Watch the colours separate: as the water continues to climb, different dye molecules travel at different speeds. Molecules that interact less strongly with the paper fibres travel faster. The colours separate into bands - often 3-5 distinct colours from what appeared to be a single colour.",
+      "Black marker results: black washable marker typically separates into blue, red, and yellow bands - it is usually a mixture of all three primary colours. Brown separates into orange, yellow, and sometimes blue.",
+      "Record the results: while the strip is still wet, press it flat onto white paper and let it dry as a piece of art. Each strip is a unique, beautiful record of the experiment.",
+      "Explain chromatography: 'Chromatography means colour-writing. Scientists use this technique to identify unknown substances, test for banned drugs in athletes, and analyse the components of medicines. Real lab chromatography uses solvents instead of water and special paper.'",
+      "Try different solvents: if curiosity allows, try rubbing alcohol instead of water (adult supervision required for the alcohol). Different solvents interact differently with dyes and produce different separation patterns."
     ],
-    "tips": "Use a black marker for the most dramatic results - it contains many colours. Brown and purple also separate beautifully."
+    "tips": "Use a black marker for the most dramatic results - it contains many colours. Brown and purple also separate beautifully. Use washable markers only - permanent markers do not work with water."
   },
   {
     "id": 127,
@@ -3908,17 +3922,20 @@ const ACTIVITIES = [
     ],
     "description": "Mix yeast and hydrogen peroxide to produce a dramatic eruption of foam that looks like giant toothpaste.",
     "steps": [
-      "Place the plastic bottle on a tray.",
-      "Pour 120ml of hydrogen peroxide into the bottle.",
-      "Add a big squirt of washing-up liquid and stir gently.",
-      "Add food colouring.",
-      "In a separate cup, mix the yeast packet with 4 tablespoons of warm water. Stir for 30 seconds until dissolved.",
-      "Pour the yeast mixture into the bottle quickly and step back.",
-      "A column of foam will shoot upward rapidly.",
-      "Touch the foam - it is warm because the reaction is exothermic.",
-      "Discuss: the yeast acts as a catalyst, rapidly breaking down hydrogen peroxide into water and oxygen gas. The soap traps the gas as foam."
+      "Safety setup first: do this experiment on a waterproof tray outdoors or in a sink/bath, as the foam eruption is significant. Everyone should stand back once the yeast is poured in. The foam is non-toxic and safe to touch - it is simply water, oxygen, soap, and yeast waste.",
+      "Gather ingredients: 6% hydrogen peroxide is available from pharmacies or beauty supply stores (labelled 20 volume). Standard 3% pharmacy hydrogen peroxide works but produces a much smaller reaction. Higher concentration produces a more dramatic result but requires more care.",
+      "Prepare the bottle: place a tall plastic bottle (1-litre drink bottle) on the tray. The taller and narrower the bottle, the taller the foam column that erupts.",
+      "Measure and add ingredients to the bottle: pour 120ml (half a cup) of 6% hydrogen peroxide into the bottle. Add a generous squirt of washing-up liquid - approximately 2 tablespoons. Stir briefly. Add 10-15 drops of food colouring for visual impact.",
+      "Prepare the yeast solution separately: this must be done in a separate cup and added quickly. Mix the full yeast packet with 4 tablespoons of warm (not hot) water. Stir for 30 seconds until the yeast is fully dissolved. The yeast is now active.",
+      "Announce and count down: 'When I pour this in, step back immediately and watch the top of the bottle. 3... 2... 1!'",
+      "Pour the yeast mixture into the bottle quickly: tip it in all at once and immediately step back. The foam erupts within 2-3 seconds and shoots upward.",
+      "Observe the aftermath: the foam column continues expanding for 30-60 seconds. Once it slows, touch the bottle and the foam itself - both are noticeably warm to the touch.",
+      "Explain why it is warm (exothermic reaction): 'Chemical reactions either release energy (exothermic) or absorb energy (endothermic). This reaction releases energy as heat. Explosions, burning, and digestion in your stomach are all exothermic reactions.'",
+      "Explain the chemistry: hydrogen peroxide naturally breaks down into water and oxygen very slowly. Yeast produces an enzyme called catalase that dramatically speeds up this breakdown. The soap traps the released oxygen as foam bubbles. The yeast is a catalyst - it speeds up the reaction without being used up.",
+      "Investigate the foam: it is just water, soap, and oxygen. Scoop some onto a gloved hand - it is completely cool and safe. The coloured part is just food dye.",
+      "Clean up: the foam dissolves in water. Rinse with water and it disappears. Dispose of remaining hydrogen peroxide safely by pouring it down the drain with plenty of water."
     ],
-    "tips": "Higher concentration hydrogen peroxide (12-15%) produces a much larger reaction but is harder to find. The 6% version is safe and still impressive."
+    "tips": "Higher concentration hydrogen peroxide (12-15%) produces a much larger reaction but is harder to find. The 6% version from a pharmacy is safe and still impressive. Do this on a tray - the foam is substantial."
   },
   {
     "id": 128,
@@ -3938,16 +3955,20 @@ const ACTIVITIES = [
     ],
     "description": "Add iron oxide powder to slime to make it respond to a magnet - it creeps, stretches, and reaches for the magnet.",
     "steps": [
-      "Make base slime: mix 120ml white glue with a teaspoon of baking soda.",
-      "Stir in 2-3 tablespoons of iron oxide powder until fully combined. The slime will turn black.",
-      "Add contact lens solution one tablespoon at a time, mixing after each addition.",
-      "Knead until the slime pulls away from the bowl cleanly.",
-      "Hold a strong neodymium magnet close to the slime without touching it.",
-      "Watch the slime creep and reach toward the magnet.",
-      "Move the magnet to guide the slime across a surface.",
-      "Place the magnet underneath a tray and move the slime on top."
+      "Safety note first: iron oxide powder stains permanently and is a fine particulate - wear gloves throughout and avoid breathing the powder. Work on a protected surface. Keep neodymium magnets (which are very strong) away from phones, credit cards, and young children.",
+      "Make the slime base: pour 120ml white school glue into a bowl. Add 1 teaspoon of baking soda and stir well to combine. The baking soda activates later with the contact lens solution.",
+      "Add the iron oxide powder: tip 2-3 tablespoons of iron oxide powder into the glue mixture. Use a spoon or gloved hand to stir thoroughly until the powder is evenly distributed throughout the glue. The mixture turns completely black.",
+      "Activate the slime: add contact lens solution one tablespoon at a time, mixing after each addition. After 2-3 tablespoons the slime will begin pulling away from the bowl sides. This is the slime forming.",
+      "Knead to complete: turn the slime out onto a clean (protected) surface and knead with gloved hands for 2-3 minutes. It should become stretchy and cohesive, pulling cleanly away from your hands.",
+      "Test the magnet: bring a strong neodymium magnet close to the slime without touching it. Start from 10cm away and move slowly closer. At approximately 5-8cm the slime will begin creeping and reaching toward the magnet.",
+      "Guide the slime with the magnet: move the magnet in a slow circle and watch the slime follow. The iron oxide particles in the slime are attracted to the magnetic field and pull the entire slime mass with them.",
+      "Engulf the magnet: hold the slime over the magnet and let it slowly cover and engulf the magnet completely. The slime wraps around it like a living creature. Pull the magnet out slowly.",
+      "Repel the slime: flip the magnet to its opposite pole - the slime will now be repelled and pushed away as you move the magnet toward it. Feeling the slime go from attraction to repulsion by flipping the magnet is dramatic.",
+      "Try moving slime across a surface: place the slime on a smooth plate or tray. Hold the magnet under the tray and move it slowly. The slime on top follows the magnet below through the tray material.",
+      "Explain the magnetism: 'Iron oxide contains iron, which is magnetic. The slime is full of tiny iron oxide particles. A magnetic field from the neodymium magnet pulls on all those particles simultaneously, which is strong enough to pull the entire slime mass.'",
+      "Store the slime: store in a zip-lock bag or sealed container. It keeps for several weeks. Note that the iron oxide may settle slightly over time and the magnet response may diminish - kneading reactivates it."
     ],
-    "tips": "Wear gloves - iron oxide stains everything permanently. A neodymium magnet (rare earth) is essential - regular fridge magnets are too weak."
+    "tips": "Wear gloves - iron oxide stains everything permanently. A neodymium magnet (rare earth) is essential - regular fridge magnets are too weak. The slime engulfing the magnet is the best demonstration."
   },
   {
     "id": 129,
@@ -3966,16 +3987,20 @@ const ACTIVITIES = [
     ],
     "description": "Place salt on a stretched membrane and make it dance by exposing it to sound vibrations.",
     "steps": [
-      "Stretch cling film tightly over the opening of a large bowl or tin and secure with a rubber band.",
-      "Sprinkle a thin even layer of salt over the surface.",
-      "Bring a speaker playing bass-heavy music close to the surface but not touching.",
-      "Watch the salt jump and form patterns.",
-      "Try different frequencies - low bass vs high treble.",
-      "Try shouting at different pitches directly at the surface.",
-      "Try tapping the side of the bowl.",
-      "Discuss: sound is made of vibrations that travel through air and move objects in their path."
+      "Set up the experiment: choose a large mixing bowl or an empty tin can - the wider the surface, the better the salt patterns will be. A metal tin resonates differently than a plastic bowl, which is interesting to compare.",
+      "Create the membrane: cut a piece of cling film significantly larger than the bowl opening. Stretch it firmly over the opening with no slack or wrinkles - the membrane must be tight for sound to move it. Secure with a strong rubber band.",
+      "Test the membrane: tap the side of the bowl gently. If the membrane vibrates visibly, it is well set up. If it barely moves, re-stretch it tighter.",
+      "Sprinkle salt: add a thin, even layer of fine salt, sugar, or sand across the surface of the membrane. Do not pour a thick heap - a thin, even layer makes patterns visible.",
+      "Start with sound from a speaker: place a Bluetooth speaker face-down on a table with the bowl nearby (not touching). Play bass-heavy music and observe whether the salt moves. Gradually bring the speaker closer until the salt begins jumping.",
+      "Try different frequencies: use a tone generator app (free on phones) to play single pure tones at different frequencies. At certain frequencies, the salt will organise into beautiful geometric patterns called Chladni figures. Frequencies around 100-400 Hz typically create the most dramatic patterns.",
+      "Try your voice: bring your face close to the membrane and hum or speak in a deep voice. Vary the pitch up and down while watching the salt.",
+      "Tap the rim: strike the edge of the bowl or tin firmly with a finger. The impact sends a vibration wave across the membrane and the salt jumps briefly before settling.",
+      "Explain the science: 'Sound is a pressure wave - air molecules being pushed and pulled in rapid vibration. When sound reaches the membrane, it pushes the membrane in and out at the same frequency as the sound. This vibration makes the salt jump.'",
+      "Explain Chladni figures: 'At specific frequencies, standing waves form in the membrane - like a skipping rope held at both ends. The salt moves to the still points (nodes) where the membrane does not vibrate, and these nodes form geometric patterns depending on the frequency.'",
+      "Compare high and low frequencies: low frequency (bass) sounds create larger, simpler patterns. High frequency (treble) sounds create smaller, more complex patterns.",
+      "Clean up: the salt is uncontaminated and can be poured back into the salt shaker or discarded normally. Remove the membrane and wash the bowl."
     ],
-    "tips": "This works even better with a subwoofer speaker. Try playing a single tone at different frequencies and watch the salt arrange into different geometric patterns."
+    "tips": "This works even better with a subwoofer speaker. Try a tone generator app to find the exact frequencies that create geometric patterns. The patterns are called Chladni figures after the physicist who first studied them."
   },
   {
     "id": 130,
@@ -3994,15 +4019,20 @@ const ACTIVITIES = [
     ],
     "description": "Build a working sundial and mark the hours over a day to track how the sun moves across the sky.",
     "steps": [
-      "Push a pencil vertically through the centre of a paper plate and secure with clay underneath.",
-      "Take it outside and use a compass to face the plate so north is marked on the edge.",
-      "At the start of each hour, mark where the shadow of the pencil falls and label it with the time.",
-      "Come back every hour through the day to mark the next shadow.",
-      "By the end of the day you will have a working sundial.",
-      "Test it the next sunny day - does the shadow match your markings?",
-      "Discuss: why does the shadow move? (Earth rotates, making the sun appear to move across the sky.)"
+      "Choose a sunny day and start early: this is a full-day project done in stages across the day. Pick a day when bright sunshine is expected from morning to afternoon. A partly cloudy day with frequent shadows makes accurate marking impossible.",
+      "Build the sundial base: lay a flat piece of card (at least 30x30cm) on a level surface outdoors. A paper plate also works well. Mark the centre clearly with a dot.",
+      "Make the gnomon (the shadow caster): push a sharpened pencil vertically through the centre of the plate and secure underneath with a ball of modelling clay to hold it upright and perfectly perpendicular. The pencil must be truly vertical - use a spirit level or check against a door frame.",
+      "Orient the sundial to north: use a compass app on a phone or a physical compass to find true north. Rotate the plate until the north direction is clearly marked on the rim. Note: compass north and true north differ slightly by longitude - for a simple sundial, compass north is close enough.",
+      "Mark the first hour: at exactly the top of an hour (e.g. 9:00am), observe where the shadow of the pencil falls on the plate. Using a marker, draw a line along the centre of the shadow and label it with the current time.",
+      "Return every hour: come back at the top of each subsequent hour throughout the day - 10am, 11am, 12pm, 1pm, and so on. Each hour, draw and label the new shadow position. The shadow moves approximately 15 degrees per hour.",
+      "Observe the shadow movement: between visits, notice that the shadow sweeps slowly around the gnomon as the day progresses, moving from left to right (in the Northern Hemisphere) as the sun moves across the sky from east to west.",
+      "Note solar noon: the shadow is shortest (directly north in the Northern Hemisphere) at solar noon - which is NOT necessarily 12:00 on the clock. It depends on your longitude within your time zone and the time of year. This is an interesting discrepancy to discuss.",
+      "Test the sundial the next sunny day: go outside and read what time the sundial shows. Compare to a clock. How accurate is it?",
+      "Discuss why it works: 'Earth rotates once every 24 hours. As it rotates, the sun appears to move across our sky. The shadow of the gnomon moves with it. The shadow completes a full circle in 24 hours, but since it is daylight for about 12 hours, we only see half the circle.'",
+      "Discuss the limitations: a sundial cannot work at night, in cloudy weather, or indoors. It needs to be re-oriented for different latitudes. Ancient civilisations designed sundials precisely for their specific latitude.",
+      "Create a permanent version: transfer the markings to a more durable material - a piece of wood, a clay tile, or a garden stone. This becomes a permanent garden ornament that actually tells the time."
     ],
-    "tips": "This is a multi-hour activity done across a whole day. Start first thing in the morning for the most markings."
+    "tips": "This is a multi-hour activity done across a whole day. Start first thing in the morning for the most markings. The sundial must stay in exactly the same position and orientation throughout the day."
   },
   {
     "id": 131,
@@ -4020,16 +4050,20 @@ const ACTIVITIES = [
     ],
     "description": "Fill glasses with different amounts of water to create a musical instrument you can actually play.",
     "steps": [
-      "Line up the glasses in a row.",
-      "Fill the first glass almost full, and each subsequent glass with progressively less water.",
-      "Add a different colour of food colouring to each glass.",
-      "Tap the side of each glass gently with the spoon.",
-      "Notice how the pitch changes with the water level.",
-      "More water = lower pitch. Less water = higher pitch.",
-      "Try to find glasses that match musical notes and play a simple tune.",
-      "Discuss: the water slows down the vibration of the glass, which lowers the frequency (pitch)."
+      "Choose your glasses: for the best musical results, use identical glasses - same shape, same size, same thickness. Wine glasses produce a rich tone; thick tumblers produce a duller sound. Glass or crystal resonates far better than plastic.",
+      "Set up 6-8 glasses in a row on a hard table surface (resonates better than a cloth-covered surface). Leave a few centimetres between each glass.",
+      "Fill the glasses with progressively different amounts of water: glass 1 almost full, each subsequent glass with 2-3cm less water. Glass 8 should have just 2-3cm of water. The progression from full to nearly empty should be even.",
+      "Add food colouring to each glass for visual appeal and easy identification: use different colours, or a gradient from one colour to another. The colouring also makes it easy to see the water vibrating during playing.",
+      "Test and tune: tap the side of each glass gently with a metal spoon or chopstick. Listen to the pitch. More water = lower pitch (slower vibration). Less water = higher pitch (faster vibration).",
+      "Fine-tune by adding or removing water: if two glasses sound the same pitch, adjust one slightly until they are clearly different. Aim for a set of glasses where each one sounds distinctly different and you can identify which is higher or lower.",
+      "Try to match a musical scale: use a piano app or a tuning app to identify the note each glass produces. Add or remove small amounts of water to match the notes C, D, E, F, G, A, B (a full octave).",
+      "Play a simple tune: once the glasses are tuned, try playing a simple melody. Nursery rhymes like Twinkle Twinkle Little Star are achievable once the scale is in place. Number the glasses 1-8 (lowest to highest) and practice.",
+      "Explain the science: 'When you tap a glass, the glass wall vibrates. These vibrations pass into the water and the air inside, creating a sound wave. More water means more mass vibrating more slowly - this produces a lower frequency, which we hear as a lower pitch.'",
+      "Try the singing glass technique: wet a finger and rub it slowly around the rim of a glass (a wine glass works best). With the right pressure and speed, the glass will produce a sustained ringing tone.",
+      "Compare glass vs plastic vs metal: tap an identical volume of water in a glass cup, a plastic cup, and a metal tin. Each produces a very different sound despite the same water level. Discuss: the material's vibrating properties (resonance) affect the tone.",
+      "Record a performance: record a short video of the child playing a tune on the water xylophone. The combination of visual appeal and musical achievement makes this genuinely performance-worthy."
     ],
-    "tips": "Use identical glasses for the best musical results - different shaped glasses produce inconsistent pitches."
+    "tips": "Use identical glasses for the best musical results - different shaped glasses produce inconsistent pitches. Tuning to an actual musical scale takes patience but is very rewarding."
   },
   {
     "id": 132,
@@ -4047,17 +4081,20 @@ const ACTIVITIES = [
     ],
     "description": "Connect two bottles and swirl them to create a miniature water tornado you can hold in your hands.",
     "steps": [
-      "Fill one bottle two-thirds full with water.",
-      "Add a pinch of glitter or tiny pieces of paper for visibility.",
-      "Connect the two bottles mouth-to-mouth with the tornado tube, or tape them together tightly.",
-      "Flip the filled bottle to the top.",
-      "Swirl the top bottle in a circular motion for 3-4 seconds.",
-      "Hold still and watch the water form a funnel vortex as it drains into the bottom bottle.",
-      "The vortex allows air to pass up while water spirals down.",
-      "Flip and repeat.",
-      "Discuss: the spinning motion creates centrifugal force, pushing water to the sides and leaving a air column in the centre."
+      "Prepare bottles: two identical large plastic bottles (1.5-2 litre drink bottles work well). Remove labels for the best view of the vortex. A tornado tube connector (available from science/educational stores for a few dollars) makes the connection leak-proof and permanent.",
+      "Fill one bottle: pour water into one bottle until it is approximately two-thirds full. Adding a pinch of glitter or a few drops of food colouring makes the vortex dramatically more visible.",
+      "Connect the bottles: if using a tornado tube, screw one bottle onto each end firmly. If using tape, hold the two bottles mouth-to-mouth and wrap waterproof tape (electrical or gaffer tape) around the joined necks very tightly in multiple layers. Test for leaks before proceeding.",
+      "Turn the connected bottles so the full bottle is on top: hold with both hands, one on each bottle.",
+      "The wrong way first: hold still and let gravity do its work. Water drains slowly in intermittent glugs from the top bottle to the bottom, with air bubbling upward through the middle. This is the baseline comparison.",
+      "Create the vortex: flip the bottles so the full bottle is again on top. Now move your wrists in a circular swirling motion for 3-4 revolutions, then hold steady. A spinning vortex forms in the top bottle.",
+      "Observe the difference: the water now drains much faster in a smooth, spiral flow. The vortex creates a hollow air column through the centre of the water, allowing air to travel upward freely while water spirals down around it simultaneously.",
+      "Flip and repeat: when all the water has drained, flip and swirl again. Each time, practice the wrist motion to create a consistent, tight vortex.",
+      "Experiment with swirl size: swirl more vigorously for a tighter, faster vortex. A gentle swirl creates a looser, slower spiral. A very vigorous swirl creates a small, tight, very fast vortex.",
+      "Time the two methods: time how long the slow drip-and-glug method takes versus the vortex method. The vortex is typically 3-5 times faster.",
+      "Explain the science: 'Spinning creates centripetal force - the same force you feel pressed against a car door when turning a corner. In the vortex, water is flung outward by rotation, leaving a hollow air column in the middle for air to travel upward while water travels downward. This is the same physics that creates real tornadoes and waterspouts.'",
+      "Add a small object: float a small piece of foam or paper in the water before assembling. Watch it spiral downward in the vortex. This shows the rotational motion of the water much more clearly than water alone."
     ],
-    "tips": "The circular swirl is key - a simple up-and-down flip does not create the vortex. Practice the wrist motion a few times."
+    "tips": "The circular swirl is key - a simple up-and-down flip does not create the vortex. Practice the wrist motion a few times. Glitter or food colouring makes the tornado much more visible."
   },
   {
     "id": 133,
@@ -4073,15 +4110,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw an animal or object without lifting your pen from the paper - one continuous flowing line.",
     "steps": [
-      "Choose a simple subject: a cat, a fish, a house, a face.",
-      "Put your pen down and do not lift it until the drawing is finished.",
-      "Move slowly and think ahead - you cannot go back.",
-      "Lines can cross over each other.",
-      "Try the same subject 5 times in a row and see how it improves.",
-      "Compare everyone's versions of the same subject.",
-      "Try a more complex subject: a dog, a person riding a bike, a tree with fruit."
+      "Introduce the challenge: 'You are going to draw something without lifting your pen from the paper. One continuous line, start to finish. Whatever you draw - no matter how strange it looks - is the result. No erasing, no starting over.'",
+      "Choose your first subject: start with something simple and familiar. A cat face, a fish, an apple, a simple house, or a human face are ideal first subjects. More complex subjects (animals in motion, landscapes) come after the technique is understood.",
+      "Place the pen on the paper and begin: trace slowly and deliberately, constantly looking ahead to plan the next section of line while the pen draws the current section. The line can cross over itself freely - these crossings add interesting internal shapes.",
+      "Think about necessity: 'What lines absolutely need to exist for this to be recognisable? Draw only those.' The constraint forces simplification to the essential visual information of each subject.",
+      "The first attempt will feel wrong: the proportions will be off, parts will be too large or too small. This is normal and expected. Resist the urge to restart. Finish the drawing completely, no matter how it looks.",
+      "Step back and look: one-line drawings almost always have an expressive, gestural quality that traditional drawing lacks. The distortions and oversimplifications often make the drawing more interesting, not less.",
+      "Repeat the same subject 5 times consecutively: lay five sheets side by side and draw the same subject five times in a row without lifting the pen. Improvement between the first and fifth drawing is almost always dramatic and visible.",
+      "Compare the five versions: 'Which is your favourite? Which looks most like the real thing? Which has the most energy? Do any of them look better than a careful drawing would?' Often the 3rd or 4th attempt is both more accurate and more dynamic than careful drawing.",
+      "Try the closed-eyes variation: draw the same subject again with eyes completely closed. Trust your hand to trace what your mental image knows. The result is abstract but often has remarkable captured essence.",
+      "Share and compare: if multiple people do the same subject with one line, comparing results reveals how different people see and simplify the same object. No two results are ever alike.",
+      "Try a complex subject: an animal in motion, a person sitting, a bicycle, a bouquet of flowers. Complex subjects with one line produce surprising results - some areas are carefully detailed, others are drastically simplified.",
+      "Discuss what makes this challenging and valuable: 'Artists use this exercise to train their eye to observe constantly rather than drawing from memory. Looking at the subject, not the paper, is the hardest part and also the most important skill in drawing.'"
     ],
-    "tips": "This is harder than it sounds and produces unexpectedly beautiful results. The imperfections are part of the charm. Try it with eyes closed for a bonus challenge."
+    "tips": "This is harder than it sounds and produces unexpectedly beautiful results. The imperfections are part of the charm. Try it with eyes closed for a bonus challenge. Repeat the same subject 5 times to see rapid improvement."
   },
   {
     "id": 134,
@@ -4179,15 +4221,20 @@ const ACTIVITIES = [
     ],
     "description": "Pick a scene from a favourite story or invent a new world and draw everything you imagine is in it.",
     "steps": [
-      "Choose a setting: a dragon's cave, an underwater city, a forest at night, a planet with two moons.",
-      "Start with the background - fill the whole paper first.",
-      "Add the middle ground: trees, buildings, mountains, water.",
-      "Add the foreground details closest to you: characters, objects, plants.",
-      "Think about light - where is the sun or the light source? Add shadows on the opposite side.",
-      "Add small details that tell a story: a footprint, smoke from a chimney, a door left open.",
-      "Give the scene a title and write it at the bottom."
+      "Choose the scene: spend 2-3 minutes deciding together before picking up a pencil. 'What is the most exciting world you can imagine?' Options: a dragon's cave filled with gold, a city under the sea, a forest where animals live in houses, a planet where everything is upside-down, a magical school, a jungle in the future with robots.",
+      "Plan the composition before drawing: 'What is in the background - the sky, distant mountains, or underwater horizon? What is in the middle - buildings, trees, the main location? What is right in front of us - what would we see first if we stepped into this world?'",
+      "Start with the background: use large, broad strokes to fill the sky, water, or sky-equivalent. This sets the scene's colour palette and mood. A dark purple sky immediately feels different from a golden sunset.",
+      "Add the middle ground: these are the scene's main architectural or environmental elements. Trees, buildings, mountains, underwater structures, the dragon's cave entrance. These define the setting and give scale.",
+      "Add the foreground: the elements closest to the viewer. These should be largest and most detailed. Characters, objects, ground textures. Foreground elements create depth and draw the eye into the scene.",
+      "Think about a light source: where is the sun, the glowing crystal, the bioluminescent water, or the magical light coming from? Objects should have highlights on the side facing the light and shadows on the opposite side.",
+      "Add story details: the best imaginative scenes tell a micro-story. A door left slightly open, footprints in the mud, smoke from a chimney, a treasure chest visible in a cave entrance, a sign pointing somewhere. These details invite questions: 'Who went through that door? Where does that path lead?'",
+      "Populate with characters: add 2-3 figures or creatures appropriate to the setting. They do not need to be perfectly drawn - stick figures in the right context tell the story. Give each character a clear action or purpose.",
+      "Layer details and textures: go back over the scene adding small details that were too complex for earlier passes. Scales on a dragon, windows in a building, individual stars in a night sky.",
+      "Think about what is happening: 'What is the story of this exact moment? Who is here and why? What just happened before this scene? What is about to happen?' Narrating this aloud often generates additional visual details.",
+      "Title the artwork: writing a title at the bottom transforms a drawing into a named world. 'The Deep City', 'Dragon's Hoard at Midnight', 'Where the Wild Robots Live.' Titles give the work gravitas.",
+      "Share the story: have the artist narrate their scene in detail. What can only they see that is not visible in the drawing? What history does this place have? Storytelling from visual prompts is a deeply valuable creative and verbal skill."
     ],
-    "tips": "Ask 'what would you see if you were standing there?' to help kids think about foreground, middle ground, and background naturally."
+    "tips": "Ask 'what would you see if you were standing there?' to help kids think about foreground, middle ground, and background naturally. Adding story details (footprints, open doors) makes drawings come alive."
   },
   {
     "id": 138,
@@ -4204,15 +4251,20 @@ const ACTIVITIES = [
     ],
     "description": "Press fingerprints and thumb prints onto paper then turn each blob into a character with a few pen strokes.",
     "steps": [
-      "Press a finger into the ink pad and make a print on the paper.",
-      "Make prints of different sizes using different fingers and thumbs.",
-      "Once dry, add tiny details with a fine marker: eyes, legs, arms, ears, tails.",
-      "A thumbprint with two dots becomes a bee. Four prints in a row become a caterpillar.",
-      "Combine prints: one large thumb for a body, smaller fingerprints for the head and limbs.",
-      "Fill the whole page with a scene of fingerprint characters.",
-      "Sign it at the bottom with your actual fingerprint."
+      "Prepare the ink pad: place a few paper towels in a shallow container and pour a small amount of washable paint onto them, spreading evenly. The towels absorb the paint and create a homemade stamp pad that works exactly like a commercial ink pad. Test by pressing a finger and making a print.",
+      "Introduce the concept: 'Press your finger in the paint, then onto the paper. That shape is your fingerprint. Now we are going to turn each fingerprint into a different character just by adding a few pen marks.'",
+      "Make a variety of prints using different fingers and thumbs: thumbs create the largest prints for main characters. Index and middle fingers create medium prints. Pinkies create small prints for background elements. Experiment with lighter and heavier pressure.",
+      "Let the prints dry for 2-3 minutes before adding pen details: wet prints smear when the marker moves through them. Partial drying (not fully dry) allows the marker to draw on a slightly tacky surface that holds ink well.",
+      "Add the smallest details with the finest marker available: eyes are just two tiny dots. A curved line becomes a smile. Two small lines become antennae. Two C-shapes become ears. Six short lines become legs.",
+      "Build different characters: a thumbprint with two small circles on top becomes a bear. A thumbprint with two long ears becomes a bunny. A row of four connected prints becomes a caterpillar. A small oval print with a tiny beak and V-feet becomes a bird.",
+      "Layer prints to build more complex characters: use one large print for a body, a medium print for the head overlapping slightly above. Add print limbs in different colours. Build a dog, a giraffe (tall oval with spots), or a person with arms out.",
+      "Create a fingerprint scene: fill the whole page with a related scene. A pond with fingerprint fish, fingerprint frogs, and fingerprint dragonflies. A sky with fingerprint birds and clouds. A garden with fingerprint bees visiting fingerprint flowers.",
+      "Make fingerprint patterns: press repeating prints in a line, a circle, or a grid. Then add different pen details to each - some become faces, some become animals, some become abstract patterns.",
+      "Try combinations and inventions: there are no rules. A fingerprint can become whatever mark is added to it. Some of the best characters come from unexpected combinations the child invents without prompting.",
+      "Finish and sign: sign the artwork at the bottom with the child's own fingerprint - the actual fingerprint used as a signature. This is both personal and unique.",
+      "Display or gift: fingerprint art works beautifully as personalised greeting cards, bookplates, or small framed gifts. A set of fingerprint notecards makes an excellent handmade present."
     ],
-    "tips": "The marker detail step is where the magic happens. Leave space around each print so kids can think about what to add."
+    "tips": "The marker detail step is where the magic happens. Leave space around each print so kids can think about what to add. Fine-tip black marker makes the most precise details on thumbprint characters."
   },
   {
     "id": 139,
@@ -4449,15 +4501,20 @@ const ACTIVITIES = [
     ],
     "description": "Write letters, numbers, and drawings in a sand tray - shake to erase and start again. Great for early writing practice.",
     "steps": [
-      "Fill the tray with enough sand or salt to cover the bottom in a thin even layer.",
-      "Tilt and shake to make the surface completely flat.",
-      "Use a finger or stick to write a letter.",
-      "Say the letter sound aloud while writing it.",
-      "Shake the tray to erase and repeat.",
-      "Draw pictures, practise numbers, copy words from a book.",
-      "Let children write freely without correction - it is the movement that matters."
+      "Set up the sand tray: use a shallow tray, baking dish, or roasting pan - approximately 30x20cm is ideal. Fill with enough fine sand, table salt, or cornmeal to cover the bottom in a 1cm even layer. Salt is finer than sand and shows clearer letter marks; cornmeal has a pleasant texture for younger children.",
+      "Introduce the tray: 'This is a magic writing board. You write in it with your finger, then shake it and it is completely clean again. You can make as many mistakes as you want.' The erasable nature removes performance anxiety completely.",
+      "Tilt and shake the tray gently to create a perfectly flat, smooth surface. The letter marks should show as dark lines against the lighter background of the sand.",
+      "Start with one familiar letter: the first letter of the child's name is always the most motivating starting point. Say: 'Can you write the first letter of your name?' Demonstrate with your own finger first, narrating the movements: 'Down, up, and around.'",
+      "Use multisensory narration: narrate every letter stroke aloud as you or the child makes it. 'S: start at the top, curve around to the left, back around to the right, finish at the bottom.' Simultaneously hearing and feeling the movement of each letter dramatically improves retention.",
+      "Practice one letter multiple times: shake to erase and repeat the same letter 3-5 times before moving on. Repetition with erasure feels less repetitive to children than repeatedly writing in pencil on paper.",
+      "Progress through the alphabet: work through letters gradually over multiple sessions. Focus on letters the child already knows by name but cannot yet form, using the tray to practice the motor movements.",
+      "Practice full words: write simple 3-letter words (cat, dog, sun, hat). Say each letter sound aloud as you write it: 'C - /k/ sound. A - /a/ sound. T - /t/ sound. CAT.'",
+      "Practice numbers: draw each digit and make a corresponding number of small circles alongside it. 3 in the sand, three circles drawn next to it. Count them together.",
+      "Eyes-closed challenge for older children: name a letter and ask the child to write it with eyes closed, trusting muscle memory. Compare with eyes open. The difference in accuracy reveals how much motor memory has been built.",
+      "Adapt for different learning stages: babies and toddlers (12-24 months) simply enjoy dragging fingers and watching marks appear - this is pre-writing fine motor development. Children aged 3-4 recognise and trace letters an adult makes. Children aged 5+ practice forming letters independently.",
+      "Clean up: the tray stores indefinitely. Keep it accessible for spontaneous use during the day. Many children use the sand tray independently when they pass it and see it sitting out."
     ],
-    "tips": "The resistance of the sand provides important sensory feedback that helps children remember letter shapes. Salt is finer and works better for small details."
+    "tips": "The resistance of the sand provides important sensory feedback that helps children remember letter shapes. Salt is finer and works better for small details. The erasable nature removes fear of mistakes."
   },
   {
     "id": 148,
@@ -4571,15 +4628,20 @@ const ACTIVITIES = [
     ],
     "description": "Take turns adding to a drawing one at a time - the evolving result is always unexpected and hilarious.",
     "steps": [
-      "Agree on a subject: a house, a monster, an alien planet, a zoo.",
-      "The first player draws for 30 seconds.",
-      "When time is up they must stop mid-line if necessary and hand the marker to the next player.",
-      "The next player continues or adds something new.",
-      "Keep going until the paper is full.",
-      "Stand back and look at the whole thing.",
-      "Give the finished artwork a dramatic title."
+      "Set up the drawing space: tape a large piece of paper (flip-chart paper, several A3 sheets taped together, or craft paper from a roll) to a table or wall. The drawing area should be large enough for several people to work simultaneously without bumping elbows.",
+      "Choose a drawing subject: select something rich enough for multiple contributions. Good subjects: a house with all its rooms and everything in them, a fictional map of an imaginary place, an alien landscape, the world's most interesting monster, or a zoo with the world's strangest animals.",
+      "Assign a timer: set a phone or kitchen timer to 30 seconds (or 45 seconds for younger children). The timer rules are absolute - every player must stop when it goes off, even in the middle of a line. This is the rule that creates the chaos and humour.",
+      "First player begins: they draw for 30 seconds, contributing whatever they choose to the emerging scene. They must stop the instant the timer sounds, even mid-stroke.",
+      "Second player continues: the second player picks up a marker (different colour if desired) and adds to or continues the drawing from exactly where the previous player stopped or in a new area entirely. Their 30 seconds starts immediately.",
+      "Establish the rule against planning: players should not tell each other what to draw next. The surprise of what each person contributes is the entertainment. Planning removes the randomness that makes this game work.",
+      "Continue rotating through all players: keep rotating until the paper is reasonably full or everyone has had 4-5 turns. The drawing accumulates and becomes increasingly complex and surprising.",
+      "Mid-game observation: pause occasionally (without stopping the timer rule) for everyone to step back and look at the whole drawing. Noticing the emerging picture together creates shared laughter and new energy.",
+      "Last round: the final player's job is to add finishing touches - a sun, some ground, a sky, or labels and signs. These contextual elements tie the whole chaotic drawing together.",
+      "The titling ceremony: once the drawing is complete, have everyone contribute one word toward a title. Write the full title across the top. 'The Magnificent Underwater Dragon Library of the Future' is a typical result.",
+      "Display: hang the collaborative drawing where it can be seen. Collaborative artwork often has more energy and character than solo drawings and children remember making it fondly.",
+      "Variation - progressive story drawing: instead of a shared scene, each player continues a narrative sequence - panel 1, panel 2, panel 3 like a comic strip, with each player's 30 seconds advancing the story."
     ],
-    "tips": "The rule that you must stop when the timer goes - even in the middle of a line - is what creates the chaos and humour."
+    "tips": "The rule that you must stop when the timer goes - even in the middle of a line - is what creates the chaos and humour. Use different coloured markers so each person's contributions are visible."
   },
   {
     "id": 153,
@@ -4619,15 +4681,20 @@ const ACTIVITIES = [
     ],
     "description": "Find rhyming pairs, invent rhyming words, and play with the sounds of language.",
     "steps": [
-      "Say a word and ask for a word that rhymes: cat - hat - bat - mat - sat.",
-      "Walk around the house and pick up objects, saying their name and trying to find a rhyme.",
-      "If an object has no real rhyming word, make one up: 'shelf - welf!'",
-      "Play rhyme or not-rhyme: say two words and they decide if they rhyme.",
-      "Sing nursery rhymes and pause before the rhyming word for them to fill in.",
-      "Make up a silly two-line rhyme together: 'I sat on a cat. The cat wore a hat.'",
-      "Write the rhymes down and illustrate them."
+      "Introduce with an explanation: 'We are going to play with sounds today. Some words share the same ending sound - cat and hat both end in -at. These words rhyme. Let us hunt for as many as we can find.'",
+      "Start with a familiar rhyming pair: cat/hat, dog/log, bee/tree. Say both words and exaggerate the ending sound: 'CAT... HAT. Can you hear the -at sound at the end of both?'",
+      "Play the fill-in rhyme game with familiar nursery rhymes: recite a rhyme the child knows well, pausing just before the rhyming word. 'Humpty Dumpty sat on a wall, Humpty Dumpty had a great...' Allow the child to supply the rhyming word.",
+      "Try the rhyme chain: start with a word and see how long a chain of rhymes you can make before running out. Cat - hat - bat - mat - sat - fat - rat - pat - that - flat - splat - brat - scat. Nonsense or made-up words count and are encouraged: scat, spat, frat.",
+      "Walk through the house and rhyme objects: pick up or point to each object and try to find a real or invented rhyme. Shelf - welf. Door - more. Chair - bear. Some will have no real rhymes at all - celebrate inventing nonsense rhymes instead.",
+      "Play rhyme-or-not: say two words and ask the child to decide. 'Cat and dog - rhyme or not?' 'Dog and log - rhyme or not?' Introduce some tricksters: words that look like they should rhyme but don't (home/some) and words that rhyme but don't look like it (bear/care).",
+      "Make a rhyming story together: 'Let us make up a story where every sentence ends in a rhyme. I will say the first line, you say the second.' This is an advanced rhyming challenge for children who have mastered basic rhyming.",
+      "Write and illustrate a couplet: once a rhyming pair is found, write it down as a two-line poem. 'I sat on a cat. The cat wore a hat.' Draw a picture to go with it.",
+      "Play the slow reveal game: describe an object with rhyming clues. 'I rhyme with fog, I am a pet, I like to bark.' The child guesses based on the rhyme clue and the description clues together.",
+      "Introduce onset-rime: explicitly separate the onset (beginning consonant) from the rime (ending vowel+consonants). 'C - AT. B - AT. H - AT.' Clapping the syllable break while saying it adds a kinesthetic element.",
+      "Document the rhyme families: keep a running list of rhyme families on a whiteboard or paper. Add new words whenever they are discovered. Over weeks, the list becomes a visible record of vocabulary growth.",
+      "Celebrate the silliness: the silliest, most impossible, most made-up rhymes are the best ones. 'Shelf - belf - welf - zelph - kelf.' The playfulness is the learning. Rhyme awareness is a foundational literacy skill developed through enjoyment."
     ],
-    "tips": "Rhyme awareness is one of the strongest predictors of reading success. This is genuinely valuable phonics play, even when it seems silly."
+    "tips": "Rhyme awareness is one of the strongest predictors of reading success. This is genuinely valuable phonics play, even when it seems silly. Nonsense rhymes count and are just as valuable as real words."
   },
   {
     "id": 155,
@@ -4666,15 +4733,20 @@ const ACTIVITIES = [
     ],
     "description": "Sort and order objects from smallest to largest - and introduce the vocabulary of size comparison.",
     "steps": [
-      "Gather 5 objects that come in clearly different sizes (or use building blocks).",
-      "Ask: which one is the biggest? Can you find the smallest?",
-      "Arrange them in order from smallest to largest.",
-      "Introduce vocabulary: small, medium, large, smaller, larger, smallest, largest.",
-      "Compare two at a time: 'Is this block bigger or smaller than this one?'",
-      "Sort into two groups: big things and small things.",
-      "Find things in the house that are bigger than a book and smaller than a book."
+      "Gather a set of 5 objects with clearly different sizes: building blocks in graduated sizes, toy cars of different scales, shoes from different family members, or sticks collected outdoors. Size differences should be visually obvious at this stage.",
+      "Ask 'which one is biggest?' and let the child point or pick it up: do not correct immediately if they choose incorrectly. Ask 'are you sure? Let us compare this one and that one directly.' Hold the two items side by side.",
+      "Direct comparison: hold two objects at the same level and compare them directly. 'This block goes up to here. This block goes up to here. Which is taller?' Direct comparison is more accessible than abstract 'sorting'.",
+      "Find the smallest: 'Now we have the biggest. Can you find the smallest one? The one that is smaller than all the others?'",
+      "Order all 5 from smallest to largest: lay them in a line. If the child struggles, use direct comparison - hold two adjacent objects next to each other to confirm which goes first.",
+      "Introduce comparative vocabulary explicitly: 'This one is big. This one is bigger. This one is the biggest. This one is small. This one is smaller. This one is the smallest.' Using the full trio (big/bigger/biggest) together establishes the comparison structure.",
+      "Reverse the order: 'Now can you line them up from biggest to smallest?' Reversing the order is a separate cognitive task that demonstrates understanding.",
+      "Sort into two groups: push all items to the middle and ask 'Can you sort these into two groups: big things and small things?' The boundary between 'big' and 'small' is up to the child to decide. Discuss where they drew the line and why.",
+      "Find household comparisons: 'Can you find something in this room that is bigger than a book? Can you find something smaller than your hand? Can you find something that is exactly the same size as your shoe?'",
+      "Measure with non-standard units: 'How many blocks tall is this tower? How many of your footsteps to the kitchen?' Non-standard measurement precedes formal measurement and develops the concept of units.",
+      "Introduce a ruler or measuring tape: for children ready for numbers, measure 2-3 objects with a ruler. 'This stick is 15. This stick is 10. Which number is bigger? So which stick is bigger?'",
+      "Connect size to real-world context: 'Why does it matter which is bigger? If you need a cup that holds more juice, which would you choose? If you need a book that fits in your pocket, which would you choose?' Purpose and context make measurement meaningful."
     ],
-    "tips": "Use objects from the real environment - shoes, cups, containers - to make the concept feel relevant rather than abstract."
+    "tips": "Use objects from the real environment - shoes, cups, containers - to make the concept feel relevant rather than abstract. Direct comparison (holding two items side by side) is more powerful than abstract sorting."
   },
   {
     "id": 157,
@@ -4690,15 +4762,20 @@ const ACTIVITIES = [
     ],
     "description": "Roll playdough into snakes and form letters and numbers - muscle memory from shaping aids retention.",
     "steps": [
-      "Roll a piece of playdough into a long sausage.",
-      "Curve and bend it to form the letter A.",
-      "Say the letter name and its sound.",
-      "Make the same letter a few more times.",
-      "Try their name: each letter built one by one.",
-      "For numbers: build each digit and count out that many small playdough balls alongside it.",
-      "Challenge: can they guess a letter you make with their eyes closed, just by feeling it?"
+      "Set up the playdough station: place a ball of playdough at each workspace with a clean, smooth surface to work on. Homemade playdough at room temperature is softer and more workable than cold playdough from the fridge. Warm cold playdough by kneading briefly.",
+      "Introduce with the snake technique: show how to roll playdough into a long sausage (snake) by pressing lightly and rolling forward-and-back with an open palm. This is the fundamental skill for all letter-making. Practice making snakes of consistent thickness.",
+      "Start with the first letter of the child's name: this has the highest personal significance and motivation. Announce: 'We are going to make the first letter of your name! Let us make it together first.' Form the letter alongside the child before asking them to try alone.",
+      "Shape the letter together: form the snake and curve or bend it into the letter shape. Narrate every move: 'For the letter S, we start at the top, curve around to the left, then back around to the right at the bottom. Like a snake shape.'",
+      "The child forms the same letter independently: they make their own snake and try to shape it into the same letter. Accept all reasonable approximations - a recognisable attempt counts as success.",
+      "Repeat the same letter 3 times: shake out the hands, reform the playdough into a ball, and make the same letter again. The third attempt is almost always noticeably better than the first.",
+      "Progress to other letters in the name: work through each letter of the child's name over the session. Spell it out with completed letters side by side.",
+      "Build numbers alongside quantities: form the digit 3 in playdough, then press three small balls alongside it. Count the balls while pointing: 'One, two, three. The number 3 means three things.' Repeat with digits 1-5.",
+      "Letter recognition game: the adult makes a letter in playdough and the child names it, or the adult calls out a letter and the child makes it. Identifying and forming are both important skills.",
+      "Eyes-closed formation: for children confident with several letters, name a letter and ask them to form it with eyes closed. The motor memory developed through playdough practice is real and measurable.",
+      "Introduce uppercase and lowercase: make the same letter in both uppercase and lowercase playdough forms side by side. 'A and a are the same letter - capital A is for the start of a sentence or name, small a is for everywhere else.'",
+      "Transition to pencil: after playdough practice, immediately transition to writing the same letters with a pencil on paper. The muscle memory from the three-dimensional manipulation directly supports the smaller fine motor movements needed for pencil writing."
     ],
-    "tips": "The physical act of forming the letter reinforces memory far better than tracing. Let them be imperfect - a wonky B is a great B."
+    "tips": "The physical act of forming the letter reinforces memory far better than tracing. Let them be imperfect - a wonky B is a great B. Always transition to pencil after playdough for skill consolidation."
   },
   {
     "id": 158,
@@ -4775,15 +4852,20 @@ const ACTIVITIES = [
     ],
     "description": "Transform cardboard tubes into animals, monsters, robots, and characters.",
     "steps": [
-      "Paint the tube a base colour and let dry.",
-      "Cut construction paper into ears, wings, horns, tails, or other features.",
-      "Glue features onto the tube.",
-      "Add googly eyes.",
-      "For legs: fold a strip of paper accordion-style and attach to the bottom.",
-      "For a caterpillar: make 4-5 tubes, paint them different colours, and connect with pipe cleaners.",
-      "For a rocket: add a pointed paper cone on top and flame strips at the bottom."
+      "Collect and save cardboard tubes over several weeks: toilet paper tubes are small and ideal for small creatures. Kitchen roll tubes are larger and good for tall creatures like giraffes or robots. Paper towel roll tubes can be cut to custom lengths.",
+      "Plan the creature first: 'Before we start, let us decide what we are making. What kind of creature lives in this tube? An animal, a robot, a monster, a fairy tale character?' Sketching a quick rough idea on paper helps organise the construction.",
+      "Paint the base colour: paint the exterior of the tube in the main body colour of the creature and allow to dry completely before adding any features. Wet paint causes paper features to buckle and fall off.",
+      "Cut features from construction paper: ears, wings, fins, horns, tails, and collars. For a cat: two triangle ears. For a rabbit: two long rectangles rounded at the top. For a dragon: triangular wing shapes. Cut tabs at the bottom of each feature for gluing.",
+      "Assemble features: apply a generous amount of craft glue to each tab and press against the tube. Hold for 30 seconds. Allow additional drying time before proceeding.",
+      "Add googly eyes: position them for character. Eyes close together look different from eyes wide apart. Low-set eyes give a tired look; high-set gives an alert look. Discuss the difference before committing.",
+      "Make legs that bounce: cut a strip of paper and fold it accordion-style (zigzag folding). Glue each end to the side of the tube. These accordion legs have a springy, wobbly quality that non-accordion legs lack.",
+      "Make a specific animal: giraffe - cut the tube lengthways to one-third from the bottom and fold the top section into a head. Add paper ears and horns. Paint yellow with brown patches.",
+      "Build a diorama: make multiple tube creatures of the same type for a whole zoo, farm, or fantasy village. Stand them in a shoebox with painted background scenes.",
+      "Make a rocket: push a cone of paper into the top of the tube. Add three triangular fins at the base. Paint silver or decorate with window portholes and NASA-style markings. Add flame-coloured tissue paper strips at the bottom.",
+      "Create puppets: cut out both ends of the tube completely and the child's fingers become the creature's legs. A rabbit or monster with finger-legs is endlessly entertaining and works as a puppet show prop.",
+      "Stage a performance: once several creatures are made, create a simple story for them to act out. The tube creatures become the cast of an improvised play, extending the creative experience beyond the craft."
     ],
-    "tips": "Save rolls for weeks in advance - have a big collection before sitting down to make a whole zoo."
+    "tips": "Save rolls for weeks in advance - have a big collection before sitting down to make a whole zoo. Paint the base colour first and let it dry before adding features - wet paint makes paper features buckle."
   },
   {
     "id": 161,
@@ -4801,15 +4883,20 @@ const ACTIVITIES = [
     ],
     "description": "Mix glue, foam, and salt into a paint that dries puffy and 3D.",
     "steps": [
-      "Mix 2 tablespoons each of white glue, shaving foam, and salt in a bowl.",
-      "Stir until combined.",
-      "Divide into smaller bowls and add food colouring to each.",
-      "Apply to card by spreading, piping from a zip-lock bag, or spooning.",
-      "Build up thick areas for maximum puffiness.",
-      "Leave undisturbed to dry completely - at least 24 hours.",
-      "As it dries it puffs up and becomes a raised 3D surface."
+      "Make the puffy paint: in a mixing bowl, combine equal volumes of white school glue, shaving foam, and table salt - approximately 2 tablespoons of each. Stir gently until just combined. Do not over-mix or the shaving foam will deflate.",
+      "Divide and colour: spoon the mixture into 4-5 small bowls or cups. Add different food colouring to each and stir carefully. The mixture should remain light and airy.",
+      "Prepare the painting surface: thick card or cardboard is ideal - regular printer paper warps when wet. Cut to the desired size. Cardboard from cereal boxes works perfectly.",
+      "Apply the puffy paint: there are three application methods, each producing different effects. Spreading with a palette knife creates smooth fields of colour. Spooning drops creates textured blobs. Piping from a zip-lock bag with one corner snipped creates lines, swirls, and detailed shapes.",
+      "Create a subject: clouds work beautifully because their natural form is lumpy and three-dimensional. A sun with thick, raised rays. A snowy landscape. An ice cream with puffy scoops. Flowers with raised petals. The subject should have areas that benefit from being three-dimensional.",
+      "Build up thick areas deliberately: the puffing effect is proportional to the depth of the mixture. A thin scraping barely raises. A thick blob puffs dramatically. Build up the areas you most want to be three-dimensional.",
+      "Leave completely undisturbed to dry: place the artwork on a flat surface where it will not be moved for at least 24 hours. Moving wet puffy paint causes it to spread and lose its shape. Checking progress by touching collapses the puffiness.",
+      "Observe the drying process: check at intervals - after 4 hours, 12 hours, and 24 hours. The mixture transforms from wet and smooth to dry, raised, and slightly crunchy on the surface.",
+      "Test the texture when dry: the dried surface is light, soft, and textured - distinctly different from flat acrylic paint. Press gently with a fingertip to feel the three-dimensional quality.",
+      "Add details after drying: once fully dry, use a fine marker or brush with regular paint to add outlines, details, and text. The dry puffy paint surface accepts marker well.",
+      "Troubleshoot: if the paint did not puff much, the mixture likely had too little shaving foam or was over-mixed. If it spread too much, the card was not flat during drying or the mixture was too thin.",
+      "Display: the three-dimensional quality of puffy paint artwork is best displayed flat or at a slight angle so the raised texture is visible. Mounting on a dark background makes the white puffy paint especially striking."
     ],
-    "tips": "The more thickly applied, the more it puffs. Thin layers barely raise. This is excellent for tactile drawings and sensory art."
+    "tips": "The more thickly applied, the more it puffs. Thin layers barely raise. This is excellent for tactile drawings and sensory art. Leave completely undisturbed for 24 hours - checking by touching collapses the puffiness."
   },
   {
     "id": 162,
@@ -4828,15 +4915,20 @@ const ACTIVITIES = [
     ],
     "description": "Lash four twigs into a frame with twine and decorate with natural materials.",
     "steps": [
-      "Find 4 twigs roughly the same diameter and cut two to the same length and two slightly longer.",
-      "Lay them out in a rectangle.",
-      "At each corner, wrap twine tightly in an X pattern 6-8 times, then wrap between the twigs 2-3 times and tie off.",
-      "An adult can add a dot of hot glue to each wrapped corner to secure.",
-      "Glue dried flowers, seed heads, or leaves along the frame.",
-      "Attach the photo to the back with glue or tape.",
-      "Tie a hanging loop of twine to the top."
+      "Collect twigs on a walk: look for straight twigs that have already fallen naturally. Choose 4 that are similar in diameter (thickness) - this makes the wrapped corners more even and the frame lie flat. Avoid very thin or very thick twigs. Collect a few extras in case some snap.",
+      "Cut to length: using secateurs or a craft knife (adult task), cut two twigs to the same length for the shorter sides, and two slightly longer (5-10cm longer) for the longer sides. The frame can be any proportional rectangle - portrait or landscape.",
+      "Prepare the corner wrapping: cut 4 lengths of natural twine approximately 30cm each - one for each corner. Natural materials (jute twine, hemp cord, or linen thread) look most appropriate with twigs. Coloured yarn also works.",
+      "Wrap the first corner: overlap two twigs at right angles at the corner. Hold them firmly at the joint. Wrap the twine diagonally over the joint in an X pattern - over both twigs from top-right to bottom-left, then over both from top-left to bottom-right. Repeat this X pattern 6-8 times.",
+      "Frapping (tightening the wrap): after the X wrapping, bring the twine between the two twigs and wrap around the wrapping itself 2-3 times (not around the twigs). Pull this tight. This tightens the whole bundle. Tie off with a secure knot.",
+      "Repeat for all four corners: wrap each corner in the same way. Check after each corner that the frame is square - lay it flat and compare the diagonal measurements (they should be equal if the frame is square).",
+      "Reinforce with hot glue (adult task): run a small bead of hot glue at each wrapped corner and press firmly. This sets permanently and prevents the frame from flexing or loosening over time.",
+      "Decorate the frame: glue dried flowers, seed heads, small pine cones, preserved leaves, or other natural materials to the twig surface. Position them before gluing to plan the arrangement. Apply glue to the frame and press each decoration into it.",
+      "Allow all glue to set: give the frame 30 minutes at minimum after all gluing is complete before handling it further.",
+      "Attach the photo: trim a photo to fit slightly smaller than the frame opening. Attach to the back of the frame with tape or a small amount of glue, positioning it centrally behind the opening.",
+      "Add a hanging loop: tie a 20cm length of twine to each of the two top corners of the frame. Gather both twines above the frame and tie them together at the desired hanging height. The loop should sit high enough that the frame hangs level.",
+      "Gift or display: a twig photo frame with a meaningful photo is a genuinely treasured handmade gift. Write the child's name and the date on the back with a marker so the recipient knows when it was made."
     ],
-    "tips": "Collect twigs after rain when they are slightly flexible. Let the frame dry fully before adding the photo or it may warp."
+    "tips": "Collect twigs after rain when they are slightly flexible. Let the frame dry fully before adding the photo or it may warp. Natural twine (jute or hemp) complements the twig material beautifully."
   },
   {
     "id": 163,
@@ -4854,15 +4946,20 @@ const ACTIVITIES = [
     ],
     "description": "Fill a jar with memories from the year, then read them aloud on New Year's Eve.",
     "steps": [
-      "In January, decorate a large jar with glitter, ribbon, and a label: 'Good Things This Year'.",
-      "Throughout the year, whenever something good happens, write it on a strip of paper and add it to the jar.",
-      "Ideas: a funny thing someone said, a day that was really fun, something you learned, something you are proud of.",
-      "On New Year's Eve, gather together and take turns pulling slips out of the jar.",
-      "Read each one and remember.",
-      "Talk about which memory was the best.",
-      "Start a new jar for the coming year."
+      "Start in early January: the jar's power depends on filling it throughout the whole year. Starting in January captures the whole year's experiences. Introduce the concept: 'Every time something good happens this year - big or small - we are going to write it down and put it in this jar. On New Year's Eve, we will read them all.'",
+      "Prepare the jar: choose a large, clear glass jar so the filling slips are visible accumulating inside. Decorate the outside with paint pens, ribbon, or a glued-on label. Write 'Good Things [Year]' clearly on the outside.",
+      "Establish the filling habit: place the jar, a stack of small paper strips, and a pen together in a visible, accessible spot - the kitchen counter, a bedside table, or a family notice board. Proximity is essential - out of sight means out of mind.",
+      "Define what goes in: anything positive is eligible. Funny things someone said, a day out, an achievement, something that made you laugh, a new friendship, a problem that was solved, a book you loved, a delicious meal, a kind thing someone did. No entry is too small.",
+      "Add entries regularly throughout the year: aim for at least one entry per week. In busy or difficult periods, even very small good things count: 'The sun came out today.' 'We had a really good dinner.' 'Dad made us laugh.'",
+      "Write with enough detail to trigger the memory: 'Fun day at the beach' is good; 'The day we made sandcastles and Dad got his trousers wet trying to save them from the tide and we all laughed so much' is better. Enough detail means the memory is vivid when read aloud later.",
+      "Let all family members contribute: each person writes in their own handwriting. Include entries from children who cannot yet write by having them dictate while an adult writes. Seeing a child's own handwriting on an entry from January is remarkable in December.",
+      "On New Year's Eve: gather together and ceremonially open the jar. Take turns drawing out slips at random and reading them aloud. Do not read them in order.",
+      "The reading experience: some slips will be immediately remembered and cherished. Some will be half-forgotten and bring a rush of warm recognition. Some will be complete mysteries - 'What did I mean by this?'",
+      "Discuss the year: after all slips are read, ask each person to name their favourite memory from the jar. Compare: do different family members have different favourites? Did you forget how many good things happened?",
+      "Archive the year's slips: put all the slips from the year into a labelled envelope (Year X) and store it. In ten years, an archive of memory jars is an extraordinary family record.",
+      "Start a new jar: on New Year's Day, set up the jar for the new year. The tradition continues."
     ],
-    "tips": "Keep the jar somewhere visible so you remember to add to it. Even one strip a week gives you 52 memories by December."
+    "tips": "Keep the jar somewhere visible so you remember to add to it. Even one strip a week gives you 52 memories by December. Write enough detail to trigger the memory clearly when read months later."
   },
   {
     "id": 164,
@@ -4879,15 +4976,20 @@ const ACTIVITIES = [
     ],
     "description": "Make a personalised coupon book of acts of service and kind gestures for Mum.",
     "steps": [
-      "Cut card into small coupons.",
-      "On each one, write or draw a different gift of time or effort.",
-      "Ideas: one free breakfast in bed, one big hug, one tidy bedroom, one back massage, one day without arguing, one written letter.",
-      "Make a cover card: 'Coupons for Mum, with love from [name].'",
-      "Decorate with drawings, hearts, and colour.",
-      "Staple or bind together.",
-      "Present on Mother's Day."
+      "Introduce the concept a week before Mother's Day: 'Instead of something you buy, you are going to give Mum something more valuable - your time and effort. We are going to make a coupon book of promises.' This framing helps children understand the gift is more than its physical form.",
+      "Plan the coupons together: brainstorm a list of possible coupons before cutting any card. What does Mum actually value? What would make her day easier or more enjoyable? Good suggestions: one breakfast made (age-appropriate), one bedroom fully tidied, one back massage, one cup of tea or coffee made, one afternoon of playing together without complaints, one read-aloud of her favourite chapter, one full day with no arguing.",
+      "Cut the coupon cards: cut small cards approximately business-card size (9x5cm). Cut enough for 8-12 coupons plus a cover card. Rounded corners give a more polished result.",
+      "Design each coupon: each coupon should clearly state the gift it represents. Write the text first in pencil, then trace over with a marker when satisfied. Add a small illustration on each coupon that represents the gift.",
+      "Keep promises realistic: children often want to promise grand things. Gently guide toward things they can actually deliver: 'One free breakfast in bed' is achievable only if the child can safely make toast or cereal. 'One day without arguing' requires genuine effort but is possible.",
+      "Create a decorative border or design: draw a border on each coupon, add stars, hearts, or a consistent theme colour that runs through all the coupons.",
+      "Make the cover card: 'Coupons for Mum' in large decorative lettering. 'From [child's name] with love.' Add the year. Decorate with the child's drawings of their mum's favourite things.",
+      "Assemble the book: arrange the coupons in a pleasing order. Stack them with the cover on top. Bind with a staple at the top-left corner, or punch two holes and tie with ribbon, or use a small binder clip.",
+      "Optional envelope: place the completed book in a small envelope or wrap in tissue paper with a ribbon. The presentation adds to the gift experience.",
+      "Deliver with words: encourage the child to hand over the book with a spoken message. 'I made this for you because I wanted you to know I love you and I want to do nice things for you.' Rehearsing this beforehand helps shy children.",
+      "Honour the coupons: when coupons are redeemed, follow through completely and without complaint. The coupon's value is entirely in its reliable redemption. A redeemed coupon becomes a warm memory for both.",
+      "Preserve the book: encourage the recipient to keep the coupon book even after all coupons are redeemed. A child's handwritten coupon book is genuinely treasured for decades."
     ],
-    "tips": "These are often treasured for years. Make sure the coupons are things the child can realistically deliver - nothing too vague."
+    "tips": "These are often treasured for years. Make sure the coupons are things the child can realistically deliver - nothing too vague. When a coupon is redeemed, follow through without complaint for the gift to feel meaningful."
   },
   {
     "id": 165,
