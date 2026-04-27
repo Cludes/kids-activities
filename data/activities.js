@@ -4068,6 +4068,999 @@ const ACTIVITIES = [
       "Award certificates for completion times.",
     ],
     tips: "The design-build phase teaches spatial reasoning and planning. The self-timing teaches that improvement comes from practice. For mixed-age groups, create different 'difficulty lanes' running in parallel so all ages compete appropriately. Indoor courses on cushions build proprioception (body awareness) particularly well."
+  },
+
+  // ── SEASONAL (more) ─────────────────────────────────────────────────────
+  {
+    id: 266, title: "Pancake Day Crepes", category: "seasonal", emoji: "🥞",
+    ages: "4-12", time: "30 min", difficulty: "easy",
+    supplies: ["125g plain flour", "2 eggs", "300ml milk", "1 tbsp melted butter", "Pinch of salt", "Butter for the pan", "Toppings: lemon and sugar, Nutella, berries, maple syrup"],
+    description: "Make proper thin French-style crepes for Shrove Tuesday and flip them in the pan.",
+    steps: [
+      "Sift flour and salt into a bowl. Make a well in the centre.",
+      "Crack eggs into the well and whisk, gradually drawing in the flour.",
+      "Slowly add milk, whisking constantly, until a smooth thin batter forms.",
+      "Add melted butter and stir through. Rest the batter for 30 minutes if time allows.",
+      "Heat a non-stick frying pan over medium-high heat and add a small knob of butter.",
+      "Pour in a small ladle of batter and immediately swirl the pan so it coats the base thinly.",
+      "Cook for about 60 seconds until the edges look set and the underside is lightly golden.",
+      "Flip with a spatula - or be brave and toss it.",
+      "Cook the other side for 30 seconds. Slide onto a plate and repeat.",
+      "Serve with your favourite toppings."
+    ],
+    tips: "The first crepe is always a sacrifice - it seasons the pan. Don't worry if it's a mess. Rest the batter if you can - it makes a noticeably smoother crepe."
+  },
+  {
+    id: 267, title: "Diwali Rangoli Art", category: "seasonal", emoji: "🪔",
+    ages: "4-12", time: "45 min", difficulty: "medium",
+    supplies: ["Coloured sand, chalk powder, or coloured rice", "A dark surface or black paper", "Pencil for sketching a guide", "Small funnels or spoons"],
+    description: "Create a traditional Rangoli pattern using coloured powder or rice to celebrate the Festival of Lights.",
+    steps: [
+      "Learn what Rangoli is: a traditional Indian art form made on the ground to welcome guests and good luck during Diwali.",
+      "Sketch a symmetrical design lightly in pencil first: a flower, star, or mandala pattern.",
+      "Work from the centre outward, adding one colour at a time.",
+      "Use a spoon or small funnel to pour coloured sand or rice carefully along the lines.",
+      "Fill each section with a different colour.",
+      "Add dot patterns along the borders with a contrasting colour.",
+      "Surround the finished design with small tealight candles (adult supervised).",
+      "Take a photo from directly above to capture the full pattern."
+    ],
+    tips: "Traditional Rangoli uses coloured powder called 'rangoli powder' which is available in Indian grocery stores. Food-dyed rice or chalk pastel powder work as brilliant alternatives."
+  },
+  {
+    id: 268, title: "Chinese New Year Dragon", category: "seasonal", emoji: "🐉",
+    ages: "4-10", time: "45 min", difficulty: "medium",
+    supplies: ["Paper plates (6-10)", "Paint in red, gold, and green", "Tissue paper or streamers for the tail", "Craft sticks", "Googly eyes", "Stapler or tape", "Scissors"],
+    description: "Build a colourful paper plate dragon to parade around the house for Chinese New Year.",
+    steps: [
+      "Paint all paper plates in bold reds, golds, and greens. Let dry.",
+      "Decorate one plate as the dragon's face: googly eyes, paper teeth cut from white card, curled paper nostrils.",
+      "Cut flame shapes from orange and yellow tissue paper and glue behind the mouth.",
+      "Connect the remaining plates in a line with tape or staples, overlapping slightly to form the body.",
+      "Decorate each body plate with scales using paint or cut paper.",
+      "Attach a long streamer tail to the last plate.",
+      "Tape a craft stick to the inside of the head plate and every second body plate so multiple people can hold it.",
+      "Parade it around to celebrate the New Year."
+    ],
+    tips: "The more plates you add, the longer and more impressive the dragon. Play traditional Chinese music during the parade for atmosphere."
+  },
+  {
+    id: 269, title: "Easter Hot Cross Buns", category: "seasonal", emoji: "🍞",
+    ages: "5-12", time: "2.5 hrs", difficulty: "hard",
+    supplies: ["500g strong white bread flour", "7g instant yeast", "1 tsp salt", "75g caster sugar", "1.5 tsp mixed spice", "1 tsp cinnamon", "300ml warm milk", "50g butter (melted)", "1 egg", "150g sultanas or raisins", "For crosses: 75g plain flour + 5 tbsp water", "For glaze: 2 tbsp apricot jam"],
+    description: "Make the traditional Easter spiced buns with a cross on top - soft, fragrant, and deeply satisfying to bake from scratch.",
+    steps: [
+      "Mix flour, yeast, salt, sugar, and spices in a large bowl.",
+      "Add warm milk, melted butter, and egg. Mix to a soft dough.",
+      "Knead for 10 minutes until smooth and elastic.",
+      "Knead in the sultanas until evenly distributed.",
+      "Cover and rise in a warm place for 1 hour until doubled.",
+      "Knock back the dough and divide into 12 equal pieces. Shape into smooth balls.",
+      "Place close together on a lined baking tray. Cover and rise for 45 minutes.",
+      "Preheat oven to 200°C / 400°F.",
+      "Make the cross paste: mix flour and water to a thick paste. Pipe crosses over each bun.",
+      "Bake for 18-20 minutes until deep golden brown.",
+      "Warm apricot jam and brush over the buns immediately out of the oven.",
+      "Eat warm with butter."
+    ],
+    tips: "Warm the milk to about 37°C - if it is too hot it kills the yeast, too cold and it won't activate. The buns should feel very light and hollow when you tap the base."
+  },
+  {
+    id: 270, title: "Halloween Jack-o-Lantern", category: "seasonal", emoji: "🎃",
+    ages: "5-12", time: "1 hr", difficulty: "medium",
+    supplies: ["A large pumpkin", "A sharp knife (adult use)", "A large spoon or ice cream scoop", "Markers for drawing the design", "A tealight candle or battery LED"],
+    description: "Carve a pumpkin into a glowing jack-o-lantern - design your own face and scoop out the seeds to roast.",
+    steps: [
+      "Wash the outside of the pumpkin.",
+      "An adult cuts a circle around the stalk at the top to make a lid. Angle the cut inward so the lid doesn't fall through.",
+      "Scoop out all the seeds and stringy flesh with a large spoon. Set seeds aside to roast later.",
+      "Draw your face design on the pumpkin with a marker before cutting.",
+      "An adult carefully cuts out the eyes, nose, and mouth following the design.",
+      "Pop a tealight or battery LED inside.",
+      "Replace the lid and place on a doorstep.",
+      "Rinse the seeds, toss with olive oil and salt, and roast at 180°C for 10-15 minutes for a crunchy snack."
+    ],
+    tips: "Younger children can draw the face and help scoop - they don't need to do any cutting to be fully involved. Simple triangle eyes and a gappy grin are classic for a reason."
+  },
+  {
+    id: 271, title: "Bonfire Night Sparkler Paintings", category: "seasonal", emoji: "✨",
+    ages: "3-12", time: "20 min", difficulty: "easy",
+    supplies: ["Black cardstock or black paper", "Yellow, orange, red, and white paint", "Old toothbrushes", "Straws", "Toothpicks or fine brushes", "White gel pen (optional)"],
+    description: "Create firework and sparkler effects on black paper using splattered and blown paint.",
+    steps: [
+      "Start with black paper or card for a night sky effect.",
+      "Load a toothbrush with yellow paint. Hold it over the paper and flick the bristles with your thumb to splatter stars.",
+      "Repeat with white, orange, and red paint scattered across the paper.",
+      "Drop a blob of bright paint and blow through a straw to spread it into a firework burst shape.",
+      "Use a toothpick dipped in white or gold paint to drag thin lines outward from a central point - sparkler trails.",
+      "Add dots of bright colour for glowing embers.",
+      "Use a white gel pen to draw sparkler stick shapes and circles of light.",
+      "Layer colours for depth and intensity."
+    ],
+    tips: "Cover the table completely before starting - splatter paint goes everywhere. This works beautifully as a group project on one large sheet of paper."
+  },
+  {
+    id: 272, title: "Remembrance Day Poppies", category: "seasonal", emoji: "🌺",
+    ages: "3-10", time: "20 min", difficulty: "easy",
+    supplies: ["Red paint or red tissue paper", "Black card circles or black buttons for centres", "Green pipe cleaners or paper strips for stems", "White paper", "Scissors", "Glue"],
+    description: "Make paper or handprint poppies to display on Remembrance Day and talk about why poppies are special.",
+    steps: [
+      "Option 1 - Handprint poppy: paint a child's hand red and press firmly onto paper. The palm is the flower centre, fingers are petals.",
+      "Option 2 - Paper poppy: cut four large red petal shapes and arrange in a circle, slightly overlapping.",
+      "Option 3 - Tissue poppy: scrunch red tissue paper into a loose ball and glue petals around a black circle centre.",
+      "Glue a black circle or button in the centre of the flower.",
+      "Attach a green pipe cleaner or paper strip as the stem.",
+      "Write the date and child's name on the back.",
+      "Talk about why poppies are worn on Remembrance Day: they grew on the battlefields in Flanders after World War One."
+    ],
+    tips: "The handprint poppy version is simple enough for toddlers and creates a beautiful keepsake. Even very young children can participate meaningfully in this activity."
+  },
+  {
+    id: 273, title: "Hanukkah Menorah Craft", category: "seasonal", emoji: "🕎",
+    ages: "4-10", time: "30 min", difficulty: "easy",
+    supplies: ["A strip of cardboard or a toilet roll base", "9 toilet paper rolls or cardboard tubes", "Yellow and orange tissue paper for flames", "Gold paint or gold foil", "Glue"],
+    description: "Build a model menorah and add a flame each night of Hanukkah while learning the story behind the festival.",
+    steps: [
+      "Paint all the tubes gold and let dry.",
+      "Glue 8 equal-height tubes in a row on the cardboard strip, evenly spaced.",
+      "Make the shamash (helper candle) tube slightly taller and place it in the centre.",
+      "Cut flame shapes from yellow and orange tissue paper.",
+      "Glue flames inside each tube top.",
+      "On each night of Hanukkah, light the shamash and use it to light the appropriate number of candles.",
+      "Talk about the story: the miracle of oil that lasted 8 nights in the Temple."
+    ],
+    tips: "Use real battery-powered tea lights in the tubes for a glowing effect. Each night, add one more 'flame' to the craft menorah alongside lighting real candles."
+  },
+  {
+    id: 274, title: "Christmas Wrapping Paper Making", category: "seasonal", emoji: "🎁",
+    ages: "3-10", time: "45 min", difficulty: "easy",
+    supplies: ["Large sheets of plain brown paper or white newsprint", "Potato stamps or sponge shapes", "Paint in red, gold, green, and white", "Paintbrushes", "Potato halves for carving stamps"],
+    description: "Print your own personalised Christmas wrapping paper using potato stamps and sponge prints.",
+    steps: [
+      "Cut potatoes in half and carve simple shapes into the flat surface: a star, a tree, a heart, a snowflake.",
+      "Pat the carved surface dry with a paper towel.",
+      "Dip the stamp into paint and press firmly and evenly onto the paper.",
+      "Lift straight up for a clean print.",
+      "Repeat across the paper in a repeating pattern.",
+      "Use sponge stars or circle stamps for variety.",
+      "Add dots with a pencil eraser dipped in paint.",
+      "Let dry completely before wrapping gifts."
+    ],
+    tips: "Brown kraft paper from a roll looks beautiful with gold and red prints. Handmade wrapping paper is often too precious to rip open - which is a lovely problem to have."
+  },
+  {
+    id: 275, title: "New Year Resolution Jar", category: "seasonal", emoji: "🫙",
+    ages: "5-12", time: "30 min", difficulty: "easy",
+    supplies: ["A glass jar with a lid", "Small strips of paper", "Pens", "Decorating supplies: paint, stickers, ribbon", "A pen for each person"],
+    description: "Decorate a jar, write goals and hopes on paper strips, and fill it with wishes to open next New Year.",
+    steps: [
+      "Decorate the outside of the jar with paint, stickers, and ribbon to make it feel special.",
+      "Let dry.",
+      "Each person writes 3-5 things on separate paper strips: a wish, a goal, something they want to try, someone they want to be kinder to, something they are grateful for.",
+      "Fold each strip and place inside the jar.",
+      "Seal the jar.",
+      "Put it somewhere visible for the year.",
+      "Open together on New Year's Eve and read all the slips aloud.",
+      "Discuss which came true and what to write for next year."
+    ],
+    tips: "Even young children who can't write can dictate their wishes to an adult. The ritual of opening it at year's end is often more powerful than the writing."
+  },
+  {
+    id: 276, title: "Easter Egg Nest Cakes", category: "seasonal", emoji: "🐣",
+    ages: "3-10", time: "20 min", difficulty: "easy",
+    supplies: ["200g milk chocolate", "75g shredded wheat or cornflakes", "Mini chocolate eggs", "Cupcake cases", "A bowl and saucepan for melting"],
+    description: "Melt chocolate, mix with shredded wheat to make nests, then fill with mini eggs - no baking required.",
+    steps: [
+      "Break the chocolate into pieces and melt in a bowl over a pan of simmering water, stirring until smooth.",
+      "Remove from heat.",
+      "Break the shredded wheat into small pieces and stir into the melted chocolate until fully coated.",
+      "Place cupcake cases on a tray.",
+      "Spoon the mixture into each case and press the centre down gently to form a nest shape.",
+      "Press 3 mini chocolate eggs into each nest.",
+      "Refrigerate for 30 minutes until set.",
+      "Keep in the fridge until ready to eat."
+    ],
+    tips: "Cornflakes work just as well as shredded wheat and give a crunchier texture. These are a guaranteed crowd-pleaser and children can make them almost entirely independently."
+  },
+  {
+    id: 277, title: "Back to School Pencil Case Decorating", category: "seasonal", emoji: "✏️",
+    ages: "4-12", time: "30 min", difficulty: "easy",
+    supplies: ["A plain canvas pencil case or fabric bag", "Fabric markers or fabric paint", "Washi tape (for temporary designs to guide painting)", "Iron (to set fabric marker, adult use)"],
+    description: "Personalise a plain pencil case with fabric markers so it is completely one-of-a-kind for the new school year.",
+    steps: [
+      "Place a piece of card inside the pencil case to stop paint bleeding through.",
+      "Plan a design: your name, a favourite animal, a pattern, a scene.",
+      "Sketch lightly with a pencil first if unsure.",
+      "Draw and colour the design with fabric markers.",
+      "Let dry completely (at least 1 hour).",
+      "An adult irons on the reverse side for 3-4 minutes to heat-set the design so it is washable.",
+      "Fill with new stationery and head to school."
+    ],
+    tips: "Fabric markers from a craft store are much more vibrant and wash-proof than regular markers. This also works on plain tote bags, caps, and t-shirts."
+  },
+  {
+    id: 278, title: "Winter Star Lanterns", category: "seasonal", emoji: "⭐",
+    ages: "5-12", time: "45 min", difficulty: "medium",
+    supplies: ["A4 black or dark card", "Scissors", "A pin or hole punch", "A battery tea light", "Tape", "Star pattern printed or drawn as a guide"],
+    description: "Pierce a star pattern into black card, roll into a cylinder, and light from inside to project a constellation of stars.",
+    steps: [
+      "Draw or print a star constellation pattern onto the card.",
+      "Use a pin or hole punch to pierce holes at every star point and along the lines.",
+      "The more holes and the closer together, the more light comes through.",
+      "Roll the card into a tall cylinder and tape the edges together.",
+      "Cut a circle of card for the base and tape it on, with a small hole for the tea light battery cord.",
+      "Drop a battery-powered tea light inside.",
+      "Turn out the lights and watch the stars project onto the ceiling.",
+      "Try different constellation patterns: Orion, the Southern Cross, the Plough."
+    ],
+    tips: "Hold the card up to a window before assembling to check the pattern looks right. A tighter cluster of holes makes a brighter area of light."
+  },
+
+  // ── COOKING (more) ──────────────────────────────────────────────────────
+  {
+    id: 279, title: "Banana Bread", category: "cooking", emoji: "🍌",
+    ages: "4-12", time: "1 hr 15 min", difficulty: "easy",
+    supplies: ["3 very ripe bananas", "75g melted butter", "150g sugar", "1 egg", "1 tsp vanilla", "1 tsp bicarbonate of soda", "Pinch of salt", "190g plain flour", "Optional: chocolate chips, walnuts"],
+    description: "Turn overripe bananas into a moist, fragrant loaf - the riper the bananas, the better it tastes.",
+    steps: [
+      "Preheat oven to 175°C / 350°F. Grease a 23x13cm loaf tin.",
+      "Mash the bananas thoroughly in a large bowl with a fork.",
+      "Stir in melted butter.",
+      "Add sugar, beaten egg, and vanilla. Mix well.",
+      "Sprinkle in bicarbonate of soda and salt. Stir.",
+      "Add flour and fold in gently until just combined - do not overmix.",
+      "Fold in chocolate chips or walnuts if using.",
+      "Pour into the prepared tin.",
+      "Bake for 55-65 minutes until a skewer inserted in the centre comes out clean.",
+      "Cool in the tin for 10 minutes, then turn out onto a rack."
+    ],
+    tips: "The bananas must be very ripe - almost black is perfect. Underripe bananas make a dense, bland loaf. This recipe is very forgiving and hard to get wrong."
+  },
+  {
+    id: 280, title: "Strawberry Jam", category: "cooking", emoji: "🍓",
+    ages: "6-12", time: "45 min", difficulty: "medium",
+    supplies: ["500g strawberries", "400g jam sugar (with added pectin)", "Juice of half a lemon", "A large heavy saucepan", "Sterilised jars", "A small plate in the freezer for testing"],
+    description: "Make a small batch of real strawberry jam from scratch - it sets in the fridge and tastes nothing like shop-bought.",
+    steps: [
+      "Hull and halve the strawberries. Place in a large saucepan with the lemon juice.",
+      "Cook over medium heat for 5 minutes until the strawberries soften and release juice.",
+      "Add the jam sugar and stir over low heat until completely dissolved.",
+      "Bring to a rapid boil and boil hard for 8-10 minutes without stirring.",
+      "Test for set: drop a small amount onto the cold plate. Push it with your finger - if it wrinkles, it is ready.",
+      "Remove from heat and skim off any foam with a spoon.",
+      "Pour into sterilised jars and seal immediately.",
+      "Cool completely before refrigerating. Use within 4 weeks."
+    ],
+    tips: "Jam sugar contains added pectin which helps the jam set - regular sugar may not set properly. The cold plate test is the most reliable way to check - do not guess."
+  },
+  {
+    id: 281, title: "Cheese Scones", category: "cooking", emoji: "🧀",
+    ages: "4-12", time: "30 min", difficulty: "easy",
+    supplies: ["225g self-raising flour", "1 tsp baking powder", "Pinch of salt", "50g cold butter", "100g grated cheddar", "150ml milk", "1 egg for glazing"],
+    description: "Make light, cheesy scones that are ready in under 30 minutes and taste incredible warm from the oven.",
+    steps: [
+      "Preheat oven to 220°C / 425°F. Line a baking tray.",
+      "Mix flour, baking powder, and salt in a bowl.",
+      "Rub cold butter into the flour with fingertips until it resembles breadcrumbs.",
+      "Stir in most of the grated cheese, keeping a small handful back.",
+      "Make a well and add milk. Mix quickly with a fork until just combined - do not overwork.",
+      "Turn out onto a floured surface and gently pat to about 2.5cm thick.",
+      "Cut out rounds with a cutter or glass. Do not twist - press straight down.",
+      "Place on the tray, brush tops with beaten egg, and sprinkle remaining cheese.",
+      "Bake for 12-15 minutes until risen and golden.",
+      "Cool slightly and eat warm."
+    ],
+    tips: "Cold butter and a light touch are the two secrets to a good scone. Overworking the dough develops gluten and makes them tough. Twisting the cutter prevents rising."
+  },
+  {
+    id: 282, title: "Egg Fried Rice", category: "cooking", emoji: "🍳",
+    ages: "5-12", time: "15 min", difficulty: "easy",
+    supplies: ["2 cups cooked rice (day-old rice works best)", "2 eggs", "1 cup frozen peas and corn", "3 tbsp soy sauce", "1 tsp sesame oil", "2 spring onions", "Vegetable oil", "Wok or large frying pan"],
+    description: "Use leftover rice to make proper egg fried rice in under 15 minutes.",
+    steps: [
+      "Make sure the rice is cold - freshly cooked rice is too wet and goes clumpy.",
+      "Heat a wok or large pan over high heat until very hot.",
+      "Add a splash of oil and pour in the beaten eggs. Scramble quickly and break into small pieces.",
+      "Push the egg to the side and add another splash of oil.",
+      "Add the cold rice and press it flat against the hot pan. Let it sit for 30 seconds to get a little crispy.",
+      "Stir everything together, breaking up any clumps.",
+      "Add the frozen vegetables and toss for 2 minutes until heated through.",
+      "Pour in soy sauce and sesame oil. Toss well.",
+      "Scatter sliced spring onions over the top and serve immediately."
+    ],
+    tips: "High heat is essential - a low heat steams the rice instead of frying it. Day-old rice from the fridge is ideal because it is drier and fries better than freshly cooked."
+  },
+  {
+    id: 283, title: "Rice Krispie Treats", category: "cooking", emoji: "🍬",
+    ages: "3-10", time: "20 min", difficulty: "easy",
+    supplies: ["6 cups Rice Krispies or puffed rice cereal", "300g marshmallows", "50g butter", "Optional: chocolate chips, sprinkles, food colouring"],
+    description: "Melt butter and marshmallows together, mix with rice cereal, and press into bars - a no-bake classic.",
+    steps: [
+      "Grease a 23x33cm baking tin with butter.",
+      "Melt butter in a large saucepan over low heat.",
+      "Add marshmallows and stir constantly until completely melted and smooth.",
+      "Remove from heat.",
+      "Immediately add the Rice Krispies and stir quickly to coat - it sets fast.",
+      "Press the mixture into the greased tin as firmly as possible using a buttered spatula or damp hands.",
+      "Add sprinkles or press chocolate chips into the top before it sets.",
+      "Cool for 30 minutes at room temperature until firm.",
+      "Cut into squares."
+    ],
+    tips: "Work quickly once the marshmallows are melted - the mixture starts setting almost immediately. Press as firmly as you can into the tin for bars that hold together cleanly."
+  },
+  {
+    id: 284, title: "Chocolate Bark", category: "cooking", emoji: "🍫",
+    ages: "3-10", time: "20 min + setting time", difficulty: "easy",
+    supplies: ["400g good quality chocolate (dark, milk, or white)", "Toppings: crushed pretzels, nuts, dried fruit, sprinkles, mini marshmallows, sea salt flakes", "A baking tray lined with parchment"],
+    description: "Melt chocolate, spread it thin, and decorate with toppings before it sets - makes a beautiful edible gift.",
+    steps: [
+      "Break chocolate into pieces and melt in a bowl over a saucepan of gently simmering water, stirring until smooth.",
+      "Pour onto the lined baking tray.",
+      "Use a spatula to spread to about 5mm thick.",
+      "Immediately scatter your chosen toppings across the surface.",
+      "Gently press toppings in so they stick.",
+      "Refrigerate for 30-60 minutes until completely set and hard.",
+      "Lift the parchment from the tray and break the bark into irregular shards.",
+      "Store in the fridge in an airtight container."
+    ],
+    tips: "The combination of dark chocolate with sea salt and pretzel pieces is outstanding. White chocolate with dried cranberries and pistachios makes a beautiful gift."
+  },
+  {
+    id: 285, title: "Guacamole", category: "cooking", emoji: "🥑",
+    ages: "3-10", time: "10 min", difficulty: "easy",
+    supplies: ["3 ripe avocados", "Juice of 1 lime", "1 small red onion finely diced", "1-2 tomatoes deseeded and diced", "Small bunch of fresh coriander", "Salt and pepper", "Optional: 1 small green chilli finely diced"],
+    description: "Make fresh guacamole the proper way - chunky, bright, and lime-sharp - with tortilla chips.",
+    steps: [
+      "Check avocados are ripe: they should give slightly when pressed.",
+      "Cut avocados in half, remove the stone, and scoop the flesh into a bowl.",
+      "Squeeze lime juice over immediately to stop browning.",
+      "Mash with a fork to your preferred texture - some people like it smooth, some chunky.",
+      "Stir in finely diced red onion, tomato, and coriander.",
+      "Season generously with salt and pepper.",
+      "Add chilli if using and mix through.",
+      "Taste and adjust lime, salt, or coriander.",
+      "Serve immediately with tortilla chips."
+    ],
+    tips: "Ripe avocados are essential - an underripe avocado will not mash and has no flavour. Press the lime half against a fork tine while squeezing to catch the seeds."
+  },
+  {
+    id: 286, title: "Shakshuka", category: "cooking", emoji: "🍅",
+    ages: "5-12", time: "30 min", difficulty: "easy",
+    supplies: ["1 tin diced tomatoes (400g)", "1 red capsicum diced", "1 onion diced", "3 garlic cloves sliced", "1 tsp cumin", "1 tsp paprika", "Pinch of cayenne", "4-6 eggs", "Salt and pepper", "Olive oil", "Fresh parsley or coriander", "Crusty bread to serve"],
+    description: "Eggs poached directly in a spiced tomato and capsicum sauce - a Middle Eastern classic that looks impressive and is very simple.",
+    steps: [
+      "Heat olive oil in a wide frying pan or skillet over medium heat.",
+      "Cook onion for 5 minutes until soft. Add garlic and cook 1 minute.",
+      "Add diced capsicum and cook for 3-4 minutes.",
+      "Add cumin, paprika, and cayenne. Stir for 30 seconds until fragrant.",
+      "Pour in tinned tomatoes. Season with salt and pepper.",
+      "Simmer for 10 minutes, stirring occasionally, until the sauce thickens.",
+      "Use a spoon to make small wells in the sauce. Crack an egg into each well.",
+      "Cover and cook for 8-10 minutes until whites are set but yolks are still soft.",
+      "Scatter fresh herbs over the top and bring the pan to the table.",
+      "Scoop up with crusty bread."
+    ],
+    tips: "The eggs continue to cook in residual heat after you remove the lid - pull them off the heat while the yolks look slightly underdone for a perfect runny result."
+  },
+  {
+    id: 287, title: "Nachos", category: "cooking", emoji: "🌮",
+    ages: "3-10", time: "15 min", difficulty: "easy",
+    supplies: ["Corn tortilla chips", "Grated cheese (cheddar or a Mexican blend)", "Toppings: tinned black beans, jalapeños, sour cream, guacamole, salsa, spring onions", "A baking tray"],
+    description: "Layer chips and cheese and grill them until melted, then load with toppings - a crowd-pleaser that kids can assemble themselves.",
+    steps: [
+      "Preheat the grill to high.",
+      "Spread tortilla chips in a single layer on a baking tray - do not pile them too deep.",
+      "Scatter grated cheese generously over the chips.",
+      "Add jalapeños and drained black beans if using.",
+      "Place under the hot grill for 3-4 minutes until cheese is melted and bubbly.",
+      "Watch carefully - they burn quickly.",
+      "Remove from the grill.",
+      "Top immediately with sour cream, guacamole, and salsa.",
+      "Scatter sliced spring onions and eat straight from the tray."
+    ],
+    tips: "Don't skimp on the cheese - it holds everything together. Use the grill rather than the oven for faster, crispier results. Eat immediately before the chips go soggy."
+  },
+
+  // ── CRAFTS (more) ───────────────────────────────────────────────────────
+  {
+    id: 288, title: "Cardboard Loom Weaving", category: "crafts", emoji: "🧶",
+    ages: "6-12", time: "1 hr", difficulty: "medium",
+    supplies: ["A piece of stiff cardboard (30x30cm)", "Scissors", "Yarn in multiple colours", "A large plastic needle or fork for weaving"],
+    description: "Cut a simple cardboard loom, warp it with yarn, then weave in rows of colour to create a textile.",
+    steps: [
+      "Cut evenly spaced notches along the top and bottom edges of the cardboard, about 1cm apart.",
+      "Thread yarn vertically through the notches from top to bottom to create the 'warp' threads. These are the foundation threads.",
+      "Tie off at the back.",
+      "Thread a different colour yarn onto the plastic needle.",
+      "Weave over one warp thread and under the next, alternating all the way across.",
+      "On the return row, go under the threads you went over before, and over the ones you went under.",
+      "Push each row down firmly with your fingers or a fork to pack the weaving tight.",
+      "Change colours by tying on a new yarn at the edge.",
+      "When the loom is full, slide the weaving off and tie off the warp thread ends."
+    ],
+    tips: "Weaving is genuinely meditative and much easier than it looks. The pattern emerges naturally. Try using strips of fabric or ribbon instead of yarn for a different texture."
+  },
+  {
+    id: 289, title: "Potato Stamp Wrapping Paper", category: "crafts", emoji: "🎨",
+    ages: "3-8", time: "30 min", difficulty: "easy",
+    supplies: ["Large potatoes", "A sharp knife for adults to carve stamps", "Paint in various colours", "Large sheets of brown kraft paper or plain newsprint", "Plates for paint"],
+    description: "Carve simple shapes into potato halves and use them to print repeating patterns on plain paper to make personalised wrapping paper.",
+    steps: [
+      "An adult cuts potatoes in half and carves a simple raised shape into the flat surface: star, heart, tree, dot, letter.",
+      "Pat the carved surface dry with a paper towel - wet potato dilutes the paint.",
+      "Spread paint onto a flat plate.",
+      "Press the potato stamp onto the paint, then press firmly onto the paper.",
+      "Lift straight up for a clean print.",
+      "Re-ink the stamp after every 1-2 prints.",
+      "Create a repeating pattern across the paper.",
+      "Let dry flat before using to wrap gifts."
+    ],
+    tips: "Simple bold shapes print the cleanest. Letters must be carved in reverse to print the right way round. A potato stamp lasts for several hours before it starts to break down."
+  },
+  {
+    id: 290, title: "Hama Bead Art", category: "crafts", emoji: "🔲",
+    ages: "4-10", time: "45 min", difficulty: "easy",
+    supplies: ["Hama or perler beads in various colours", "Pegboard in your chosen shape", "Baking parchment", "An iron (adult use)"],
+    description: "Place tiny plastic beads onto a pegboard to create pixel-art designs, then fuse them permanently with an iron.",
+    steps: [
+      "Plan your design first - simple pixel art works best: a heart, a star, a Minecraft character, an animal face.",
+      "Place beads onto the pegboard one at a time, following your design.",
+      "Fill in the entire design area so no peg holes show.",
+      "When done, lay a piece of baking parchment over the top.",
+      "An adult presses a warm iron (medium heat, no steam) in small circular motions for about 10-20 seconds.",
+      "Lift the parchment to check - the beads should be fused together but still show their holes.",
+      "Let cool completely.",
+      "Carefully peel off the pegboard to reveal the finished piece.",
+      "Optionally iron the other side for a fully fused, solid result."
+    ],
+    tips: "Don't use too much heat or the beads melt flat and lose their texture. The holes disappearing is a sign of overheating. Start in the centre and work outward."
+  },
+  {
+    id: 291, title: "Decoupage Flower Pot", category: "crafts", emoji: "🌸",
+    ages: "5-12", time: "45 min + dry time", difficulty: "easy",
+    supplies: ["A plain terracotta pot", "Tissue paper or pages from old books, maps, or sheet music torn into pieces", "PVA glue diluted 50/50 with water", "A paintbrush", "Varnish or Mod Podge to seal"],
+    description: "Paste torn paper pieces onto a terracotta pot in overlapping layers to create a beautiful textured surface.",
+    steps: [
+      "Tear paper into irregular pieces about 4-6cm across - torn edges blend better than cut edges.",
+      "Brush a section of the pot with diluted PVA glue.",
+      "Press a piece of paper onto the glue and smooth it flat.",
+      "Brush more glue over the top of that piece.",
+      "Continue working in sections, overlapping each piece slightly.",
+      "Cover the entire outside of the pot, including the rim.",
+      "Let dry completely - at least 2 hours.",
+      "Seal with a coat of Mod Podge or varnish to waterproof and strengthen.",
+      "Plant something in it and display."
+    ],
+    tips: "Tissue paper creates a beautiful translucent layered effect. Map pages or old book pages give a vintage look. The more overlapping layers, the stronger the final result."
+  },
+  {
+    id: 292, title: "Washi Tape Art", category: "crafts", emoji: "🖼️",
+    ages: "3-10", time: "20 min", difficulty: "easy",
+    supplies: ["Washi tape in various widths and patterns", "A canvas, card, or wooden surface", "Scissors"],
+    description: "Create geometric patterns, landscapes, or abstract art using strips of washi tape - no painting skill required.",
+    steps: [
+      "Plan a simple composition: geometric triangles, a horizon with a sunset sky, vertical stripes, a cityscape silhouette.",
+      "Apply strips of washi tape in your design, pressing firmly at the edges.",
+      "For a triangle: apply three strips meeting at a point and trim the excess.",
+      "Layer different tapes over each other for depth and pattern.",
+      "Mix patterned and solid tapes for contrast.",
+      "Stand back and assess - add or adjust until happy.",
+      "This art form requires no sealing or finishing - it is the final piece."
+    ],
+    tips: "Washi tape is repositionable while fresh so mistakes can be fixed. For a cleaner edge on canvas or wood, press the tape firmly and pull it off at 45 degrees when removing."
+  },
+
+  // ── OUTDOOR (more) ──────────────────────────────────────────────────────
+  {
+    id: 293, title: "Herb Garden in Pots", category: "outdoor", emoji: "🌿",
+    ages: "3-12", time: "45 min", difficulty: "easy",
+    supplies: ["Small terracotta pots or recycled containers with drainage holes", "Potting mix", "Herb seedlings or seeds: basil, mint, parsley, chives, coriander", "Plant markers and a permanent marker", "Watering can"],
+    description: "Plant a selection of kitchen herbs in individual pots to grow on a windowsill and use in cooking.",
+    steps: [
+      "Choose herbs that your family actually cooks with - they are more likely to be watered if they get used.",
+      "Fill each pot with potting mix, leaving 2cm below the rim.",
+      "If using seedlings: make a hole and plant, firming soil around the roots.",
+      "If using seeds: scatter over the surface and cover lightly with a thin layer of soil.",
+      "Water gently until water drains from the bottom.",
+      "Write each herb name on a marker and press into the pot.",
+      "Place in a sunny spot - most herbs need at least 4-6 hours of sun.",
+      "Water when the top 2cm of soil feels dry.",
+      "Harvest regularly by snipping off the top leaves - this encourages bushy growth."
+    ],
+    tips: "Mint should always have its own pot - it spreads aggressively and will take over a shared planter. Basil is the fussiest - it hates cold temperatures and overwatering."
+  },
+  {
+    id: 294, title: "Composting", category: "outdoor", emoji: "🌱",
+    ages: "4-12", time: "Ongoing", difficulty: "easy",
+    supplies: ["A compost bin or a large plastic bin with air holes drilled in", "Kitchen scraps: fruit and vegetable peelings, tea bags, coffee grounds, eggshells", "Garden waste: leaves, grass clippings, small twigs"],
+    description: "Start a compost bin and learn how food scraps turn into rich soil over time - one of the most important environmental lessons.",
+    steps: [
+      "Set up the compost bin in a corner of the garden on bare soil so worms can enter.",
+      "Learn the rule: add equal amounts of 'greens' (food scraps, fresh grass) and 'browns' (dry leaves, cardboard, paper).",
+      "Start with a layer of coarse material like small sticks at the bottom for drainage.",
+      "Add kitchen scraps daily: vegetable peelings, fruit, tea bags, eggshells.",
+      "Add torn cardboard and dry leaves regularly to balance the moisture.",
+      "Do NOT add: meat, fish, dairy, cooked food, or weeds with seeds.",
+      "Turn the pile with a fork every 2-3 weeks to add oxygen.",
+      "After 2-4 months, the bottom layer will be dark crumbly compost ready for the garden.",
+      "Dig it into garden beds or use as a mulch around plants."
+    ],
+    tips: "Keep a small sealed container in the kitchen for collecting scraps through the week - much easier than going to the bin every time. Worms are a sign of a healthy compost."
+  },
+  {
+    id: 295, title: "Seed Bombs", category: "outdoor", emoji: "💣",
+    ages: "4-12", time: "30 min + dry time", difficulty: "easy",
+    supplies: ["1 cup air-dry clay or potter's clay", "3 cups compost or potting mix", "2 tbsp wildflower seeds", "Water", "A tray to dry on"],
+    description: "Mix clay, compost, and wildflower seeds into balls that can be thrown into bare patches of ground to grow flowers.",
+    steps: [
+      "Break the clay into small pieces in a bowl.",
+      "Add compost and mix together with your hands until combined.",
+      "Add seeds and mix through evenly.",
+      "Add water a little at a time and knead until the mixture holds together when pressed.",
+      "Roll into balls about 2-3cm in diameter.",
+      "Place on a tray and leave in a warm spot to dry for 24-48 hours.",
+      "Throw or place your seed bombs in bare patches of ground or garden borders.",
+      "Water if there is no rain, and wait for flowers to appear."
+    ],
+    tips: "Native wildflower mixes are the best choice for attracting bees and butterflies. Seed bombs make lovely gifts - pack them in a small box with growing instructions."
+  },
+  {
+    id: 296, title: "Tree Identification Walk", category: "outdoor", emoji: "🌳",
+    ages: "4-12", time: "1 hr", difficulty: "easy",
+    supplies: ["A tree identification book or a free app (iNaturalist, LeafSnap, PictureThis)", "A notebook and pencil", "Paper and wax crayon for leaf rubbings", "A small bag to collect fallen leaves"],
+    description: "Walk through a park or neighbourhood and identify trees using a field guide or phone app.",
+    steps: [
+      "Download a free plant identification app before you go.",
+      "At each tree, look carefully at the leaf shape, bark texture, and overall form.",
+      "Take a photo of a leaf and the bark and ask the app to identify it.",
+      "Cross-reference with a book if available.",
+      "Write down the common name and one interesting fact about each tree.",
+      "Take a leaf rubbing by placing a leaf vein-side up under paper and rubbing with a wax crayon.",
+      "Label each rubbing with the tree name.",
+      "Try to find 5 different species.",
+      "At home, compile a mini tree field guide from your notes and rubbings."
+    ],
+    tips: "The iNaturalist app is free, accurate, and also submits your sighting to a global biodiversity database - so your walk contributes to real science."
+  },
+
+  // ── SCIENCE (more) ──────────────────────────────────────────────────────
+  {
+    id: 297, title: "Red Cabbage pH Indicator", category: "science", emoji: "🧪",
+    ages: "6-12", time: "30 min", difficulty: "easy",
+    supplies: ["Half a red cabbage", "Water", "A blender or saucepan", "Strainer", "Several small clear cups", "Household liquids to test: lemon juice, vinegar, bicarbonate of soda solution, milk, washing soda, tap water"],
+    description: "Make a natural pH indicator from red cabbage juice that turns pink in acids and green in alkalis.",
+    steps: [
+      "Blend the cabbage with water, then strain to get purple cabbage juice. Or boil the cabbage in water for 10 minutes and strain.",
+      "Pour a small amount of cabbage juice into each cup.",
+      "Add a small amount of each test liquid to a separate cup.",
+      "Observe the colour change: acids turn it pink or red, neutral liquids stay purple, alkalis turn it green or yellow.",
+      "Rank your household liquids from most acidic to most alkaline.",
+      "Try mixing an acid and an alkali - the colour should move back toward purple.",
+      "Discuss: pH stands for 'potential of hydrogen' and measures how acidic or alkaline a substance is on a scale of 0-14."
+    ],
+    tips: "The more concentrated the acid or alkali, the more dramatic the colour change. Lemon juice turns it bright pink almost immediately. Baking soda solution turns it blue-green."
+  },
+  {
+    id: 298, title: "Penny Surface Tension", category: "science", emoji: "💧",
+    ages: "4-12", time: "15 min", difficulty: "easy",
+    supplies: ["Several pennies or coins", "A pipette or eye dropper", "Water", "Washing-up liquid", "Paper and pencil for predictions"],
+    description: "Predict and test how many drops of water a coin can hold before the surface tension breaks.",
+    steps: [
+      "Place a penny on a flat dry surface.",
+      "Everyone makes a prediction: how many drops of water will fit on the coin?",
+      "Use the pipette to add drops of water to the penny one at a time. Count carefully.",
+      "Observe: the water domes up in a lens shape held together by surface tension.",
+      "Keep going until it spills.",
+      "Record the number.",
+      "Now add one drop of washing-up liquid to a second penny of water.",
+      "The surface tension breaks immediately - the dome collapses.",
+      "Discuss: water molecules are attracted to each other (cohesion). Soap disrupts these bonds."
+    ],
+    tips: "The results are usually surprising - most people guess 5-10 drops, but a penny typically holds 20-30 drops of plain water. A larger coin holds even more."
+  },
+  {
+    id: 299, title: "DIY Terrarium", category: "science", emoji: "🌿",
+    ages: "6-12", time: "1 hr", difficulty: "medium",
+    supplies: ["A large clear glass jar or old fish tank", "Small pebbles or gravel", "Activated charcoal (from a pet store)", "Potting mix", "Small plants: ferns, mosses, succulents, or air plants", "Decorations: pebbles, small figures"],
+    description: "Build a self-sustaining miniature ecosystem in a glass container that can go months without watering.",
+    steps: [
+      "Layer the bottom of the jar with 3-4cm of small pebbles for drainage.",
+      "Add a thin layer of activated charcoal to keep the water clean and prevent odours.",
+      "Add 5-7cm of potting mix on top.",
+      "Use a spoon or stick to dig small holes for each plant.",
+      "Plant your chosen plants, pressing soil around the roots.",
+      "Add decorative pebbles, small logs, or figurines.",
+      "Water very lightly - just enough to moisten the soil.",
+      "Place in bright indirect light.",
+      "For a closed terrarium: put a lid on it and watch the water cycle - you may rarely need to water again."
+    ],
+    tips: "A closed terrarium with ferns and moss creates its own water cycle: water evaporates, condenses on the glass, and drips back down. It genuinely runs itself for months."
+  },
+  {
+    id: 300, title: "Bernoulli Hovering Ball", category: "science", emoji: "🌬️",
+    ages: "5-12", time: "10 min", difficulty: "easy",
+    supplies: ["A hair dryer", "A lightweight ball: a ping pong ball or inflated balloon", "Optional: different sized balls to test"],
+    description: "Float a ball in a stream of air from a hair dryer and discover why aeroplanes can fly.",
+    steps: [
+      "Turn the hair dryer on a medium setting pointing straight upward.",
+      "Hold a ping pong ball above the air stream and let it go.",
+      "The ball floats and hovers in the stream of air.",
+      "Try tilting the hair dryer - the ball stays in the stream even at an angle.",
+      "Slowly move it to the side - the ball follows.",
+      "Try different sized balls and see which hover the easiest.",
+      "Discuss: fast-moving air creates lower pressure. Higher pressure air on the outside pushes the ball into the centre of the stream - this is the Bernoulli effect.",
+      "Connect to aeroplanes: a wing is shaped to make air move faster over the top, creating lift."
+    ],
+    tips: "A ping pong ball is perfect. The ball will follow the dryer when you tilt it at surprisingly steep angles - this demonstrates the strength of the effect dramatically."
+  },
+  {
+    id: 301, title: "Grow a Ginger Plant", category: "science", emoji: "🌱",
+    ages: "4-12", time: "20 min + weeks of growing", difficulty: "easy",
+    supplies: ["A fresh piece of ginger root from the supermarket", "A shallow wide pot", "Potting mix", "Warm water", "A warm sunny spot"],
+    description: "Plant a piece of fresh ginger and watch it sprout, grow, and eventually produce more ginger you can harvest and cook with.",
+    steps: [
+      "Choose a piece of ginger with visible small buds or 'eyes' - these are the growing points.",
+      "Soak the ginger in warm water overnight to encourage sprouting.",
+      "Fill a wide shallow pot with potting mix.",
+      "Plant the ginger piece with the buds pointing up, just below the soil surface.",
+      "Water gently.",
+      "Place in a warm spot with bright indirect light - ginger hates direct midday sun.",
+      "Keep the soil moist but not waterlogged.",
+      "After 2-3 weeks, green shoots will appear.",
+      "After several months, you can harvest small pieces of rhizome from the side of the plant.",
+      "Grate freshly harvested ginger into cooking."
+    ],
+    tips: "Ginger from the supermarket sometimes has growth inhibitors sprayed on it. If it doesn't sprout after 3 weeks, try a piece from an organic greengrocer."
+  },
+
+  // ── LEARNING (more) ─────────────────────────────────────────────────────
+  {
+    id: 302, title: "World Map Puzzle", category: "learning", emoji: "🌍",
+    ages: "5-12", time: "30-60 min", difficulty: "medium",
+    supplies: ["A large printed world map", "Scissors", "Card or foam to mount the map on", "Glue", "A zip-lock bag to store the pieces"],
+    description: "Mount a world map on card, cut it into country-shaped pieces, and reassemble it as a geography puzzle.",
+    steps: [
+      "Print or buy a large political world map.",
+      "Glue it to a piece of stiff card and let dry completely.",
+      "Cut along country or continent borders to make puzzle pieces.",
+      "Mix them up and challenge yourself to reassemble the world.",
+      "Start with continents first, then work within each continent.",
+      "As you place each piece, name the country and one fact about it.",
+      "Store pieces in a labelled bag.",
+      "Time yourself and try to beat your record."
+    ],
+    tips: "Start with continents as large pieces for younger children. Older children can cut individual countries. You can also cut by continent and make 7 separate mini-puzzles."
+  },
+  {
+    id: 303, title: "Roman Numerals", category: "learning", emoji: "📜",
+    ages: "7-12", time: "30 min", difficulty: "easy",
+    supplies: ["Paper and pencil", "A reference card: I=1, V=5, X=10, L=50, C=100, D=500, M=1000"],
+    description: "Learn to read and write Roman numerals, then spot them everywhere - clocks, buildings, film credits, book chapters.",
+    steps: [
+      "Learn the basic symbols: I=1, V=5, X=10, L=50, C=100, D=500, M=1000.",
+      "Learn the subtraction rule: if a smaller symbol appears before a larger one, subtract it. IV=4, IX=9, XL=40, XC=90, CM=900.",
+      "Practice reading: what is XIV? XLII? MCMXCIX?",
+      "Practice writing: write today's date in Roman numerals.",
+      "Write everyone's birth year in Roman numerals.",
+      "Go on a Roman numeral hunt: find them on a clock, a book spine, a building date stone, film credits.",
+      "Challenge: write a secret message by converting letters to their alphabet position in Roman numerals."
+    ],
+    tips: "MCMXCIX is 1999 - the most complex year most children encounter. Once they crack that, they feel like genuine code-breakers. Analogue clock faces are the best practice tool."
+  },
+  {
+    id: 304, title: "Sight Words Bingo", category: "learning", emoji: "🔤",
+    ages: "4-7", time: "20 min to make + play time", difficulty: "easy",
+    supplies: ["Index cards or card squares", "Pen", "A list of common sight words appropriate to the child's level", "Counters or small coins to mark squares"],
+    description: "Make bingo cards using sight words and call them out - combine reading practice with a game kids actually want to play.",
+    steps: [
+      "Choose 24 sight words appropriate to the child's reading level (e.g. the, and, is, to, I, you, it, in, on, at, go, do, he, she, we, me, my, up, can, see, not, but, one, was).",
+      "Draw a 5x5 grid on card and write 'FREE' in the centre square.",
+      "Fill remaining squares with sight words in random order.",
+      "Make multiple cards with the words arranged differently.",
+      "The caller draws a word card and reads it aloud.",
+      "Players find and cover that word on their card.",
+      "First to complete a row calls BINGO and reads back the words to confirm.",
+      "Play for full house."
+    ],
+    tips: "Let children take turns being the caller - reading the word aloud gives them double the practice. Keep word lists matched to their exact reading level to avoid frustration."
+  },
+  {
+    id: 305, title: "Estimation Station", category: "learning", emoji: "🔢",
+    ages: "4-9", time: "20 min", difficulty: "easy",
+    supplies: ["Several clear jars or containers", "Small objects to fill them: marbles, buttons, dried beans, pennies, lollies", "Paper and pencil for recording guesses"],
+    description: "Fill jars with different objects and guess how many are inside before counting - builds number sense and reasoning.",
+    steps: [
+      "Fill several jars with different objects in varying quantities.",
+      "Everyone writes down their estimate for each jar.",
+      "Discuss strategies: can you count a small visible section and multiply? Is it half full?",
+      "Count all objects together to find the actual number.",
+      "Calculate how far off each guess was.",
+      "The closest guess wins that round.",
+      "Swap who fills the jars so everyone gets to design a challenge."
+    ],
+    tips: "Ask children to explain their reasoning, not just their guess. 'I counted about 10 in the bottom layer and there are about 5 layers so I guessed 50' is excellent mathematical thinking."
+  },
+
+  // ── GAMES (more) ─────────────────────────────────────────────────────────
+  {
+    id: 306, title: "Spoons", category: "games", emoji: "🥄",
+    ages: "6-12", time: "20 min", difficulty: "easy",
+    supplies: ["A standard deck of playing cards", "One fewer spoon than there are players (e.g. 4 players = 3 spoons)"],
+    description: "Collect four of a kind and grab a spoon before everyone else does - a fast, chaotic card game.",
+    steps: [
+      "Place spoons in the centre of the table, one fewer than the number of players.",
+      "Deal 4 cards to each player.",
+      "The dealer picks up a card from the deck, decides to keep or discard it, and passes a card face-down to the left.",
+      "Each player keeps 4 cards at all times, passing the unwanted card along.",
+      "Cards move around the table continuously and quickly.",
+      "When a player gets four of a kind, they secretly pick up a spoon.",
+      "As soon as one spoon is taken, everyone else grabs a spoon.",
+      "The player without a spoon is out, one spoon is removed, and play continues."
+    ],
+    tips: "The chaos builds beautifully as cards move faster and faster. The player who notices the spoon being taken first - even without four of a kind - has the advantage."
+  },
+  {
+    id: 307, title: "Wink Murder", category: "games", emoji: "😉",
+    ages: "6-12", time: "20 min", difficulty: "easy",
+    supplies: ["Playing cards or slips of paper - one marked as detective, one as murderer"],
+    description: "A secret murderer winks players out of the game while a detective tries to catch them before everyone is gone.",
+    steps: [
+      "Deal one card to each player face-down. One is the murderer, one is the detective.",
+      "Everyone looks at their card secretly.",
+      "The detective announces themselves. Everyone else keeps their role secret.",
+      "The murderer makes eye contact and winks at other players one at a time.",
+      "If you are winked at, count slowly to five in your head, then dramatically act out your death and sit out.",
+      "The detective watches carefully and gets three guesses to name the murderer.",
+      "If the detective guesses correctly before everyone dies, they win. Otherwise the murderer wins.",
+      "Rotate roles each round."
+    ],
+    tips: "The murderer needs to wink when the detective is not looking. Looking at the detective while winking at someone else is a classic advanced move."
+  },
+  {
+    id: 308, title: "Pictionary", category: "games", emoji: "✏️",
+    ages: "6-12", time: "30 min", difficulty: "easy",
+    supplies: ["A whiteboard, large paper, or sketchpad", "Markers", "Slips of paper with words written on them", "A timer", "Two teams"],
+    description: "Draw a word for your team to guess within the time limit - no letters, no numbers, no talking.",
+    steps: [
+      "Divide into two teams.",
+      "Write a list of words on slips of paper: mix easy (sun, cat), medium (birthday, swimming), and hard (freedom, jealous).",
+      "One person from each team takes turns being the artist.",
+      "The artist draws a word from the pile without showing it.",
+      "Set a 60-second timer.",
+      "The artist draws only - no letters, numbers, speaking, or gestures.",
+      "Their team calls out guesses.",
+      "If the team guesses correctly in time, they score a point.",
+      "Teams alternate. Most points wins."
+    ],
+    tips: "For younger children, use only concrete nouns: dog, pizza, rocket, umbrella. For older children, include verbs and emotions for a real challenge."
+  },
+  {
+    id: 309, title: "Category Game", category: "games", emoji: "🔠",
+    ages: "6-12", time: "15-30 min", difficulty: "easy",
+    supplies: ["Paper and pencil per player", "A timer"],
+    description: "Name something in a category for every letter of the alphabet before time runs out - then compare for unique answers.",
+    steps: [
+      "Choose 5-6 categories together: animals, foods, countries, films, things in a supermarket, sports.",
+      "Someone calls out a random letter.",
+      "Everyone has 60 seconds to write one thing in each category starting with that letter.",
+      "When time is up, share answers.",
+      "Score 1 point for each valid answer. If two people wrote the same answer, neither scores.",
+      "Play 5-6 rounds with different letters.",
+      "Add up all points at the end."
+    ],
+    tips: "The no-point-for-matching rule encourages creative thinking over obvious answers. Q, X, and Z are brutal - warn players that these letters are coming and build in extra time."
+  },
+  {
+    id: 310, title: "Mafia (Kids Version)", category: "games", emoji: "🕵️",
+    ages: "8-12", time: "30 min", difficulty: "medium",
+    supplies: ["Playing cards or role slips - allocate: 1 Mafia per 3 players, 1 Detective, rest are Villagers"],
+    description: "A social deduction game where villagers must identify the hidden Mafia members before being eliminated.",
+    steps: [
+      "Assign roles secretly: shuffle role cards and deal one each.",
+      "Everyone closes their eyes. Mafia members open their eyes and silently acknowledge each other.",
+      "Night: Mafia quietly points to one player to eliminate. The Detective points to one player to check - the narrator nods yes or no.",
+      "Everyone opens their eyes. The narrator announces who was eliminated and they sit out.",
+      "Day: the group discusses and debates who they think is Mafia. All vote to eliminate someone.",
+      "That player is eliminated and reveals their role.",
+      "Repeat night and day phases.",
+      "Villagers win if all Mafia are eliminated. Mafia wins if they match or outnumber the villagers."
+    ],
+    tips: "A confident narrator is essential to make the game work. Start with one Mafia member and a Detective for a group of 5-6 players. Younger children may find the deception aspect hard - judge the group."
+  },
+
+  // ── ART (more) ──────────────────────────────────────────────────────────
+  {
+    id: 311, title: "Acrylic Pour Painting", category: "art", emoji: "🎨",
+    ages: "5-12", time: "30 min + dry time", difficulty: "easy",
+    supplies: ["Acrylic paint in 3-5 colours", "Pouring medium or PVA glue diluted with water", "A canvas or board", "Cups for mixing", "A tray to catch overflow", "Gloves"],
+    description: "Mix paint with pouring medium and pour it across a canvas to create swirling abstract patterns.",
+    steps: [
+      "Mix each paint colour with an equal amount of pouring medium until it flows like cream.",
+      "Pour each colour into one shared cup, layering them without mixing.",
+      "Place the canvas on a cup in the middle of the tray to elevate it.",
+      "Pour the cup of paint in the centre of the canvas.",
+      "Tilt the canvas slowly in different directions so paint flows across the surface.",
+      "Keep tilting until the canvas is mostly covered.",
+      "Blow gently through a straw to create cells and patterns in the paint.",
+      "Set flat to dry - takes 24-48 hours to dry fully."
+    ],
+    tips: "Adding a few drops of silicone oil to the paint mixture (not all colours) creates dramatic circular cells in the finished piece. Lay the canvas on cups so excess paint drips into the tray."
+  },
+  {
+    id: 312, title: "Gesture Drawing", category: "art", emoji: "✍️",
+    ages: "7-12", time: "20 min", difficulty: "easy",
+    supplies: ["Paper", "Pencils or charcoal", "A willing model or reference photos", "A timer"],
+    description: "Draw quick 30-second to 2-minute sketches of people in different poses - capturing movement, not detail.",
+    steps: [
+      "Understand the goal: gesture drawing captures the energy and movement of a pose, not the detail.",
+      "Set a timer for 30 seconds. Draw a pose in one continuous motion.",
+      "Start with the spine line (the line of action) and build outward.",
+      "Do not lift the pencil - keep it moving.",
+      "Fill a page with 6-8 quick gestures.",
+      "Move to 1-minute poses: a bit more detail, still loose.",
+      "Try 2-minute poses last: start adding proportion and form.",
+      "Compare early and later sketches - you can already see improvement."
+    ],
+    tips: "Use a free website like Line of Action or SenshiStock for timed pose references. Gesture drawing is how professional animators and illustrators warm up every single day."
+  },
+  {
+    id: 313, title: "Lino Printing (Simplified)", category: "art", emoji: "🖨️",
+    ages: "8-12", time: "1 hr", difficulty: "hard",
+    supplies: ["Soft lino block or foam printing block (safer for younger children)", "Lino cutting tools (adult supervised)", "Printing ink or thick paint", "A brayer or roller", "Paper", "A flat surface for rolling ink"],
+    description: "Carve a design into a printing block and use it to print the same image repeatedly on paper, cards, or fabric.",
+    steps: [
+      "Draw a simple design on paper: a leaf, a bird, a geometric shape. Remember it will print in reverse.",
+      "Transfer the design to the lino by pressing the paper firmly face-down and rubbing the back.",
+      "Using lino cutting tools (adults assist younger children), carve away the areas you want to stay white.",
+      "The raised surfaces will print; the cut-away areas will not.",
+      "Roll printing ink or thick paint onto a plate, then roll evenly onto the block with the brayer.",
+      "Press paper firmly onto the inked block.",
+      "Peel back slowly from one corner.",
+      "Re-ink for every print.",
+      "Try printing on cardstock to make greeting cards."
+    ],
+    tips: "For children under 10, use foam printing blocks which can be carved with a pencil and require no sharp tools. The cut-away areas take practice to visualise - start very simple."
+  },
+
+  // -- NEW ACTIVITIES --
+  {
+    id: 314, title: "Melted Crayon Art", category: "art", emoji: "🖍️",
+    ages: "6-12", time: "45 min + dry time", difficulty: "medium",
+    supplies: ["Old or broken crayons (peeled)","A canvas or thick cardboard","Hot glue gun (adult)","Hairdryer","A tray or drop cloth to catch drips","Masking tape (optional)"],
+    description: "Glue crayons along the top of a canvas and melt them with a hairdryer so the colours drip and blend down the surface.",
+    steps: [
+      "Arrange crayons along the top edge of the canvas in colour order or any arrangement you like.",
+      "An adult uses hot glue to attach each crayon tip-up along the edge.",
+      "Prop or lean the canvas at an angle over a drop cloth.",
+      "Set the hairdryer to high heat and point it at the crayon tips.",
+      "Watch the wax melt and begin to drip downward.",
+      "Move the hairdryer along to melt all the crayons evenly.",
+      "Tilt the canvas to guide the drips in different directions.",
+      "Let cool flat to set the wax.",
+    ],
+    tips: "Cover the bottom half of the canvas with tape before melting if you want a clean white section for a silhouette. Cut out a tree, cityscape, or person shape from black card and glue on top once the wax has set."
+  },
+  {
+    id: 315, title: "Homemade Ice Lollies", category: "cooking", emoji: "🍡",
+    ages: "3-10", time: "15 min + 4 hrs freezing", difficulty: "easy",
+    supplies: ["Fruit juice, coconut water, or blended fruit","Yogurt (optional, for creamy layers)","Ice lolly moulds or small paper cups","Wooden popsicle sticks","Cling film (if using cups)"],
+    description: "Pour fruit juice or pureed fruit into moulds and freeze into refreshing homemade ice lollies.",
+    steps: [
+      "Choose your flavour: straight juice, blended fruit, layered yogurt and fruit, or coconut water with whole berries.",
+      "If using paper cups, fill two-thirds full and cover with cling film.",
+      "Push a popsicle stick through the cling film into the centre of each cup - the film holds it upright.",
+      "For layered lollies: pour one flavour and half-freeze for 1 hour before adding the second layer.",
+      "Freeze completely - at least 4 hours, ideally overnight.",
+      "To release: run the outside of the mould briefly under warm water.",
+      "Eat outside!",
+    ],
+    tips: "Frozen berries or small fruit pieces dropped in before freezing look beautiful and add texture. Watermelon juice with mint makes the most refreshing summer lolly."
+  },
+  {
+    id: 316, title: "Ice Cream in a Bag", category: "science", emoji: "🍦",
+    ages: "4-12", time: "20 min", difficulty: "easy",
+    supplies: ["1 cup full-cream milk or cream","2 tbsp sugar","½ tsp vanilla extract","1 small zip-lock bag","1 large zip-lock bag","3 cups ice","½ cup rock salt or table salt","Gloves or a tea towel for handling"],
+    description: "Shake a bag of cream, sugar, and vanilla inside a bag of ice and salt - the salt lowers the freezing point of ice and the mixture turns into real ice cream.",
+    steps: [
+      "Pour milk, sugar, and vanilla into the small zip-lock bag. Seal tightly.",
+      "Fill the large bag with ice and add the salt.",
+      "Place the sealed small bag inside the large bag. Seal the large bag.",
+      "Shake, squeeze, and shake the bag continuously for 10-15 minutes.",
+      "Take turns - it gets cold! Use gloves or wrap in a tea towel.",
+      "After 10-15 minutes, open the large bag and check the small bag.",
+      "The mixture should be thick and creamy like soft-serve ice cream.",
+      "Rinse the small bag quickly, open it, and eat the ice cream with a spoon.",
+      "Discuss: the salt lowers the freezing point of the ice below 0°C, making it cold enough to freeze the cream mixture.",
+    ],
+    tips: "More salt = colder temperature = faster freezing. Rock salt works faster than table salt. Add sprinkles or berries to the bag in the last 2 minutes."
+  },
+  {
+    id: 317, title: "Rock Balancing", category: "outdoor", emoji: "🪨",
+    ages: "4-12", time: "30-60 min", difficulty: "medium",
+    supplies: ["A collection of rocks of different sizes and shapes","A flat outdoor surface near rocks or a garden","Patience"],
+    description: "Stack and balance rocks into towers and sculptures using only weight and careful placement - no glue allowed.",
+    steps: [
+      "Collect a variety of rocks - flat ones balance best, rounded ones are trickier.",
+      "Start with the largest rock as the base.",
+      "Look at each rock and find its flattest, most stable face.",
+      "Place each rock slowly and let it settle before adding the next.",
+      "Use the tiniest stones as wedges to stabilise a wobbly rock.",
+      "Try to build upward with progressively smaller rocks.",
+      "Once you have a stable tower, try adding an unexpected shape at the top.",
+      "Photograph your sculptures before they fall.",
+    ],
+    tips: "This activity is surprisingly meditative for kids. The rule is no cheating with pebble wedges - every rock must balance on its own. Challenge: can you balance a flat rock on a rounded one?"
+  },
+  {
+    id: 318, title: "Wildflower Seed Bombs", category: "outdoor", emoji: "🌱",
+    ages: "4-12", time: "30 min + dry time", difficulty: "easy",
+    supplies: ["Air-dry clay or potter's clay","Wildflower seeds (native species work best)","Water","Optional: compost or fine soil","A tray to dry them on"],
+    description: "Roll clay and seeds into balls - throw them into a garden, verge, or empty patch and wait for wildflowers.",
+    steps: [
+      "Knead the clay until soft and workable.",
+      "Flatten a piece of clay in your palm.",
+      "Sprinkle a pinch of wildflower seeds onto the clay.",
+      "Fold the clay over the seeds and roll into a ball.",
+      "Make sure the seeds are enclosed but close to the surface.",
+      "Set on a tray to dry for 24-48 hours.",
+      "Once dry, take them outside and throw or tuck them into bare soil, verges, or garden edges.",
+      "Water if it doesn't rain within a week.",
+    ],
+    tips: "Use native wildflower seeds for the best results - they are adapted to your local conditions and support local pollinators. Seed bombs make a lovely gift in a small bag with a ribbon."
+  },
+  {
+    id: 319, title: "Terracotta Pot Characters", category: "crafts", emoji: "🌻",
+    ages: "4-10", time: "30 min + dry time", difficulty: "easy",
+    supplies: ["Small terracotta pots (one per person)","Acrylic paint","Small brushes","Googly eyes (optional)","Sealer spray or Mod Podge if used outdoors"],
+    description: "Paint terracotta pots as animals, monsters, faces, or characters - then plant something in them.",
+    steps: [
+      "Paint the pot a base colour and let dry.",
+      "Plan your character: an owl, a ladybird, a cat, a robot, a favourite animal.",
+      "Paint the main design and let each colour dry before adding the next.",
+      "Add eyes, mouths, stripes, spots, or other details.",
+      "Glue on googly eyes for extra personality.",
+      "Let dry completely.",
+      "If the pot will live outside, seal it with a spray sealer.",
+      "Fill with potting mix and plant a small herb, succulent, or flower.",
+    ],
+    tips: "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed."
+  },
+  {
+    id: 320, title: "Origami Fortune Teller", category: "crafts", emoji: "🔮",
+    ages: "5-10", time: "20 min", difficulty: "easy",
+    supplies: ["A square piece of paper","Markers or pens"],
+    description: "Fold the classic origami fortune teller - also called a cootie catcher - and fill it with fortunes to tell each other.",
+    steps: [
+      "Start with a square piece of paper. Fold in half diagonally both ways to find the centre, then unfold.",
+      "Fold all four corners into the centre point.",
+      "Flip the paper over and fold all four corners into the centre again.",
+      "Fold in half, then unfold and fold in half the other way to create creases.",
+      "Push the four square sections together by inserting thumbs and index fingers into the four pockets.",
+      "Before folding, write a colour on each outer triangle (4 colours).",
+      "Under each colour flap, write a number (8 numbers total).",
+      "Under each numbered flap, write a fortune or prediction.",
+      "To play: pick a colour, spell it out while opening and closing. Pick a number, count while opening and closing. Pick another number, read the fortune.",
+    ],
+    tips: "Kids love making increasingly elaborate fortunes. Try themed versions: sport predictions, weekend activity picker, or who-has-to-do-which-chore fortune teller."
+  },
+  {
+    id: 321, title: "Cress Egg Heads", category: "learning", emoji: "🥚",
+    ages: "2-8", time: "15 min + 5-7 days growing", difficulty: "easy",
+    supplies: ["Empty eggshells (save them when cracking eggs - crack the top third only)","Cotton wool","Cress seeds or mustard seeds","Markers to draw faces","An egg carton to hold them upright","Water"],
+    description: "Draw faces on eggshells, fill with damp cotton wool and seeds, and watch the cress grow as a wild green mane of hair.",
+    steps: [
+      "Carefully crack eggs near the top and empty them out. Rinse and dry the shells.",
+      "Draw a face on each shell with markers - big eyes, a nose, a smile.",
+      "Place the shells in an egg carton to keep them steady.",
+      "Fill each shell about halfway with cotton wool.",
+      "Dampen the cotton wool with water - it should be moist but not waterlogged.",
+      "Sprinkle a generous pinch of cress seeds on top of the cotton wool.",
+      "Place in a warm sunny windowsill.",
+      "Add a few drops of water every day to keep the cotton wool damp.",
+      "Within 5-7 days the cress will sprout as a full head of green 'hair'.",
+      "Snip and eat the cress in sandwiches or salads.",
+    ],
+    tips: "Cress is one of the fastest-growing edible plants - results in less than a week keep young children engaged. Draw the face together so children feel ownership of their egg head."
   }
 
 ];
