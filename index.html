@@ -207,19 +207,19 @@
       padding: 8px 16px; border: 1px solid var(--border); border-radius: 20px;
       background: var(--bg-card); font-family: "Inter", sans-serif;
       font-size: 0.82rem; font-weight: 600; color: var(--text-muted);
-      cursor: pointer; white-space: nowrap; transition: all 0.15s;
+      cursor: pointer; white-space: nowrap; transition: border-color 0.15s, background 0.15s, color 0.15s;
       line-height: 1;
     }
-    .cat-btn:hover { border-color: var(--accent); color: var(--text); background: var(--bg-hover); }
     .cat-emoji { font-size: 0.85rem; line-height: 1; }
     .cat-btn .cat-count {
-      background: var(--bg-hover); border-radius: 10px;
+      border-radius: 10px; background: var(--bg-hover);
       padding: 2px 7px; font-size: 0.72rem; font-weight: 700; color: var(--text-muted);
       transition: background 0.15s, color 0.15s;
     }
-    .cat-btn.active { color: white; border-color: transparent; }
-    .cat-btn.active .cat-count { background: rgba(0,0,0,0.25); color: rgba(255,255,255,0.85); }
-    /* per-category active colors injected dynamically by injectCategoryStyles() */
+    /* "All" button active state */
+    .cat-btn[data-cat="all"].active { background: var(--accent); border-color: var(--accent); color: #07090f; }
+    .cat-btn[data-cat="all"].active .cat-count { background: rgba(0,0,0,0.18); color: rgba(0,0,0,0.7); }
+    /* per-category inactive/active colors injected dynamically by injectCategoryStyles() */
 
     /* Filter rows */
     .filter-row {
@@ -867,7 +867,11 @@
         `.card[data-cat="${cat}"]::before { background: ${color}; }`,
         `.badge-cat[data-cat="${cat}"] { background: rgba(${r},${g},${b},0.14); color: ${color}; }`,
         `.modal-accent-bar[data-cat="${cat}"] { background: ${color}; }`,
-        `.cat-btn[data-cat="${cat}"].active { background: ${color}; border-color: ${color}; }`
+        `.cat-btn[data-cat="${cat}"] { border-color: rgba(${r},${g},${b},0.35); color: rgba(${r},${g},${b},1); background: rgba(${r},${g},${b},0.08); }`,
+        `.cat-btn[data-cat="${cat}"] .cat-count { background: rgba(${r},${g},${b},0.18); color: rgba(${r},${g},${b},0.9); }`,
+        `.cat-btn[data-cat="${cat}"]:hover { border-color: ${color}; background: rgba(${r},${g},${b},0.18); }`,
+        `.cat-btn[data-cat="${cat}"].active { background: ${color}; border-color: ${color}; color: white; }`,
+        `.cat-btn[data-cat="${cat}"].active .cat-count { background: rgba(0,0,0,0.22); color: rgba(255,255,255,0.85); }`
       ].join('\n');
     }).join('\n');
     const style = document.createElement('style');
