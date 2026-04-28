@@ -9614,7 +9614,7 @@ const ACTIVITIES = [
       "Connect to meditation: rock balancing requires a calm, focused mind. Racing to stack stones results in failure. Discuss how slowing down and paying careful attention produces better results.",
       "Discuss the physics: all balanced rocks are in a state of unstable equilibrium - tiny disturbances topple them. Discuss the difference between stable equilibrium (a ball in a bowl), unstable equilibrium (a ball on a hill), and neutral equilibrium (a ball on a flat surface)."
     ],
-    "tips": "This activity is surprisingly meditative for kids. The rule is no cheating with pebble wedges - every rock must balance on its own. Challenge: can you balance a flat rock on a rounded one?""
+    "tips": "This activity is surprisingly meditative for kids. The rule is no cheating with pebble wedges - every rock must balance on its own. Challenge: can you balance a flat rock on a rounded one?"
   },
   {
     "id": 318,
@@ -10392,7 +10392,7 @@ const ACTIVITIES = [
       "Comparative testing"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 356,
@@ -10620,7 +10620,7 @@ const ACTIVITIES = [
       "Spatial awareness"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 362,
@@ -11030,7 +11030,7 @@ const ACTIVITIES = [
       "Family memory making"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 374,
@@ -11099,7 +11099,7 @@ const ACTIVITIES = [
       "Comparison of fractions"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 376,
@@ -11202,7 +11202,7 @@ const ACTIVITIES = [
       "Presentation skills"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 379,
@@ -11312,7 +11312,7 @@ const ACTIVITIES = [
       "Iterative playtesting"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 382,
@@ -11788,7 +11788,7 @@ const ACTIVITIES = [
       "Communication"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 384,
@@ -11824,7 +11824,7 @@ const ACTIVITIES = [
       "Agency"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 385,
@@ -11858,7 +11858,7 @@ const ACTIVITIES = [
       "Coping strategies"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 386,
@@ -11893,7 +11893,7 @@ const ACTIVITIES = [
       "Fine motor skills"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 387,
@@ -11925,7 +11925,7 @@ const ACTIVITIES = [
       "Body language reading"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 388,
@@ -11958,7 +11958,7 @@ const ACTIVITIES = [
       "Habit formation"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 389,
@@ -11990,7 +11990,7 @@ const ACTIVITIES = [
       "Reflective thinking"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 390,
@@ -12022,7 +12022,7 @@ const ACTIVITIES = [
       "Body awareness"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 391,
@@ -12055,7 +12055,7 @@ const ACTIVITIES = [
       "Family connection"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 392,
@@ -12090,7 +12090,7 @@ const ACTIVITIES = [
       "Conflict de-escalation"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 393,
@@ -12123,7 +12123,7 @@ const ACTIVITIES = [
       "Wellbeing"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 394,
@@ -12156,7 +12156,7 @@ const ACTIVITIES = [
       "Emotional vocabulary"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 395,
@@ -12188,7 +12188,7 @@ const ACTIVITIES = [
       "Empathy"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 396,
@@ -12221,7 +12221,7 @@ const ACTIVITIES = [
       "Positive self-narrative"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 397,
@@ -12252,7 +12252,7 @@ const ACTIVITIES = [
       "Perspective-taking"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 398,
@@ -12284,7 +12284,7 @@ const ACTIVITIES = [
       "Sensory awareness"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 399,
@@ -12317,7 +12317,7 @@ const ACTIVITIES = [
       "Stress reduction"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 400,
@@ -12349,7 +12349,7 @@ const ACTIVITIES = [
       "Non-verbal communication"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 401,
@@ -12381,7 +12381,7 @@ const ACTIVITIES = [
       "Resilience"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 402,
@@ -12414,7 +12414,7 @@ const ACTIVITIES = [
       "Energy regulation"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 403,
@@ -12445,7 +12445,7 @@ const ACTIVITIES = [
       "Creative thinking"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 404,
@@ -12546,7 +12546,7 @@ const ACTIVITIES = [
       "General knowledge"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 407,
@@ -12716,7 +12716,7 @@ const ACTIVITIES = [
       "Collaborative fun"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 412,
@@ -12780,7 +12780,7 @@ const ACTIVITIES = [
       "Journalism concepts"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 414,
@@ -12848,7 +12848,7 @@ const ACTIVITIES = [
       "Communication"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 416,
@@ -12884,7 +12884,7 @@ const ACTIVITIES = [
       "Iterative testing"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 417,
@@ -12915,7 +12915,7 @@ const ACTIVITIES = [
       "Creative thinking"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 418,
@@ -12946,7 +12946,7 @@ const ACTIVITIES = [
       "Number patterns"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 419,
@@ -12979,7 +12979,7 @@ const ACTIVITIES = [
       "Collaboration"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 420,
@@ -13116,7 +13116,7 @@ const ACTIVITIES = [
       "Social play"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 424,
@@ -13181,7 +13181,7 @@ const ACTIVITIES = [
       "Social confidence"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 426,
@@ -13250,7 +13250,7 @@ const ACTIVITIES = [
       "Creative thinking"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 428,
@@ -13353,7 +13353,7 @@ const ACTIVITIES = [
       "Creative expression"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 431,
@@ -13457,7 +13457,7 @@ const ACTIVITIES = [
       "Attention"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 434,
@@ -13488,7 +13488,7 @@ const ACTIVITIES = [
       "Attention span"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 435,
@@ -13524,7 +13524,7 @@ const ACTIVITIES = [
       "Fine motor"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 436,
@@ -13555,7 +13555,7 @@ const ACTIVITIES = [
       "Language"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 437,
@@ -13586,7 +13586,7 @@ const ACTIVITIES = [
       "Cooperation"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 438,
@@ -13621,7 +13621,7 @@ const ACTIVITIES = [
       "Memory making"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 439,
@@ -13653,7 +13653,7 @@ const ACTIVITIES = [
       "Data collection"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 440,
@@ -13685,7 +13685,7 @@ const ACTIVITIES = [
       "Narrative structure"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 441,
@@ -13717,7 +13717,7 @@ const ACTIVITIES = [
       "Interpretation"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 442,
@@ -13749,7 +13749,7 @@ const ACTIVITIES = [
       "Quick thinking"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 443,
@@ -13846,7 +13846,7 @@ const ACTIVITIES = [
       "Recall under pressure"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 446,
@@ -13909,7 +13909,7 @@ const ACTIVITIES = [
       "Competitive challenge"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 448,
@@ -14006,7 +14006,7 @@ const ACTIVITIES = [
       "Spatial strategy"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 451,
@@ -14138,7 +14138,7 @@ const ACTIVITIES = [
       "Auditory recognition"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 455,
@@ -14174,7 +14174,7 @@ const ACTIVITIES = [
       "Craft"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 456,
@@ -14207,7 +14207,7 @@ const ACTIVITIES = [
       "Creative expression"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 457,
@@ -14239,7 +14239,7 @@ const ACTIVITIES = [
       "Motor control"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 458,
@@ -14271,7 +14271,7 @@ const ACTIVITIES = [
       "Pattern learning"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 459,
@@ -14304,7 +14304,7 @@ const ACTIVITIES = [
       "Active listening"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 460,
@@ -14336,7 +14336,7 @@ const ACTIVITIES = [
       "Creative writing"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 461,
@@ -14368,7 +14368,7 @@ const ACTIVITIES = [
       "Attentive listening"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 462,
@@ -14400,7 +14400,7 @@ const ACTIVITIES = [
       "Musical creativity"
     ],
     "printable": false,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 463,
@@ -14434,7 +14434,7 @@ const ACTIVITIES = [
       "Present-moment focus"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 464,
@@ -14570,7 +14570,7 @@ const ACTIVITIES = [
       "Positive psychology"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 468,
@@ -14603,7 +14603,7 @@ const ACTIVITIES = [
       "Fine motor relaxation"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 469,
@@ -14670,7 +14670,7 @@ const ACTIVITIES = [
       "Self-regulation"
     ],
     "printable": true,
-    "safetyNotes": ""
+    "safetyNotes": "
   },
   {
     "id": 471,
