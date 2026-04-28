@@ -9298,7 +9298,7 @@ const ACTIVITIES = [
       "Rotate roles: deal new cards each round so everyone gets to try different roles. The murderer and detective are the most coveted positions.",
       "Discuss strategy: after each round, discuss what gave the murderer away. Advanced murderers look at the detective while winking at someone else, or wink at someone to the detective's side to draw suspicion elsewhere."
     ],
-    "tips": "The murderer needs to wink when the detective is not looking. Looking at the detective while winking at someone else is a classic advanced move.""
+    "tips": "The murderer needs to wink when the detective is not looking. Looking at the detective while winking at someone else is a classic advanced move."
   },
   {
     "id": 308,
