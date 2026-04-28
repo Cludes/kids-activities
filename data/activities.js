@@ -9285,16 +9285,20 @@ const ACTIVITIES = [
     ],
     "description": "A secret murderer winks players out of the game while a detective tries to catch them before everyone is gone.",
     "steps": [
-      "Deal one card to each player face-down. One is the murderer, one is the detective.",
-      "Everyone looks at their card secretly.",
-      "The detective announces themselves. Everyone else keeps their role secret.",
-      "The murderer makes eye contact and winks at other players one at a time.",
-      "If you are winked at, count slowly to five in your head, then dramatically act out your death and sit out.",
-      "The detective watches carefully and gets three guesses to name the murderer.",
-      "If the detective guesses correctly before everyone dies, they win. Otherwise the murderer wins.",
-      "Rotate roles each round."
+      "Introduce Wink Murder: Wink Murder (also called Killer or Murder Wink) is a social deduction game that develops peripheral vision, acting ability, and deductive reasoning. It can be played anywhere with no equipment - just a deck of cards and a group of players.",
+      "Assign roles: shuffle playing cards so there is one designated murderer card (e.g. the Ace), one detective card (e.g. the King), and innocent civilian cards for all other players. The number of murderers and detectives can be adjusted for larger groups.",
+      "Deal cards secretly: each player receives one card face-down and looks at it privately without revealing their role. Players should keep their card hidden throughout the game.",
+      "The detective declares: the player holding the Detective card announces their role. Everyone else keeps their role completely secret, including the murderer.",
+      "Play begins: all players make eye contact with each other, move around the space, or sit in a circle maintaining casual conversation. Normal social interaction continues throughout the game.",
+      "The murderer winks: the murderer selects victims one at a time by making deliberate eye contact and winking at them. The wink must be discreet - a quick, deliberate blink directed at one person.",
+      "Victims die dramatically: if a player is winked at, they must continue acting normally for a slow count of five (to avoid immediately revealing the murderer's location), then act out a dramatic, theatrical death and sit out of the round.",
+      "The detective watches: the detective observes all players, watches who makes eye contact with whom, and notices who is near a player just before they die.",
+      "The detective guesses: at any point, the detective can make a formal accusation by pointing and saying the player's name. They have a maximum of three guesses. If correct, the detective wins. If all three guesses are wrong, the murderer wins.",
+      "Victory conditions: the murderer wins if they eliminate all civilians before the detective identifies them. The detective wins by correctly naming the murderer while civilians still survive.",
+      "Rotate roles: deal new cards each round so everyone gets to try different roles. The murderer and detective are the most coveted positions.",
+      "Discuss strategy: after each round, discuss what gave the murderer away. Advanced murderers look at the detective while winking at someone else, or wink at someone to the detective's side to draw suspicion elsewhere."
     ],
-    "tips": "The murderer needs to wink when the detective is not looking. Looking at the detective while winking at someone else is a classic advanced move."
+    "tips": "The murderer needs to wink when the detective is not looking. Looking at the detective while winking at someone else is a classic advanced move.""
   },
   {
     "id": 308,
@@ -9313,17 +9317,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw a word for your team to guess within the time limit - no letters, no numbers, no talking.",
     "steps": [
-      "Divide into two teams.",
-      "Write a list of words on slips of paper: mix easy (sun, cat), medium (birthday, swimming), and hard (freedom, jealous).",
-      "One person from each team takes turns being the artist.",
-      "The artist draws a word from the pile without showing it.",
-      "Set a 60-second timer.",
-      "The artist draws only - no letters, numbers, speaking, or gestures.",
-      "Their team calls out guesses.",
-      "If the team guesses correctly in time, they score a point.",
-      "Teams alternate. Most points wins."
+      "Introduce Pictionary: Pictionary is a drawing and guessing game invented in 1985 that tests visual communication - can you convey a word or phrase through drawing alone, without any letters, numbers, or spoken clues? It develops visual thinking, spatial reasoning, and the ability to extract the essence of an idea.",
+      "Gather materials: paper and pencils or a whiteboard, a timer, and a collection of word cards. Prepare word cards across three difficulty levels: easy (sun, cat, pizza, tree), medium (birthday, swimming, rainbow, castle), and hard (freedom, jealousy, yesterday, enormous).",
+      "Divide into teams: two teams of 2-4 players works best. Each team needs paper and a clear surface to draw on. Teams sit opposite each other with the drawing surface visible to all team members.",
+      "Prepare the word deck: write each word on a small folded slip of paper and place all into a bowl. Mix thoroughly. Ideally keep easy, medium, and hard words separate and increase difficulty through the game.",
+      "The artist draws a word: the active team's artist draws a word slip from the bowl and looks at it without showing anyone. They have 10 seconds to plan their approach before the timer starts.",
+      "Set the 60-second timer: start the timer. The artist begins drawing. They may draw shapes, scenes, symbols, and connections - but absolutely no letters, numbers, spoken sounds, or gestures are allowed.",
+      "The team guesses aloud: the artist's team calls out guesses continuously. The artist can nod or react to show they are getting warmer, or draw an arrow next to something specific to direct attention.",
+      "Score the round: if the team guesses correctly within 60 seconds, they score a point and the turn passes to the other team. If time runs out, neither team scores and the word is revealed.",
+      "Teams alternate artists: every round, a different person from each team becomes the artist. Everyone should draw at least once before anyone draws twice.",
+      "Increase difficulty: start with concrete nouns for the first few rounds then introduce verbs (flying, climbing), emotions (nervous, excited), and abstract concepts (justice, luck) as confidence builds.",
+      "Add a challenge round: for extra difficulty, both teams draw simultaneously against each other with identical words. Both teams hear the word called aloud and race to guess it from their own artist's drawing first.",
+      "Reflect on communication: discuss which drawings were easiest to guess and why. Effective visual communication uses symbols, metaphors, and sequences rather than literal pictures."
     ],
-    "tips": "For younger children, use only concrete nouns: dog, pizza, rocket, umbrella. For older children, include verbs and emotions for a real challenge."
+    "tips": "For younger children, use only concrete nouns: dog, pizza, rocket, umbrella. For older children, include verbs and emotions for a real challenge.""
   },
   {
     "id": 309,
@@ -9339,15 +9346,20 @@ const ACTIVITIES = [
     ],
     "description": "Name something in a category for every letter of the alphabet before time runs out - then compare for unique answers.",
     "steps": [
-      "Choose 5-6 categories together: animals, foods, countries, films, things in a supermarket, sports.",
-      "Someone calls out a random letter.",
-      "Everyone has 60 seconds to write one thing in each category starting with that letter.",
-      "When time is up, share answers.",
-      "Score 1 point for each valid answer. If two people wrote the same answer, neither scores.",
-      "Play 5-6 rounds with different letters.",
-      "Add up all points at the end."
+      "Introduce the Category Game: also known as Scattergories or Categories, this word game develops vocabulary breadth, lateral thinking, and the ability to find creative answers under time pressure. The scoring rule - no points for answers others share - actively rewards unusual thinking over obvious responses.",
+      "Choose categories together: 5-6 categories per round works well. Mix categories of different difficulty: easy (animals, colours), medium (foods, sports, countries), and hard (things in a supermarket, things that are round, jobs that start with the same letter as your name).",
+      "Prepare scoring sheets: each player draws a grid with categories as column headers. Each row will be for one letter. Leave space for 5-6 rounds.",
+      "Select the letter: someone calls out a random letter (or use a dice with letters). More experienced players can agree to skip Z, X, and Q for the first few rounds.",
+      "Start the 60-second timer: all players simultaneously write one answer in each category beginning with that letter. Work fast - write the first valid answer that comes to mind.",
+      "Call time: when the timer ends, all players put down their pencils. No writing after time is called.",
+      "Read out and score: go category by category. Each player reads their answer aloud. If your answer is unique (no one else wrote the same thing), you score 1 point. If two or more people wrote the same answer, nobody scores for that answer.",
+      "Resolve disputes: if a player challenges whether an answer is valid, the group votes. Majority rules. The challenged player gets to argue their case first.",
+      "Tally and continue: record scores after each round and select a new letter. Play 5-6 rounds.",
+      "Celebrate unusual answers: at the end, vote for the most creative answer of the whole game. Creative thinking that scores points is worth celebrating explicitly.",
+      "Increase difficulty: add categories that require creative interpretation rather than simple recall, such as things that make you happy, excuses for being late, or things you find in a haunted house.",
+      "Tally the final scores: add up all round totals. The player with the most points wins - but give a special mention to whoever had the most unique answers."
     ],
-    "tips": "The no-point-for-matching rule encourages creative thinking over obvious answers. Q, X, and Z are brutal - warn players that these letters are coming and build in extra time."
+    "tips": "The no-point-for-matching rule encourages creative thinking over obvious answers. Q, X, and Z are brutal - warn players that these letters are coming and build in extra time.""
   },
   {
     "id": 310,
@@ -9362,16 +9374,20 @@ const ACTIVITIES = [
     ],
     "description": "A social deduction game where villagers must identify the hidden Mafia members before being eliminated.",
     "steps": [
-      "Assign roles secretly: shuffle role cards and deal one each.",
-      "Everyone closes their eyes. Mafia members open their eyes and silently acknowledge each other.",
-      "Night: Mafia quietly points to one player to eliminate. The Detective points to one player to check - the narrator nods yes or no.",
-      "Everyone opens their eyes. The narrator announces who was eliminated and they sit out.",
-      "Day: the group discusses and debates who they think is Mafia. All vote to eliminate someone.",
-      "That player is eliminated and reveals their role.",
-      "Repeat night and day phases.",
-      "Villagers win if all Mafia are eliminated. Mafia wins if they match or outnumber the villagers."
+      "Introduce Mafia: Mafia (also known as Werewolf) is a social deduction game created by psychology professor Dmitry Davidoff in 1986. It teaches deductive reasoning, social observation, persuasion, and the psychology of deception. The kids version removes any scary elements.",
+      "Assign a narrator: the narrator is not a player but runs the game. They manage the day and night phases, keep the game moving, and maintain suspense through storytelling.",
+      "Create role cards: write roles on cards. For 5-6 players: 1 Mafia, 1 Detective (Sheriff), and the rest are Villagers. For 7-10 players: 2 Mafia, 1 Doctor (who can save one player per night), 1 Detective, and Villagers.",
+      "Deal roles secretly: shuffle and deal one card face-down to each player. Players look at their card privately and keep their role secret throughout the game.",
+      "Night phase begins: the narrator says 'Everyone close your eyes.' Then: 'Mafia members, open your eyes.' The Mafia members open their eyes, silently identify each other and agree on a victim by pointing. The narrator nods to confirm.",
+      "Detective's turn: the narrator says 'Mafia, close your eyes. Detective, open your eyes.' The Detective points to any player and the narrator silently nods yes (Mafia) or shakes head no (Villager). The Detective closes their eyes.",
+      "Day phase: the narrator says 'Everyone open your eyes. Last night, [player name] was found eliminated and is out of the game.' That player leaves or turns their chair around but must stay silent.",
+      "The discussion: all remaining players discuss who they suspect is Mafia. Anyone may accuse anyone. Players must balance deduction, bluffing, and convincing others. The Detective knows one fact but must be careful not to reveal how they know.",
+      "Vote to eliminate: after 3-5 minutes of discussion, the group votes to eliminate the player they suspect most. The majority vote eliminates them. That player reveals their role.",
+      "Repeat night and day: continue alternating night and day phases. The game accelerates as fewer players remain.",
+      "Victory conditions: Villagers win when all Mafia members are eliminated. Mafia wins when their numbers equal or exceed the remaining Villagers (at that point they control all votes).",
+      "Debrief after the game: discuss what clues gave away the Mafia, what bluffs worked, and what the Detective learned. The post-game discussion is as valuable as the game itself for developing reasoning skills."
     ],
-    "tips": "A confident narrator is essential to make the game work. Start with one Mafia member and a Detective for a group of 5-6 players. Younger children may find the deception aspect hard - judge the group."
+    "tips": "A confident narrator is essential to make the game work. Start with one Mafia member and a Detective for a group of 5-6 players. Younger children may find the deception aspect hard - judge the group.""
   },
   {
     "id": 311,
@@ -9391,16 +9407,20 @@ const ACTIVITIES = [
     ],
     "description": "Mix paint with pouring medium and pour it across a canvas to create swirling abstract patterns.",
     "steps": [
-      "Mix each paint colour with an equal amount of pouring medium until it flows like cream.",
-      "Pour each colour into one shared cup, layering them without mixing.",
-      "Place the canvas on a cup in the middle of the tray to elevate it.",
-      "Pour the cup of paint in the centre of the canvas.",
-      "Tilt the canvas slowly in different directions so paint flows across the surface.",
-      "Keep tilting until the canvas is mostly covered.",
-      "Blow gently through a straw to create cells and patterns in the paint.",
-      "Set flat to dry - takes 24-48 hours to dry fully."
+      "Introduce acrylic pour painting: also called fluid art or dirty pour painting, this technique uses the natural flow and density differences between paint colours to create organic, marbled patterns that are impossible to replicate deliberately. Every pour is unique.",
+      "Gather materials: acrylic paint in 4-6 colours, pouring medium (or a mixture of PVA glue and water at 2:1 ratio), a canvas, disposable cups, a tray, a brayer or stirring sticks, and optionally silicone oil for cell effects.",
+      "Prepare the paint: pour each colour into a separate small cup. Add an equal volume of pouring medium and mix thoroughly. The consistency should flow smoothly off a spoon like thick cream, not drip in blobs.",
+      "Set up the workspace: cover the table with newspaper or a drop cloth. Place the canvas on top of 4 small cups to elevate it - this allows excess paint to drip off the edges rather than pooling underneath.",
+      "Create the pour cup: pour all prepared paint colours into one large cup, layering each colour without stirring. The colours should remain in distinct layers.",
+      "Pour the paint: hold the cup over the centre of the canvas and invert it upside down. Let the cup sit for a few seconds, then lift it - the paint will flow outward in a controlled burst.",
+      "Tilt to spread: pick up the canvas and tilt it slowly in different directions, watching the paint flow and blend. Work methodically, guiding paint toward uncovered corners.",
+      "Create cells with silicone: drop 2-3 drops of silicone oil into just one or two of the paint cups before pouring. The silicone repels the water-based paint, creating circular cell patterns in the finished piece.",
+      "Use a torch for more cells: pass a kitchen blowtorch or lighter briefly over the surface of the wet paint. The heat bursts bubbles and creates additional cells and texture.",
+      "Let dry flat: once you are satisfied with the pattern, set the canvas down absolutely flat. Any tilting while drying will cause the paint to continue flowing and ruin the composition.",
+      "Wait for full drying: acrylic pour paintings take 24-72 hours to dry completely depending on thickness. They appear glossy when wet and slightly different when dry - this is normal.",
+      "Photograph wet and dry: photograph the wet painting immediately as the colours are more vibrant. Compare with the final dried version - discuss how the same painting looks different in different light."
     ],
-    "tips": "Adding a few drops of silicone oil to the paint mixture (not all colours) creates dramatic circular cells in the finished piece. Lay the canvas on cups so excess paint drips into the tray."
+    "tips": "Adding a few drops of silicone oil to the paint mixture (not all colours) creates dramatic circular cells in the finished piece. Lay the canvas on cups so excess paint drips into the tray.""
   },
   {
     "id": 312,
@@ -9418,16 +9438,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw quick 30-second to 2-minute sketches of people in different poses - capturing movement, not detail.",
     "steps": [
-      "Understand the goal: gesture drawing captures the energy and movement of a pose, not the detail.",
-      "Set a timer for 30 seconds. Draw a pose in one continuous motion.",
-      "Start with the spine line (the line of action) and build outward.",
-      "Do not lift the pencil - keep it moving.",
-      "Fill a page with 6-8 quick gestures.",
-      "Move to 1-minute poses: a bit more detail, still loose.",
-      "Try 2-minute poses last: start adding proportion and form.",
-      "Compare early and later sketches - you can already see improvement."
+      "Introduce gesture drawing: gesture drawing is the art of capturing the essence, movement, and energy of a pose in a very short time - typically 30 seconds to 2 minutes. Unlike detailed drawing, the goal is not accuracy but expression. It is how professional illustrators, animators, and fine artists warm up every single day.",
+      "Gather materials: a stack of plain paper, a soft pencil (2B or 4B works best for flowing lines), and a reference source (a free website like Line of Action, QuickPoses, or SenshiStock all provide timed pose references).",
+      "Understand the line of action: before drawing anything, identify the single curved line that runs through the entire pose - from the head, through the spine, to the weight-bearing foot. This is the line of action, and it captures the energy of the pose.",
+      "First exercise - 30 second gestures: set the timer for 30 seconds. Draw one pose focusing only on the line of action and the major masses (head, ribcage, pelvis). Do not lift the pencil. Do not erase.",
+      "Fill a page: do 8-10 thirty-second gestures on a single page. They will look rough and incomplete - this is correct. Speed is the point. The hand and eye are learning to work together.",
+      "The continuous line rule: keep the pencil moving at all times. Hesitation and lifting the pencil is what makes gesture drawings feel stiff. Movement and flow are the goal.",
+      "Move to 60-second poses: increase to one minute. Now there is time to suggest the head shape, indicate limb directions, and show weight distribution. Still no detail.",
+      "Try 2-minute poses: at two minutes, start adding proportion. Where are the elbows relative to the waist? Where does the knee fall? Proportion is still approximate - this is not a technical drawing.",
+      "Compare the pages: look at the 30-second gestures versus the 2-minute gestures. The 2-minute drawings have more information but may feel stiffer. The 30-second drawings may feel more alive.",
+      "Draw from life: put down the device and draw from real life - a family member reading, a pet sleeping, someone cooking. Real life poses are irregular and varied in ways that reference photos are not.",
+      "Connect to professional practice: professional animators at studios like Pixar and Studio Ghibli do 30 minutes of gesture drawing as a warm-up before every working session. It trains the eye-hand connection that underlies all drawing.",
+      "Make it a habit: a 10-minute daily gesture drawing practice produces visible improvement within 2-3 weeks. Keep a dated sketchbook to track progress."
     ],
-    "tips": "Use a free website like Line of Action or SenshiStock for timed pose references. Gesture drawing is how professional animators and illustrators warm up every single day."
+    "tips": "Use a free website like Line of Action or SenshiStock for timed pose references. Gesture drawing is how professional animators and illustrators warm up every single day.""
   },
   {
     "id": 313,
@@ -9447,17 +9471,20 @@ const ACTIVITIES = [
     ],
     "description": "Carve a design into a printing block and use it to print the same image repeatedly on paper, cards, or fabric.",
     "steps": [
-      "Draw a simple design on paper: a leaf, a bird, a geometric shape. Remember it will print in reverse.",
-      "Transfer the design to the lino by pressing the paper firmly face-down and rubbing the back.",
-      "Using lino cutting tools (adults assist younger children), carve away the areas you want to stay white.",
-      "The raised surfaces will print; the cut-away areas will not.",
-      "Roll printing ink or thick paint onto a plate, then roll evenly onto the block with the brayer.",
-      "Press paper firmly onto the inked block.",
-      "Peel back slowly from one corner.",
-      "Re-ink for every print.",
-      "Try printing on cardstock to make greeting cards."
+      "Introduce lino printing: lino printing (linocut) is a relief printing technique where a design is carved into a flat surface - traditionally linoleum - and ink is applied to the raised areas. Printing presses in the 15th century used the same principle. The result is a stamp that can produce identical prints indefinitely.",
+      "Gather materials: a foam printing block (for children under 10) or soft-cut lino block, lino cutting tools (V-gouge and U-gouge), printing ink or thick acrylic paint, a rubber brayer (roller), a smooth flat surface for rolling ink, and cartridge paper or card.",
+      "Design the image: draw a simple design on paper. Effective lino designs use bold shapes with clear contrast - a leaf, a fish, a bird in silhouette, a geometric pattern. Avoid tiny details as they are difficult to carve cleanly.",
+      "Remember the reversal rule: lino prints appear as a mirror image of the carved block. Any text must be written or carved in reverse. Draw the design, flip the paper over, and trace the reversed image if working with text or directional images.",
+      "Transfer the design: press the paper firmly face-down onto the block and rub the back with a pencil or spoon to transfer the pencil lines. Alternatively, draw directly on the block with pencil.",
+      "Carve the block: carve away the areas that should stay white (unprinted). The raised areas will print. Use the V-gouge for fine lines and the U-gouge for clearing larger areas. Adults should assist with this step for children under 10.",
+      "Safety first when carving: always carve away from the body and the hand holding the block. Keep the block flat and stable. Never place a hand in front of the cutting tool's direction.",
+      "Ink the block: squeeze a small amount of printing ink onto the flat surface (a tile or glass). Roll the brayer through the ink until it is evenly coated with a thin, even layer. Roll the inked brayer across the carved block.",
+      "Make the first print: place a sheet of paper over the inked block and press firmly and evenly across the entire surface with your hand or a clean brayer. Press corners and edges deliberately.",
+      "Peel back the print: lift the paper from one corner slowly and steadily. Examine the print. Areas that printed too lightly needed more pressure or more ink. Areas that smeared had too much ink.",
+      "Adjust and re-ink for every print: re-ink the block before every subsequent print. The ink dries quickly and a second print from a dry block will be patchy.",
+      "Create a series: make at least 8 prints from the same block. Prints can vary in ink colour, paper colour, and pressure. Number each print (e.g. 1/8, 2/8) - this is how professional printmakers document limited editions."
     ],
-    "tips": "For children under 10, use foam printing blocks which can be carved with a pencil and require no sharp tools. The cut-away areas take practice to visualise - start very simple."
+    "tips": "For children under 10, use foam printing blocks which can be carved with a pencil and require no sharp tools. The cut-away areas take practice to visualise - start very simple.""
   },
   {
     "id": 314,
@@ -9477,16 +9504,20 @@ const ACTIVITIES = [
     ],
     "description": "Glue crayons along the top of a canvas and melt them with a hairdryer so the colours drip and blend down the surface.",
     "steps": [
-      "Arrange crayons along the top edge of the canvas in colour order or any arrangement you like.",
-      "An adult uses hot glue to attach each crayon tip-up along the edge.",
-      "Prop or lean the canvas at an angle over a drop cloth.",
-      "Set the hairdryer to high heat and point it at the crayon tips.",
-      "Watch the wax melt and begin to drip downward.",
-      "Move the hairdryer along to melt all the crayons evenly.",
-      "Tilt the canvas to guide the drips in different directions.",
-      "Let cool flat to set the wax."
+      "Introduce melted crayon art: this technique exploits the physical properties of wax - it melts at a relatively low temperature and flows downward when liquid. A hair dryer provides a controlled heat source to melt crayons in situ, allowing colour to be directed as it flows. The result is a vivid, dramatic art piece unique to this medium.",
+      "Gather materials: a canvas (at least 30x40cm - larger is better), a full set of crayons, a hot glue gun (adult-operated), a hair dryer, a drop cloth or newspaper to protect the workspace, and optionally black card for a silhouette.",
+      "Plan the arrangement: decide on a colour scheme for the crayons along the top edge. Options include full rainbow spectrum, warm tones only (red through yellow), cool tones only (blue through purple), or alternating complementary colours.",
+      "Glue the crayons: an adult uses the hot glue gun to attach each crayon label-up and tip-down along the top edge of the canvas, in a straight line. Crayons should be touching or close together. Press each one firmly for 30 seconds while the glue sets.",
+      "Prepare the workspace: lay the canvas at an angle or prop it vertically. Place a drop cloth underneath to catch wax drips - the wax will definitely drip onto the surface below.",
+      "Begin melting: set the hair dryer to its highest heat setting. Point it at the tips of the crayons from a distance of about 5-10cm. Keep the dryer moving - holding it still on one area overheats that spot.",
+      "Watch the wax flow: the wax will begin to melt and drip downward within about 30-60 seconds. The colours mix slightly as they flow, creating gradients and blending where different colours meet.",
+      "Direct the flow: tilt the canvas left or right to guide where different colours flow. You can create diagonal streams, merged areas, or keep colours relatively separate.",
+      "Add silhouette for drama: while the wax is still wet, or after it dries, cut a silhouette from black card (a tree, a city skyline, a leaping figure, a child) and press or glue it onto the canvas. The colourful wax behind the black silhouette creates a striking contrast.",
+      "Let the wax cool and set: lay the canvas completely flat to cool. Do not move it until the wax is firm - at least 20-30 minutes. Wax contracts slightly as it cools, which sometimes creates interesting texture.",
+      "Add a background: the bottom half of the canvas can be left plain white, painted a single colour before the wax is applied, or covered in watercolour wash. White shows the wax colours most vividly.",
+      "Display the artwork: hang the finished piece where the wax lines will be visible. The three-dimensional texture of the wax is part of the art - it is tactile as well as visual."
     ],
-    "tips": "Cover the bottom half of the canvas with tape before melting if you want a clean white section for a silhouette. Cut out a tree, cityscape, or person shape from black card and glue on top once the wax has set."
+    "tips": "Cover the bottom half of the canvas with tape before melting if you want a clean white section for a silhouette. Cut out a tree, cityscape, or person shape from black card and glue on top once the wax has set.""
   },
   {
     "id": 315,
@@ -9505,15 +9536,20 @@ const ACTIVITIES = [
     ],
     "description": "Pour fruit juice or pureed fruit into moulds and freeze into refreshing homemade ice lollies.",
     "steps": [
-      "Choose your flavour: straight juice, blended fruit, layered yogurt and fruit, or coconut water with whole berries.",
-      "If using paper cups, fill two-thirds full and cover with cling film.",
-      "Push a popsicle stick through the cling film into the centre of each cup - the film holds it upright.",
-      "For layered lollies: pour one flavour and half-freeze for 1 hour before adding the second layer.",
-      "Freeze completely - at least 4 hours, ideally overnight.",
-      "To release: run the outside of the mould briefly under warm water.",
-      "Eat outside!"
+      "Introduce homemade ice lollies: ice lollies require three things - a liquid, a mould, a freezer, and time. Beyond that, the flavour combinations are limited only by what is in the kitchen. Making them from scratch is dramatically cheaper than shop-bought lollies and produces no single-use plastic packaging.",
+      "Gather materials: ice lolly moulds (or small paper cups or yogurt pots as alternatives), lolly sticks (or wooden coffee stirrers), cling film, and your chosen ingredients.",
+      "Choose a flavour: simple options include pure fruit juice, blended fresh fruit with a little water, coconut water with whole berries frozen inside, or yogurt layered with fruit puree. More complex options include mango and coconut milk, watermelon and mint, and banana blended with peanut butter and cocoa.",
+      "Prepare layered lollies: for a layered design, prepare two or more liquids of different colours. Pour the first layer to about one-third of the mould height.",
+      "Pre-freeze the first layer: place the mould in the freezer for 45-60 minutes until partially frozen but still soft enough to hold a stick. This prevents the layers from mixing.",
+      "Insert the stick: once the first layer is partially set, insert the lolly stick into the centre so it stands upright. If the liquid is still too runny, cover with cling film and push the stick through the film - this holds it vertical.",
+      "Add subsequent layers: pour the second colour or flavour on top of the partially frozen first layer. Return to the freezer and repeat for additional layers if making a multi-coloured lolly.",
+      "Freeze completely: freeze for at least 4 hours, ideally overnight. Lollies that look set on top may still be liquid in the centre.",
+      "Add fruit or texture: drop whole frozen berries, mint leaves, citrus slices, or edible flowers into the mould before or between layers. These show through the lolly and add texture.",
+      "Unmould: to release the lolly, run the outside of the mould briefly under warm (not hot) tap water for 10-15 seconds. The lolly should slide out cleanly. If not, run under warm water for a little longer.",
+      "Create a range: make a batch of 4-6 different flavours and label each with a small flag made from paper and a toothpick pressed into the mould before freezing.",
+      "Eat outside: ice lollies drip. Set up outside on a warm day and eat over the garden or patio. Discuss the science of freezing and melting as they eat."
     ],
-    "tips": "Frozen berries or small fruit pieces dropped in before freezing look beautiful and add texture. Watermelon juice with mint makes the most refreshing summer lolly."
+    "tips": "Frozen berries or small fruit pieces dropped in before freezing look beautiful and add texture. Watermelon juice with mint makes the most refreshing summer lolly.""
   },
   {
     "id": 316,
@@ -9535,17 +9571,20 @@ const ACTIVITIES = [
     ],
     "description": "Shake a bag of cream, sugar, and vanilla inside a bag of ice and salt - the salt lowers the freezing point of ice and the mixture turns into real ice cream.",
     "steps": [
-      "Pour milk, sugar, and vanilla into the small zip-lock bag. Seal tightly.",
-      "Fill the large bag with ice and add the salt.",
-      "Place the sealed small bag inside the large bag. Seal the large bag.",
-      "Shake, squeeze, and shake the bag continuously for 10-15 minutes.",
-      "Take turns - it gets cold! Use gloves or wrap in a tea towel.",
-      "After 10-15 minutes, open the large bag and check the small bag.",
-      "The mixture should be thick and creamy like soft-serve ice cream.",
-      "Rinse the small bag quickly, open it, and eat the ice cream with a spoon.",
-      "Discuss: the salt lowers the freezing point of the ice below 0°C, making it cold enough to freeze the cream mixture."
+      "Introduce the science: this activity demonstrates freezing point depression - when salt is added to ice, it lowers the temperature at which water freezes. Pure water freezes at 0 degrees C. Salted water freezes at a lower temperature, sometimes as low as -18 degrees C for saturated solutions. This creates an ice mixture cold enough to freeze the cream inside the bag.",
+      "Gather materials: one small zip-lock bag, one large zip-lock bag, 240ml of full-fat milk or single cream, 2 tablespoons of sugar, half a teaspoon of vanilla extract, approximately 2 cups of ice cubes, 4 tablespoons of rock salt or table salt, and optional flavour additions.",
+      "Mix the ice cream base: pour the milk, sugar, and vanilla extract into the small zip-lock bag. Add any flavour variations now - a tablespoon of cocoa powder for chocolate, or a few crushed biscuits for cookies-and-cream.",
+      "Seal the small bag securely: press all the air out of the small bag before sealing. Double-check the seal is completely closed. A leak will mean salty ice cream and a failed experiment.",
+      "Fill the large bag: fill the large bag half-full with ice cubes. Add the salt over the ice and shake the large bag to distribute the salt through the ice.",
+      "Nestle the small bag in the ice: place the sealed small bag inside the large bag and bury it in the ice and salt mixture. Seal the large bag.",
+      "Shake continuously: shake, squeeze, and turn the large bag for 10-15 minutes. Take turns as your hands will get very cold - thick gloves or a folded tea towel helps.",
+      "Check progress at 10 minutes: open the large bag and feel the small bag. The contents should be thickening. If still completely liquid, reseal and shake for 5 more minutes. More salt speeds things up.",
+      "Test for the right consistency: the ice cream is ready when the mixture in the small bag feels thick and creamy when you squeeze it from outside. It should be the consistency of soft-serve rather than hard ice cream.",
+      "Rinse and serve: quickly rinse the outside of the small bag under the tap to wash off any salt before opening. Open the bag and eat directly from it with a spoon.",
+      "Add toppings: open the bag and add sprinkles, mini chocolate chips, crushed biscuits, or a drizzle of chocolate sauce before eating.",
+      "Discuss the chemistry: explain that the salt does not make the ice cream cold - it lowers the freezing point of the surrounding ice so the brine gets colder than 0 degrees C, which is cold enough to freeze the cream mixture."
     ],
-    "tips": "More salt = colder temperature = faster freezing. Rock salt works faster than table salt. Add sprinkles or berries to the bag in the last 2 minutes."
+    "tips": "More salt = colder temperature = faster freezing. Rock salt works faster than table salt. Add sprinkles or berries to the bag in the last 2 minutes.""
   },
   {
     "id": 317,
@@ -9562,16 +9601,20 @@ const ACTIVITIES = [
     ],
     "description": "Stack and balance rocks into towers and sculptures using only weight and careful placement - no glue allowed.",
     "steps": [
-      "Collect a variety of rocks - flat ones balance best, rounded ones are trickier.",
-      "Start with the largest rock as the base.",
-      "Look at each rock and find its flattest, most stable face.",
-      "Place each rock slowly and let it settle before adding the next.",
-      "Use the tiniest stones as wedges to stabilise a wobbly rock.",
-      "Try to build upward with progressively smaller rocks.",
-      "Once you have a stable tower, try adding an unexpected shape at the top.",
-      "Photograph your sculptures before they fall."
+      "Introduce rock balancing: rock balancing is the meditative art of stacking stones in gravity-defying configurations by finding their precise balance points. It requires patience, stillness, and fine motor sensitivity. Professional rock balancers create sculptures that appear physically impossible.",
+      "Gather materials: a collection of rocks in various sizes and shapes. Flat stones with at least one stable face are easiest. Rounded river stones are more challenging. Collect 20-30 rocks to have enough variety.",
+      "Find the base: choose the largest, flattest, most stable rock as the base. Place it on a flat, firm surface - a table, a paving stone, or the ground.",
+      "Understand balance points: every rock has at least one balance point - a position where its centre of gravity is directly above the point of contact. Finding it requires slow, careful adjustment rather than guessing.",
+      "Find each rock's natural face: before placing any rock, turn it in your hands and identify its flattest, most stable face. This is the face that should contact the rock below it.",
+      "Place slowly: lower each rock onto the previous one with extreme care. Once contact is made, make tiny micro-adjustments - fractions of a millimetre at a time. Breathe steadily. Do not rush.",
+      "Use tiny wedge stones: if a rock is unstable, a tiny pebble wedged between two larger rocks can stabilise the contact point. Use the smallest wedge necessary.",
+      "Build progressively smaller: the most stable towers use progressively smaller rocks as they rise. A large flat rock at the top of a small pointed one is a harder challenge.",
+      "Attempt unusual shapes: once basic stacking is mastered, try balancing a flat rock on its edge, or cantilever a flat rock sideways off the top of a tower.",
+      "Photograph before they fall: rock towers are temporary by nature. Photograph each successful configuration from multiple angles before continuing.",
+      "Connect to meditation: rock balancing requires a calm, focused mind. Racing to stack stones results in failure. Discuss how slowing down and paying careful attention produces better results.",
+      "Discuss the physics: all balanced rocks are in a state of unstable equilibrium - tiny disturbances topple them. Discuss the difference between stable equilibrium (a ball in a bowl), unstable equilibrium (a ball on a hill), and neutral equilibrium (a ball on a flat surface)."
     ],
-    "tips": "This activity is surprisingly meditative for kids. The rule is no cheating with pebble wedges - every rock must balance on its own. Challenge: can you balance a flat rock on a rounded one?"
+    "tips": "This activity is surprisingly meditative for kids. The rule is no cheating with pebble wedges - every rock must balance on its own. Challenge: can you balance a flat rock on a rounded one?""
   },
   {
     "id": 318,
@@ -9590,16 +9633,20 @@ const ACTIVITIES = [
     ],
     "description": "Roll clay and seeds into balls - throw them into a garden, verge, or empty patch and wait for wildflowers.",
     "steps": [
-      "Knead the clay until soft and workable.",
-      "Flatten a piece of clay in your palm.",
-      "Sprinkle a pinch of wildflower seeds onto the clay.",
-      "Fold the clay over the seeds and roll into a ball.",
-      "Make sure the seeds are enclosed but close to the surface.",
-      "Set on a tray to dry for 24-48 hours.",
-      "Once dry, take them outside and throw or tuck them into bare soil, verges, or garden edges.",
-      "Water if it doesn't rain within a week."
+      "Introduce this version of seed bombs: this activity is a variation that uses clay alone rather than a clay-compost mixture, enclosing seeds inside the ball rather than throughout it. This method creates a harder, more durable bomb that can be stored for months and thrown farther without breaking.",
+      "Gather materials: air-dry clay or potter's clay, wildflower seed mix (native species preferred), a tray lined with paper, and water for hand-washing.",
+      "Choose native seeds: native wildflowers support local pollinators more effectively than non-native ornamental flowers. Research which wildflowers are native to your region. Common UK options include cornflowers, poppies, ox-eye daisies, and bird's-foot trefoil.",
+      "Prepare the clay: knead the clay until it is warm and soft with no hard lumps. Cold or dry clay cracks when moulded. If the clay feels stiff, knead in a few drops of water.",
+      "Flatten a piece: pinch off a golf-ball sized piece of clay and flatten it in your palm to about 4-5mm thickness. The flat disc should be about the size of your palm.",
+      "Add the seeds: place a small pinch of mixed wildflower seeds in the centre of the flattened clay disc.",
+      "Fold and seal: fold the edges of the clay disc up and around the seeds to completely enclose them. Pinch all seams firmly closed - any cracks or gaps will allow the seeds to fall out or dry out.",
+      "Roll into a firm ball: roll the sealed clay between your palms into a smooth, compact ball about 3-4cm in diameter. The firmer the better - poorly compacted balls break when thrown.",
+      "Check for seal: inspect the ball carefully for any cracks or holes. Press any cracks shut and re-roll.",
+      "Dry thoroughly: place on the lined tray and leave to dry in a warm spot for 24-48 hours. Clay that is not fully dry will crack when thrown.",
+      "Deploy strategically: place seed bombs in locations that need wildflowers - patches of bare ground, roadside verges, neglected corners, or school grounds. Press them gently against the soil rather than throwing at hard surfaces.",
+      "Follow up: water the area during dry spells for the first few weeks. The clay will soften in rain, releasing the seeds gradually. Record where bombs were placed and return in 4-6 weeks to see what has germinated."
     ],
-    "tips": "Use native wildflower seeds for the best results - they are adapted to your local conditions and support local pollinators. Seed bombs make a lovely gift in a small bag with a ribbon."
+    "tips": "Use native wildflower seeds for the best results - they are adapted to your local conditions and support local pollinators. Seed bombs make a lovely gift in a small bag with a ribbon.""
   },
   {
     "id": 319,
@@ -9618,16 +9665,20 @@ const ACTIVITIES = [
     ],
     "description": "Paint terracotta pots as animals, monsters, faces, or characters - then plant something in them.",
     "steps": [
-      "Paint the pot a base colour and let dry.",
-      "Plan your character: an owl, a ladybird, a cat, a robot, a favourite animal.",
-      "Paint the main design and let each colour dry before adding the next.",
-      "Add eyes, mouths, stripes, spots, or other details.",
-      "Glue on googly eyes for extra personality.",
-      "Let dry completely.",
-      "If the pot will live outside, seal it with a spray sealer.",
-      "Fill with potting mix and plant a small herb, succulent, or flower."
+      "Introduce terracotta pot characters: plain terracotta pots are ideal canvases for painted characters because their earthy texture gives paint good grip without any primer, and their cylindrical shape naturally suits round-faced characters. The finished pot serves a practical function as a plant container.",
+      "Gather materials: terracotta pots (any size, at least one per person), acrylic paint in multiple colours, paintbrushes of different sizes, googly eyes (optional), PVA glue, spray sealer (for outdoor use), and small plants, herbs, or succulents to plant inside.",
+      "Plan the character: choose a character concept before picking up the brush. Options include animals (owl, ladybird, bee, cat, hedgehog), fantasy characters (robot, alien, monster, gnome), or real people (a favourite family member, superhero).",
+      "Apply the base coat: paint the entire outside of the pot in the character's main body colour. Leave the rim unpainted or paint it a contrasting colour. Allow the first coat to dry before adding detail.",
+      "Build the design in layers: paint each element in sequence, from largest to smallest. A bird becomes: base colour first, then wing shapes, then beak, then feet, then eye detail. Let each layer dry before adding the next colour on top.",
+      "Use a fine brush for detail: switch to the smallest available brush for eyes, stripes, spots, and facial features. A thin brush loaded with very little paint gives the most control.",
+      "Add eyes for personality: painted eyes or googly eyes glued on transform a painted pot from a pattern into a character. Eyes give the pot a face and a personality. Googly eyes are particularly effective because they catch light.",
+      "Add texture: a dry brush technique (very little paint on the brush, dabbed quickly) creates fur, feathers, or rough textures. A sponge or crumpled paper can also apply texture.",
+      "Add a mouth and expression: the pot's character is defined by its expression. A curved line upward is happy. A straight line is serious. Small details like cheek circles or eyebrows add enormous expressiveness.",
+      "Allow full drying time: let the finished painted pot dry completely for at least 2 hours before handling or sealing. Acrylic paint looks dry on the surface but may still be soft underneath.",
+      "Seal for outdoor durability: if the pot will live outside, apply two coats of outdoor spray sealer or Mod Podge Outdoor once the paint is fully dry. This prevents rain from washing the paint off.",
+      "Plant and give as a gift: fill the pot with potting mix and plant a small herb, succulent, or seedling. A pot character with a living plant inside makes a memorable, personal handmade gift."
     ],
-    "tips": "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed."
+    "tips": "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed.""
   },
   {
     "id": 320,
@@ -9643,17 +9694,20 @@ const ACTIVITIES = [
     ],
     "description": "Fold the classic origami fortune teller - also called a cootie catcher - and fill it with fortunes to tell each other.",
     "steps": [
-      "Start with a square piece of paper. Fold in half diagonally both ways to find the centre, then unfold.",
-      "Fold all four corners into the centre point.",
-      "Flip the paper over and fold all four corners into the centre again.",
-      "Fold in half, then unfold and fold in half the other way to create creases.",
-      "Push the four square sections together by inserting thumbs and index fingers into the four pockets.",
-      "Before folding, write a colour on each outer triangle (4 colours).",
-      "Under each colour flap, write a number (8 numbers total).",
-      "Under each numbered flap, write a fortune or prediction.",
-      "To play: pick a colour, spell it out while opening and closing. Pick a number, count while opening and closing. Pick another number, read the fortune."
+      "Introduce the fortune teller: the paper fortune teller (also called a cootie catcher or salt cellar) is a classic origami form that dates back to at least the 1920s. It teaches origami folding technique, requires precision to work correctly, and serves as a social toy. Making it perfectly is satisfying; playing with it is more so.",
+      "Gather materials: one square piece of paper per person (15x15cm is ideal), pens or markers in multiple colours for decoration, and scissors if starting from a rectangular piece.",
+      "Make the square: if starting with A4 paper, fold one corner diagonally to the opposite edge and cut off the rectangle at the bottom. Open to reveal a square.",
+      "Fold diagonals: fold the square in half diagonally in both directions to create an X crease. Unfold after each fold. These creases locate the centre point.",
+      "Fold corners to centre: fold all four corners into the exact centre point. The paper will now be a smaller square, half the original size.",
+      "Flip and repeat: turn the paper over and fold all four corners into the centre again. The paper is now a quarter of its original size.",
+      "Fold in half and crease: fold the resulting small square in half one way to crease it, then unfold and fold the other way. These creases allow the fortune teller to open and close.",
+      "Form the fortune teller: push all four corners toward the centre from underneath, inserting thumbs and forefingers into the four square pockets. The fortune teller should open and close in two directions.",
+      "Write the colours: on the four outer triangles (visible when closed), write a colour on each. Use contrasting marker colours to make each label visually distinct.",
+      "Write numbers: open the fortune teller one way, revealing four inner triangles. Write a number (1-8) on each triangle - two are visible in each direction.",
+      "Write fortunes: lift each numbered flap and write a fortune, prediction, or dare underneath. Options include funny predictions, weekend activity suggestions, compliments, or mild dares.",
+      "Play the game: one player picks a colour, the holder spells it out while opening and closing the fortune teller alternately. Then pick a number - count while opening and closing. Pick a second number and lift the flap to reveal the fortune."
     ],
-    "tips": "Kids love making increasingly elaborate fortunes. Try themed versions: sport predictions, weekend activity picker, or who-has-to-do-which-chore fortune teller."
+    "tips": "Kids love making increasingly elaborate fortunes. Try themed versions: sport predictions, weekend activity picker, or who-has-to-do-which-chore fortune teller.""
   },
   {
     "id": 321,
@@ -9673,18 +9727,20 @@ const ACTIVITIES = [
     ],
     "description": "Draw faces on eggshells, fill with damp cotton wool and seeds, and watch the cress grow as a wild green mane of hair.",
     "steps": [
-      "Carefully crack eggs near the top and empty them out. Rinse and dry the shells.",
-      "Draw a face on each shell with markers - big eyes, a nose, a smile.",
-      "Place the shells in an egg carton to keep them steady.",
-      "Fill each shell about halfway with cotton wool.",
-      "Dampen the cotton wool with water - it should be moist but not waterlogged.",
-      "Sprinkle a generous pinch of cress seeds on top of the cotton wool.",
-      "Place in a warm sunny windowsill.",
-      "Add a few drops of water every day to keep the cotton wool damp.",
-      "Within 5-7 days the cress will sprout as a full head of green 'hair'.",
-      "Snip and eat the cress in sandwiches or salads."
+      "Introduce cress egg heads: cress (Lepidium sativum) is one of the fastest-growing edible plants on Earth, germinating within 2 days and producing edible leaves within 5-7 days. Growing it from an empty eggshell gives it a natural container that is inherently child-scaled, makes a face easy to draw, and sits perfectly in an egg carton.",
+      "Gather materials: 2-4 eggs (carefully cracked and emptied), waterproof markers, cotton wool balls, a pack of cress seeds, water, and the egg carton the eggs came from.",
+      "Empty the eggs carefully: to get a clean eggshell, use a pin to make a small hole in the top of the egg. Wiggle the pin to enlarge the hole to about 1cm. Empty the contents into a bowl (use the eggs for cooking), rinse the shell with water, and leave to dry.",
+      "Draw the face: this is the most personalised step. Draw eyes, a nose, a mouth, eyebrows, and any other features on the eggshell with waterproof marker. The cress will grow from the top as hair, so leave the top of the shell blank.",
+      "Set up the egg carton: place each decorated eggshell in a section of the egg carton. The carton prevents them tipping over and catching spilled water.",
+      "Fill with cotton wool: fill each shell about two-thirds full with cotton wool balls. Tear the cotton wool into smaller pieces to fill the shell evenly rather than having one compressed ball.",
+      "Dampen the cotton wool: add water carefully, a teaspoon at a time, until the cotton wool is thoroughly damp throughout but not dripping or pooling at the bottom.",
+      "Add the seeds: sprinkle a generous pinch of cress seeds over the surface of the damp cotton wool. They should be spread across the entire top surface - do not pile them in one spot.",
+      "Position correctly: place the egg heads on a warm, sunny windowsill. Cress germinates in warmth and grows faster with bright light once germinated.",
+      "Water daily: check the cotton wool each day. It should feel damp when pressed. Add a few drops of water if it is drying out. Overwatering causes mould - the cotton wool should be moist, not saturated.",
+      "Watch the hair grow: within 2-3 days, white seed sprouts will appear. By day 5-7, thick green cress leaves will cover the top - the egg head's hair.",
+      "Harvest and eat: snip the cress with scissors and add to egg sandwiches, salads, or toast with butter. Eating the harvest from their own egg head is a memorable moment for young children."
     ],
-    "tips": "Cress is one of the fastest-growing edible plants - results in less than a week keep young children engaged. Draw the face together so children feel ownership of their egg head."
+    "tips": "Cress is one of the fastest-growing edible plants - results in less than a week keep young children engaged. Draw the face together so children feel ownership of their egg head.""
   },
   {
     "id": 322,
@@ -9706,16 +9762,20 @@ const ACTIVITIES = [
     ],
     "description": "Turn recycled boxes into mini arcade games like ball toss, marble run, or mini skee-ball.",
     "steps": [
-      "Pick 2-4 game ideas: ball toss, target ramp, marble maze, ring toss.",
-      "Sketch each game design on paper before building.",
-      "An adult cuts holes, ramps, and slots into boxes.",
-      "Kids decorate each game with score zones and bright labels.",
-      "Tape cups or cardboard channels where needed.",
-      "Set up all games in a row like an arcade lane.",
-      "Give each player 3 tries at each station and track points.",
-      "Adjust and improve any game that is too easy or too hard."
+      "Introduce cardboard box arcade: building an arcade from cardboard transforms a pile of boxes into a multi-game entertainment venue. Each game requires problem-solving to design and build, then the completed arcade provides hours of play. Engineering and playing happen in the same afternoon.",
+      "Gather materials: cardboard boxes in various sizes (cereal boxes, delivery boxes, shoe boxes), scissors, a craft knife (adult-operated), tape, coloured markers and paint, small balls, marbles, ping pong balls, plastic cups, rubber bands, and a large sheet of paper for planning.",
+      "Plan the games: sketch 2-4 game concepts on paper. Classic options include: a ball toss through holes of different sizes with point values, a marble maze (ball rolls through channels to a target), a ring toss, a skee-ball style ramp, or a pinball-style scoring box.",
+      "Build the ball toss: use a large flat box as the backboard. Cut 3-5 holes of different sizes (smaller holes are harder and worth more points). Write point values above each hole. Prop the box upright at a suitable distance.",
+      "Build the marble maze: use a large box lid as the base. Roll and tape cardboard strips on edge to create channels, tunnels, and obstacles that guide a marble to a target cup at the end. Test as you build.",
+      "Build the ramp scorer: cut a ramp from one cardboard box and position it so a ball rolled up the ramp drops into one of several labelled cups at the back. Cups closer to the centre should be worth more.",
+      "Decorate everything: write clear point values on each game. Use markers, paint, and cut-out stars to make each game visually bold. Name each game.",
+      "Set up the arcade lane: arrange all games in a row on a table or on the floor with clear walking space between each station.",
+      "Make tickets: cut strips of scrap paper as play tickets. Give each player the same number of tickets per visit.",
+      "Run a tournament: each player takes 3 attempts at each station and records their points. After all stations are played, total up scores and award a small prize to the highest scorer.",
+      "Adjust game difficulty: after the first round of play, any game that is too easy (everyone scores maximum) should be made harder - smaller holes, tighter channels, longer distance. Any game that is impossible should be made easier.",
+      "Improve the next day: leave the arcade set up and return the following day to improve any games that were frustrating or boring. Engineering improvement cycles are as valuable as the initial build."
     ],
-    "tips": "Add ticket strips from scrap paper and let winners trade them for tiny prizes."
+    "tips": "Add ticket strips from scrap paper and let winners trade them for tiny prizes.""
   },
   {
     "id": 323,
@@ -9736,16 +9796,20 @@ const ACTIVITIES = [
     ],
     "description": "Design your own comic with characters, panels, speech bubbles, and a cliff-hanger ending.",
     "steps": [
-      "Fold 4-6 sheets of paper and staple into a mini booklet.",
-      "Create a main character and one challenge they must solve.",
-      "Use a ruler to divide each page into 3-6 comic panels.",
-      "Sketch scenes lightly in pencil first.",
-      "Add speech bubbles, sound effects, and thought bubbles.",
-      "Ink over final lines with markers and add colour.",
-      "Write a title and issue number on the cover.",
-      "Read comics aloud and vote for best cliff-hanger."
+      "Introduce comic making: a comic book combines sequential art, dialogue, and storytelling into a single compact form. Creating one develops visual narrative thinking, character design, panel composition, and the ability to compress a story into essential moments. Professional cartoonists begin exactly as we will - with a stapled booklet and a pencil.",
+      "Gather materials: 5-6 sheets of plain A4 paper, stapler, ruler, pencil and eraser, fine-tip black markers in different widths (0.3mm and 0.8mm work well together), and colouring pencils or markers.",
+      "Make the booklet: stack the sheets of paper and fold in half to create a booklet. Staple twice along the spine fold. The cover is the front page.",
+      "Design the story structure: before drawing anything, plan the story as a sentence: who is the main character, what is the problem they face, what do they try, what goes wrong, and how do they resolve it? A simple 3-act structure is enough.",
+      "Design the main character: on a rough page, sketch the main character in different positions - standing, sitting, running, surprised. Establish their distinctive features before they appear in the story. A consistent character design is what makes comics feel professional.",
+      "Divide pages into panels: use a ruler and pencil to divide each interior page into 2-6 panels. Vary the panel sizes - important or dramatic moments get larger panels. Small panels work for quick transitions.",
+      "Sketch scenes in pencil first: lightly sketch each scene in its panel. Show only what is necessary to advance the story. In comics, everything shown must mean something.",
+      "Add speech bubbles and thought bubbles: draw speech bubbles (oval with a tail pointing to the speaker) and thought bubbles (cloud shapes with small circles leading to the thinker) in pencil first to ensure they fit.",
+      "Add sound effects and motion lines: comic conventions like speed lines, impact stars, and sound effects (CRASH, WHOOSH, THUD) add energy and are satisfying to create. Use large, bold lettering for sound effects.",
+      "Ink over the pencil lines: use the fine-tip markers to ink all final lines. Use a thicker line for character outlines and a thinner line for interior details. Let the ink dry before erasing pencil lines underneath.",
+      "Add colour: colour with pencils or markers. Keep the colour palette consistent for each character. Warm colours for action and excitement, cool colours for calm and sadness.",
+      "Design the cover: create a compelling cover showing the main character in an exciting pose with the title large and visible. Add the author's name and an issue number."
     ],
-    "tips": "A simple story arc works best: problem, attempt, setback, solution."
+    "tips": "A simple story arc works best: problem, attempt, setback, solution.""
   },
   {
     "id": 324,
@@ -9768,16 +9832,20 @@ const ACTIVITIES = [
     ],
     "description": "Build a chain-reaction machine where one movement triggers the next until a final goal happens.",
     "steps": [
-      "Choose a final action first: ring a bell, drop a ball in a cup, or pop a balloon.",
-      "Build backward from the final action one step at a time.",
-      "Create 6-12 simple stages using household objects.",
-      "Test each stage separately before connecting them.",
-      "Join all stages and run the machine.",
-      "When it fails, identify exactly where and why.",
-      "Rebuild only the failing section and test again.",
-      "Record a full successful run on video."
+      "Introduce Rube Goldberg machines: Rube Goldberg (1883-1970) was an American cartoonist who drew absurdly complex machines performing simple tasks. A Rube Goldberg machine is an engineered chain reaction where each stage triggers the next. The challenge is not efficiency - it is intentional complexity, creativity, and the satisfaction of a successful chain reaction.",
+      "Choose the final action: decide on the last step first. Simple final actions work best: a ball lands in a cup, a bell rings, a balloon pops, a domino falls, or a piece of paper tears. The entire machine will be built to achieve this one thing.",
+      "Plan backward: starting from the final action, work backward to design the preceding step, then the one before that. Each step must reliably trigger the next. Write or sketch 6-12 steps.",
+      "Gather materials: survey the house for useful components. Dominos, books as ramps, rolling balls, toy cars, blocks, tubes, strings, pulleys, rulers, spoons, and coins are all classic components.",
+      "Build and test each stage separately: build stage 12 first, then stage 11, then 10, working backward. Test each stage 3 times independently before connecting it to the chain. A stage that works 2 out of 3 times is not reliable enough.",
+      "Connect stages sequentially: once each stage works independently, connect two adjacent stages and test them together. Then add the next stage. Never add a new stage without first confirming the existing chain still works.",
+      "When it fails, identify the exact failure point: do not restart from scratch when the machine fails. Watch carefully to identify exactly which stage broke the chain. Rebuild only that stage.",
+      "Apply the reliability test: for a chain of 10 stages, if each stage is 90% reliable, the whole machine only works 35% of the time (0.9 to the power 10). For reliable machines, each stage must work nearly every time.",
+      "Add complexity: once the basic chain works, add additional stages or more creative components. A longer chain is inherently more impressive and more difficult to maintain.",
+      "Do a final dress rehearsal: run the complete machine twice in rehearsal. If it fails in rehearsal, identify and fix the problem before the final filmed run.",
+      "Film the successful run: record the complete chain reaction from start to finish. Slow-motion video shows the individual stages in detail. Edit the video with a title card and show the family.",
+      "Discuss engineering: the most important engineering skill demonstrated is iterative testing and improvement. Real engineers run exactly the same process - test, fail, identify the failure point, fix, test again."
     ],
-    "tips": "Keep each step simple and reliable. Fewer clever steps beats many fragile ones."
+    "tips": "Keep each step simple and reliable. Fewer clever steps beats many fragile ones.""
   },
   {
     "id": 325,
@@ -9798,16 +9866,20 @@ const ACTIVITIES = [
     ],
     "description": "Create a short stop-motion film by moving toys a tiny bit between each photo frame.",
     "steps": [
-      "Plan a 20-40 second story with a beginning, middle, and end.",
-      "Build a simple set with stable lighting.",
-      "Place camera on a stand so it never moves.",
-      "Take one frame, move the character slightly, take the next frame.",
-      "Repeat until the full scene is complete.",
-      "Add title cards and simple sound effects in the app.",
-      "Export the movie and screen it for family.",
-      "Collect feedback and make a second improved episode."
+      "Introduce stop-motion animation: stop-motion is an animation technique where a physical subject is moved in small increments between individually photographed frames. When the frames are played in sequence at speed (typically 12-24 frames per second), the subject appears to move. It is the technique behind classic films like Wallace and Gromit and countless LEGO animated series.",
+      "Plan the story: write a story that fits 20-40 seconds of finished animation. At 12 frames per second, 40 seconds requires approximately 480 photos. Keep the story to 3-5 scenes maximum. Write it as a brief story board - simple stick figures showing key positions.",
+      "Build the set: construct a stable LEGO set for the story. The set must not move between frames - even slight bumps will create visible jumps in the finished film. A large heavy base plate helps.",
+      "Stable camera setup: place the camera (phone or tablet) on a tripod, a stack of books, or a dedicated stand so it cannot move at all. Even tiny camera movement between frames makes the finished film feel shaky. Lock focus and exposure if the camera allows.",
+      "Consistent lighting: use artificial indoor light rather than natural daylight (which changes throughout a shoot). Keep any lamps in a fixed position and do not start if sunlight will reach the set during filming.",
+      "Download a stop-motion app: Stop Motion Studio (free version) is excellent and runs on iOS and Android. It shows the previous frame as a ghost image overlaid on the current view, which makes it easy to control character movement between frames.",
+      "Start filming: move the character a small distance, take a photo, move again, take a photo. For smooth walking animation, 4-6 photos per step is typical.",
+      "Control the movement increments: larger movements between frames = fast jerky movement in the film. Smaller movements between frames = slow smooth movement. For most walking and action, move characters about 2-3mm per frame.",
+      "Film each scene completely before moving on: film all the action for one scene before adjusting the camera for the next. Mark where the camera and key set pieces are positioned so they can be returned to exactly.",
+      "Add title and end cards: photograph a title card and end card made from paper with the film's name and credits. These become the first and last frames of the film.",
+      "Export the finished film: export from the stop-motion app as a video file. Add simple sound effects or music in a video editing app.",
+      "Screen the film for the family: show the finished film to an audience. Discuss what worked, what was difficult, and what would be done differently for a second episode."
     ],
-    "tips": "Small movements make smoother animation. Big movements make jerky motion."
+    "tips": "Small movements make smoother animation. Big movements make jerky motion.""
   },
   {
     "id": 326,
@@ -9829,16 +9901,20 @@ const ACTIVITIES = [
     ],
     "description": "Plant several seeds with slightly different conditions and track which grows fastest.",
     "steps": [
-      "Label cups with conditions: sunny, shady, less water, regular water.",
-      "Plant the same type and number of seeds in each cup.",
-      "Water all cups equally on day one.",
-      "Place cups in their assigned spots.",
-      "Measure sprout height each day at the same time.",
-      "Record data in a simple chart.",
-      "Compare growth rates after one week.",
-      "Discuss which condition gave strongest growth and why."
+      "Introduce the experiment: this activity is a controlled scientific experiment, not just a gardening activity. By growing identical plants under different conditions and measuring the results, children learn the scientific method: form a hypothesis, design a controlled experiment, collect data, analyse it, and draw conclusions.",
+      "Gather materials: 6-8 identical small cups or containers with drainage holes, potting mix, one packet of fast-germinating seeds (beans, cress, or radish work best), a ruler, a notebook for data recording, and labels.",
+      "Identify the variables: decide which conditions to test. Options include: sunny vs. shady location, more water vs. less water, warm vs. cool temperature, soil vs. cotton wool, or fertilised vs. unfertilised soil. Choose only one variable to test at a time.",
+      "Set up a controlled experiment: for each condition, set up two cups (a pair) with identical soil, identical quantities of identical seeds. The only difference between each pair is the condition being tested. This is a controlled experiment - all variables are the same except one.",
+      "Label everything: label each cup clearly with its condition (Sunny, Shady, More water, Less water etc.) before planting. Unlabelled cups become useless data.",
+      "Plant identically: plant the same number of seeds in each cup at the same depth. Use a pencil to make identical depth holes. Cover and water all cups the same on day one.",
+      "Place in conditions: move each cup to its assigned position - windowsill vs. inside a cupboard, warm room vs. cool hallway, etc. Ensure each cup receives only its intended condition.",
+      "Measure and record daily: each day at the same time, measure the height of the tallest sprout in each cup and record in the data notebook. If no sprouts have appeared, record 0.",
+      "Water according to the experiment: for the water variable, give the more-water cups twice the amount given to the less-water cups. For all other experiments, water identically.",
+      "After one week, compile the data: create a simple bar chart or line graph showing growth per cup per day. Visual data makes differences much clearer than numbers alone.",
+      "Analyse the results: which condition produced the strongest growth? Was the result what was predicted? Were there any surprises?",
+      "Write up the conclusion: state the hypothesis, the method, the results, and the conclusion. This is exactly how scientific papers are structured. Even a simple sentence per section constitutes a real scientific write-up."
     ],
-    "tips": "Beans are great because they germinate quickly and are easy to measure."
+    "tips": "Beans are great because they germinate quickly and are easy to measure.""
   },
   {
     "id": 327,
