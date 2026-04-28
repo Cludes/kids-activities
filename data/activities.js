@@ -11066,7 +11066,9 @@ const ACTIVITIES = [
       "Glue the decorative details on top of the main shape. Press each piece firmly for 20 seconds.",
       "Add a border using thin strips of foil or contrasting coloured paper around the edge of the black card for a finished, framed look.",
       "Once fully dry, write a title and the year along the bottom in silver or gold pen.",
-      "Display on the fridge or scan it to use as a Christmas card background. Making several in one session provides handmade cards for grandparents and teachers."
+      "Display on the fridge or scan it to use as a Christmas card background. Making several in one session provides handmade cards for grandparents and teachers.",
+      "Create a series across multiple years: save one piece each year and compare them side by side. Artistic growth from age 4 to age 10 becomes a visual record of development.",
+      "Discuss the history of collage: the word collage comes from the French word coller meaning to glue. Pablo Picasso and Georges Braque pioneered collage as a fine art technique in the early 1900s. This technique is over 100 years old."
     ],
     "tips": "Symmetrical patterns on black card look especially striking.",
     "mess": "low",
