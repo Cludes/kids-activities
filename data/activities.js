@@ -7658,15 +7658,20 @@ const ACTIVITIES = [
     ],
     "description": "Making paper pizzas cut into different fraction portions is the most effective hands-on introduction to fractions. Children draw, label, and physically manipulate halves, quarters, thirds, and eighths - making abstract numbers concrete and edible.",
     "steps": [
-      "Give each child a paper plate. Ask them to decorate it as a pizza - tomato sauce, cheese, toppings.",
-      "First fraction: fold the plate in half and cut along the crease. Label each piece '1/2'. Talk about what half means.",
-      "Make a second pizza. Fold in half, then in half again. You have quarters (1/4).",
-      "Make a third pizza. Try to fold into thirds (fold one side over to 1/3, then the other over). Cut into thirds (1/3).",
-      "Lay all the fractions on the table: compare ½ vs ¼ - which is bigger? Does that make sense?",
-      "Combine pieces: ¼ + ¼ = ½. Show this physically.",
-      "Challenge: how many ¼ pieces equal ½? How many ⅛ pieces equal ¼?"
+      "Introduce fractions as division: a fraction is simply dividing something into equal parts. The denominator (bottom number) tells you how many equal parts, the numerator (top number) tells you how many you have. A physical pizza makes this concrete.",
+      "Gather materials: 4 paper plates (one per fraction), scissors, markers or crayons, and a ruler.",
+      "Decorate the first plate as a pizza: draw tomato sauce rings, cheese, and toppings. This investment in the object makes the fractions feel meaningful.",
+      "First fraction - halves: fold the plate exactly in half. Crease firmly. Cut along the crease. Label each piece '1/2'. Say aloud: 'one out of two equal pieces.'",
+      "Second fraction - quarters: make and decorate a new plate. Fold in half, then fold that half in half again. Cut along both creases to make 4 equal pieces. Label each '1/4'.",
+      "Third fraction - eighths: make and decorate a new plate. Fold into quarters, then fold once more into eighths. Cut along all creases. Label each piece '1/8'.",
+      "Fourth fraction - thirds: make and decorate a new plate. Fold one side to approximately 1/3 of the way across. Fold the remaining section back. Cut into thirds. Label each '1/3'.",
+      "Compare the sizes: lay one '1/2' piece and one '1/4' piece side by side. Which is bigger? The 1/2 is bigger, even though 2 is smaller than 4 as a number. This corrects the most common fraction misconception.",
+      "Build equivalent fractions: how many 1/4 pieces equal 1/2? Lay the pieces on top to find out. How many 1/8 pieces equal 1/4? How many 1/8 equal 1/2?",
+      "Write the equations: 1/4 + 1/4 = 2/4 = 1/2. Children write these beside their piece arrangements. The physical objects make the abstract equation visible.",
+      "Order all pieces from smallest to largest: 1/8, 1/4, 1/3, 1/2. This builds the concept that larger denominators mean smaller pieces.",
+      "Connect to real life: a pizza restaurant cuts into 8 slices (eighths). If you eat 3 slices, you have eaten 3/8 of the pizza. If you have 5 slices left, how much of the pizza is left?"
     ],
-    "tips": "Folding into thirds is genuinely tricky and should be done by adults for younger children. The comparison step - holding ½ next to ¼ and seeing that ½ is physically bigger even though 2 > 1 in the denominator - is the specific misconception this activity corrects. Use the language 'out of' consistently: '1 out of 4 equal pieces.'"
+    "tips": "Folding into thirds is genuinely tricky and should be done by adults for younger children. The comparison step - holding 1/2 next to 1/4 and seeing that 1/2 is physically bigger even though 2 > 1 in the denominator - is the specific misconception this activity corrects. Use the language 'out of' consistently: '1 out of 4 equal pieces.'"
   },
   {
     "id": 255,
@@ -7684,13 +7689,18 @@ const ACTIVITIES = [
     ],
     "description": "Children become daily weather observers, recording temperature, rainfall, wind direction, and cloud cover in a personal weather journal. Over weeks, patterns emerge - this is exactly what meteorologists do and builds genuine data literacy.",
     "steps": [
-      "Check the weather at the same time every day.",
-      "Record: temperature (read the thermometer), sky condition (clear/partly cloudy/overcast), any precipitation (measure depth in container).",
-      "Describe wind: calm, light breeze, strong (feel it on your face), gusting.",
-      "Draw or name the cloud types: cumulus (fluffy white), stratus (flat grey layer), cirrus (wispy high streaks).",
-      "After one week: look for patterns. Cooler mornings? Rain on specific days?",
-      "After one month: graph the temperatures on a simple bar chart.",
-      "Compare your readings to the official weather forecast: how accurate were they?"
+      "Introduce weather science: meteorologists are scientists who measure and predict weather. They use exactly the same types of instruments you will use - thermometers, rain gauges, and direct sky observation. Your journal will be a real scientific record.",
+      "Set up instruments: place an outdoor thermometer in a shaded spot at eye height. Make a rain gauge from a straight-sided jar with a ruler taped to the outside. Identify a fixed reference point for wind direction (a flag, windsock, or wet finger).",
+      "Establish daily observation time: choose a fixed time - same time every day is essential for valid comparison. Morning is ideal for catching overnight changes.",
+      "Record temperature: read the thermometer at the fixed time. Record in Celsius. Note whether it is rising or falling compared to yesterday.",
+      "Record precipitation: check the rain gauge. Measure and record any rainfall in millimetres. Empty the gauge after recording.",
+      "Describe sky conditions: clear (sunny, few clouds), partly cloudy (50% cloud), overcast (fully clouded). Note any fog, frost, or unusual conditions.",
+      "Identify cloud types: cumulus clouds are fluffy white heaps, found in fair weather. Stratus clouds are flat grey sheets, often bringing drizzle. Cirrus clouds are wispy high streaks, often preceding weather changes.",
+      "Note wind: stand outdoors for 30 seconds. Record strength (calm, light breeze, strong, gusty) and direction (wind blows FROM the north, south, east, west).",
+      "After one week - analyse patterns: lay the journal open across the week. Are any days consistently similar? Do temperature and cloud cover correlate?",
+      "After one month - create a graph: plot temperatures on a bar chart with dates on the x-axis and temperature on the y-axis. The visual pattern of the month becomes immediately clear.",
+      "Compare to official forecasts: check the official weather forecast the day before, then record what actually happened. How accurate was the forecast? What did it get right or wrong?",
+      "Connect to meteorology: professional weather stations measure these same variables in the same way, just with more precision. A network of stations across a country provides the data that goes into forecast models."
     ],
     "tips": "Cloud identification is genuinely engaging for most children - print a cloud ID chart. The most memorable learning happens when a child correctly predicts rain based on their own observations. A simple rain gauge can be made from any straight-sided jar with a ruler."
   },
@@ -7711,13 +7721,18 @@ const ACTIVITIES = [
     ],
     "description": "Children measure rooms, halls, and furniture and create a scale floor plan of their home. This combines measurement, scale, ratio, and spatial reasoning in a context that is personally meaningful. A completed floor plan is genuinely impressive.",
     "steps": [
-      "Discuss what a map is and how scale works: 1cm on paper = 1 metre in real life, for example.",
-      "Walk through the home with the measuring tape, recording the length and width of each room.",
-      "Start drawing: mark out the outer walls first as a rectangle on graph paper.",
-      "Add internal walls, doorways (shown as gaps), and windows.",
-      "Add furniture: measure key pieces (sofa, beds, table) and draw them to scale.",
-      "Add a compass rose (N/S/E/W marker) and a scale bar.",
-      "Colour-code rooms: kitchen in yellow, bedrooms in blue, etc."
+      "Introduce mapping and scale: a map is a scaled-down representation of a real space. The same spatial relationships that exist in reality are preserved on paper, just smaller. Architects and engineers use floor plans like this for every building ever constructed.",
+      "Gather materials: graph paper (each square = a unit of measurement), a ruler, pencil, measuring tape or metre stick, and coloured pencils.",
+      "Choose a scale: 1 graph square = 0.5 metres is a good starting scale for most homes. Write this on the corner of the paper as the scale bar.",
+      "Measure the outside perimeter: measure the total length and width of the floor plan outline. Record the measurements in a notebook before starting to draw.",
+      "Draw the outer walls: use the graph paper and pencil to draw the outer walls to scale. Check that the corners are at right angles (90 degrees).",
+      "Add internal walls: walk through the home measuring each room separately. Record width and length for each. Draw internal walls to scale, leaving gaps for doorways.",
+      "Mark doors and windows: doors are shown as a gap in the wall with a quarter-circle arc showing which way they swing. Windows are shown as a gap with a double line.",
+      "Measure and add furniture: measure key furniture pieces (sofa, beds, dining table, desks). Draw them to scale in their correct positions. This is when children realise the map accurately represents reality.",
+      "Add labels: write the name of each room. Add the measurements for each room directly on the map for reference.",
+      "Add a compass rose: with a compass or by observing the sunrise direction, mark North. Then add South, East, West. This relates the floor plan to real-world geography.",
+      "Colour-code rooms: use coloured pencils to shade different room types. Kitchen in yellow, bedrooms in blue, living areas in green. Create a legend.",
+      "Plan a furniture rearrangement: cut small scale shapes from paper representing furniture pieces. Try different arrangements on the map before physically moving anything in the home."
     ],
     "tips": "The scale step is where learning happens - help children understand that the ratio must be consistent throughout the map. 1cm:1m or 1cm:50cm are both good scales depending on house size. Once the home is mapped, challenge them to plan a furniture rearrangement on paper before actually moving anything."
   },
@@ -7737,13 +7752,18 @@ const ACTIVITIES = [
     ],
     "description": "Label containers 1 through 10 and have children count matching bottle caps into each one. This foundational maths activity builds one-to-one correspondence, subitising, and the link between numerals (written numbers) and cardinality (how many).",
     "steps": [
-      "Label 10 small containers or egg carton sections with numbers 1 through 10.",
-      "Place all the bottle caps in a central pile.",
-      "Call out a number and ask the child to count exactly that many caps into the matching container.",
-      "Build up all 10 containers, then count the total caps used together.",
-      "Advanced: remove the number labels and ask children to label the containers themselves after counting.",
-      "Extension: use two containers to practise simple addition: 'put 3 in here and 4 here - how many altogether?'",
-      "Extension: practise subtraction: start with 7 caps in a container, remove 3, how many left?"
+      "Explain one-to-one correspondence: the foundation of counting is matching one object to one number word while touching each object. This seems simple but many children who can recite numbers cannot yet reliably do this. Physical objects make the skill concrete.",
+      "Gather materials: at least 55 clean bottle caps (enough for all numbers 1-10 to be filled simultaneously), small containers or an egg carton, a marker, and sticky labels.",
+      "Set up the containers: write numbers 1 through 10 on sticky labels and attach one to each container. Arrange in numerical order left to right.",
+      "Warm-up - count together: count the pile of bottle caps together, touching each one as you count. How many total?",
+      "Fill container 1: ask the child to take exactly 1 bottle cap and place it in the container labelled 1. Emphasise: one cap, one container, done.",
+      "Fill containers 2-5: for each number, child counts aloud while touching and moving each cap one at a time into the container. Correct any skipping or double-touching.",
+      "Fill containers 6-10: the higher numbers reveal where the one-to-one correspondence breaks down for individual children. Observe carefully and support where needed.",
+      "Count the total: count all caps across all containers. Should total 55 (1+2+3+4+5+6+7+8+9+10). This introduces the concept of addition.",
+      "Remove labels and re-label: shuffle the containers and remove labels. Child counts the caps in each container and re-writes the correct number label. This practices reading cardinality (how many) rather than producing it.",
+      "Addition practice: pour the caps from containers 3 and 4 together. How many now? Write the equation: 3 + 4 = 7. Show the equation while counting the caps.",
+      "Subtraction practice: start with 8 caps in a container, remove 3, count remaining. Write: 8 - 3 = 5. Children who can count reliably are ready to formalise this as written arithmetic.",
+      "Challenge - predict before counting: put a random number of caps in a container. Child predicts how many before counting. This develops subitising - the ability to instantly recognise small quantities without counting."
     ],
     "tips": "True counting with one-to-one correspondence (touching each object while saying one number per touch) is the foundation of all number sense. Many children who can recite numbers cannot yet do this reliably. Physical objects that children can touch, move, and count are far more effective than any worksheet for this developmental stage."
   },
@@ -7762,13 +7782,18 @@ const ACTIVITIES = [
     ],
     "description": "One of the best outdoor group games ever invented. It develops strategic thinking, teamwork, decision-making under pressure, and physical agility - all simultaneously. Works with 6 to 20+ players.",
     "steps": [
-      "Divide into two equal teams. Each team defends one half of the play area.",
-      "Each team places their flag somewhere visible in their territory (not hidden, but not too easy to reach).",
-      "Players cross into enemy territory to steal the opposing flag and return it to their own side.",
-      "If tagged in enemy territory, you go to 'jail' (a designated spot in their zone).",
-      "Jailed players can be freed if a teammate crosses into enemy territory and tags them.",
-      "A team wins by successfully carrying the enemy flag back to their own zone.",
-      "Set time limits if games are going too long."
+      "Explain the game structure: Capture the Flag combines strategy, teamwork, physical skill, and decision-making under pressure. Teams must balance offense (capturing the flag) and defense (protecting their own), making real-time tactical decisions throughout.",
+      "Set up the play area: use chalk, rope, or cones to mark a clear midfield boundary dividing the play area into two equal halves. The larger the area with some natural cover, the better the game.",
+      "Divide into equal teams: 3-12 players per side works well. Teams should be balanced in age and size.",
+      "Place the flags: each team places their flag somewhere in their own territory. The flag must be visible (not hidden in a bag or under leaves) but can be placed near defenders.",
+      "Game start: both teams begin in their own territory. On a starting signal, players may cross into enemy territory to attempt to capture the flag.",
+      "Tagging rules: if a defender tags an attacker in enemy territory, the attacker goes to jail (a designated spot in enemy territory). Defenders cannot be tagged in their own half.",
+      "Jail breaks: a free player can enter enemy territory specifically to tag jailed teammates. Both the rescuer and freed players get a free walk back to their own side after a jail break.",
+      "Winning: the first team to carry the enemy flag back across the midfield line to their own side wins. The flag carrier can be tagged mid-run.",
+      "Team strategy discussion (2 minutes before game): good teams designate roles - fast attackers who draw defenders away, slower players who guard the flag, and one fast player positioned for a jail break run.",
+      "Variation - multiple flags: place two or three flags per team for faster, more chaotic games with smaller groups.",
+      "Variation - flag protection zone: no defenders allowed within 2 metres of the flag. This opens attacking strategy for younger players.",
+      "Debrief: what tactics worked? What would you do differently? This explicit reflection on strategy is what turns a fun game into a thinking exercise."
     ],
     "tips": "The strategy element elevates this above simple chase games. Good teams split into attackers (crossing the line) and defenders (guarding their own flag). Younger or smaller players benefit from a rule allowing them 5 free steps before they can be tagged after crossing the line."
   },
@@ -7787,13 +7812,18 @@ const ACTIVITIES = [
     ],
     "description": "A classic playground game requiring only chalk and a ball. The 12x12 foot court divided into four squares is the only equipment needed. It builds hand-eye coordination, agility, and quick decision-making. The rotating queue format means everyone plays continuously.",
     "steps": [
-      "Draw a 12x12 foot (about 3.5m x 3.5m) square on pavement, divided into 4 equal smaller squares. Label them 1, 2, 3, 4 (or King, Queen, Jack, Ace).",
-      "One player stands in each square. Additional players form a queue.",
-      "The player in Square 1 (King/highest rank) starts by bouncing the ball into another square.",
-      "That player must hit the ball into any other square using open palms. No catching - only hitting.",
-      "When a player fails (ball lands on their line, misses, catches, or ball bounces twice in their square), they move to the back of the queue.",
-      "Everyone else advances squares. Queue players step into square 4.",
-      "The goal is to reach and stay in square 1."
+      "Draw the court: use chalk on pavement to draw a large square approximately 12x12 feet (3.5m x 3.5m). Divide it into four equal smaller squares by drawing lines through the middle. Label the squares 1, 2, 3, 4 starting at the top-left and going clockwise, or name them King, Queen, Jack, Ace.",
+      "Learn the ranking: Square 1 (King) is the highest rank. Square 4 (Ace) is the lowest. The goal is to advance toward Square 1 by eliminating higher-ranked players.",
+      "Starting positions: one player stands in each square. Any additional players form a queue outside Square 4, waiting to enter.",
+      "Serve: the King starts each point by bouncing the ball once in their own square, then hitting it into any other square using open palms. No catching or carrying the ball.",
+      "Returning: the player whose square the ball lands in must hit it into any other square. The ball must bounce once in the target square.",
+      "Elimination: a player is out if the ball bounces twice in their square without them hitting it, if they catch or carry the ball, if they hit the ball out of bounds, or if the ball lands on a line.",
+      "Out and in: the eliminated player goes to the back of the queue. Everyone below the eliminated player's rank advances one square. The first queue player enters Square 4.",
+      "The King's rule: the player in Square 1 may declare one special rule at the start of their reign. Examples - left hand only, must spin before hitting, no hitting to Square 4.",
+      "Dispute resolution: when a ball lands on a line, the hitting player calls it. If disputed, redo the point. Players learn to self-referee.",
+      "Keeping score: a simple tally of how many times each player reaches Square 1 creates a session leaderboard.",
+      "Variation - teams: pair players so two people share each square and must alternate hits. This builds communication and anticipation.",
+      "Connect to physical skills: Four Square develops hand-eye coordination, peripheral vision (watching multiple squares), reaction speed, and court awareness - all foundational for racket sports."
     ],
     "tips": "Common rule variations: the King can make up one special rule per turn (everyone must use only left hand, etc.). Ball must bounce once in the target square before the player hits it. No 'cherry bombs' (spiking) unless agreed. The game requires minimal supervision and runs itself."
   },
@@ -7811,13 +7841,18 @@ const ACTIVITIES = [
     ],
     "description": "The reverse of hide and seek - one person hides and everyone else searches. When you find the hidden person you quietly join them in the hiding spot. The last seeker left looking has to find an increasingly packed (and increasingly giggly) hiding spot.",
     "steps": [
-      "One player is the first 'sardine' and goes to hide while everyone else covers their eyes and counts to 40.",
-      "All other players spread out separately to look for the sardine.",
-      "When a player finds the sardine, they silently join them in the hiding spot.",
-      "If the spot becomes too crowded, the sardine can move to an adjacent spot.",
-      "More and more seekers pack into the hiding spot.",
-      "The last person to find the group becomes the sardine for the next round.",
-      "The game ends in laughter as players discover the packed hiding spot."
+      "Explain the game: Sardines is reverse hide-and-seek. One person hides, everyone else searches alone. When you find the hidden person, you silently squeeze in and hide with them. The group grows until the last confused seeker finally discovers an increasingly packed and giggly hiding spot.",
+      "Set boundaries: agree on the play area - a full house works best indoors, or a large garden with outbuildings. Agree on any off-limits areas (upstairs bedrooms, outside the gate).",
+      "Choose the first sardine: draw straws, or the youngest player gets the honour. The sardine has 40 counts to find and settle in a hiding spot.",
+      "All other players cover their eyes and count to 40 together aloud. No peeking.",
+      "Seekers split up and search individually: the key rule is that seekers search alone, not in groups. Finding the sardine is a private discovery you must keep secret.",
+      "Finding the sardine: when a seeker finds the sardine, they do not say anything. They silently and carefully squeeze into the same hiding spot. Both players must be completely quiet.",
+      "The hiding spot fills: one by one, more seekers stumble upon the growing group. Each one silently joins. The challenge of containing the giggling as the group grows is half the fun.",
+      "Overflow rule: if the original spot genuinely cannot fit more players safely, the sardine can silently signal to move the group to an adjacent spot. No sudden movements or noise.",
+      "Last seeker: the final seeker is still searching while the rest of the players are hidden together. Their discovery of the entire group is the climax of the game.",
+      "The last seeker becomes the next sardine: this is the mild penalty - being last makes you the most embarrassed, and then you get to be the star of the next round.",
+      "Strategic hiding spots: the best hiding spots are ones that can accommodate multiple people - under beds, behind sofas, inside large wardrobes. Tiny spots work for one person but not for a group of 8.",
+      "Safety check: before playing in a new space, confirm there are no hidden hazards in potential hiding spots. No sharp objects, no heavy items that could fall, no areas with poor ventilation."
     ],
     "tips": "This game works best in a building or large garden with plenty of hiding options. The comedy of large groups of children trying to silently squeeze into a small cupboard or behind a sofa is the entire point. The game is self-rewarding: finding the sardine early means a longer period of shared giggling."
   },
@@ -7836,13 +7871,18 @@ const ACTIVITIES = [
     ],
     "description": "A cross between hide and seek and tag. One player guards the can while others hide. Tagged players are captured, but can be freed if a teammate kicks the can without being tagged first. The rescue dynamic makes it far more exciting than standard tag.",
     "steps": [
-      "Place the can in the centre of the play area. The 'It' player kicks it, then retrieves and replaces it while everyone hides.",
-      "'It' counts to 20 once the can is replaced, then calls 'Ready or not!'",
-      "Players try to sneak up and kick the can. If they kick it, all captured players are freed.",
-      "If 'It' spots a player, they call their name and race to the can. 'It' must touch the can and call the name before the hider can kick it.",
-      "Tagged players sit in a 'jail' near the can.",
-      "The game ends when all players are captured, or after a set time limit.",
-      "The last player caught (or the one who kicked the can most) becomes the next 'It.'"
+      "Explain Kick the Can: a hybrid of hide and seek and tag with a crucial twist - captured players can be dramatically rescued. The tension between guarding the can and hunting hiders is what makes this game endlessly replayable.",
+      "Set the play area: choose an area with good hiding options - gardens with bushes, playgrounds with structures, neighbourhoods at dusk. Mark the jail area near the can with chalk or a hoop.",
+      "Choose 'It': the first It player kicks the can as hard as possible. While they retrieve it and place it back in the centre spot, everyone runs to hide.",
+      "It counts to 20 with eyes closed once the can is back in position, then calls 'Ready or not, here I come!'",
+      "Spotting hiders: It moves away from the can to search for hiders. When It spots a player, they must race back to the can, touch it, and call the player's name. The player must also race to kick the can.",
+      "Tagging and jail: if It touches the can and calls the name before the hider reaches and kicks it, the hider is captured and goes to jail. If the hider kicks the can first, they are safe and It must return the can and search again.",
+      "Jail rules: captured players sit visibly in jail near the can. They cannot move away.",
+      "The rescue kick: any free player can sneak close to the can and kick it before It tags them. A successful kick frees ALL players currently in jail. This is the most exciting moment in the game.",
+      "After a rescue kick: It must collect and replace the can. All freed players scatter to new hiding spots. It cannot tag anyone during this reset.",
+      "Winning: It wins by capturing all players without the can being kicked. This is genuinely difficult with experienced hiders.",
+      "Next round: the last player captured becomes the new It. Alternatively, the player who successfully kicked the can for a rescue becomes It.",
+      "Strategy debrief: did some players act as decoys to draw It away while another ran for the kick? This coordinated tactics discussion is the developmental value - articulating strategy in words reinforces it."
     ],
     "tips": "The key strategy: some players sacrifice themselves as decoys near the can while others approach from a different direction for the actual kick. This natural emergence of coordinated tactics is the developmental value of the game. Can be played at dusk for added atmosphere."
   },
@@ -7861,14 +7901,18 @@ const ACTIVITIES = [
     ],
     "description": "Each player ties a balloon to their ankle and tries to pop everyone else's balloons while protecting their own. The last player with an intact balloon wins. Simple to set up, genuinely competitive, great for parties.",
     "steps": [
-      "Blow up one balloon per player.",
-      "Tie a 60cm length of string to each balloon.",
-      "Each player ties the other end of the string loosely around one ankle.",
-      "Define the play boundary - a circle of rope works well.",
-      "On 'go', everyone tries to stomp and pop others' balloons while protecting their own.",
-      "If your balloon pops, you are out. Sit outside the boundary.",
-      "Last player with an intact balloon wins.",
-      "Optional: once you are out, you must stand still but can use your arms to deflect stompers."
+      "Explain the game: each player ties a balloon to their ankle. The goal is to stomp and pop everyone else's balloon while keeping your own intact. The last player with an unpopped balloon wins.",
+      "Blow up balloons: blow up one balloon per player. All balloons should be roughly the same size for fairness. Blow up a few spares in case of accidents during setup.",
+      "Attach strings: cut one 60cm length of string per player. Tie one end tightly to the neck of the balloon with a double knot.",
+      "Tie to ankle: each player ties the loose end of the string around one ankle. The balloon should trail behind by about 40-50cm - enough to reach but not so short it is right at foot level.",
+      "Define the boundary: mark the play area with rope, chalk, or cones. A circle about 4-5 metres across works for 6-8 players. Smaller circles for fewer players, larger for more.",
+      "Safety check: remove any sharp objects from the play area. Check that floor surfaces are safe for running. Warn players that loud pops are coming.",
+      "Game start: all players stand inside the circle. On a count of three, the game begins. Players immediately start moving, protecting their balloon while trying to stomp others.",
+      "Stomping technique: the only way to pop a balloon is to stomp the balloon itself with your foot. Pulling, throwing, or using hands is not allowed.",
+      "Elimination: when a balloon pops, that player steps outside the boundary. They cheer for remaining players.",
+      "Final two players: when only two players remain, call them to opposite sides of the circle. Restart from standing positions for a dramatic finale.",
+      "Variation - team stomp: two teams with different balloon colours. Teams try to eliminate all of the other team's balloons. Last team with a balloon remaining wins.",
+      "Variation - ghost mode: eliminated players stand still outside the boundary but can use their hands to deflect incoming stompers, protecting remaining players on their original team."
     ],
     "tips": "Encourage players to give everyone a balloon to start, including those who pop first, so they can continue playing as 'ghosts' who can stomp but cannot win. This keeps everyone active rather than sitting out. Works equally well indoors with clear furniture space."
   },
@@ -7890,13 +7934,18 @@ const ACTIVITIES = [
     ],
     "description": "Design and build a custom obstacle course in the garden or living room. The building is half the fun. Children who design the course themselves invest more effort in completing it and naturally calibrate the difficulty to their own abilities.",
     "steps": [
-      "Plan the course together: draw a rough map of what goes where.",
-      "Set up stations: hop through hula hoops, crawl through the tunnel, balance along a chalk line, jump over a rope, weave between cones.",
-      "Do a test run and adjust - too easy (make the gaps smaller), too hard (make them bigger).",
-      "Time each person with a stopwatch - record it and try to beat your own time.",
-      "Reverse the course for an extra challenge.",
-      "Add a creative element: each station has a challenge card (jump 5 times, do 3 star jumps, say the alphabet to the letter F before proceeding).",
-      "Award certificates for completion times."
+      "Introduce obstacle course design: engineers and PE teachers design obstacle courses using exactly this process - identify the physical challenges, choose the equipment, map the sequence, test it, and refine. This is real-world design thinking.",
+      "Gather equipment: hula hoops for jumping through or stepping in, cones or buckets for weaving between, a jump rope stretched flat to balance on, cushions for stepping stones, and chairs draped with blankets for a tunnel.",
+      "Design phase: draw a rough map showing where each obstacle will go. Think about flow - the course should have a logical path that does not require crossing over itself.",
+      "Build the course: set up each element according to the map. Leave enough space between stations that participants do not stumble from one directly into the next.",
+      "Test run: the designer walks through the course first to check it works. Adjust gaps (too close or too far), replace anything too difficult or too easy for the intended age group.",
+      "Add challenge cards: write small cards for each station - 'jump 5 times in this hoop before moving on,' 'crab-walk between the cones,' 'say the alphabet to G before leaving this spot.' This adds cognitive challenge to the physical.",
+      "First timed run: use a stopwatch or phone timer. Each participant runs the course. Record times carefully - this is the baseline.",
+      "Practice runs: each participant gets 2-3 more attempts to improve their time. Discuss what they did differently and whether it helped.",
+      "Backwards run: reverse the starting point and run the course in the opposite direction. Familiar movements become genuinely challenging in reverse.",
+      "Relay variation: divide into two teams. One person from each team runs the full course, then tags the next. Team with the fastest total time wins.",
+      "Redesign phase: after all runs, ask participants what they would change. Implement one or two changes and see if it improves the experience. This is iterative design.",
+      "Award ceremony: create simple certificates or medals (folded paper) for fastest time, most improved, most creative obstacle design, and bravest attempt."
     ],
     "tips": "The design-build phase teaches spatial reasoning and planning. The self-timing teaches that improvement comes from practice. For mixed-age groups, create different 'difficulty lanes' running in parallel so all ages compete appropriately. Indoor courses on cushions build proprioception (body awareness) particularly well."
   },
