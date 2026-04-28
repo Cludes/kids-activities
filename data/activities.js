@@ -9330,7 +9330,7 @@ const ACTIVITIES = [
       "Add a challenge round: for extra difficulty, both teams draw simultaneously against each other with identical words. Both teams hear the word called aloud and race to guess it from their own artist's drawing first.",
       "Reflect on communication: discuss which drawings were easiest to guess and why. Effective visual communication uses symbols, metaphors, and sequences rather than literal pictures."
     ],
-    "tips": "For younger children, use only concrete nouns: dog, pizza, rocket, umbrella. For older children, include verbs and emotions for a real challenge.""
+    "tips": "For younger children, use only concrete nouns: dog, pizza, rocket, umbrella. For older children, include verbs and emotions for a real challenge."
   },
   {
     "id": 309,
@@ -9359,7 +9359,7 @@ const ACTIVITIES = [
       "Increase difficulty: add categories that require creative interpretation rather than simple recall, such as things that make you happy, excuses for being late, or things you find in a haunted house.",
       "Tally the final scores: add up all round totals. The player with the most points wins - but give a special mention to whoever had the most unique answers."
     ],
-    "tips": "The no-point-for-matching rule encourages creative thinking over obvious answers. Q, X, and Z are brutal - warn players that these letters are coming and build in extra time.""
+    "tips": "The no-point-for-matching rule encourages creative thinking over obvious answers. Q, X, and Z are brutal - warn players that these letters are coming and build in extra time."
   },
   {
     "id": 310,
@@ -9387,7 +9387,7 @@ const ACTIVITIES = [
       "Victory conditions: Villagers win when all Mafia members are eliminated. Mafia wins when their numbers equal or exceed the remaining Villagers (at that point they control all votes).",
       "Debrief after the game: discuss what clues gave away the Mafia, what bluffs worked, and what the Detective learned. The post-game discussion is as valuable as the game itself for developing reasoning skills."
     ],
-    "tips": "A confident narrator is essential to make the game work. Start with one Mafia member and a Detective for a group of 5-6 players. Younger children may find the deception aspect hard - judge the group.""
+    "tips": "A confident narrator is essential to make the game work. Start with one Mafia member and a Detective for a group of 5-6 players. Younger children may find the deception aspect hard - judge the group."
   },
   {
     "id": 311,
@@ -9420,7 +9420,7 @@ const ACTIVITIES = [
       "Wait for full drying: acrylic pour paintings take 24-72 hours to dry completely depending on thickness. They appear glossy when wet and slightly different when dry - this is normal.",
       "Photograph wet and dry: photograph the wet painting immediately as the colours are more vibrant. Compare with the final dried version - discuss how the same painting looks different in different light."
     ],
-    "tips": "Adding a few drops of silicone oil to the paint mixture (not all colours) creates dramatic circular cells in the finished piece. Lay the canvas on cups so excess paint drips into the tray.""
+    "tips": "Adding a few drops of silicone oil to the paint mixture (not all colours) creates dramatic circular cells in the finished piece. Lay the canvas on cups so excess paint drips into the tray."
   },
   {
     "id": 312,
@@ -9451,7 +9451,7 @@ const ACTIVITIES = [
       "Connect to professional practice: professional animators at studios like Pixar and Studio Ghibli do 30 minutes of gesture drawing as a warm-up before every working session. It trains the eye-hand connection that underlies all drawing.",
       "Make it a habit: a 10-minute daily gesture drawing practice produces visible improvement within 2-3 weeks. Keep a dated sketchbook to track progress."
     ],
-    "tips": "Use a free website like Line of Action or SenshiStock for timed pose references. Gesture drawing is how professional animators and illustrators warm up every single day.""
+    "tips": "Use a free website like Line of Action or SenshiStock for timed pose references. Gesture drawing is how professional animators and illustrators warm up every single day."
   },
   {
     "id": 313,
@@ -9484,7 +9484,7 @@ const ACTIVITIES = [
       "Adjust and re-ink for every print: re-ink the block before every subsequent print. The ink dries quickly and a second print from a dry block will be patchy.",
       "Create a series: make at least 8 prints from the same block. Prints can vary in ink colour, paper colour, and pressure. Number each print (e.g. 1/8, 2/8) - this is how professional printmakers document limited editions."
     ],
-    "tips": "For children under 10, use foam printing blocks which can be carved with a pencil and require no sharp tools. The cut-away areas take practice to visualise - start very simple.""
+    "tips": "For children under 10, use foam printing blocks which can be carved with a pencil and require no sharp tools. The cut-away areas take practice to visualise - start very simple."
   },
   {
     "id": 314,
@@ -9517,7 +9517,7 @@ const ACTIVITIES = [
       "Add a background: the bottom half of the canvas can be left plain white, painted a single colour before the wax is applied, or covered in watercolour wash. White shows the wax colours most vividly.",
       "Display the artwork: hang the finished piece where the wax lines will be visible. The three-dimensional texture of the wax is part of the art - it is tactile as well as visual."
     ],
-    "tips": "Cover the bottom half of the canvas with tape before melting if you want a clean white section for a silhouette. Cut out a tree, cityscape, or person shape from black card and glue on top once the wax has set.""
+    "tips": "Cover the bottom half of the canvas with tape before melting if you want a clean white section for a silhouette. Cut out a tree, cityscape, or person shape from black card and glue on top once the wax has set."
   },
   {
     "id": 315,
@@ -9549,7 +9549,7 @@ const ACTIVITIES = [
       "Create a range: make a batch of 4-6 different flavours and label each with a small flag made from paper and a toothpick pressed into the mould before freezing.",
       "Eat outside: ice lollies drip. Set up outside on a warm day and eat over the garden or patio. Discuss the science of freezing and melting as they eat."
     ],
-    "tips": "Frozen berries or small fruit pieces dropped in before freezing look beautiful and add texture. Watermelon juice with mint makes the most refreshing summer lolly.""
+    "tips": "Frozen berries or small fruit pieces dropped in before freezing look beautiful and add texture. Watermelon juice with mint makes the most refreshing summer lolly."
   },
   {
     "id": 316,
@@ -9584,7 +9584,7 @@ const ACTIVITIES = [
       "Add toppings: open the bag and add sprinkles, mini chocolate chips, crushed biscuits, or a drizzle of chocolate sauce before eating.",
       "Discuss the chemistry: explain that the salt does not make the ice cream cold - it lowers the freezing point of the surrounding ice so the brine gets colder than 0 degrees C, which is cold enough to freeze the cream mixture."
     ],
-    "tips": "More salt = colder temperature = faster freezing. Rock salt works faster than table salt. Add sprinkles or berries to the bag in the last 2 minutes.""
+    "tips": "More salt = colder temperature = faster freezing. Rock salt works faster than table salt. Add sprinkles or berries to the bag in the last 2 minutes."
   },
   {
     "id": 317,
@@ -9646,7 +9646,7 @@ const ACTIVITIES = [
       "Deploy strategically: place seed bombs in locations that need wildflowers - patches of bare ground, roadside verges, neglected corners, or school grounds. Press them gently against the soil rather than throwing at hard surfaces.",
       "Follow up: water the area during dry spells for the first few weeks. The clay will soften in rain, releasing the seeds gradually. Record where bombs were placed and return in 4-6 weeks to see what has germinated."
     ],
-    "tips": "Use native wildflower seeds for the best results - they are adapted to your local conditions and support local pollinators. Seed bombs make a lovely gift in a small bag with a ribbon.""
+    "tips": "Use native wildflower seeds for the best results - they are adapted to your local conditions and support local pollinators. Seed bombs make a lovely gift in a small bag with a ribbon."
   },
   {
     "id": 319,
@@ -9678,7 +9678,7 @@ const ACTIVITIES = [
       "Seal for outdoor durability: if the pot will live outside, apply two coats of outdoor spray sealer or Mod Podge Outdoor once the paint is fully dry. This prevents rain from washing the paint off.",
       "Plant and give as a gift: fill the pot with potting mix and plant a small herb, succulent, or seedling. A pot character with a living plant inside makes a memorable, personal handmade gift."
     ],
-    "tips": "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed.""
+    "tips": "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed."
   },
   {
     "id": 320,
@@ -9707,7 +9707,7 @@ const ACTIVITIES = [
       "Write fortunes: lift each numbered flap and write a fortune, prediction, or dare underneath. Options include funny predictions, weekend activity suggestions, compliments, or mild dares.",
       "Play the game: one player picks a colour, the holder spells it out while opening and closing the fortune teller alternately. Then pick a number - count while opening and closing. Pick a second number and lift the flap to reveal the fortune."
     ],
-    "tips": "Kids love making increasingly elaborate fortunes. Try themed versions: sport predictions, weekend activity picker, or who-has-to-do-which-chore fortune teller.""
+    "tips": "Kids love making increasingly elaborate fortunes. Try themed versions: sport predictions, weekend activity picker, or who-has-to-do-which-chore fortune teller."
   },
   {
     "id": 321,
@@ -9740,7 +9740,7 @@ const ACTIVITIES = [
       "Watch the hair grow: within 2-3 days, white seed sprouts will appear. By day 5-7, thick green cress leaves will cover the top - the egg head's hair.",
       "Harvest and eat: snip the cress with scissors and add to egg sandwiches, salads, or toast with butter. Eating the harvest from their own egg head is a memorable moment for young children."
     ],
-    "tips": "Cress is one of the fastest-growing edible plants - results in less than a week keep young children engaged. Draw the face together so children feel ownership of their egg head.""
+    "tips": "Cress is one of the fastest-growing edible plants - results in less than a week keep young children engaged. Draw the face together so children feel ownership of their egg head."
   },
   {
     "id": 322,
@@ -9775,7 +9775,7 @@ const ACTIVITIES = [
       "Adjust game difficulty: after the first round of play, any game that is too easy (everyone scores maximum) should be made harder - smaller holes, tighter channels, longer distance. Any game that is impossible should be made easier.",
       "Improve the next day: leave the arcade set up and return the following day to improve any games that were frustrating or boring. Engineering improvement cycles are as valuable as the initial build."
     ],
-    "tips": "Add ticket strips from scrap paper and let winners trade them for tiny prizes.""
+    "tips": "Add ticket strips from scrap paper and let winners trade them for tiny prizes."
   },
   {
     "id": 323,
@@ -9809,7 +9809,7 @@ const ACTIVITIES = [
       "Add colour: colour with pencils or markers. Keep the colour palette consistent for each character. Warm colours for action and excitement, cool colours for calm and sadness.",
       "Design the cover: create a compelling cover showing the main character in an exciting pose with the title large and visible. Add the author's name and an issue number."
     ],
-    "tips": "A simple story arc works best: problem, attempt, setback, solution.""
+    "tips": "A simple story arc works best: problem, attempt, setback, solution."
   },
   {
     "id": 324,
@@ -9845,7 +9845,7 @@ const ACTIVITIES = [
       "Film the successful run: record the complete chain reaction from start to finish. Slow-motion video shows the individual stages in detail. Edit the video with a title card and show the family.",
       "Discuss engineering: the most important engineering skill demonstrated is iterative testing and improvement. Real engineers run exactly the same process - test, fail, identify the failure point, fix, test again."
     ],
-    "tips": "Keep each step simple and reliable. Fewer clever steps beats many fragile ones.""
+    "tips": "Keep each step simple and reliable. Fewer clever steps beats many fragile ones."
   },
   {
     "id": 325,
@@ -9879,7 +9879,7 @@ const ACTIVITIES = [
       "Export the finished film: export from the stop-motion app as a video file. Add simple sound effects or music in a video editing app.",
       "Screen the film for the family: show the finished film to an audience. Discuss what worked, what was difficult, and what would be done differently for a second episode."
     ],
-    "tips": "Small movements make smoother animation. Big movements make jerky motion.""
+    "tips": "Small movements make smoother animation. Big movements make jerky motion."
   },
   {
     "id": 326,
@@ -9914,7 +9914,7 @@ const ACTIVITIES = [
       "Analyse the results: which condition produced the strongest growth? Was the result what was predicted? Were there any surprises?",
       "Write up the conclusion: state the hypothesis, the method, the results, and the conclusion. This is exactly how scientific papers are structured. Even a simple sentence per section constitutes a real scientific write-up."
     ],
-    "tips": "Beans are great because they germinate quickly and are easy to measure.""
+    "tips": "Beans are great because they germinate quickly and are easy to measure."
   },
   {
     "id": 327,
