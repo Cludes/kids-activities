@@ -23,6 +23,12 @@
     }
   }
   </script>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('kidsActivitiesTheme');
+      if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+    } catch {}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -733,6 +739,16 @@
         <option value="60">Under 1 hour</option>
         <option value="61">1+ hours</option>
       </select>
+      <select class="sort-select" id="setting-select" aria-label="Filter by indoors or outdoors">
+        <option value="all">Where: All</option>
+        <option value="indoor">Indoors</option>
+        <option value="outdoor">Outdoors</option>
+      </select>
+      <select class="sort-select" id="energy-select" aria-label="Filter by energy level">
+        <option value="all">Energy: All</option>
+        <option value="calm">Calm</option>
+        <option value="active">Active</option>
+      </select>
       <button class="tools-chip" id="printable-toggle">Printable</button>
       <button class="small-btn" id="clear-filters">Reset All</button>
     </div>
@@ -770,6 +786,7 @@
         <button class="modal-btn" id="m-copy">Copy Supplies</button>
         <button class="modal-btn" id="m-worksheet">Worksheet</button>
         <button class="modal-btn" id="m-print">Print</button>
+        <button class="modal-btn" id="m-share">Share</button>
       </div>
       <button class="modal-close" id="modal-close">x</button>
     </div>
@@ -833,7 +850,22 @@
   ];
   const STORAGE_FAV_KEY = 'kidsActivitiesFavoritesV1';
   const STORAGE_RECENT_KEY = 'kidsActivitiesRecentV1';
+  const STORAGE_THEME_KEY = 'kidsActivitiesTheme';
   const RECENT_MAX = 8;
+  const HASH_PREFIX = '#activity-';
+
+  // Supply words that suggest mess. Checked against the 129 hand-labelled activities:
+  // matches 113 of them, where guessing from difficulty matched 91.
+  const MESS_HIGH = /\b(paint|paints|mud|glitter|slime|oobleck|shaving cream|food colou?ring|water beads?|sand|cornstarch|cornflour|dye|ink pad|clay|confetti)\b/i;
+  const MESS_MEDIUM = /\b(glue|flour|dough|playdough|water|chalk|egg|eggs|sugar|vinegar|baking soda|soil|seeds|butter|oil|milk|juice|cereal|rice|pasta|beans|ice|tape)\b/i;
+  // Things most homes with kids already have. A supply matching none of these probably
+  // means a shop trip.
+  const HOUSEHOLD = /\b(paper|card|cardstock|cards|sticky notes|stickers?|pencils?|pens?|crayons?|markers?|felt[- ]tips?|textas?|scissors|tape|glue|cardboard|boxe?s?|shoebox|toilet (paper )?rolls?|tubes?|socks?|blankets?|pillows?|cushions?|sofa|couch|chairs?|table|sheets?|towels?|cups?|spoons?|bowls?|jars?|plates?|string|twine|yarn|wool|water|books?|toys?|teddy|timer|phone|coins?|buttons?|pegs?|clothes|dress[- ]ups?|hats?|containers?|bottles?|lids?|newspaper|magazines?|tray|tub|bucket|pots?|pans?|torch(es)?|flashlights?|ruler|stapler|hole punch|rubber bands?|elastic bands?|balls?|balloons?|recycl\w*|household|none|nothing|kitchen|furniture|music|speaker|ice|salt|flour|sugar|oil|rice|pasta|leaves|sticks|stones|rocks|dice|deck|camera|tablet|envelopes?|foil|cling|bags?|tissues?|cotton|pebbles|nature|pinecones?|old|paint|paints|brush(es)?|sponges?|straws?|snacks?|clipboard|counters|lego|blocks|playdough|play dough|notebooks?|notepad|sketchbook|whiteboard|mirror|fork|knife|baking (tray|sheet)|oven|bread|milk|eggs?|butter|vinegar|baking soda|bicarb|food colou?r(ing)?|dish soap|washing[- ]up liquid|soap|shampoo|conditioner|marbles?|chalk|sand|soil|dirt|grass|flowers?|seeds?|clothespins?|pipe cleaners?|googly eyes|pom[- ]?poms?|ribbons?|beads?|sequins?|glitter|blindfold|scarf|scarves|props?|prizes?|treats?|fruit|banana|apples?|lemons?|honey|oats|peanut butter|crackers|cheese|yoghurt|yogurt|cereal|puzzles?|jigsaw|instruments?|keyboard|piano|xylophone|skipping rope|calculator|thermometer|fabric|raisins?|grapes?|biscuits?|objects|items|park|garden|sky|yoga mat|carpet|rug|list)\b/i;
+  const NOT_A_PURCHASE = /optional|\bspace\b|\barea\b|\bfloor\b|knowledge|pantry/i;
+  const OUTDOOR_CUES = /\b(outside|outdoors?|backyard|back yard|garden|park|driveway|footpath|sidewalk|pavement|lawn|grass|beach|playground|bush ?walk|nature walk)\b/i;
+  const NOT_A_PLACE = /garden (cent(re|er)|shop|store)|from the garden|garden (flowers?|clippings|soil)|grass seeds?/gi;
+  const ACTIVE_TITLE = /\b(obstacle|olympics|dance|dancing|bowling|floor is lava|tennis|volleyball|musical (statues|chairs)|relay|capture the flag|four square|sardines|kick the can|stomp|tag|hopscotch|hula|balance beam|skipping|kickball|parachute|mini golf|hide and seek|kite|water balloon|red light|simon says|limbo|tug of war|yoga|scavenger hunt|treasure hunt|orienteering)\b/i;
+  const CALM_CATEGORIES = ['cooking', 'science', 'art', 'crafts', 'mindfulness'];
   const AGE_BUCKETS = {
     '2-4': [2, 4],
     '5-7': [5, 7],
@@ -849,6 +881,8 @@
   let currentMess = 'all';
   let currentCost = 'all';
   let currentDuration = 'all';
+  let currentSetting = 'all';
+  let currentEnergy = 'all';
   let showFavoritesOnly = false;
   let showPrintableOnly = false;
   let showDoNowOnly = false;
@@ -866,10 +900,14 @@
   const messSelect = document.getElementById('mess-select');
   const costSelect = document.getElementById('cost-select');
   const durationSelect = document.getElementById('duration-select');
+  const settingSelect = document.getElementById('setting-select');
+  const energySelect = document.getElementById('energy-select');
 
   const favorites = loadFavorites();
   let recentIds = loadRecent();
   const ACTIVITY_DATA = ACTIVITIES.map(normalizeActivity);
+  // Drop favorites whose activity no longer exists, so the count stays honest.
+  [...favorites].forEach(id => { if (!ACTIVITY_DATA.some(a => a.id === id)) favorites.delete(id); });
 
   function loadFavorites() {
     try {
@@ -930,13 +968,16 @@
   function parseMinutes(timeText) {
     if (!timeText) return 9999;
     const txt = String(timeText).toLowerCase();
-    const m = txt.match(/(\d+(?:\.\d+)?)(?:\s*[\-\u2013]\s*(\d+(?:\.\d+)?))?\s*(min|mins|hr|hrs|hour|hours)/i);
+    const m = txt.match(/(\d+(?:\.\d+)?)\+?(?:\s*[\-\u2013]\s*(\d+(?:\.\d+)?))?\s*(min|mins|hr|hrs|hour|hours)/i);
     if (!m) return 9999;
     const start = parseFloat(m[1]);
     const end = m[2] ? parseFloat(m[2]) : start;
     const avg = (start + end) / 2;
     const unit = m[3].toLowerCase();
-    return unit.startsWith('h') ? avg * 60 : avg;
+    if (!unit.startsWith('h')) return avg;
+    // "1 hr 15 min"
+    const extra = txt.slice(m.index + m[0].length).match(/^\s*(\d+)\s*min/);
+    return avg * 60 + (extra ? parseInt(extra[1], 10) : 0);
   }
 
   function parseAgeBounds(ages) {
@@ -965,15 +1006,34 @@
 
   function estimateCost(activity) {
     if (activity.cost) return activity.cost;
-    const joined = (activity.supplies || []).join(' ').toLowerCase();
-    if (/none|household|recycled|paper|cardboard|water/.test(joined)) return 'free';
-    if ((activity.supplies || []).length <= 4) return 'low';
-    return 'medium';
+    const toBuy = (activity.supplies || []).filter(s => !NOT_A_PURCHASE.test(s) && !HOUSEHOLD.test(s)).length;
+    if (!toBuy) return 'free';
+    return toBuy <= 2 ? 'low' : 'medium';
   }
 
   function estimateMess(activity) {
     if (activity.mess) return activity.mess;
-    return ({ easy: 'low', medium: 'medium', hard: 'high' })[activity.difficulty] || 'medium';
+    const supplies = activity.supplies || [];
+    const high = supplies.filter(s => MESS_HIGH.test(s)).length;
+    const medium = supplies.filter(s => MESS_MEDIUM.test(s)).length;
+    if (high >= 2 || (high && ['sensory', 'art'].includes(activity.category))) return 'high';
+    if (high || medium >= 2 || activity.category === 'cooking') return 'medium';
+    return 'low';
+  }
+
+  function estimateSetting(activity) {
+    if (activity.setting) return activity.setting;
+    if (activity.category === 'outdoor') return 'outdoor';
+    if (/\bindoors?\b/i.test(activity.title)) return 'indoor';
+    const text = `${activity.title} | ${(activity.supplies || []).join(' | ')}`.replace(NOT_A_PLACE, '');
+    return OUTDOOR_CUES.test(text) ? 'outdoor' : 'indoor';
+  }
+
+  function estimateEnergy(activity) {
+    if (activity.energy) return activity.energy;
+    if (activity.category === 'movement') return 'active';
+    if (CALM_CATEGORIES.includes(activity.category)) return 'calm';
+    return ACTIVE_TITLE.test(activity.title) ? 'active' : 'calm';
   }
 
   function estimateSetupTime(activity) {
@@ -1016,6 +1076,8 @@
       ...activity,
       mess,
       cost: estimateCost(activity),
+      setting: estimateSetting(activity),
+      energy: estimateEnergy(activity),
       setupTime: estimateSetupTime(activity),
       printable: Boolean(activity.printable),
       learningObjectives: estimateLearningObjectives(activity),
@@ -1129,6 +1191,8 @@
       if (currentDiff !== 'all' && a.difficulty !== currentDiff) return false;
       if (currentMess !== 'all' && a.mess !== currentMess) return false;
       if (currentCost !== 'all' && a.cost !== currentCost) return false;
+      if (currentSetting !== 'all' && a.setting !== currentSetting) return false;
+      if (currentEnergy !== 'all' && a.energy !== currentEnergy) return false;
       if (currentDuration !== 'all') {
         const mins = a.estimatedMinutes;
         if (currentDuration === '15' && mins > 15) return false;
@@ -1261,6 +1325,8 @@
       <span class="badge">Setup: ${a.setupTime}</span>
       <span class="badge">Mess: ${titleCase(a.mess)}</span>
       <span class="badge">Cost: ${titleCase(a.cost)}</span>
+      <span class="badge">${a.setting === 'outdoor' ? 'Outdoors' : 'Indoors'}</span>
+      <span class="badge">${titleCase(a.energy)}</span>
       ${a.printable ? '<span class="badge">Printable</span>' : ''}`;
     document.getElementById('m-supplies').innerHTML = a.supplies.map(s => `<li>${s}</li>`).join('');
     document.getElementById('m-steps').innerHTML = a.steps.map((s, i) =>
@@ -1293,21 +1359,56 @@
 
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
+    history.replaceState(null, '', HASH_PREFIX + id);
   }
 
   function closeModal() {
     currentModalId = null;
     overlay.classList.remove('open');
     document.body.style.overflow = '';
+    if (location.hash.startsWith(HASH_PREFIX)) {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+  }
+
+  function flashButton(btn, text) {
+    const original = btn.dataset.label || btn.textContent;
+    btn.dataset.label = original;
+    btn.textContent = text;
+    setTimeout(() => { btn.textContent = original; }, 1500);
+  }
+
+  function copyText(text, btn) {
+    if (!navigator.clipboard || !navigator.clipboard.writeText) {
+      flashButton(btn, 'Copy failed');
+      return;
+    }
+    navigator.clipboard.writeText(text)
+      .then(() => flashButton(btn, 'Copied'))
+      .catch(() => flashButton(btn, 'Copy failed'));
   }
 
   function copySupplies() {
     const a = findActivity(currentModalId);
     if (!a) return;
-    const text = `${a.title}\n\nSupplies:\n- ${a.supplies.join('\n- ')}`;
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text);
+    copyText(`${a.title}\n\nSupplies:\n- ${a.supplies.join('\n- ')}`, document.getElementById('m-copy'));
+  }
+
+  function shareActivity() {
+    const a = findActivity(currentModalId);
+    if (!a) return;
+    const url = location.origin + location.pathname + HASH_PREFIX + a.id;
+    if (navigator.share) {
+      navigator.share({ title: a.title, text: a.description, url }).catch(() => {});
+    } else {
+      copyText(url, document.getElementById('m-share'));
     }
+  }
+
+  function openFromHash() {
+    if (!location.hash.startsWith(HASH_PREFIX)) return;
+    const id = Number(location.hash.slice(HASH_PREFIX.length));
+    if (findActivity(id)) openModal(id);
   }
 
   function printActivity() {
@@ -1341,6 +1442,8 @@
     currentMess = 'all';
     currentCost = 'all';
     currentDuration = 'all';
+    currentSetting = 'all';
+    currentEnergy = 'all';
     showFavoritesOnly = false;
     showPrintableOnly = false;
     showDoNowOnly = false;
@@ -1351,6 +1454,8 @@
     messSelect.value = 'all';
     costSelect.value = 'all';
     durationSelect.value = 'all';
+    settingSelect.value = 'all';
+    energySelect.value = 'all';
 
     document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
     document.querySelectorAll('.chip[data-diff]').forEach(c => c.classList.toggle('active', c.dataset.diff === 'all'));
@@ -1372,10 +1477,12 @@
   }, { passive: true });
 
   const themeBtn = document.getElementById('theme-btn');
+  themeBtn.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
   themeBtn.addEventListener('click', () => {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
     themeBtn.textContent = isDark ? '🌙' : '☀️';
+    try { localStorage.setItem(STORAGE_THEME_KEY, isDark ? 'light' : 'dark'); } catch {}
   });
 
   document.getElementById('stat-total').textContent = ACTIVITY_DATA.length;
@@ -1468,8 +1575,19 @@
     render();
   });
 
+  settingSelect.addEventListener('change', () => {
+    currentSetting = settingSelect.value;
+    render();
+  });
+
+  energySelect.addEventListener('change', () => {
+    currentEnergy = energySelect.value;
+    render();
+  });
+
   document.getElementById('clear-filters').addEventListener('click', resetFilters);
   document.getElementById('m-copy').addEventListener('click', copySupplies);
+  document.getElementById('m-share').addEventListener('click', shareActivity);
   document.getElementById('m-print').addEventListener('click', printActivity);
   document.getElementById('m-worksheet').addEventListener('click', worksheetActivity);
   document.getElementById('m-fav').addEventListener('click', () => {
@@ -1495,9 +1613,18 @@
   document.getElementById('header-random').addEventListener('click', openRandom);
   document.getElementById('grid-random-btn').addEventListener('click', openRandom);
 
+  // ?q= is advertised to search engines in the JSON-LD SearchAction above.
+  const initialQuery = new URLSearchParams(location.search).get('q');
+  if (initialQuery) {
+    currentSearch = initialQuery;
+    document.getElementById('search').value = initialQuery;
+  }
+
   updateToggleUi();
   render();
   renderRecentlyViewed();
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 </script>
 </body>
 </html>

@@ -4,10 +4,13 @@ A static, single-page site with hundreds of activities for kids: crafts, cooking
 
 ## Features
 
-- Browse and filter activities by category
+- Browse and filter activities by category, age, difficulty, time, mess, cost, indoors/outdoors and calm/active
 - Per-activity detail with supplies, steps, learning objectives, and safety notes
 - Print-friendly view for any activity
+- Shareable links to a single activity (`#activity-<id>`) and to a search (`?q=`)
 - Fully static - no backend, no build step
+
+Mess, cost, indoors/outdoors and calm/active come from the activity when it sets `mess`, `cost`, `setting` (`indoor`/`outdoor`) or `energy` (`calm`/`active`), and are estimated from its supplies, title and category otherwise. Set the field explicitly to correct a wrong estimate.
 
 ## Structure
 

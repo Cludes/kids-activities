@@ -1444,36 +1444,6 @@ const ACTIVITIES = [
     "tips": "Soak seeds overnight before starting for faster germination. Bean seeds sprout in 5-7 days. Rotate the jar once roots appear to show children that roots always find their way downward regardless of orientation."
   },
   {
-    "id": 46,
-    "title": "Egg Drop Challenge",
-    "category": "science",
-    "emoji": "🥚",
-    "ages": "7–12",
-    "time": "1 hr",
-    "difficulty": "hard",
-    "supplies": [
-      "1 raw egg per team",
-      "Straws, tape, rubber bands, bubble wrap, cotton balls, plastic bags, popsicle sticks",
-      "A high-up drop point (upper floor window or deck)"
-    ],
-    "description": "Build a structure to protect an egg from a high drop  - only the structure can break.",
-    "steps": [
-      "Frame the challenge properly: each team receives 1 raw egg. The egg must survive a drop from a specified height (start with 2 metres; increase if all eggs survive). The only materials allowed are those in the kit - no additional items from elsewhere.",
-      "Distribute the materials kit equally: each team gets the same amount of each material (e.g., 10 straws, 30cm of tape, 1 rubber band, a small square of bubble wrap, 5 cotton balls, 1 plastic bag). Equal materials make the competition fair and the engineering comparison meaningful.",
-      "Allow 30 minutes of design and build time. Encourage teams to sketch their design on paper first before building. Ask: how will you cushion the egg? How will you slow the fall? How will you keep the egg from shattering on impact?",
-      "Discuss engineering approaches without prescribing solutions: crumple zones (materials that absorb impact by deforming), suspension (egg hung in the centre away from the outer walls), drag (parachute effect slows descent), and padding (soft materials cushion impact).",
-      "Build in silence or with discussion - either way, the problem-solving process is rich. Observe which teams focus on cushioning vs. structure vs. aerodynamics.",
-      "After building, each team presents their design: explain the concept, describe what each component does, and make a prediction about whether it will survive.",
-      "Drop from the agreed height one at a time. Drop straight down (not thrown). Have someone below with a camera to photograph the landing.",
-      "Check for cracks or breaks immediately after each drop. A cracked egg is a partial failure; a broken and leaking egg is a full failure; an intact egg is a success.",
-      "Award points: 3 points for surviving the drop, 2 bonus points for the lightest design, 1 bonus point for the most creative design. Use a kitchen scale to weigh each structure (minus the egg).",
-      "For surviving designs: increase the drop height and drop again. Keep increasing until all surviving eggs have broken. The design that survives the highest drop wins.",
-      "Debrief the engineering lessons: what worked? What failed? Show photos of real egg drop competition designs. Explain how car crumple zones, airbags, and bicycle helmets use the same principles - absorbing and redirecting impact energy.",
-      "Iteration round: allow teams 10 minutes to rebuild using only the materials remaining after their first build. Watch how quickly designs improve with the knowledge of what failed."
-    ],
-    "tips": "Start from a lower height and increase. This teaches iteration - fix what failed and try again. The most successful designs usually have multiple layers of protection and a suspended egg rather than a padded egg."
-  },
-  {
     "id": 47,
     "title": "Treasure Hunt with Clues",
     "category": "games",
@@ -1711,36 +1681,6 @@ const ACTIVITIES = [
       "Play multiple rounds: everyone writes a new starting phrase and the stacks begin again. The game gets funnier with each round as players improve at both drawing and interpreting terrible drawings."
     ],
     "tips": "The more players the better - 6+ produces the funniest chains. Encourage very specific starting phrases. Works brilliantly for family gatherings."
-  },
-  {
-    "id": 55,
-    "title": "Balloon Tennis",
-    "category": "games",
-    "emoji": "🎾",
-    "ages": "3–8",
-    "time": "20 min",
-    "difficulty": "easy",
-    "supplies": [
-      "Balloons",
-      "Paper plates on sticks (or just hands)",
-      "A 'net' made from string or tape on the floor"
-    ],
-    "description": "Hit a balloon back and forth over an imaginary net  - keep it in the air as long as possible.",
-    "steps": [
-      "Inflate 3-4 balloons - slightly underinflated balloons are easier to control and less likely to pop. Have spare uninflated balloons ready for replacements.",
-      "Make rackets from paper plates: tape a wide popsicle stick, ruler, or thick cardboard strip to the back of a paper plate as the handle. Test that the handle is firmly attached before play begins.",
-      "Set up the court: stretch a piece of string low between two chairs as the net, or simply mark a centre line across the floor with tape. The net should be at child shoulder height or lower.",
-      "Introduce basic balloon tennis rules: hit the balloon over the net to the other side, not letting it touch the floor on your side. One hit per side before it must go over.",
-      "Cooperative mode (best for under-6s and mixed ages): both players work together to see how many consecutive hits they can make without the balloon touching the floor. Count out loud together. Celebrate new records.",
-      "Competitive mode (for older children): standard tennis scoring, or simply count the point when the balloon hits the floor on the opponent's side. First to 10 points wins.",
-      "Serve rotation: the player who lost the last point serves the next one by dropping the balloon from shoulder height and hitting it upward over the net.",
-      "Two-balloon challenge: introduce a second balloon and both players must keep both in the air simultaneously. This requires frantic movement and creates immediate chaos.",
-      "Slow-motion round: everyone must move in slow motion. Balloon tennis in slow motion becomes unexpectedly serene and funny as balloons drift while players lunge gracefully.",
-      "Create a tournament bracket for multiple players: each match is 5 points, rotate opponents, keep track of wins. The undefeated player wins.",
-      "No-hands round: players can only hit the balloon with their head, elbows, or knees. This forces creativity and produces spectacular moments of athletic commitment.",
-      "Cool down: end with one final cooperative round where everyone tries to achieve the highest rally count. Write the record on a piece of paper and keep it to beat next time."
-    ],
-    "tips": "Slightly underinflated balloons are easier to control and more forgiving. Try keeping two balloons in the air at once - it immediately becomes a completely different challenge."
   },
   {
     "id": 56,
@@ -7489,7 +7429,8 @@ const ACTIVITIES = [
       "Store correctly: seal in an airtight container. When it dries out, add a few drops of water and knead it back to the right consistency. Lasts several weeks with proper storage.",
       "Connect to material science: kinetic sand is a non-Newtonian material - it behaves differently under different amounts of force. Under gentle flow it acts like a liquid; under pressure it acts like a solid. Other non-Newtonian materials include cornflour slime, blood, and ketchup."
     ],
-    "tips": "The right consistency is the key: slightly less water than you think is needed. Too wet and it just becomes wet sand; too dry and it won't mould. The dish soap is what gives it the slightly cohesive, slow-flowing quality. Fine-grained sand gives a smoother result than coarser grades."
+    "tips": "The right consistency is the key: slightly less water than you think is needed. Too wet and it just becomes wet sand; too dry and it won't mould. The dish soap is what gives it the slightly cohesive, slow-flowing quality. Fine-grained sand gives a smoother result than coarser grades.",
+    "setting": "indoor"
   },
   {
     "id": 249,
@@ -8962,39 +8903,6 @@ const ACTIVITIES = [
     "tips": "The iNaturalist app is free, accurate, and also submits your sighting to a global biodiversity database - so your walk contributes to real science."
   },
   {
-    "id": 297,
-    "title": "Red Cabbage pH Indicator",
-    "category": "science",
-    "emoji": "🧪",
-    "ages": "6-12",
-    "time": "30 min",
-    "difficulty": "easy",
-    "supplies": [
-      "Half a red cabbage",
-      "Water",
-      "A blender or saucepan",
-      "Strainer",
-      "Several small clear cups",
-      "Household liquids to test: lemon juice, vinegar, bicarbonate of soda solution, milk, washing soda, tap water"
-    ],
-    "description": "Make a natural pH indicator from red cabbage juice that turns pink in acids and green in alkalis.",
-    "steps": [
-      "Introduce pH science: pH measures how acidic or alkaline a substance is on a scale from 0 to 14. pH 7 is neutral (pure water). Below 7 is acidic (lemon juice is about pH 2). Above 7 is alkaline (bicarbonate of soda solution is about pH 9). Red cabbage contains a pigment called anthocyanin that changes colour depending on pH.",
-      "Gather materials: half a red cabbage, water, a blender or saucepan, a strainer, several small clear cups, and household liquids to test: lemon juice, white vinegar, tap water, bicarbonate of soda dissolved in water, milk, and washing soda.",
-      "Prepare the indicator: option A (blender) - blend roughly chopped red cabbage with about 250ml cold water. Strain through a fine mesh strainer. Option B (stovetop) - simmer chopped cabbage in water for 10 minutes and strain. The liquid should be deep purple.",
-      "Predict the results: before testing, ask everyone to predict whether each liquid is acidic, neutral, or alkaline. Write predictions down. This creates the hypothesis to test.",
-      "Set up test cups: pour approximately 30ml of the purple cabbage juice into each separate clear cup. Label each cup with the name of the liquid to be tested.",
-      "Test each liquid: add a small amount (about 1 teaspoon) of each test liquid to its labelled cup. Observe the colour change immediately.",
-      "Record the colour changes: strong acids (lemon juice, vinegar) turn the indicator bright pink or red. Weak acids (milk) produce a slight pink tinge. Neutral (water) stays purple. Weak alkalis turn it blue-green. Strong alkalis (washing soda) turn it yellow-green.",
-      "Rank by pH: arrange the cups in order from most pink to most yellow-green. This is the pH scale represented visually.",
-      "Mix acid and alkali: take the most pink cup (acid) and add a small amount of the most yellow-green liquid (alkali). The colour moves back toward purple - a neutralisation reaction.",
-      "Connect to everyday science: discuss why some household cleaners must not be mixed. Strong acids and strong alkalis react violently when combined. The colour change in the experiment is safe but demonstrates the same chemistry.",
-      "Test more household liquids: apple juice, orange juice, soap solution, toothpaste dissolved in water, and sparkling water all produce interesting results.",
-      "Connect to biology: explain that our stomach contains hydrochloric acid (pH 1-2) to digest food. Our blood must stay between pH 7.35 and 7.45 to sustain life - the body works continuously to maintain this narrow range."
-    ],
-    "tips": "The more concentrated the acid or alkali, the more dramatic the colour change. Lemon juice turns it bright pink almost immediately. Baking soda solution turns it blue-green."
-  },
-  {
     "id": 298,
     "title": "Penny Surface Tension",
     "category": "science",
@@ -9214,36 +9122,6 @@ const ACTIVITIES = [
     "tips": "Let children take turns being the caller - reading the word aloud gives them double the practice. Keep word lists matched to their exact reading level to avoid frustration."
   },
   {
-    "id": 305,
-    "title": "Estimation Station",
-    "category": "learning",
-    "emoji": "🔢",
-    "ages": "4-9",
-    "time": "20 min",
-    "difficulty": "easy",
-    "supplies": [
-      "Several clear jars or containers",
-      "Small objects to fill them: marbles, buttons, dried beans, pennies, lollies",
-      "Paper and pencil for recording guesses"
-    ],
-    "description": "Fill jars with different objects and guess how many are inside before counting - builds number sense and reasoning.",
-    "steps": [
-      "Introduce estimation: estimation is a mathematical skill used constantly in daily life - roughly how long will this take, about how much will this cost, approximately how many are there. Good estimators use reference points, visible patterns, and proportional thinking rather than random guessing.",
-      "Gather materials: 4-6 clear glass jars or containers, and a variety of small objects to fill them: dried beans, marbles, coins, buttons, pasta pieces, small sweets, or pebbles. Fill each jar with a different object in a different quantity.",
-      "Set up the station: place the jars in a row, labelled Jar A, Jar B, Jar C etc. Provide notebooks and pencils for everyone.",
-      "Introduce estimation strategies before guessing: teach three strategies explicitly. Strategy 1 (Layer counting): count objects visible in one layer and estimate how many layers there are, then multiply. Strategy 2 (Section counting): count objects in one visible section (e.g. the front quarter) and multiply by 4. Strategy 3 (Reference comparison): estimate what proportion of the jar is full and use a known reference number.",
-      "Record predictions: everyone writes their estimate for each jar using at least one named strategy. Requiring a strategy prevents random number guessing.",
-      "Reveal the actual counts: count each jar together - tip the contents out and count carefully, grouping in 10s for easier counting. Record the actual number next to each estimate.",
-      "Calculate accuracy: for each estimate, calculate how far off it was in absolute terms and as a percentage. An estimate of 45 when the answer is 50 is 10% off - a very good estimate.",
-      "Discuss the strategies: which strategy worked best for each jar? Layer counting works well for regular objects in round jars. Section counting works well for flat-sided jars.",
-      "Rotate the challenge: each person gets to fill one jar with any quantity of any household object, then the others estimate. This reverses the challenge - they must think about what makes a jar easy or hard to estimate.",
-      "Make it harder: use an irregular container (a mixing bowl, a mug, a vase) rather than a regular cylinder. Irregular shapes make proportional estimation much more difficult.",
-      "Connect to real mathematics: estimation underpins engineering, science, and economics. Architects estimate material quantities, scientists estimate populations, economists estimate market sizes. It is never a lesser version of exact calculation.",
-      "Reflect on improvement: discuss whether the second round of estimates was better than the first. With practice and explicit strategy use, estimation accuracy genuinely and measurably improves."
-    ],
-    "tips": "Ask children to explain their reasoning, not just their guess. 'I counted about 10 in the bottom layer and there are about 5 layers so I guessed 50' is excellent mathematical thinking."
-  },
-  {
     "id": 306,
     "title": "Spoons",
     "category": "games",
@@ -9271,34 +9149,6 @@ const ACTIVITIES = [
       "Reflect on strategy: discuss how peripheral vision for spoon-grabbing is as important as hand strategy. Some players deliberately pretend to reach for a spoon to trigger a false rush - discuss whether this is within the spirit of the rules."
     ],
     "tips": "The chaos builds beautifully as cards move faster and faster. The player who notices the spoon being taken first - even without four of a kind - has the advantage."
-  },
-  {
-    "id": 307,
-    "title": "Wink Murder",
-    "category": "games",
-    "emoji": "😉",
-    "ages": "6-12",
-    "time": "20 min",
-    "difficulty": "easy",
-    "supplies": [
-      "Playing cards or slips of paper - one marked as detective, one as murderer"
-    ],
-    "description": "A secret murderer winks players out of the game while a detective tries to catch them before everyone is gone.",
-    "steps": [
-      "Introduce Wink Murder: Wink Murder (also called Killer or Murder Wink) is a social deduction game that develops peripheral vision, acting ability, and deductive reasoning. It can be played anywhere with no equipment - just a deck of cards and a group of players.",
-      "Assign roles: shuffle playing cards so there is one designated murderer card (e.g. the Ace), one detective card (e.g. the King), and innocent civilian cards for all other players. The number of murderers and detectives can be adjusted for larger groups.",
-      "Deal cards secretly: each player receives one card face-down and looks at it privately without revealing their role. Players should keep their card hidden throughout the game.",
-      "The detective declares: the player holding the Detective card announces their role. Everyone else keeps their role completely secret, including the murderer.",
-      "Play begins: all players make eye contact with each other, move around the space, or sit in a circle maintaining casual conversation. Normal social interaction continues throughout the game.",
-      "The murderer winks: the murderer selects victims one at a time by making deliberate eye contact and winking at them. The wink must be discreet - a quick, deliberate blink directed at one person.",
-      "Victims die dramatically: if a player is winked at, they must continue acting normally for a slow count of five (to avoid immediately revealing the murderer's location), then act out a dramatic, theatrical death and sit out of the round.",
-      "The detective watches: the detective observes all players, watches who makes eye contact with whom, and notices who is near a player just before they die.",
-      "The detective guesses: at any point, the detective can make a formal accusation by pointing and saying the player's name. They have a maximum of three guesses. If correct, the detective wins. If all three guesses are wrong, the murderer wins.",
-      "Victory conditions: the murderer wins if they eliminate all civilians before the detective identifies them. The detective wins by correctly naming the murderer while civilians still survive.",
-      "Rotate roles: deal new cards each round so everyone gets to try different roles. The murderer and detective are the most coveted positions.",
-      "Discuss strategy: after each round, discuss what gave the murderer away. Advanced murderers look at the detective while winking at someone else, or wink at someone to the detective's side to draw suspicion elsewhere."
-    ],
-    "tips": "The murderer needs to wink when the detective is not looking. Looking at the detective while winking at someone else is a classic advanced move."
   },
   {
     "id": 308,
@@ -9678,7 +9528,8 @@ const ACTIVITIES = [
       "Seal for outdoor durability: if the pot will live outside, apply two coats of outdoor spray sealer or Mod Podge Outdoor once the paint is fully dry. This prevents rain from washing the paint off.",
       "Plant and give as a gift: fill the pot with potting mix and plant a small herb, succulent, or seedling. A pot character with a living plant inside makes a memorable, personal handmade gift."
     ],
-    "tips": "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed."
+    "tips": "These make brilliant gifts - add a small packet of seeds or a seedling tied with ribbon. Acrylic paint sticks directly to terracotta without any primer needed.",
+    "setting": "indoor"
   },
   {
     "id": 320,
@@ -15648,40 +15499,6 @@ const ACTIVITIES = [
     "tips": "Zinc nails from a hardware store work best. Galvanised screws (coated in zinc) also work. If the LED does not light, make sure it is the right way around - LEDs only work in one direction."
   },
   {
-    "id": 473,
-    "title": "Build a Periscope",
-    "category": "stem",
-    "emoji": "🔭",
-    "ages": "8-13",
-    "time": "45-60 min",
-    "difficulty": "medium",
-    "supplies": [
-      "Long cardboard tube (from cling film or foil) OR cereal box",
-      "2 small mirrors or mirror card cut to size",
-      "Scissors or craft knife (adult)",
-      "Ruler",
-      "Pencil",
-      "Tape",
-      "Black paint (optional)"
-    ],
-    "description": "Build a working periscope using mirrors and understand how light bounces at angles. Used by submarines and soldiers, a periscope lets you see around corners or over obstacles.",
-    "steps": [
-      "Explain how a periscope works: light from an object hits the top mirror at a 45-degree angle and reflects downward. It hits the bottom mirror (also at 45 degrees) and reflects into your eye. You see around an obstacle without being seen.",
-      "If using a cereal box, tape two boxes end-to-end for length. If using a cardboard tube, it is already the right shape.",
-      "At the top of the tube, use a ruler and pencil to mark a square hole on the front face, positioned 45 degrees from the top opening. This is where the top mirror will sit and where light enters.",
-      "At the bottom of the tube, mark an identical square hole on the opposite face, also at 45 degrees. An adult uses scissors or a craft knife to cut both holes.",
-      "Cut two pieces of mirror card (or small mirrors) to fit inside the tube at a 45-degree angle. The mirror at the top should face downward toward the bottom. The mirror at the bottom should face upward toward your eye.",
-      "Slide the top mirror in through the top opening and position it at exactly 45 degrees facing toward the lower hole. Secure with tape on the outside edges.",
-      "Repeat for the bottom mirror, angling it at 45 degrees to reflect toward your eye.",
-      "Look through the bottom eye hole. You should be able to see whatever is above the top of the tube. Adjust mirror angles if the image is unclear.",
-      "Paint the outside of the periscope black or camouflage it for a spy-theme effect.",
-      "Test it: use the periscope to look over a wall, around a corner, or under a table. Ask: what would change if the mirrors were at 30 degrees instead of 45? Why does 45 degrees work so precisely?",
-      "Calculate the light path: light hits the top mirror at 45 degrees and reflects downward. It travels the full length of the tube and hits the bottom mirror at 45 degrees, reflecting into your eye. Draw this path on paper - how far does light actually travel compared to the straight-line distance between your eye and the object?",
-      "Research real periscope history: periscopes were critical technology in World War I submarines, allowing commanders to observe the surface while keeping the vessel submerged. Modern submarines use electronic cameras instead of optical periscopes, but the physics principle is unchanged. The periscope is one of the most elegant applications of the law of reflection."
-    ],
-    "tips": "Mirror card from a craft shop is safer and easier to cut than glass mirrors. The most common mistake is not getting both mirrors at exactly 45 degrees - even small deviations blur the image significantly."
-  },
-  {
     "id": 474,
     "title": "Paper Tower Tallest Tower Challenge",
     "category": "stem",
@@ -15743,39 +15560,6 @@ const ACTIVITIES = [
       "Navigate using your compass: use the DIY compass and a simple sketch map of your garden or home to complete a short navigation exercise. Start at a fixed point, walk 10 paces north, 5 paces east, 10 paces south, 5 paces west. Do you end up where you started? This is the same orienteering principle used by explorers and hikers."
     ],
     "tips": "Tap water works better than carbonated water because bubbles can affect the needle's floating position. If the needle sinks, the leaf or cork is too small - use a bigger piece."
-  },
-  {
-    "id": 476,
-    "title": "Sensory Rice Bin",
-    "category": "toddler",
-    "emoji": "🌾",
-    "ages": "1-4",
-    "time": "15-30 min",
-    "difficulty": "easy",
-    "supplies": [
-      "2-3 cups uncooked white rice",
-      "Food colouring (optional)",
-      "Zip-lock bag",
-      "A large plastic tub or bin",
-      "Small cups, spoons, and scoops",
-      "Small toy animals or vehicles (optional)"
-    ],
-    "description": "A calming sensory bin filled with coloured rice that children can scoop, pour, bury, and explore. Brilliant for fine motor development, sensory regulation, and independent play.",
-    "steps": [
-      "Set up the area: place a large plastic storage tub on the floor on top of a towel or bin liner. Any rice that spills goes onto the liner for easy cleanup.",
-      "Optional: colour the rice in advance. Place 1 cup of rice in a zip-lock bag, add 1 tablespoon of white vinegar and 10 drops of food colouring, seal the bag, and shake vigorously until colour is distributed. Spread on a baking tray to air dry for 2 hours. Make several colours and mix them together.",
-      "Add all the rice to the tub - a depth of about 8-10cm works well. It should feel satisfying to plunge a hand into.",
-      "Add tools: small plastic cups, a teaspoon, a tablespoon, a small funnel, and a miniature plastic jug for pouring. Add small toy animals or dinosaurs buried under the surface for discovery.",
-      "Sit your toddler at the tub or let them stand at it. Show them how to push both hands into the rice and pull them out slowly. Describe the sensation: 'It feels cold, smooth, and a little like sand.'",
-      "Demonstrate scooping with the spoon and pouring into a cup. Then let them take over completely.",
-      "Talk through what they are doing: 'You filled the cup all the way to the top! Now you are pouring it back out. Which cup holds more - the big one or the little one?'",
-      "If you buried toys, let the child discover them by raking through the rice. Name each toy as it appears.",
-      "After 15-20 minutes of free play, introduce a simple challenge: can they fill the big jug using only the small spoon? This takes focus and builds patience.",
-      "Cleanup: use the dustpan and brush to scoop spilled rice back into the tub. Store the coloured rice in an airtight container for next time - it lasts for months.",
-      "Add a measurement extension: introduce measuring cups and ask the child to fill the small cup, then pour it into the big cup. How many small cups fill the big cup? This introduces the concept of volume measurement through direct sensory experience - the same concept that underpins cooking, science, and engineering.",
-      "Create themed bin variations for future play: transform the same rice bin with different additions each time. Dinosaur dig (bury plastic dinosaurs and toy trees). Beach scene (add shells and toy sea creatures). Farm (add hay, animal figures, and stones). The sensory material stays the same; the imaginative context changes the play completely."
-    ],
-    "tips": "If a child tries to eat the rice, switch to kinetic sand or dried pasta instead - larger shapes are safer. Store the bin covered with a cloth to keep it ready for whenever needed."
   },
   {
     "id": 477,
@@ -16069,77 +15853,6 @@ const ACTIVITIES = [
     "tips": "Jointed puppets (made with paper fasteners at the knees and elbows) can be animated more expressively. Cut separate arm pieces and join them to the body for a puppet that waves and gestures."
   },
   {
-    "id": 486,
-    "title": "Salt Dough Christmas Ornaments",
-    "category": "holiday",
-    "emoji": "🎄",
-    "ages": "4-12",
-    "time": "45 min + drying",
-    "difficulty": "easy",
-    "supplies": [
-      "1 cup plain flour",
-      "Half cup table salt",
-      "Half cup water",
-      "Cookie cutters",
-      "Drinking straw",
-      "Rolling pin",
-      "Acrylic paint",
-      "Varnish or mod podge",
-      "Ribbon"
-    ],
-    "description": "Mix a simple salt dough, cut into festive shapes, bake until hard, and paint into beautiful Christmas tree ornaments. A tradition that lasts for years and costs almost nothing.",
-    "steps": [
-      "Mix the dough: combine 1 cup of plain flour with half a cup of table salt in a bowl. Add water a little at a time, mixing with a fork, then with your hands, until a smooth dough forms. It should not be sticky - add a little more flour if it is.",
-      "Dust the table with a little flour and roll the dough out to about 5mm thick using a rolling pin. Thicker dough takes longer to dry but is sturdier.",
-      "Press cookie cutters firmly into the dough and lift each shape out carefully. Stars, Christmas trees, gingerbread people, snowflakes, and bells all work beautifully.",
-      "Before baking, use a drinking straw to push a small hole near the top of each ornament. This is where the ribbon will thread through for hanging. Make the hole slightly larger than you think you need - it shrinks as the dough dries.",
-      "Place ornaments on a baking tray lined with foil. Bake at 120 degrees C (fan 100) for 2-3 hours until completely hard all the way through. Check every 30 minutes. They should sound hollow when tapped.",
-      "Remove from the oven and leave to cool completely on a wire rack - at least 1 hour.",
-      "Paint the base coat first: white, cream, or a bright colour. Let this dry fully before adding detail.",
-      "Add details with fine brushes: patterns, names, the year, small Christmas scenes. Younger children can paint freely in whatever patterns they like.",
-      "Once paint is dry, brush a coat of varnish or Mod Podge over the entire ornament to seal and protect it. This also adds a beautiful sheen.",
-      "Thread a piece of ribbon through the hole and tie a hanging loop. These ornaments last for many years if stored carefully - they become more sentimental each Christmas.",
-      "Create a story-box for the ornaments: as you pack them away after Christmas, write a short note for each one - who made it, how old they were, what they remember about making it. Store the notes in an envelope inside the decoration box. When you unpack them the following December, reading the notes is like opening a time capsule.",
-      "Explore the chemistry of baking: the salt dough hardens because heat drives out water molecules and causes the starch in the flour to set permanently. This is similar to the chemistry of baking bread. Ask: what would happen if you put the raw dough in the freezer instead of the oven? Why does heat harden it but cold does not?"
-    ],
-    "tips": "Press a handprint into the dough before cutting around it for the most treasured ornaments. Write the child's name and age on the back while the dough is still soft."
-  },
-  {
-    "id": 487,
-    "title": "Valentine's Day Cards",
-    "category": "holiday",
-    "emoji": "💌",
-    "ages": "4-12",
-    "time": "30-45 min",
-    "difficulty": "easy",
-    "supplies": [
-      "Red and pink card or paper",
-      "Scissors",
-      "White wax crayon or candle",
-      "Watercolour paints",
-      "Markers",
-      "Glitter glue (optional)",
-      "Stickers",
-      "Envelopes"
-    ],
-    "description": "Make handmade Valentine's Day cards using secret wax resist painting, torn paper hearts, and personalised messages. Far more meaningful than shop-bought cards.",
-    "steps": [
-      "Fold a sheet of red or pink card in half to form the card base. Run your fingernail firmly along the fold to make a crisp crease.",
-      "Technique 1 - Wax Resist: take a white wax crayon or the side of a candle and draw hearts, stars, and messages on the front of the card. Press firmly. The marks are nearly invisible at this stage.",
-      "Brush a wash of watercolour paint in red or pink over the wax-drawn area. The paint beads off the waxy marks and the hidden design is revealed like magic. Let dry for 10 minutes.",
-      "Technique 2 - Torn Paper Heart: fold a separate piece of red paper in half. Without scissors, slowly tear a heart shape starting at the fold. Tearing creates a softer, more natural edge than cutting.",
-      "Glue the torn heart onto the front of the card slightly off-centre for an artistic look. Press firmly for 30 seconds.",
-      "Add texture: squeeze small dots of glitter glue around the heart border or along the edges of the card. Let dry fully before closing the card (at least 20 minutes for glitter glue).",
-      "Inside the card, write a personal message. Help younger children decide what they want to say: 'What is your favourite thing about this person? What do you want them to know?'",
-      "Decorate around the text with small drawings - their favourite things about that person, a self-portrait, or their handprint.",
-      "Sign and date the inside. Even young children can write their name with support.",
-      "Make envelopes by folding a piece of paper around the card in an envelope shape, taping the sides, and decorating the outside with the recipient's name.",
-      "Discuss what makes a great message: a generic 'I love you' is less meaningful than a specific one. Help children write something personal: 'I love when you read to me', 'You make the best food', 'I feel safe when you are there'. Specific observations are the most powerful form of written affection at any age.",
-      "Create a card archive: photograph both the front and inside of each card before sending it. Keep a digital folder of cards made each year. Over time this becomes a beautiful record of the child's developing writing, drawing, and emotional intelligence - the improvement from year to year is striking."
-    ],
-    "tips": "The wax resist technique produces the most impressive result with the least skill required - even 3-year-olds can make a beautiful card using it. Making 5-6 cards in one session covers grandparents, teachers, and friends."
-  },
-  {
     "id": 488,
     "title": "Halloween Spooky Lanterns",
     "category": "holiday",
@@ -16205,7 +15918,8 @@ const ACTIVITIES = [
       "Research the psychology of gratitude: scientists have found that regularly writing down things you are grateful for increases happiness, reduces stress, and improves sleep. Ask each family member: was it easy or hard to think of things to be grateful for? What surprised them about what they wrote? How do they feel after adding leaves compared to before?",
       "Extend the practice beyond Thanksgiving: after the tree comes down, keep a small family gratitude notebook going for the rest of the year. One entry per week, one thing per person. Read it together on the following Thanksgiving as a way to open the new gratitude tree session."
     ],
-    "tips": "Spray the branch lightly gold or copper with spray paint for a more decorative look. Make this an annual tradition - the gratitude tree makes a bigger impression each year as children grow."
+    "tips": "Spray the branch lightly gold or copper with spray paint for a more decorative look. Make this an annual tradition - the gratitude tree makes a bigger impression each year as children grow.",
+    "setting": "indoor"
   },
   {
     "id": 490,
