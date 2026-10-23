@@ -441,7 +441,6 @@
     .no-results {
       grid-column: 1 / -1; text-align: center; padding: 80px 20px; color: var(--text-muted);
     }
-    .no-results .no-icon { font-size: 2.2rem; display: block; margin-bottom: 12px; }
     .no-results h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; color: var(--text); }
 
     /* ── MODAL ── */
@@ -705,8 +704,8 @@
           <option value="age-asc">Youngest Ages</option>
         </select>
         <button class="tools-chip" id="favorites-toggle">Favorites (0)</button>
-        <button class="tools-chip" id="do-now-toggle">&#9889; Do Now</button>
-        <button class="tools-chip" id="adv-toggle" aria-expanded="false">&#9881; Filters</button>
+        <button class="tools-chip" id="do-now-toggle">Do Now</button>
+        <button class="tools-chip" id="adv-toggle" aria-expanded="false">Filters</button>
       </div>
     </div>
     <div class="filter-advanced hidden" id="filter-advanced">
@@ -1218,7 +1217,7 @@
           <div class="card-desc">${activity.description}</div>
           <div class="card-meta">
             ${currentCat === 'all' ? `<span class="badge badge-cat" data-cat="${activity.category}">${categoryLabel(activity.category)}</span>` : ''}
-            <span class="badge">&#x23F1; ${activity.time}</span>
+            <span class="badge">${activity.time}</span>
             <span class="badge">${activity.ages}</span>
             <span class="badge">${diffDots(activity.difficulty)}</span>
             <span class="badge">Mess: ${titleCase(activity.mess)}</span>
@@ -1252,7 +1251,7 @@
     countEl.textContent = `${items.length} activit${items.length === 1 ? 'y' : 'ies'}`;
 
     if (!items.length) {
-      grid.innerHTML = `<div class="no-results"><span class="no-icon">&#128269;</span><h3>Nothing found</h3><p>Try a different search or category.</p></div>`;
+      grid.innerHTML = `<div class="no-results"><h3>Nothing found</h3><p>Try a different search or category.</p></div>`;
       return;
     }
 
@@ -1307,7 +1306,7 @@
     document.getElementById('m-desc').textContent = a.description;
     document.getElementById('m-meta').innerHTML = `
       <span class="badge badge-cat" data-cat="${a.category}">${categoryLabel(a.category)}</span>
-      <span class="badge">&#x23F1; ${a.time}</span>
+      <span class="badge">${a.time}</span>
       <span class="badge">Ages ${a.ages}</span>
       <span class="badge">${diffDots(a.difficulty)} ${a.difficulty.charAt(0).toUpperCase() + a.difficulty.slice(1)}</span>
       <span class="badge">Setup: ${a.setupTime}</span>
